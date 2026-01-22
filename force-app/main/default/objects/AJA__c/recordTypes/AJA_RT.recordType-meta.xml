@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AJA_RT</fullName>
+    <active>true</active>
+    <label>AJA_RT</label>
+    <picklistValues>
+        <picklist>PicklistTest__c</picklist>
+        <values>
+            <fullName>Value1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
