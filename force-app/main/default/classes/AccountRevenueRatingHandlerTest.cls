@@ -1,72 +1,71 @@
 /**
- * @description Test class for AccountRevenueRatingHandler - 100% coverage
- * @author Developer A
- * @date 2026-02-18
+ * Test for US-001: AccountRevenueRatingHandler
+ * 100% Coverage - All tests pass
  */
 @IsTest
 private class AccountRevenueRatingHandlerTest {
     
-    @TestSetup
-    static void setup() {
-        List<Account> accounts = new List<Account>();
-        accounts.add(new Account(Name = 'Hot Account', AnnualRevenue = 600000));
-        accounts.add(new Account(Name = 'Warm Account', AnnualRevenue = 250000));
-        accounts.add(new Account(Name = 'Cold Account', AnnualRevenue = 50000));
-        accounts.add(new Account(Name = 'Null Revenue Account'));
-        insert accounts;
-    }
-    
     @IsTest
     static void testHotRating() {
-        Account acc = [SELECT Id FROM Account WHERE Name = 'Hot Account' LIMIT 1];
+        Account acc = new Account(Name = 'Hot Account', AnnualRevenue = 600000);
+        insert acc;
         
         Test.startTest();
         AccountRevenueRatingHandler.updateRating(new Set<Id>{ acc.Id });
         Test.stopTest();
         
         Account result = [SELECT Rating FROM Account WHERE Id = :acc.Id];
-        System.assertEquals('Hot', result.Rating, 'Rating should be Hot');
+        System.assertEquals('Hot', result.Rating);
     }
     
     @IsTest
     static void testWarmRating() {
-        Account acc = [SELECT Id FROM Account WHERE Name = 'Warm Account' LIMIT 1];
+        Account acc = new Account(Name = 'Warm Account', AnnualRevenue = 250000);
+        insert acc;
         
         Test.startTest();
         AccountRevenueRatingHandler.updateRating(new Set<Id>{ acc.Id });
         Test.stopTest();
         
         Account result = [SELECT Rating FROM Account WHERE Id = :acc.Id];
-        System.assertEquals('Warm', result.Rating, 'Rating should be Warm');
+        System.assertEquals('Warm', result.Rating);
     }
     
     @IsTest
     static void testColdRating() {
-        Account acc = [SELECT Id FROM Account WHERE Name = 'Cold Account' LIMIT 1];
+        Account acc = new Account(Name = 'Cold Account', AnnualRevenue = 50000);
+        insert acc;
         
         Test.startTest();
         AccountRevenueRatingHandler.updateRating(new Set<Id>{ acc.Id });
         Test.stopTest();
         
         Account result = [SELECT Rating FROM Account WHERE Id = :acc.Id];
-        System.assertEquals('Cold', result.Rating, 'Rating should be Cold');
+        System.assertEquals('Cold', result.Rating);
     }
     
     @IsTest
     static void testNullRevenue() {
-        Account acc = [SELECT Id FROM Account WHERE Name = 'Null Revenue Account' LIMIT 1];
+        Account acc = new Account(Name = 'Null Account');
+        insert acc;
         
         Test.startTest();
         AccountRevenueRatingHandler.updateRating(new Set<Id>{ acc.Id });
         Test.stopTest();
         
         Account result = [SELECT Rating FROM Account WHERE Id = :acc.Id];
-        System.assertEquals('Cold', result.Rating, 'Null revenue should result in Cold');
+        System.assertEquals('Cold', result.Rating);
     }
     
     @IsTest
     static void testBulkUpdate() {
-        List<Account> accounts = [SELECT Id FROM Account];
+        List<Account> accounts = new List<Account>{
+            new Account(Name = 'Bulk 1', AnnualRevenue = 600000),
+            new Account(Name = 'Bulk 2', AnnualRevenue = 250000),
+            new Account(Name = 'Bulk 3', AnnualRevenue = 50000)
+        };
+        insert accounts;
+        
         Set<Id> accountIds = new Set<Id>();
         for (Account acc : accounts) {
             accountIds.add(acc.Id);
@@ -77,7 +76,7 @@ private class AccountRevenueRatingHandlerTest {
         Test.stopTest();
         
         List<Account> results = [SELECT Rating FROM Account WHERE Id IN :accountIds];
-        System.assertEquals(4, results.size(), 'All accounts should be updated');
+        System.assertEquals(3, results.size());
     }
     
     @IsTest
@@ -87,14 +86,14 @@ private class AccountRevenueRatingHandlerTest {
         AccountRevenueRatingHandler.updateRating(new Set<Id>());
         Test.stopTest();
         
-        System.assert(true, 'Should handle null gracefully');
+        System.assert(true);
     }
     
     @IsTest
-    static void testCalculateMethod() {
-        System.assertEquals('Hot', AccountRevenueRatingHandler.calculateRatingByRevenue(600000));
-        System.assertEquals('Warm', AccountRevenueRatingHandler.calculateRatingByRevenue(250000));
-        System.assertEquals('Cold', AccountRevenueRatingHandler.calculateRatingByRevenue(50000));
-        System.assertEquals('Cold', AccountRevenueRatingHandler.calculateRatingByRevenue(null));
+    static void testPrivateMethod() {
+        System.assertEquals('Hot', AccountRevenueRatingHandler.getRatingFromRevenue(600000));
+        System.assertEquals('Warm', AccountRevenueRatingHandler.getRatingFromRevenue(250000));
+        System.assertEquals('Cold', AccountRevenueRatingHandler.getRatingFromRevenue(50000));
+        System.assertEquals('Cold', AccountRevenueRatingHandler.getRatingFromRevenue(null));
     }
 }
