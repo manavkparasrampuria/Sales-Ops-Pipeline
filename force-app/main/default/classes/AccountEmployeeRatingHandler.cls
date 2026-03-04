@@ -25,7 +25,7 @@ public with sharing class AccountEmployeeRatingHandler {
     private static String getRatingFromEmployees(Integer employees) {
         if (employees == null || employees < 60) {
             return 'Cold';
-        } else if (employees >= 200) {
+        } else if (employees >= 250) {
             return 'Hot';
         } else {
             return 'Warm';
