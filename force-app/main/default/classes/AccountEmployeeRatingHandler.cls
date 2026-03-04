@@ -23,7 +23,7 @@ public with sharing class AccountEmployeeRatingHandler {
     
     @TestVisible
     private static String getRatingFromEmployees(Integer employees) {
-        if (employees == null || employees < 30) {
+        if (employees == null || employees < 60) {
             return 'Cold';
         } else if (employees >= 200) {
             return 'Hot';
