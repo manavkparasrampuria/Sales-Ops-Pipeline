@@ -23,9 +23,9 @@ public with sharing class AccountEmployeeRatingHandler {
     
     @TestVisible
     private static String getRatingFromEmployees(Integer employees) {
-        if (employees == null || employees < 60) {
+        if (employees == null || employees < 30) {
             return 'Cold';
-        } else if (employees >= 250) {
+        } else if (employees >= 100) {
             return 'Hot';
         } else {
             return 'Warm';
