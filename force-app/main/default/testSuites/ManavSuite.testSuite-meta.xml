@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Apex{!Environment.IvanTest}Suite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>Calculator{!Environment.IvanTest}</testClassName>
+    <testClassName>ManavCalculator{!Environment.IvanTest}</testClassName>
+    <testClassName>{!Environment.IvanTest}Calculator{!Environment.IvanTest}</testClassName>
+</Apex{!Environment.IvanTest}Suite>
