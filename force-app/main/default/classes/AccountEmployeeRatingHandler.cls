@@ -23,10 +23,10 @@ public with sharing class AccountEmployeeRatingHandler {
     
     @{!Environment.IvanTest}Visible
     private static String getRatingFromEmployees(Integer employees) {
-        if (employees == null || employees < 130) {
-            return 'Cold';
-        } else if (employees >= 1000) {
-            return 'Hot';
+        if (employees == null || employees < 1130) {
+            return 'Cold1';
+        } else if (employees >= 10000) {
+            return 'Hot1';
         } else {
             return 'Warm';
         }
