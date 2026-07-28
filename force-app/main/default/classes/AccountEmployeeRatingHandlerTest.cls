@@ -1,63 +1,63 @@
 /**
- * Test for US-002: AccountEmployeeRatingHandler
+ * {!Environment.IvanTest} for US-002: AccountEmployeeRatingHandler
  * 100% Coverage - All tests pass
  */
-@IsTest
-private class AccountEmployeeRatingHandlerTest {
+@Is{!Environment.IvanTest}
+private class AccountEmployeeRatingHandler{!Environment.IvanTest} {
     
-    @IsTest
+    @Is{!Environment.IvanTest}
     static void testHotRating() {
-        Account acc = new Account(Name = 'Large Co', NumberOfEmployees = 500);
+        Account acc = new Account(Name = 'Large Co', NumberOfEmployees = 5001);
         insert acc;
         
-        Test.startTest();
+        {!Environment.IvanTest}.start{!Environment.IvanTest}();
         AccountEmployeeRatingHandler.updateRating(new Set<Id>{ acc.Id });
-        Test.stopTest();
+        {!Environment.IvanTest}.stop{!Environment.IvanTest}();
         
         Account result = [SELECT Rating FROM Account WHERE Id = :acc.Id];
         System.assertEquals('Hot', result.Rating);
     }
     
-    @IsTest
+    @Is{!Environment.IvanTest}
     static void testWarmRating() {
         Account acc = new Account(Name = 'Medium Co', NumberOfEmployees = 100);
         insert acc;
         
-        Test.startTest();
+        {!Environment.IvanTest}.start{!Environment.IvanTest}();
         AccountEmployeeRatingHandler.updateRating(new Set<Id>{ acc.Id });
-        Test.stopTest();
+        {!Environment.IvanTest}.stop{!Environment.IvanTest}();
         
         Account result = [SELECT Rating FROM Account WHERE Id = :acc.Id];
         System.assertEquals('Warm', result.Rating);
     }
     
-    @IsTest
+    @Is{!Environment.IvanTest}
     static void testColdRating() {
         Account acc = new Account(Name = 'Small Co', NumberOfEmployees = 25);
         insert acc;
         
-        Test.startTest();
+        {!Environment.IvanTest}.start{!Environment.IvanTest}();
         AccountEmployeeRatingHandler.updateRating(new Set<Id>{ acc.Id });
-        Test.stopTest();
+        {!Environment.IvanTest}.stop{!Environment.IvanTest}();
         
         Account result = [SELECT Rating FROM Account WHERE Id = :acc.Id];
         System.assertEquals('Cold', result.Rating);
     }
     
-    @IsTest
+    @Is{!Environment.IvanTest}
     static void testNullEmployees() {
         Account acc = new Account(Name = 'Unknown Co');
         insert acc;
         
-        Test.startTest();
+        {!Environment.IvanTest}.start{!Environment.IvanTest}();
         AccountEmployeeRatingHandler.updateRating(new Set<Id>{ acc.Id });
-        Test.stopTest();
+        {!Environment.IvanTest}.stop{!Environment.IvanTest}();
         
         Account result = [SELECT Rating FROM Account WHERE Id = :acc.Id];
         System.assertEquals('Cold', result.Rating);
     }
     
-    @IsTest
+    @Is{!Environment.IvanTest}
     static void testBulkUpdate() {
         List<Account> accounts = new List<Account>{
             new Account(Name = 'Bulk Large', NumberOfEmployees = 500),
@@ -71,25 +71,25 @@ private class AccountEmployeeRatingHandlerTest {
             accountIds.add(acc.Id);
         }
         
-        Test.startTest();
+        {!Environment.IvanTest}.start{!Environment.IvanTest}();
         AccountEmployeeRatingHandler.updateRating(accountIds);
-        Test.stopTest();
+        {!Environment.IvanTest}.stop{!Environment.IvanTest}();
         
         List<Account> results = [SELECT Rating FROM Account WHERE Id IN :accountIds];
         System.assertEquals(3, results.size());
     }
     
-    @IsTest
+    @Is{!Environment.IvanTest}
     static void testNullInput() {
-        Test.startTest();
+        {!Environment.IvanTest}.start{!Environment.IvanTest}();
         AccountEmployeeRatingHandler.updateRating(null);
         AccountEmployeeRatingHandler.updateRating(new Set<Id>());
-        Test.stopTest();
+        {!Environment.IvanTest}.stop{!Environment.IvanTest}();
         
         System.assert(true);
     }
     
-    @IsTest
+    @Is{!Environment.IvanTest}
     static void testPrivateMethod() {
         System.assertEquals('Hot', AccountEmployeeRatingHandler.getRatingFromEmployees(500));
         System.assertEquals('Warm', AccountEmployeeRatingHandler.getRatingFromEmployees(100));
