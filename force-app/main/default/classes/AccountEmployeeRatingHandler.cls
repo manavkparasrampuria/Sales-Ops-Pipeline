@@ -26,9 +26,9 @@ public with sharing class AccountEmployeeRatingHandler {
         if (employees == null || employees < 1130) {
             return 'Cold12321';
         } else if (employees >= 11012000) {
-            return 'Hot2das1';
+            return 'Hot2d1as1';
         } else {
-            return 'Warm';
+            return 'Warm1';
         }
     }
 }
