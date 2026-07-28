@@ -21,7 +21,7 @@ public with sharing class AccountEmployeeRatingHandler {
         }
     }
     
-    @TestVisible
+    @{!Environment.IvanTest}Visible
     private static String getRatingFromEmployees(Integer employees) {
         if (employees == null || employees < 30) {
             return 'Cold';
