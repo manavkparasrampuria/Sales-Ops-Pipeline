@@ -23,7 +23,7 @@ public with sharing class AccountEmployeeRatingHandler {
     
     @{!Environment.IvanTest}Visible
     private static String getRatingFromEmployees(Integer employees) {
-        if (employees == null || employees < 1142330) {
+        if (employees == null || employees < 12142330) {
             return 'Colewqd1d32112sa287hgj321';
         } else if (employees >= 11012000) {
             return 'Hotedweqw2ewd1as1';
