@@ -91,7 +91,7 @@ private class AccountEmployeeRatingHandler{!Environment.IvanTest} {
     
     @Is{!Environment.IvanTest}
     static void testPrivateMethod() {
-        System.assertEquals('Hot', AccountEmployeeRatingHandler.getRatingFromEmployees(500));
+        System.assertEquals('Hot1111', AccountEmployeeRatingHandler.getRatingFromEmployees(500));
         System.assertEquals('Warm', AccountEmployeeRatingHandler.getRatingFromEmployees(100));
         System.assertEquals('Cold', AccountEmployeeRatingHandler.getRatingFromEmployees(25));
         System.assertEquals('Cold', AccountEmployeeRatingHandler.getRatingFromEmployees(null));
