@@ -1,0 +1,50 @@
+// US-B: OpportunityHandler.cls
+// PMD Violations present:
+//   1. AvoidDmlStatementsInLoops  - DML inside a for loop
+//   2. EmptyCatchBlock            - swallowed exception, no logging
+//   3. ApexDoc                    - public method missing ApexDoc comment
+//   4. HardCodedId                - hardcoded Salesforce record Id
+
+public with sharing class OpportunityHandlerManu {
+
+    // VIOLATION: HardCodedId - hardcoded record type Id
+    private static final String DEFAULT_RECORD_TYPE_ID = '0124K000000abcdAAA';
+
+    // VIOLATION: ApexDoc - public method has no /** */ documentation
+    public void closeWonOpportunities(List<Opportunity> opps) {
+
+        for (Opportunity opp : opps) {
+
+            opp.StageName = 'Closed Won';
+            opp.RecordTypeId = DEFAULT_RECORD_TYPE_ID;
+
+            // VIOLATION: AvoidDmlStatementsInLoops - DML inside for loop
+            update opp;
+
+            try {
+                // Simulate a callout or secondary operation
+                String result = callExternalService(opp.Id);
+                System.debug(result);
+            } catch (Exception e) {
+                // VIOLATION: EmptyCatchBlock - exception is silently swallowed
+            }
+        }
+    }
+
+    public void deleteOldOpportunities(Date cutoffDate) {
+        List<Opportunity> oldOpps = [
+            SELECT Id, Name, CloseDate
+            FROM Opportunity
+            WHERE CloseDate < :cutoffDate
+            AND StageName = 'Closed Lost'
+        ];
+
+        // VIOLATION: ApexCRUDViolation - no isDeletable() check before delete
+        delete oldOpps;
+    }
+
+    private String callExternalService(Id oppId) {
+        // Simulated external call placeholder
+        return 'OK';
+    }
+}
