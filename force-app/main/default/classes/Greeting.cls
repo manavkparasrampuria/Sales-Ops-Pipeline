@@ -7,6 +7,6 @@ public class Greeting {
     }
 
     public String sayHello() {
-        return 'Hello, ' + name + '!';
+        return 'Hello world, ' + name + '!';
     }
 }
