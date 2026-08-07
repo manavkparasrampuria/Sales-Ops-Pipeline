@@ -9,7 +9,7 @@
 # Exclude all Apex trigger files from auto-resolve
 **/triggers/*.trigger
 # Exclude all component files from auto-resolve
-**/components/*.component
+/components/*.component
 # Exclude all Visualforce page files from auto-resolve
 **/pages/*.page
 # Exclude all Lightning component bundle directories from auto-resolve
