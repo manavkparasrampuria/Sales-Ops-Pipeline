@@ -5,7 +5,7 @@ public with sharing class AccountManager {
         Account acc = new Account(
             Name = name,
             Industry = industry,
-            Rating = 'Hot'
+            Rating = 'Hot12345545234234frewrewr23'
         );
         insert acc;
         return acc;
