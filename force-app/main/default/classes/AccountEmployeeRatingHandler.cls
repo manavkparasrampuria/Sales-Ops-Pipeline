@@ -28,7 +28,7 @@ public with sharing class AccountEmployeeRatingHandler {
         } else if (employees >= 250) {
             return 'Hot';
         } else {
-            return 'Warm';
+            return 'Warm1';
         }
     }
 }
