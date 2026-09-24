@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow{!Environment.IvanTest} xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Industry set to Technology should update description</description>
+    <flowApiName>ManavFlow{!Environment.IvanTest}s</flowApiName>
+    <flow{!Environment.IvanTest}FlowVersions>
+        <flowVersionNumber>1</flowVersionNumber>
+    </flow{!Environment.IvanTest}FlowVersions>
+    <label>{!Environment.IvanTest}_TechAccount_Pass</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <isUseMockOutput>false</isUseMockOutput>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{&quot;ADMD__c&quot;:false,&quot;AKTSET__c&quot;:false,&quot;Bajaja__c&quot;:false,&quot;Bwelc__c&quot;:false,&quot;Bypass__c&quot;:false,&quot;DreamF__c&quot;:false,&quot;EMEA2026June__c&quot;:false,&quot;Games__c&quot;:false,&quot;Geneie__c&quot;:false,&quot;HAHA__c&quot;:false,&quot;HAHAq__c&quot;:false,&quot;IAUA__c&quot;:false,&quot;Ilik__c&quot;:false,&quot;Industry&quot;:&quot;Technology&quot;,&quot;IvanCheckbox__c&quot;:false,&quot;JAJA__c&quot;:false,&quot;JILS__c&quot;:false,&quot;JJAA__c&quot;:false,&quot;Jog__c&quot;:false,&quot;KAIAL__c&quot;:false,&quot;KAJL__c&quot;:false,&quot;KAJS__c&quot;:false,&quot;Mangp__c&quot;:false,&quot;NANA__c&quot;:false,&quot;NA{!Environment.IvanTest}Jun__c&quot;:false,&quot;Name&quot;:&quot;{!Environment.IvanTest} Account1&quot;,&quot;Nimar__c&quot;:false,&quot;Oilms__c&quot;:false,&quot;OwnerId&quot;:&quot;005f60000003F2mAAE&quot;,&quot;RecordTypeId&quot;:&quot;0129I000000TmfZQAS&quot;,&quot;TESYMANAV__c&quot;:false,&quot;Tapaas__c&quot;:false,&quot;{!Environment.IvanTest}Auto__c&quot;:false,&quot;{!Environment.IvanTest}Mn__c&quot;:false,&quot;{!Environment.IvanTest}__c&quot;:false,&quot;{!Environment.IvanTest}a__c&quot;:false,&quot;{!Environment.IvanTest}ing1__c&quot;:false,&quot;{!Environment.IvanTest}ing__c&quot;:false,&quot;{!Environment.IvanTest}ng__c&quot;:false,&quot;TesytCheck__c&quot;:false,&quot;Tetkla__c&quot;:false,&quot;Tst__c&quot;:false,&quot;Vis__c&quot;:false,&quot;WM__c&quot;:false,&quot;chk_1__c&quot;:false,&quot;ikl__c&quot;:false,&quot;iklh__c&quot;:false,&quot;kiljbj__c&quot;:false,&quot;mka__c&quot;:false,&quot;puli__c&quot;:false}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>$Record.Description</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <errorMessage>description issue</errorMessage>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+        <isUseMockOutput>false</isUseMockOutput>
+    </testPoints>
+    <testType>WithAssertion</testType>
+</Flow{!Environment.IvanTest}>
