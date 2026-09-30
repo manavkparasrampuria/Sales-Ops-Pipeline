@@ -1,28 +1,28 @@
-@IsTest(SeeAllData = true)
-public with sharing class LightningLoginFormControllerTest {
+@Is{!Environment.IvanTest}(SeeAllData = true)
+public with sharing class LightningLoginFormController{!Environment.IvanTest} {
 
- @IsTest
+ @Is{!Environment.IvanTest}
  static void LightningLoginFormControllerInstantiation() {
   LightningLoginFormController controller = new LightningLoginFormController();
   System.assertNotEquals(controller, null);
  }
 
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testIsUsernamePasswordEnabled() {
   System.assertEquals(true, LightningLoginFormController.getIsUsernamePasswordEnabled());
  }
 
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testIsSelfRegistrationEnabled() {
   System.assertEquals(false, LightningLoginFormController.getIsSelfRegistrationEnabled());
  }
 
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testGetSelfRegistrationURL() {
   System.assertEquals(null, LightningLoginFormController.getSelfRegistrationUrl());
  }
 
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testAuthConfig() {
   Auth.AuthConfiguration authConfig = LightningLoginFormController.getAuthConfig();
   System.assertNotEquals(null, authConfig);

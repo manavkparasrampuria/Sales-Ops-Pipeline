@@ -4,6 +4,13 @@ public with sharing class AccountContactDashboardController {
         if (accountId == null) {
             throw new AuraHandledException('Account ID is required.');
         }
-        
+        return [
+            SELECT Id, Name, Title, Email, Phone
+            FROM Contact
+            WHERE AccountId = :accountId
+            WITH SECURITY_ENFORCED
+            ORDER BY Name ASC
+            LIMIT 200
+        ];
     }
 }

@@ -14,13 +14,15 @@ public class BadPMDExample {
         for(Id accId : accountIds) {
             // SOQL inside a loop (bad)
             Account acc = [SELECT Id, Name FROM Account WHERE Id = :accId];
-            if(acc.Name == 'Test') {
+            if(acc.Name == '{!Environment.IvanTest}') {
                 acc.Name = 'Updated';
                 update acc;
             }
         }
 
         // Poor naming convention
+        // Poor naming convention1
+        // Poor naming convention2
         String s = 'Done';
 
         // Long method with multiple responsibilities
@@ -38,5 +40,7 @@ public class BadPMDExample {
     void helper() {
         // Method without access modifier
         System.debug('Helper method');
+        //{!Environment.IvanTest}1
+        //{!Environment.IvanTest}2
     }
 }

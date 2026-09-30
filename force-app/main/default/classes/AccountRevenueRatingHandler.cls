@@ -21,7 +21,7 @@ public with sharing class AccountRevenueRatingHandler {
         }
     }
     
-    @TestVisible
+    @{!Environment.IvanTest}Visible
     private static String getRatingFromRevenue(Decimal revenue) {
         if (revenue == null || revenue < 100000) {
             return 'Cold';
