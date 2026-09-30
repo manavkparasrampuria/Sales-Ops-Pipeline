@@ -1,6 +1,6 @@
-@IsTest
- public with sharing class MicrobatchSelfRegControllerTest {
-      @IsTest(SeeAllData=true)
+@Is{!Environment.IvanTest}
+ public with sharing class MicrobatchSelfRegController{!Environment.IvanTest} {
+      @Is{!Environment.IvanTest}(SeeAllData=true)
      public static void testMicrobatchSelfRegController() {
          MicrobatchSelfRegController controller = new MicrobatchSelfRegController();
          controller.firstName = 'FirstName';

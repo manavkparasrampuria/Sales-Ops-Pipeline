@@ -1,8 +1,8 @@
 /**
  * An apex page controller that supports self registration of users in communities that allow self registration
  */
-@IsTest public with sharing class CommunitiesSelfRegControllerTest {
-    @IsTest(SeeAllData=true) 
+@Is{!Environment.IvanTest} public with sharing class CommunitiesSelfRegController{!Environment.IvanTest} {
+    @Is{!Environment.IvanTest}(SeeAllData=true) 
     public static void testCommunitiesSelfRegController() {
         CommunitiesSelfRegController controller = new CommunitiesSelfRegController();
         controller.firstName = 'FirstName';

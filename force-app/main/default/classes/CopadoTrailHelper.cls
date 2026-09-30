@@ -2,7 +2,7 @@ public with sharing class CopadoTrailHelper {
 
     /**
      * This method will search for a metadata cache file and clear the log based on a namespace.
-     * In addition we also do not include the CopadoTrailHelper and TestCopadoTrailHelper classes.
+     * In addition we also do not include the CopadoTrailHelper and {!Environment.IvanTest}CopadoTrailHelper classes.
      * @param ns Namespace to be cleared.
      * @param orgName the Org Credential Name for which we want to clear the log.
      * @return void

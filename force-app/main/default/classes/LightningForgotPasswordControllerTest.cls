@@ -1,8 +1,8 @@
-@IsTest(SeeAllData = true)
-public with sharing class LightningForgotPasswordControllerTest {
+@Is{!Environment.IvanTest}(SeeAllData = true)
+public with sharing class LightningForgotPasswordController{!Environment.IvanTest} {
 
  /* Verifies that ForgotPasswordController handles invalid usernames appropriately */
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testLightningForgotPasswordControllerInvalidUserName() {
   System.assertEquals(LightningForgotPasswordController.forgotPassword('fakeUser', 'http://a.com'), Label.Site.invalid_email);
   System.assertEquals(LightningForgotPasswordController.forgotPassword(null, 'http://a.com'), Label.Site.invalid_email);
@@ -10,14 +10,14 @@ public with sharing class LightningForgotPasswordControllerTest {
  }
 
  /* Verifies that null checkEmailRef url throws proper exception. */
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testLightningForgotPasswordControllerWithNullCheckEmailRef() {
   System.assertEquals(LightningForgotPasswordController.forgotPassword('a', null), 'Argument 1 cannot be null');
   System.assertEquals(LightningForgotPasswordController.forgotPassword('a@salesforce.com', null), 'Argument 1 cannot be null');
  }
 
  /* Verifies that LightningForgotPasswordController object is instantiated correctly. */
- @IsTest
+ @Is{!Environment.IvanTest}
  static void LightningForgotPasswordControllerInstantiation() {
   LightningForgotPasswordController controller = new LightningForgotPasswordController();
   System.assertNotEquals(controller, null);
