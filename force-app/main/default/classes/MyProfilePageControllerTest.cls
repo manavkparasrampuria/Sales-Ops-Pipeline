@@ -2,9 +2,9 @@
  * An apex class that updates details of a portal user.
    Guest users are never able to access this page.
  */
-@IsTest public with sharing class MyProfilePageControllerTest {
+@Is{!Environment.IvanTest} public with sharing class MyProfilePageController{!Environment.IvanTest} {
 
-    @IsTest(SeeAllData=true) static void testSave() {
+    @Is{!Environment.IvanTest}(SeeAllData=true) static void testSave() {
         // Modify the test to query for a portal user that exists in your org
         List<User> existingPortalUsers = [SELECT id, profileId, userRoleId FROM User WHERE UserRoleId <> null AND UserType='CustomerSuccess'];
 

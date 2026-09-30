@@ -1,8 +1,8 @@
-@IsTest(SeeAllData = true)
-public with sharing class LightningSelfRegisterControllerTest {
+@Is{!Environment.IvanTest}(SeeAllData = true)
+public with sharing class LightningSelfRegisterController{!Environment.IvanTest} {
 
  /* Verifies that IsValidPassword method with various password combinations. */
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testIsValidPassword() {
   System.assert(LightningSelfRegisterController.isValidPassword('password?@12334', 'password?@12334') == true);
   System.assert(LightningSelfRegisterController.isValidPassword('password?@12334', 'dummyPassword') == false);
@@ -10,13 +10,13 @@ public with sharing class LightningSelfRegisterControllerTest {
   System.assert(LightningSelfRegisterController.isValidPassword(null, 'fakePwd') == false);
  }
 
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testSiteAsContainerEnabled() {
   System.assertNotEquals(null, LightningSelfRegisterController.siteAsContainerEnabled('https://portaleu1-developer-edition.eu11.force.com'));
  }
 
  /* Verifies the selfRegistration method flow with various invalid inputs */
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testSelfRegistration() {
   Map < String, String > paramsMap = initializeParams();
   System.assertNotEquals(null, paramsMap);
@@ -29,14 +29,14 @@ public with sharing class LightningSelfRegisterControllerTest {
 
 
  /* Verifies the selfRegistration flow for valid inputs */
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testSelfRegisterWithProperCredentials() {
   Map < String, String > paramsMap = initializeParams();
   System.assertEquals(null, LightningSelfRegisterController.selfRegister(paramsMap.get('firstName'), paramsMap.get('lastName'), paramsMap.get('email'), paramsMap.get('password'), paramsMap.get('confirmPasswordCorrect'), null, paramsMap.get('regConfirmUrl'), null, paramsMap.get('startUrl'), true));
  }
 
  /* Verifies SelfRegistration flow with an accounId that is created within the test */
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testSelfRegisterWithCreatedAccount() {
   Account acc = new Account(name = 'test acc');
   insert acc;
@@ -47,18 +47,18 @@ public with sharing class LightningSelfRegisterControllerTest {
   System.assertEquals(null, LightningSelfRegisterController.selfRegister(paramsMap.get('firstName'), paramsMap.get('lastName'), paramsMap.get('email'), paramsMap.get('password'), paramsMap.get('confirmPasswordCorrect'), accountId, paramsMap.get('regConfirmUrl'), null, paramsMap.get('startUrl'), false));
  }
 
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testGetNullExtraFields() {
   System.assertEquals(new List < Map < String, Object >> (), LightningSelfRegisterController.getExtraFields(null));
  }
 
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testGetNonEmptyExtraFields() {
   System.assertEquals(new List < Map < String, Object >> (), LightningSelfRegisterController.getExtraFields('field1'));
  }
 
  /* Verifies validation of extraFields within the Self Registration flow */
- @IsTest
+ @Is{!Environment.IvanTest}
  static void testGetExtraFieldsInSelfRegistration() {
   List < Map < String, Object >> fieldlist = new List < Map < String, Object >> ();
   Map < String, String > paramsMap = initializeParams();
@@ -70,7 +70,7 @@ public with sharing class LightningSelfRegisterControllerTest {
   System.assertNotEquals(null, LightningSelfRegisterController.selfRegister(paramsMap.get('firstName'), paramsMap.get('lastName'), paramsMap.get('email'), paramsMap.get('password'), paramsMap.get('confirmPasswordCorrect'), null, paramsMap.get('regConfirmUrl'), extraFields, paramsMap.get('startUrl'), true));
  }
 
- @IsTest
+ @Is{!Environment.IvanTest}
  static void LightningSelfRegisterControllerInstantiation() {
   LightningSelfRegisterController controller = new LightningSelfRegisterController();
   System.assertNotEquals(controller, null);
