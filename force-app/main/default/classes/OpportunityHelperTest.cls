@@ -1,10 +1,10 @@
 // ─────────────────────────────────────────
-// {!Environment.IvanTest} 2: OpportunityHelper{!Environment.IvanTest} — FAILS + Low Coverage
+// Test 2: OpportunityHelperTest — FAILS + Low Coverage
 // ─────────────────────────────────────────
-@Is{!Environment.IvanTest}(critical=true)
-private class OpportunityHelper{!Environment.IvanTest} {
+@IsTest(critical=true)
+private class OpportunityHelperTest {
 
-    @Is{!Environment.IvanTest}
+    @IsTest
     static void testGetDealStage_Enterprise() {
         Opportunity opp = new Opportunity(
             Name = 'Big Deal',
