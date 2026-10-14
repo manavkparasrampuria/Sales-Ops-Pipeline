@@ -1,0 +1,28 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "This omniscript should fail when deploying",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": false,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "MayEdit": true,
+    "Name": "ROMA Omniscript Fail",
+    "OmniProcessElement": [
+        "Test_FailingDeploy_English_Element_Step1.json",
+        "Test_FailingDeploy_English_Element_CustomLWC1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "Test_FailingDeploy_English_PropertySetConfig.json",
+    "SubType": "FailingDeploy",
+    "Type": "Test",
+    "UniqueName": "Test_FailingDeploy_English_4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Test/FailingDeploy/English"
+}
