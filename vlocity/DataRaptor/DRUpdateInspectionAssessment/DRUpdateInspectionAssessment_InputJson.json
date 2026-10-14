@@ -1,0 +1,49 @@
+{
+    "ContextId": null,
+    "Overview": {
+        "CleanFacility_block": {
+            "CleanFacility": null,
+            "CleanFacility_assessmentresult": null,
+            "CleanFacility_uploadfile": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "X1_Condition_block": {
+            "X1_Condition": null,
+            "X1_Condition_assessmentresult": null,
+            "X1_Condition_uploadfile": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        }
+    },
+    "Thank You": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRGetFacilityFromOmniTask": null,
+        "DRGetLatestAssessment": null,
+        "DRUpdateCurrentFacilityInspection": null,
+        "DRUpdateCurrentFacilityInspectionBegin": null,
+        "DataRaptorPostAction1": null,
+        "Overview": null,
+        "Save-Responses": null,
+        "SetValueAssessData": null,
+        "SetValuesInspectionStatusBegin": null,
+        "SetValuesInspectionStatusCompleted": null,
+        "Thank You": null
+    }
+}

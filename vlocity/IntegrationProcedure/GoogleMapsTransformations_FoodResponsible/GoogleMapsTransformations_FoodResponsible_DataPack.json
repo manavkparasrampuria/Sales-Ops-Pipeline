@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_FoodResponsible_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Food Responsible",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_FoodResponsible_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_FoodResponsible_Element_TransformStep.json",
+        "GoogleMapsTransformations_FoodResponsible_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_FoodResponsible",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_FoodResponsible_PropertySetConfig.json",
+    "SubType": "FoodResponsible",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_FoodResponsible_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/FoodResponsible/Procedure"
+}

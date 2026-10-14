@@ -1,0 +1,73 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "5074e8a9-a26a-4c77-abf4-23746633a6a2",
+  "label" : "Payment Checkout",
+  "regions" : [ {
+    "id" : "1dba3603-bd12-42fd-af62-6f6e2055536d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "0de03644-5291-4a71-9967-d6b27b03021b",
+          "columns" : [ {
+            "UUID" : "9150befb-d408-4590-8ac9-0b70779192ca",
+            "columnKey" : "col1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ {
+              "attributes" : {
+                "accountId" : "{!CurrentUser.effectiveAccountId}",
+                "currency" : "USD",
+                "merchantAccountId" : "",
+                "sfdc:identifier" : "pss_payment_paymentSheetWrapper"
+              },
+              "fqn" : "pss_payment:paymentSheetWrapper"
+            } ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "0de03644-5291-4a71-9967-d6b27b03021b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "accountId" : "{!CurrentUser.effectiveAccountId}",
+            "currency" : "USD",
+            "merchantAccountId" : ""
+          },
+          "componentName" : "pss_payment:paymentSheetWrapper",
+          "id" : "4420fd53-72bf-4d9a-bb93-d44d64002f0a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9150befb-d408-4590-8ac9-0b70779192ca",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "359ec283-99de-4242-aeac-f13fcc5cc3f3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ccef4c55-0a51-4f85-9004-e49ff3663e07",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "payment-checkout"
+}

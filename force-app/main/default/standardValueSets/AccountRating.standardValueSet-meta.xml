@@ -3,17 +3,20 @@
     <sorted>false</sorted>
     <standardValue>
         <fullName>Hot</fullName>
+        <color>#FF0000</color>
         <default>false</default>
         <label>Hot</label>
     </standardValue>
     <standardValue>
         <fullName>Warm</fullName>
+        <color>#FF9900</color>
         <default>false</default>
         <label>Warm</label>
     </standardValue>
     <standardValue>
-        <fullName>Cold</fullName>
+        <fullName>Cool</fullName>
+        <color>#3366FF</color>
         <default>false</default>
-        <label>Cold</label>
+        <label>Cool</label>
     </standardValue>
 </StandardValueSet>

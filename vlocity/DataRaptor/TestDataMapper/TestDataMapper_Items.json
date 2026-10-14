@@ -1,0 +1,54 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "GlobalKey": "TestDataMapperCustom2298",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "TestDataMapper",
+        "OmniDataTransformationId": {
+            "Name": "TestDataMapper",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDataMapper",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Omni_Pilot_Object__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "TestDataMapperCustom6982",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "TestDataMapper",
+        "OmniDataTransformationId": {
+            "Name": "TestDataMapper",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TestDataMapper",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "Omni_Pilot_Object__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

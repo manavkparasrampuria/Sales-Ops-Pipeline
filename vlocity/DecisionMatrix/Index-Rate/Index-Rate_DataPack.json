@@ -1,0 +1,22 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DataSource": "SingleSobject",
+    "DecisionMatrixType": "DecisionTable",
+    "DecisionTableType": "MediumVolume",
+    "Description": "A table that stores changes in the cost of products or services based on factors like the Consumer Price Index (CPI), with effective dates and magnitude of change.",
+    "GroupKey": "",
+    "IsLocked": false,
+    "LastSyncDate": "2025-10-04T04:58:01.000Z",
+    "MayEdit": true,
+    "Name": "Index Rate",
+    "Namespace": "",
+    "RefreshStatus": "Completed",
+    "Status": "Active",
+    "SubGroupKey": "",
+    "Type": "",
+    "UniqueName": "Index Rate",
+    "UsageType": "DefaultPricing",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/Index Rate"
+}

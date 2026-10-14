@@ -1,0 +1,22 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DataSource": "SingleSobject",
+    "DecisionMatrixType": "DecisionTable",
+    "DecisionTableType": "MediumVolume",
+    "Description": "Gets the applicable tax rates for tax calculation.",
+    "GroupKey": "",
+    "IsLocked": false,
+    "LastSyncDate": "2026-02-14T06:38:49.000Z",
+    "MayEdit": true,
+    "Name": "Revenue Standard Tax Entries",
+    "Namespace": "",
+    "RefreshStatus": "Completed",
+    "Status": "Active",
+    "SubGroupKey": "",
+    "Type": "",
+    "UniqueName": "Revenue Standard Tax Entries",
+    "UsageType": "RevenueStandardTax",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/Revenue Standard Tax Entries"
+}

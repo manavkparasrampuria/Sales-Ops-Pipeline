@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertPersonDisability</dataMapperDefItemName>
+        <defaultValue>Disabled</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertPersonDisability7982137467503894</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>PersonDisability</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertPersonDisability</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertPersonDisability10118663473340717</globalKey>
+        <inputField>AccountId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IndividualId</outputField>
+        <outputObject>PersonDisability</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertPersonDisability</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertPersonDisability2577230428772417</globalKey>
+        <inputField>StartDate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>StartDate</outputField>
+        <outputObject>PersonDisability</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertPersonDisability</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSUpsertPersonDisability8390596325620128</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>PersonDisability</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Creates or updates a person disability record.</description>
+    <expectedInputJson>{
+  &quot;AccountId&quot; : &quot;12345&quot;,
+  &quot;StartDate&quot; : &quot;2023-02-28T20:00:00.000Z&quot;,
+  &quot;HouseholdMemberDetails&quot; : {
+    &quot;DateOfBirth&quot; : &quot;1997-01-28&quot;,
+    &quot;GradeCompleted&quot; : &quot;btech&quot;,
+    &quot;Race&quot; : &quot;American Indian/Alaska Native&quot;,
+    &quot;Ethnicity&quot; : &quot;Non-Hispanic/Latino&quot;,
+    &quot;Gender&quot; : &quot;Male&quot;,
+    &quot;Age&quot; : 26,
+    &quot;HouseholdMemberFirstName&quot; : &quot;firstH&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;HouseholdMemberLastName&quot; : &quot;lastH&quot;,
+    &quot;USCitizen&quot; : &quot;Yes&quot;,
+    &quot;PersonDisable&quot; : &quot;Yes&quot;
+  }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSUpsertPersonDisability</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;AccountId&quot; : &quot;001RO000004VT9yYAG&quot;,
+  &quot;StartDate&quot; : &quot;2023-02-28T20:00:00.000Z&quot;,
+  &quot;HouseholdMemberDetails&quot; : {
+    &quot;DateOfBirth&quot; : &quot;1997-01-28&quot;,
+    &quot;GradeCompleted&quot; : &quot;btech&quot;,
+    &quot;Race&quot; : &quot;American Indian/Alaska Native&quot;,
+    &quot;Ethnicity&quot; : &quot;Non-Hispanic/Latino&quot;,
+    &quot;Gender&quot; : &quot;Male&quot;,
+    &quot;Age&quot; : 26,
+    &quot;HouseholdMemberFirstName&quot; : &quot;firstaH&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;HouseholdMemberLastName&quot; : &quot;lastH&quot;,
+    &quot;USCitizen&quot; : &quot;Yes&quot;,
+    &quot;IsDisabled&quot; : &quot;Yes&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

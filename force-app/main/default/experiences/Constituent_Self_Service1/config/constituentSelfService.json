@@ -1,0 +1,84 @@
+{
+  "forgotPasswordRouteId" : "a0c9fc3b-4e19-4d5e-ab58-fafab53f7a80",
+  "isAvailableToGuests" : true,
+  "isFilteredComponentsView" : true,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "a57ebbf1-7189-4104-81d2-e6e2e46eef4a",
+  "mainAppPageId" : "cb179d80-7920-4ba7-93b5-079034f23a90",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "b10112c2-c8d0-4048-853b-628f02653271",
+  "trustedSitesForScript" : [ {
+    "id" : "6e17d5ef-7731-43f8-acbd-2e9a197e312a",
+    "isActive" : true,
+    "trustedSiteName" : "LocationForceCOM",
+    "trustedSiteUrl" : "https://location.force.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "16d1fc07-41b6-46da-a2eb-e29c4852bb3f",
+    "isActive" : true,
+    "trustedSiteName" : "HeaderBot",
+    "trustedSiteUrl" : "https://miro.medium.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "f32e2ce9-8982-4580-892f-15e5f026adb2",
+    "isActive" : true,
+    "trustedSiteName" : "BotImage",
+    "trustedSiteUrl" : "https://www.gearscrm.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "bd023446-688e-43ac-96dc-0dff36030d31",
+    "isActive" : true,
+    "trustedSiteName" : "Unsplash",
+    "trustedSiteUrl" : "https://unsplash.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "b506b20d-34c5-4ce9-bba6-102eb58059ca",
+    "isActive" : true,
+    "trustedSiteName" : "Placeholder Basic Tile",
+    "trustedSiteUrl" : "https://via.placeholder.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "37f5b22c-5a55-403b-9a64-1958b09866e8",
+    "isActive" : true,
+    "trustedSiteName" : "Images",
+    "trustedSiteUrl" : "https://images.unsplash.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "94ff8c63-c6b3-4bfa-8fed-787abb220447",
+    "isActive" : true,
+    "trustedSiteName" : "Icon Whitelist One",
+    "trustedSiteUrl" : "https://www.actusconsulting.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "382b7f72-fffe-4218-90a4-e27f7454d417",
+    "isActive" : true,
+    "trustedSiteName" : "Icon Whitelist Two",
+    "trustedSiteUrl" : "https://pbs.twimg.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "a65d970c-18a5-4e66-994d-d50a407d86de",
+    "isActive" : true,
+    "trustedSiteName" : "LiveAgent",
+    "trustedSiteUrl" : "https://*.salesforceliveagent.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "eacf8932-5796-48de-9222-4b36464fb0f6",
+    "isActive" : true,
+    "trustedSiteName" : "my.site.com",
+    "trustedSiteUrl" : "https://*.my.site.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "1710e799-d420-412a-99d6-2035dd70560c",
+    "isActive" : true,
+    "trustedSiteName" : "Smugmug",
+    "trustedSiteUrl" : "https://*.smugmug.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "41ef772b-ad24-4854-b297-f6e5f1eb5181",
+    "isActive" : true,
+    "trustedSiteName" : "Smugmug2",
+    "trustedSiteUrl" : "https://smugmug.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

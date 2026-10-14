@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>請求書</value>
+    </caseValues>
+    <nameFieldLabel>請求書番号</nameFieldLabel>
+    <webLinks>
+        <label>キャンセル &amp; 再請求</label>
+        <name>blng__Cancel_Rebill</name>
+    </webLinks>
+    <webLinks>
+        <label>マイナス品目の変換</label>
+        <name>blng__ConvertNegativeLines</name>
+    </webLinks>
+    <webLinks>
+        <label>クレジット</label>
+        <name>blng__Credit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Payment_Virtual_Terminal --></label>
+        <name>blng__Payment_Virtual_Terminal</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Organization Type --></label>
+    <name>PublicSector__OrganizationType__c</name>
+    <picklistValues>
+        <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+        <translation>Akuttpsykiatrisk sykehus (APS)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+        <translation>Dagsenter for eldre (DFE)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+        <translation>Ambulerende kirurgisk senter (AKS)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+        <translation>Rehabilitering for rusmisbrukere (RFR)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+        <translation>Kronisk dialyseklinikk (KDK)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+        <translation>Bofellesskap med medisinsk tilsyn (BMT)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+        <translation>Nyresvikt i endestadium (KDK/ESRD)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+        <translation>Generelt akuttsykehus (GAS)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Health Agency (HHA)</masterLabel>
+        <translation>Hjemmesykepleiebyrå (HSB)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospice Facility (HOFA)</masterLabel>
+        <translation>Hospicefasilitet (HOFA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+        <translation>Bofellesskap med oppfølging (BFO)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Annet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+        <translation>Dagsenter/avlastningshjem for barn (DAB)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+        <translation>Primærhelse-klinikk (PHK)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+        <translation>Pleie- og omsorgssenter (POS)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+        <translation>Kirurgisk klinikk (KIRK)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

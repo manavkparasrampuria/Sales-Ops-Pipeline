@@ -1,0 +1,84 @@
+{
+    "Address": ",,,,",
+    "Attachments": {
+    },
+    "BoatInformation": {
+        "BoatLength": 22,
+        "HullIdNumber": "48392939",
+        "HullMaterial": "Fiberglass",
+        "MakeModelOfBoat": "Regal 2220 FasDeck",
+        "Marina": "East Lake",
+        "NameofBoat": "Minnow",
+        "Propulsion": "Inboard",
+        "TypeofFuelUsed": "Gasoline",
+        "Use": "Pleasure",
+        "YearBuilt": "2011"
+    },
+    "Certify": {
+    },
+    "Confirmation": {
+    },
+    "ContactEmail": "jblankenship@salesforce.com",
+    "Fees": {
+        "RegistrationFee": 25,
+        "TitleTax": 2159.94,
+        "TotalFee": 2186.94
+    },
+    "Overview": {
+        "ReasonForApplication": "Application for Original Title/Registration Number"
+    },
+    "OwnerInformation": {
+        "DateofBirth": "9/14/1987",
+        "OwnerAddress": {
+            "Address": "5216 Maple Street, Bellaire, TX, 77401, United States",
+            "City": "Bellaire",
+            "Country": "United States",
+            "PostalCode": "77401",
+            "Province": "TX",
+            "Street": "5216 Maple Street",
+            "valid": true
+        },
+        "OwnerBusinessPhone": "2123439393",
+        "OwnerEmail": "jblankenship@salesforce.com",
+        "OwnerFirstName": "Paul",
+        "OwnerHomePhone": "2123032030",
+        "OwnerLastName": "Marshall",
+        "SSN": "232932939"
+    },
+    "PrefillAddress": ",,,,",
+    "SampleUser": "005KX000000xWOxYAM",
+    "SellerLienInformation": {
+        "AcquistionDate": "2021-09-14",
+        "BoatCondition": "Used",
+        "DateOfLien": "9/14/2021",
+        "Lien": "Yes",
+        "LienCity": "Richmond",
+        "LienHolder": "Essex Bank",
+        "LienState": "VA",
+        "LienStreetAddress": "9954 Mayland Drive, Suite 2100 ",
+        "LienTelephone": "8004435524",
+        "LienZip": "23233",
+        "Price": 35999,
+        "SellerCity": "Kilmarnock",
+        "SellerName": "John Williams",
+        "SellerState": "VA",
+        "SellerStreetAddress": "32 Cedar Ln",
+        "SellerZip": "22482"
+    },
+    "language": "English",
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jNKX000000CbTc2AK",
+    "omniscriptId": "0jNKX000000CbTc2AK",
+    "runMode": "preview",
+    "sId": "0jNKX000000CbTc2AK",
+    "subType": "BoatRegistration",
+    "theme": "lightning",
+    "timeStamp": "2024-06-25T11:34:47.869Z",
+    "type": "LicensingAndPermiting",
+    "userCurrencyCode": "USD",
+    "userId": "005KX000000xWOxYAM",
+    "userName": "jblankenship@gps250.dev3",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

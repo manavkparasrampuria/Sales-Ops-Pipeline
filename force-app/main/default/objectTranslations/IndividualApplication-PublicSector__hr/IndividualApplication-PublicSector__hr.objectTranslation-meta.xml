@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description><!-- For Benefits Assignments ex (Heating Assistance) --></description>
+        <label><!-- Benefits --></label>
+        <name>Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Grantmaking --></label>
+        <name>Grantmaking</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For LPI related IAs --></description>
+        <label><!-- Individual Application --></label>
+        <name>Individual_Application</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Hitni zahtjev</label>
+        <name>PublicSector__Emergency_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Zahtjev za dozvolu za pristup lokaciji</label>
+        <name>PublicSector__Location_Access_Permit_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Potvrda o dovršenoj obuci</label>
+        <name>PublicSector__Training_Certificate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Social Insurance --></label>
+        <name>Social_Insurance</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- gps_Assign_Reviews --></label>
+        <name>gps_Assign_Reviews</name>
+    </webLinks>
+</CustomObjectTranslation>

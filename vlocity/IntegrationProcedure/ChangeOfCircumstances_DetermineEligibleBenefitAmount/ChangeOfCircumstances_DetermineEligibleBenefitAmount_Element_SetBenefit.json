@@ -1,0 +1,50 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetBenefit",
+    "OmniProcessId": {
+        "Name": "Determine Eligible Benefit Amount",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/DetermineEligibleBenefitAmount/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopAppliedBenefits",
+        "OmniProcessId": {
+            "Name": "Determine Eligible Benefit Amount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/DetermineEligibleBenefitAmount/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/DetermineEligibleBenefitAmount/Procedure/LoopAppliedBenefits",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopAppliedBenefits",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "BenefitAssignmentId": "=%AppliedBenefitAssignments:Id%",
+            "BenefitType": "=%AppliedBenefitAssignments:BenefitName%",
+            "EnrolleeId": "=%AppliedBenefitAssignments:EnrolleeId%",
+            "EntitlementAmount": "=%AppliedBenefitAssignments:EntitlementAmount%"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues11",
+        "responseJSONNode": "Benefit",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/DetermineEligibleBenefitAmount/Procedure/SetBenefit"
+}

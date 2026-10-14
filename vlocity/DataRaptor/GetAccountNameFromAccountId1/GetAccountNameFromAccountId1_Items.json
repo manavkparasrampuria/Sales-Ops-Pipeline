@@ -1,0 +1,83 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "GetAccountNameFromAccountIdCustom4083",
+        "InputFieldName": "Account:Id",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "GetAccountNameFromAccountId1",
+        "OmniDataTransformationId": {
+            "Name": "GetAccountNameFromAccountId1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetAccountNameFromAccountId1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:AccountId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "GetAccountNameFromAccountIdCustom2532",
+        "InputFieldName": "Account:Name",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "GetAccountNameFromAccountId1",
+        "OmniDataTransformationId": {
+            "Name": "GetAccountNameFromAccountId1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetAccountNameFromAccountId1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:PSS_BM_v5_IncomeHouseholdMemberName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "PSS_BM_v5_HouseholdIncomeDetails:PartyId",
+        "GlobalKey": "GetAccountNameFromAccountIdCustom905",
+        "InputFieldName": "Id",
+        "InputObjectName": "Account",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "GetAccountNameFromAccountId1",
+        "OmniDataTransformationId": {
+            "Name": "GetAccountNameFromAccountId1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetAccountNameFromAccountId1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Account",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,27 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "DocumentChecklistItemForProofOfExpense",
+    "OmniProcessId": {
+        "Name": "ModifyReturnedIndividualApplication",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ModifyReturnedIndividualApplication/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "%TransformDataForDocumentChecklistItems:Expenses:AreMultipleProofsOfExpensesSubmitted% == \"true\"",
+        "label": "LoopBlock1",
+        "loopList": "TransformDataForDocumentChecklistItems:Expenses:AttachExpensesProofs",
+        "loopOutput": {
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ModifyReturnedIndividualApplication/Procedure/DocumentChecklistItemForProofOfExpense"
+}

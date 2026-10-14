@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Organization Type --></label>
+    <name>PublicSector__OrganizationType__c</name>
+    <picklistValues>
+        <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+        <translation>Болница за остри психиатрични заболявания (APH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+        <translation>Здравни грижи за възрастни (ADHC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+        <translation>Амбулаторен хирургичен център (ASC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+        <translation>Болница за възстановяване от наркотична зависимост (CDRH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+        <translation>Клиника за хронична диализа (CDC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+        <translation>Здравно заведение за съвместно живеене (CLHF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+        <translation>Диализа на крайния стадий на бъбречна недостатъчност (CDC/ESRD)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+        <translation>Болница за остри общи заболявания (GACH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Health Agency (HHA)</masterLabel>
+        <translation>Агенция за медицинска помощ по домовете (HHA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospice Facility (HOFA)</masterLabel>
+        <translation>Хоспис (HOFA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+        <translation>Дом за междинни здравни грижи (ICF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Друго</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+        <translation>Център за педиатрични грижи и временна грижа за болни и хора с увреждания през периода на почивка на хората, които обикновено се грижат за тях (PDHRC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+        <translation>Клиника за първични медицински грижи (PCC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+        <translation>Център за професионални здравни грижи (SNF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+        <translation>Хирургична клиника (SURGC)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

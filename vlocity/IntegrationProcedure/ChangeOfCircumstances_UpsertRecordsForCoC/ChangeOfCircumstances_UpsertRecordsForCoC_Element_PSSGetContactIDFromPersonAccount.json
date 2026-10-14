@@ -1,0 +1,62 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PSSGetContactIDFromPersonAccount",
+    "OmniProcessId": {
+        "Name": "UpsertRecordsForCoC",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopHouseholdMemberDetails",
+        "OmniProcessId": {
+            "Name": "UpsertRecordsForCoC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/LoopHouseholdMemberDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopHouseholdMemberDetails",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "AccountId": "%PSSUpsertPublicApplicationParticipant:AccountId%"
+        },
+        "additionalOutput": {
+            "ContactId": "=%PSSGetContactIDFromPersonAccount:ContactId%"
+        },
+        "bundle": "PSSGetContactIDFromPersonAccount1",
+        "chainOnStep": false,
+        "dataRaptor Input Parameters": [
+        ],
+        "disOnTplt": false,
+        "executionConditionalFormula": "(PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdMemberDetails:ActionType==\"Add\") || (PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdMemberDetails:ActionType==\"Update\")",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "ignoreCache": false,
+        "label": "DataMapperExtractAction4",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": true,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Extract Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/PSSGetContactIDFromPersonAccount"
+}

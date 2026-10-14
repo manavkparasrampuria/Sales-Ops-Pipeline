@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Organization Type --></label>
+    <name>PublicSector__OrganizationType__c</name>
+    <picklistValues>
+        <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+        <translation>โรงพยาบาลจิตเวชขั้นรุนแรง (APH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+        <translation>สถานดูแลสุขภาพสำหรับผู้สูงอายุแบบไปกลับ (ADHC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+        <translation>ศูนย์การผ่าตัดย่อย (ASC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+        <translation>โรงพยาบาลฟื้นฟูผู้ป่วยจากการติดสิ่งเสพติด (CDRH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+        <translation>คลินิกฟอกไตเรื้อรัง (CDC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+        <translation>ศูนย์รวมด้านสุขภาพความเป็นอยู่ที่ดี (CLHF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+        <translation>ระยะสุดท้ายของไตวายเรื้อรัง (CDC/ESRD)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+        <translation>โรงพยาบาลดูแลผู้ป่วยวิกฤติทั่วไป (GACH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Health Agency (HHA)</masterLabel>
+        <translation>หน่วยงานบริการด้านสุขภาพที่บ้าน (HHA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospice Facility (HOFA)</masterLabel>
+        <translation>สถานอภิบาลผู้ป่วยระยะสุดท้าย (HOFA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+        <translation>สถานอภิบาลผู้ป่วยกึ่งวิกฤต (ICF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>อื่น ๆ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+        <translation>ศูนย์ดูแลสุขภาพและการดูแลเด็กแบบไปกลับ (PDHRC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+        <translation>คลินิกบริการปฐมภูมิ (PCC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+        <translation>สถานบริการพยาบาลที่มีความชำนาญ (SNF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+        <translation>คลินิกศัลยกรรม (SURGC)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

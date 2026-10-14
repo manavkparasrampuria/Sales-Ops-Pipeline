@@ -1,0 +1,47 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "UpdateIncomeHouseholdMemberNameIndex",
+    "OmniProcessId": {
+        "Name": "UpsertRecordsForIndividualApplication",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/UpsertRecordsForIndividualApplication/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopHouseholdIncomeDetails",
+        "OmniProcessId": {
+            "Name": "UpsertRecordsForIndividualApplication",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/UpsertRecordsForIndividualApplication/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/UpsertRecordsForIndividualApplication/Procedure/LoopHouseholdIncomeDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopHouseholdIncomeDetails",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "NewIncomeHouseholdMemberNameIndex": "=(%SetMemberDetails:IncomeHouseholdMemberNameIndex% + 1)"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues19",
+        "responseJSONNode": "SetMemberDetails:IncomeHouseholdMemberNameIndex",
+        "responseJSONPath": "NewIncomeHouseholdMemberNameIndex",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/UpsertRecordsForIndividualApplication/Procedure/UpdateIncomeHouseholdMemberNameIndex"
+}

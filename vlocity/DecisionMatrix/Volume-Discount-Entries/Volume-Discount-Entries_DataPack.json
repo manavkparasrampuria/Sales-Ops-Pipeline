@@ -1,0 +1,22 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DataSource": "SingleSobject",
+    "DecisionMatrixType": "DecisionTable",
+    "DecisionTableType": "MediumVolume",
+    "Description": "Price Adjustment Tier Decision Table",
+    "GroupKey": "",
+    "IsLocked": false,
+    "LastSyncDate": "2025-01-10T21:30:33.000Z",
+    "MayEdit": true,
+    "Name": "Volume Discount Entries",
+    "Namespace": "",
+    "RefreshStatus": "Completed",
+    "Status": "Active",
+    "SubGroupKey": "",
+    "Type": "",
+    "UniqueName": "Volume Discount Entries",
+    "UsageType": "DefaultPricing",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/Volume Discount Entries"
+}

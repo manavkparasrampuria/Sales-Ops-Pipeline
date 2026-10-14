@@ -1,0 +1,32 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "BenefitChangeOfCircumstance_FetchPersonalInformation_SampleInput.json",
+    "Description": "Fetches personal information of the logged in community user",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "FetchPersonalInformation",
+    "OmniProcessElement": [
+        "BenefitChangeOfCircumstance_FetchPersonalInformation_Element_GetUserPersonAccountId.json",
+        "BenefitChangeOfCircumstance_FetchPersonalInformation_Element_GetUserPersonalDetails.json",
+        "BenefitChangeOfCircumstance_FetchPersonalInformation_Element_LoggedInUserPersonalDetailsMap.json",
+        "BenefitChangeOfCircumstance_FetchPersonalInformation_Element_SendPersonalInformation.json"
+    ],
+    "OmniProcessKey": "BenefitChangeOfCircumstance_FetchPersonalInformation",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "BenefitChangeOfCircumstance_FetchPersonalInformation_PropertySetConfig.json",
+    "SubType": "FetchPersonalInformation",
+    "Type": "BenefitChangeOfCircumstance",
+    "UniqueName": "BenefitChangeOfCircumstance_FetchPersonalInformation_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/BenefitChangeOfCircumstance/FetchPersonalInformation/Procedure"
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business or Occupation Role --></label>
+    <name>PublicSector__BusinessOrOccupationRole__c</name>
+    <picklistValues>
+        <masterLabel>Airline Operations</masterLabel>
+        <translation>항공사 운영</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Border Protection and Transportation Security</masterLabel>
+        <translation>국경 보호 및 교통 안보</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Traveler</masterLabel>
+        <translation>출장</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction</masterLabel>
+        <translation>건설업</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Correctional Facility Operations</masterLabel>
+        <translation>교정 시설 운영</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentistry</masterLabel>
+        <translation>치과</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency Response and Public Safety</masterLabel>
+        <translation>긴급 대응 및 공공 안전</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environmental or Janitorial  Services</masterLabel>
+        <translation>환경 또는 관리 서비스</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Farmworker</masterLabel>
+        <translation>농업</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food Preparation</masterLabel>
+        <translation>음식 준비</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare</masterLabel>
+        <translation>의료</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Home Repair Services</masterLabel>
+        <translation>재택 수리 서비스</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory</masterLabel>
+        <translation>실험실</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturing</masterLabel>
+        <translation>제조업</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meat and Poultry Processing</masterLabel>
+        <translation>육류 가공</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Worker</masterLabel>
+        <translation>회사원</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postmortem Care</masterLabel>
+        <translation>검시업</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail Operations</masterLabel>
+        <translation>소매업체 운영</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solid Waste or Wastewater Management</masterLabel>
+        <translation>폐기물 및 폐수 관리</translation>
+    </picklistValues>
+</CustomFieldTranslation>

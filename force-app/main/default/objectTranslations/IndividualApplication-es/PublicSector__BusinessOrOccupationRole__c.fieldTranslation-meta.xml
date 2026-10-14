@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business or Occupation Role --></label>
+    <name>PublicSector__BusinessOrOccupationRole__c</name>
+    <picklistValues>
+        <masterLabel>Airline Operations</masterLabel>
+        <translation>Operaciones de líneas aéreas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Border Protection and Transportation Security</masterLabel>
+        <translation>Protección de fronteras y seguridad en el transporte</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Traveler</masterLabel>
+        <translation>Viajero de negocios</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction</masterLabel>
+        <translation>Construcción</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Correctional Facility Operations</masterLabel>
+        <translation>Operaciones de centros penitenciarios</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentistry</masterLabel>
+        <translation>Odontología</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency Response and Public Safety</masterLabel>
+        <translation>Respuesta a emergencias y seguridad pública</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environmental or Janitorial  Services</masterLabel>
+        <translation>Servicios medioambientales o de limpieza</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Farmworker</masterLabel>
+        <translation>Trabajador agrícola</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food Preparation</masterLabel>
+        <translation>Preparación de alimentos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare</masterLabel>
+        <translation>Asistencia sanitaria</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Home Repair Services</masterLabel>
+        <translation>Servicios de reparación en hogares</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory</masterLabel>
+        <translation>Laboratorios</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturing</masterLabel>
+        <translation>Fabricación</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meat and Poultry Processing</masterLabel>
+        <translation>Procesamiento cárnico</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Worker</masterLabel>
+        <translation>Trabajador en oficinas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postmortem Care</masterLabel>
+        <translation>Cuidados funerarios</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail Operations</masterLabel>
+        <translation>Operaciones minoristas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solid Waste or Wastewater Management</masterLabel>
+        <translation>Gestión de residuos sólidos o líquidos</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactDetailsForContactIdsTurbo</dataMapperDefItemName>
+        <filterDataType>ID</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>IN</filterOperator>
+        <filterValue>AllMembersContactIds</filterValue>
+        <globalKey>PSSEXPCloudGetContactDetailsForContactIdsTurboCustom0jIRM0000004DzM2AUItem0</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>ContactsList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactDetailsForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactDetailsForContactIdsTurboCustom975</globalKey>
+        <inputField>AccountId</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactDetailsForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactDetailsForContactIdsTurboCustom922</globalKey>
+        <inputField>GenderIdentity</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactDetailsForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactDetailsForContactIdsTurboCustom2878</globalKey>
+        <inputField>Email</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactDetailsForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactDetailsForContactIdsTurboCustom6969</globalKey>
+        <inputField>Birthdate</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactDetailsForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactDetailsForContactIdsTurboCustom1153</globalKey>
+        <inputField>FirstName</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Get AccountIDs For ContactIds</description>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSEXPCloudGetContactDetailsForContactIdsTurbo</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;AllMembersContactIds&quot; : [ &quot;003RM000008AonIYAS&quot;, &quot;003RM000008AwZ1YAK&quot;, &quot;003RM000008AwZ6YAK&quot;, &quot;003RM000008AwZBYA0&quot; ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Turbo Extract</type>
+</DataMapperDefinition>

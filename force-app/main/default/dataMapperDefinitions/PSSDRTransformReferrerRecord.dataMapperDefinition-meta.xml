@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRTransformReferrerRecord</dataMapperDefItemName>
+        <globalKey>PSSDRTransformReferrerRecord8022158148482756</globalKey>
+        <inputField>Records:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Records:ReferrerName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRTransformReferrerRecord</dataMapperDefItemName>
+        <globalKey>PSSDRTransformReferrerRecord8881993672495341</globalKey>
+        <inputField>Records:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Records:ReferrerId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRTransformReferrerRecord</dataMapperDefItemName>
+        <globalKey>PSSDRTransformReferrerRecord12434238324973546</globalKey>
+        <inputField>Records:Email</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Records:ReferrerEmail</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRTransformReferrerRecord</dataMapperDefItemName>
+        <globalKey>PSSDRTransformReferrerRecord31351607967654216</globalKey>
+        <inputField>Records:Phone</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Records:ReferrerPhone</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;Records&quot;: [
+        {
+            &quot;Name&quot;: &quot;Complaint User Person&quot;,
+            &quot;Id&quot;: &quot;001RO000003dmvmYAA&quot;,
+            &quot;Email&quot;: &quot;aditya.singh@salesforce.com&quot;,
+            &quot;Phone&quot;: &quot;1234567890&quot;
+        },
+        {
+            &quot;Name&quot;: &quot;Complaint User Person&quot;,
+            &quot;Id&quot;: &quot;001RO000003dmvSYAQ&quot;
+        }
+    ]
+}</expectedInputJson>
+    <expectedOutputJson>{
+    &quot;Records&quot;: {
+        &quot;ReferrerPhone&quot;: &quot;Text&quot;,
+        &quot;ReferrerName&quot;: &quot;Text&quot;,
+        &quot;ReferrerEmail&quot;: &quot;Text&quot;,
+        &quot;ReferrerId&quot;: &quot;Text&quot;
+    }
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSDRTransformReferrerRecord</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+    &quot;Records&quot;: [
+        {
+            &quot;Name&quot;: &quot;Complaint User Person&quot;,
+            &quot;Id&quot;: &quot;001RO000003dmvmYAA&quot;,
+            &quot;Email&quot;: &quot;aditya.singh@salesforce.com&quot;,
+            &quot;Phone&quot;: &quot;1234567890&quot;
+        },
+        {
+            &quot;Name&quot;: &quot;Complaint User Person&quot;,
+            &quot;Id&quot;: &quot;001RO000003dmvSYAQ&quot;
+        }
+    ]
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Transform</type>
+</DataMapperDefinition>

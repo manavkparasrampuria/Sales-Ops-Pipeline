@@ -1,0 +1,206 @@
+{
+    "executionId": "0k14S000000008bQAA_20220207_162058_74472f59",
+    "output": {
+        "aggregationResults": {
+        },
+        "calculationResults": [
+            {
+                "EligibleForFoodAssistance": "true",
+                "FoodAssistanceBenefit": 358,
+                "ID": "input"
+            }
+        ]
+    },
+    "simulationResults": [
+        {
+            "datatype": "Boolean",
+            "name": "EligibleForFoodAssistance",
+            "precision": 2,
+            "value": "true"
+        },
+        {
+            "datatype": "Currency",
+            "name": "FoodAssistanceBenefit",
+            "precision": 2,
+            "value": "358.00"
+        }
+    ],
+    "simulationStepResults": {
+        "0mq4S0000000092QAA": {
+            "additionalInfo": {
+                "endDate": "empty",
+                "startDate": "2022-01-01T08:00:00.000Z",
+                "stepType": "DecisionMatrix",
+                "versionName": "Food Assistance Income Limits V1",
+                "versionNumber": "1"
+            },
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Number",
+                    "name": "HouseholdSize",
+                    "precision": 0,
+                    "value": "3"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Currency",
+                    "name": "FoodAssistanceIncomeLimits__GrossHouseholdIncomeLimit",
+                    "precision": 2,
+                    "value": "2379"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "FoodAssistanceIncomeLimits__NetHouseholdIncomeLimit",
+                    "precision": 2,
+                    "value": "1830"
+                }
+            ]
+        },
+        "0mq4S0000000093QAA": {
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Currency",
+                    "name": "GrossHouseholdIncome",
+                    "precision": 2,
+                    "value": "1000.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "FoodAssistanceIncomeLimits__GrossHouseholdIncomeLimit",
+                    "precision": 2,
+                    "value": "2379"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "FoodAssistanceIncomeLimits__NetHouseholdIncomeLimit",
+                    "precision": 2,
+                    "value": "1830"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "NetIncome",
+                    "precision": 2,
+                    "value": "1000.00"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Boolean",
+                    "name": "condition_output__1",
+                    "value": "true"
+                }
+            ]
+        },
+        "0mq4S0000000094QAA": {
+            "stepErrors": {
+            },
+            "stepInputs": [
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Boolean",
+                    "name": "EligibleForFoodAssistance",
+                    "precision": 2,
+                    "value": "true"
+                }
+            ]
+        },
+        "0mq4S0000000095QAA": {
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Boolean",
+                    "name": "EligibleForFoodAssistance",
+                    "precision": 2,
+                    "value": "true"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Boolean",
+                    "name": "condition_output__2",
+                    "value": "true"
+                }
+            ]
+        },
+        "0mq4S0000000096QAA": {
+            "additionalInfo": {
+                "endDate": "empty",
+                "startDate": "2021-12-01T08:00:00.000Z",
+                "stepType": "DecisionMatrix",
+                "versionName": "Food Assistance Benefits V1",
+                "versionNumber": "1"
+            },
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Number",
+                    "name": "HouseholdSize",
+                    "precision": 0,
+                    "value": "3"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Currency",
+                    "name": "FoodAssistanceBenefits__MaximumMonthlyBenefit",
+                    "precision": 2,
+                    "value": "658"
+                }
+            ]
+        },
+        "0mq4S0000000097QAA": {
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Currency",
+                    "name": "NetIncome",
+                    "precision": 2,
+                    "value": "1000.00"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Currency",
+                    "name": "IncomeForFood",
+                    "precision": 2,
+                    "value": "300.00"
+                }
+            ]
+        },
+        "0mq4S0000000098QAA": {
+            "stepErrors": {
+            },
+            "stepInputs": [
+                {
+                    "datatype": "Currency",
+                    "name": "IncomeForFood",
+                    "precision": 2,
+                    "value": "300.00"
+                },
+                {
+                    "datatype": "Currency",
+                    "name": "FoodAssistanceBenefits__MaximumMonthlyBenefit",
+                    "precision": 2,
+                    "value": "658"
+                }
+            ],
+            "stepResults": [
+                {
+                    "datatype": "Currency",
+                    "name": "FoodAssistanceBenefit",
+                    "precision": 2,
+                    "value": "358.00"
+                }
+            ]
+        }
+    }
+}

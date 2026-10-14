@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveRetailLiquorLicenseCustom5733</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRSaveRetailLiquorLicenseCustom6988</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <defaultValue>2500</defaultValue>
+        <globalKey>DRSaveRetailLiquorLicenseCustom1244</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveRetailLiquorLicenseCustom5367</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>AccountId</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <defaultValue>Retail Dispensary</defaultValue>
+        <globalKey>DRSaveRetailLiquorLicenseCustom1526</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <defaultValue>License</defaultValue>
+        <globalKey>DRSaveRetailLiquorLicenseCustom2346</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationCategory</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveRetailLiquorLicenseCustom9040</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <defaultValue>Application Fee</defaultValue>
+        <globalKey>DRSaveRetailLiquorLicenseCustom6647</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <defaultValue>Permit</defaultValue>
+        <globalKey>DRSaveRetailLiquorLicenseCustom1459</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveRetailLiquorLicenseCustom8465</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <globalKey>DRSaveRetailLiquorLicenseCustom7927</globalKey>
+        <inputField>ApplicantInformation:TradeNameofEstablishment</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Account</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveRetailLiquorLicenseCustom597</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>DRSaveRetailLiquorLicenseCustom3427</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveRetailLiquorLicenseCustom4207</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ParentRecordId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <defaultValue>PAID</defaultValue>
+        <globalKey>DRSaveRetailLiquorLicenseCustom3834</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveRetailLiquorLicense</dataMapperDefItemName>
+        <globalKey>DRSaveRetailLiquorLicenseCustom137</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRSaveApplication&quot;: null,
+        &quot;ApplicationSubmitted&quot;: null,
+        &quot;CurrentLicenseInformation&quot;: null,
+        &quot;Documentation&quot;: null,
+        &quot;SetValues1&quot;: null,
+        &quot;Payment&quot;: null,
+        &quot;ApplicationChecklist&quot;: null,
+        &quot;AdditionalLicenseDetails&quot;: null,
+        &quot;LicenseTypeStep&quot;: null,
+        &quot;Acknowledgement&quot;: null,
+        &quot;ReviewFee&quot;: null,
+        &quot;GotoApplicationDetails&quot;: null,
+        &quot;ApplicantInformation&quot;: null,
+        &quot;Instructions&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;ApplicationSubmitted&quot;: {},
+    &quot;CurrentLicenseInformation&quot;: {
+        &quot;PresentClassofLicense&quot;: null,
+        &quot;PresentTradeName&quot;: null,
+        &quot;PresentExpirationDate&quot;: null,
+        &quot;PresentStateLicenseNumber&quot;: null
+    },
+    &quot;Documentation&quot;: {
+        &quot;File1&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    },
+    &quot;Payment&quot;: {
+        &quot;CustomLWC2&quot;: null,
+        &quot;Amount&quot;: null
+    },
+    &quot;ApplicationChecklist&quot;: {},
+    &quot;AdditionalLicenseDetails&quot;: {
+        &quot;Radio1&quot;: null,
+        &quot;Radio4&quot;: null,
+        &quot;Radio6&quot;: null,
+        &quot;Radio3&quot;: null,
+        &quot;Radio2&quot;: null,
+        &quot;Radio5&quot;: null,
+        &quot;TextArea1&quot;: null,
+        &quot;Radio7&quot;: null
+    },
+    &quot;LicenseTypeStep&quot;: {
+        &quot;LicenseType&quot;: null,
+        &quot;ApplicantApplyingAs&quot;: null
+    },
+    &quot;Acknowledgement&quot;: {
+        &quot;CaptureSignature&quot;: null,
+        &quot;Disclosure1&quot;: null
+    },
+    &quot;ReviewFee&quot;: {
+        &quot;PayNow&quot;: null
+    },
+    &quot;ApplicantInformation&quot;: {
+        &quot;ApplicantAddress&quot;: null,
+        &quot;HomePhone&quot;: null,
+        &quot;MobilePhone&quot;: null,
+        &quot;FirstName&quot;: null,
+        &quot;LLCInformation&quot;: null,
+        &quot;FEINNumber&quot;: null,
+        &quot;MailingAddressSame&quot;: null,
+        &quot;LastName&quot;: null,
+        &quot;EmailAddress&quot;: null,
+        &quot;TradeNameofEstablishment&quot;: null,
+        &quot;Preferred Language&quot;: null,
+        &quot;DLNumber&quot;: null
+    },
+    &quot;Instructions&quot;: {}
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRSaveRetailLiquorLicense</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;DRSaveApplication&quot;:null,&quot;ApplicationSubmitted&quot;:null,&quot;CurrentLicenseInformation&quot;:null,&quot;Documentation&quot;:null,&quot;SetValues1&quot;:null,&quot;Payment&quot;:null,&quot;ApplicationChecklist&quot;:null,&quot;AdditionalLicenseDetails&quot;:null,&quot;LicenseTypeStep&quot;:null,&quot;Acknowledgement&quot;:null,&quot;ReviewFee&quot;:null,&quot;GotoApplicationDetails&quot;:null,&quot;ApplicantInformation&quot;:null,&quot;Instructions&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;ApplicationSubmitted&quot;:{},&quot;CurrentLicenseInformation&quot;:{&quot;PresentClassofLicense&quot;:null,&quot;PresentTradeName&quot;:null,&quot;PresentExpirationDate&quot;:null,&quot;PresentStateLicenseNumber&quot;:null},&quot;Documentation&quot;:{&quot;File1&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]},&quot;Payment&quot;:{&quot;CustomLWC2&quot;:null,&quot;Amount&quot;:null},&quot;ApplicationChecklist&quot;:{},&quot;AdditionalLicenseDetails&quot;:{&quot;Radio1&quot;:null,&quot;Radio4&quot;:null,&quot;Radio6&quot;:null,&quot;Radio3&quot;:null,&quot;Radio2&quot;:null,&quot;Radio5&quot;:null,&quot;TextArea1&quot;:null,&quot;Radio7&quot;:null},&quot;LicenseTypeStep&quot;:{&quot;LicenseType&quot;:null,&quot;ApplicantApplyingAs&quot;:null},&quot;Acknowledgement&quot;:{&quot;CaptureSignature&quot;:null,&quot;Disclosure1&quot;:null},&quot;ReviewFee&quot;:{&quot;PayNow&quot;:null},&quot;ApplicantInformation&quot;:{&quot;ApplicantAddress&quot;:null,&quot;HomePhone&quot;:null,&quot;MobilePhone&quot;:null,&quot;FirstName&quot;:null,&quot;LLCInformation&quot;:null,&quot;FEINNumber&quot;:null,&quot;MailingAddressSame&quot;:null,&quot;LastName&quot;:null,&quot;EmailAddress&quot;:null,&quot;TradeNameofEstablishment&quot;:null,&quot;Preferred Language&quot;:null,&quot;DLNumber&quot;:null},&quot;Instructions&quot;:{}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

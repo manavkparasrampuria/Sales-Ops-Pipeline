@@ -1,0 +1,41 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n\t\t\t\"numGroupedAlerts\": 3,\n\t\t\t\"accountName\": \"Record Name\",\n\t\t\t\"severity\": \"Error\",\n\t\t\t\"childAlerts\": [\n\t\t\t\t{\n\t\t\t\t\t\"severity\": \"Error\",\n\t\t\t\t\t\"subject\": \"Alert 1 \",\n\t\t\t\t\t\"description\": \"Alert 1 description\",\n\t\t\t\t\t\"effectiveDate\": \"2021-11-11T20:40:06.000Z\",\n\t\t\t\t\t\"validUntilDate\": \"2022-03-10T20:00:00.000Z\",\n\t\t\t\t\t\"categoryName\": \"Category\",\n\t\t\t\t\t\"isExternal\": false,\n\t\t\t\t\t\"id\": \"0qZRO000000000Q2AQ\",\n\t\t\t\t\t\"whatName\": \"Account Name\",\n\t\t\t\t\t\"dismiss\": {\n\t\t\t\t\t\t\"id\": \"0qZRO000000000Q2AQ\"\n\t\t\t\t\t},\n\t\t\t\t\t\"snooze\": {\n\t\t\t\t\t\t\"id\": \"0qZRO000000000Q2AQ\",\n\t\t\t\t\t\t\"effectiveDate\": \"\"\n\t\t\t\t\t},\n\t\t\t\t\t\"isChild\": true\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"severity\": \"Error\",\n\t\t\t\t\t\"subject\": \"Alert 2 \",\n\t\t\t\t\t\"description\": \"Alert 2 description\",\n\t\t\t\t\t\"effectiveDate\": \"2021-11-11T00:42:23.000Z\",\n\t\t\t\t\t\"validUntilDate\": \"2021-12-17T20:00:00.000Z\",\n\t\t\t\t\t\"categoryName\": \"Fraud\",\n\t\t\t\t\t\"isExternal\": false,\n\t\t\t\t\t\"id\": \"0qZRO000000000p2AA\",\n\t\t\t\t\t\"whatName\": \"Account Name\",\n\t\t\t\t\t\"dismiss\": {\n\t\t\t\t\t\t\"id\": \"0qZRO000000000p2AA\"\n\t\t\t\t\t},\n\t\t\t\t\t\"snooze\": {\n\t\t\t\t\t\t\"id\": \"0qZRO000000000p2AA\",\n\t\t\t\t\t\t\"effectiveDate\": \"\"\n\t\t\t\t\t},\n\t\t\t\t\t\"isChild\": true\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"severity\": \"Error\",\n\t\t\t\t\t\"subject\": \"Alert 3 \",\n\t\t\t\t\t\"description\": \"Alert 3 description\",\n\t\t\t\t\t\"effectiveDate\": \"2021-11-10T20:00:00.000Z\",\n\t\t\t\t\t\"validUntilDate\": \"2022-11-08T20:00:00.000Z\",\n\t\t\t\t\t\"categoryName\": \"Fraud\",\n\t\t\t\t\t\"isExternal\": false,\n\t\t\t\t\t\"id\": \"0qZRO000000003o2AA\",\n\t\t\t\t\t\"whatName\": \"Account Name\",\n\t\t\t\t\t\"dismiss\": {\n\t\t\t\t\t\t\"id\": \"0qZRO000000003o2AA\"\n\t\t\t\t\t},\n\t\t\t\t\t\"snooze\": {\n\t\t\t\t\t\t\"id\": \"0qZRO000000003o2AA\",\n\t\t\t\t\t\t\"effectiveDate\": \"\"\n\t\t\t\t\t},\n\t\t\t\t\t\"isChild\": true\n\t\t\t\t}\n\t\t\t],\n\t\t\t\"subject\": \"(5) Category Alerts on Record\"\n\t\t}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "PSSServiceExcellenceGroupedAlert",
+    "Namespace": "",
+    "OmniUiCardKey": "PSSServiceExcellenceGroupedAlert/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "PSSServiceExcellenceGroupedAlert.json",
+    "SampleDataSourceResponse": "{\"numGroupedAlerts\":3,\"accountName\":\"Record Name\",\"severity\":\"Error\",\"childAlerts\":[{\"severity\":\"Error\",\"subject\":\"Alert 1 \",\"description\":\"Alert 1 description\",\"effectiveDate\":\"2021-11-11T20:40:06.000Z\",\"validUntilDate\":\"2022-03-10T20:00:00.000Z\",\"categoryName\":\"Category\",\"isExternal\":false,\"id\":\"0qZRO000000000Q2AQ\",\"whatName\":\"Account Name\",\"dismiss\":{\"id\":\"0qZRO000000000Q2AQ\"},\"snooze\":{\"id\":\"0qZRO000000000Q2AQ\",\"effectiveDate\":\"\"},\"isChild\":true},{\"severity\":\"Error\",\"subject\":\"Alert 2 \",\"description\":\"Alert 2 description\",\"effectiveDate\":\"2021-11-11T00:42:23.000Z\",\"validUntilDate\":\"2021-12-17T20:00:00.000Z\",\"categoryName\":\"Fraud\",\"isExternal\":false,\"id\":\"0qZRO000000000p2AA\",\"whatName\":\"Account Name\",\"dismiss\":{\"id\":\"0qZRO000000000p2AA\"},\"snooze\":{\"id\":\"0qZRO000000000p2AA\",\"effectiveDate\":\"\"},\"isChild\":true},{\"severity\":\"Error\",\"subject\":\"Alert 3 \",\"description\":\"Alert 3 description\",\"effectiveDate\":\"2021-11-10T20:00:00.000Z\",\"validUntilDate\":\"2022-11-08T20:00:00.000Z\",\"categoryName\":\"Fraud\",\"isExternal\":false,\"id\":\"0qZRO000000003o2AA\",\"whatName\":\"Account Name\",\"dismiss\":{\"id\":\"0qZRO000000003o2AA\"},\"snooze\":{\"id\":\"0qZRO000000003o2AA\",\"effectiveDate\":\"\"},\"isChild\":true}],\"subject\":\"(5) Category Alerts on Record\"}",
+    "StylingConfiguration": "{\"customStyles\":\".chevron button {\\n    width: auto !important; \\n    height: auto !important;\\n    background-color: white !important;\\n    color: #747474 !important;\\n    border: 0px !important;\\n    padding: 0px !important;\\n    margin-left: 18px !important;\\n}\\n\\n.chevron button:hover {\\n    width: auto !important; \\n    height: auto !important;\\n    background-color: white !important;\\n    color: #747474 !important;\\n    border: 0px !important;\\n    padding: 0px !important;\\n    margin-left: 18px !important;\\n}\\n\\n.chevron button:focus {\\n    width: auto !important; \\n    height: auto !important;\\n    background-color: white !important;\\n    color: #747474 !important;\\n    border: 0px !important;\\n    padding: 0px !important;\\n    margin-left: 18px !important;\\n}\\n\\n.icon {\\n    margin-top: 10px !important;\\n    margin-left: 0px !important;\\n    width: auto !important;\\n    height: auto !important;\\n}\\n\\n.subject {\\n    margin-top: 8px !important;\\n    margin-left: 10px !important;\\n}\\n\\n.actionContainer svg {\\n  border-radius: 2px !important;\\n  padding: 4px !important;\\n}\\n\"}",
+    "UniqueName": "PSSServiceExcellenceGroupedAlert_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/PSSServiceExcellenceGroupedAlert"
+}

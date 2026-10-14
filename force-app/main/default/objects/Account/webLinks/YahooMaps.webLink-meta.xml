@@ -10,11 +10,11 @@
     <height>600</height>
     <isResizable>true</isResizable>
     <linkType>url</linkType>
-    <masterLabel>Mapas de Yahoo!</masterLabel>
+    <masterLabel>Yahoo Maps</masterLabel>
     <openType>newWindow</openType>
     <position>none</position>
     <protected>false</protected>
     <showsLocation>true</showsLocation>
     <showsStatus>true</showsStatus>
-    <url>http://maps.yahoo.com/py/maps.py?cn={!Account.BillingCountry}&amp;csz={!Account.BillingCity}+{!Account.BillingState}+{!Account.BillingPostalCode}+&amp;addr={!Account.BillingStreet}</url>
+    <url>http://maps.yahoo.com/py/maps.py?cn={!Account_BillingCountry}&amp;csz={!Account_BillingCity}+{!Account_BillingState}+{!Account_BillingPostalCode}+&amp;addr={!Account_BillingAddress}</url>
 </WebLink>

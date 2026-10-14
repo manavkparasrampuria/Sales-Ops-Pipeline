@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>RecruitmentTransformEducationDetailsForCertificate1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>RecruitmentTransformEducationDetailsForCertificate1Custom0jIKX000000TyA12AKItem2</globalKey>
+        <inputField>EducationDetails:Education:Institution</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>UploadCertificates:NewCertificateUpload:NCUInstitution</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>RecruitmentTransformEducationDetailsForCertificate1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>RecruitmentTransformEducationDetailsForCertificate1Custom0jIKX000000TyA12AKItem1</globalKey>
+        <inputField>EducationDetails:Education:Id</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>UploadCertificates:NewCertificateUpload:NCUPersonEducationId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>RecruitmentTransformEducationDetailsForCertificate1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>RecruitmentTransformEducationDetailsForCertificate1Custom0jIKX000000TyA12AKItem0</globalKey>
+        <inputField>EducationDetails:Education:Degree</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>UploadCertificates:NewCertificateUpload:NCUDegree</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Transforms the education details provided by the applicant for display in the Upload Certificates step of the job application.</description>
+    <expectedInputJson>{
+  &quot;EducationDetails&quot; : {
+    &quot;Education&quot; : [ {
+      &quot;AccountId&quot; : &quot;001xx000003GayVAAS&quot;,
+      &quot;GraduationDate&quot; : &quot;2024-06-14&quot;,
+      &quot;StartDate&quot; : &quot;2024-06-05&quot;,
+      &quot;EducationLevel&quot; : &quot;Fellowship&quot;,
+      &quot;Id&quot; : &quot;0Srxx0000004EUCCA2&quot;,
+      &quot;Institution&quot; : &quot;1 file hjbasdjh&quot;,
+      &quot;InstitutionStreet&quot; : &quot;sdf&quot;,
+      &quot;Degree&quot; : &quot;1 file&quot;,
+      &quot;InstitutionPostalCode&quot; : &quot;345345&quot;,
+      &quot;InstitutionCity&quot; : &quot;sdf&quot;,
+      &quot;InstitutionCountry&quot; : &quot;dsf&quot;
+    }, {
+      &quot;AccountId&quot; : &quot;001xx000003GayVAAS&quot;,
+      &quot;GraduationDate&quot; : &quot;2024-06-14&quot;,
+      &quot;StartDate&quot; : &quot;2024-06-14&quot;,
+      &quot;EducationLevel&quot; : &quot;Medical School&quot;,
+      &quot;Id&quot; : &quot;0Srxx0000004EVoCAM&quot;,
+      &quot;Institution&quot; : &quot;no file&quot;,
+      &quot;InstitutionStreet&quot; : &quot;sdf&quot;,
+      &quot;Degree&quot; : &quot;no file&quot;,
+      &quot;InstitutionPostalCode&quot; : &quot;435345&quot;,
+      &quot;InstitutionCity&quot; : &quot;sdf&quot;,
+      &quot;InstitutionCountry&quot; : &quot;fsd&quot;
+    }, {
+      &quot;AccountId&quot; : &quot;001xx000003GayVAAS&quot;,
+      &quot;GraduationDate&quot; : &quot;2024-06-14&quot;,
+      &quot;StartDate&quot; : &quot;2024-06-15&quot;,
+      &quot;EducationLevel&quot; : &quot;Fellowship&quot;,
+      &quot;Id&quot; : &quot;0Srxx0000004EXQCA2&quot;,
+      &quot;Institution&quot; : &quot;2 file&quot;,
+      &quot;InstitutionStreet&quot; : &quot;sad&quot;,
+      &quot;Degree&quot; : &quot;2 file&quot;,
+      &quot;InstitutionPostalCode&quot; : &quot;322342&quot;,
+      &quot;InstitutionCity&quot; : &quot;asd&quot;,
+      &quot;InstitutionCountry&quot; : &quot;ds&quot;
+    } ]
+  }
+}</expectedInputJson>
+    <expectedOutputJson>{
+  &quot;UploadDocuments&quot; : {
+    &quot;EducationDocuments&quot; : [ {
+      &quot;PersonEducationId&quot; : &quot;0Srxx0000004EUCCA2&quot;,
+      &quot;UploadInstitution&quot; : &quot;1 file hjbasdjh&quot;,
+      &quot;UploadDegree&quot; : &quot;1 file&quot;
+    }, {
+      &quot;PersonEducationId&quot; : &quot;0Srxx0000004EVoCAM&quot;,
+      &quot;UploadInstitution&quot; : &quot;no file&quot;,
+      &quot;UploadDegree&quot; : &quot;no file&quot;
+    }, {
+      &quot;PersonEducationId&quot; : &quot;0Srxx0000004EXQCA2&quot;,
+      &quot;UploadInstitution&quot; : &quot;2 file&quot;,
+      &quot;UploadDegree&quot; : &quot;2 file&quot;
+    } ]
+  }
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>RecruitmentTransformEducationDetailsForCertificate1</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;EducationDetails&quot; : {
+    &quot;Education&quot; : [ {
+      &quot;AccountId&quot; : &quot;001xx000003GayVAAS&quot;,
+      &quot;GraduationDate&quot; : &quot;2024-06-14&quot;,
+      &quot;StartDate&quot; : &quot;2024-06-05&quot;,
+      &quot;EducationLevel&quot; : &quot;Fellowship&quot;,
+      &quot;Id&quot; : &quot;0Srxx0000004EUCCA2&quot;,
+      &quot;Institution&quot; : &quot;1 file hjbasdjh&quot;,
+      &quot;InstitutionStreet&quot; : &quot;sdf&quot;,
+      &quot;Degree&quot; : &quot;1 file&quot;,
+      &quot;InstitutionPostalCode&quot; : &quot;345345&quot;,
+      &quot;InstitutionCity&quot; : &quot;sdf&quot;,
+      &quot;InstitutionCountry&quot; : &quot;dsf&quot;
+    }, {
+      &quot;AccountId&quot; : &quot;001xx000003GayVAAS&quot;,
+      &quot;GraduationDate&quot; : &quot;2024-06-14&quot;,
+      &quot;StartDate&quot; : &quot;2024-06-14&quot;,
+      &quot;EducationLevel&quot; : &quot;Medical School&quot;,
+      &quot;Id&quot; : &quot;0Srxx0000004EVoCAM&quot;,
+      &quot;Institution&quot; : &quot;no file&quot;,
+      &quot;InstitutionStreet&quot; : &quot;sdf&quot;,
+      &quot;Degree&quot; : &quot;no file&quot;,
+      &quot;InstitutionPostalCode&quot; : &quot;435345&quot;,
+      &quot;InstitutionCity&quot; : &quot;sdf&quot;,
+      &quot;InstitutionCountry&quot; : &quot;fsd&quot;
+    }, {
+      &quot;AccountId&quot; : &quot;001xx000003GayVAAS&quot;,
+      &quot;GraduationDate&quot; : &quot;2024-06-14&quot;,
+      &quot;StartDate&quot; : &quot;2024-06-15&quot;,
+      &quot;EducationLevel&quot; : &quot;Fellowship&quot;,
+      &quot;Id&quot; : &quot;0Srxx0000004EXQCA2&quot;,
+      &quot;Institution&quot; : &quot;2 file&quot;,
+      &quot;InstitutionStreet&quot; : &quot;sad&quot;,
+      &quot;Degree&quot; : &quot;2 file&quot;,
+      &quot;InstitutionPostalCode&quot; : &quot;322342&quot;,
+      &quot;InstitutionCity&quot; : &quot;asd&quot;,
+      &quot;InstitutionCountry&quot; : &quot;ds&quot;
+    } ]
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+</DataMapperDefinition>

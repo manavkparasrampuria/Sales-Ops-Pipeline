@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Frequency of Access --></label>
+    <name>PublicSector__FrequencyofAccess__c</name>
+    <picklistValues>
+        <masterLabel>Ongoing Shift Work</masterLabel>
+        <translation>Trabajo por turnos continuado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Visit</masterLabel>
+        <translation>Única visita</translation>
+    </picklistValues>
+</CustomFieldTranslation>

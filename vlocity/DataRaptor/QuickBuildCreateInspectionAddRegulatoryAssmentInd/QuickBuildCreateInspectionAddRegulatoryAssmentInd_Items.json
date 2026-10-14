@@ -1,0 +1,78 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildCreateInspectionAddRegulatoryAssmentInd1941306434364911",
+        "InputFieldName": "FilteredList2:RegCodeAssementIndToInsert:AssessmentIndicatorName",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "Name",
+        "LookupObjectName": "AssessmentIndicatorDefinition",
+        "LookupReturnedFieldName": "Id",
+        "MayEdit": true,
+        "Name": "QuickBuildCreateInspectionAddRegulatoryAssmentInd",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildCreateInspectionAddRegulatoryAssmentInd",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildCreateInspectionAddRegulatoryAssmentInd",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AssessmentIndDefinitionId",
+        "OutputObjectName": "RegulatoryCodeAssessmentInd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "QuickBuildCreateInspectionAddRegulatoryAssmentInd2103392906076642",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "QuickBuildCreateInspectionAddRegulatoryAssmentInd",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildCreateInspectionAddRegulatoryAssmentInd",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildCreateInspectionAddRegulatoryAssmentInd",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "RegulatoryCodeAssessmentInd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildCreateInspectionAddRegulatoryAssmentInd07653404399387465",
+        "InputFieldName": "FilteredList2:RegCodeAssementIndToInsert:RegulatoryCodeName",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "Name",
+        "LookupObjectName": "RegulatoryCode",
+        "LookupReturnedFieldName": "Id",
+        "MayEdit": true,
+        "Name": "QuickBuildCreateInspectionAddRegulatoryAssmentInd",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildCreateInspectionAddRegulatoryAssmentInd",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildCreateInspectionAddRegulatoryAssmentInd",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "RegulatoryCodeId",
+        "OutputObjectName": "RegulatoryCodeAssessmentInd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

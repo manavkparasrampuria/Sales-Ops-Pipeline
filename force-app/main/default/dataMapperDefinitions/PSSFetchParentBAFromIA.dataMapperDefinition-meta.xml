@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchParentBAFromIA</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSFetchParentBAFromIACustom2850</globalKey>
+        <inputField>IndividualApplication:BenefitAssignmentId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IndividualApplication:BenefitAssignmentId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchParentBAFromIA</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>IAId</filterValue>
+        <globalKey>PSSFetchParentBAFromIACustom7649</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>IndividualApplication</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>IndividualApplication</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Fetches the parent BA of an individual application.</description>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSFetchParentBAFromIA</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;IAId&quot; : &quot;0iTSB0000000Psr2AE&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Extract</type>
+</DataMapperDefinition>

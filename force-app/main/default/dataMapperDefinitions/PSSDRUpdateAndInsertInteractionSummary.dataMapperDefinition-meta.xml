@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRUpdateAndInsertInteractionSummary</dataMapperDefItemName>
+        <globalKey>PSSDRUpdateAndInsertInteractionSummary24878021228480018</globalKey>
+        <inputField>InteractionSummaryRecordId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>InteractionSummary</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRUpdateAndInsertInteractionSummary</dataMapperDefItemName>
+        <globalKey>PSSDRUpdateAndInsertInteractionSummary9096754321387486</globalKey>
+        <inputField>ReferralIntakeDetails:AdditionalNotes:Comments</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>MeetingNotes</outputField>
+        <outputObject>InteractionSummary</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRUpdateAndInsertInteractionSummary</dataMapperDefItemName>
+        <globalKey>PSSDRUpdateAndInsertInteractionSummary47857519940151905</globalKey>
+        <inputField>ReferralIntakeDetails:Title</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>InteractionSummary</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRUpdateAndInsertInteractionSummary</dataMapperDefItemName>
+        <globalKey>PSSDRUpdateAndInsertInteractionSummary038619577700871766</globalKey>
+        <inputField>ReferralRecordId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RelatedRecordId</outputField>
+        <outputObject>InteractionSummary</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRUpdateAndInsertInteractionSummary</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSDRUpdateAndInsertInteractionSummary7985366177670825</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>InteractionSummary</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;timeStamp&quot;: &quot;2022-09-28T08:17:52.438Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;userTimeZone&quot;: &quot;-420&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;cintake1@demo.com&quot;,
+    &quot;userId&quot;: &quot;005RO000000ZwqXYAS&quot;,
+    &quot;UploadDocuments&quot;: null,
+    &quot;HealthAndSafety&quot;: null,
+    &quot;SampleAssessment1CompletedMessage&quot;: null,
+    &quot;WorkExperience&quot;: null,
+    &quot;SampleAssessment2CompletedMessage&quot;: null,
+    &quot;SampleAssessment3&quot;: null,
+    &quot;SampleAssessment3CompletedMessage&quot;: null,
+    &quot;ReviewAssessments&quot;: null,
+    &quot;ReferralRecordId&quot;: &quot;0fhRO00000000e3YAA&quot;,
+    &quot;ReferralIntakeDetails&quot;: {
+        &quot;ReferralDetails&quot;: {
+            &quot;SearchReferrerByName-Block&quot;: {
+                &quot;SearchReferrerByName&quot;: null
+            },
+            &quot;ReferrerNameNew&quot;: null,
+            &quot;ReferrerOrganizationNew&quot;: null,
+            &quot;ReferrerPhoneNew&quot;: null,
+            &quot;ReferrerEmailNew&quot;: null,
+            &quot;FinalReferrerName&quot;: null,
+            &quot;FinalReferralEmail&quot;: null,
+            &quot;ReferralAccountType&quot;: &quot;SearchExistingAccounts&quot;
+        },
+        &quot;ClientDetails&quot;: {
+            &quot;SearchClientByName-Block&quot;: {
+                &quot;SearchClientByName&quot;: null,
+                &quot;ClientPreferredLanguage&quot;: &quot;English&quot;
+            },
+            &quot;ClientNameNew&quot;: null,
+            &quot;ClientPhoneNew&quot;: null,
+            &quot;ClientEmailNew&quot;: null,
+            &quot;ClientPreferredLanguageNew&quot;: null,
+            &quot;FinalClientEmail&quot;: null,
+            &quot;FinalClientPreferredLanguage&quot;: &quot;English&quot;,
+            &quot;ClientAccountType&quot;: &quot;SearchExistingAccounts&quot;
+        },
+        &quot;AdditionalDetails&quot;: false,
+        &quot;Assessment&quot;: null,
+        &quot;ShowSampleAssessment1&quot;: false,
+        &quot;ShowSampleAssessment2&quot;: false,
+        &quot;ShowSampleAssessment3&quot;: false,
+        &quot;IsSampleAssessment1Completed&quot;: false,
+        &quot;IsSampleAssessment2Completed&quot;: false,
+        &quot;IsSampleAssessment3Completed&quot;: false,
+        &quot;ReferralDate&quot;: &quot;2022-09-28&quot;,
+        &quot;ReferralTypeSelfOrSomeone&quot;: &quot;false&quot;,
+        &quot;Title&quot;: &quot;adfs&quot;,
+        &quot;AdditionalNotes&quot;: {
+            &quot;Comments&quot;: &quot;adsfads&quot;
+        }
+    },
+    &quot;DefaultEmailAddress&quot;: &quot;&quot;,
+    &quot;DRId_Referral&quot;: &quot;a0GRO0000009lNa2AI&quot;,
+    &quot;InteractionSummaryValue&quot;: &quot;adsfads&quot;,
+    &quot;MainReferralRecordId&quot;: &quot;a0GRO0000009lNa2AI&quot;,
+    &quot;DRId_InteractionSummary&quot;: &quot;8BVRO00000008m34AA&quot;,
+    &quot;InteractionSummaryRecordId&quot;: &quot;8BVRO00000008m34AA&quot;,
+    &quot;sInstanceId&quot;: &quot;0kTRO000000025A2AQ&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSDRUpdateAndInsertInteractionSummary</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;data&quot;: [],
+  &quot;timeStamp&quot;: &quot;2022-05-06T06:02:24.287Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+  &quot;userTimeZone&quot;: &quot;-420&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;admin238rfpss@sf.com&quot;,
+  &quot;userId&quot;: &quot;005RQ000000HfNuYAK&quot;,
+  &quot;DRId_PublicComplaint&quot;: &quot;0fhRO00000000MiYAI&quot;,
+  &quot;NewComplaint&quot;: {
+    &quot;AdditionalDetails&quot;: false,
+    &quot;Participants&quot;: null,
+    &quot;Allegations&quot;: null,
+    &quot;RequestConfidentiality&quot;: &quot;No&quot;,
+    &quot;ComplaintDetails&quot;: {
+      &quot;Subject&quot;: &quot;complaint1&quot;,
+      &quot;Priority&quot;: &quot;Critical&quot;,
+      &quot;Status&quot;: &quot;Submitted&quot;,
+      &quot;FirstName&quot;: &quot;brij&quot;,
+      &quot;LastName&quot;: &quot;reporter lastname&quot;,
+      &quot;Organization&quot;: &quot;org&quot;,
+      &quot;Phone&quot;: &quot;2342342342&quot;,
+      &quot;Email&quot;: &quot;sdfg@sdf.sdfg&quot;,
+      &quot;Address&quot;: &quot;sfgsdfgsfg&quot;,
+      &quot;LocationOfIncident&quot;: &quot;bangalore&quot;,
+      &quot;DateReported&quot;: &quot;2022-05-05&quot;,
+      &quot;Details&quot;: &quot;sdsdfsf&quot;
+    },
+    &quot;RunningNotes&quot;: &quot;Running Notes1&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

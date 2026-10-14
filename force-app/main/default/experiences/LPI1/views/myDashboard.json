@@ -1,0 +1,372 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "e0cba145-50d5-44e4-8b09-15d352efe34f",
+  "label" : "My Dashboard",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "67c33e27-2366-4f2f-a33b-17724ee74e26",
+          "columns" : [ {
+            "UUID" : "209e743c-42ce-46c5-9721-70ff1cbb4d96",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "67c33e27-2366-4f2f-a33b-17724ee74e26",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ca1f8f9b-7de6-41ee-8c4e-2b56d1ddd2d4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "36ca73d8-26e4-4f46-b041-e74df6ba730d",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "b683dd1e-0de8-4540-b1a6-590a2969788b",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "Individual License Applications"
+              }, {
+                "UUID" : "44de5e8c-b694-4eb8-a474-0de00782d2f7",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Business License Applications"
+              }, {
+                "UUID" : "57b4cf08-c506-4690-80a1-a93c25f61e44",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "0a4c9",
+                "tabName" : "Draft Applications and Assessments"
+              }, {
+                "UUID" : "21b05e02-dab5-446a-80d0-96cf704fb91b",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "7f980",
+                "tabName" : "My Licenses / Permits"
+              }, {
+                "UUID" : "64257169-b4c8-4418-b17e-5ea1af1c31d1",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "3",
+                "tabName" : "My Inspections"
+              }, {
+                "UUID" : "cb040014-9343-45b4-a656-12350fd92cf8",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "3b734",
+                "tabName" : "My Cases"
+              }, {
+                "UUID" : "5c4d7d56-160d-4ae9-ab46-cea1ae0f727c",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "032a6",
+                "tabName" : "My Complaints"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "36ca73d8-26e4-4f46-b041-e74df6ba730d",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "My_Submitted_Application",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "IndividualApplication",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : true,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "dcafe08b-88df-4043-a8ba-f72a5d29c5ee",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "b683dd1e-0de8-4540-b1a6-590a2969788b",
+            "regionLabel" : "Individual License Applications",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "All_BusinessLicenseApplication",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "BusinessLicenseApplication",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : true,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "6a3304e8-0ed4-4ddd-be9a-3a0df5d86439",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "44de5e8c-b694-4eb8-a474-0de00782d2f7",
+            "regionLabel" : "Business License Applications",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "DraftPreliminaryApplicationRef",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "PreliminaryApplicationRef",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : false,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "30232e95-29c8-4a53-9254-ef773e92936c",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "57b4cf08-c506-4690-80a1-a93c25f61e44",
+            "regionLabel" : "Draft Applications and Assessments",
+            "regionName" : "0a4c9",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "My_Licenses",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "BusinessLicense",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : false,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "dc10ae1b-62ac-45b1-8088-aba9db087c07",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "21b05e02-dab5-446a-80d0-96cf704fb91b",
+            "regionLabel" : "My Licenses / Permits",
+            "regionName" : "7f980",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "runtime_industries_publicsector:viewInspectionHistoryContainer",
+              "id" : "35c1183d-95ae-41de-88ae-8334de705b69",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "64257169-b4c8-4418-b17e-5ea1af1c31d1",
+            "regionLabel" : "My Inspections",
+            "regionName" : "3",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "MyCases",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "Case",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : true,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "d6d607b6-bbc4-4d69-b5be-4b85d3f862e6",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "cb040014-9343-45b4-a656-12350fd92cf8",
+            "regionLabel" : "My Cases",
+            "regionName" : "3b734",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "All_PublicComplaint",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "PublicComplaint",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : true,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "a8f3e803-7495-4ac1-bbca-ff89300a08ec",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "5c4d7d56-160d-4ae9-ab46-cea1ae0f727c",
+            "regionLabel" : "My Complaints",
+            "regionName" : "032a6",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "209e743c-42ce-46c5-9721-70ff1cbb4d96",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1e9e3d70-e468-45fa-a0ee-9646cbc141eb",
+          "columns" : [ {
+            "UUID" : "1bcbcaeb-cf71-401c-920a-3b8d20c13203",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1e9e3d70-e468-45fa-a0ee-9646cbc141eb",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0b1da687-bdd7-4f78-8d83-e99cd32fa745",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div align=\"center\">\n    <a href=\"/LPI/s/contact-support\"> \n        <button style=\"background-color: #1a82c8; padding: 14px 50px; border: none; font-size: 1rem; color: #fff; border-radius: 25px\";>Contact Support</button>\n    </a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "2359fd00-7703-48c1-8d75-b91362d8d245",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "8b8cbc3a-40bf-484e-a659-84f719cf6b79",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1bcbcaeb-cf71-401c-920a-3b8d20c13203",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "764e70b9-22c2-4e37-ae25-805db9cb7243",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Dashboard"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8435f8f4-30ae-479e-8367-2eb694844c59",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8332d66c-b5f3-47d6-b41c-536595324c3c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "f3z5O4ebIItAxVJPiFy3txD4A6rUa4",
+  "type" : "view",
+  "viewType" : "custom-my-dashboard"
+}

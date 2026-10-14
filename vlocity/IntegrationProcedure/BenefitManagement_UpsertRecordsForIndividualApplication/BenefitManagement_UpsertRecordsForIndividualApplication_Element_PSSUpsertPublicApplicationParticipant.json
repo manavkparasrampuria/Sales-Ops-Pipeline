@@ -1,0 +1,62 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PSSUpsertPublicApplicationParticipant",
+    "OmniProcessId": {
+        "Name": "UpsertRecordsForIndividualApplication",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/UpsertRecordsForIndividualApplication/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopHouseholdMemberDetails",
+        "OmniProcessId": {
+            "Name": "UpsertRecordsForIndividualApplication",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/UpsertRecordsForIndividualApplication/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/UpsertRecordsForIndividualApplication/Procedure/LoopHouseholdMemberDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopHouseholdMemberDetails",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "BenefitEligibilityStatus": "%BenefitEligibilityStatus%",
+            "HouseholdMemberDetails": "%PSSAssignGenericNamesToResponseNode:GenericData:HouseholdMemberDetails%",
+            "PhoneNumber": "%PSSAssignGenericNamesToResponseNode:GenericData:HeadOfHouseholdPhoneNumber%",
+            "RecordId": "%RecordId%"
+        },
+        "additionalOutput": {
+            "AccountId": "%PSSUpsertPublicApplicationParticipant:Account_1:Id%"
+        },
+        "bundle": "PSSUpsertPublicApplicationParticipant1",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataMapperPostAction3",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": true,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/UpsertRecordsForIndividualApplication/Procedure/PSSUpsertPublicApplicationParticipant"
+}

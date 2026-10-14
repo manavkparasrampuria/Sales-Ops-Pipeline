@@ -1,0 +1,83 @@
+{
+    "BusinessInformation": {
+        "Address-Block": {
+            "Address": null,
+            "City": null,
+            "State": null,
+            "StreetAddress": null,
+            "Zipcode": null
+        },
+        "ApplicantLegalBusinessName": null,
+        "BusinessPhoneNumber": null,
+        "LegalBusinessStructure": null,
+        "NumberOfEmployees": null,
+        "SquareFootage": null
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "Eligibility": {
+        "AtLeast21": null,
+        "FelonyConvictions": null,
+        "FelonyDescription": null,
+        "StateResident": null
+    },
+    "FeesAndPayment": {
+        "CustomLWC1": null,
+        "PayNow": null
+    },
+    "FilesAndConfirmation": {
+        "CustomLWC2": null,
+        "File1": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File2": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "FinancialInformation": {
+        "Assets": null,
+        "Equity": null,
+        "Expenses": null,
+        "Liabilities": null,
+        "Revenue": null
+    },
+    "OverviewStep": {
+    },
+    "PrimaryContact": {
+        "PrimaryContactEmailAddress": null,
+        "PrimaryContactFirstName": null,
+        "PrimaryContactLastName": null,
+        "PrimaryContactPhoneNumber": null
+    },
+    "TypeOfApplication": {
+        "LicenseType": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BusinessInformation": null,
+        "Confirmation": null,
+        "DRSaveApplication": null,
+        "Eligibility": null,
+        "FeesAndPayment": null,
+        "FilesAndConfirmation": null,
+        "FinancialInformation": null,
+        "OverviewStep": null,
+        "PrimaryContact": null,
+        "TypeOfApplication": null
+    }
+}

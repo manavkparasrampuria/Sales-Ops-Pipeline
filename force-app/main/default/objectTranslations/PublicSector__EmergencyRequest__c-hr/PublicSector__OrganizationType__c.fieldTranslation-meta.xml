@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Organization Type --></label>
+    <name>PublicSector__OrganizationType__c</name>
+    <picklistValues>
+        <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+        <translation>Bolnica za akutnu psihijatriju (APH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+        <translation>Dnevna bolnica za odrasle (ADHC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+        <translation>Ambulantni kirurški centar (ASC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+        <translation>Bolnica za oporavak ovisnika o drogama i alkoholu (CDRH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+        <translation>Klinika za kroničnu dijalizu (CDC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+        <translation>Ustanova za pružanje smještaja i zdravstvene skrbi (CLHF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+        <translation>Bubrežna dijaliza završnog stadija (CDC/ESRD)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+        <translation>Opća bolnica za akutne bolesti (GACH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Health Agency (HHA)</masterLabel>
+        <translation>Agencija za kućnu njegu (HHA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospice Facility (HOFA)</masterLabel>
+        <translation>Hospicij (HOFA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+        <translation>Ustanova za posrednu njegu (ICF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Ostalo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+        <translation>Pedijatrijska ambulanta i ustanova za privremenu njegu (PDHRC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+        <translation>Klinika za primarnu zdravstvenu zaštitu (PCC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+        <translation>Ustanova s profesionalnom medicinskom skrbi (SNF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+        <translation>Klinika za kirurgiju (SURGC)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

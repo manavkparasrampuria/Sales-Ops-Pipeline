@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateOutcomeActivities</dataMapperDefItemName>
+        <globalKey>DRCreateOutcomeActivitiesCustom9742</globalKey>
+        <inputField>CreateOutcomeActivitiesStep:OutcomeBlock:IAId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IndividualApplicationId</outputField>
+        <outputObject>OutcomeActivity</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateOutcomeActivities</dataMapperDefItemName>
+        <globalKey>DRCreateOutcomeActivitiesCustom6289</globalKey>
+        <inputField>ContextId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateOutcomeActivities</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateOutcomeActivitiesCustom391</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateOutcomeActivities</dataMapperDefItemName>
+        <globalKey>DRCreateOutcomeActivitiesCustom9418</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationStageDefinitionId</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateOutcomeActivities</dataMapperDefItemName>
+        <globalKey>DRCreateOutcomeActivitiesCustom6939</globalKey>
+        <inputField>CreateOutcomeActivitiesStep:OutcomeBlock:OutcomeId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>OutcomeId</outputField>
+        <outputObject>OutcomeActivity</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateOutcomeActivities</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateOutcomeActivitiesCustom3488</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>OutcomeActivity</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateOutcomeActivities</dataMapperDefItemName>
+        <defaultValue>Complete</defaultValue>
+        <globalKey>DRCreateOutcomeActivitiesCustom2054</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateOutcomeActivities</dataMapperDefItemName>
+        <globalKey>DRCreateOutcomeActivitiesCustom5053</globalKey>
+        <inputField>CreateOutcomeActivitiesStep:OutcomeBlock:ProgramId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ProgramId</outputField>
+        <outputObject>OutcomeActivity</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateOutcomeActivities</dataMapperDefItemName>
+        <defaultValue>Program</defaultValue>
+        <globalKey>DRCreateOutcomeActivitiesCustom5370</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>OutcomeActivityType</outputField>
+        <outputObject>OutcomeActivity</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateOutcomeActivities</dataMapperDefItemName>
+        <globalKey>DRCreateOutcomeActivitiesCustom7333</globalKey>
+        <inputField>CreateOutcomeActivitiesStep:OutcomeBlock:OutcomeActivity:ActivityName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>OutcomeActivity</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;CreateOutcomeActivities&quot;: null,
+        &quot;GetOutcomesFromFundingOpportunity&quot;: null,
+        &quot;CreateOutcomeActivitiesStep&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;CreateOutcomeActivitiesStep&quot;: {
+        &quot;OutcomeBlock&quot;: {
+            &quot;OutcomeActivity&quot;: {
+                &quot;ActivityName&quot;: null
+            },
+            &quot;FormulaOutcomeName&quot;: null
+        }
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRCreateOutcomeActivities</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;CreateOutcomeActivities&quot;:null,&quot;GetOutcomesFromFundingOpportunity&quot;:null,&quot;CreateOutcomeActivitiesStep&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;CreateOutcomeActivitiesStep&quot;:{&quot;OutcomeBlock&quot;:{&quot;OutcomeActivity&quot;:{&quot;ActivityName&quot;:null},&quot;FormulaOutcomeName&quot;:null}}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

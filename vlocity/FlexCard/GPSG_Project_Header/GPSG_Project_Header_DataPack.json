@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "KeeganVirtue",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 13,
+                    "name": "recordId",
+                    "val": "121KX000000fycfYAA"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DRGetGrantProjectInfo",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "ProjectId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "GPSG_Project_Header",
+    "Namespace": "",
+    "OmniUiCardKey": "GPSG_Project_Header/KeeganVirtue/8.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "GPSG_Project_Header.json",
+    "SampleDataSourceResponse": "[{\"RecipientOrganization\":\"Jennifer's Custom Creations\",\"ProjectOrganization\":\"Jennifer's Custom Creations\",\"FundingProgramName\":\"Community Development Investment Grant\",\"FundingRequest\":\"IA-0000000426\",\"AgreementLookupTA\":\"00000136\",\"Deadline\":\"2025-12-18T18:34:00.000Z\",\"Status\":\"Active\"}]",
+    "StylingConfiguration": "{\"styleObjects\":{\"Project Text Style\":{\"sizeClass\":\"slds-large-size_12-of-12 slds-medium-size_12-of-12 slds-small-size_12-of-12 slds-size_12-of-12 \",\"padding\":[{\"type\":\"around\",\"size\":\"x-small\",\"label\":\"around:x-small\"}],\"margin\":[{\"type\":\"left\",\"size\":\"small\",\"label\":\"left:small\"}],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":true,\"default\":\"12\",\"large\":\"12\",\"medium\":\"12\",\"small\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"slds-p-around_x-small slds-m-left_small \",\"style\":\"      \\n         \",\"selectedStyles\":\"Project Text Style\",\"element\":\"outputField\"}},\"styleDefaults\":{}}",
+    "UniqueName": "GPSG_Project_Header_KeeganVirtue_8",
+    "VersionNumber": 8,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/GPSG_Project_Header"
+}

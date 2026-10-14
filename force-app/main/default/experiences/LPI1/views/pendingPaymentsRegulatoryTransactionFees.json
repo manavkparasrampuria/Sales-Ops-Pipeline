@@ -1,0 +1,38 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "4e71ad3a-890e-40c2-b471-3594060a4ec9",
+  "label" : "Pending Payments: Regulatory Transaction Fees",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "ReadyForPayment_RegulatoryTrxnFees",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "RegulatoryTrxnFee",
+        "showActionBar" : true,
+        "showChartsPanel" : false,
+        "showDisplay" : "grid",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : false,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "6caf17a0-ec1a-4ee7-877b-99c80e6fd2b9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "abc1e6d6-c60c-421f-96f7-8a4417eaaed5",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "view-fees"
+}

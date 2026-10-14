@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddedDefinedValuesFromCSV</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildAddedDefinedValuesFromCSV6728624950293418</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>AssessmentIndDefinedValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddedDefinedValuesFromCSV</dataMapperDefItemName>
+        <globalKey>QuickBuildAddedDefinedValuesFromCSV6751907186671959</globalKey>
+        <inputField>DefinedValuedForImport:ParsedDefinedValues:SequenceNumber</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SequenceNumber</outputField>
+        <outputObject>AssessmentIndDefinedValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddedDefinedValuesFromCSV</dataMapperDefItemName>
+        <globalKey>QuickBuildAddedDefinedValuesFromCSV0029322221074579158</globalKey>
+        <inputField>DefinedValuedForImport:ParsedDefinedValues:DefinedValue</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Value</outputField>
+        <outputObject>AssessmentIndDefinedValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddedDefinedValuesFromCSV</dataMapperDefItemName>
+        <globalKey>QuickBuildAddedDefinedValuesFromCSV9356624881721345</globalKey>
+        <inputField>DefinedValuedForImport:ParsedDefinedValues:AssessmentIndicatorName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>AssessmentIndicatorDefinition</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AssessmentIndicatorDefinitionId</outputField>
+        <outputObject>AssessmentIndDefinedValue</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;timeStamp&quot;: &quot;2021-09-07T13:43:08.464Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZone&quot;: &quot;-420&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;admin@lpi-inspectiontest-1.demo&quot;,
+    &quot;userId&quot;: &quot;0055Y00000Gb048QAB&quot;,
+    &quot;SignatureTasks&quot;: null,
+    &quot;Details&quot;: {
+        &quot;RequireSignatures&quot;: false,
+        &quot;Name&quot;: &quot; Test1111&quot;,
+        &quot;Description&quot;: &quot;Test1111&quot;
+    },
+    &quot;Items&quot;: {
+        &quot;FileCount&quot;: 0,
+        &quot;InspectionComponents&quot;: [
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111A&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111A&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111A&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111A&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111A&quot;
+            },
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: &quot;AAA|BBB|CCC|DDD|EEE&quot;,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111B&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111B&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111B&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111B&quot;
+            },
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111C&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111C&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Text&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111C&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111C&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111C&quot;
+            },
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: &quot;HHH|III|JJJ|LLL&quot;,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111D&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111D&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111D&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111D&quot;
+            }
+        ]
+    },
+    &quot;DefinedValuedForImport&quot;: [
+        {
+            &quot;AssessmentIndicatorDefinedValues&quot;: &quot;AAA|BBB|CCC|DDD|EEE&quot;,
+            &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+            &quot;TaskDefinition&quot;: &quot;Test1111B&quot;,
+            &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;,
+            &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+            &quot;RegulatoryCodeName&quot;: &quot;Test1111B&quot;,
+            &quot;RegulatoryCodeSubject&quot;: &quot;Test1111B&quot;,
+            &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111B&quot;,
+            &quot;ParsedDefinedValues&quot;: [
+                {
+                    &quot;DefinedValue&quot;: &quot;AAA&quot;,
+                    &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;
+                },
+                {
+                    &quot;DefinedValue&quot;: &quot;BBB&quot;,
+                    &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;
+                },
+                {
+                    &quot;DefinedValue&quot;: &quot;CCC&quot;,
+                    &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;
+                },
+                {
+                    &quot;DefinedValue&quot;: &quot;DDD&quot;,
+                    &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;
+                },
+                {
+                    &quot;DefinedValue&quot;: &quot;EEE&quot;,
+                    &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;
+                }
+            ]
+        },
+        {
+            &quot;AssessmentIndicatorDefinedValues&quot;: &quot;HHH|III|JJJ|LLL&quot;,
+            &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+            &quot;TaskDefinition&quot;: &quot;Test1111D&quot;,
+            &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;,
+            &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+            &quot;RegulatoryCodeName&quot;: &quot;Test1111D&quot;,
+            &quot;RegulatoryCodeSubject&quot;: &quot;Test1111D&quot;,
+            &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111D&quot;,
+            &quot;ParsedDefinedValues&quot;: [
+                {
+                    &quot;DefinedValue&quot;: &quot;HHH&quot;,
+                    &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;
+                },
+                {
+                    &quot;DefinedValue&quot;: &quot;III&quot;,
+                    &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;
+                },
+                {
+                    &quot;DefinedValue&quot;: &quot;JJJ&quot;,
+                    &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;
+                },
+                {
+                    &quot;DefinedValue&quot;: &quot;LLL&quot;,
+                    &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;
+                }
+            ]
+        }
+    ],
+    &quot;HasDefinedValues&quot;: true,
+    &quot;FilteredList2&quot;: {
+        &quot;RegCodeAssementIndToInsert&quot;: [
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111A&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111A&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111A&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111A&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111A&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: &quot;AAA|BBB|CCC|DDD|EEE&quot;,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111B&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111B&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111B&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111B&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111C&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111C&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Text&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111C&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111C&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111C&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: &quot;HHH|III|JJJ|LLL&quot;,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111D&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111D&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111D&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111D&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            }
+        ]
+    },
+    &quot;FilteredList&quot;: {
+        &quot;AssessmentIndDefinitionsToInsert&quot;: [
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111A&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111A&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111A&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111A&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111A&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: &quot;AAA|BBB|CCC|DDD|EEE&quot;,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111B&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111B&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111B&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111B&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111C&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111C&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Text&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111C&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111C&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111C&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndicatorDefinedValues&quot;: &quot;HHH|III|JJJ|LLL&quot;,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;TaskDefinition&quot;: &quot;Test1111D&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;Test1111D&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;Test1111D&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111D&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            }
+        ]
+    },
+    &quot;HasRegulatoryIndDefintions&quot;: true,
+    &quot;HasAssessmentTaskIndDefinitions&quot;: true,
+    &quot;DRId_InspectionType&quot;: &quot;0fJ5Y000000kBbeUAE&quot;,
+    &quot;DRId_ActionPlanTemplateVersion&quot;: &quot;0PT5Y000000oS8YWAU&quot;,
+    &quot;DRId_ActionPlanTemplate&quot;: &quot;0PR5Y000000oS8XWAU&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>QuickBuildAddedDefinedValuesFromCSV</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;timeStamp&quot;: &quot;2021-09-07T13:43:08.464Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZone&quot;: &quot;-420&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;admin@lpi-inspectiontest-1.demo&quot;,
+  &quot;userId&quot;: &quot;0055Y00000Gb048QAB&quot;,
+  &quot;SignatureTasks&quot;: null,
+  &quot;Details&quot;: {
+    &quot;RequireSignatures&quot;: false,
+    &quot;Name&quot;: &quot; Test1111&quot;,
+    &quot;Description&quot;: &quot;Test1111&quot;
+  },
+  &quot;Items&quot;: {
+    &quot;FileCount&quot;: 0,
+    &quot;InspectionComponents&quot;: [
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111A&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111A&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111A&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111A&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111A&quot;
+      },
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: &quot;AAA|BBB|CCC|DDD|EEE&quot;,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111B&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111B&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111B&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111B&quot;
+      },
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111C&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111C&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Text&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111C&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111C&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111C&quot;
+      },
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: &quot;HHH|III|JJJ|LLL&quot;,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111D&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111D&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111D&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111D&quot;
+      }
+    ]
+  },
+  &quot;DefinedValuedForImport&quot;: [
+    {
+      &quot;AssessmentIndicatorDefinedValues&quot;: &quot;AAA|BBB|CCC|DDD|EEE&quot;,
+      &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+      &quot;TaskDefinition&quot;: &quot;Test1111B&quot;,
+      &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;,
+      &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+      &quot;RegulatoryCodeName&quot;: &quot;Test1111B&quot;,
+      &quot;RegulatoryCodeSubject&quot;: &quot;Test1111B&quot;,
+      &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111B&quot;,
+      &quot;ParsedDefinedValues&quot;: [
+        {
+          &quot;DefinedValue&quot;: &quot;AAA&quot;,
+          &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;
+        },
+        {
+          &quot;DefinedValue&quot;: &quot;BBB&quot;,
+          &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;
+        },
+        {
+          &quot;DefinedValue&quot;: &quot;CCC&quot;,
+          &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;
+        },
+        {
+          &quot;DefinedValue&quot;: &quot;DDD&quot;,
+          &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;
+        },
+        {
+          &quot;DefinedValue&quot;: &quot;EEE&quot;,
+          &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;
+        }
+      ]
+    },
+    {
+      &quot;AssessmentIndicatorDefinedValues&quot;: &quot;HHH|III|JJJ|LLL&quot;,
+      &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+      &quot;TaskDefinition&quot;: &quot;Test1111D&quot;,
+      &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;,
+      &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+      &quot;RegulatoryCodeName&quot;: &quot;Test1111D&quot;,
+      &quot;RegulatoryCodeSubject&quot;: &quot;Test1111D&quot;,
+      &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111D&quot;,
+      &quot;ParsedDefinedValues&quot;: [
+        {
+          &quot;DefinedValue&quot;: &quot;HHH&quot;,
+          &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;
+        },
+        {
+          &quot;DefinedValue&quot;: &quot;III&quot;,
+          &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;
+        },
+        {
+          &quot;DefinedValue&quot;: &quot;JJJ&quot;,
+          &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;
+        },
+        {
+          &quot;DefinedValue&quot;: &quot;LLL&quot;,
+          &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;
+        }
+      ]
+    }
+  ],
+  &quot;HasDefinedValues&quot;: true,
+  &quot;FilteredList2&quot;: {
+    &quot;RegCodeAssementIndToInsert&quot;: [
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111A&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111A&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111A&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111A&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111A&quot;,
+        &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+        &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+      },
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: &quot;AAA|BBB|CCC|DDD|EEE&quot;,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111B&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111B&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111B&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111B&quot;,
+        &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+        &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+      },
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111C&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111C&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Text&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111C&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111C&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111C&quot;,
+        &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+        &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+      },
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: &quot;HHH|III|JJJ|LLL&quot;,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111D&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111D&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111D&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111D&quot;,
+        &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+        &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+      }
+    ]
+  },
+  &quot;FilteredList&quot;: {
+    &quot;AssessmentIndDefinitionsToInsert&quot;: [
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111A&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111A&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111A&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111A&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111A&quot;,
+        &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+        &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+      },
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: &quot;AAA|BBB|CCC|DDD|EEE&quot;,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111B&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111B&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111B&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111B&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111B&quot;,
+        &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+        &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+      },
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111C&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111C&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Text&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111C&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111C&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111C&quot;,
+        &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+        &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+      },
+      {
+        &quot;AssessmentIndicatorDefinedValues&quot;: &quot;HHH|III|JJJ|LLL&quot;,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+        &quot;TaskDefinition&quot;: &quot;Test1111D&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;Test1111D&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Picklist&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;Test1111D&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;Test1111D&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;Test1111D&quot;,
+        &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+        &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+      }
+    ]
+  },
+  &quot;HasRegulatoryIndDefintions&quot;: true,
+  &quot;HasAssessmentTaskIndDefinitions&quot;: true,
+  &quot;DRId_InspectionType&quot;: &quot;0fJ5Y000000kBbeUAE&quot;,
+  &quot;DRId_ActionPlanTemplateVersion&quot;: &quot;0PT5Y000000oS8YWAU&quot;,
+  &quot;DRId_ActionPlanTemplate&quot;: &quot;0PR5Y000000oS8XWAU&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

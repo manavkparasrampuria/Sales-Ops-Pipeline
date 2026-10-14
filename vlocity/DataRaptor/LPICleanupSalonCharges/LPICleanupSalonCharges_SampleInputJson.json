@@ -1,0 +1,30 @@
+{
+    "charges": [
+        {
+            "$$hashKey": "object:962",
+            "ID": "inputData",
+            "amount": 150,
+            "name": "Base Fee"
+        },
+        {
+            "$$hashKey": "object:963",
+            "ID": "inputData",
+            "amount": 100,
+            "name": "Location Fee"
+        },
+        {
+            "$$hashKey": "object:964",
+            "ID": "inputData",
+            "amount": 45,
+            "calculationInfo": "Fee for Seating Capacity",
+            "name": "Additional Fee"
+        },
+        {
+            "$$hashKey": "object:965",
+            "ID": "inputData",
+            "amount": -30,
+            "calculationInfo": "20%",
+            "name": "Business Discount"
+        }
+    ]
+}

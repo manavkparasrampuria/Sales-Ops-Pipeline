@@ -1,0 +1,54 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "RemoteActionToCallCreateCaseApi",
+    "OmniProcessId": {
+        "Name": "CaseProceedingExtension",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CaseProceeding/ServiceRequest/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "CaseProceeding": "=%CaseProceeding%",
+            "ExtendedEndDate": "=%ExtendedEndDate%",
+            "ExtendedStartDate": "=%ExtendedStartDate%",
+            "Reason": "=%Reason%",
+            "Subject": "=%Subject%",
+            "svcCatalogItemDefApiName": "=%svcCatalogItemDefApiName%"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "publicsectrsltn.CaseProceedingExtension",
+        "remoteMethod": "callCreateCaseApi",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseProceeding/ServiceRequest/Procedure/RemoteActionToCallCreateCaseApi"
+}

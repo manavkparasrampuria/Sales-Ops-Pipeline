@@ -1,0 +1,27 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "DocumentChecklistItemProofOfIncome",
+    "OmniProcessId": {
+        "Name": "ModifyReturnedIndividualApplication",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/ModifyReturnedIndividualApplication/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "ISNOTBLANK(TransformDataForDocumentChecklistItems) && ISNOTBLANK(TransformDataForDocumentChecklistItems:Income) && ISNOTBLANK(TransformDataForDocumentChecklistItems:Income:AttachIncomeProofs)",
+        "label": "LoopBlock3",
+        "loopList": "TransformDataForDocumentChecklistItems:Income:AttachIncomeProofs",
+        "loopOutput": {
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/ModifyReturnedIndividualApplication/Procedure/DocumentChecklistItemProofOfIncome"
+}

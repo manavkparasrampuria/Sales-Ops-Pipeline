@@ -1,0 +1,53 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "PublicComplaintId",
+        "GlobalKey": "CCMDRGetRegulatoryCodeViolationFromPublicComplaint09285525580336595",
+        "InputFieldName": "ResponseContextId",
+        "InputObjectName": "RegulatoryCodeViolation",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRGetRegulatoryCodeViolationFromPublicComplaint",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRGetRegulatoryCodeViolationFromPublicComplaint",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRGetRegulatoryCodeViolationFromPublicComplaint",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "RegulatoryCodeViolation",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRGetRegulatoryCodeViolationFromPublicComplaint31723063544024477",
+        "InputFieldName": "RegulatoryCodeViolation:Id",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRGetRegulatoryCodeViolationFromPublicComplaint",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRGetRegulatoryCodeViolationFromPublicComplaint",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRGetRegulatoryCodeViolationFromPublicComplaint",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "RegulatoryCodeViolation:Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

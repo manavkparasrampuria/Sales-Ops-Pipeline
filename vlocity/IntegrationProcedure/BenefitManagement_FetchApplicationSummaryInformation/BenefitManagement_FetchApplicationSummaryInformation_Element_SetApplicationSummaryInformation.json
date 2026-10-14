@@ -1,0 +1,52 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetApplicationSummaryInformation",
+    "OmniProcessId": {
+        "Name": "FetchApplicationSummaryInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/FetchApplicationSummaryInformation/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Output": {
+                "ChangeOfCircumstancesReportChangeIncome": "%TransformedAQR:GenericData:ChangeOfCircumstancesReportChangeIncome%",
+                "ChangeOfCircumstancesReportChangeMember": "%TransformedAQR:GenericData:ChangeOfCircumstancesReportChangeMember%",
+                "EligibleBenefitAmount": "%EligibleBenefitAmount%",
+                "ExpenseDetailsString": "%SetExpenseDetails:ExpenseDetails%",
+                "ExpressionSetName": "PSSExpCloud_CalculateBenefitAmount",
+                "ExpressionSetVersion": "%FetchExpressionSetVersionInformation:ExpressionSetVersion%",
+                "FetchCurrentBenefits": "%FetchCurrentBenefits%",
+                "FetchImportantFieldsCount": "%FetchImportantFieldsCount%",
+                "HouseholdIncomeDetails": "%TransformedAQR:GenericData:HouseholdIncomeDetails%",
+                "HouseholdMemberDetails": "%TransformedAQR:GenericData:HouseholdMemberDetails%",
+                "IndividualApplicationSubmissionDate": "%FetchIndividualApplicationSubmissionDate:IACreationDate%",
+                "NumberOfDocuments": "%GetContentDocumentCount:NumberOfDocuments%",
+                "ParticipantDetails": "%TransformMemberDetails:MemberDetails%",
+                "TotalExpense": "%CalculateTotalExpense:TotalExpense%",
+                "TotalIncome": "%TotalHouseholdIncome%",
+                "TotalParticipant": "%CalculateBenefitAmountInput:InputHouseholdSize%",
+                "householdactiontype": "%Arehouseholdactiontype%",
+                "incomeactiontype": "%Areisincomeactiontype%"
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues8",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/FetchApplicationSummaryInformation/Procedure/SetApplicationSummaryInformation"
+}

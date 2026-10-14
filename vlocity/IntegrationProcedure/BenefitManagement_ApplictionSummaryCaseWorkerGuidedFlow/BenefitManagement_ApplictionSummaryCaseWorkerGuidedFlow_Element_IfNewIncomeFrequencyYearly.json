@@ -1,0 +1,47 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "IfNewIncomeFrequencyYearly",
+    "OmniProcessId": {
+        "Name": "ApplictionSummaryCaseWorkerGuidedFlow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopOldPartyIncome",
+        "OmniProcessId": {
+            "Name": "ApplictionSummaryCaseWorkerGuidedFlow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure/LoopOldPartyIncome",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopOldPartyIncome",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "MonthlyIncomeForWeeklyFrequency": "=%IncomeDetails:IncomeAmount% * 0.083"
+        },
+        "executionConditionalFormula": "IncomeDetails:IncomeFrequency==\"Yearly\" && AssessmentPartyIncome:actionType == \"Remove\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues3",
+        "responseJSONNode": "MemberMonthlyIncome",
+        "responseJSONPath": "MonthlyIncomeForYearlyFrequency",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure/IfNewIncomeFrequencyYearly"
+}

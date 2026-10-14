@@ -1,0 +1,57 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetApplicationSummaryInformation",
+    "OmniProcessId": {
+        "Name": "ApplictionSummaryCaseWorkerGuidedFlow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Output": {
+                "ApplicationStatus": "%IndividualApplicationAndParentData:Status%",
+                "ChangeOfCircumstancesReportChangeIncome": "%FetchIAData:ChangeOfCircumstancesReportChangeIncome%",
+                "ChangeOfCircumstancesReportChangeMember": "%FetchIAData:ChangeOfCircumstancesReportChangeMember%",
+                "EligibleBenefitAmount": "%FetchIAData:EligibleBenefitAmount%",
+                "ExpenseDetailsString": "%FetchIAData:ExpenseDetailsString%",
+                "ExpressionSetId": "%FetchIAData:ExpressionSetVersion:Id%",
+                "FetchCurrentBenefits": "%FetchIAData:FetchCurrentBenefits%",
+                "FetchFilledFieldNames": "%FetchFilledFieldNames%",
+                "FetchNotFilledFieldNames": "%FetchNotFilledFieldNames%",
+                "IsCOC": "%Flow:isCOC%",
+                "IsCW2": "%Flow:isCW2%",
+                "NewTotalIncome": "%NewTotalHouseholdIncome%",
+                "OldTotalIncome": "%OldTotalHouseholdIncome%",
+                "ParentIAID": "%IndividualApplicationAndParentData:ParentApplicationId%",
+                "ParentIAName": "%IndividualApplicationAndParentData:ParentApplication:Name%",
+                "ParticipantDetails": "%FetchIAData:ParticipantDetails%",
+                "ThisIndividualApplication:IndividualApplicationId": "%ContextId%",
+                "TotalExpense": "%FetchIAData:TotalExpense%",
+                "TotalIncome": "%FetchIAData:TotalIncome%",
+                "TotalNewParticipants": "%FetchIAData:TotalParticipant%",
+                "householdactiontype": "%FetchIAData:householdactiontype%",
+                "incomeactiontype": "%FetchIAData:incomeactiontype%",
+                "isREC": "%Flow:isREC%"
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure/SetApplicationSummaryInformation"
+}

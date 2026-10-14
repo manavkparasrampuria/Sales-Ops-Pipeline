@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Requested Service --></label>
+    <name>PublicSector__RequestedService__c</name>
+    <picklistValues>
+        <masterLabel>Food Delivery</masterLabel>
+        <translation>Ételszállítás</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicine / Medical Supplies Delivery</masterLabel>
+        <translation>Orvosság/orvosi kellékek kézbesítése</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temporary Housing</masterLabel>
+        <translation>Ideiglenes lakhatás</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Well-Being Check</masterLabel>
+        <translation>Jólléti ellenőrzés</translation>
+    </picklistValues>
+</CustomFieldTranslation>

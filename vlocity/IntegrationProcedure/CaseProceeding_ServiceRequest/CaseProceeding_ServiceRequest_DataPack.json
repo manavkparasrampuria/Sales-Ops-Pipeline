@@ -1,0 +1,31 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "{}",
+    "Description": "Integration procedure to call createCase Api of service process",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "CaseProceedingExtension",
+    "OmniProcessElement": [
+        "CaseProceeding_ServiceRequest_Element_RemoteActionToCallCreateCaseApi.json",
+        "CaseProceeding_ServiceRequest_Element_ResponseFromCreateCaseApi.json"
+    ],
+    "OmniProcessKey": "CaseProceeding_ServiceRequest",
+    "OmniProcessType": "Integration Procedure",
+    "OverrideKey": "pss_caseprcd_shared_flows__CaseProceeding_ServiceRequest_Procedure_1",
+    "PropertySetConfig": "CaseProceeding_ServiceRequest_PropertySetConfig.json",
+    "SubType": "ServiceRequest",
+    "Type": "CaseProceeding",
+    "UniqueName": "CaseProceeding_ServiceRequest_Procedure_4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CaseProceeding/ServiceRequest/Procedure"
+}

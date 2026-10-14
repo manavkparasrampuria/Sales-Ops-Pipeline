@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_CannabisApplication_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Cannabis Application",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_CannabisApplication_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_CannabisApplication_Element_TransformStep.json",
+        "GoogleMapsTransformations_CannabisApplication_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_CannabisApplication",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_CannabisApplication_PropertySetConfig.json",
+    "SubType": "CannabisApplication",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_CannabisApplication_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/CannabisApplication/Procedure"
+}

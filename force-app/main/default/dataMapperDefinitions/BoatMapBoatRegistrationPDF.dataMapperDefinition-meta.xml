@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF3005347597744539</globalKey>
+        <inputField>BoatInformation:YearBuilt</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>YEAR BUILT</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF2884424555195215</globalKey>
+        <inputField>BoatInformation:TypeofFuelUsed</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Type of Fuel</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF699458049714422</globalKey>
+        <inputField>BoatInformation:Use</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Radio Button: Use</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF7095492867949149</globalKey>
+        <inputField>BoatInformation:NameofBoat</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name of Boat</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF01287131469424252</globalKey>
+        <inputField>BoatInformation:HullMaterial</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Radio Button: Hull Material</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF830033205078283</globalKey>
+        <inputField>BoatInformation:MakeModelOfBoat</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Make or Model of Boat</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF572680250181997</globalKey>
+        <inputField>SellerLienInformation:Price</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Acquisition: Price</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF9688279240614328</globalKey>
+        <inputField>BoatInformation:Marina</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>MARINA</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:PDFCity &quot;,&quot; var:PDFState &quot;,&quot; var:PDFPostalCode CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(PDFCity,&quot;,&quot;,PDFState,&quot;,&quot;,PDFPostalCode)</formulaExpression>
+        <formulaResultPath>OwnerCityStateZip</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>BoatMapBoatRegistrationPDF2723101106322474</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF6517294503325293</globalKey>
+        <inputField>SellerLienInformation:LienTelephone</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>TELEPHONE # OF LIEN HOLDER</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:OwnerInformation:OwnerFirstName &quot;/\/\/&quot; var:OwnerInformation:OwnerLastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(OwnerInformation:OwnerFirstName,&quot; &quot;,OwnerInformation:OwnerLastName)</formulaExpression>
+        <formulaResultPath>OwnerFullName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>BoatMapBoatRegistrationPDF32347741640964434</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF6309507775137251</globalKey>
+        <inputField>PDFStreet</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>OWNERS ADDRESS</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF16583467153704046</globalKey>
+        <inputField>BoatInformation:HullIdNumber</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HULL ID NUMBER</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF6033760916427775</globalKey>
+        <inputField>SellerLienInformation:SellerName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Seller Name</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF17787923323698718</globalKey>
+        <inputField>OwnerInformation:SSN</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SOCIAL SECURITY NO OR PERMIT NO</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF23004802323000617</globalKey>
+        <inputField>SellerLienInformation:LienHolder</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LIEN HOLDER</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF555412804177633</globalKey>
+        <inputField>BoatInformation:BoatLength</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BOAT LENGTH</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF41898334730000664</globalKey>
+        <inputField>OwnerCityStateZip</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CITY, STATE &amp; ZIP</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF5257031409076001</globalKey>
+        <inputField>SellerLienInformation:SellerStreetAddress</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Seller Street</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF45478603667814266</globalKey>
+        <inputField>BoatInformation:Propulsion</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Radio Button: Propulsion</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF7743500430222019</globalKey>
+        <inputField>OwnerInformation:DateofBirth</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>DATE OF BIRTH</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:SellerLienInformation:SellerCity &quot;,&quot; var:SellerLienInformation:SellerState &quot;,&quot; var:SellerLienInformation:SellerZip CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(SellerLienInformation:SellerCity,&quot;,&quot;,SellerLienInformation:SellerState,&quot;,&quot;,SellerLienInformation:SellerZip)</formulaExpression>
+        <formulaResultPath>SellerCityStateZip</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>BoatMapBoatRegistrationPDF16122308108172745</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF969093850306258</globalKey>
+        <inputField>LienAddress</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Address of Lien Holder</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF17223684995512567</globalKey>
+        <inputField>OwnerFullName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>NAME OF OWNER</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF7442950259346828</globalKey>
+        <inputField>SellerCityStateZip</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Seller City State Zip</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>BoatMapBoatRegistrationPDF27101028151147766</globalKey>
+        <inputField>SellerLienInformation:DateOfLien</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>DATE OF LIEN</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatMapBoatRegistrationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:SellerLienInformation:LienStreetAddress &quot;,&quot; var:SellerLienInformation:LienCity &quot;,&quot; var:SellerLienInformation:LienStreetState &quot;,&quot; var:SellerLienInformation:LienZip CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(SellerLienInformation:LienStreetAddress,&quot;,&quot;,SellerLienInformation:LienCity,&quot;,&quot;,SellerLienInformation:LienStreetState,&quot;,&quot;,SellerLienInformation:LienZip)</formulaExpression>
+        <formulaResultPath>LienAddress</formulaResultPath>
+        <formulaSequence>4.0</formulaSequence>
+        <globalKey>BoatMapBoatRegistrationPDF5868681079109688</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+  &quot;vlcTimeTracking&quot; : {
+    &quot;BoatRegistrationPDF&quot; : null,
+    &quot;NavigateAction1&quot; : null,
+    &quot;DRGetUserDetails&quot; : null,
+    &quot;SetNameValues&quot; : null,
+    &quot;SetUserId&quot; : null,
+    &quot;DRSaveBoatApplication&quot; : null,
+    &quot;DRGetIAAppNumber&quot; : null,
+    &quot;Confirmation&quot; : null,
+    &quot;Fees&quot; : null,
+    &quot;Attachments&quot; : null,
+    &quot;Certify&quot; : null,
+    &quot;SellerLienInformation&quot; : null,
+    &quot;BoatInformation&quot; : null,
+    &quot;OwnerInformation&quot; : null,
+    &quot;Overview&quot; : null
+  },
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;userTimeZone&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;timeStamp&quot; : null,
+  &quot;ContextId&quot; : null,
+  &quot;Confirmation&quot; : { },
+  &quot;Fees&quot; : {
+    &quot;LWCCreditCard&quot; : null,
+    &quot;TotalFee&quot; : null,
+    &quot;TitleTax&quot; : null,
+    &quot;PayNow&quot; : null,
+    &quot;RegistrationFee&quot; : null
+  },
+  &quot;Attachments&quot; : {
+    &quot;File3&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;size&quot; : null,
+      &quot;filename&quot; : null
+    } ],
+    &quot;File2&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;size&quot; : null,
+      &quot;filename&quot; : null
+    } ],
+    &quot;File1&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;size&quot; : null,
+      &quot;filename&quot; : null
+    } ]
+  },
+  &quot;Certify&quot; : {
+    &quot;LWCSignature&quot; : null,
+    &quot;Certification&quot; : null
+  },
+  &quot;SellerLienInformation&quot; : {
+    &quot;AcquistionDate&quot; : null,
+    &quot;Lien&quot; : null,
+    &quot;LienZip&quot; : null,
+    &quot;LienState&quot; : null,
+    &quot;LienCity&quot; : null,
+    &quot;LienStreetAddress&quot; : null,
+    &quot;LienTelephone&quot; : null,
+    &quot;DateOfLien&quot; : null,
+    &quot;LienHolder&quot; : null,
+    &quot;Price&quot; : null,
+    &quot;SellerZip&quot; : null,
+    &quot;SellerState&quot; : null,
+    &quot;SellerCity&quot; : null,
+    &quot;SellerStreetAddress&quot; : null,
+    &quot;SellerName&quot; : null,
+    &quot;BoatCondition&quot; : null
+  },
+  &quot;BoatInformation&quot; : {
+    &quot;BoatLength&quot; : null,
+    &quot;Use&quot; : null,
+    &quot;Propulsion&quot; : null,
+    &quot;HullMaterial&quot; : null,
+    &quot;TypeofFuelUsed&quot; : null,
+    &quot;MakeModelOfBoat&quot; : null,
+    &quot;HullIdNumber&quot; : null,
+    &quot;Marina&quot; : null,
+    &quot;YearBuilt&quot; : null,
+    &quot;NameofBoat&quot; : null
+  },
+  &quot;OwnerInformation&quot; : {
+    &quot;OwnerAddress-Block&quot; : {
+      &quot;OwnerAddress&quot; : null,
+      &quot;OwnerCity&quot; : null,
+      &quot;OwnerState&quot; : null,
+      &quot;OwnerZip&quot; : null,
+      &quot;OwnerStreet&quot; : null
+    },
+    &quot;OwnerEmail&quot; : null,
+    &quot;OwnerBusinessPhone&quot; : null,
+    &quot;OwnerHomePhone&quot; : null,
+    &quot;SSN&quot; : null,
+    &quot;DateofBirth&quot; : null,
+    &quot;OwnerLastName&quot; : null,
+    &quot;OwnerFirstName&quot; : null
+  },
+  &quot;Overview&quot; : {
+    &quot;ReasonForApplication&quot; : null
+  }
+}</expectedInputJson>
+    <expectedOutputJson>{
+  &quot;Check Box1&quot; : &quot;&quot;,
+  &quot;Check Box2&quot; : &quot;&quot;,
+  &quot;Check Box3&quot; : &quot;&quot;,
+  &quot;Check Box4&quot; : &quot;&quot;,
+  &quot;Check Box5&quot; : &quot;&quot;,
+  &quot;Check Box6&quot; : &quot;&quot;,
+  &quot;Radio Button: Hull Material&quot; : &quot;&quot;,
+  &quot;Radio Button: Propulsion&quot; : &quot;&quot;,
+  &quot;Radio Button: Use&quot; : &quot;&quot;,
+  &quot;NAME OF OWNER&quot; : &quot;&quot;,
+  &quot;DATE OF BIRTH&quot; : &quot;&quot;,
+  &quot;SOCIAL SECURITY NO OR PERMIT NO&quot; : &quot;&quot;,
+  &quot;OWNERS ADDRESS&quot; : &quot;&quot;,
+  &quot;CITY, STATE &amp; ZIP&quot; : &quot;&quot;,
+  &quot;HOME PHONE&quot; : &quot;&quot;,
+  &quot;BUSINESS PHONE&quot; : &quot;&quot;,
+  &quot;NAME OF CO-OWNER&quot; : &quot;&quot;,
+  &quot;MARINA&quot; : &quot;&quot;,
+  &quot;BOAT LENGTH&quot; : &quot;&quot;,
+  &quot;YEAR BUILT&quot; : &quot;&quot;,
+  &quot;Name of Boat&quot; : &quot;&quot;,
+  &quot;HULL ID NUMBER&quot; : &quot;&quot;,
+  &quot;Make or Model of Boat&quot; : &quot;&quot;,
+  &quot;Type of Fuel&quot; : &quot;&quot;,
+  &quot;Acquisition: Date&quot; : &quot;&quot;,
+  &quot;Seller Name&quot; : &quot;&quot;,
+  &quot;Seller Street&quot; : &quot;&quot;,
+  &quot;Seller City State Zip&quot; : &quot;&quot;,
+  &quot;Acquisition: Price&quot; : &quot;&quot;,
+  &quot;LIEN HOLDER&quot; : &quot;&quot;,
+  &quot;DATE OF LIEN&quot; : &quot;&quot;,
+  &quot;TELEPHONE # OF LIEN HOLDER&quot; : &quot;&quot;,
+  &quot;Address of Lien Holder&quot; : &quot;&quot;
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>BoatMapBoatRegistrationPDF</masterLabel>
+    <outputType>PDF</outputType>
+    <previewJsonData>{
+  &quot;PrefillAddress&quot; : &quot;,,,,&quot;,
+  &quot;omniscriptId&quot; : &quot;0jNKX000000CbTc2AK&quot;,
+  &quot;language&quot; : &quot;English&quot;,
+  &quot;type&quot; : &quot;LicensingAndPermiting&quot;,
+  &quot;runMode&quot; : &quot;preview&quot;,
+  &quot;sId&quot; : &quot;0jNKX000000CbTc2AK&quot;,
+  &quot;theme&quot; : &quot;lightning&quot;,
+  &quot;subType&quot; : &quot;BoatRegistration&quot;,
+  &quot;timeStamp&quot; : &quot;2024-06-25T11:34:47.869Z&quot;,
+  &quot;userProfile&quot; : &quot;System Administrator&quot;,
+  &quot;userTimeZoneName&quot; : &quot;America/Los_Angeles&quot;,
+  &quot;userTimeZone&quot; : &quot;-420&quot;,
+  &quot;userCurrencyCode&quot; : &quot;USD&quot;,
+  &quot;userName&quot; : &quot;jblankenship@gps250.dev3&quot;,
+  &quot;userId&quot; : &quot;005KX000000xWOxYAM&quot;,
+  &quot;omniProcessId&quot; : &quot;0jNKX000000CbTc2AK&quot;,
+  &quot;localTimeZoneName&quot; : &quot;America/New_York&quot;,
+  &quot;OwnerInformation&quot; : {
+    &quot;DateofBirth&quot; : &quot;9/14/1987&quot;,
+    &quot;OwnerAddress&quot; : {
+      &quot;Address&quot; : &quot;5216 Maple Street, Bellaire, TX, 77401, United States&quot;,
+      &quot;Street&quot; : &quot;5216 Maple Street&quot;,
+      &quot;City&quot; : &quot;Bellaire&quot;,
+      &quot;Province&quot; : &quot;TX&quot;,
+      &quot;PostalCode&quot; : &quot;77401&quot;,
+      &quot;Country&quot; : &quot;United States&quot;,
+      &quot;valid&quot; : true
+    },
+    &quot;OwnerEmail&quot; : &quot;jblankenship@salesforce.com&quot;,
+    &quot;OwnerHomePhone&quot; : &quot;2123032030&quot;,
+    &quot;OwnerBusinessPhone&quot; : &quot;2123439393&quot;,
+    &quot;SSN&quot; : &quot;232932939&quot;,
+    &quot;OwnerFirstName&quot; : &quot;Paul&quot;,
+    &quot;OwnerLastName&quot; : &quot;Marshall&quot;
+  },
+  &quot;BoatInformation&quot; : {
+    &quot;NameofBoat&quot; : &quot;Minnow&quot;,
+    &quot;Marina&quot; : &quot;East Lake&quot;,
+    &quot;MakeModelOfBoat&quot; : &quot;Regal 2220 FasDeck&quot;,
+    &quot;YearBuilt&quot; : &quot;2011&quot;,
+    &quot;BoatLength&quot; : 22,
+    &quot;HullIdNumber&quot; : &quot;48392939&quot;,
+    &quot;HullMaterial&quot; : &quot;Fiberglass&quot;,
+    &quot;TypeofFuelUsed&quot; : &quot;Gasoline&quot;,
+    &quot;Propulsion&quot; : &quot;Inboard&quot;,
+    &quot;Use&quot; : &quot;Pleasure&quot;
+  },
+  &quot;SellerLienInformation&quot; : {
+    &quot;LienHolder&quot; : &quot;Essex Bank&quot;,
+    &quot;DateOfLien&quot; : &quot;9/14/2021&quot;,
+    &quot;LienTelephone&quot; : &quot;8004435524&quot;,
+    &quot;LienStreetAddress&quot; : &quot;9954 Mayland Drive, Suite 2100 &quot;,
+    &quot;LienCity&quot; : &quot;Richmond&quot;,
+    &quot;LienState&quot; : &quot;VA&quot;,
+    &quot;LienZip&quot; : &quot;23233&quot;,
+    &quot;AcquistionDate&quot; : &quot;2021-09-14&quot;,
+    &quot;SellerName&quot; : &quot;John Williams&quot;,
+    &quot;BoatCondition&quot; : &quot;Used&quot;,
+    &quot;Price&quot; : 35999,
+    &quot;SellerStreetAddress&quot; : &quot;32 Cedar Ln&quot;,
+    &quot;SellerCity&quot; : &quot;Kilmarnock&quot;,
+    &quot;SellerState&quot; : &quot;VA&quot;,
+    &quot;SellerZip&quot; : &quot;22482&quot;,
+    &quot;Lien&quot; : &quot;Yes&quot;
+  },
+  &quot;Fees&quot; : {
+    &quot;TitleTax&quot; : 2159.94,
+    &quot;RegistrationFee&quot; : 25,
+    &quot;TotalFee&quot; : 2186.94
+  },
+  &quot;Attachments&quot; : { },
+  &quot;Certify&quot; : { },
+  &quot;Confirmation&quot; : { },
+  &quot;SampleUser&quot; : &quot;005KX000000xWOxYAM&quot;,
+  &quot;ContactEmail&quot; : &quot;jblankenship@salesforce.com&quot;,
+  &quot;Address&quot; : &quot;,,,,&quot;,
+  &quot;Overview&quot; : {
+    &quot;ReasonForApplication&quot; : &quot;Application for Original Title/Registration Number&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <targetOutputFileName>Boat_Registration</targetOutputFileName>
+    <type>Transform</type>
+</DataMapperDefinition>

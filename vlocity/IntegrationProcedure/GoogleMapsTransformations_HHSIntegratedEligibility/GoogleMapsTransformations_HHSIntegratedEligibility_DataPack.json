@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_HHSIntegratedEligibility_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform HHS Integrated Eligibility",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_HHSIntegratedEligibility_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_HHSIntegratedEligibility_Element_TransformStep.json",
+        "GoogleMapsTransformations_HHSIntegratedEligibility_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_HHSIntegratedEligibility",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_HHSIntegratedEligibility_PropertySetConfig.json",
+    "SubType": "HHSIntegratedEligibility",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_HHSIntegratedEligibility_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/HHSIntegratedEligibility/Procedure"
+}

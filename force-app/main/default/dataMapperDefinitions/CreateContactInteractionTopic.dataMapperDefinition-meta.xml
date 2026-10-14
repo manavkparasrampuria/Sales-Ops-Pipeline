@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateContactInteractionTopic</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateContactInteractionTopicCustoma0L46000000B5WiEAKItem3</globalKey>
+        <inputField>ExtractAssetBasedOnAccount:Name</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>omnistudio__CustomerInteractionTopic__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateContactInteractionTopic</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateContactInteractionTopicCustoma0L46000000B5WiEAKItem4</globalKey>
+        <inputField>TransformNewInteraction:NewInteraction:Id</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>omnistudio__CustomerInteractionId__c</outputField>
+        <outputObject>omnistudio__CustomerInteractionTopic__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateContactInteractionTopic</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateContactInteractionTopicCustoma0L46000000B5WiEAKItem2</globalKey>
+        <inputField>ExtractAssetBasedOnAccount:AssetId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>omnistudio__AssetId__c</outputField>
+        <outputObject>omnistudio__CustomerInteractionTopic__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateContactInteractionTopic</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateContactInteractionTopicCustoma0L46000000B5WiEAKItem1</globalKey>
+        <inputField>ExtractAssetBasedOnAccount:AssetAccountId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>omnistudio__AccountId__c</outputField>
+        <outputObject>omnistudio__CustomerInteractionTopic__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateContactInteractionTopic</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateContactInteractionTopicCustoma0L46000000B5WiEAKItem0</globalKey>
+        <inputField>CreateInteraction:omnistudio__CustomerInteraction__c_1:omnistudio__AccountId__c</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>omnistudio__AccountId__c</outputField>
+        <outputObject>omnistudio__CustomerInteractionTopic__c</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+  &quot;CreateInteraction&quot; : {
+    &quot;omnistudio__CustomerInteraction__c_1&quot; : [ {
+      &quot;omnistudio__AccountId__c&quot; : &quot;001o000000w7A8tAAE&quot;,
+      &quot;Id&quot; : &quot;a3U1J000000Gtr7UAC&quot;,
+      &quot;UpsertSuccess&quot; : true
+    } ],
+    &quot;debugLog&quot; : [ &quot;2017-06-01T17:54:56.171Z: Query - SELECT Id,Name,omnistudio__AssetId__c,omnistudio__PartyAccountId__c FROM omnistudio__AssetPartyRelationship__c WHERE (omnistudio__PartyAccountId__c = &apos;001o000000w7A8tAAE&apos;) LIMIT 50000&quot;, &quot;2017-06-01T17:54:56.176Z: Query Results Found: 3&quot; ],
+    &quot;error&quot; : false,
+    &quot;responseType&quot; : &quot;SObject&quot;
+  },
+  &quot;CreateInteractionStatus&quot; : true,
+  &quot;ExtractAssetBasedOnAccount&quot; : [ {
+    &quot;AssetAccountId&quot; : &quot;00146000003lOOKAA2&quot;,
+    &quot;AssetId&quot; : &quot;02i46000000mmafAAA&quot;,
+    &quot;Name&quot; : &quot;GenWatt Diesel 1000kW&quot;
+  }, {
+    &quot;AssetAccountId&quot; : &quot;00146000003lOOKAA2&quot;,
+    &quot;AssetId&quot; : &quot;02i46000000mmbiAAA&quot;,
+    &quot;Name&quot; : &quot;GenWatt Diesel 10kW&quot;
+  }, {
+    &quot;AssetAccountId&quot; : &quot;00146000003lOOKAA2&quot;,
+    &quot;AssetId&quot; : &quot;02i46000000mmakAAA&quot;,
+    &quot;Name&quot; : &quot;GenWatt Diesel 1000kW&quot;
+  } ],
+  &quot;ExtractAssetBasedOnAccountStatus&quot; : true,
+  &quot;TransformNewInteraction&quot; : {
+    &quot;NewInteraction&quot; : {
+      &quot;AccountId&quot; : &quot;001o000000w7A8tAAE&quot;,
+      &quot;Id&quot; : &quot;a3U1J000000Gtr7UAC&quot;
+    }
+  },
+  &quot;TransformNewInteractionStatus&quot; : true,
+  &quot;options&quot; : {
+    &quot;isDebug&quot; : true
+  },
+  &quot;recordId&quot; : &quot;001o000000w7A8t&quot;,
+  &quot;response&quot; : { }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>CreateContactInteractionTopic</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{ }</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

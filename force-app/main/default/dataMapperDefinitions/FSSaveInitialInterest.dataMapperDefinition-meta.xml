@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterestCustom2662</globalKey>
+        <inputField>Step2:Questions and Comments</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Questions_Comments__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterestCustom3771</globalKey>
+        <inputField>Step2:From fostered</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Previous_Start__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>FSSaveInitialInterest9193063224568425</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ApplicationCaseId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterest10060858227655078</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>FSSaveInitialInterest6920635061006393</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterest6216485959779665</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <defaultValue>Foster Care Provider</defaultValue>
+        <globalKey>FSSaveInitialInterestCustom7203</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <defaultValue>License</defaultValue>
+        <globalKey>FSSaveInitialInterestCustom6995</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <defaultValue>Foster Care Application</defaultValue>
+        <globalKey>FSSaveInitialInterestCustom7521</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <defaultValue>Interest</defaultValue>
+        <globalKey>FSSaveInitialInterestCustom6537</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>FSSaveInitialInterest9373549712238012</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterestCustom9202</globalKey>
+        <inputField>Step2:Have you been a foster parent before?</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Previous_Foster_Parent__c</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>IndividualApplication</outputObject>
+        <valueMapping>{&quot;Yes&quot;:&quot;true&quot;,&quot;No&quot;:&quot;false&quot;}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterestCustom8445</globalKey>
+        <inputField>Step2:To Fostered</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Previous_End__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterestCustom5544</globalKey>
+        <inputField>Step2:Agency</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Previous_Agency__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterest45178253547646907</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterestCustom9280</globalKey>
+        <inputField>ContactAccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterest09963581793875154</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactAccountId</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <formulaConverted>| &quot;Foster/\/\/Care/\/\/Application/\/\/-/\/\/&quot; var:FirstName &quot;/\/\/&quot; var:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(&quot;Foster Care Application - &quot;,FirstName,&quot; &quot;,LastName)</formulaExpression>
+        <formulaResultPath>CaseName</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>FSSaveInitialInterest3716696095994172</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterestCustom6674</globalKey>
+        <inputField>Step2:Why are you interested</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Why_Interested__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterestCustom993</globalKey>
+        <inputField>Step2:Type of care</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Type_of_Care__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterestCustom2639</globalKey>
+        <inputField>Step2:Type of license</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Type_of_License__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>FSSaveInitialInterest6284377327115183</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterestCustom5659</globalKey>
+        <inputField>Step2:How Did you hear</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Referral_Source__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FSSaveInitialInterest</dataMapperDefItemName>
+        <globalKey>FSSaveInitialInterest7341085724712137</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRSaveInitialInterest&quot;: null,
+        &quot;DRGetDemoData&quot;: null,
+        &quot;Step3&quot;: null,
+        &quot;Step2&quot;: null,
+        &quot;Step1&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;Step3&quot;: {},
+    &quot;Step2&quot;: {
+        &quot;Questions and Comments&quot;: null,
+        &quot;How Did you hear&quot;: null,
+        &quot;Agency&quot;: null,
+        &quot;To Fostered&quot;: null,
+        &quot;From fostered&quot;: null,
+        &quot;Have you been a foster parent before?&quot;: null,
+        &quot;Type of license&quot;: null,
+        &quot;Type of care&quot;: null,
+        &quot;Why are you interested&quot;: null
+    },
+    &quot;Step1&quot;: {
+        &quot;GoogleMaps-Block&quot;: {
+            &quot;GoogleMaps&quot;: null,
+            &quot;State&quot;: null,
+            &quot;Country&quot;: null,
+            &quot;PostalCode&quot;: null,
+            &quot;CityName&quot;: null,
+            &quot;Street Address&quot;: null
+        },
+        &quot;CommunicationPreference&quot;: null,
+        &quot;Email Address&quot;: null,
+        &quot;CellPhone&quot;: null,
+        &quot;Home Phone&quot;: null,
+        &quot;County&quot;: null,
+        &quot;Last Name&quot;: null,
+        &quot;First Name&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>FSSaveInitialInterest</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;omnidesignerChannelId&quot;: &quot;omni-designer-channel-id-1628263922766&quot;,
+  &quot;timeStamp&quot;: &quot;2021-08-06T15:35:47.374Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZone&quot;: &quot;-420&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;jblankenship@fostercare-lpi-2020.demo&quot;,
+  &quot;userId&quot;: &quot;0054x000002SCZoAAO&quot;,
+  &quot;vlcTimeTracking&quot;: {
+    &quot;OmniScriptSessionToken&quot;: &quot;cd263bf9-0c34-4858-9e28-9388c37da4ec&quot;,
+    &quot;DRGetDemoData&quot;: 808,
+    &quot;Step1&quot;: 9317,
+    &quot;Step2&quot;: 11253,
+    &quot;DRSaveInitialInterest&quot;: 1957
+  },
+  &quot;Gender&quot;: &quot;Female&quot;,
+  &quot;TrainingDate2&quot;: &quot;2021-08-30&quot;,
+  &quot;TrainingDate1&quot;: &quot;2021-08-27&quot;,
+  &quot;PartyId&quot;: &quot;a6W4x000000sowTEAQ&quot;,
+  &quot;DemoDataId&quot;: &quot;0014x000007T59fAAC&quot;,
+  &quot;AgencyName&quot;: &quot;Indiana&quot;,
+  &quot;ProgramEnrollmentId&quot;: &quot;a7C4x000000gECAEA2&quot;,
+  &quot;City&quot;: &quot;Indianapolis&quot;,
+  &quot;StreetAddress&quot;: &quot;810 North Dearborn Street&quot;,
+  &quot;CellPhoneNumber&quot;: &quot;804-402-4733&quot;,
+  &quot;Email&quot;: &quot;jblankenship@salesforce.com&quot;,
+  &quot;CountyName&quot;: &quot;Decatur&quot;,
+  &quot;LastName&quot;: &quot;Miller&quot;,
+  &quot;FirstName&quot;: &quot;Kate&quot;,
+  &quot;ContactId&quot;: &quot;0034x000001tFR5AAM&quot;,
+  &quot;Step1&quot;: {
+    &quot;GoogleMaps-Block&quot;: {
+      &quot;PostalCode&quot;: &quot;46201&quot;,
+      &quot;State&quot;: &quot;IN&quot;,
+      &quot;GoogleMaps&quot;: &quot;810 North Dearborn Street, Indianapolis, IN, USA&quot;,
+      &quot;Country&quot;: &quot;United States&quot;,
+      &quot;CityName&quot;: &quot;Indianapolis&quot;,
+      &quot;Street Address&quot;: &quot;810 North Dearborn Street&quot;
+    },
+    &quot;CellPhone&quot;: &quot;804-402-4733&quot;,
+    &quot;CommunicationPreference&quot;: &quot;SMS&quot;,
+    &quot;Email Address&quot;: &quot;jblankenship@salesforce.com&quot;,
+    &quot;Home Phone&quot;: null,
+    &quot;County&quot;: &quot;Decatur&quot;,
+    &quot;Last Name&quot;: &quot;Miller&quot;,
+    &quot;First Name&quot;: &quot;Kate&quot;
+  },
+  &quot;SMSMessage&quot;: &quot;Thank you for expressing interest in the Indiana Foster Care Program.  We have received your information and will have a Case worker reach out to you within 5 business days about your interest.&quot;,
+  &quot;Step2&quot;: {
+    &quot;How Did you hear&quot;: &quot;Online&quot;,
+    &quot;To Fostered&quot;: &quot;2012-06-01&quot;,
+    &quot;From fostered&quot;: &quot;2006-10-15&quot;,
+    &quot;Type of license&quot;: &quot;Standard&quot;,
+    &quot;Type of care&quot;: &quot;Foster Care&quot;,
+    &quot;Questions and Comments&quot;: &quot;Will I/my family be required to take any training as part of the application process?&quot;,
+    &quot;Agency&quot;: &quot;Colorado For Kids&quot;,
+    &quot;Have you been a foster parent before?&quot;: &quot;Yes&quot;,
+    &quot;Why are you interested&quot;: &quot;I am interested in becoming a foster parent because I know there are many children in need of a stable home and proper guidance and mentoring.  Our family likes to volunteer and give back to the community.&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

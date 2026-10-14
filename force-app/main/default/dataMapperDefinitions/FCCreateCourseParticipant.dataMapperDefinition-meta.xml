@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FCCreateCourseParticipant</dataMapperDefItemName>
+        <globalKey>FCCreateCourseParticipant3609861241534311</globalKey>
+        <inputField>ContactId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactId</outputField>
+        <outputObject>TrainingCourseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FCCreateCourseParticipant</dataMapperDefItemName>
+        <globalKey>FCCreateCourseParticipant4530019262110645</globalKey>
+        <inputField>ApplicationId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Application__c</outputField>
+        <outputObject>TrainingCourseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FCCreateCourseParticipant</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>FCCreateCourseParticipant22400491295017932</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>TrainingCourseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FCCreateCourseParticipant</dataMapperDefItemName>
+        <globalKey>FCCreateCourseParticipant8130449965912931</globalKey>
+        <inputField>TotalHours</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>TotalHours</outputField>
+        <outputObject>TrainingCourseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FCCreateCourseParticipant</dataMapperDefItemName>
+        <globalKey>FCCreateCourseParticipant9772975247729323</globalKey>
+        <inputField>Select:TrainingOffering</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Course_Id__c</lookupByField>
+        <lookupObject>CourseOffering</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CourseOfferingId</outputField>
+        <outputObject>TrainingCourseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FCCreateCourseParticipant</dataMapperDefItemName>
+        <defaultValue>Department of Social Services</defaultValue>
+        <globalKey>FCCreateCourseParticipant16854618924736853</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>InstitutionName</outputField>
+        <outputObject>TrainingCourseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>FCCreateCourseParticipant</dataMapperDefItemName>
+        <globalKey>FCCreateCourseParticipant2197716972352428</globalKey>
+        <inputField>Select:TrainingOffering</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Course_Id__c</lookupByField>
+        <lookupObject>CourseOffering</lookupObject>
+        <lookupReturnedField>StartDate</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>StartDate</outputField>
+        <outputObject>TrainingCourseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRCreateCourseParticipant&quot;: null,
+        &quot;DRGetTrainingCourses&quot;: null,
+        &quot;DRGetDemoData&quot;: null,
+        &quot;Confirmation&quot;: null,
+        &quot;Select&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;Confirmation&quot;: {},
+    &quot;Select&quot;: {
+        &quot;TrainingOffering&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>FCCreateCourseParticipant</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;DRCreateCourseParticipant&quot;:null,&quot;DRGetTrainingCourses&quot;:null,&quot;DRGetDemoData&quot;:null,&quot;Confirmation&quot;:null,&quot;Select&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;Confirmation&quot;:{},&quot;Select&quot;:{&quot;TrainingOffering&quot;:null}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

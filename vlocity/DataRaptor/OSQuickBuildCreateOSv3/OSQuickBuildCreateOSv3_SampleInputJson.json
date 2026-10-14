@@ -1,0 +1,280 @@
+{
+    "ContextId": "",
+    "DRId_%vlocity_namespace%__OmniScript__c": "a5y4x0000004PpDAAU",
+    "Details": {
+        "LWCEnabled": true,
+        "NumSteps": 3,
+        "OmniscriptName": "Test",
+        "SubType": "Test",
+        "Type": "Test"
+    },
+    "Elements": {
+        "ElementDetails": [
+            {
+                "ElementLabel": "Name of person assessed: ",
+                "ElementName": "NamePerson",
+                "ElementOrder": "1",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Lives alone ",
+                "ElementName": "LivesAlone",
+                "ElementOrder": "2",
+                "ElementStep": "1",
+                "ElementType": "Checkbox"
+            },
+            {
+                "ElementLabel": "Other (describe): ",
+                "ElementName": "Other",
+                "ElementOrder": "3",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Title of person completing assessment: ",
+                "ElementName": "TilePersonCompleting",
+                "ElementOrder": "4",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "In what areas does the person report needing help? ",
+                "ElementName": "WhatAreas",
+                "ElementOrder": "5",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Name of person completing assessment: ",
+                "ElementName": "NamePersonCompleting",
+                "ElementOrder": "6",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Names of participants and relationship to person assessed: ",
+                "ElementName": "NamePartipants",
+                "ElementOrder": "7",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "County of residence: ",
+                "ElementName": "County",
+                "ElementOrder": "1",
+                "ElementStep": "2",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Date of interview: ",
+                "ElementName": "DateofInterview",
+                "ElementOrder": "2",
+                "ElementStep": "2",
+                "ElementType": "Date"
+            },
+            {
+                "ElementLabel": "Lives in a Nursing Facility ",
+                "ElementName": "LivesNursingHome",
+                "ElementOrder": "3",
+                "ElementStep": "2",
+                "ElementType": "Checkbox"
+            },
+            {
+                "ElementLabel": "Lives with others who are not caregivers ",
+                "ElementName": "LiveswithOthersNotCaregivers",
+                "ElementOrder": "4",
+                "ElementStep": "2",
+                "ElementType": "Checkbox"
+            },
+            {
+                "ElementLabel": "Date of birth: ",
+                "ElementName": "DateofBirth",
+                "ElementOrder": "1",
+                "ElementStep": "3",
+                "ElementType": "Date"
+            },
+            {
+                "ElementLabel": "Address: ",
+                "ElementName": "Address",
+                "ElementOrder": "2",
+                "ElementStep": "3",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Lives with family or other caregivers ",
+                "ElementName": "LiveswithFamilyCaregivers",
+                "ElementOrder": "3",
+                "ElementStep": "3",
+                "ElementType": "Checkbox"
+            },
+            {
+                "ElementLabel": "Lives in an Intermediate Care Facility for Individuals with Intellectual Disabilities (ICFIID) ",
+                "ElementName": "LivesInIntermediateFacility",
+                "ElementOrder": "4",
+                "ElementStep": "3",
+                "ElementType": "Checkbox"
+            },
+            {
+                "ElementLabel": "This is a Text Block Test",
+                "ElementName": "TextBlock1",
+                "ElementOrder": "8",
+                "ElementStep": "1",
+                "ElementType": "Text Block"
+            }
+        ],
+        "ElementFile": [
+            {
+                "$$hashKey": "object:162",
+                "contentDocumentId": "0694x000000deNoAAI",
+                "data": "1c7756b3-8e2c-4f05-b69f-c964ed5e3f21",
+                "filename": "ExampleOSUpload.csv",
+                "size": 1070,
+                "vId": "0684x000000dkRGAAY"
+            }
+        ],
+        "FileCount": 1
+    },
+    "StepData": [
+        {
+            "Elements": [
+                {
+                    "ElementLabel": "Name of person assessed: ",
+                    "ElementName": "NamePerson",
+                    "ElementOrder": "1",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Lives alone ",
+                    "ElementName": "LivesAlone",
+                    "ElementOrder": "2",
+                    "ElementStep": "1",
+                    "ElementType": "Checkbox"
+                },
+                {
+                    "ElementLabel": "Other (describe): ",
+                    "ElementName": "Other",
+                    "ElementOrder": "3",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Title of person completing assessment: ",
+                    "ElementName": "TilePersonCompleting",
+                    "ElementOrder": "4",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "In what areas does the person report needing help? ",
+                    "ElementName": "WhatAreas",
+                    "ElementOrder": "5",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Name of person completing assessment: ",
+                    "ElementName": "NamePersonCompleting",
+                    "ElementOrder": "6",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Names of participants and relationship to person assessed: ",
+                    "ElementName": "NamePartipants",
+                    "ElementOrder": "7",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "This is a Text Block Test",
+                    "ElementName": "TextBlock1",
+                    "ElementOrder": "8",
+                    "ElementStep": "1",
+                    "ElementType": "Text Block"
+                }
+            ],
+            "StepName": "Step1"
+        },
+        {
+            "Elements": [
+                {
+                    "ElementLabel": "County of residence: ",
+                    "ElementName": "County",
+                    "ElementOrder": "1",
+                    "ElementStep": "2",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Date of interview: ",
+                    "ElementName": "DateofInterview",
+                    "ElementOrder": "2",
+                    "ElementStep": "2",
+                    "ElementType": "Date"
+                },
+                {
+                    "ElementLabel": "Lives in a Nursing Facility ",
+                    "ElementName": "LivesNursingHome",
+                    "ElementOrder": "3",
+                    "ElementStep": "2",
+                    "ElementType": "Checkbox"
+                },
+                {
+                    "ElementLabel": "Lives with others who are not caregivers ",
+                    "ElementName": "LiveswithOthersNotCaregivers",
+                    "ElementOrder": "4",
+                    "ElementStep": "2",
+                    "ElementType": "Checkbox"
+                }
+            ],
+            "StepName": "Step2"
+        },
+        {
+            "Elements": [
+                {
+                    "ElementLabel": "Date of birth: ",
+                    "ElementName": "DateofBirth",
+                    "ElementOrder": "1",
+                    "ElementStep": "3",
+                    "ElementType": "Date"
+                },
+                {
+                    "ElementLabel": "Address: ",
+                    "ElementName": "Address",
+                    "ElementOrder": "2",
+                    "ElementStep": "3",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Lives with family or other caregivers ",
+                    "ElementName": "LiveswithFamilyCaregivers",
+                    "ElementOrder": "3",
+                    "ElementStep": "3",
+                    "ElementType": "Checkbox"
+                },
+                {
+                    "ElementLabel": "Lives in an Intermediate Care Facility for Individuals with Intellectual Disabilities (ICFIID) ",
+                    "ElementName": "LivesInIntermediateFacility",
+                    "ElementOrder": "4",
+                    "ElementStep": "3",
+                    "ElementType": "Checkbox"
+                }
+            ],
+            "StepName": "Step3"
+        }
+    ],
+    "id": "a5y4x0000004Pp8AAE",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://rentassist-20210129-demo--vlocity-ins.visualforce.com",
+    "timeStamp": "2021-02-26T15:07:30.312Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054x000003dns8AAA",
+    "userName": "jblankenship@rentassistance01292021.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

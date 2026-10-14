@@ -1,0 +1,47 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 0,
+                    "name": "recordId",
+                    "val": "001al000019YXlUAAW"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Query",
+            "value": {
+                "dsDelay": "",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "query": "select id from account where id = '{recordId}'",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "GPSLaunchResumeSearch",
+    "Namespace": "",
+    "OmniUiCardKey": "GPSLaunchResumeSearch/Salesforce/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "GPSLaunchResumeSearch.json",
+    "SampleDataSourceResponse": "[{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v61.0/sobjects/Account/001al000019YXlUAAW\"},\"Id\":\"001al000019YXlUAAW\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "GPSLaunchResumeSearch_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/GPSLaunchResumeSearch"
+}

@@ -1,0 +1,41 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n\t\t\t\"severity\": \"Error\",\n\t\t\t\"subject\": \"Alert Subject\",\n\t\t\t\"description\": \"Alert Description\",\n\t\t\t\"effectiveDate\": \"2021-10-11T19:00:00.000Z\",\n\t\t\t\"validUntilDate\": \"2022-01-06T20:00:00.000Z\",\n\t\t\t\"categoryName\": \"Warning\",\n\t\t\t\"id\": \"0qZRO000000000z2AA\",\n\t\t\t\"dismiss\": {\n\"id\": \"0qZRO000000000z2AA\",\n\"isExternal\":false\n},\n\t\t\t\"snooze\": {\n\"id\": \"0qZRO000000000z2AA\",\n\"isExternal\":false\n\t\t\t},\n\t\t\t\"isChild\": true,\n\"isExternal\":  false\n\t}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "PSSServiceExcellenceSingleAlert",
+    "Namespace": "",
+    "OmniUiCardKey": "PSSServiceExcellenceSingleAlert/Salesforce/4.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "PSSServiceExcellenceSingleAlert.json",
+    "SampleDataSourceResponse": "{\"severity\":\"Error\",\"subject\":\"Alert Subject\",\"description\":\"Alert Description\",\"effectiveDate\":\"2021-10-11T19:00:00.000Z\",\"validUntilDate\":\"2022-01-06T20:00:00.000Z\",\"categoryName\":\"Warning\",\"id\":\"0qZRO000000000z2AA\",\"dismiss\":{\"id\":\"0qZRO000000000z2AA\",\"isExternal\":false},\"snooze\":{\"id\":\"0qZRO000000000z2AA\",\"isExternal\":false},\"isChild\":true,\"isExternal\":false}",
+    "StylingConfiguration": "{\"customStyles\":\"\\n.chevron button {\\n    width: auto !important; \\n    height: auto !important;\\n    background-color: white !important;\\n    color: #747474 !important;\\n    border: 0px !important;\\n    padding: 0px !important;\\n    margin-left: 18px !important;\\n}\\n\\n.chevron button:hover {\\n    width: auto !important; \\n    height: auto !important;\\n    background-color: white !important;\\n    color: #747474 !important;\\n    border: 0px !important;\\n    padding: 0px !important;\\n    margin-left: 18px !important;\\n}\\n\\n.chevron button:focus {\\n    width: auto !important; \\n    height: auto !important;\\n    background-color: white !important;\\n    color: #747474 !important;\\n    border: 0px !important;\\n    padding: 0px !important;\\n    margin-left: 18px !important;\\n}\\n\\n.icon {\\n    margin-top: 10px !important;\\n    margin-left: 0px !important;\\n    width: auto !important;\\n    height: auto !important;\\n}\\n\\n.subject {\\n    margin-top: 8px !important;\\n    margin-left: 10px !important;\\n}\\n\\n.subjectContainer {\\n    margin-top: 8px !important;\\n    margin-left: 10px !important;\\n    font-size: 13px !important;\\n    font-family: 'Segoe UI', Arial, sans-serif !important;\\n}\\n\\n.actionContainer svg {\\n  border-radius: 2px !important;\\n  padding: 4px !important;\\n}\\n\\n.menu-item-label.slds-action_text span {\\n    color: black !important;\\n}\"}",
+    "UniqueName": "PSSServiceExcellenceSingleAlert_Salesforce_4",
+    "VersionNumber": 4,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/PSSServiceExcellenceSingleAlert"
+}

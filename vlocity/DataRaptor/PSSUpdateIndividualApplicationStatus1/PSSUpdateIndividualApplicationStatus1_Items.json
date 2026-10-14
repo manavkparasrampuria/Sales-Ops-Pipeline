@@ -1,0 +1,82 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "PSSUpdateIndividualApplicationStatus7527516616126739",
+        "InputFieldName": "IndividualApplicationId",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": true,
+        "IsUpsertKey": true,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSUpdateIndividualApplicationStatus1",
+        "OmniDataTransformationId": {
+            "Name": "PSSUpdateIndividualApplicationStatus1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSUpdateIndividualApplicationStatus1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "IndividualApplication",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "PSSUpdateIndividualApplicationStatus31833554500026096",
+        "InputFieldName": "IndividualApplicationStatus",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": true,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSUpdateIndividualApplicationStatus1",
+        "OmniDataTransformationId": {
+            "Name": "PSSUpdateIndividualApplicationStatus1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSUpdateIndividualApplicationStatus1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "IndividualApplication",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "DefaultValue": "$Vlocity.FALSE",
+        "FilterGroup": 0,
+        "GlobalKey": "PSSUpdateIndividualApplicationStatusCustom3355",
+        "InputFieldName": "IndividualApplicationWasReturned",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSUpdateIndividualApplicationStatus1",
+        "OmniDataTransformationId": {
+            "Name": "PSSUpdateIndividualApplicationStatus1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSUpdateIndividualApplicationStatus1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Boolean",
+        "OutputFieldName": "WasReturned",
+        "OutputObjectName": "IndividualApplication",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

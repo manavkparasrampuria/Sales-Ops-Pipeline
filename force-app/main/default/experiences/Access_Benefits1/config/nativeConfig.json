@@ -1,0 +1,50 @@
+{
+  "id" : "97970670-f0a4-413f-9a68-cf54805ae240",
+  "mobilePublisherAppUpdateConfig" : {
+    "forceAppUpdate" : false,
+    "enableAppUpdate" : false,
+    "minVersion" : {
+      "ios" : {
+        "version" : "10.0",
+        "url" : "https://apps.apple.com/us"
+      },
+      "android" : {
+        "version" : "10.1",
+        "url" : "https://play.google.com/store"
+      }
+    }
+  },
+  "nativeMobileNavConfig" : {
+    "showBackButton" : true,
+    "showHamburgerMenuWithBackButton" : true
+  },
+  "nativeTabMenu" : {
+    "branding" : {
+      "iconTintColor" : "#FFFFFF",
+      "iconTintColorUnselected" : "#C9C5C5",
+      "barTintColor" : "#395878"
+    },
+    "menuItems" : [ {
+      "name" : "Home",
+      "targetUrl" : "/",
+      "iconAsset" : "slds-icon:home"
+    }, {
+      "name" : "Applications",
+      "targetUrl" : "/applications"
+    }, {
+      "name" : "Benefits",
+      "targetUrl" : "/benefits"
+    }, {
+      "name" : "Complaints",
+      "targetUrl" : "/file-a-complaint"
+    }, {
+      "name" : "Care Plans",
+      "targetUrl" : "/careplans"
+    }, {
+      "name" : "Tasks",
+      "targetUrl" : "/recordlist/Task/Default"
+    } ]
+  },
+  "showHamburgerMenu" : true,
+  "type" : "nativeConfig"
+}

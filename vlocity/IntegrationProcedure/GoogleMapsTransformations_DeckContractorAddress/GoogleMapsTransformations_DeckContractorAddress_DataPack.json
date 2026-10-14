@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_DeckContractorAddress_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Deck Contractor",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_DeckContractorAddress_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_DeckContractorAddress_Element_TransformStep.json",
+        "GoogleMapsTransformations_DeckContractorAddress_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_DeckContractorAddress",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_DeckContractorAddress_PropertySetConfig.json",
+    "SubType": "DeckContractorAddress",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_DeckContractorAddress_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/DeckContractorAddress/Procedure"
+}

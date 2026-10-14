@@ -1,0 +1,36 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "GPS_SE",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "Description": "Shows the benefit that a user can apply for.",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "BenefitsListChild",
+    "Namespace": "",
+    "OmniUiCardKey": "BenefitsListChild/GPS_SE/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "BenefitsListChild.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\"\"}",
+    "UniqueName": "BenefitsListChild_GPS_SE_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/BenefitsListChild"
+}

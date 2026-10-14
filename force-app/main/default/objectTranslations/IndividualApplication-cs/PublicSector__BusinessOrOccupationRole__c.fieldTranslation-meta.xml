@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business or Occupation Role --></label>
+    <name>PublicSector__BusinessOrOccupationRole__c</name>
+    <picklistValues>
+        <masterLabel>Airline Operations</masterLabel>
+        <translation>Letecká doprava</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Border Protection and Transportation Security</masterLabel>
+        <translation>Ochrana hranic a bezpečnost dopravy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Traveler</masterLabel>
+        <translation>Obchodní cestující</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction</masterLabel>
+        <translation>Stavitelství</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Correctional Facility Operations</masterLabel>
+        <translation>Provoz nápravných zařízení</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentistry</masterLabel>
+        <translation>Zubní lékařství</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency Response and Public Safety</masterLabel>
+        <translation>Záchranný systém a veřejná bezpečnost</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environmental or Janitorial  Services</masterLabel>
+        <translation>Environmentální a úklidové služby</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Farmworker</masterLabel>
+        <translation>Farmář</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food Preparation</masterLabel>
+        <translation>Příprava jídla</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare</masterLabel>
+        <translation>Zdravotní péče</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Home Repair Services</masterLabel>
+        <translation>Opravy v domácnosti</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory</masterLabel>
+        <translation>Laboratoře</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturing</masterLabel>
+        <translation>Výroba</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meat and Poultry Processing</masterLabel>
+        <translation>Zpracování masa a drůbeže</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Worker</masterLabel>
+        <translation>Kancelářský pracovník</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postmortem Care</masterLabel>
+        <translation>Posmrtná péče</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail Operations</masterLabel>
+        <translation>Maloobchod</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solid Waste or Wastewater Management</masterLabel>
+        <translation>Nakládání s pevnými odpady nebo odpadními vodami</translation>
+    </picklistValues>
+</CustomFieldTranslation>

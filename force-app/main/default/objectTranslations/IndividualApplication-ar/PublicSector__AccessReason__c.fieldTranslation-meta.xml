@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reason for Access --></label>
+    <name>PublicSector__AccessReason__c</name>
+    <picklistValues>
+        <masterLabel>Conference</masterLabel>
+        <translation>المؤتمر</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inspection</masterLabel>
+        <translation>الفحص</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meetings</masterLabel>
+        <translation>الاجتماعات</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>آخر</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shift Work</masterLabel>
+        <translation>نوبة العمل</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training</masterLabel>
+        <translation>التدريب</translation>
+    </picklistValues>
+</CustomFieldTranslation>

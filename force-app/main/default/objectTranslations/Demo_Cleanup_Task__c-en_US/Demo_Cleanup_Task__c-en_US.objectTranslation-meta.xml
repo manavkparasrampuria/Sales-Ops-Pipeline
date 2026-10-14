@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demo Cleanup Task</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Demo Cleanup Tasks</value>
+    </caseValues>
+    <recordTypes>
+        <description><!-- Demo cleanup task is an Apex class specification. --></description>
+        <label><!-- Apex Cleanup Task --></label>
+        <name>Apex_Cleanup_Task</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Demo cleanup task is an autolaunched flow. --></description>
+        <label><!-- Flow Cleanup Task --></label>
+        <name>Flow_Cleanup_Task</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Demo cleanup task is based on a SOQL query. --></description>
+        <label><!-- SOQL Cleanup Task --></label>
+        <name>SOQL_Cleanup_Task</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- For an Apex cleanup task, the Apex class name must be specified. --></errorMessage>
+        <name>For_Apex_Task_Apex_Class_Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For a flow cleanup task, the flow name must be specified. --></errorMessage>
+        <name>For_Flow_Task_Flow_Name_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For a SOQL cleanup task, the object API name must be specified. --></errorMessage>
+        <name>For_SOQL_Task_Object_Name_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

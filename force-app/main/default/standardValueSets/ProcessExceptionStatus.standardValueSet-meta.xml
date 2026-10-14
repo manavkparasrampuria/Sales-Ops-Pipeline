@@ -2,33 +2,33 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Nuevo</fullName>
+        <fullName>New</fullName>
         <default>true</default>
-        <label>Nuevo</label>
+        <label>New</label>
     </standardValue>
     <standardValue>
-        <fullName>Con triaje</fullName>
+        <fullName>Triaged</fullName>
         <default>false</default>
-        <label>Con triaje</label>
+        <label>Triaged</label>
     </standardValue>
     <standardValue>
-        <fullName>En pausa</fullName>
+        <fullName>Paused</fullName>
         <default>false</default>
-        <label>En pausa</label>
+        <label>Paused</label>
     </standardValue>
     <standardValue>
-        <fullName>Ignorado</fullName>
+        <fullName>Ignored</fullName>
         <default>false</default>
-        <label>Ignorado</label>
+        <label>Ignored</label>
     </standardValue>
     <standardValue>
-        <fullName>Resuelto</fullName>
+        <fullName>Resolved</fullName>
         <default>false</default>
-        <label>Resuelto</label>
+        <label>Resolved</label>
     </standardValue>
     <standardValue>
-        <fullName>Anulado</fullName>
+        <fullName>Voided</fullName>
         <default>false</default>
-        <label>Anulado</label>
+        <label>Voided</label>
     </standardValue>
 </StandardValueSet>

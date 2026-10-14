@@ -1,0 +1,44 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PSSAssignGenericNamesToResponseNode",
+    "OmniProcessId": {
+        "Name": "ProcessIndividualApplicationForBenefits",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ProcessIndividualApplication/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "PSSAssignGenericNamesToResponseNode1",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "FetchIndividualApplicationStatus:ApplicationType != \"ChangeOfCircumstance\"",
+        "failOnStepError": false,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "ignoreCache": false,
+        "label": "DataMapperTransformAction1",
+        "responseJSONNode": "PSSAssignGenericNamesToResponseNode",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "RemoteActionAQR:AssessmentDataReturned",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Transform Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ProcessIndividualApplication/Procedure/PSSAssignGenericNamesToResponseNode"
+}

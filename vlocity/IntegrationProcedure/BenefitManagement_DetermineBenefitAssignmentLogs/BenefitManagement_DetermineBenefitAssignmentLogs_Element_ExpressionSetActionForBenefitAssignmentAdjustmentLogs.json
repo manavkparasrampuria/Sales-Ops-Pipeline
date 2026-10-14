@@ -1,0 +1,49 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": false,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ExpressionSetActionForBenefitAssignmentAdjustmentLogs",
+    "OmniProcessId": {
+        "Name": "Determine Benefit Assignment Logs",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/DetermineBenefitAssignmentLogs/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "GetParentIA:ParentApplicationId == NULL",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "ExpressionSetAction1",
+        "remoteClass": "devopsimpkg11.PricingMatrixCalculationService",
+        "remoteMethod": "calculate",
+        "remoteOptions": {
+            "actionContextCode": "%BAAId%",
+            "configurationName": "PSSExpCloud_CalculateBenefitAmount",
+            "explainabilitySpecName": "BenefitApplicationLogs"
+        },
+        "responseJSONNode": "EligibleBenefitAmount",
+        "responseJSONPath": "output:calculationResults:NetBenefitAmount",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "input",
+        "sendJSONPath": "CalculateBenefitAmountInput",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Calculation Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/DetermineBenefitAssignmentLogs/Procedure/ExpressionSetActionForBenefitAssignmentAdjustmentLogs"
+}

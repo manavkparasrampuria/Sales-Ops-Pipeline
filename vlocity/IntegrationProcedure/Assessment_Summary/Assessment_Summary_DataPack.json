@@ -1,0 +1,32 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "Assessment_Summary_SampleInput.json",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "IPGetOpioidResponseHeader",
+    "OmniProcessElement": [
+        "Assessment_Summary_Element_DataRaptorExtractActionScore.json",
+        "Assessment_Summary_Element_DataRaptorExtractActionLabel.json",
+        "Assessment_Summary_Element_ListAction1.json",
+        "Assessment_Summary_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "Assessment_Summary",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Assessment_Summary_PropertySetConfig.json",
+    "SubType": "Summary",
+    "Type": "Assessment",
+    "UniqueName": "Assessment_Summary_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Assessment/Summary/Procedure"
+}

@@ -1,0 +1,134 @@
+{
+    "AccountId": "001Hr00001s7dedIAA",
+    "AccountName": "Acme Consulting Services",
+    "AdditonalInfo": {
+        "FacilityAssetEditBlock": [
+            {
+                "FacilityAssetName": "Item 1",
+                "FacilityAssetValue": 14500
+            },
+            {
+                "FacilityAssetName": "Item 2",
+                "FacilityAssetValue": 54775
+            }
+        ],
+        "FacilityAssetValueTotal": 69275,
+        "FacilityComments": "Facility is in great shape and well maintained.",
+        "FacilityRG_Condition": {
+            "RGFacilityCondition_FacilityBuilding": "Excellent",
+            "RGFacilityCondition_FacilityEquipment": "Good",
+            "RGFacilityCondition_FacilityGrounds": "Good"
+        }
+    },
+    "AssessEffectiveDate": "2023-12-05T20:28:18.000Z",
+    "AssessName": "Acme Consulting Services - HQ Facility Intake Assessment 122023",
+    "Assessment": {
+        "AssessmentExecute": "Yes"
+    },
+    "AssessmentSignature": [
+        {
+            "DateTime": "2023-12-05T20:28:15.243Z",
+            "OmniscriptIdentifier": "MySignature",
+            "SignedBy": "Kevin Wind",
+            "SignedInitial": "KW"
+        }
+    ],
+    "CanvasChosen": "draw",
+    "ClassificationDetails": {
+        "FacilityClassifiedTypes": {
+            "ClassifiedUsageAdmin": "FOU",
+            "ClassifiedUsageEngineering": "Secret",
+            "ClassifiedUsageExec": "Confidential"
+        }
+    },
+    "Completion": {
+    },
+    "Consent": {
+    },
+    "ContactId": "003Hr00002XkUdFIAV",
+    "ContactName": "Keith Winderlich",
+    "ContextId": "0klHr000000wr4WIAQ",
+    "CurrentDay": "Sunday",
+    "CurrentSobjectType": "HealthcareFacility",
+    "DRId_Address": "130Hr0000000iv8IAA",
+    "DRId_HealthcareFacility": "0klHr000000wr4WIAQ",
+    "DRId_Location": "131Hr0000000rxeIAA",
+    "DRId_OperatingHours": "0OHHr0000009FiQOAU",
+    "DRId_TimeSlot": "0GjHr0000009UhjKAE",
+    "Disclosure": {
+        "Disclosure1": true
+    },
+    "DocumentContentType": "image/png",
+    "FontChosen": 0,
+    "General": {
+        "FacilityAge": 15,
+        "FacilityClassified": "Yes",
+        "FacilityPrevCert": "2020-03-10",
+        "FacilityUsage": "HQ;Administrative;Warehouse"
+    },
+    "LocationIdDeleted": "",
+    "OperatingHoursIdDeleted": "",
+    "Order": 7,
+    "OrganizationName": "Acme Consulting Services",
+    "RecordType": {
+        "DeveloperName": "SiteFacility",
+        "Id": "012Hr0000008SfxIAE"
+    },
+    "RecordTypeName": "SiteFacility",
+    "SignedBy": "Kevin Wind",
+    "SignedDate": "2023-12-05T20:28:15.241Z",
+    "SignedElements": [
+        "MySignature"
+    ],
+    "SiteContact": {
+        "BestTimetoCall": {
+            "SiteContactBestTimeCallEnd": "12:00:00.000Z",
+            "SiteContactBestTimeCallStart": "09:00:00.000Z"
+        },
+        "BlkSiteContactNew": null,
+        "MyselfSiteContact": true,
+        "SiteContactPhone": "2405553883",
+        "SiteOperatingHoursAdd": "No"
+    },
+    "SiteContactId": "003Hr00002XkUdFIAV",
+    "SiteContactPhone__c": "(415)443-9822",
+    "SiteFacilityId": "0klHr000000wr4WIAQ",
+    "SiteFacilityIdDeleted": "",
+    "SiteFacilityName": "Acme Consulting Services - HQ",
+    "SiteInfo": {
+        "Description": "This is the HQ for various administration and services. This is also includes a warehouse for various materials",
+        "NumberofStaff": 200,
+        "SIDN__c": "S12344567",
+        "SiteAddress-Block": {
+            "SiteAddress": "415 Mission St, San Francisco, CA 94105 USA",
+            "SiteCity": " San Francisco",
+            "SiteCountry": "United States",
+            "SiteState": "CA",
+            "SiteStreet": "415 Mission St",
+            "SiteZipcode": "94105"
+        },
+        "SiteFacilityType": "HQ",
+        "SiteName": "Acme Consulting Services - HQ"
+    },
+    "SiteNameDefault": "Acme Consulting Services - HQ",
+    "SiteNameIP": "",
+    "SiteOperatingHours": null,
+    "UserId": "005Hr00000FOMbWIAX",
+    "assessmentId": "0U3Hr000000wwD9KAI",
+    "language": "English",
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jNHr0000004mVrMAI",
+    "omniscriptId": "0jNHr0000004mVrMAI",
+    "runMode": "preview",
+    "sId": "0jNHr0000004mVrMAI",
+    "subType": "NewSiteFacility",
+    "theme": "lightning",
+    "timeStamp": "2023-12-05T20:23:27.311Z",
+    "type": "SiteFacility",
+    "userCurrencyCode": "USD",
+    "userId": "005Hr00000FOMbWIAX",
+    "userName": "kwinderlich@1123winter24.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-300",
+    "userTimeZoneName": "America/New_York"
+}

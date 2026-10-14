@@ -10,11 +10,11 @@
     <height>600</height>
     <isResizable>true</isResizable>
     <linkType>url</linkType>
-    <masterLabel>Búsqueda en Google</masterLabel>
+    <masterLabel>Google Search</masterLabel>
     <openType>newWindow</openType>
     <position>none</position>
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>http://www.google.com/search?q={!Lead.Company}</url>
+    <url>http://www.google.com/search?q={!Lead_Company}</url>
 </WebLink>

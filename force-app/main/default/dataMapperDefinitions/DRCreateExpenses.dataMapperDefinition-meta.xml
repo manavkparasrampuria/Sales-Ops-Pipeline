@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateExpenses</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateExpenses14519146270978012</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Expense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateExpenses</dataMapperDefItemName>
+        <globalKey>DRCreateExpenses6017251487465978</globalKey>
+        <inputField>ApplicantID</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contact__c</outputField>
+        <outputObject>Expense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateExpenses</dataMapperDefItemName>
+        <globalKey>DRCreateExpenses17811683944012358</globalKey>
+        <inputField>Household Expenses:ExpensesBlock:MonthlyAmount</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Amount</outputField>
+        <outputObject>Expense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateExpenses</dataMapperDefItemName>
+        <globalKey>DRCreateExpenses9363109248581718</globalKey>
+        <inputField>Household Expenses:ExpensesBlock:ExpenseType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Category__c</outputField>
+        <outputObject>Expense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateExpenses</dataMapperDefItemName>
+        <defaultValue>$Vlocity.TODAY</defaultValue>
+        <globalKey>DRCreateExpenses5064287966145105</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>TransactionDate</outputField>
+        <outputObject>Expense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateExpenses</dataMapperDefItemName>
+        <globalKey>DRCreateExpenses045523856555637066</globalKey>
+        <inputField>Household Expenses:ExpensesBlock:ExpenseDetails</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>Expense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateExpenses</dataMapperDefItemName>
+        <formulaConverted>| TODAY</formulaConverted>
+        <formulaExpression>TODAY()</formulaExpression>
+        <formulaResultPath>TransactionDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRCreateExpenses854118574500293</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;ER&quot;: true,
+    &quot;SSAH&quot;: true,
+    &quot;ACSD&quot;: true,
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DR - Create WIC PE and PED&quot;: null,
+        &quot;DR - Create Medicaid Program Enrollment&quot;: null,
+        &quot;Create Application&quot;: null,
+        &quot;DR - UploadExpenseAttachments&quot;: null,
+        &quot;DR - UploadIncomeAttachments&quot;: null,
+        &quot;Set Primary Applicant on Application&quot;: null,
+        &quot;DR - Create Expenses&quot;: null,
+        &quot;DR - Create Income&quot;: null,
+        &quot;Set Applicant and Household ID&quot;: null,
+        &quot;DR - Create Household and Applicant&quot;: null,
+        &quot;DR - Create TANF PE and PED&quot;: null,
+        &quot;DR - Create SNAP PE and PED&quot;: null,
+        &quot;DR - Create Family&quot;: null,
+        &quot;Estimated Benefits&quot;: null,
+        &quot;HouseholdDetails&quot;: null,
+        &quot;Self Disclosure&quot;: null,
+        &quot;Upload Documentation&quot;: null,
+        &quot;Not Eligible&quot;: null,
+        &quot;Thank you&quot;: null,
+        &quot;Household Expenses&quot;: null,
+        &quot;Employment Income&quot;: null,
+        &quot;Demographics&quot;: null,
+        &quot;Programs&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;Estimated Benefits&quot;: {},
+    &quot;HouseholdDetails&quot;: {
+        &quot;DependantChild&quot;: {
+            &quot;Hospitalized&quot;: null,
+            &quot;DependantMiddle&quot;: null,
+            &quot;Sex&quot;: null,
+            &quot;DependantFirst&quot;: null,
+            &quot;HealthCard&quot;: null,
+            &quot;DependantLast&quot;: null,
+            &quot;DependantDOB&quot;: null
+        },
+        &quot;OtherChildren&quot;: {
+            &quot;OtherChildAge&quot;: null,
+            &quot;OtherChildSex&quot;: null,
+            &quot;OtherChildLast&quot;: null,
+            &quot;OtherChildFirst&quot;: null
+        }
+    },
+    &quot;Self Disclosure&quot;: {
+        &quot;IntensiveCare&quot;: null,
+        &quot;Under18&quot;: null,
+        &quot;HaveDisability&quot;: null,
+        &quot;OntarioResident&quot;: null,
+        &quot;PassesScreening&quot;: null
+    },
+    &quot;Upload Documentation&quot;: {
+        &quot;Proof of expenses&quot;: {
+            &quot;Expense upload&quot;: [
+                {
+                    &quot;data&quot;: null,
+                    &quot;size&quot;: null,
+                    &quot;filename&quot;: null
+                }
+            ]
+        },
+        &quot;Proof of income&quot;: {
+            &quot;Income upload&quot;: [
+                {
+                    &quot;data&quot;: null,
+                    &quot;size&quot;: null,
+                    &quot;filename&quot;: null
+                }
+            ]
+        }
+    },
+    &quot;Not Eligible&quot;: {},
+    &quot;Thank you&quot;: {},
+    &quot;Household Expenses&quot;: {
+        &quot;ExpensesBlock&quot;: [
+            {
+                &quot;ExpenseType&quot;: null,
+                &quot;ExpenseDetails&quot;: null,
+                &quot;MonthlyAmount&quot;: null
+            }
+        ]
+    },
+    &quot;Employment Income&quot;: {
+        &quot;Total Monthly Income&quot;: null,
+        &quot;Total Weekly Income&quot;: null,
+        &quot;Current Employment&quot;: {
+            &quot;Employer&quot;: null,
+            &quot;Hours Worked / Week&quot;: null,
+            &quot;Weekly Income&quot;: null
+        }
+    },
+    &quot;Demographics&quot;: {
+        &quot;FamilyCaregiver&quot;: null,
+        &quot;SpousalInfoBlock&quot;: {
+            &quot;SpouseDOB&quot;: null,
+            &quot;SpouseMiddle&quot;: null,
+            &quot;Text4&quot;: null,
+            &quot;SpouseFirst&quot;: null,
+            &quot;SpouseSIN&quot;: null,
+            &quot;SpousalConsent&quot;: null
+        },
+        &quot;PrimaryCaregiverBlock&quot;: {
+            &quot;CaregiverLast&quot;: null,
+            &quot;CaregiverRelationship&quot;: null,
+            &quot;CaregiverMiddle&quot;: null,
+            &quot;CaregiverFirst&quot;: null
+        },
+        &quot;HomeAddress-Block&quot;: {
+            &quot;HomeAddress&quot;: null,
+            &quot;ZIPCode&quot;: null,
+            &quot;Country&quot;: null,
+            &quot;City&quot;: null,
+            &quot;Street&quot;: null,
+            &quot;State&quot;: null
+        },
+        &quot;HouseholdName&quot;: null,
+        &quot;Authorized assistant&quot;: {
+            &quot;Text1&quot;: null,
+            &quot;AgencyOrg&quot;: null,
+            &quot;Assistant First&quot;: null,
+            &quot;AssistantLast&quot;: null,
+            &quot;Accesstobenefits&quot;: null,
+            &quot;AssistantEmail&quot;: null,
+            &quot;AssistantPhone&quot;: null
+        },
+        &quot;NeedAssistance&quot;: null,
+        &quot;Communication&quot;: {
+            &quot;OtherLang&quot;: null,
+            &quot;Communication Needs&quot;: null,
+            &quot;RequiresInterpreter&quot;: null,
+            &quot;LanguageSpoken&quot;: null
+        },
+        &quot;SSN&quot;: null,
+        &quot;Last Name&quot;: null,
+        &quot;First Name&quot;: null,
+        &quot;MaritalStatus&quot;: null,
+        &quot;Middle Name&quot;: null,
+        &quot;DOB&quot;: null,
+        &quot;Gender&quot;: null,
+        &quot;Phone&quot;: null,
+        &quot;Email&quot;: null
+    },
+    &quot;Programs&quot;: {
+        &quot;ACSD&quot;: null,
+        &quot;ER&quot;: null,
+        &quot;SSAH&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRCreateExpenses</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;ER&quot;:true,&quot;SSAH&quot;:true,&quot;ACSD&quot;:true,&quot;vlcTimeTracking&quot;:{&quot;DR - Create WIC PE and PED&quot;:null,&quot;DR - Create Medicaid Program Enrollment&quot;:null,&quot;Create Application&quot;:null,&quot;DR - UploadExpenseAttachments&quot;:null,&quot;DR - UploadIncomeAttachments&quot;:null,&quot;Set Primary Applicant on Application&quot;:null,&quot;DR - Create Expenses&quot;:null,&quot;DR - Create Income&quot;:null,&quot;Set Applicant and Household ID&quot;:null,&quot;DR - Create Household and Applicant&quot;:null,&quot;DR - Create TANF PE and PED&quot;:null,&quot;DR - Create SNAP PE and PED&quot;:null,&quot;DR - Create Family&quot;:null,&quot;Estimated Benefits&quot;:null,&quot;HouseholdDetails&quot;:null,&quot;Self Disclosure&quot;:null,&quot;Upload Documentation&quot;:null,&quot;Not Eligible&quot;:null,&quot;Thank you&quot;:null,&quot;Household Expenses&quot;:null,&quot;Employment Income&quot;:null,&quot;Demographics&quot;:null,&quot;Programs&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;Estimated Benefits&quot;:{},&quot;HouseholdDetails&quot;:{&quot;DependantChild&quot;:{&quot;Hospitalized&quot;:null,&quot;DependantMiddle&quot;:null,&quot;Sex&quot;:null,&quot;DependantFirst&quot;:null,&quot;HealthCard&quot;:null,&quot;DependantLast&quot;:null,&quot;DependantDOB&quot;:null},&quot;OtherChildren&quot;:{&quot;OtherChildAge&quot;:null,&quot;OtherChildSex&quot;:null,&quot;OtherChildLast&quot;:null,&quot;OtherChildFirst&quot;:null}},&quot;Self Disclosure&quot;:{&quot;IntensiveCare&quot;:null,&quot;Under18&quot;:null,&quot;HaveDisability&quot;:null,&quot;OntarioResident&quot;:null,&quot;PassesScreening&quot;:null},&quot;Upload Documentation&quot;:{&quot;Proof of expenses&quot;:{&quot;Expense upload&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]},&quot;Proof of income&quot;:{&quot;Income upload&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]}},&quot;Not Eligible&quot;:{},&quot;Thank you&quot;:{},&quot;Household Expenses&quot;:{&quot;ChildCareExpense&quot;:{&quot;SpecializedCostperYear&quot;:null,&quot;SpecializedCostperhour&quot;:null,&quot;ChildCareExpenseType&quot;:null,&quot;SpecializedHoursperMonth&quot;:null},&quot;Expense&quot;:{&quot;NumberofParkingperYear&quot;:null,&quot;ParkingCost&quot;:null,&quot;ExpenseType&quot;:null,&quot;OtherNumberofTrips&quot;:null,&quot;Formula3&quot;:null,&quot;CostperTrip&quot;:null,&quot;Formula2&quot;:null,&quot;TotalKMs&quot;:null,&quot;TotalKMsPerTrip&quot;:null,&quot;NumberTrips&quot;:null,&quot;TreatmentLocation&quot;:null}},&quot;Employment Income&quot;:{&quot;Total Monthly Income&quot;:null,&quot;Total Weekly Income&quot;:null,&quot;Current Employment&quot;:{&quot;Employer&quot;:null,&quot;Hours Worked / Week&quot;:null,&quot;Weekly Income&quot;:null}},&quot;Demographics&quot;:{&quot;FamilyCaregiver&quot;:null,&quot;SpousalInfoBlock&quot;:{&quot;SpouseDOB&quot;:null,&quot;SpouseMiddle&quot;:null,&quot;Text4&quot;:null,&quot;SpouseFirst&quot;:null,&quot;SpouseSIN&quot;:null,&quot;SpousalConsent&quot;:null},&quot;PrimaryCaregiverBlock&quot;:{&quot;CaregiverLast&quot;:null,&quot;CaregiverRelationship&quot;:null,&quot;CaregiverMiddle&quot;:null,&quot;CaregiverFirst&quot;:null},&quot;HomeAddress-Block&quot;:{&quot;HomeAddress&quot;:null,&quot;ZIPCode&quot;:null,&quot;Country&quot;:null,&quot;City&quot;:null,&quot;Street&quot;:null,&quot;State&quot;:null},&quot;HouseholdName&quot;:null,&quot;Authorized assistant&quot;:{&quot;Text1&quot;:null,&quot;AgencyOrg&quot;:null,&quot;Assistant First&quot;:null,&quot;AssistantLast&quot;:null,&quot;Accesstobenefits&quot;:null,&quot;AssistantEmail&quot;:null,&quot;AssistantPhone&quot;:null},&quot;NeedAssistance&quot;:null,&quot;Communication&quot;:{&quot;OtherLang&quot;:null,&quot;Communication Needs&quot;:null,&quot;RequiresInterpreter&quot;:null,&quot;LanguageSpoken&quot;:null},&quot;SSN&quot;:null,&quot;Last Name&quot;:null,&quot;First Name&quot;:null,&quot;MaritalStatus&quot;:null,&quot;Middle Name&quot;:null,&quot;DOB&quot;:null,&quot;Gender&quot;:null,&quot;Phone&quot;:null,&quot;Email&quot;:null},&quot;Programs&quot;:{&quot;ACSD&quot;:null,&quot;ER&quot;:null,&quot;SSAH&quot;:null}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

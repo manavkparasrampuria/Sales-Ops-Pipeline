@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Quote Confirmation",
+  "contentBody" : {
+    "activeViewId" : "MCXB47OB77TNHQ3IUKZM2EDKLTNI",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "quote",
+    "urlPrefix" : "quote"
+  },
+  "urlName" : "quote-confirmation"
+}

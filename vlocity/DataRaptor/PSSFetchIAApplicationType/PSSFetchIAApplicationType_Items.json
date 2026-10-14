@@ -1,0 +1,59 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "DefaultValue": "New",
+        "FilterGroup": 0,
+        "GlobalKey": "PSSFetchIAApplicationTypeCustom3780",
+        "InputFieldName": "IndividualApplication:ApplicationType",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSFetchIAApplicationType",
+        "OmniDataTransformationId": {
+            "Name": "PSSFetchIAApplicationType",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSFetchIAApplicationType",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "ApplicationType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "ContextId",
+        "GlobalKey": "PSSFetchIAApplicationTypeCustom1308",
+        "InputFieldName": "Id",
+        "InputObjectName": "IndividualApplication",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSFetchIAApplicationType",
+        "OmniDataTransformationId": {
+            "Name": "PSSFetchIAApplicationType",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSFetchIAApplicationType",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "IndividualApplication",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

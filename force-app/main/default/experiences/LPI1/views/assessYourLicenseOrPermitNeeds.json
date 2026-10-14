@@ -1,0 +1,82 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e9e6a068-9dde-4320-8a4f-b2fc2b601a9a",
+  "label" : "Assess your License or Permit Needs",
+  "regions" : [ {
+    "id" : "2aac3ffb-e949-4a92-b93d-ef19375e90dd",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "Prescreening",
+        "theme" : "lightning",
+        "type" : "LicensingAndPermitting"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "2bfc1721-1d85-4078-81e6-15a78437876c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "398313df-b1dd-4954-b77d-761223836c20",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3f6025c8-3dbf-4f39-90be-06960d250cc1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div align=\"center\">\n    <a href=\"/contact-support\"> \n        <button style=\"background-color: #1a82c8; padding: 14px 50px; border: none; font-size: 1rem; color: #fff; border-radius: 25px\";>Contact Support</button>\n    </a>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "dc235743-4c5a-460d-958d-daf29814b26c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "a18e9b1d-256e-424d-9750-1358d8a83d10",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ea7094a5-1dac-45e7-aeb5-00fa36c0897a",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Assess your License or Permit Needs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "72b50989-2683-48d0-8534-4f2b53dd344e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "92ace413-3229-4a17-92ba-4ea81bf48f8a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "9beguGyM1CkFk2GIN8yEYNOfG66C0C",
+  "type" : "view",
+  "viewType" : "pre-screening"
+}

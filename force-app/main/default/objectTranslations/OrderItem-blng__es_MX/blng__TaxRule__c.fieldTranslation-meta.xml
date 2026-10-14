@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Lookup to the Tax Rule assigned to this order product. --></help>
+    <label>Regla de impuestos</label>
+    <name>blng__TaxRule__c</name>
+    <relationshipLabel>Productos de pedido</relationshipLabel>
+</CustomFieldTranslation>

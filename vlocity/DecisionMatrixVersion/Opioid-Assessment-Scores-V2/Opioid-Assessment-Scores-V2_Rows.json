@@ -1,0 +1,232 @@
+[
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Opioid Assessment Scores",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Opioid Assessment Scores",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "Gender": "Female",
+            "Question": "Family_History_Alcohol"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "413dfa9cc17acd30039225e670918d2f",
+        "OutputData": {
+            "Score": 1
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Opioid Assessment Scores",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Opioid Assessment Scores",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "Gender": "Female",
+            "Question": "Family_History_Illegal_Drugs"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "05db0bcdfe1c4030210ba7e1dc7c77aa",
+        "OutputData": {
+            "Score": 2
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Opioid Assessment Scores",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Opioid Assessment Scores",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "Gender": "Female",
+            "Question": "Family_History_Rx_drugs"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "7232e2992854d1fc18674cb5620b0473",
+        "OutputData": {
+            "Score": 4
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Opioid Assessment Scores",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Opioid Assessment Scores",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "Gender": "Female",
+            "Question": "History_of_preadolescent_sexual_abuse"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "65a550e8c73c86d848c3558b431ebe9d",
+        "OutputData": {
+            "Score": 3
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Opioid Assessment Scores",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Opioid Assessment Scores",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "Gender": "Female",
+            "Question": "Personal_History_Alcohol"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "0b0348e053d383cebb19aa106063e2de",
+        "OutputData": {
+            "Score": 3
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Opioid Assessment Scores",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Opioid Assessment Scores",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "Gender": "Male",
+            "Question": "Family_History_Alcohol"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "fcbdcf46eaa0a721c6a85a14f70c02cc",
+        "OutputData": {
+            "Score": 3
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Opioid Assessment Scores",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Opioid Assessment Scores",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "Gender": "Male",
+            "Question": "Family_History_Illegal_Drugs"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "9db495c8f6a44e5ed1a25836d9ef0940",
+        "OutputData": {
+            "Score": 3
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Opioid Assessment Scores",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Opioid Assessment Scores",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "Gender": "Male",
+            "Question": "Family_History_Rx_drugs"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "f7d89b9720154c9c0049b344fd39dc45",
+        "OutputData": {
+            "Score": 4
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Opioid Assessment Scores",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Opioid Assessment Scores",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "Gender": "Male",
+            "Question": "History_of_preadolescent_sexual_abuse"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "92aa5505b0316c6653f9f1da4a34da8a",
+        "OutputData": {
+            "Score": 0
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Opioid Assessment Scores",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Opioid Assessment Scores",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "Gender": "Male",
+            "Question": "Personal_History_Alcohol"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "f7c3790629f6350d613b8b21cd505b97",
+        "OutputData": {
+            "Score": 3
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    }
+]

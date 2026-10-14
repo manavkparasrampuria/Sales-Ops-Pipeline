@@ -1,0 +1,41 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\n\"img\":\"/projRes/ui-industries-public-sector-components/svg/emptyState.svg\"\n}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Shows empty state text when the page has no records to display.",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "PSSCaseworkOverviewShowEmptyStateIDO",
+    "Namespace": "",
+    "OmniUiCardKey": "PSSCaseworkOverviewShowEmptyStateIDO/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "PSSCaseworkOverviewShowEmptyStateIDO.json",
+    "SampleDataSourceResponse": "{\"img\":\"/projRes/ui-industries-public-sector-components/svg/emptyState.svg\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "PSSCaseworkOverviewShowEmptyStateIDO_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/PSSCaseworkOverviewShowEmptyStateIDO"
+}

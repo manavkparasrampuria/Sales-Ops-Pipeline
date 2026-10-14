@@ -1,0 +1,88 @@
+{
+    "ApplicationInformation": {
+        "AppliedDate": null,
+        "DateBusinessEstablished": null,
+        "Eligible": null,
+        "FundingRequestAmount": null,
+        "FundsUsage": null,
+        "Industry": null,
+        "OtherDescription": null
+    },
+    "BusinessInformation": {
+        "Account": {
+            "City": null,
+            "Name": null,
+            "PostalCode": null,
+            "State": null,
+            "Street": null,
+            "Website": null
+        },
+        "BusinessProfile": {
+            "BusinessOperatingName": null,
+            "BusinessStructure": null,
+            "BusinessTaxIdentifier": null
+        },
+        "Contact": {
+            "Email": null,
+            "FirstName": null,
+            "LastName": null,
+            "Phone": null,
+            "Title": null
+        }
+    },
+    "ContextId": null,
+    "Ineligible": {
+    },
+    "RequiredDocumentation": {
+        "IncomeTaxReturn": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "MortgageRentDocumentation": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "PayrollDocumentation": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "UtilitiesDocumentation": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "ThankYou": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApplicationInformation": null,
+        "BackToHome": null,
+        "BusinessInformation": null,
+        "CreateGrantApplication": null,
+        "DRContactAndAccountForUser": null,
+        "DRGetDemoUserId": null,
+        "Ineligible": null,
+        "NavigateToApplication": null,
+        "RequiredDocumentation": null,
+        "SetInitialState": null,
+        "ThankYou": null
+    }
+}

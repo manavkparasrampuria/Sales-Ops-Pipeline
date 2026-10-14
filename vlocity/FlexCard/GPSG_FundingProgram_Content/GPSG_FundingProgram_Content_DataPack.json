@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "GPSG_FPContent/Salesforce/8.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "119Hr0000000CZJIA2"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "GPSGGetFundingOpportunityDetails",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "RecordId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Content for the Funding Program layout",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "GPSG_FundingProgram_Content",
+    "Namespace": "",
+    "OmniUiCardKey": "GPSG_FundingProgram_Content/Salesforce/4.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "GPSG_FundingProgram_Content.json",
+    "SampleDataSourceResponse": "[{\"outfunds__End_Date__c\":\"07/31/2025\",\"Funding_Eligibility__c\":\"These programs are available to churches, synagogues, mosques, and other faith-based organizations that meet the requirements of Internal Revenue Code (I.R.C) section 501 and 501(c)3. \\r\\n\\r\\nThese programs are one-time competitive grants. Total funding available is $800,000.00.  Up to $15,000.00 will be made available to each qualified and successful applicant seeking to provide services.\",\"Application_Process__c\":\"NOTE: The initial application period for this program as ended with over 70 applications! If funds permit, we may accept additional applications after February 15th.\\r\\n\\r\\nThe Governor’s Office and the Department of Behavioral Health and Developmental Services endeavors to make this application process as simple as possible. Recipients of federal funding are, however, required to complete certain processes to be considered eligible.\\r\\nAfter you’ve decided your organization will apply for grant funding, complete the steps below:\\r\\n\\r\\nApplication Step 1: Get a Unique Entity Identifier from SAM.gov.\\r\\n\\r\\nAll recipients of federal funding must have a Unique Entity Identifier obtained through SAM.gov. This is not a DBHDS or a Virginia process and is different from an EIN or Tax ID. Importantly, you do NOT need to register your organization to get a UEI. Getting a UEI, if you do not have one already, is a simple and often immediate process. Here is a helpful YouTube video with all the information you might need. Get your UEI at www.SAM.gov.\",\"outfunds__Description__c\":\"<p>The Community Development Investment (CDI) Grant Program is to incent primarily downtown community development in the state. The program will support urban, small city and rural community redevelopment efforts by providing financial incentives for shovel-ready projects with emphasis on, but not limited to, downtown community-driven efforts. Funded activities should lead to measurable benefits in job opportunities, property values and/or leveraged investment by local and private partners.  </p>\",\"Id\":\"119Hr0000000CZJIA2\",\"GPSGGrant_Type__c\":\"Competitive\",\"GPSGAnnouncement_Date__c\":\"10/16/2024\",\"Accepting_Applications__c\":\"12/02/2024\",\"GPSGExpected_Number_of_Awards__c\":20,\"GPSGApplication_Due_Date__c\":\"05/31/2025\",\"GPSGAward_Decision_Date__c\":\"08/29/2025\",\"Name\":\"Community Development Investment Grant\",\"outfunds__Total_Program_Amount__c\":\"$1,200,000\",\"GPSGCFDA_Number__c\":\"A-2230\",\"outfunds__Start_Date__c\":\"07/10/2023\",\"Status\":\"Active\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "GPSG_FundingProgram_Content_Salesforce_4",
+    "VersionNumber": 4,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/GPSG_FundingProgram_Content"
+}

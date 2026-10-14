@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "SiteOperatingHoursViewHeader/IRS/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 4,
+                    "name": "recordId",
+                    "val": "0kl4S00000002E7QAI"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DRGetCurrentSiteById",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "SiteFacilityId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "FacilityOperatingHoursViewHeader",
+    "Namespace": "",
+    "OmniUiCardKey": "FacilityOperatingHoursViewHeader/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "FacilityOperatingHoursViewHeader.json",
+    "SampleDataSourceResponse": "[{\"SiteFacilityName\":\"Jennifer's Custom Creations - HQ\",\"SiteFacilityId\":\"0kl4S00000002E7QAI\",\"AccountId\":\"0014S00000DREb9QAH\",\"OrganizationName\":\"Jennifer's Custom Creations\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "FacilityOperatingHoursViewHeader_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/FacilityOperatingHoursViewHeader"
+}

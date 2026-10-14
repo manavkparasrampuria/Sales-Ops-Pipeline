@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>Visit</defaultValue>
+        <globalKey>QuickBuildCreateInspection9559503068643012</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>TargetEntityType</outputField>
+        <outputObject>ActionPlanTemplate</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>Retail</defaultValue>
+        <globalKey>QuickBuildCreateInspection05397140140947698</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>ActionPlanType</outputField>
+        <outputObject>ActionPlanTemplate</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection3572606603214217</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplate</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection55044150986599</globalKey>
+        <inputField>Items:InspectionComponents:AssessmentIndicatorType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>DataType</outputField>
+        <outputObject>AssessmentIndicatorDefinition</outputObject>
+        <valueMapping>{&quot;Boolean&quot;:&quot;Boolean&quot;,&quot;Text&quot;:&quot;String&quot;,&quot;Number&quot;:&quot;Number&quot;}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>InspectionChecklist</defaultValue>
+        <globalKey>QuickBuildCreateInspection9784839338835543</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>TaskType</outputField>
+        <outputObject>AssessmentTaskDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection668537280536196</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>AssessmentTaskDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection4629018699255498</globalKey>
+        <inputField>Details:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection9516922214337744</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>4.0</linkedObjectSequence>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateId</outputField>
+        <outputObject>ActionPlanTemplateVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection8180164488185799</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection5387994565734864</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection937888141505977</globalKey>
+        <inputField>Items:InspectionComponents:RegulatoryCodeAuthority</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>RegulatoryAuthority</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection22531584455358145</globalKey>
+        <inputField>Items:InspectionComponents:RegulatoryCodeAuthority</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryAuthority</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection5171971528803279</globalKey>
+        <inputField>Items:InspectionComponents:AssessmentIndicatorName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>AssessmentIndicatorDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>Y</defaultValue>
+        <globalKey>QuickBuildCreateInspection9111684807194129</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>2021-01-02</defaultValue>
+        <globalKey>QuickBuildCreateInspection6905065465286087</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>EffectiveFrom</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>2025-12-31</defaultValue>
+        <globalKey>QuickBuildCreateInspection34230423632507634</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>EffectiveTo</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection5093908857511666</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryAuthority</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection2099817653137106</globalKey>
+        <inputField>Details:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>10.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>InspectionType</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>AssessmentTask.AssessmentTaskDefinitionId</defaultValue>
+        <globalKey>QuickBuildCreateInspection2836230160742308</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>ItemEntityFieldName</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection8505658577687054</globalKey>
+        <inputField>Details:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplate</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>AssessmentTaskDefinitionId</defaultValue>
+        <globalKey>QuickBuildCreateInspection5294607630365802</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>AssessmentTaskDefinitionId</defaultValue>
+        <globalKey>QuickBuildCreateInspection5083996017553523</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>6.0</linkedObjectSequence>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>ValueLiteral</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection14094018389918994</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>AssessmentIndicatorDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection5576642775182774</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>4.0</linkedObjectSequence>
+        <outputCreationSequence>10.0</outputCreationSequence>
+        <outputField>Action_Plan_Template__c</outputField>
+        <outputObject>InspectionType</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection04836508786662952</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>10.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>InspectionType</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection5299324135866641</globalKey>
+        <inputField>Items:InspectionComponents:ItemEntity</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>ItemEntityType</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection45780273316883724</globalKey>
+        <inputField>Items:InspectionComponents:RegulatoryCodeSubject</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection36687049491524726</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>7.0</linkedObjectSequence>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateItemId</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>true</defaultValue>
+        <globalKey>QuickBuildCreateInspection6205470591280247</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>AssessmentTask</defaultValue>
+        <globalKey>QuickBuildCreateInspection031081749573326434</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>ItemEntityType</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>true</defaultValue>
+        <globalKey>QuickBuildCreateInspection8097542018889416</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection7265791345300834</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>7.0</linkedObjectSequence>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateItemId</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection8993164811034586</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection8372961382528823</globalKey>
+        <inputField>Items:InspectionComponents:TaskDefinition</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>ValueLiteral</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection44964584186567835</globalKey>
+        <inputField>Items:InspectionComponents:TaskDefinition</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>AssessmentTask</defaultValue>
+        <globalKey>QuickBuildCreateInspection22098613415160595</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>ItemEntityType</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>true</defaultValue>
+        <globalKey>QuickBuildCreateInspection9971491109430208</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection7903102765405046</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>5.0</linkedObjectSequence>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateVersionId</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection08039487716895688</globalKey>
+        <inputField>Details:Description</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>ActionPlanTemplate</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>Name</defaultValue>
+        <globalKey>QuickBuildCreateInspection6225911430770046</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <defaultValue>AssessmentTask.Name</defaultValue>
+        <globalKey>QuickBuildCreateInspection017138112038357578</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>ItemEntityFieldName</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection5630571673061062</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection6460460842344367</globalKey>
+        <inputField>Items:InspectionComponents:RegulatoryCodeName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection21598432131761824</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection9010697619348649</globalKey>
+        <inputField>Items:InspectionComponents:TaskDefinition</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>AssessmentTaskDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildCreateInspection8907247994535363</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RegulatoryAuthorityId</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildCreateInspection</dataMapperDefItemName>
+        <globalKey>QuickBuildCreateInspection12364593846680871</globalKey>
+        <inputField>Items:InspectionComponents:TaskDefinition</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>AssessmentTaskDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;ContextId&quot;: &quot;&quot;,
+    &quot;timeStamp&quot;: &quot;2021-03-25T17:38:45.784Z&quot;,
+    &quot;userId&quot;: &quot;0054x000003dns8AAA&quot;,
+    &quot;userName&quot;: &quot;jblankenship@rentassistance01292021.demo&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZone&quot;: -420,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;sfdcIFrameOrigin&quot;: &quot;https://rentassist-20210129-demo--vlocity-ins.visualforce.com&quot;,
+    &quot;sfdcIFrameHost&quot;: &quot;web&quot;,
+    &quot;layout&quot;: &quot;lightning&quot;,
+    &quot;isdtp&quot;: &quot;p1&quot;,
+    &quot;id&quot;: &quot;a5y4x0000004Pz1AAE&quot;,
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;Details&quot;: {
+        &quot;Name&quot;: &quot;Test 1 billion&quot;,
+        &quot;Description&quot;: null,
+        &quot;RequireSignatures&quot;: false
+    },
+    &quot;Items&quot;: {
+        &quot;InspectionFile&quot;: [
+            {
+                &quot;filename&quot;: &quot;Test28Inspection.csv&quot;,
+                &quot;size&quot;: 607,
+                &quot;data&quot;: &quot;e3218ed1-4338-4aa2-9d59-d237704ed322&quot;,
+                &quot;$$hashKey&quot;: &quot;object:155&quot;,
+                &quot;contentDocumentId&quot;: &quot;0694x000000e5x1AAA&quot;,
+                &quot;vId&quot;: &quot;0684x000000eBe1AAE&quot;
+            }
+        ],
+        &quot;FileCount&quot;: 1,
+        &quot;InspectionComponents&quot;: [
+            {
+                &quot;TaskDefinition&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;AAA&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;AAA111&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;AAA&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;AAA222&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;AAA&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;BBB&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;BBB&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;BBB&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;BBB&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;BBB&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;CCC&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;CCC&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;CCC&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;CCC&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;CCC&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;DDD&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;DDD&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;DDD&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;DDD&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;DDD&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;DDD&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;DDD111&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;DDD&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;DDD&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;DDD&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;EEE&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;EEE&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;EEE111&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;EEE&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;EEE&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;FFF&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;FFF&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;FFF&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;FFF&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;FFF&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;FFF&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;FFF111&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;FFF&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;FFF&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;FFF&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;AAA333&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;AAA&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;GGG111&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;HHH&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;HHH&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+            }
+        ]
+    },
+    &quot;FilteredList2&quot;: {
+        &quot;RegCodeAssementIndToInsert&quot;: [
+            {
+                &quot;TaskDefinition&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;EEE&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;EEE&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;GGG111&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;HHH&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;HHH&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            }
+        ]
+    },
+    &quot;FilteredList&quot;: {
+        &quot;AssessmentIndDefinitionsToInsert&quot;: [
+            {
+                &quot;TaskDefinition&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;EEE&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;EEE&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;GGG111&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;TaskDefinition&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndicatorName&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;HHH&quot;,
+                &quot;RegulatoryCodeSubject&quot;: &quot;HHH&quot;,
+                &quot;RegulatoryCodeAuthority&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndicatorDefinedValues&quot;: null,
+                &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentTaskIndDefinitionName&quot;: &quot;&quot;
+            }
+        ]
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>QuickBuildCreateInspection</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;ContextId&quot;: &quot;&quot;,
+  &quot;timeStamp&quot;: &quot;2021-03-25T14:02:37.858Z&quot;,
+  &quot;userId&quot;: &quot;0054x000003dns8AAA&quot;,
+  &quot;userName&quot;: &quot;jblankenship@rentassistance01292021.demo&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZone&quot;: -420,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;sfdcIFrameOrigin&quot;: &quot;https://rentassist-20210129-demo--vlocity-ins.visualforce.com&quot;,
+  &quot;sfdcIFrameHost&quot;: &quot;web&quot;,
+  &quot;layout&quot;: &quot;lightning&quot;,
+  &quot;isdtp&quot;: &quot;p1&quot;,
+  &quot;id&quot;: &quot;a5y4x0000004PyrAAE&quot;,
+  &quot;vlcPersistentComponent&quot;: {},
+  &quot;Details&quot;: {
+    &quot;Name&quot;: &quot;Test 27b Inspection&quot;,
+    &quot;Description&quot;: &quot;Test 27b Inspection&quot;,
+    &quot;RequireSignatures&quot;: false
+  },
+  &quot;Items&quot;: {
+    &quot;InspectionFile&quot;: [
+      {
+        &quot;filename&quot;: &quot;Test26Inspection.csv&quot;,
+        &quot;size&quot;: 355,
+        &quot;data&quot;: &quot;a309b2c9-8fb7-4d67-ab86-7abcf83d35f3&quot;,
+        &quot;$$hashKey&quot;: &quot;object:163&quot;,
+        &quot;contentDocumentId&quot;: &quot;0694x000000e5fHAAQ&quot;,
+        &quot;vId&quot;: &quot;0684x000000eBI0AAM&quot;
+      }
+    ],
+    &quot;FileCount&quot;: 1,
+    &quot;InspectionComponents&quot;: [
+      {
+        &quot;TaskDefinition&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;AAA&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+      },
+      {
+        &quot;TaskDefinition&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;AAA111&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;AAA&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+      },
+      {
+        &quot;TaskDefinition&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;AAA222&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;AAA&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+      },
+      {
+        &quot;TaskDefinition&quot;: &quot;BBB&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;BBB&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;BBB&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;BBB&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;BBB&quot;,
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+      },
+      {
+        &quot;TaskDefinition&quot;: &quot;CCC&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;CCC&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;CCC&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;CCC&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;CCC&quot;,
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+      },
+      {
+        &quot;TaskDefinition&quot;: &quot;DDD&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;DDD&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;DDD&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;DDD&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;DDD&quot;,
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+      },
+      {
+        &quot;TaskDefinition&quot;: &quot;DDD&quot;,
+        &quot;AssessmentIndicatorName&quot;: &quot;DDD111&quot;,
+        &quot;AssessmentIndicatorType&quot;: &quot;Boolean&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;DDD&quot;,
+        &quot;RegulatoryCodeSubject&quot;: &quot;DDD&quot;,
+        &quot;RegulatoryCodeAuthority&quot;: &quot;DDD&quot;,
+        &quot;AssessmentIndicatorDefinedValues&quot;: null,
+        &quot;ItemEntity&quot;: &quot;AssessmentTask&quot;
+      }
+    ]
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

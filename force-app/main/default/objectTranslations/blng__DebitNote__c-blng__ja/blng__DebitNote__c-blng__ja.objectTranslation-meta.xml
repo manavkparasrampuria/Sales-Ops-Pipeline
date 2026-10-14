@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>デビットノート</value>
+    </caseValues>
+    <nameFieldLabel>デビットノート番号</nameFieldLabel>
+    <webLinks>
+        <label>割り当て</label>
+        <name>blng__Allocations</name>
+    </webLinks>
+    <webLinks>
+        <label>税金を適用</label>
+        <name>blng__ApplyTax</name>
+    </webLinks>
+    <webLinks>
+        <label>税金を取り消し</label>
+        <name>blng__CancelTax</name>
+    </webLinks>
+    <webLinks>
+        <label>税額を予想</label>
+        <name>blng__EstimateTax</name>
+    </webLinks>
+</CustomObjectTranslation>

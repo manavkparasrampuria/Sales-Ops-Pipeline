@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business or Occupation Role --></label>
+    <name>PublicSector__BusinessOrOccupationRole__c</name>
+    <picklistValues>
+        <masterLabel>Airline Operations</masterLabel>
+        <translation>Lentoyhtiön toiminnot</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Border Protection and Transportation Security</masterLabel>
+        <translation>Rajavalvonta ja kuljetusten vartiointi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Traveler</masterLabel>
+        <translation>Liikematkustus</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction</masterLabel>
+        <translation>Rakentaminen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Correctional Facility Operations</masterLabel>
+        <translation>Korjausrakentaminen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentistry</masterLabel>
+        <translation>Hammaslääketiede</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency Response and Public Safety</masterLabel>
+        <translation>Hätätilanteet, yleinen turvallisuus</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environmental or Janitorial  Services</masterLabel>
+        <translation>Ympäristö- tai talonmiespalvelut</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Farmworker</masterLabel>
+        <translation>Maataloustyö</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food Preparation</masterLabel>
+        <translation>Elintarviketeollisuus</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare</masterLabel>
+        <translation>Terveydenhuolto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Home Repair Services</masterLabel>
+        <translation>Kotiremontit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory</masterLabel>
+        <translation>Laboratorio</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturing</masterLabel>
+        <translation>Tuotanto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meat and Poultry Processing</masterLabel>
+        <translation>Lihan ja siipikarjan jalostus</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Worker</masterLabel>
+        <translation>Toimistotyö</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postmortem Care</masterLabel>
+        <translation>Kuolemanjälkeinen hoito</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail Operations</masterLabel>
+        <translation>Vähittäismyynti</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solid Waste or Wastewater Management</masterLabel>
+        <translation>Kiinteän jätteen tai jätevesien hoito</translation>
+    </picklistValues>
+</CustomFieldTranslation>

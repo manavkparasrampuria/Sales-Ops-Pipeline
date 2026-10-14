@@ -1,0 +1,74 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "147858a7-8ef3-470f-b9da-1d510a68dea0",
+        "InputFieldName": "DRId_PreliminaryApplicationRef",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "DRUpdateIsSubittedPAR",
+        "OmniDataTransformationId": {
+            "Name": "DRUpdateIsSubittedPAR",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRUpdateIsSubittedPAR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Id",
+        "OutputObjectName": "PreliminaryApplicationRef",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "d32bc160-b487-4b90-83b1-7b2599802f94",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "DRUpdateIsSubittedPAR",
+        "OmniDataTransformationId": {
+            "Name": "DRUpdateIsSubittedPAR",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRUpdateIsSubittedPAR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "PreliminaryApplicationRef",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "DefaultValue": "true",
+        "GlobalKey": "ab401dd8-8661-4fad-a630-ae05fd1c395d",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "DRUpdateIsSubittedPAR",
+        "OmniDataTransformationId": {
+            "Name": "DRUpdateIsSubittedPAR",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRUpdateIsSubittedPAR",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Boolean",
+        "OutputFieldName": "IsSubmitted",
+        "OutputObjectName": "PreliminaryApplicationRef",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

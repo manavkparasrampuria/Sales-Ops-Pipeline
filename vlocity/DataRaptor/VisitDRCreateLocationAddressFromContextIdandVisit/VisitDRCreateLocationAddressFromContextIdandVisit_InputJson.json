@@ -1,0 +1,135 @@
+{
+    "AccountId": "001Hr00001s7dkMIAQ",
+    "AccountName": "Fashion Cuts & Perms",
+    "ContextId": "0f0Hr000000fyfEIAQ",
+    "InspectType": [
+        {
+            "InspectTypeId": "0fJHr000000wnZXMAY",
+            "InspectTypeName": "Business Inspection"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZcMAI",
+            "InspectTypeName": "Business Reopening Inspection"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZdMAI",
+            "InspectTypeName": "Cannabis Dispensary Inspection"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZYMAY",
+            "InspectTypeName": "Deck Inspection"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZbMAI",
+            "InspectTypeName": "Emergency Request Visit"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZZMAY",
+            "InspectTypeName": "Food Safety"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZeMAI",
+            "InspectTypeName": "Foster Care Inspection"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZaMAI",
+            "InspectTypeName": "Health & Safety Inspection"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZVMAY",
+            "InspectTypeName": "Home Health Aide"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZgMAI",
+            "InspectTypeName": "Investigate Property"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZfMAI",
+            "InspectTypeName": "Lottery Inspection"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZhMAI",
+            "InspectTypeName": "Prescription Drug Delivery"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZWMAY",
+            "InspectTypeName": "Safety Complaint Inspection"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZTMAY",
+            "InspectTypeName": "Salon Establishment Inspection"
+        },
+        {
+            "InspectTypeId": "0fJHr000000wnZUMAY",
+            "InspectTypeName": "Storage Tank Inspection"
+        }
+    ],
+    "InspectionTypeName": "BLA",
+    "Inspector": [
+        {
+            "DemoUser": false,
+            "Persona": "Inspector",
+            "UserId": "005Hr00000FZmykIAD",
+            "UserName": "Irene Inspector",
+            "UserType": "Standard"
+        },
+        {
+            "DemoUser": true,
+            "Persona": "Inspector",
+            "UserId": "005Hr00000FZn0vIAD",
+            "UserName": "Kaylee Kwan",
+            "UserType": "Standard"
+        },
+        {
+            "DemoUser": true,
+            "Persona": "Inspector",
+            "UserId": "005Hr00000FOMbWIAX",
+            "UserName": "Keith Winderlich",
+            "UserType": "Standard"
+        }
+    ],
+    "InspectorName": "Keith Winderlich",
+    "InspectorUserId": "005Hr00000FOMbWIAX",
+    "PlannedVisitStartCalculated": "12/01/2023, 11:21 am",
+    "RecordName": "Fashion Cuts & Perms - BLA-0000000071",
+    "SiteCity": "San Francisco",
+    "SiteOwner": "005Hr00000FOMbWIAX",
+    "SitePostalCode": "20852",
+    "SiteState": "CA",
+    "SiteStreet": "5378 MISSION ST",
+    "VisitDetails": {
+        "BlkInspectionType-Block": {
+            "BlkInspectionType": "Safety Complaint Inspection",
+            "InspectTypeId": "0fJHr000000wnZWMAY",
+            "InspectTypeName": "Safety Complaint Inspection"
+        },
+        "EndDateTimeValidation": "OK",
+        "InspectionTypeId": "0fJHr000000wnZWMAY",
+        "MessagingEndAfterStart": null,
+        "OtherUser-Block": null,
+        "OwnerReviewerId": "005Hr00000FOMbWIAX",
+        "OwnerReviewerName": "Keith Winderlich",
+        "PlannedVisitEnd": "2023-12-01T18:21:00.000Z",
+        "PlannedVisitStart": "2023-12-01T16:21:00.000Z",
+        "ReviewerType": "Organization Owner",
+        "VisitNotes": "dfsdfsd",
+        "VisitPriority": "High",
+        "VisitorId": "005Hr00000FOMbWIAX"
+    },
+    "language": "English",
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jNHr0000004owWMAQ",
+    "omniscriptId": "0jNHr0000004owWMAQ",
+    "runMode": "preview",
+    "sId": "0jNHr0000004owWMAQ",
+    "subType": "NewVisit",
+    "theme": "lightning",
+    "timeStamp": "2023-12-01T14:21:01.490Z",
+    "type": "LPI",
+    "userCurrencyCode": "USD",
+    "userId": "005Hr00000FOMbWIAX",
+    "userName": "kwinderlich@1123winter24.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-300",
+    "userTimeZoneName": "America/New_York"
+}

@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_StorageTankFacility_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Storage Tank Facility",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_StorageTankFacility_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_StorageTankFacility_Element_TransformStep.json",
+        "GoogleMapsTransformations_StorageTankFacility_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_StorageTankFacility",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_StorageTankFacility_PropertySetConfig.json",
+    "SubType": "StorageTankFacility",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_StorageTankFacility_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/StorageTankFacility/Procedure"
+}

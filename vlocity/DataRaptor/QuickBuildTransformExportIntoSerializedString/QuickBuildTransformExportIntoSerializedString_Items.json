@@ -1,0 +1,50 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FormulaExpression": "SERIALIZE(DRGetInspectionForExport)",
+        "FormulaResultPath": "SerializedInspectionExport",
+        "FormulaSequence": 1,
+        "GlobalKey": "QuickBuildTransformExportIntoSerializedString06545454722933419",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "QuickBuildTransformExportIntoSerializedString",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildTransformExportIntoSerializedString",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildTransformExportIntoSerializedString",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildTransformExportIntoSerializedString6015172827994599",
+        "InputFieldName": "SerializedInspectionExport",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "QuickBuildTransformExportIntoSerializedString",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildTransformExportIntoSerializedString",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildTransformExportIntoSerializedString",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SerializedInspectionExport",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

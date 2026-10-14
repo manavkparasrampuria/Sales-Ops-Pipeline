@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "BAE",
+    "ClonedFromOmniUiCardKey": "CDBGProjectRequestOverview/BAE/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "0iTKX000000TOnH2AW"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "IDOGetFundingRequest",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "RecordId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "For the Application Framework View Flexcard-Budget",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "CDBGProjectRequestBudget",
+    "Namespace": "",
+    "OmniUiCardKey": "CDBGProjectRequestBudget/BAE/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "CDBGProjectRequestBudget.json",
+    "SampleDataSourceResponse": "[{\"IDOApplication_Number__c\":\"Jeff Test\",\"IDOSection_Button_Project_Locations__c\":\"Get Started\",\"IDOSection_Button_Project_Funding__c\":\"Get Started\",\"Id\":\"0iTKX000000TOnH2AW\",\"IDOApplying_Contact_Info_Verified__c\":false,\"IDODelinquent_Federal_Debt__c\":false,\"IDOEstimated_Federal_Share__c\":1,\"IDOSection_Status_Documents__c\":\"Completed\",\"IDOProject_Title__c\":\"Jeff Test\",\"IDORequired_Docs_Not_Uploaded__c\":0,\"RequestedAmount\":77777777,\"IDOApplying_Organization_Info_Verified__c\":false,\"IDOSection_Button_Applicant_Info__c\":\"Get Started\",\"Applying_Organization_Name\":\"Omega, Inc.\",\"AppliedDate\":\"2024-06-26T19:00:00.000Z\",\"Status\":\"Draft\",\"IDORequired_Docs__c\":0,\"IDOSection_Button_Documents__c\":\"Review / Update\",\"IDOProject_Description__c\":\"DESC - Blah\",\"IDOSection_Button_Project_Info__c\":\"Get Started\",\"IDOEstimated_Funding_Total__c\":77777777,\"Name\":\"IA-0000000479\",\"IDOProject_Type__c\":\"Transit Oriented Development\",\"FundingOpportunityId\":\"119KX000000GmeHYAS\",\"ContactId\":\"003KX000001XoErYAK\",\"IDOApplication_Submission_Readiness__c\":false,\"IDOProject_Start_Date__c\":\"2024-07-01\",\"ApplyingOrganization\":\"001KX000002KYo8YAG\",\"IDOProject_End_Date__c\":\"2025-07-01\",\"IDODemo_Data__c\":false}]",
+    "StylingConfiguration": "",
+    "UniqueName": "CDBGProjectRequestBudget_BAE_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/CDBGProjectRequestBudget"
+}

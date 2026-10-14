@@ -1,0 +1,61 @@
+{
+    "CaseProceedingDetails": {
+        "NewCaseDetails": {
+            "CaseProceedingUpdate": {
+                "Description": null,
+                "Name": null
+            },
+            "GeneralCaseProceedingInformation": {
+                "CaseFilingDateTime": null,
+                "EndDateTime": null,
+                "StartDateTime": null,
+                "Status": null,
+                "SubType": null,
+                "Type": null
+            }
+        }
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "Participants": {
+        "addNewParticipants": {
+            "city": null,
+            "cityFormula": null,
+            "firstName": null,
+            "firstNameFormula": null,
+            "lastName": null,
+            "lastNameFormula": null,
+            "limitationFlexCard": null,
+            "selectAndBuildList": null
+        },
+        "caseParticipants": {
+            "SelectFromList": null
+        },
+        "executeAddNewParticipantDR": null,
+        "executeComplaintParticipantDR": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CaseProceedingDetails": null,
+        "Confirmation": null,
+        "DRGetCaseDetails": null,
+        "GetCaseProceedingDetails": null,
+        "Participants": null,
+        "SaveCaseProceedingParticipantFromCase": null,
+        "SaveCaseProceedingParticipantWhenNewCaseCreated": null,
+        "SaveWhenNewCaseProceedingCreated": null,
+        "SetCaseID": null,
+        "SetCaseProceedingValues": null,
+        "getCaseParticipants": null,
+        "setCaseProceedingValues": null,
+        "setEmptyResults": null,
+        "setObjectsToRetrieve": null
+    }
+}

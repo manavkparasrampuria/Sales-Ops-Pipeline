@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <defaultValue>Initial Registration Fee</defaultValue>
+        <globalKey>58b2d782-a23e-4c8a-9255-a1a8fc8c0aa6</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <globalKey>23c3d432-4d65-4db0-beba-85b70c60051f</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>74061496-3ecc-498c-aecd-a8cfbf5bdcc4</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>ParentRecordId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <defaultValue>Patient</defaultValue>
+        <globalKey>0f4d1367-d26d-41d7-8ea7-a21725170a36</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <globalKey>6a321220-5ff3-4a9a-b26c-bf4820ba8e1b</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <globalKey>f08f9349-4b50-483e-ba2a-2404b363d89c</globalKey>
+        <inputField>FeePayment:FeeAmount</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AmountPaid</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <globalKey>2a969a5f-fa03-46b3-86b1-27536c697679</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>83ba339f-b665-4807-a0fe-c00a08d710ed</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>5b455bee-cc03-40ed-b420-1c16455ab93c</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <defaultValue>Permit</defaultValue>
+        <globalKey>06c92601-9545-475e-bf86-a7a5a6ab86ce</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>cc319e1a-cf77-43ae-b6ac-77ac9a7bf31c</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <globalKey>d75b654b-b73f-4dd3-89ec-e77511eb1d8b</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <globalKey>31ece3a9-8b64-44e7-8a31-945efa7277ad</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <globalKey>eec17976-7000-449e-9060-f6fb06c67f5a</globalKey>
+        <inputField>FeePayment:FeeAmount</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <defaultValue>Paid</defaultValue>
+        <globalKey>b046dfc3-9c3c-4528-be4c-83a437ab1000</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>3e4c0422-e143-4036-930b-729fc4d73629</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>86618535-854f-42f2-999a-10a79614ffdd</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ApplicationCaseId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <formulaConverted>| &quot;Patient/\/\/Application/\/\/-/\/\/&quot; var:PatientInformation:FirstName &quot;/\/\/&quot; var:PatientInformation:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(&quot;Patient Application - &quot;,PatientInformation:FirstName,&quot; &quot;,PatientInformation:LastName)</formulaExpression>
+        <formulaResultPath>CaseName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>163af792-7d91-451e-979e-14f25dbe4e23</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>e8353e27-50b0-4bd0-a578-b3e70e44f7cf</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>07958777-1c32-40ab-9052-92b459320572</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <defaultValue>Individual Application</defaultValue>
+        <globalKey>DRSaveCannabisPatientCustom8506</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>22ee80e3-29bd-4c9a-bbb9-37f267d136d5</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveCannabisPatient</dataMapperDefItemName>
+        <globalKey>29ed865b-86ce-43f2-9eab-5e08596e7105</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRSaveCannabisPatient&quot;: null,
+        &quot;DRGetContactForPatient&quot;: null,
+        &quot;DEBUG-SETTOCHARLES&quot;: null,
+        &quot;SetUser&quot;: null,
+        &quot;NavigateAction1&quot;: null,
+        &quot;DRGetApplicationId&quot;: null,
+        &quot;Confirmation&quot;: null,
+        &quot;Attachments&quot;: null,
+        &quot;ProofOfResidency&quot;: null,
+        &quot;FeePayment&quot;: null,
+        &quot;GetPovertyLevel&quot;: null,
+        &quot;Instructions&quot;: null,
+        &quot;Attestation&quot;: null,
+        &quot;PractionerInformation&quot;: null,
+        &quot;PatientInformation&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;Confirmation&quot;: {},
+    &quot;Attachments&quot;: {
+        &quot;File5&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;File3&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;File2&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;File4&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;File1&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    },
+    &quot;ProofOfResidency&quot;: {
+        &quot;SelectProofOfResidency&quot;: null
+    },
+    &quot;FeePayment&quot;: {
+        &quot;FeeAmount&quot;: null,
+        &quot;CustomLWC2&quot;: null,
+        &quot;ReducedPayment&quot;: null
+    },
+    &quot;Instructions&quot;: {},
+    &quot;Attestation&quot;: {
+        &quot;CustomLWC1&quot;: null
+    },
+    &quot;PractionerInformation&quot;: {
+        &quot;PractionerAddress-Block&quot;: {
+            &quot;PractionerAddress&quot;: null,
+            &quot;ProviderZipcode&quot;: null,
+            &quot;ProviderState&quot;: null,
+            &quot;ProviderCity&quot;: null,
+            &quot;ProviderStreetAddress&quot;: null
+        },
+        &quot;ProviderEmail&quot;: null,
+        &quot;ProviderPhone&quot;: null,
+        &quot;ProviderLastName&quot;: null,
+        &quot;ProviderMiddleInitial&quot;: null,
+        &quot;ProviderFirstName&quot;: null,
+        &quot;TypeOfPractitioner&quot;: null
+    },
+    &quot;PatientInformation&quot;: {
+        &quot;CheckAge&quot;: null,
+        &quot;PatientAddress-Block&quot;: {
+            &quot;PatientAddress&quot;: null,
+            &quot;Zipcode&quot;: null,
+            &quot;State&quot;: null,
+            &quot;City&quot;: null,
+            &quot;StreetAddress&quot;: null
+        },
+        &quot;Age&quot;: null,
+        &quot;HouseholdSize&quot;: null,
+        &quot;HouseholdIncome&quot;: null,
+        &quot;ApplicationType&quot;: null,
+        &quot;Phone&quot;: null,
+        &quot;Email&quot;: null,
+        &quot;BirthDate&quot;: null,
+        &quot;SocialSecurityNumber&quot;: null,
+        &quot;MiddleInitial&quot;: null,
+        &quot;FirstName&quot;: null,
+        &quot;LastName&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRSaveCannabisPatient</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;DRSaveCannabisPatient&quot;:null,&quot;DRGetContactForPatient&quot;:null,&quot;DEBUG-SETTOCHARLES&quot;:null,&quot;SetUser&quot;:null,&quot;NavigateAction1&quot;:null,&quot;DRGetApplicationId&quot;:null,&quot;Confirmation&quot;:null,&quot;Attachments&quot;:null,&quot;ProofOfResidency&quot;:null,&quot;FeePayment&quot;:null,&quot;GetPovertyLevel&quot;:null,&quot;Instructions&quot;:null,&quot;Attestation&quot;:null,&quot;PractionerInformation&quot;:null,&quot;PatientInformation&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;Confirmation&quot;:{},&quot;Attachments&quot;:{&quot;File5&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;File3&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;File2&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;File4&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;File1&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]},&quot;ProofOfResidency&quot;:{&quot;SelectProofOfResidency&quot;:null},&quot;FeePayment&quot;:{&quot;FeeAmount&quot;:null,&quot;CustomLWC2&quot;:null,&quot;ReducedPayment&quot;:null},&quot;Instructions&quot;:{},&quot;Attestation&quot;:{&quot;CustomLWC1&quot;:null},&quot;PractionerInformation&quot;:{&quot;PractionerAddress-Block&quot;:{&quot;PractionerAddress&quot;:null,&quot;ProviderZipcode&quot;:null,&quot;ProviderState&quot;:null,&quot;ProviderCity&quot;:null,&quot;ProviderStreetAddress&quot;:null},&quot;ProviderEmail&quot;:null,&quot;ProviderPhone&quot;:null,&quot;ProviderLastName&quot;:null,&quot;ProviderMiddleInitial&quot;:null,&quot;ProviderFirstName&quot;:null,&quot;TypeOfPractitioner&quot;:null},&quot;PatientInformation&quot;:{&quot;CheckAge&quot;:null,&quot;PatientAddress-Block&quot;:{&quot;PatientAddress&quot;:null,&quot;Zipcode&quot;:null,&quot;State&quot;:null,&quot;City&quot;:null,&quot;StreetAddress&quot;:null},&quot;Age&quot;:null,&quot;HouseholdSize&quot;:null,&quot;HouseholdIncome&quot;:null,&quot;ApplicationType&quot;:null,&quot;Phone&quot;:null,&quot;Email&quot;:null,&quot;BirthDate&quot;:null,&quot;SocialSecurityNumber&quot;:null,&quot;MiddleInitial&quot;:null,&quot;FirstName&quot;:null,&quot;LastName&quot;:null}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

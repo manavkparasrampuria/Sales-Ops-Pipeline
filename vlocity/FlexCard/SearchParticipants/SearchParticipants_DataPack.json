@@ -1,0 +1,40 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "SFDC",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{}",
+                "dsDelay": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "SearchParticipants",
+    "Namespace": "",
+    "OmniUiCardKey": "SearchParticipants/SFDC/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "SearchParticipants.json",
+    "SampleDataSourceResponse": "{}",
+    "StylingConfiguration": "",
+    "UniqueName": "SearchParticipants_SFDC_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/SearchParticipants"
+}

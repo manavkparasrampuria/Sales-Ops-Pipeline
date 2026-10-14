@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Request Reason --></label>
+    <name>PublicSector__RequestReason__c</name>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>Zakázané</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elderly</masterLabel>
+        <translation>Starší</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Homeless</masterLabel>
+        <translation>Bezdomovci</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Isolated</masterLabel>
+        <translation>Izolované</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Ostatné</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarantined</masterLabel>
+        <translation>V karanténe</translation>
+    </picklistValues>
+</CustomFieldTranslation>

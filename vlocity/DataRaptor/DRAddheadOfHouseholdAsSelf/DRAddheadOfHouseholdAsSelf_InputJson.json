@@ -1,0 +1,51 @@
+{
+    "HeadOfHouseholdDetails": {
+        "PSS_BM_v1_HeadOfHouseholdAddress": "100 14th Street",
+        "PSS_BM_v1_HeadOfHouseholdCellNumber": "8175555555",
+        "PSS_BM_v1_HeadOfHouseholdCity": "Jersey City",
+        "PSS_BM_v1_HeadOfHouseholdCounty": "Jersey City",
+        "PSS_BM_v1_HeadOfHouseholdEmail": "rmarshall@mailinator.com",
+        "PSS_BM_v1_HeadOfHouseholdFirstName": "Radhika",
+        "PSS_BM_v1_HeadOfHouseholdLastName": "Marshall",
+        "PSS_BM_v1_HeadOfHouseholdPhoneNumber": "8175555555",
+        "PSS_BM_v1_HeadOfHouseholdState": "NJ",
+        "PSS_BM_v1_HeadOfHouseholdZipCode": "07310"
+    },
+    "HeaderOfHouseholdDetails": {
+        "HeadOfHouseholdBirthDate": "2002-06-21"
+    },
+    "HoldHofH": {
+        "PSS_BM_v1_HouseholdMemberDetails": {
+            "PSS_BM_v1_DateOfBirth": "2002-06-21",
+            "PSS_BM_v1_Gender": "F",
+            "PSS_BM_v1_GradeCompleted": "12th",
+            "PSS_BM_v1_HouseholdMemberFirstName": "Radhika",
+            "PSS_BM_v1_HouseholdMemberLastName": "Marshall",
+            "PSS_BM_v1_IsDisabled": "N",
+            "PSS_BM_v1_Relationship": "Self",
+            "PSS_BM_v1_USCitizen": "Y"
+        }
+    },
+    "HoldHouseholdInformation": {
+        "PSS_BM_v1_HouseholdMemberDetails": [
+            {
+                "PSS_BM_v1_DateOfBirth": "2018-06-21",
+                "PSS_BM_v1_Gender": "F",
+                "PSS_BM_v1_GradeCompleted": "NA",
+                "PSS_BM_v1_HouseholdMemberLastName": "Marshall",
+                "PSS_BM_v1_IsDisabled": "No",
+                "PSS_BM_v1_Relationship": "Daughter",
+                "PSS_BM_v1_USCitizen": "Yes"
+            },
+            {
+                "PSS_BM_v1_DateOfBirth": "1969-06-04",
+                "PSS_BM_v1_Gender": "F",
+                "PSS_BM_v1_GradeCompleted": "NA",
+                "PSS_BM_v1_HouseholdMemberLastName": "Jai",
+                "PSS_BM_v1_IsDisabled": "No",
+                "PSS_BM_v1_Relationship": "Grandmother",
+                "PSS_BM_v1_USCitizen": "Yes"
+            }
+        ]
+    }
+}

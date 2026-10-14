@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reopening Permit Type --></label>
+    <name>PublicSector__ReopeningPermitType__c</name>
+    <picklistValues>
+        <masterLabel>Curbside Service</masterLabel>
+        <translation>커브사이드 서비스</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indoor Operation</masterLabel>
+        <translation>실내 운영</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outdoor Operation</masterLabel>
+        <translation>실외 운영</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom7790</globalKey>
+        <inputField>ProjectNameInformationStep:input02_GPSG_Applying_Contact_Info_Verified__c</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IDOApplying_Contact_Info_Verified__c</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom1180</globalKey>
+        <inputField>DevelopmentCostsAndFundingStep:CapitalProject:ProjectType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>FundingRequestPurpose</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom6179</globalKey>
+        <inputField>ProjectNameInformationStep:ProjectName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ApplicationName</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom8835</globalKey>
+        <inputField>ProjectNameInformationStep:Contact:LastName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Id</lookupByField>
+        <lookupObject>Contact</lookupObject>
+        <lookupReturnedField>LastName</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ContactId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom2636</globalKey>
+        <inputField>DevelopmentCostsAndFundingStep:TotalFundsRequests</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RequestedAmount</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRUpdateGMMatchingAFCustom0jIKX000000fxva2AAItem9</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom5669</globalKey>
+        <inputField>ProjectNameInformationStep:HousingType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom3535</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationStageDefinitionId</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom0jIKX000000fxva2AAItem4</globalKey>
+        <inputField>ProjectNameInformationStep:Contact:FirstName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Id</lookupByField>
+        <lookupObject>Contact</lookupObject>
+        <lookupReturnedField>FirstName</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ContactId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <formulaConverted>| var:ProjectNameInformationStep:Account:Name &apos;/\/\/-/\/\/&apos; var:ProjectNameInformationStep:ProjectName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(ProjectNameInformationStep:Account:Name,&apos; - &apos;,ProjectNameInformationStep:ProjectName)</formulaExpression>
+        <formulaResultPath>IndividualApplicationProjectName</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRUpdateGMMatchingAFCustom186</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom2607</globalKey>
+        <inputField>ProjectAreaMapStep:ProjectAreaDefinition</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IDOProject_Description__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom6770</globalKey>
+        <inputField>ProjectNameInformationStep:ProjectAreaType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IDOProject_Type__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <defaultValue>Completed</defaultValue>
+        <globalKey>DRUpdateGMMatchingAFCustom9002</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRUpdateGMMatchingAFCustom8337</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom7981</globalKey>
+        <inputField>ProjectNameInformationStep:input01_IDOApplying_Organization_Info_Verified__c</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IDOApplying_Organization_Info_Verified__c</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom2538</globalKey>
+        <inputField>DevelopmentCostsAndFundingStep:CapitalProject:TotalDevelopmentCost</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IDOEstimated_Funding_Total__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom3243</globalKey>
+        <inputField>Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom1218</globalKey>
+        <inputField>ProjectNameInformationStep:ProjectName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IDOProject_Title__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateGMMatchingAF</dataMapperDefItemName>
+        <globalKey>DRUpdateGMMatchingAFCustom1738</globalKey>
+        <inputField>ContextId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;ContextId&quot;: &quot;0iTKX000000TOoU2AW&quot;,
+    &quot;omniscriptId&quot;: &quot;0jNKX000000blqQ2AQ&quot;,
+    &quot;language&quot;: &quot;English&quot;,
+    &quot;type&quot;: &quot;GrantsAF&quot;,
+    &quot;runMode&quot;: &quot;preview&quot;,
+    &quot;sId&quot;: &quot;0jNKX000000blqQ2AQ&quot;,
+    &quot;theme&quot;: &quot;lightning&quot;,
+    &quot;subType&quot;: &quot;AFProjectOverview&quot;,
+    &quot;timeStamp&quot;: &quot;2024-06-28T15:54:56.195Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;userTimeZone&quot;: &quot;-420&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;jgamache@gpsido250.dev1&quot;,
+    &quot;userId&quot;: &quot;005KX000000HgLrYAK&quot;,
+    &quot;omniProcessId&quot;: &quot;0jNKX000000blqQ2AQ&quot;,
+    &quot;localTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;TransitOrientedDevelopmentStep&quot;: null,
+    &quot;Category&quot;: &quot;Grant Application&quot;,
+    &quot;FundingOp&quot;: &quot;119KX000000GmaOYAS&quot;,
+    &quot;Status&quot;: &quot;In Progress&quot;,
+    &quot;ProjectNameInformationStep&quot;: {
+        &quot;UpdateInfoCheckbox&quot;: false,
+        &quot;ICPorRIPA&quot;: {
+            &quot;AffordableHousingDevelopment&quot;: true,
+            &quot;HousingRelatedInfrastructure(Hri)$103(A)(2)&quot;: false,
+            &quot;SustainableTransportationInfrastructure&quot;: false,
+            &quot;TransportationRelatedAmenities&quot;: false,
+            &quot;ProgramCosts&quot;: false
+        },
+        &quot;FundingProgramName&quot;: &quot;Community Development Investment Grant&quot;,
+        &quot;Account&quot;: {
+            &quot;Name&quot;: &quot;Jennifer&apos;s Custom Creations&quot;,
+            &quot;Website&quot;: &quot;https://jenniferscustoms.com&quot;
+        },
+        &quot;Contact&quot;: {
+            &quot;LastName&quot;: &quot;Simmons&quot;,
+            &quot;FirstName&quot;: &quot;Jennifer&quot;,
+            &quot;Email&quot;: &quot;jsimmons062021@gmail.com&quot;
+        },
+        &quot;ProjectName&quot;: &quot;Jeff Test Project Test&quot;,
+        &quot;ProjectAreaType&quot;: &quot;Integrated Community Project&quot;,
+        &quot;HousingType&quot;: &quot;Rental&quot;
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRUpdateGMMatchingAF</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;ContextId&quot;: &quot;13aKX000000fxg8YAA&quot;,
+  &quot;omniscriptId&quot;: &quot;0jNKX000000blqQ2AQ&quot;,
+  &quot;language&quot;: &quot;English&quot;,
+  &quot;type&quot;: &quot;GrantsAF&quot;,
+  &quot;runMode&quot;: &quot;preview&quot;,
+  &quot;sId&quot;: &quot;0jNKX000000blqQ2AQ&quot;,
+  &quot;theme&quot;: &quot;lightning&quot;,
+  &quot;subType&quot;: &quot;AFProjectOverview&quot;,
+  &quot;timeStamp&quot;: &quot;2024-07-01T18:28:11.022Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+  &quot;userTimeZone&quot;: &quot;-420&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;besmond@gps250.dev1&quot;,
+  &quot;userId&quot;: &quot;005KX000000HgLNYA0&quot;,
+  &quot;omniProcessId&quot;: &quot;0jNKX000000blqQ2AQ&quot;,
+  &quot;localTimeZoneName&quot;: &quot;America/New_York&quot;,
+  &quot;TransitOrientedDevelopmentStep&quot;: null,
+  &quot;IndividualApplicationTaskIndividualApplicationId&quot;: &quot;0iTKX000000TPMZ2A4&quot;,
+  &quot;IndividualApplicationTaskApplicationStageDefinitionId&quot;: &quot;13bKX000000k9fuYAA&quot;,
+  &quot;Id&quot;: &quot;0iTKX000000TPMZ2A4&quot;,
+  &quot;IndividualApplicationTaskId&quot;: &quot;13aKX000000fxg8YAA&quot;,
+  &quot;IndividualApplicationTaskName&quot;: &quot;Project Overview&quot;,
+  &quot;FundingOp&quot;: &quot;119KX000000GmaOYAS&quot;,
+  &quot;Date&quot;: &quot;2024-07-01T16:38:52.000Z&quot;,
+  &quot;ContactId&quot;: &quot;003KX000001XoErYAK&quot;,
+  &quot;IndividualApplicationTaskStatus&quot;: &quot;Completed&quot;,
+  &quot;InternalStatus&quot;: &quot;In Progress&quot;,
+  &quot;ApplyingOrganization&quot;: &quot;001KX000002KYo8YAG&quot;,
+  &quot;Category&quot;: &quot;Grant Application&quot;,
+  &quot;IndividualApplicationTaskType&quot;: &quot;Grantmaking&quot;,
+  &quot;Status&quot;: &quot;In Progress&quot;,
+  &quot;ProjectNameInformationStep&quot;: {
+    &quot;UpdateInfoCheckbox&quot;: true,
+    &quot;ICPorRIPA&quot;: {
+      &quot;AffordableHousingDevelopment&quot;: true,
+      &quot;HousingRelatedInfrastructure(Hri)$103(A)(2)&quot;: false,
+      &quot;SustainableTransportationInfrastructure&quot;: true,
+      &quot;TransportationRelatedAmenities&quot;: false,
+      &quot;ProgramCosts&quot;: false
+    },
+    &quot;FundingProgramName&quot;: &quot;Community Development Investment Grant&quot;,
+    &quot;Contact&quot;: {
+      &quot;LastName&quot;: &quot;Simmons&quot;,
+      &quot;FirstName&quot;: &quot;Jennifer&quot;,
+      &quot;Email&quot;: &quot;jsimmons062021@mailinator.com&quot;
+    },
+    &quot;Account&quot;: {
+      &quot;Name&quot;: &quot;Jennifer&apos;s Custom Creations&quot;,
+      &quot;Website&quot;: &quot;https://jenniferscustoms.com&quot;
+    },
+    &quot;HousingType&quot;: &quot;Both&quot;,
+    &quot;ProjectAreaType&quot;: &quot;Integrated Community Project&quot;,
+    &quot;ProjectName&quot;: &quot;Green Apartments&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

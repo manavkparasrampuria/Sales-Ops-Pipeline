@@ -1,0 +1,28 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "PSSReportCOCTransformAssessmentQuestionResponseNameCustom0jIxx00000000BJEAYItem0",
+        "InputFieldName": "User:Name",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSReportCOCTransformAssessmentQuestionResponseName",
+        "OmniDataTransformationId": {
+            "Name": "PSSReportCOCTransformAssessmentQuestionResponseName",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSReportCOCTransformAssessmentQuestionResponseName",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "LoggedInUserName:HouseholdMemberName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

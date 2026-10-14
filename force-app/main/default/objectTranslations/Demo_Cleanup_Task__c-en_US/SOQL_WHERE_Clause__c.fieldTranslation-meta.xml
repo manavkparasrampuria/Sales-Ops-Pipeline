@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- A SOQL WHERE clause expression (without the &quot;WHERE&quot;) that evaluates to &quot;true&quot; if a record should be deleted, for example, &quot;Hand_Crafted_for_Demo_Scenario__c = false&quot;. Leave blank if all records of this object are to be deleted. --></help>
+    <label><!-- SOQL WHERE Clause --></label>
+    <name>SOQL_WHERE_Clause__c</name>
+</CustomFieldTranslation>

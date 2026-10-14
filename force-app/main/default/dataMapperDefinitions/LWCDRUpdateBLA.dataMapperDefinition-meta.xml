@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA9884958717436094</globalKey>
+        <inputField>EstablishmentInformation:BlaCreatedText</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA11338496405639131</globalKey>
+        <inputField>EstablishmentInformation:Street</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteStreet</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA994212042618889</globalKey>
+        <inputField>ApplicationInformation:ApplicationCategory</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationCategory</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA9052594423914468</globalKey>
+        <inputField>EstablishmentInformation:City</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteCity</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LWCDRUpdateBLA6746400509275448</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA7348037118480393</globalKey>
+        <inputField>EstablishmentInformation:State</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteState</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA13179115218524529</globalKey>
+        <inputField>SalonBusinessActivityId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BusinessTypeId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA8361741811958086</globalKey>
+        <inputField>SalonAccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA519216417375459</globalKey>
+        <inputField>ApplicationType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationType</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA035765356763888256</globalKey>
+        <inputField>CaseDescription</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA004165331503098502</globalKey>
+        <inputField>ApplicationInformation:AuthorizationCategory</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <formulaConverted>&quot;Business/\/\/Name/\/\/-/\/\/&quot; var:ApplicationInformation:AssociatedAccount + &quot;/\/\/,/\/\/Authorization/\/\/Type/\/\/-/\/\/&quot; + var:ApplicationInformation:AuthorizationType +</formulaConverted>
+        <formulaExpression>&quot;Business Name - &quot; + ApplicationInformation:AssociatedAccount + &quot; , Authorization Type - &quot; + ApplicationInformation:AuthorizationType</formulaExpression>
+        <formulaResultPath>CaseDescription</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>LWCDRUpdateBLA40040484534593235</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA5246037898552758</globalKey>
+        <inputField>SalonAuthorizationTypeId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA5576730980817084</globalKey>
+        <inputField>ApplicationStatus</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA9538247164288594</globalKey>
+        <inputField>EstablishmentInformation:Zipcode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SitePostalCode</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <formulaConverted>| var:RenewApplication var:null = &quot;New&quot; &quot;Renewal&quot; IF</formulaConverted>
+        <formulaExpression>IF(%RenewApplication%=null, &quot;New&quot;, &quot;Renewal&quot;)</formulaExpression>
+        <formulaResultPath>ApplicationType</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>LWCDRUpdateBLA16916165188494214</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <formulaConverted>&quot;Street/\/\/-:/\/\/&quot; var:EstablishmentInformation:Street + &quot;,/\/\/City/\/\/-:/\/\/&quot; + var:EstablishmentInformation:City + &quot;,/\/\/State/\/\/-:/\/\/&quot; + var:
+EstablishmentInformation:State + &quot;,/\/\/Zipcode/\/\/-:/\/\/&quot; + var:EstablishmentInformation:Zipcode + &quot;,/\/\/Neighborhood/\/\/-:/\/\/&quot; + var:EstablishmentInformation:Neighborhood +</formulaConverted>
+        <formulaExpression>&quot;Street -: &quot;+EstablishmentInformation:Street+&quot;, City -: &quot;+EstablishmentInformation:City+&quot;, State -: &quot;+
+EstablishmentInformation:State+&quot;, Zipcode -: &quot;+EstablishmentInformation:Zipcode+&quot;, Neighborhood -: &quot;+EstablishmentInformation:Neighborhood</formulaExpression>
+        <formulaResultPath>Address</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>LWCDRUpdateBLA49640490992625197</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA45255722629742</globalKey>
+        <inputField>ContactId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PrimaryOwnerId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LWCDRUpdateBLA</dataMapperDefItemName>
+        <globalKey>LWCDRUpdateBLA6561048349620893</globalKey>
+        <inputField>Address</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteAddress</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;ContextId&quot;: &quot;&quot;,
+    &quot;timeStamp&quot;: &quot;2020-03-25T10:21:49.023Z&quot;,
+    &quot;userId&quot;: &quot;005B00000065DsSIAU&quot;,
+    &quot;userName&quot;: &quot;sazher_patch1@salesforce.com&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZone&quot;: -420,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;sfdcIFrameOrigin&quot;: &quot;https://vlocity-ins.na44.visual.stmfa.stm.force.com&quot;,
+    &quot;sfdcIFrameHost&quot;: &quot;web&quot;,
+    &quot;layout&quot;: &quot;lightning&quot;,
+    &quot;isdtp&quot;: &quot;p1&quot;,
+    &quot;id&quot;: &quot;a3KRM000000005X2AQ&quot;,
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;ApplicationInformation&quot;: {
+        &quot;isEditable&quot;: true,
+        &quot;AssociatedAccount&quot;: &quot;ACT - 1&quot;,
+        &quot;Industries&quot;: &quot;Healthcare&quot;,
+        &quot;isIndustriesFilled&quot;: true,
+        &quot;BusinessActivity&quot;: &quot;ACT 1 BT1&quot;,
+        &quot;isBusinessActivityFilled&quot;: true,
+        &quot;AuthorizationCategory&quot;: &quot;License&quot;,
+        &quot;AuthorizationType&quot;: &quot;RAT 1&quot;,
+        &quot;ApplicationCategory&quot;: &quot;Basic&quot;,
+        &quot;BusinessActivityId&quot;: &quot;2gFRM0000004C9S2AU&quot;,
+        &quot;AuthorizationTypeId&quot;: &quot;0ehRM0000004C9NYAU&quot;,
+        &quot;AssociatedAccountId&quot;: &quot;001RM000004eZGJYA2&quot;,
+        &quot;exprShowMinnesotaSalonLicenceApplication&quot;: true,
+        &quot;IsPARCreated&quot;: &quot;a67RM00000000AgYAI&quot;,
+        &quot;expIsPARCreated&quot;: false
+    },
+    &quot;EstablishmentInformation&quot;: {
+        &quot;BusinessLegalName&quot;: &quot;ACT - 1&quot;,
+        &quot;BusinessDBAName&quot;: &quot;adf&quot;,
+        &quot;TaxID&quot;: null,
+        &quot;ContactName&quot;: &quot;Dieggo John&quot;,
+        &quot;ContactEmail&quot;: null,
+        &quot;Street&quot;: &quot;adsf&quot;,
+        &quot;City&quot;: null,
+        &quot;State&quot;: null,
+        &quot;Zipcode&quot;: null,
+        &quot;Neighborhood&quot;: &quot;adsfsadf&quot;,
+        &quot;Address&quot;: &quot;Street -:  adsf City -: null State -: null Zipcode -: undefined&quot;,
+        &quot;BlaCreatedText&quot;: &quot;0f0RM0000004CGEYA2&quot;,
+        &quot;isExistingApplication&quot;: false
+    },
+    &quot;SalonInformation&quot;: {
+        &quot;SalonStartDate&quot;: &quot;2020-03-23&quot;,
+        &quot;SalonInAResidence&quot;: &quot;No&quot;,
+        &quot;BusinessLocation&quot;: &quot;No&quot;,
+        &quot;BusinessType&quot;: null
+    },
+    &quot;Certification&quot;: {
+        &quot;CertificationText&quot;: true,
+        &quot;Signature&quot;: &quot;adf&quot;
+    },
+    &quot;OwnershipInformation&quot;: {
+        &quot;PurchaseOrTakeOver&quot;: &quot;Purchasing&quot;,
+        &quot;PriorEstablishmentDetails&quot;: null,
+        &quot;OwnershipType&quot;: &quot;Individual&quot;,
+        &quot;IndividualOwnership&quot;: {
+            &quot;IndividualLastName&quot;: &quot;adsf&quot;,
+            &quot;IndividualFirstName&quot;: null
+        },
+        &quot;CorporationOrLLCOwnership&quot;: null,
+        &quot;PartnershipOwnership&quot;: null
+    },
+    &quot;SampleUser&quot;: &quot;005RM0000025atnYAA&quot;,
+    &quot;ApplicationStatus&quot;: &quot;Submitted&quot;,
+    &quot;ContactId&quot;: &quot;003RM000006GmF9YAK&quot;,
+    &quot;isBLASubmitted&quot;: false,
+    &quot;sInstanceId&quot;: &quot;a3JRM00000000C32AI&quot;,
+    &quot;DRId_PreliminaryApplicationRef__c&quot;: &quot;a67RM00000000AgYAI&quot;,
+    &quot;CreatedStandardPARId&quot;: &quot;0goRM0000004CL9YAM&quot;,
+    &quot;CreatedPreliminaryApplicationRefId&quot;: &quot;a67RM00000000AgYAI&quot;,
+    &quot;ApplicationAttachments&quot;: {
+        &quot;IdentificationProof&quot;: [
+            {
+                &quot;filename&quot;: &quot;2- Creating a DataRaptor Interface to Map an OmniScript to a PDF.pdf&quot;,
+                &quot;size&quot;: 36531,
+                &quot;data&quot;: &quot;5c8bb52c-7edf-42b0-bcca-dd8064b8540e&quot;,
+                &quot;$$hashKey&quot;: &quot;object:1661&quot;
+            }
+        ],
+        &quot;PropertyProof&quot;: [
+            {
+                &quot;filename&quot;: &quot;2- Creating a DataRaptor Interface to Map an OmniScript to a PDF.pdf&quot;,
+                &quot;size&quot;: 36531,
+                &quot;data&quot;: &quot;b335ab39-1e0a-4989-9df2-de7e285c54f1&quot;,
+                &quot;$$hashKey&quot;: &quot;object:1668&quot;
+            }
+        ],
+        &quot;EINProof&quot;: null
+    },
+    &quot;DRId_BusinessLicenseApplication&quot;: &quot;0f0RM0000004CGEYA2&quot;,
+    &quot;DRId_Case&quot;: &quot;500RM000002hshsYAA&quot;,
+    &quot;CreatedApplicationId&quot;: &quot;BLA-0000000061&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>LWCDRUpdateBLA</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+    &quot;ContextId&quot;: &quot;&quot;,
+    &quot;timeStamp&quot;: &quot;2020-03-25T10:21:49.023Z&quot;,
+    &quot;userId&quot;: &quot;005B00000065DsSIAU&quot;,
+    &quot;userName&quot;: &quot;sazher_patch1@salesforce.com&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZone&quot;: -420,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;sfdcIFrameOrigin&quot;: &quot;https://vlocity-ins.na44.visual.stmfa.stm.force.com&quot;,
+    &quot;sfdcIFrameHost&quot;: &quot;web&quot;,
+    &quot;layout&quot;: &quot;lightning&quot;,
+    &quot;isdtp&quot;: &quot;p1&quot;,
+    &quot;id&quot;: &quot;a3KRM000000005X2AQ&quot;,
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;ApplicationInformation&quot;: {
+        &quot;isEditable&quot;: true,
+        &quot;AssociatedAccount&quot;: &quot;ACT - 1&quot;,
+        &quot;Industries&quot;: &quot;Healthcare&quot;,
+        &quot;isIndustriesFilled&quot;: true,
+        &quot;BusinessActivity&quot;: &quot;ACT 1 BT1&quot;,
+        &quot;isBusinessActivityFilled&quot;: true,
+        &quot;AuthorizationCategory&quot;: &quot;License&quot;,
+        &quot;AuthorizationType&quot;: &quot;RAT 1&quot;,
+        &quot;ApplicationCategory&quot;: &quot;Basic&quot;,
+        &quot;BusinessActivityId&quot;: &quot;2gFRM0000004C9S2AU&quot;,
+        &quot;AuthorizationTypeId&quot;: &quot;0ehRM0000004C9NYAU&quot;,
+        &quot;AssociatedAccountId&quot;: &quot;001RM000004eZGJYA2&quot;,
+        &quot;exprShowMinnesotaSalonLicenceApplication&quot;: true,
+        &quot;IsPARCreated&quot;: &quot;a67RM00000000AgYAI&quot;,
+        &quot;expIsPARCreated&quot;: false
+    },
+    &quot;EstablishmentInformation&quot;: {
+        &quot;BusinessLegalName&quot;: &quot;ACT - 1&quot;,
+        &quot;BusinessDBAName&quot;: &quot;adf&quot;,
+        &quot;TaxID&quot;: null,
+        &quot;ContactName&quot;: &quot;Dieggo John&quot;,
+        &quot;ContactEmail&quot;: null,
+        &quot;Street&quot;: &quot;adsf&quot;,
+        &quot;City&quot;: null,
+        &quot;State&quot;: null,
+        &quot;Zipcode&quot;: null,
+        &quot;Neighborhood&quot;: &quot;adsfsadf&quot;,
+        &quot;Address&quot;: &quot;Street -:  adsf City -: null State -: null Zipcode -: undefined&quot;,
+        &quot;BlaCreatedText&quot;: &quot;0f0RM0000004CGEYA2&quot;,
+        &quot;isExistingApplication&quot;: false
+    },
+    &quot;SalonInformation&quot;: {
+        &quot;SalonStartDate&quot;: &quot;2020-03-23&quot;,
+        &quot;SalonInAResidence&quot;: &quot;No&quot;,
+        &quot;BusinessLocation&quot;: &quot;No&quot;,
+        &quot;BusinessType&quot;: null
+    },
+    &quot;Certification&quot;: {
+        &quot;CertificationText&quot;: true,
+        &quot;Signature&quot;: &quot;adf&quot;
+    },
+    &quot;OwnershipInformation&quot;: {
+        &quot;PurchaseOrTakeOver&quot;: &quot;Purchasing&quot;,
+        &quot;PriorEstablishmentDetails&quot;: null,
+        &quot;OwnershipType&quot;: &quot;Individual&quot;,
+        &quot;IndividualOwnership&quot;: {
+            &quot;IndividualLastName&quot;: &quot;adsf&quot;,
+            &quot;IndividualFirstName&quot;: null
+        },
+        &quot;CorporationOrLLCOwnership&quot;: null,
+        &quot;PartnershipOwnership&quot;: null
+    },
+    &quot;SampleUser&quot;: &quot;005RM0000025atnYAA&quot;,
+    &quot;ApplicationStatus&quot;: &quot;Submitted&quot;,
+    &quot;ContactId&quot;: &quot;003RM000006GmF9YAK&quot;,
+    &quot;isBLASubmitted&quot;: false,
+    &quot;sInstanceId&quot;: &quot;a3JRM00000000C32AI&quot;,
+    &quot;DRId_PreliminaryApplicationRef__c&quot;: &quot;a67RM00000000AgYAI&quot;,
+    &quot;CreatedStandardPARId&quot;: &quot;0goRM0000004CL9YAM&quot;,
+    &quot;CreatedPreliminaryApplicationRefId&quot;: &quot;a67RM00000000AgYAI&quot;,
+    &quot;ApplicationAttachments&quot;: {
+        &quot;IdentificationProof&quot;: [
+            {
+                &quot;filename&quot;: &quot;2- Creating a DataRaptor Interface to Map an OmniScript to a PDF.pdf&quot;,
+                &quot;size&quot;: 36531,
+                &quot;data&quot;: &quot;5c8bb52c-7edf-42b0-bcca-dd8064b8540e&quot;,
+                &quot;$$hashKey&quot;: &quot;object:1661&quot;
+            }
+        ],
+        &quot;PropertyProof&quot;: [
+            {
+                &quot;filename&quot;: &quot;2- Creating a DataRaptor Interface to Map an OmniScript to a PDF.pdf&quot;,
+                &quot;size&quot;: 36531,
+                &quot;data&quot;: &quot;b335ab39-1e0a-4989-9df2-de7e285c54f1&quot;,
+                &quot;$$hashKey&quot;: &quot;object:1668&quot;
+            }
+        ],
+        &quot;EINProof&quot;: null
+    },
+    &quot;DRId_BusinessLicenseApplication&quot;: &quot;0f0RM0000004CGEYA2&quot;,
+    &quot;DRId_Case&quot;: &quot;500RM000002hshsYAA&quot;,
+    &quot;CreatedApplicationId&quot;: &quot;BLA-0000000061&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

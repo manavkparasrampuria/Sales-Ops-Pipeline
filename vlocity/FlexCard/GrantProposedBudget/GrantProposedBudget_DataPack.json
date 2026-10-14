@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "BAE",
+    "ClonedFromOmniUiCardKey": "ProposedBudget/BAE/2.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "13aKX000000wkMwYAI"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DRGretBudgetfromIA",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "IndividualApplicationTaskId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "GrantProposedBudget",
+    "Namespace": "",
+    "OmniUiCardKey": "GrantProposedBudget/BAE/3.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "GrantProposedBudget.json",
+    "SampleDataSourceResponse": "[{\"BudgetName\":\"FY25 CDI Esmond EV\",\"BudgetAmount\":25250,\"IATotalBudget\":25250,\"BudgetVsActual\":25150,\"IARequestedAmount\":100,\"IAApplicationName\":\"Green Apartments\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "GrantProposedBudget_BAE_3",
+    "VersionNumber": 3,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/GrantProposedBudget"
+}

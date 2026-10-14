@@ -1,0 +1,49 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "CreateApplicationForm",
+    "OmniProcessId": {
+        "Name": "CreateApplicationFormAndRelatedRecords",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/CreateApplicationFormAndRelatedRecords/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "FirstName": "%FirstName%",
+            "LastName": "%LastName%",
+            "RequisitionID": "%RequisitionID%",
+            "personAccountId": "%personAccountId%",
+            "recruitmentRequisitionId": "%recruitmentRequisitionId%"
+        },
+        "additionalOutput": {
+            "": ""
+        },
+        "bundle": "RecruitmentCreateApplicationForm1",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataMapperPostAction1",
+        "responseJSONNode": "applicationFormId",
+        "responseJSONPath": "ApplicationForm_1:Id",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/CreateApplicationFormAndRelatedRecords/Procedure/CreateApplicationForm"
+}

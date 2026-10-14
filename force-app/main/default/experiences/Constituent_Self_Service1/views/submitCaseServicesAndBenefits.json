@@ -1,0 +1,93 @@
+{
+  "appPageId" : "cb179d80-7920-4ba7-93b5-079034f23a90",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "2eaebbf6-a296-4715-89fa-2d97e0a31401",
+  "label" : "Submit Case Services and Benefits",
+  "regions" : [ {
+    "id" : "78fc63ba-999b-4632-a9b6-ae55c6b53c04",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowAttachments" : true,
+        "attachmentLabel" : "Upload File",
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "rgb(44, 89, 109)",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : "",
+        "buttonRadius" : 25,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "callToAction" : false,
+        "callToActionButtonText" : "",
+        "callToActionText" : "",
+        "callToActionUrl" : "",
+        "confirmationSubtext" : "We’ll get back to you soon.",
+        "confirmationText" : "Your case was created.",
+        "guestQuickActionName" : "New_Case_Record",
+        "headerSubtitle" : "Tell us how we can help address questions re: services and benefits",
+        "headerTitle" : "Contact Customer Support - Services & Benefits",
+        "quickActionName" : "Community_Case_Benefits",
+        "requestSummaryText" : "Case summary"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "391c06b9-d987-4835-b234-156cbcb4e531",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2f2b072f-bbf1-408d-a3e8-7f8fa0175a95",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "617eaefc-3e4f-478f-ac65-7145689079b5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Submit Case Services and Benefits"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9cd0e43c-2132-44b2-947b-c1af49a72aec",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7b0e2607-ff04-439b-b92f-828871e85061",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askConfirmationQuestion" : true,
+        "confirmationMessageLabel" : "Got it!",
+        "deflectionSubtitle" : "Find what you need here.",
+        "deflectionTitle" : "Need Answers Fast?",
+        "firstQuestion" : "Did this content solve your issue?",
+        "maxResults" : 6,
+        "measureDeflection" : true,
+        "redirectUrl" : "",
+        "secondQuestion" : "Stop creating your case?",
+        "showArticles" : true,
+        "showDiscussions" : false,
+        "topicId" : ""
+      },
+      "componentName" : "forceCommunity:caseDeflection",
+      "id" : "c02558cc-0d82-474a-95d2-1ffbc8932c07",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b4b01e3d-9dc6-4c4c-83cf-dbb1f55faa55",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-submit-case-services-and-benefits"
+}

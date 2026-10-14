@@ -1,0 +1,67 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "UpdateExistingPartyIncomeRecord",
+    "OmniProcessId": {
+        "Name": "ProcessHouseholdIncome",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ProcessHouseholdIncome/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopPartyIncomeData",
+        "OmniProcessId": {
+            "Name": "ProcessHouseholdIncome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ProcessHouseholdIncome/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ProcessHouseholdIncome/Procedure/LoopPartyIncomeData",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopPartyIncomeData",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "CalendarYear": "=%FetchExistingPartyIncomeRecordForSameEmployer:CalendarYear%",
+            "Employer": "=%FetchExistingPartyIncomeRecordForSameEmployer:Employer%",
+            "EndDate": "=%FetchExistingPartyIncomeRecordForSameEmployer:EndDate%",
+            "IncomeAmount": "=%IncomeData:IncomeAmount%",
+            "IncomeFrequency": "=%FetchExistingPartyIncomeRecordForSameEmployer:IncomeFrequency%",
+            "IncomeStatus": "=%FetchExistingPartyIncomeRecordForSameEmployer:IncomeStatus%",
+            "IncomeType": "=%FetchExistingPartyIncomeRecordForSameEmployer:IncomeType%",
+            "PartyId": "=%FetchExistingPartyIncomeRecordForSameEmployer:PartyId%",
+            "PartyIncomeId": "=%FetchExistingPartyIncomeRecordForSameEmployer:PartyIncomeId%",
+            "StartDate": "=%FetchExistingPartyIncomeRecordForSameEmployer:StartDate%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "PSSUpsertPartyIncome1",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "ISNOTBLANK(FetchExistingPartyIncomeRecordForSameEmployer:PartyIncomeId)",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataMapperPostAction6",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ProcessHouseholdIncome/Procedure/UpdateExistingPartyIncomeRecord"
+}

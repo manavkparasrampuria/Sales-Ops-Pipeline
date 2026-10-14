@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGoogleResults</dataMapperDefItemName>
+        <globalKey>TransformGoogleResultsCustom9825</globalKey>
+        <inputField>predictions:GeocodeResults:Output:StreetAddress</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>StreetAddress</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGoogleResults</dataMapperDefItemName>
+        <globalKey>TransformGoogleResultsCustom6473</globalKey>
+        <inputField>predictions:GeocodeResults:Output:County</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>County</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGoogleResults</dataMapperDefItemName>
+        <globalKey>TransformGoogleResultsCustom1276</globalKey>
+        <inputField>predictions:place_id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>place_id</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGoogleResults</dataMapperDefItemName>
+        <globalKey>TransformGoogleResultsCustom7854</globalKey>
+        <inputField>predictions:GeocodeResults:Output:formatted_address</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGoogleResults</dataMapperDefItemName>
+        <formulaConverted>| &apos;CallGoogleGeocodeIP&apos; &apos;CallIP&apos; var:predictions:place_id FUNCTION</formulaConverted>
+        <formulaExpression>FUNCTION(&apos;CallGoogleGeocodeIP&apos;,&apos;CallIP&apos;,predictions:place_id)</formulaExpression>
+        <formulaResultPath>predictions:GeocodeResults</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>TransformGoogleResultsCustom9316</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGoogleResults</dataMapperDefItemName>
+        <globalKey>TransformGoogleResultsCustom5352</globalKey>
+        <inputField>predictions:GeocodeResults:Output:Country</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Country</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGoogleResults</dataMapperDefItemName>
+        <globalKey>TransformGoogleResultsCustom4206</globalKey>
+        <inputField>predictions:GeocodeResults:Output:City</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>City</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGoogleResults</dataMapperDefItemName>
+        <globalKey>TransformGoogleResultsCustom7857</globalKey>
+        <inputField>predictions:GeocodeResults:Output:State</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>State</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGoogleResults</dataMapperDefItemName>
+        <globalKey>TransformGoogleResultsCustom5289</globalKey>
+        <inputField>predictions:GeocodeResults:Output:PostalCode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PostalCode</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;output&quot;: {
+        &quot;status&quot;: &quot;OK&quot;,
+        &quot;predictions&quot;: [
+            {
+                &quot;types&quot;: [
+                    &quot;premise&quot;,
+                    &quot;geocode&quot;
+                ],
+                &quot;terms&quot;: [
+                    {
+                        &quot;value&quot;: &quot;559&quot;,
+                        &quot;offset&quot;: 0
+                    },
+                    {
+                        &quot;value&quot;: &quot;Osage Ave&quot;,
+                        &quot;offset&quot;: 4
+                    },
+                    {
+                        &quot;value&quot;: &quot;Lenapah&quot;,
+                        &quot;offset&quot;: 15
+                    },
+                    {
+                        &quot;value&quot;: &quot;OK&quot;,
+                        &quot;offset&quot;: 24
+                    },
+                    {
+                        &quot;value&quot;: &quot;USA&quot;,
+                        &quot;offset&quot;: 28
+                    }
+                ],
+                &quot;structured_formatting&quot;: {
+                    &quot;secondary_text&quot;: &quot;Lenapah, OK, USA&quot;,
+                    &quot;main_text_matched_substrings&quot;: [
+                        {
+                            &quot;offset&quot;: 0,
+                            &quot;length&quot;: 3
+                        }
+                    ],
+                    &quot;main_text&quot;: &quot;559 Osage Ave&quot;
+                },
+                &quot;reference&quot;: &quot;ChIJsXZ6AcyYt4cRkSY32KsdY8s&quot;,
+                &quot;place_id&quot;: &quot;ChIJsXZ6AcyYt4cRkSY32KsdY8s&quot;,
+                &quot;matched_substrings&quot;: [
+                    {
+                        &quot;offset&quot;: 0,
+                        &quot;length&quot;: 3
+                    }
+                ],
+                &quot;description&quot;: &quot;559 Osage Ave, Lenapah, OK, USA&quot;
+            },
+            {
+                &quot;types&quot;: [
+                    &quot;premise&quot;,
+                    &quot;geocode&quot;
+                ],
+                &quot;terms&quot;: [
+                    {
+                        &quot;value&quot;: &quot;5599&quot;,
+                        &quot;offset&quot;: 0
+                    },
+                    {
+                        &quot;value&quot;: &quot;San Felipe Street&quot;,
+                        &quot;offset&quot;: 5
+                    },
+                    {
+                        &quot;value&quot;: &quot;Houston&quot;,
+                        &quot;offset&quot;: 24
+                    },
+                    {
+                        &quot;value&quot;: &quot;TX&quot;,
+                        &quot;offset&quot;: 33
+                    },
+                    {
+                        &quot;value&quot;: &quot;USA&quot;,
+                        &quot;offset&quot;: 37
+                    }
+                ],
+                &quot;structured_formatting&quot;: {
+                    &quot;secondary_text&quot;: &quot;Houston, TX, USA&quot;,
+                    &quot;main_text_matched_substrings&quot;: [
+                        {
+                            &quot;offset&quot;: 0,
+                            &quot;length&quot;: 3
+                        }
+                    ],
+                    &quot;main_text&quot;: &quot;5599 San Felipe Street&quot;
+                },
+                &quot;reference&quot;: &quot;ChIJ4bX1617BQIYRW63r4HhFRu0&quot;,
+                &quot;place_id&quot;: &quot;ChIJ4bX1617BQIYRW63r4HhFRu0&quot;,
+                &quot;matched_substrings&quot;: [
+                    {
+                        &quot;offset&quot;: 0,
+                        &quot;length&quot;: 3
+                    }
+                ],
+                &quot;description&quot;: &quot;5599 San Felipe Street, Houston, TX, USA&quot;
+            },
+            {
+                &quot;types&quot;: [
+                    &quot;premise&quot;,
+                    &quot;geocode&quot;
+                ],
+                &quot;terms&quot;: [
+                    {
+                        &quot;value&quot;: &quot;5595&quot;,
+                        &quot;offset&quot;: 0
+                    },
+                    {
+                        &quot;value&quot;: &quot;Grand Drive&quot;,
+                        &quot;offset&quot;: 5
+                    },
+                    {
+                        &quot;value&quot;: &quot;St. Louis&quot;,
+                        &quot;offset&quot;: 18
+                    },
+                    {
+                        &quot;value&quot;: &quot;MO&quot;,
+                        &quot;offset&quot;: 29
+                    },
+                    {
+                        &quot;value&quot;: &quot;USA&quot;,
+                        &quot;offset&quot;: 33
+                    }
+                ],
+                &quot;structured_formatting&quot;: {
+                    &quot;secondary_text&quot;: &quot;St. Louis, MO, USA&quot;,
+                    &quot;main_text_matched_substrings&quot;: [
+                        {
+                            &quot;offset&quot;: 0,
+                            &quot;length&quot;: 3
+                        }
+                    ],
+                    &quot;main_text&quot;: &quot;5595 Grand Drive&quot;
+                },
+                &quot;reference&quot;: &quot;ChIJT2HS8Ei12IcRJ5OmXucGL6w&quot;,
+                &quot;place_id&quot;: &quot;ChIJT2HS8Ei12IcRJ5OmXucGL6w&quot;,
+                &quot;matched_substrings&quot;: [
+                    {
+                        &quot;offset&quot;: 0,
+                        &quot;length&quot;: 3
+                    }
+                ],
+                &quot;description&quot;: &quot;5595 Grand Drive, St. Louis, MO, USA&quot;
+            },
+            {
+                &quot;types&quot;: [
+                    &quot;premise&quot;,
+                    &quot;geocode&quot;
+                ],
+                &quot;terms&quot;: [
+                    {
+                        &quot;value&quot;: &quot;5599&quot;,
+                        &quot;offset&quot;: 0
+                    },
+                    {
+                        &quot;value&quot;: &quot;Ambler Drive&quot;,
+                        &quot;offset&quot;: 5
+                    },
+                    {
+                        &quot;value&quot;: &quot;Mississauga&quot;,
+                        &quot;offset&quot;: 19
+                    },
+                    {
+                        &quot;value&quot;: &quot;ON&quot;,
+                        &quot;offset&quot;: 32
+                    },
+                    {
+                        &quot;value&quot;: &quot;Canada&quot;,
+                        &quot;offset&quot;: 36
+                    }
+                ],
+                &quot;structured_formatting&quot;: {
+                    &quot;secondary_text&quot;: &quot;Mississauga, ON, Canada&quot;,
+                    &quot;main_text_matched_substrings&quot;: [
+                        {
+                            &quot;offset&quot;: 0,
+                            &quot;length&quot;: 3
+                        }
+                    ],
+                    &quot;main_text&quot;: &quot;5599 Ambler Drive&quot;
+                },
+                &quot;reference&quot;: &quot;ChIJuXKGdsg4K4gRxdNiKCkuLuI&quot;,
+                &quot;place_id&quot;: &quot;ChIJuXKGdsg4K4gRxdNiKCkuLuI&quot;,
+                &quot;matched_substrings&quot;: [
+                    {
+                        &quot;offset&quot;: 0,
+                        &quot;length&quot;: 3
+                    }
+                ],
+                &quot;description&quot;: &quot;5599 Ambler Drive, Mississauga, ON, Canada&quot;
+            },
+            {
+                &quot;types&quot;: [
+                    &quot;premise&quot;,
+                    &quot;geocode&quot;
+                ],
+                &quot;terms&quot;: [
+                    {
+                        &quot;value&quot;: &quot;559&quot;,
+                        &quot;offset&quot;: 0
+                    },
+                    {
+                        &quot;value&quot;: &quot;College Street&quot;,
+                        &quot;offset&quot;: 4
+                    },
+                    {
+                        &quot;value&quot;: &quot;Toronto&quot;,
+                        &quot;offset&quot;: 20
+                    },
+                    {
+                        &quot;value&quot;: &quot;ON&quot;,
+                        &quot;offset&quot;: 29
+                    },
+                    {
+                        &quot;value&quot;: &quot;Canada&quot;,
+                        &quot;offset&quot;: 33
+                    }
+                ],
+                &quot;structured_formatting&quot;: {
+                    &quot;secondary_text&quot;: &quot;Toronto, ON, Canada&quot;,
+                    &quot;main_text_matched_substrings&quot;: [
+                        {
+                            &quot;offset&quot;: 0,
+                            &quot;length&quot;: 3
+                        }
+                    ],
+                    &quot;main_text&quot;: &quot;559 College Street&quot;
+                },
+                &quot;reference&quot;: &quot;ChIJTYOIQ-40K4gR067_gPKwc2A&quot;,
+                &quot;place_id&quot;: &quot;ChIJTYOIQ-40K4gR067_gPKwc2A&quot;,
+                &quot;matched_substrings&quot;: [
+                    {
+                        &quot;offset&quot;: 0,
+                        &quot;length&quot;: 3
+                    }
+                ],
+                &quot;description&quot;: &quot;559 College Street, Toronto, ON, Canada&quot;
+            }
+        ]
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>TransformGoogleResults</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+    &quot;status&quot;: &quot;OK&quot;,
+    &quot;predictions&quot;: [
+      {
+        &quot;types&quot;: [
+          &quot;premise&quot;,
+          &quot;geocode&quot;
+        ],
+        &quot;terms&quot;: [
+          {
+            &quot;value&quot;: &quot;559&quot;,
+            &quot;offset&quot;: 0
+          },
+          {
+            &quot;value&quot;: &quot;Osage Ave&quot;,
+            &quot;offset&quot;: 4
+          },
+          {
+            &quot;value&quot;: &quot;Lenapah&quot;,
+            &quot;offset&quot;: 15
+          },
+          {
+            &quot;value&quot;: &quot;OK&quot;,
+            &quot;offset&quot;: 24
+          },
+          {
+            &quot;value&quot;: &quot;USA&quot;,
+            &quot;offset&quot;: 28
+          }
+        ],
+        &quot;structured_formatting&quot;: {
+          &quot;secondary_text&quot;: &quot;Lenapah, OK, USA&quot;,
+          &quot;main_text_matched_substrings&quot;: [
+            {
+              &quot;offset&quot;: 0,
+              &quot;length&quot;: 3
+            }
+          ],
+          &quot;main_text&quot;: &quot;559 Osage Ave&quot;
+        },
+        &quot;reference&quot;: &quot;ChIJsXZ6AcyYt4cRkSY32KsdY8s&quot;,
+        &quot;place_id&quot;: &quot;ChIJsXZ6AcyYt4cRkSY32KsdY8s&quot;,
+        &quot;matched_substrings&quot;: [
+          {
+            &quot;offset&quot;: 0,
+            &quot;length&quot;: 3
+          }
+        ],
+        &quot;description&quot;: &quot;559 Osage Ave, Lenapah, OK, USA&quot;
+      },
+      {
+        &quot;types&quot;: [
+          &quot;premise&quot;,
+          &quot;geocode&quot;
+        ],
+        &quot;terms&quot;: [
+          {
+            &quot;value&quot;: &quot;5599&quot;,
+            &quot;offset&quot;: 0
+          },
+          {
+            &quot;value&quot;: &quot;San Felipe Street&quot;,
+            &quot;offset&quot;: 5
+          },
+          {
+            &quot;value&quot;: &quot;Houston&quot;,
+            &quot;offset&quot;: 24
+          },
+          {
+            &quot;value&quot;: &quot;TX&quot;,
+            &quot;offset&quot;: 33
+          },
+          {
+            &quot;value&quot;: &quot;USA&quot;,
+            &quot;offset&quot;: 37
+          }
+        ],
+        &quot;structured_formatting&quot;: {
+          &quot;secondary_text&quot;: &quot;Houston, TX, USA&quot;,
+          &quot;main_text_matched_substrings&quot;: [
+            {
+              &quot;offset&quot;: 0,
+              &quot;length&quot;: 3
+            }
+          ],
+          &quot;main_text&quot;: &quot;5599 San Felipe Street&quot;
+        },
+        &quot;reference&quot;: &quot;ChIJ4bX1617BQIYRW63r4HhFRu0&quot;,
+        &quot;place_id&quot;: &quot;ChIJ4bX1617BQIYRW63r4HhFRu0&quot;,
+        &quot;matched_substrings&quot;: [
+          {
+            &quot;offset&quot;: 0,
+            &quot;length&quot;: 3
+          }
+        ],
+        &quot;description&quot;: &quot;5599 San Felipe Street, Houston, TX, USA&quot;
+      },
+      {
+        &quot;types&quot;: [
+          &quot;premise&quot;,
+          &quot;geocode&quot;
+        ],
+        &quot;terms&quot;: [
+          {
+            &quot;value&quot;: &quot;5595&quot;,
+            &quot;offset&quot;: 0
+          },
+          {
+            &quot;value&quot;: &quot;Grand Drive&quot;,
+            &quot;offset&quot;: 5
+          },
+          {
+            &quot;value&quot;: &quot;St. Louis&quot;,
+            &quot;offset&quot;: 18
+          },
+          {
+            &quot;value&quot;: &quot;MO&quot;,
+            &quot;offset&quot;: 29
+          },
+          {
+            &quot;value&quot;: &quot;USA&quot;,
+            &quot;offset&quot;: 33
+          }
+        ],
+        &quot;structured_formatting&quot;: {
+          &quot;secondary_text&quot;: &quot;St. Louis, MO, USA&quot;,
+          &quot;main_text_matched_substrings&quot;: [
+            {
+              &quot;offset&quot;: 0,
+              &quot;length&quot;: 3
+            }
+          ],
+          &quot;main_text&quot;: &quot;5595 Grand Drive&quot;
+        },
+        &quot;reference&quot;: &quot;ChIJT2HS8Ei12IcRJ5OmXucGL6w&quot;,
+        &quot;place_id&quot;: &quot;ChIJT2HS8Ei12IcRJ5OmXucGL6w&quot;,
+        &quot;matched_substrings&quot;: [
+          {
+            &quot;offset&quot;: 0,
+            &quot;length&quot;: 3
+          }
+        ],
+        &quot;description&quot;: &quot;5595 Grand Drive, St. Louis, MO, USA&quot;
+      },
+      {
+        &quot;types&quot;: [
+          &quot;premise&quot;,
+          &quot;geocode&quot;
+        ],
+        &quot;terms&quot;: [
+          {
+            &quot;value&quot;: &quot;5599&quot;,
+            &quot;offset&quot;: 0
+          },
+          {
+            &quot;value&quot;: &quot;Ambler Drive&quot;,
+            &quot;offset&quot;: 5
+          },
+          {
+            &quot;value&quot;: &quot;Mississauga&quot;,
+            &quot;offset&quot;: 19
+          },
+          {
+            &quot;value&quot;: &quot;ON&quot;,
+            &quot;offset&quot;: 32
+          },
+          {
+            &quot;value&quot;: &quot;Canada&quot;,
+            &quot;offset&quot;: 36
+          }
+        ],
+        &quot;structured_formatting&quot;: {
+          &quot;secondary_text&quot;: &quot;Mississauga, ON, Canada&quot;,
+          &quot;main_text_matched_substrings&quot;: [
+            {
+              &quot;offset&quot;: 0,
+              &quot;length&quot;: 3
+            }
+          ],
+          &quot;main_text&quot;: &quot;5599 Ambler Drive&quot;
+        },
+        &quot;reference&quot;: &quot;ChIJuXKGdsg4K4gRxdNiKCkuLuI&quot;,
+        &quot;place_id&quot;: &quot;ChIJuXKGdsg4K4gRxdNiKCkuLuI&quot;,
+        &quot;matched_substrings&quot;: [
+          {
+            &quot;offset&quot;: 0,
+            &quot;length&quot;: 3
+          }
+        ],
+        &quot;description&quot;: &quot;5599 Ambler Drive, Mississauga, ON, Canada&quot;
+      },
+      {
+        &quot;types&quot;: [
+          &quot;premise&quot;,
+          &quot;geocode&quot;
+        ],
+        &quot;terms&quot;: [
+          {
+            &quot;value&quot;: &quot;559&quot;,
+            &quot;offset&quot;: 0
+          },
+          {
+            &quot;value&quot;: &quot;College Street&quot;,
+            &quot;offset&quot;: 4
+          },
+          {
+            &quot;value&quot;: &quot;Toronto&quot;,
+            &quot;offset&quot;: 20
+          },
+          {
+            &quot;value&quot;: &quot;ON&quot;,
+            &quot;offset&quot;: 29
+          },
+          {
+            &quot;value&quot;: &quot;Canada&quot;,
+            &quot;offset&quot;: 33
+          }
+        ],
+        &quot;structured_formatting&quot;: {
+          &quot;secondary_text&quot;: &quot;Toronto, ON, Canada&quot;,
+          &quot;main_text_matched_substrings&quot;: [
+            {
+              &quot;offset&quot;: 0,
+              &quot;length&quot;: 3
+            }
+          ],
+          &quot;main_text&quot;: &quot;559 College Street&quot;
+        },
+        &quot;reference&quot;: &quot;ChIJTYOIQ-40K4gR067_gPKwc2A&quot;,
+        &quot;place_id&quot;: &quot;ChIJTYOIQ-40K4gR067_gPKwc2A&quot;,
+        &quot;matched_substrings&quot;: [
+          {
+            &quot;offset&quot;: 0,
+            &quot;length&quot;: 3
+          }
+        ],
+        &quot;description&quot;: &quot;559 College Street, Toronto, ON, Canada&quot;
+      }
+    ]
+  }</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Transform</type>
+</DataMapperDefinition>

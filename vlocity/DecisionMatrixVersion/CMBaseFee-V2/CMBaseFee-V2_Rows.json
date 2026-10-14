@@ -1,0 +1,71 @@
+[
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "CMBaseFee",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/CMBaseFee",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "AuthorizationCategory": "License ",
+            "AuthorizationType": "Barber's License"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "11f7c97dcbb568a21b8fad9540105f69",
+        "OutputData": {
+            "BaseFee": 100
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "CMBaseFee",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/CMBaseFee",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Salon Establishment License"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "ba24605faa8a8434cb86e7033ca567d7",
+        "OutputData": {
+            "BaseFee": 150
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "CMBaseFee",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/CMBaseFee",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "AuthorizationCategory": "Permit",
+            "AuthorizationType": "Temporary Promo Event Permit"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "1dc709401e635cea4729f6574d47e582",
+        "OutputData": {
+            "BaseFee": 50
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    }
+]

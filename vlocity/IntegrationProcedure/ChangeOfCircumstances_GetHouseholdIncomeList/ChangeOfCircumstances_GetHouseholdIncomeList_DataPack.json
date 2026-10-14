@@ -1,0 +1,32 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Household Income List",
+    "OmniProcessElement": [
+        "ChangeOfCircumstances_GetHouseholdIncomeList_Element_GetPartyIncome.json",
+        "ChangeOfCircumstances_GetHouseholdIncomeList_Element_GetNameFromAccounts.json",
+        "ChangeOfCircumstances_GetHouseholdIncomeList_Element_MergeList.json",
+        "ChangeOfCircumstances_GetHouseholdIncomeList_Element_SetOutput.json",
+        "ChangeOfCircumstances_GetHouseholdIncomeList_Element_HouseholdIncomeResponse.json"
+    ],
+    "OmniProcessKey": "ChangeOfCircumstances_GetHouseholdIncomeList",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ChangeOfCircumstances_GetHouseholdIncomeList_PropertySetConfig.json",
+    "SubType": "GetHouseholdIncomeList",
+    "Type": "ChangeOfCircumstances",
+    "UniqueName": "ChangeOfCircumstances_GetHouseholdIncomeList_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ChangeOfCircumstances/GetHouseholdIncomeList/Procedure"
+}

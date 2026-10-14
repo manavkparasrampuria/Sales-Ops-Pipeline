@@ -1,0 +1,78 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "NDA/1/Salesforce/1705077879878",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-626052739",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "5552eed9-4e36-e1f9-652d-4df762282fb3",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "Street",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated960405611"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "NDA/1/Salesforce/1705077879878",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-626052739",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "5905be96-62c3-2b8e-3fec-743e6568db1f",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "PostalCode",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated472675544"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "NDA/1/Salesforce/1705077879878",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-626052739",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "80041629-b8ac-18dd-030f-3ea14da668ba",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "AccountName",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated721059038"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "NDA/1/Salesforce/1705077879878",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-626052739",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "ded079e8-88eb-e572-dad7-a9850337a5a8",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "City",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated772847654"
+    }
+]

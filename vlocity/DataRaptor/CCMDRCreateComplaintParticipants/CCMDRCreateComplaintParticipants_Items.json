@@ -1,0 +1,118 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "CCMDRCreateComplaintParticipantsCustom6863",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "CCMDRCreateComplaintParticipants",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateComplaintParticipants",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateComplaintParticipants",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "ComplaintParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateComplaintParticipantsCustom7809",
+        "InputFieldName": "CCM_NewComplaint:CCM_Participants:searchAndBuildComplaintParticipants:id",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateComplaintParticipants",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateComplaintParticipants",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateComplaintParticipants",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ParticipantId",
+        "OutputObjectName": "ComplaintParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateComplaintParticipantsCustom5898",
+        "InputFieldName": "DRId_PublicComplaint",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateComplaintParticipants",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateComplaintParticipants",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateComplaintParticipants",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PublicComplaintId",
+        "OutputObjectName": "ComplaintParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateComplaintParticipantsCustom3472",
+        "InputFieldName": "CCM_NewComplaint:CCM_Participants:searchAndBuildComplaintParticipants:role",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateComplaintParticipants",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateComplaintParticipants",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateComplaintParticipants",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Role",
+        "OutputObjectName": "ComplaintParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateComplaintParticipantsCustom5648",
+        "InputFieldName": "CCM_NewComplaint:CCM_Participants:searchAndBuildComplaintParticipants:status",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateComplaintParticipants",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateComplaintParticipants",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateComplaintParticipants",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "ComplaintParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

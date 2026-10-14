@@ -1,0 +1,50 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FormulaExpression": "HoldHofH:PSS_BM_v2_HouseholdMemberDetails,HoldHouseholdInformation:PSS_BM_v2_HouseholdMemberDetails_1",
+        "FormulaResultPath": "Combined:PSS_BM_v2_HouseholdMemberDetails_1",
+        "FormulaSequence": 1,
+        "GlobalKey": "DRAddheadOFHouseholdAsSelfV2Custom0jI4S000000CzvZUASItem0",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "DRAddheadOFHouseholdAsSelfV2",
+        "OmniDataTransformationId": {
+            "Name": "DRAddheadOFHouseholdAsSelfV2",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRAddheadOFHouseholdAsSelfV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "DRAddheadOFHouseholdAsSelfV2Custom0jI4S000000CzvZUASItem1",
+        "InputFieldName": "Combined",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "DRAddheadOFHouseholdAsSelfV2",
+        "OmniDataTransformationId": {
+            "Name": "DRAddheadOFHouseholdAsSelfV2",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRAddheadOFHouseholdAsSelfV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "HouseholdInformation",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

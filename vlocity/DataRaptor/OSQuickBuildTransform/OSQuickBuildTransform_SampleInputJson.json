@@ -1,0 +1,227 @@
+{
+    "ContextId": "",
+    "Details": {
+        "LWCEnabled": true,
+        "NumSteps": 2,
+        "OmniscriptName": "Test",
+        "SubType": "Test",
+        "Type": "Test"
+    },
+    "Elements": {
+        "ElementDetails": [
+            {
+                "ElementLabel": "Application Type",
+                "ElementName": "ApplicationType",
+                "ElementOrder": "1",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Registration Number",
+                "ElementName": "RegistrationNumber",
+                "ElementOrder": "2",
+                "ElementStep": "1",
+                "ElementType": "Number"
+            },
+            {
+                "ElementLabel": "Registration Use",
+                "ElementName": "RegistrationUse",
+                "ElementOrder": "3",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Primary Principal Required for all applications. Business fax and mobile telephone are optional.",
+                "ElementName": "PrimaryPrincipal",
+                "ElementOrder": "4",
+                "ElementStep": "1",
+                "ElementType": "Text Block"
+            },
+            {
+                "ElementLabel": "Last Name",
+                "ElementName": "LastName",
+                "ElementOrder": "5",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "First Name",
+                "ElementName": "FirstName",
+                "ElementOrder": "6",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Middle Initial",
+                "ElementName": "MiddleInitial",
+                "ElementOrder": "7",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Social Security No",
+                "ElementName": "SSN",
+                "ElementOrder": "8",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "% Control",
+                "ElementName": "PercentControl",
+                "ElementOrder": "9",
+                "ElementStep": "1",
+                "ElementType": "Number"
+            },
+            {
+                "ElementLabel": "Date of Birth (m/d/y)",
+                "ElementName": "DOB",
+                "ElementOrder": "10",
+                "ElementStep": "1",
+                "ElementType": "Date"
+            },
+            {
+                "ElementLabel": "Home Address",
+                "ElementName": "HomeAddress",
+                "ElementOrder": "11",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Home Telephone",
+                "ElementName": "HomeTelephone",
+                "ElementOrder": "12",
+                "ElementStep": "1",
+                "ElementType": "Telephone"
+            },
+            {
+                "ElementLabel": "City",
+                "ElementName": "City",
+                "ElementOrder": "13",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "State ",
+                "ElementName": "State",
+                "ElementOrder": "14",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Zip",
+                "ElementName": "Zip",
+                "ElementOrder": "15",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Mobile Telephone",
+                "ElementName": "MobilePhone",
+                "ElementOrder": "16",
+                "ElementStep": "1",
+                "ElementType": "Telephone"
+            },
+            {
+                "ElementLabel": "Business Name",
+                "ElementName": "BusinessName",
+                "ElementOrder": "1",
+                "ElementStep": "2",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Business Telephone",
+                "ElementName": "BusienssTelephone",
+                "ElementOrder": "2",
+                "ElementStep": "2",
+                "ElementType": "Telephone"
+            },
+            {
+                "ElementLabel": "Business Address",
+                "ElementName": "BusinessAddress",
+                "ElementOrder": "3",
+                "ElementStep": "2",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Business Fax",
+                "ElementName": "BusinessFax",
+                "ElementOrder": "4",
+                "ElementStep": "2",
+                "ElementType": "Telephone"
+            },
+            {
+                "ElementLabel": "City",
+                "ElementName": "BusinessCity",
+                "ElementOrder": "5",
+                "ElementStep": "2",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "State ",
+                "ElementName": "BusinessState",
+                "ElementOrder": "6",
+                "ElementStep": "2",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Zip",
+                "ElementName": "BusinessZip",
+                "ElementOrder": "7",
+                "ElementStep": "2",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "EIN",
+                "ElementName": "EIN",
+                "ElementOrder": "8",
+                "ElementStep": "2",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "E-Mail",
+                "ElementName": "Email",
+                "ElementOrder": "9",
+                "ElementStep": "2",
+                "ElementType": "Email"
+            },
+            {
+                "ElementLabel": "Is the operating capital for your business at least twenty-five thousand dollars?",
+                "ElementName": "OperatingCaptial",
+                "ElementOrder": "10",
+                "ElementStep": "2",
+                "ElementType": "Checkbox"
+            },
+            {
+                "ElementLabel": "Corporate Officers, Partners and Any Stakeholders (Include Stakeholders that own ten percent or more and primary applicant)",
+                "ElementName": "CorporateOfficers",
+                "ElementOrder": "11",
+                "ElementStep": "2",
+                "ElementType": "Text Block"
+            }
+        ],
+        "ElementFile": [
+            {
+                "$$hashKey": "object:162",
+                "contentDocumentId": "0694x000000dm0tAAA",
+                "data": "3e1f98ec-9183-4654-8a6c-f4a22776904d",
+                "filename": "NYCContractorExample.csv",
+                "size": 1334,
+                "vId": "0684x000000dt1AAAQ"
+            }
+        ],
+        "FileCount": 1
+    },
+    "id": "a5y4x0000004Pp8AAE",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://rentassist-20210129-demo--vlocity-ins.visualforce.com",
+    "timeStamp": "2021-03-01T20:09:23.722Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054x000003dns8AAA",
+    "userName": "jblankenship@rentassistance01292021.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom6713</globalKey>
+        <inputField>AQ:QuestionCategory</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>QuestionCategory</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom9515</globalKey>
+        <inputField>AQ:RelatedQuestionDeveloperName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>DeveloperName</lookupByField>
+        <lookupObject>AssessmentQuestion</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RelatedQuestionId</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom1831</globalKey>
+        <inputField>AQ:AQV:ResponseValues</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ResponseValues</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom9268</globalKey>
+        <inputField>AQ:DataType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>DataType</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom1589</globalKey>
+        <inputField>AQ:UniqueIndex</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>UniqueIndex</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom4169</globalKey>
+        <inputField>AQ:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom717</globalKey>
+        <inputField>AQ:DeveloperName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>DeveloperName</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom7764</globalKey>
+        <inputField>AQ:AQV:HelpText</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>HelpText</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom7909</globalKey>
+        <inputField>AQ:AQV:Status</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <defaultValue>true</defaultValue>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom604</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom1990</globalKey>
+        <inputField>AQ:AQV:AdditionalInformation</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AdditionalInformation</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom7275</globalKey>
+        <inputField>AQ:AQV:VersionNumber</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>VersionNumber</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom9645</globalKey>
+        <inputField>AQ:AQV:DataType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>DataType</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom9644</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AssessmentQuestionId</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom925</globalKey>
+        <inputField>AQ:AQV:Description</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom3771</globalKey>
+        <inputField>AQ:QuestionText</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>QuestionText</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom7462</globalKey>
+        <inputField>AQ:AQV:QuestionText</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>QuestionText</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom2113</globalKey>
+        <inputField>AQ:FormulaResponseDataType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FormulaResponseDataType</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom512</globalKey>
+        <inputField>AQ:Description</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom9061</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom882</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom621</globalKey>
+        <inputField>AQ:Namespace</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Namespace</outputField>
+        <outputObject>AssessmentQuestion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildImportOSAssessmentQuestions</dataMapperDefItemName>
+        <globalKey>QuickBuildImportOSAssessmentQuestionsCustom5148</globalKey>
+        <inputField>AQ:AQV:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>AssessmentQuestionVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;AQ&quot;: {
+        &quot;RelatedQuestionDeveloperName&quot;: &quot;Text&quot;,
+        &quot;RelatedAQ&quot;: {
+            &quot;RelatedVersion&quot;: {
+                &quot;VersionNumber&quot;: &quot;Text&quot;,
+                &quot;Status&quot;: &quot;Text&quot;,
+                &quot;ResponseValues&quot;: &quot;Text&quot;,
+                &quot;QuestionText&quot;: &quot;Text&quot;,
+                &quot;Name&quot;: &quot;Text&quot;,
+                &quot;IsOptionSourceResponseValue&quot;: &quot;Text&quot;,
+                &quot;HelpText&quot;: &quot;Text&quot;,
+                &quot;Description&quot;: &quot;Text&quot;,
+                &quot;DataType&quot;: &quot;Text&quot;,
+                &quot;AdditionalInformation&quot;: &quot;Text&quot;
+            },
+            &quot;QuestionText&quot;: &quot;Text&quot;,
+            &quot;QuestionCategory&quot;: &quot;Text&quot;,
+            &quot;Namespace&quot;: &quot;Text&quot;,
+            &quot;Name&quot;: &quot;Text&quot;,
+            &quot;FormulaResponseDataType&quot;: &quot;Text&quot;,
+            &quot;DeveloperName&quot;: &quot;Text&quot;,
+            &quot;Description&quot;: &quot;Text&quot;,
+            &quot;DataType&quot;: &quot;Text&quot;
+        },
+        &quot;AQV&quot;: {
+            &quot;VersionNumber&quot;: &quot;Text&quot;,
+            &quot;Status&quot;: &quot;Text&quot;,
+            &quot;ResponseValues&quot;: &quot;Text&quot;,
+            &quot;QuestionText&quot;: &quot;Text&quot;,
+            &quot;Name&quot;: &quot;Text&quot;,
+            &quot;IsOptionSourceResponseValue&quot;: &quot;Text&quot;,
+            &quot;HelpText&quot;: &quot;Text&quot;,
+            &quot;AdditionalInformation&quot;: &quot;Text&quot;,
+            &quot;DataType&quot;: &quot;Text&quot;,
+            &quot;Description&quot;: &quot;Text&quot;
+        },
+        &quot;UniqueIndex&quot;: &quot;Text&quot;,
+        &quot;QuestionText&quot;: &quot;Text&quot;,
+        &quot;QuestionCategory&quot;: &quot;Text&quot;,
+        &quot;Namespace&quot;: &quot;Text&quot;,
+        &quot;Name&quot;: &quot;Text&quot;,
+        &quot;FormulaResponseDataType&quot;: &quot;Text&quot;,
+        &quot;Description&quot;: &quot;Text&quot;,
+        &quot;DataType&quot;: &quot;Text&quot;,
+        &quot;DeveloperName&quot;: &quot;Text&quot;
+    },
+    &quot;OPAQ&quot;: {
+        &quot;OmniProcessSubType&quot;: &quot;Text&quot;,
+        &quot;OmniProcessType&quot;: &quot;Text&quot;,
+        &quot;AssessmentQuestionVersionQuestionDeveloperName&quot;: &quot;Text&quot;,
+        &quot;OmniProcessElementName&quot;: &quot;Text&quot;,
+        &quot;AQ&quot;: {
+            &quot;RelatedQuestionDeveloperName&quot;: &quot;Text&quot;
+        }
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>QuickBuildImportOSAssessmentQuestions</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;OPAQ&quot;: [
+    {
+      &quot;OmniProcessSubType&quot;: &quot;Migration2&quot;,
+      &quot;AssessmentQuestionVersionQuestionDeveloperName&quot;: &quot;MigrationTestA&quot;,
+      &quot;OmniProcessType&quot;: &quot;Test&quot;,
+      &quot;OmniProcessElementName&quot;: &quot;MigrationTestA&quot;
+    },
+    {
+      &quot;OmniProcessSubType&quot;: &quot;Migration2&quot;,
+      &quot;AssessmentQuestionVersionQuestionDeveloperName&quot;: &quot;MigrationTestB&quot;,
+      &quot;OmniProcessType&quot;: &quot;Test&quot;,
+      &quot;OmniProcessElementName&quot;: &quot;MigrationTestB&quot;
+    },
+    {
+      &quot;OmniProcessSubType&quot;: &quot;Migration2&quot;,
+      &quot;AssessmentQuestionVersionQuestionDeveloperName&quot;: &quot;MigrationTestC&quot;,
+      &quot;OmniProcessType&quot;: &quot;Test&quot;,
+      &quot;OmniProcessElementName&quot;: &quot;MigrationTestC&quot;
+    }
+  ],
+  &quot;OS&quot;: {
+    &quot;SubType&quot;: &quot;Migration2&quot;,
+    &quot;Type&quot;: &quot;Test&quot;
+  },
+  &quot;AQ&quot;: [
+    {
+      &quot;Name&quot;: &quot;MigrationTestA&quot;,
+      &quot;UniqueIndex&quot;: &quot;MigrationTestA&quot;,
+      &quot;DeveloperName&quot;: &quot;MigrationTestA&quot;,
+      &quot;QuestionText&quot;: &quot;Related Question Test&quot;,
+      &quot;DataType&quot;: &quot;Text&quot;,
+      &quot;AQV&quot;: {
+        &quot;Name&quot;: &quot;MigrationTestA&quot;,
+        &quot;VersionNumber&quot;: 1,
+        &quot;QuestionText&quot;: &quot;Related Question Test&quot;,
+        &quot;IsOptionSourceResponseValue&quot;: false,
+        &quot;DataType&quot;: &quot;Text&quot;,
+        &quot;AdditionalInformation&quot;: &quot;MigrationTestA&quot;,
+        &quot;Status&quot;: &quot;Active&quot;
+      },
+      &quot;QuestionCategory&quot;: &quot;Demographic&quot;
+    },
+    {
+      &quot;Name&quot;: &quot;MigrationTestB&quot;,
+      &quot;UniqueIndex&quot;: &quot;MigrationTestB&quot;,
+      &quot;DeveloperName&quot;: &quot;MigrationTestB&quot;,
+      &quot;QuestionText&quot;: &quot;Related to Migration Test A&quot;,
+      &quot;DataType&quot;: &quot;Text&quot;,
+      &quot;AQV&quot;: {
+        &quot;Name&quot;: &quot;MigrationTestB&quot;,
+        &quot;VersionNumber&quot;: 1,
+        &quot;QuestionText&quot;: &quot;Related to Migration Test A&quot;,
+        &quot;IsOptionSourceResponseValue&quot;: false,
+        &quot;DataType&quot;: &quot;Text&quot;,
+        &quot;Description&quot;: &quot;Test&quot;,
+        &quot;AdditionalInformation&quot;: &quot;MigrationTestB&quot;,
+        &quot;Status&quot;: &quot;Active&quot;
+      },
+      &quot;RelatedQuestionDeveloperName&quot;: &quot;MigrationTestA&quot;,
+      &quot;Description&quot;: &quot;Test&quot;,
+      &quot;QuestionCategory&quot;: &quot;Demographic&quot;
+    },
+    {
+      &quot;Name&quot;: &quot;MigrationTestC&quot;,
+      &quot;UniqueIndex&quot;: &quot;MigrationTestC&quot;,
+      &quot;DeveloperName&quot;: &quot;MigrationTestC&quot;,
+      &quot;QuestionText&quot;: &quot;Just random question&quot;,
+      &quot;DataType&quot;: &quot;Radio&quot;,
+      &quot;AQV&quot;: {
+        &quot;Name&quot;: &quot;MigrationTestC&quot;,
+        &quot;VersionNumber&quot;: 1,
+        &quot;ResponseValues&quot;: &quot;A\nB\nC&quot;,
+        &quot;QuestionText&quot;: &quot;Just random question&quot;,
+        &quot;IsOptionSourceResponseValue&quot;: false,
+        &quot;DataType&quot;: &quot;Radio&quot;,
+        &quot;AdditionalInformation&quot;: &quot;MigrationTestC&quot;,
+        &quot;Status&quot;: &quot;Active&quot;
+      },
+      &quot;QuestionCategory&quot;: &quot;Demographic&quot;
+    }
+  ]
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,51 @@
+{
+    "ScenarioList": [
+        {
+            "Id": "a9Y5f000000oaX6EAI",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Deck Permit",
+            "SubType": "Deck",
+            "Type": "Permit"
+        },
+        {
+            "Id": "a9Y5f000000oaX7EAI",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "ScenarioName": "Restaurant",
+            "SubType": "FoodEstablishmentPermit",
+            "Type": "Permit"
+        },
+        {
+            "DemoScript": "http://demo.com",
+            "Id": "a9Y5f000000oaX1EAI",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Salon Business Licensing",
+            "SubType": "BusinessSalon",
+            "Type": "Business"
+        }
+    ],
+    "Selection": {
+        "FormatLWCName": "c:licensingandpermittingBusinessSalonEnglish",
+        "SelectScenario": {
+            "DemoScript": "http://demo.com",
+            "Id": "a9Y5f000000oaX1EAI",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Salon Business Licensing",
+            "SubType": "BusinessSalon",
+            "Type": "Business"
+        }
+    },
+    "omniJsonDef": null,
+    "timeStamp": "2021-09-01T13:23:09.715Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055f000000yem1AAA",
+    "userName": "jblankenship@lpi2.0testing.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

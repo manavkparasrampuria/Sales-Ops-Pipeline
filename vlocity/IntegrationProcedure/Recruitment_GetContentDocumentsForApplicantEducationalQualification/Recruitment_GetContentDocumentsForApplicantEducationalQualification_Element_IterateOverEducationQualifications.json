@@ -1,0 +1,28 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "IterateOverEducationQualifications",
+    "OmniProcessId": {
+        "Name": "GetContentDocumentsForApplicantEducationalQualification",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/GetContentDocumentsForApplicantEducationalQualification/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "LoopBlock1",
+        "loopList": "EducationQualificationsList",
+        "loopOutput": {
+            "PreviousUploadedDocuments": "%GetDocumentDetails%"
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/GetContentDocumentsForApplicantEducationalQualification/Procedure/IterateOverEducationQualifications"
+}

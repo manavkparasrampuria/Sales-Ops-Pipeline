@@ -1,0 +1,172 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "28af7417-839b-48a6-bbbe-d42e671e9bcf",
+  "label" : "Elderly Services",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e7f19e7b-65f1-4806-bece-d06371d5cecd",
+          "columns" : [ {
+            "UUID" : "95055b54-b193-469b-aa56-1b0870dfae68",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e7f19e7b-65f1-4806-bece-d06371d5cecd",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<hr>\n<div style=\"border:0px solid #d4d4d4; padding:0rem;font-size:1.6rem;\"\" class=\"slds-col imagePreview\";>\n<p><b>Apply for Elderly Services</b></p>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "1ac303bc-2568-49aa-b514-61e3f3c1b957",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "95055b54-b193-469b-aa56-1b0870dfae68",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "ff6a7121-cd75-4169-a6e4-83aeb3c006cc",
+          "columns" : [ {
+            "UUID" : "b145e4a3-b304-459e-b941-3fc7c08c2cf5",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ff6a7121-cd75-4169-a6e4-83aeb3c006cc",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "direction" : "ltr",
+            "display" : "Display OmniScript on page",
+            "inlineVariant" : "brand",
+            "language" : "Multi-Language",
+            "subType" : "Application",
+            "theme" : "lightning",
+            "type" : "Benefits"
+          },
+          "componentName" : "runtime_omnistudio:omniscript",
+          "id" : "11f1c828-0f73-4074-a7e6-053c50db65db",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b145e4a3-b304-459e-b941-3fc7c08c2cf5",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f9629820-2ede-4deb-991a-07a8a8a4d2d3",
+          "columns" : [ {
+            "UUID" : "95c9f98f-c5ce-4fa5-ad63-25e6652c668e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f9629820-2ede-4deb-991a-07a8a8a4d2d3",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<hr>\n<div style=\"border:0px solid #d4d4d4; padding:0rem;font-size:1.6rem;font-family:Eurostar Black Extended\"\" class=\"slds-col imagePreview\";>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "63b9b2ba-6788-4899-8f3d-a5ce9550261e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div align=\"center\">\n    <a href=\"/Benefits/s/support\"> \n        <button style=\"background-color: #395878; padding: 12px 30px; border: none; width:40%; font-size: 1.2rem; color: #fff; border-radius: 50px\";>Get Support</button>\n    </a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "209a2f2d-3a75-46f4-800e-670046cf6c48",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<hr>\n<div style=\"border:0px solid #d4d4d4; padding:0rem;font-size:1.6rem;font-family:Eurostar Black Extended\"\" class=\"slds-col imagePreview\";>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "1f399abd-0b01-4b25-b0c8-8fa69cc6d935",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "95c9f98f-c5ce-4fa5-ad63-25e6652c668e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3838c3b-1995-465c-998b-00c8bd88cadf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Elderly Services"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4097819b-ea0f-4b59-9312-1c0b2a399bb2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eec35b95-9d58-420e-8e8e-e683b8250387",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "a3ObtMY5k42i4LGAvwoE4cucQn3jR0",
+  "type" : "view",
+  "viewType" : "custom-elderly-services"
+}

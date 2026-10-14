@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "LPI2008262021",
+    "ClonedFromOmniUiCardKey": "LPIDemoManagement/LPI2008262021/1/1630438851071",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 2,
+                    "name": "DemoType",
+                    "val": "Grants"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "LPIGetDemoOmniscript",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "DemoType": "Grants"
+                },
+                "jsonMap": "{\"DemoType\":\"{DemoType}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "GrantsDemoManagement",
+    "Namespace": "",
+    "OmniUiCardKey": "GrantsDemoManagement/LPI2008262021/2.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "GrantsDemoManagement.json",
+    "SampleDataSourceResponse": "[{\"DemoScript\":\"https://salesforce.quip.com/vQRQAzVlWlTd\",\"ScenarioName\":\"Grants Application - Generic\",\"DomainName\":\"storm-8b9e2b584c4048\",\"FQDN\":\"https://storm-8b9e2b584c4048--c.visualforce.com\",\"HasESRI\":false,\"DemoType\":\"Grants\",\"Description\":\"Generic Grants Application\",\"Personas\":\"Jennifer Simmons\",\"SecondaryDemoScript\":\"Test.com\",\"DemoSelected\":\"c:grantsApplicationEnglish\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "GrantsDemoManagement_LPI2008262021_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/GrantsDemoManagement"
+}

@@ -1,0 +1,91 @@
+{
+    "BuildingInformation": {
+        "CostOfConstruction": null,
+        "DescriptionOfWork": null,
+        "GrossSquareFootage": null,
+        "TypeOfWork": null
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "ContractorInformation": {
+        "Contractor": null,
+        "ContractorAddress-Block": {
+            "ContractorAddress": null,
+            "ContractorCity": null,
+            "ContractorState": null,
+            "ContractorStreet": null,
+            "ContractorZip": null
+        },
+        "ContractorEmail": null,
+        "ContractorPhone": null,
+        "StateLicenseNumber": null
+    },
+    "DocumentsAndSignature": {
+        "AssociatedFiles": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "PrintedName": null,
+        "SignDate": null,
+        "SignatureLWC": null
+    },
+    "FeesAndPayment": {
+        "CustomLWC1": null,
+        "OnePercentStateFee": null,
+        "PayNow": null,
+        "PermitFee": null,
+        "TotalFee": null
+    },
+    "GeneralInformation": {
+        "ApplicationDate": null,
+        "FormulaCounty": null,
+        "JobAddress-Block": {
+            "JobAddress": null,
+            "JobCity": null,
+            "JobCounty": null,
+            "JobState": null,
+            "JobStreet": null,
+            "JobZip": null
+        },
+        "LotNumber": null,
+        "ParcelNumber": null
+    },
+    "OwnerInformation": {
+        "PropertyOwnerAddress-Block": {
+            "PropertyOwnerAddress": null,
+            "PropertyOwnerCity": null,
+            "PropertyOwnerState": null,
+            "PropertyOwnerStreet": null,
+            "PropertyOwnerZip": null
+        },
+        "PropertyOwnerEmail": null,
+        "PropertyOwnerName": null,
+        "PropertyOwnerPhone": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BuildingInformation": null,
+        "Confirmation": null,
+        "ContractorInformation": null,
+        "DRGetApplicationId": null,
+        "DRGetContactDetails": null,
+        "DRSaveDeckApplication": null,
+        "DeckApplicationPDF": null,
+        "DocumentsAndSignature": null,
+        "FeesAndPayment": null,
+        "GeneralInformation": null,
+        "NavigateAction1": null,
+        "OwnerInformation": null,
+        "SetUser": null
+    }
+}

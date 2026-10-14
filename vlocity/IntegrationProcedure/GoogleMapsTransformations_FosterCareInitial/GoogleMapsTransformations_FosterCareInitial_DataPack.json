@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_FosterCareInitial_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Foster Care Initial",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_FosterCareInitial_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_FosterCareInitial_Element_TransformStep.json",
+        "GoogleMapsTransformations_FosterCareInitial_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_FosterCareInitial",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_FosterCareInitial_PropertySetConfig.json",
+    "SubType": "FosterCareInitial",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_FosterCareInitial_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/FosterCareInitial/Procedure"
+}

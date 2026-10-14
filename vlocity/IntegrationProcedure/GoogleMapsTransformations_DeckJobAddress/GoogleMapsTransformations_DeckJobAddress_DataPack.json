@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_DeckJobAddress_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Deck Job",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_DeckJobAddress_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_DeckJobAddress_Element_TransformStep.json",
+        "GoogleMapsTransformations_DeckJobAddress_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_DeckJobAddress",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_DeckJobAddress_PropertySetConfig.json",
+    "SubType": "DeckJobAddress",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_DeckJobAddress_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/DeckJobAddress/Procedure"
+}

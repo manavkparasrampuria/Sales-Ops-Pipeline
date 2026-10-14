@@ -2,15 +2,15 @@
 <UserEngagementSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <canUseAdoptionApps>false</canUseAdoptionApps>
     <doesScheduledSwitcherRunDaily>false</doesScheduledSwitcherRunDaily>
-    <enableCustomHelpGlobalSection>true</enableCustomHelpGlobalSection>
+    <enableCustomHelpGlobalSection>false</enableCustomHelpGlobalSection>
     <enableHelpMenuShowFeedback>false</enableHelpMenuShowFeedback>
-    <enableHelpMenuShowHelp>false</enableHelpMenuShowHelp>
+    <enableHelpMenuShowHelp>true</enableHelpMenuShowHelp>
     <enableHelpMenuShowNewUser>false</enableHelpMenuShowNewUser>
-    <enableHelpMenuShowSearch>false</enableHelpMenuShowSearch>
+    <enableHelpMenuShowSearch>true</enableHelpMenuShowSearch>
     <enableHelpMenuShowSfdcContent>true</enableHelpMenuShowSfdcContent>
-    <enableHelpMenuShowShortcut>false</enableHelpMenuShowShortcut>
-    <enableHelpMenuShowSupport>false</enableHelpMenuShowSupport>
-    <enableHelpMenuShowTrailhead>false</enableHelpMenuShowTrailhead>
+    <enableHelpMenuShowShortcut>true</enableHelpMenuShowShortcut>
+    <enableHelpMenuShowSupport>true</enableHelpMenuShowSupport>
+    <enableHelpMenuShowTrailhead>true</enableHelpMenuShowTrailhead>
     <enableIBILOptOutDashboards>false</enableIBILOptOutDashboards>
     <enableIBILOptOutEvents>false</enableIBILOptOutEvents>
     <enableIBILOptOutReports>false</enableIBILOptOutReports>
@@ -19,14 +19,14 @@
     <enableOrchestrationInSandbox>false</enableOrchestrationInSandbox>
     <enableOrgUserAssistEnabled>true</enableOrgUserAssistEnabled>
     <enableScheduledSwitcher>true</enableScheduledSwitcher>
-    <enableSfdcProductFeedbackSurvey>true</enableSfdcProductFeedbackSurvey>
+    <enableSfdcProductFeedbackSurvey>false</enableSfdcProductFeedbackSurvey>
     <enableShowSalesforceUserAssist>false</enableShowSalesforceUserAssist>
     <isAutoTransitionDelayed>false</isAutoTransitionDelayed>
     <isCrucNotificationDisabled>false</isCrucNotificationDisabled>
     <isCustomProfileAutoTransitionDelayed>false</isCustomProfileAutoTransitionDelayed>
-    <isLEXWelcomeMatDisabled>false</isLEXWelcomeMatDisabled>
+    <isLEXWelcomeMatDisabled>true</isLEXWelcomeMatDisabled>
     <isMeetTheAssistantDisabledInClassic>false</isMeetTheAssistantDisabledInClassic>
-    <isMeetTheAssistantDisabledInLightning>false</isMeetTheAssistantDisabledInLightning>
+    <isMeetTheAssistantDisabledInLightning>true</isMeetTheAssistantDisabledInLightning>
     <isSmartNudgesDisabled>false</isSmartNudgesDisabled>
     <optimizerAppEnabled>false</optimizerAppEnabled>
     <suggestedForYou>true</suggestedForYou>

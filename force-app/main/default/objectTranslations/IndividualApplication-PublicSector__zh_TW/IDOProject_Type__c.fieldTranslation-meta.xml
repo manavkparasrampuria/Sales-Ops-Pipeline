@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Project Type --></label>
+    <name>IDOProject_Type__c</name>
+    <picklistValues>
+        <masterLabel>Affordable Housing Development</masterLabel>
+        <translation><!-- Affordable Housing Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction Project</masterLabel>
+        <translation><!-- Construction Project --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Housing Related Infrastructure</masterLabel>
+        <translation><!-- Housing Related Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Integrated Community Project</masterLabel>
+        <translation><!-- Integrated Community Project --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-Construction Project</masterLabel>
+        <translation><!-- Non-Construction Project --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Program Costs</masterLabel>
+        <translation><!-- Program Costs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rural Innovation Project</masterLabel>
+        <translation><!-- Rural Innovation Project --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sustainable Transportation Infrastructure</masterLabel>
+        <translation><!-- Sustainable Transportation Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transit Oriented Development</masterLabel>
+        <translation><!-- Transit Oriented Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation-Related Amenities</masterLabel>
+        <translation><!-- Transportation-Related Amenities --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

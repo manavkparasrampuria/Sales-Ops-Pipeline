@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Заявка при спешен случай</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Заявки при спешен случай</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Заявка за спешна помощ</nameFieldLabel>
+    <recordTypes>
+        <label>Заявка за спешна помощ</label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Дарение на консумативи за спешна помощ</label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Заявка за консумативи за спешна помощ</label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

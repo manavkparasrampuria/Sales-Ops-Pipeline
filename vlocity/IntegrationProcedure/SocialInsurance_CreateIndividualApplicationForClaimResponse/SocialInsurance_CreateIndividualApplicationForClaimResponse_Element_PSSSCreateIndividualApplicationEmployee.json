@@ -1,0 +1,46 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PSSSCreateIndividualApplicationEmployee",
+    "OmniProcessId": {
+        "Name": "CreateIndividualApplicationForClaimResponse",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SocialInsurance/CreateIndividualApplicationForClaimResponse/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "AccountId": "=%User:AccountId%",
+            "ApplicationType": "Acknowledged Claim",
+            "DRId_Claim": "=%RespondToClaim:ClaimId%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "PSSSocInsCreateIndividualApplication",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataMapperPostAction3",
+        "responseJSONNode": "IndividualApplicationId",
+        "responseJSONPath": "IndividualApplication_1:Id",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SocialInsurance/CreateIndividualApplicationForClaimResponse/Procedure/PSSSCreateIndividualApplicationEmployee"
+}

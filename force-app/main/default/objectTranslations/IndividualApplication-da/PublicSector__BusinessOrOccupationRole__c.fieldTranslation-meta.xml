@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business or Occupation Role --></label>
+    <name>PublicSector__BusinessOrOccupationRole__c</name>
+    <picklistValues>
+        <masterLabel>Airline Operations</masterLabel>
+        <translation>Flydrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Border Protection and Transportation Security</masterLabel>
+        <translation>Grænsekontrol og transportsikkerhed</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Traveler</masterLabel>
+        <translation>Forretningsrejsende</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction</masterLabel>
+        <translation>Byggeri</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Correctional Facility Operations</masterLabel>
+        <translation>Fængselsdrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dentistry</masterLabel>
+        <translation>Tandbehandling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emergency Response and Public Safety</masterLabel>
+        <translation>Beredskabsplan og offentlig sikkerhed</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environmental or Janitorial  Services</masterLabel>
+        <translation>Miljømæssige services og pedelarbejde</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Farmworker</masterLabel>
+        <translation>Landarbejder</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food Preparation</masterLabel>
+        <translation>Tilberedning af fødevarer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare</masterLabel>
+        <translation>Sundhed</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Home Repair Services</masterLabel>
+        <translation>Hjemmereparationstjenester</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratory</masterLabel>
+        <translation>Laboratorie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturing</masterLabel>
+        <translation>Produktion</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meat and Poultry Processing</masterLabel>
+        <translation>Behandling af kød og fjerkræ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Worker</masterLabel>
+        <translation>Kontormedarbejder</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Postmortem Care</masterLabel>
+        <translation>Post mortem-behandling</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail Operations</masterLabel>
+        <translation>Detaildrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solid Waste or Wastewater Management</masterLabel>
+        <translation>Administration af fast affald eller spildevand</translation>
+    </picklistValues>
+</CustomFieldTranslation>

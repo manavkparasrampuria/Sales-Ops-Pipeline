@@ -1,0 +1,145 @@
+{
+    "AccountId": "001KX000004o0N0YAI",
+    "CCAP": [
+        {
+            "AccountId": "001KX000004o0N0YAI",
+            "ApplicationType": "Individual",
+            "AppliedDate": "NOW()",
+            "Category": "Benefit",
+            "Description": "Marshall Application for CCAP",
+            "Status": "Submitted"
+        }
+    ],
+    "ContextId": "0U3KX00000099Jf0AI",
+    "FlattenedAssessment": {
+        "Children3to5": 0,
+        "Children6to13": 0,
+        "ChildrenCitizenshipStatus": "U.S. Citizen",
+        "ChildrenUnder3": 1,
+        "HouseholdSize": 2,
+        "MonthlyIncome": 1000,
+        "NumberOfChildren": 1
+    },
+    "HeadStart": [
+        {
+            "AccountId": "001KX000004o0N0YAI",
+            "ApplicationType": "Individual",
+            "AppliedDate": "NOW()",
+            "Category": "Benefit",
+            "Description": "Marshall Application for Early HeadStart",
+            "Status": "Submitted"
+        }
+    ],
+    "Step1": {
+        "Email": "pmarshall@demo.com",
+        "FirstName": "Paul",
+        "GuardianDOB": "1989-03-04",
+        "HomeAddress-Block": {
+            "City": "Fairfax",
+            "HomeAddress": null,
+            "State": "VA",
+            "Street": "5216 Maple Street",
+            "ZIP": "22030"
+        },
+        "LastName": "Marshall",
+        "MailingAddress-Block": null,
+        "MailingSame": true,
+        "Phone": "5142223344",
+        "SSN": "123456789"
+    },
+    "Step2": {
+        "ChildBlock": [
+            {
+                "ChildDOB": "2022-07-13",
+                "ChildFirstName": "Hannah",
+                "ChildLastName": "Marshall",
+                "ChildSSN": "445566778",
+                "EnrolledInHeadStart": "No",
+                "SpecialNeedsCheck": false,
+                "TypeOfCare": "Full-time"
+            },
+            {
+                "ChildDOB": "2017-02-13",
+                "ChildFirstName": "Adam",
+                "ChildLastName": "Marshall",
+                "ChildSSN": "556677888",
+                "EnrolledInHeadStart": "No",
+                "SpecialNeedsCheck": false,
+                "TypeOfCare": "After-school"
+            }
+        ],
+        "Children3to5": 0,
+        "Children6to13": 1,
+        "ChildrenCitizenshipStatus": "U.S. Citizen",
+        "ChildrenUnder3": 1,
+        "HouseholdSize": 3,
+        "MaritalStatus": "Single",
+        "NumberOfChildren": 2,
+        "PregnantStatus": "No"
+    },
+    "Step3": {
+        "EducationBlock": {
+            "EducationCompletion": "2026-04-15",
+            "SchoolName": "Nursing School"
+        },
+        "EducationRadio": "Yes",
+        "EmployedRadio": "Yes",
+        "EmploymentInfoBlock": [
+            {
+                "EmployerName": "Subway",
+                "MonthlyWages": 3000
+            },
+            {
+                "EmployerName": "Uber Driver",
+                "MonthlyWages": 250
+            }
+        ],
+        "IncomeSource": "2-Employment;3-Self-Employment",
+        "MonthlyIncome": 3250,
+        "SeekingEmployment": "No"
+    },
+    "Step4": {
+        "Disclosure": false
+    },
+    "TANF": [
+        {
+            "AccountId": "001KX000004o0N0YAI",
+            "ApplicationType": "Individual",
+            "AppliedDate": "NOW()",
+            "Category": "Benefit",
+            "Description": "Marshall Application for TANF",
+            "Status": "Submitted"
+        }
+    ],
+    "language": "English",
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jNKX000000S3J92AK",
+    "omniscriptId": "0jNKX000000S3J92AK",
+    "output": [
+        {
+            "aggregationResults": {
+            },
+            "calculationResults": [
+                {
+                    "EligibleCCAP": true,
+                    "EligibleEarlyHeadStart": true,
+                    "EligibleHeadStart": false,
+                    "EligibleTANF": true,
+                    "ID": "inputs"
+                }
+            ]
+        }
+    ],
+    "runMode": "preview",
+    "sId": "0jNKX000000S3J92AK",
+    "subType": "ChildCareApplication",
+    "theme": "lightning",
+    "timeStamp": "2025-03-18T17:29:31.165Z",
+    "type": "IntegratedEligibility",
+    "userCurrencyCode": "USD",
+    "userId": "005KX000001zrV7YAI",
+    "userName": "next-gen.demo-org@ng-org-17422847545850506656694.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

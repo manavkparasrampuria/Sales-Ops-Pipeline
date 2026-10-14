@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_DeckOwnerAddress_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Deck Owner",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_DeckOwnerAddress_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_DeckOwnerAddress_Element_TransformStep.json",
+        "GoogleMapsTransformations_DeckOwnerAddress_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_DeckOwnerAddress",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_DeckOwnerAddress_PropertySetConfig.json",
+    "SubType": "DeckOwnerAddress",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_DeckOwnerAddress_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/DeckOwnerAddress/Procedure"
+}

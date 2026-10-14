@@ -1,0 +1,60 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "CreateDocumentChecklistItemForIncome",
+    "OmniProcessId": {
+        "Name": "UpsertRecordsForCoC",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "IfSameHouseholdIncomeMember",
+        "OmniProcessId": {
+            "Name": "UpsertRecordsForCoC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/IfSameHouseholdIncomeMember",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "IfSameHouseholdIncomeMember",
+    "ParentElementType": "Conditional Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "ContentDocumentId": "=%PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdIncomeDetails:IncomeProofDocumentId%",
+            "IndividualApplicationId": "=%CreateNewPartyIncomeRecord:PartyIncomeId%",
+            "Name": "=%PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdIncomeDetails:IncomeProofDocumentName%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "PSSExpCloudNewDocumentChecklistItem1",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "ISNOTBLANK(PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdIncomeDetails:IncomeProofDocumentName)",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataMapperPostAction11",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/CreateDocumentChecklistItemForIncome"
+}

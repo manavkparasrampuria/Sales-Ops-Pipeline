@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "FinalListMergeResponseAction",
+    "OmniProcessId": {
+        "Name": "GetHouseHoldMemberDetailsByHeadOfHouseholdId",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/GetHouseHoldMemberDetailsByHeadOfHouseholdId/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "FinalListMerge": "%FinalListMerge%",
+            "PSS_BM_CurrentHouseholdMemberDetails": "%PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberDetails%",
+            "PSS_BM_v5_HouseholdMemberDetails": "%PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberDetails%"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/GetHouseHoldMemberDetailsByHeadOfHouseholdId/Procedure/FinalListMergeResponseAction"
+}

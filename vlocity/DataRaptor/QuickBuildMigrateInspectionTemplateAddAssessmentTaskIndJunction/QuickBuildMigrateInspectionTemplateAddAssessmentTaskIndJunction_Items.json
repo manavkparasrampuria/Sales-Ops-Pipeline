@@ -1,0 +1,78 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction3257435642999409",
+        "InputFieldName": "FilteredList:AssessmentIndDefinitionsToInsert:AssessmentIndDefinitionName",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "Name",
+        "LookupObjectName": "AssessmentIndicatorDefinition",
+        "LookupReturnedFieldName": "Id",
+        "MayEdit": true,
+        "Name": "QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AssessmentIndDefinitionId",
+        "OutputObjectName": "AssessmentTaskIndDefinition",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction9230415662652809",
+        "InputFieldName": "FilteredList:AssessmentIndDefinitionsToInsert:AssessmentTaskDefinitionName",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "Name",
+        "LookupObjectName": "AssessmentTaskDefinition",
+        "LookupReturnedFieldName": "Id",
+        "MayEdit": true,
+        "Name": "QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AssessmentTaskDefinitionId",
+        "OutputObjectName": "AssessmentTaskIndDefinition",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction683254303757358",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "AssessmentTaskIndDefinition",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

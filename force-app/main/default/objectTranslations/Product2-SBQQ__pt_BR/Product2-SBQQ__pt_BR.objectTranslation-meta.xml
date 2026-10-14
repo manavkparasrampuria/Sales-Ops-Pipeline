@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Product Information --></label>
+        <name>Product_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Filtros do configurador</label>
+        <name>SBQQ__ConfiguratorFilter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Pesquisa do configurador</label>
+        <name>SBQQ__ConfiguratorLookup</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Filtros de pesquisa</label>
+        <name>SBQQ__SearchFilters</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Resultados de pesquisa</label>
+        <name>SBQQ__SearchResults</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- Master --></label>
+        <name>Master</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Você deve marcar a caixa de seleção Incluir na manutenção ou Excluir da manutenção.</errorMessage>
+        <name>SBQQ__Include_or_Exclude_Maintenance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Quando o Tipo de encargo é Recorrente, um Tipo de faturamento deve ser selecionado.</errorMessage>
+        <name>SBQQ__RecurringChargeTypeMustHaveBillingType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Apenas produtos de assinatura pode especificar um cronograma de descontos do termo</errorMessage>
+        <name>SBQQ__Term_schedule_requires_subscription</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Quando o Tipo de encargo é Ocorrência única, não é possível selecionar um valor de Frequência de faturamento.</errorMessage>
+        <name>SBQQ__Validate_billing_frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Quando o Tipo de encargo é Ocorrência única ou Uso, não é possível selecionar um valor de Tipo de faturamento.</errorMessage>
+        <name>SBQQ__Validate_billing_type</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Mass_Delete_Records --></label>
+        <name>Mass_Delete_Records</name>
+    </webLinks>
+    <webLinks>
+        <label>Clonar com relacionado</label>
+        <name>SBQQ__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label>Clonar com relacionado</label>
+        <name>SBQQ__CloneWithRelatedClassic</name>
+    </webLinks>
+    <webLinks>
+        <label>Traduzir</label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,78 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "Non-disclosure Agreement/2/00D2K000000kXJ9/1707409228522",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-2116762399",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "234f327a-264a-d996-95c5-b88dc55b568e",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "AccountName",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated-1411587438"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "Non-disclosure Agreement/2/00D2K000000kXJ9/1707409228522",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-2116762399",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "294d8bff-ed53-6310-8f57-5debfe2f52cd",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "Street",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated-823586952"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "Non-disclosure Agreement/2/00D2K000000kXJ9/1707409228522",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-2116762399",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "6c1815aa-44b2-f098-86d0-778bff9fee10",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "PostalCode",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated2047003869"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "Non-disclosure Agreement/2/00D2K000000kXJ9/1707409228522",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-2116762399",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "85697ce3-c6c2-e54c-5917-f845f7da3365",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "City",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated1671862112"
+    }
+]

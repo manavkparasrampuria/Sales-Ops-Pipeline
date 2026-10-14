@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <defaultValue>SignatureTask</defaultValue>
+        <globalKey>QuickBuildAddSignature5847306597234379</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ItemEntityType</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <defaultValue>AssessmentTask.Name</defaultValue>
+        <globalKey>QuickBuildAddSignature5721938499095134</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ItemEntityFieldName</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildAddSignature3045393375084209</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildAddSignature21740023226593896</globalKey>
+        <inputField>SignatureTasks:Signatures:Order</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>DisplayOrder</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildAddSignature39515992272212674</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildAddSignature005161693118297839</globalKey>
+        <inputField>DRId_ActionPlanTemplateVersion</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateVersionId</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <defaultValue>true</defaultValue>
+        <globalKey>QuickBuildAddSignature8285996146191128</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <defaultValue>true</defaultValue>
+        <globalKey>QuickBuildAddSignature37300334940617574</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildAddSignature17068745776769023</globalKey>
+        <inputField>SignatureTasks:Signatures:SignatureName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ValueLiteral</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildAddSignature040234788721000614</globalKey>
+        <inputField>SignatureTasks:Signatures:SignatureName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildAddSignature659450896043718</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateItemId</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <defaultValue>Name</defaultValue>
+        <globalKey>QuickBuildAddSignature9698047100285758</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildAddSignature19484380755387054</globalKey>
+        <inputField>SignatureTasks:Signatures:SignatureRequired</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IsRequired</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildAddSignature</dataMapperDefItemName>
+        <defaultValue>SignatureTask</defaultValue>
+        <globalKey>QuickBuildAddSignature7455465222913473</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ItemEntityType</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;SignatureTasks&quot;: {
+        &quot;Signatures&quot;: [
+            {
+                &quot;SignatureName&quot;: &quot;Inspector&quot;,
+                &quot;SignatureRequired&quot;: true,
+                &quot;Order&quot;: 1
+            },
+            {
+                &quot;SignatureName&quot;: &quot;Customer&quot;,
+                &quot;SignatureRequired&quot;: true,
+                &quot;Order&quot;: 2
+            }
+        ]
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>QuickBuildAddSignature</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;SignatureTasks&quot;: {
+    &quot;Signatures&quot;: [
+      {
+        &quot;SignatureName&quot;: &quot;Dude1&quot;,
+        &quot;SignatureRequired&quot;: true,
+        &quot;Order&quot;: 1
+      },
+      {
+        &quot;SignatureName&quot;: &quot;Dude2&quot;,
+        &quot;SignatureRequired&quot;: true,
+        &quot;Order&quot;: 2
+      }
+    ]
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

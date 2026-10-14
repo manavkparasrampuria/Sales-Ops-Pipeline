@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchOtherBenefitEnrolleeName</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>PSSFetchOtherBenefitEnrolleeNameCustom6955</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchOtherBenefitEnrolleeName</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSFetchOtherBenefitEnrolleeNameCustom5029</globalKey>
+        <inputField>PRG:Id</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PRG:Id</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchOtherBenefitEnrolleeName</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSFetchOtherBenefitEnrolleeNameCustom4479</globalKey>
+        <inputField>BenefitAssignment:BenefitId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseHoldInfo:BenefitId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchOtherBenefitEnrolleeName</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>BenefitAssignment:EnrolleeId</filterValue>
+        <globalKey>PSSFetchOtherBenefitEnrolleeNameCustom0jIRO0000000nxt2AAItem1</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>PRG</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchOtherBenefitEnrolleeName</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSFetchOtherBenefitEnrolleeNameCustom1550</globalKey>
+        <inputField>PRG:Name</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PRG:Name</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchOtherBenefitEnrolleeName</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSFetchOtherBenefitEnrolleeNameCustom7319</globalKey>
+        <inputField>PRG:Name</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseHoldInfo:HouseholdMemberAccountName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchOtherBenefitEnrolleeName</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSFetchOtherBenefitEnrolleeNameCustom6765</globalKey>
+        <inputField>BenefitAssignment:Id</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseHoldInfo:Id</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchOtherBenefitEnrolleeName</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSFetchOtherBenefitEnrolleeNameCustom862</globalKey>
+        <inputField>BenefitAssignment:EnrolleeId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseHoldInfo:EnrolleeId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchOtherBenefitEnrolleeName</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>BenefitAssignmentList:Id</filterValue>
+        <globalKey>PSSFetchOtherBenefitEnrolleeNameCustom0jIRO0000000nxt2AAItem3</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>BenefitAssignment</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>BenefitAssignment</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSFetchOtherBenefitEnrolleeName</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;BenefitAssignmentList&quot; : [ {
+    &quot;Id&quot; : &quot;0nDRO00000000Va2AI&quot;,
+    &quot;EntitlementAmount&quot; : 100,
+    &quot;BenefitAssignmentName&quot; : &quot;BA-000000004&quot;,
+    &quot;PayoutFrequency&quot; : &quot;Monthly&quot;,
+    &quot;EndDateTime&quot; : &quot;31/12/2023 17:00 PM &quot;,
+    &quot;BenefitId&quot; : &quot;0jiRO00000000xkYAA&quot;,
+    &quot;StartDateTime&quot; : &quot;22/05/2023 17:00 PM&quot;
+  }, {
+    &quot;Id&quot; : &quot;0nDRO00000000Zm2AI&quot;,
+    &quot;EntitlementAmount&quot; : 100,
+    &quot;BenefitAssignmentName&quot; : &quot;BA-000000007&quot;,
+    &quot;PayoutFrequency&quot; : &quot;Monthly&quot;,
+    &quot;EndDateTime&quot; : &quot;13/12/2023 12:00 PM &quot;,
+    &quot;BenefitId&quot; : &quot;0jiRO000000017rYAA&quot;,
+    &quot;StartDateTime&quot; : &quot;13/06/2023 12:00 PM&quot;
+  }, {
+    &quot;Id&quot; : &quot;0nDRO00000000aL2AQ&quot;,
+    &quot;EntitlementAmount&quot; : 100,
+    &quot;BenefitAssignmentName&quot; : &quot;BA-000000009&quot;,
+    &quot;PayoutFrequency&quot; : &quot;Monthly&quot;,
+    &quot;EndDateTime&quot; : &quot;20/12/2023 12:00 PM &quot;,
+    &quot;BenefitId&quot; : &quot;0jiRO00000001xoYAA&quot;,
+    &quot;StartDateTime&quot; : &quot;20/06/2023 12:00 PM&quot;
+  } ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Extract</type>
+</DataMapperDefinition>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCoCDeletePartyIncomeRecords1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCoCDeletePartyIncomeRecords9067692231147426</globalKey>
+        <inputField>HouseholdIncomeDetails:PartyIncomeId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>PartyIncome</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCoCDeletePartyIncomeRecords1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSCoCDeletePartyIncomeRecords12165681909318016</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>PartyIncome</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCoCDeletePartyIncomeRecords1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCoCDeletePartyIncomeRecords4319205773523762</globalKey>
+        <inputField>HouseholdIncomeDetails:StartDate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>EndDate</outputField>
+        <outputObject>PartyIncome</outputObject>
+        <valueMapping>{ }</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCoCDeletePartyIncomeRecords1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:HouseholdIncomeDetails:StartDate &quot;*-*&quot; LIKE var:StartDate | var:StartDate UNIXTODATETIME IF</formulaConverted>
+        <formulaResultPath>StartDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>PSSCoCDeletePartyIncomeRecords570127415916921</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSCoCDeletePartyIncomeRecords1</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;HouseholdIncomeDetails&quot; : {
+    &quot;PartyIncomeId&quot; : &quot;2m3xx000000004rAAA&quot;,
+    &quot;StartDate&quot; : &quot;2024-01-01T00:00:00.000Z&quot;,
+    &quot;IncomeFrequency&quot; : &quot;Monthly&quot;,
+    &quot;Employer&quot; : &quot;Salesforce&quot;,
+    &quot;IncomeCurrentMonth&quot; : 12,
+    &quot;IncomeHouseholdMemberName&quot; : &quot;Integration Demo PA&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

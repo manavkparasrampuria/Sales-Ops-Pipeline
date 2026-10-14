@@ -1,0 +1,129 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "61199674-9497-4666-9146-4184cfd9104c",
+  "label" : "Benefit Assignment Detail",
+  "regions" : [ {
+    "id" : "265fde5c-b080-47e3-90a0-89fe61454924",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "d11e3433-0a85-40b0-9f6f-cbdebf6fafab",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "dfdb7d40-d74f-40dd-b48a-928e3c3ac42c",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "59af859e-39a2-4f6d-ba40-a41ea8e25bf3",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Details"
+          }, {
+            "UUID" : "bc58df48-313c-4e9a-b461-2af53bad3dc6",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Disbursements & Adjustments"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "dfdb7d40-d74f-40dd-b48a-928e3c3ac42c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:recordDetail",
+          "id" : "e4e7e219-2289-4625-a8f3-6f52a364ac80",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "59af859e-39a2-4f6d-ba40-a41ea8e25bf3",
+        "regionLabel" : "Details",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "relatedListApiName" : "BenefitDisbursementBenefitAssignments",
+            "relatedListComponentOverride" : "ADVGRID",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:responsiveRelatedListSingle",
+          "id" : "03d4e46c-16c8-4bb5-850b-0534fac95f71",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "relatedListApiName" : "BenefitAssignmentAdjustmentBenefits",
+            "relatedListComponentOverride" : "ADVGRID",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:responsiveRelatedListSingle",
+          "id" : "be33101b-ef32-49d2-871b-1df2089bb09e",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "relatedListApiName" : "AttachedContentDocuments",
+            "relatedListComponentOverride" : "ADVGRID",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:responsiveRelatedListSingle",
+          "id" : "d153eff1-7214-4a0d-bd60-d7bf12e29200",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "bc58df48-313c-4e9a-b461-2af53bad3dc6",
+        "regionLabel" : "Disbursements & Adjustments",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ac8cd9c6-6ae7-4a34-aa88-70c9540bbeb9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2180a229-ba58-42e1-8ad4-17ed07a9c0eb",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b92954db-781d-4f2d-ac55-338520dadc94",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9032836b-8a38-4c5f-a39e-5b1badc5ea14",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0nD"
+}

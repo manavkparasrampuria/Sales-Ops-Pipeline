@@ -1,0 +1,33 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "09fb9104-0710-4209-b8e0-5c7b7f91daa8",
+  "label" : "My Complaints",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>             <span style=\"color: #2D2D2D;font-size: 21px;\">My Complaints</span>         </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">View complaints that you file or are filed against you. </div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "47fe90cb-3470-464c-8a8b-5c753032c837",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "726aafad-e362-486b-8a7b-0c3cb9653ba7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "ea46ce2e-79c5-4a28-9303-d652f8df824d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "cbc73de4-cc8e-4d1f-813a-66036d6f9173",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "my-complaints"
+}

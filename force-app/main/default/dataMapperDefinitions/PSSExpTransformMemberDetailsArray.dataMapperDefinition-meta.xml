@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom5635</globalKey>
+        <inputField>FinalListMerge:LastName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_HouseholdMemberLastName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom11</globalKey>
+        <inputField>FinalListMerge:IsDisable</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_IsDisabled</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:FinalListMerge:DisabilityName $Vlocity.NULL != &quot;Yes&quot; &quot;No&quot; IF</formulaConverted>
+        <formulaExpression>IF(FinalListMerge:DisabilityName != $Vlocity.NULL , &quot;Yes&quot;,&quot;No&quot;)</formulaExpression>
+        <formulaResultPath>FinalListMerge:IsDisable</formulaResultPath>
+        <formulaSequence>6.0</formulaSequence>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom6398</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom7951</globalKey>
+        <inputField>FinalListMerge:Ethnicity</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_Ethnicity</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom6904</globalKey>
+        <inputField>FinalListMerge:PrimaryCitizenshipType</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_USCitizen</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:FinalListMerge:FirstName &apos;/\/\/&apos; var:FinalListMerge:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(%FinalListMerge:FirstName%,&apos; &apos;,%FinalListMerge:LastName%)</formulaExpression>
+        <formulaResultPath>FinalListMerge:HouseholdMemberName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom3341</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom1008</globalKey>
+        <inputField>FinalListMerge:FirstName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_HouseholdMemberFirstName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom5848</globalKey>
+        <inputField>FinalListMerge:Birthdate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_DateOfBirth</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom3106</globalKey>
+        <inputField>FinalListMerge:AccountId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_AccountId</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:FinalListMerge:PrimaryCitizenshipType &apos;USNational&apos; == &quot;Yes&quot; &quot;No&quot; IF</formulaConverted>
+        <formulaExpression>IF(FinalListMerge:PrimaryCitizenshipType==&apos;USNational&apos;,&quot;Yes&quot;,&quot;No&quot;)</formulaExpression>
+        <formulaResultPath>FinalListMerge:PrimaryCitizenshipType</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom2200</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom8250</globalKey>
+        <inputField>FinalListMerge:HouseholdMemberName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_HouseholdMemberName</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom475</globalKey>
+        <inputField>FinalListMerge:PersonGenderIdentity</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_Gender</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom8720</globalKey>
+        <inputField>FinalListMerge:PAP:Relationship</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_Relationship</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:FinalListMerge:PersonGenderIdentity &apos;Male&apos; == &apos;M&apos; &apos;F&apos; IF</formulaConverted>
+        <formulaExpression>IF(FinalListMerge:PersonGenderIdentity==&apos;Male&apos;,&apos;M&apos;,&apos;F&apos;)</formulaExpression>
+        <formulaResultPath>FinalListMerge:PersonGenderIdentity</formulaResultPath>
+        <formulaSequence>5.0</formulaSequence>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom6313</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom6479</globalKey>
+        <inputField>FinalListMerge:Race</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_Race</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom7579</globalKey>
+        <inputField>FinalListMerge:HighestEducationLevel</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_GradeCompleted</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>&apos;Spouse&apos;</formulaConverted>
+        <formulaExpression>&apos;Spouse&apos;</formulaExpression>
+        <formulaResultPath>FinalListMerge:Relationship</formulaResultPath>
+        <formulaSequence>4.0</formulaSequence>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom1165</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom8283</globalKey>
+        <inputField>FinalListMerge:PersonAge</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_Age</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpTransformMemberDetailsArray</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:FinalListMerge:Birthdate AGE</formulaConverted>
+        <formulaExpression>AGE(FinalListMerge:Birthdate)</formulaExpression>
+        <formulaResultPath>FinalListMerge:PersonAge</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>PSSExpTransformMemberDetailsArrayCustom4309</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Transform Member Details Array to omni compatible array</description>
+    <expectedInputJson>{
+  &quot;FinalListMerge&quot; : [ {
+    &quot;HighestEducationLevel&quot; : &quot;High School&quot;,
+    &quot;LastName&quot; : &quot;Person1&quot;,
+    &quot;ContactId&quot; : &quot;003xx000004WhngAAC&quot;,
+    &quot;PersonGenderIdentity&quot; : &quot;F&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;Race&quot; : &quot;American Indian&quot;,
+    &quot;FirstName&quot; : &quot;CC1&quot;,
+    &quot;BirthPlace&quot; : &quot;ppp1&quot;,
+    &quot;AccountId&quot; : &quot;001xx000003Gf3jAAC&quot;,
+    &quot;HouseholdMemberName&quot; : &quot;CC1 Person1&quot;,
+    &quot;Ethnicity&quot; : &quot;Hispanic or Latino&quot;,
+    &quot;PrimaryCitizenshipType&quot; : &quot;Yes&quot;
+  }, {
+    &quot;DisabilityName&quot; : &quot;d1&quot;,
+    &quot;HighestEducationLevel&quot; : &quot;Graduate&quot;,
+    &quot;Id&quot; : &quot;0xDxx000000003FEAQ&quot;,
+    &quot;LastName&quot; : &quot;Person2&quot;,
+    &quot;PersonGenderIdentity&quot; : &quot;F&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;Race&quot; : &quot;Alaska Native&quot;,
+    &quot;HouseholdMemberName&quot; : &quot;CC2 Person2&quot;,
+    &quot;Ethnicity&quot; : &quot;Not Hispanic or Latino&quot;,
+    &quot;ContactId&quot; : &quot;003xx000004WhpIAAS&quot;,
+    &quot;FirstName&quot; : &quot;CC2&quot;,
+    &quot;BirthPlace&quot; : &quot;ppp2&quot;,
+    &quot;AccountId&quot; : &quot;001xx000003Gf5LAAS&quot;,
+    &quot;PrimaryCitizenshipType&quot; : &quot;No&quot;
+  }, {
+    &quot;HighestEducationLevel&quot; : &quot;Masters&quot;,
+    &quot;LastName&quot; : &quot;Person&quot;,
+    &quot;PersonGenderIdentity&quot; : &quot;M&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;Race&quot; : &quot;Asian&quot;,
+    &quot;HouseholdMemberName&quot; : &quot;CC Person&quot;,
+    &quot;Ethnicity&quot; : &quot;Not Selected&quot;,
+    &quot;Birthdate&quot; : &quot;2010-01-01&quot;,
+    &quot;ContactId&quot; : &quot;003xx000004WhquAAC&quot;,
+    &quot;PersonAge&quot; : 13,
+    &quot;FirstName&quot; : &quot;CC&quot;,
+    &quot;BirthPlace&quot; : &quot;ppp3&quot;,
+    &quot;AccountId&quot; : &quot;001xx000003Gf6xAAC&quot;,
+    &quot;PrimaryCitizenshipType&quot; : &quot;No&quot;
+  } ]
+}</expectedInputJson>
+    <expectedOutputJson>{
+  &quot;PSS_BM_v3_HouseholdMemberDetails&quot; : [ {
+    &quot;PSS_BM_v3_ShouldEnableEditing&quot; : true,
+    &quot;PSS_BM_v3_HouseholdMemberName&quot; : &quot;Bikramaditya,aaaa Padhi,aaaa&quot;,
+    &quot;PSS_BM_v3_Age&quot; : 0,
+    &quot;PSS_BM_v3_Edit_Member_Details&quot; : &quot;Add a new member&quot;,
+    &quot;PSS_BM_v3_HouseholdMemberLastName&quot; : &quot;Padhi&quot;,
+    &quot;PSS_BM_v3_HouseholdMemberFirstName&quot; : &quot;Bikramaditya&quot;,
+    &quot;PSS_BM_v3_Relationship&quot; : &quot;Spouse&quot;,
+    &quot;PSS_BM_v3_DateOfBirth&quot; : &quot;2023-08-29&quot;,
+    &quot;PSS_BM_v3_GradeCompleted&quot; : &quot;aaa&quot;,
+    &quot;PSS_BM_v3_USCitizen&quot; : &quot;No&quot;,
+    &quot;PSS_BM_v3_Gender&quot; : &quot;F&quot;,
+    &quot;PSS_BM_v3_IsDisabled&quot; : &quot;No&quot;,
+    &quot;PSS_BM_v3_Race&quot; : &quot;AL&quot;
+  }, {
+    &quot;PSS_BM_v3_ShouldEnableEditing&quot; : true,
+    &quot;PSS_BM_v3_HouseholdMemberName&quot; : &quot;Bikramaditya,aaaa Padhi,aaaa&quot;,
+    &quot;PSS_BM_v3_Age&quot; : 0,
+    &quot;PSS_BM_v3_Edit_Member_Details&quot; : &quot;Add a new member&quot;,
+    &quot;PSS_BM_v3_HouseholdMemberLastName&quot; : &quot;aaaa&quot;,
+    &quot;PSS_BM_v3_HouseholdMemberFirstName&quot; : &quot;aaaa&quot;,
+    &quot;PSS_BM_v3_Relationship&quot; : &quot;Self&quot;,
+    &quot;PSS_BM_v3_DateOfBirth&quot; : &quot;2023-09-13&quot;,
+    &quot;PSS_BM_v3_GradeCompleted&quot; : &quot;aaa&quot;,
+    &quot;PSS_BM_v3_USCitizen&quot; : &quot;No&quot;,
+    &quot;PSS_BM_v3_Gender&quot; : &quot;M&quot;,
+    &quot;PSS_BM_v3_IsDisabled&quot; : &quot;No&quot;,
+    &quot;PSS_BM_v3_Race&quot; : &quot;AP&quot;,
+    &quot;PSS_BM_v3_Ethnicity&quot; : &quot;M&quot;
+  } ]
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSExpTransformMemberDetailsArray</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;FinalListMerge&quot; : [ {
+    &quot;HighestEducationLevel&quot; : &quot;High School&quot;,
+    &quot;LastName&quot; : &quot;Person1&quot;,
+    &quot;ContactId&quot; : &quot;003xx000004WhngAAC&quot;,
+    &quot;PersonGenderIdentity&quot; : &quot;F&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;Race&quot; : &quot;American Indian&quot;,
+    &quot;FirstName&quot; : &quot;CC1&quot;,
+    &quot;BirthPlace&quot; : &quot;ppp1&quot;,
+    &quot;AccountId&quot; : &quot;001xx000003Gf3jAAC&quot;,
+    &quot;HouseholdMemberName&quot; : &quot;CC1 Person1&quot;,
+    &quot;Ethnicity&quot; : &quot;Hispanic or Latino&quot;,
+    &quot;PrimaryCitizenshipType&quot; : &quot;Yes&quot;
+  }, {
+    &quot;DisabilityName&quot; : &quot;d1&quot;,
+    &quot;HighestEducationLevel&quot; : &quot;Graduate&quot;,
+    &quot;Id&quot; : &quot;0xDxx000000003FEAQ&quot;,
+    &quot;LastName&quot; : &quot;Person2&quot;,
+    &quot;PersonGenderIdentity&quot; : &quot;F&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;Race&quot; : &quot;Alaska Native&quot;,
+    &quot;HouseholdMemberName&quot; : &quot;CC2 Person2&quot;,
+    &quot;Ethnicity&quot; : &quot;Not Hispanic or Latino&quot;,
+    &quot;ContactId&quot; : &quot;003xx000004WhpIAAS&quot;,
+    &quot;FirstName&quot; : &quot;CC2&quot;,
+    &quot;BirthPlace&quot; : &quot;ppp2&quot;,
+    &quot;AccountId&quot; : &quot;001xx000003Gf5LAAS&quot;,
+    &quot;PrimaryCitizenshipType&quot; : &quot;No&quot;
+  }, {
+    &quot;HighestEducationLevel&quot; : &quot;Masters&quot;,
+    &quot;LastName&quot; : &quot;Person&quot;,
+    &quot;PersonGenderIdentity&quot; : &quot;M&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;Race&quot; : &quot;Asian&quot;,
+    &quot;HouseholdMemberName&quot; : &quot;CC Person&quot;,
+    &quot;Ethnicity&quot; : &quot;Not Selected&quot;,
+    &quot;Birthdate&quot; : &quot;2010-01-01&quot;,
+    &quot;ContactId&quot; : &quot;003xx000004WhquAAC&quot;,
+    &quot;PersonAge&quot; : 13,
+    &quot;FirstName&quot; : &quot;CC&quot;,
+    &quot;BirthPlace&quot; : &quot;ppp3&quot;,
+    &quot;AccountId&quot; : &quot;001xx000003Gf6xAAC&quot;,
+    &quot;PrimaryCitizenshipType&quot; : &quot;No&quot;
+  } ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+</DataMapperDefinition>

@@ -1,0 +1,122 @@
+{
+  "appPageId" : "cb179d80-7920-4ba7-93b5-079034f23a90",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1438f8f6-b8ce-425f-b1bf-89482d611959",
+  "label" : "LightSchedulerFlow",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><br></p><p><br></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "6349edae-2ed7-4d5b-9dbb-43a9055e4a26",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cf34ceda-7b2e-464e-9100-372b3f86d7d9",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[]",
+        "flowName" : "runtime_appointmentbooking__In_New"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "27759cd0-8ce5-45a7-ac9c-b52492676ffa",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "defaultMinimizedText" : "Schedule, Modify and Cancel Appointments",
+        "eswConfigurationJSON" : {
+          "baseCoreURL" : "https://gotf-demo.my.salesforce.com",
+          "enabledFeatures" : [ "FieldService" ],
+          "entryFeature" : "FieldService",
+          "eswConfigDevName" : "Lightning_Scheduler_Inbound",
+          "eswConfigId" : "04I1U000000PKJpUAO",
+          "orgId" : "00D1U000001AWXM"
+        },
+        "onlineLoadingText" : "Loading...",
+        "unauthenticatedText" : "Log In and Book Appointment"
+      },
+      "componentName" : "forceCommunity:embeddedServiceFieldService",
+      "id" : "a62ef108-5368-475c-87d1-a17757b4f77f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "523a544d-5110-42e1-9bd5-db6e2039a084",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "9242e8cf-5d0d-4786-b8d3-ae7ca762f50d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "askCommunityLabel" : "Ask a Question",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonRadius" : 25,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "buttonTwoBgColor" : "",
+        "buttonTwoBgHoverColor" : "",
+        "buttonTwoBorderColor" : "",
+        "buttonTwoRadius" : 25,
+        "buttonTwoTextColor" : "",
+        "buttonTwoTextHoverColor" : "",
+        "confirmationMessage" : "Got it!",
+        "contactSupportLabel" : "Contact Support",
+        "followUpPromptLabel" : "Can we close your question?",
+        "headerLabel" : "Don't see what you're looking for?",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
+        "maxSuggestions" : 5,
+        "satisfactionPromptLabel" : "Did we help to answer your question?",
+        "showDetails" : false,
+        "showTopics" : true
+      },
+      "componentName" : "siteforce:napiliFooter",
+      "id" : "e65a9fa8-6db5-4646-9e1b-844961ba40d6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "48fc4e0c-e0e1-4304-b1c0-4650cbd622f6",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "LightSchedulerFlow"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4fe4e5b8-846a-4ca7-9629-580d4dd8ade1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2d735af1-127c-4d10-9566-24b5e93e61fe",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "5NbfmmodcxiXryPvaAkDZZ5qYCdAfi",
+  "type" : "view",
+  "viewType" : "custom-lightschedulerflow"
+}

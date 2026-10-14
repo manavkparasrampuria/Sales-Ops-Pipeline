@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "Parent.recordId",
+                    "val": ""
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "PSSCaseworkOverviewGetCaseParticipantsIDO",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "recordId": "{Parent.recordId}"
+                },
+                "jsonMap": "{\"Parent.recordId\":\"{Parent.recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Shows the count and details of the case proceeding participants for a case proceeding.",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "PSSCaseworkOverviewShowCaseProceedingParticipantsIDO",
+    "Namespace": "",
+    "OmniUiCardKey": "PSSCaseworkOverviewShowCaseProceedingParticipantsIDO/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "PSSCaseworkOverviewShowCaseProceedingParticipantsIDO.json",
+    "SampleDataSourceResponse": "[{\"TotalRecordsCount\":0}]",
+    "StylingConfiguration": "",
+    "UniqueName": "PSSCaseworkOverviewShowCaseProceedingParticipantsIDO_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/PSSCaseworkOverviewShowCaseProceedingParticipantsIDO"
+}

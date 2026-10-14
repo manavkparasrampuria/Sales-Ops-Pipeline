@@ -1,0 +1,85 @@
+{
+    "Case Details": {
+        "NewCaseDetails": {
+            "Account-Block": {
+                "Account": "Alicia Rendon Salon",
+                "Id": "0014S000007WETUQA4",
+                "Name": "Alicia Rendon Salon"
+            },
+            "Origin": "Email",
+            "Reason": "User didn't attend training",
+            "Status": "New",
+            "Type": "Appointment"
+        }
+    },
+    "ContextId": "0fh4S00000000HQQAY",
+    "DRId_Case": "5004S000003MfNzQAK",
+    "DRId_ComplaintCase": "0kN4S0000004CALUA2",
+    "Participants": {
+        "addNewParticipants": {
+            "cityFormula": "%",
+            "firstNameFormula": "%",
+            "lastNameFormula": null
+        },
+        "complaintParticipants": {
+            "SelectFromList": {
+                "selectedComplaintParticipants": {
+                    "selectedComplaintParticipants": [
+                        {
+                            "id": "1co4S0000000001QAA",
+                            "name": "Johnny Rushbrook",
+                            "pid": "0014S000008Wm8aQAC",
+                            "role": "Offender",
+                            "status": "Active"
+                        },
+                        {
+                            "id": "1co4S0000000006QAA",
+                            "name": "Target",
+                            "pid": "0014S000008X3zEQAS",
+                            "role": "Victim",
+                            "status": "Active"
+                        }
+                    ]
+                }
+            }
+        },
+        "executeAddNewParticipantDR": false,
+        "executeComplaintParticipantDR": true
+    },
+    "PublicComplaintID": "0fh4S00000000HQQAY",
+    "case": {
+        "CaseNumber": "00001436",
+        "Id": "5004S000003MfNzQAK"
+    },
+    "complaintCase": {
+        "Id": "0kN4S0000004CALUA2",
+        "Name": "PCC-000000018"
+    },
+    "getComplaintParticipants": [
+        {
+            "id": "1co4S0000000001QAA",
+            "name": "CMP-0000000001",
+            "pid": "0014S000008Wm8aQAC",
+            "role": "Offender",
+            "status": "Active"
+        },
+        {
+            "id": "1co4S0000000006QAA",
+            "name": "CMP-0000000002",
+            "pid": "0014S000008X3zEQAS",
+            "role": "Victim",
+            "status": "Active"
+        }
+    ],
+    "isPersonAccount": true,
+    "isPersonAccountContact": false,
+    "searchParticipants": [
+    ],
+    "timeStamp": "2022-06-27T16:22:01.355Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054S0000015CoyQAE",
+    "userName": "jeremy.blankenship@gps.ido",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-240",
+    "userTimeZoneName": "America/New_York"
+}

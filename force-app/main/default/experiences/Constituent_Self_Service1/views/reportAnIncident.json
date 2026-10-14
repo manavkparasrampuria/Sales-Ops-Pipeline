@@ -1,0 +1,64 @@
+{
+  "appPageId" : "cb179d80-7920-4ba7-93b5-079034f23a90",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9a64507e-bfee-4ab4-972e-3703fd46bf1d",
+  "label" : "Report an Incident",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"color: rgb(45, 45, 45); font-size: 21px;\">Report a Non-Emergency Incident or Crime</span></h1><p>If this is an emergency, please call emergency services at 911 or 112 from a mobile phone.</p><p><br></p><p>Please fill out the following incident report. You can save a draft application and complete it later.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "0dfaf39a-f171-49c2-bcf0-d20eedf5a0d0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5a57e92c-6ec7-4ba1-834f-70fe6ba453d7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "PoliceComplaintIntake",
+        "theme" : "lightning",
+        "type" : "CourtCaseManagement"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "e6cdfeb4-6a2d-41b4-af35-248ad9143f3e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a9cab720-d15d-433f-bb3e-4564c9f9590e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d57fce67-c28e-4506-a703-f7070781646c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Report an Incident"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "dad5076e-00b4-4f5b-a0a8-85324ca94211",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "38e752a2-8c17-4b57-b9fb-f2f4547589eb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "LP8M0s18z8iesYafbKYlXxiDda0rvs",
+  "type" : "view",
+  "viewType" : "custom-report-an-incident"
+}

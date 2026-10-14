@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- It is recommended for smaller devices to use the 1-up or 2-Up configuration --></help>
+    <label><!-- Card Format --></label>
+    <name>Card_Format__c</name>
+    <picklistValues>
+        <masterLabel>1-Up</masterLabel>
+        <translation><!-- 1-Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2-Up</masterLabel>
+        <translation><!-- 2-Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3-Up</masterLabel>
+        <translation><!-- 3-Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4-Up</masterLabel>
+        <translation><!-- 4-Up --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

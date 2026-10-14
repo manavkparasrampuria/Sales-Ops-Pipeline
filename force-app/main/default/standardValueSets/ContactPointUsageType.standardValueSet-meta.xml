@@ -2,23 +2,23 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Inicio</fullName>
+        <fullName>Home</fullName>
         <default>false</default>
-        <label>Inicio</label>
+        <label>Home</label>
     </standardValue>
     <standardValue>
-        <fullName>Trabajo</fullName>
+        <fullName>Work</fullName>
         <default>false</default>
-        <label>Trabajo</label>
+        <label>Work</label>
     </standardValue>
     <standardValue>
-        <fullName>Temporal</fullName>
+        <fullName>Temporary</fullName>
         <default>false</default>
-        <label>Temporal</label>
+        <label>Temporary</label>
     </standardValue>
     <standardValue>
-        <fullName>Inactivo</fullName>
+        <fullName>Inactive</fullName>
         <default>false</default>
-        <label>Inactivo</label>
+        <label>Inactive</label>
     </standardValue>
 </StandardValueSet>

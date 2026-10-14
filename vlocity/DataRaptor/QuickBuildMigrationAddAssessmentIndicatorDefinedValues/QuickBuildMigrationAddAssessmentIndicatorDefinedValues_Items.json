@@ -1,0 +1,98 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues9828749937081775",
+        "InputFieldName": "DeserializedFileContent:AssessmentIndicatorDefinition:AssessmentIndDefinedValue:ParentName",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "Name",
+        "LookupObjectName": "AssessmentIndicatorDefinition",
+        "LookupReturnedFieldName": "Id",
+        "MayEdit": true,
+        "Name": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AssessmentIndicatorDefinitionId",
+        "OutputObjectName": "AssessmentIndDefinedValue",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues7528411290639934",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "AssessmentIndDefinedValue",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues5593046788290714",
+        "InputFieldName": "DeserializedFileContent:AssessmentIndicatorDefinition:AssessmentIndDefinedValue:SequenceNumber",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SequenceNumber",
+        "OutputObjectName": "AssessmentIndDefinedValue",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues13922433140245727",
+        "InputFieldName": "DeserializedFileContent:AssessmentIndicatorDefinition:AssessmentIndDefinedValue:Value",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Value",
+        "OutputObjectName": "AssessmentIndDefinedValue",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

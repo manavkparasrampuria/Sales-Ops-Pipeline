@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Organization Type --></label>
+    <name>PublicSector__OrganizationType__c</name>
+    <picklistValues>
+        <masterLabel>Acute Psychiatric Hospital (APH)</masterLabel>
+        <translation>Rumah Sakit Jiwa Akut (APH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adult Day Health Care (ADHC)</masterLabel>
+        <translation>Unit Kesehatan Penitipan Lansia (ADHC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambulatory Surgical Center (ASC)</masterLabel>
+        <translation>Pusat Bedah Rawat Jalan (ASC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chemical Dependency Recovery Hospital (CDRH)</masterLabel>
+        <translation>Rumah Sakit Pemulihan Ketergantungan Bahan Kimia (CDRH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chronic Dialysis Clinic (CDC)</masterLabel>
+        <translation>Klinik Dialisis Kronis (CDC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Congregate Living Health Facility (CLHF)</masterLabel>
+        <translation>Klinik Kesehatan Bersama (CLHF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End Stage Renal Dialysis (CDC/ESRD)</masterLabel>
+        <translation>Dialisis Ginjal Tahap Akhir (CDC/ESRD)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Acute Care Hospital (GACH)</masterLabel>
+        <translation>Rumah Sakit Perawatan Akut Umum (GACH)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Health Agency (HHA)</masterLabel>
+        <translation>Lembaga Kesehatan di Rumah (HHA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospice Facility (HOFA)</masterLabel>
+        <translation>Fasilitas Penginapan (HOFA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intermediate Care Facility (ICF)</masterLabel>
+        <translation>Fasilitas Perawatan Segera (ICF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Lainnya</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pediatric Day Health &amp; Respite Care Facility (PDHRC)</masterLabel>
+        <translation>Fasilitas Kesehatan Penitipan Anak &amp; Rawat Inap Jangka Pendek (PDHRC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary Care Clinic (PCC)</masterLabel>
+        <translation>Klinik Kesehatan Utama (PCC)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skilled Nursing Facility (SNF)</masterLabel>
+        <translation>Fasilitas Keperawatan Terlatih (SNF)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surgical Clinic (SURGC)</masterLabel>
+        <translation>Klinik Bedah (SURGC)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

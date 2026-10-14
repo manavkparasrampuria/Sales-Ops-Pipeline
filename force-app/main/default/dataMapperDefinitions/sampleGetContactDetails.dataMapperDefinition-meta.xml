@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleGetContactDetails</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleGetContactDetailsCustom6239</globalKey>
+        <inputField>FirstName</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleGetContactDetails</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleGetContactDetailsCustom9287</globalKey>
+        <inputField>Email</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleGetContactDetails</dataMapperDefItemName>
+        <filterDataType>ID</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>ContactId</filterValue>
+        <globalKey>sampleGetContactDetailsCustom1556</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleGetContactDetails</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleGetContactDetailsCustom9041</globalKey>
+        <inputField>Phone</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleGetContactDetails</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleGetContactDetailsCustom9455</globalKey>
+        <inputField>LastName</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <globalKey>sampleGetContactDetails</globalKey>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>sampleGetContactDetails</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;ContactId&quot; : &quot;&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Turbo Extract</type>
+</DataMapperDefinition>

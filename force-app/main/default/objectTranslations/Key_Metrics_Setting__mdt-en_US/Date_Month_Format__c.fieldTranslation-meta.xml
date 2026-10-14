@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- For options, in order, will display the following: 1, 01, J, Jan, January. Visit http://sfdc.co/date-component for more details. --></help>
+    <label><!-- Date Month Format --></label>
+    <name>Date_Month_Format__c</name>
+    <picklistValues>
+        <masterLabel>2-digit</masterLabel>
+        <translation><!-- 2-digit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>long</masterLabel>
+        <translation><!-- long --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>narrow</masterLabel>
+        <translation><!-- narrow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>numeric</masterLabel>
+        <translation><!-- numeric --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>short</masterLabel>
+        <translation><!-- short --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

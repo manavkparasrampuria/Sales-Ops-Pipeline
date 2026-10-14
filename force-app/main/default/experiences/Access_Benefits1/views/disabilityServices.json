@@ -1,0 +1,76 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "dd0d5cb3-7ba3-4e72-ab04-e6ea8c02e35b",
+  "label" : "Disability Services",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "4e22e01d-23ce-4ced-831d-594687935d56",
+          "columns" : [ {
+            "UUID" : "9a26a11a-8ef7-47d6-826e-f8484365ad84",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4e22e01d-23ce-4ced-831d-594687935d56",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "direction" : "ltr",
+            "display" : "Display OmniScript on page",
+            "inlineVariant" : "brand",
+            "language" : "English",
+            "subType" : "IntegratedEligibility",
+            "theme" : "lightning",
+            "type" : "HHS"
+          },
+          "componentName" : "runtime_omnistudio:omniscript",
+          "id" : "0c3fb099-3eec-49c9-b655-0553605874bd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9a26a11a-8ef7-47d6-826e-f8484365ad84",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "73349f38-99f0-4516-8d05-04d376c859f5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Disability Services"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "87a01657-2e40-4c39-ae18-843cc504a882",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "881f560a-dd7f-4049-9d9d-a7fa1bc3bbd8",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-disability-services"
+}

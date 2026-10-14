@@ -1,0 +1,55 @@
+{
+    "ContextId": null,
+    "NoTemplates": {
+    },
+    "Summary": {
+    },
+    "VisitDetails": {
+        "BlkInspectionType-Block": {
+            "BlkInspectionType": null
+        },
+        "EndDateTimeValidation": null,
+        "InspectionTypeId": null,
+        "MessagingEndAfterStart": null,
+        "OtherUser-Block": {
+            "OtherUser": null
+        },
+        "OwnerReviewerId": null,
+        "OwnerReviewerName": null,
+        "PlannedVisitEnd": null,
+        "PlannedVisitStart": null,
+        "ReviewerType": null,
+        "ReviewerTypeIncident": null,
+        "VisitNotes": null,
+        "VisitPriority": null,
+        "VisitorId": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CANCEL": null,
+        "DRCreateLocationAddressFromContextIdandVisit": null,
+        "DRCreateVisitRequestFromOmniscript_Facility": null,
+        "DRGetBLA_IActionPlanTemplates": null,
+        "DRGetCurrentBLAForVisit": null,
+        "DRGetCurrentCaseIncidentForVisit": null,
+        "DRGetCurrentFacilityForVisit": null,
+        "DRGetCurrentIAForVisit": null,
+        "DRGetInternalUsersforInspection": null,
+        "DRGetOtherActionPlanTemplates": null,
+        "DataRaptorTransformAction1": null,
+        "GetTemplateCount": null,
+        "NavigateAction1": null,
+        "NoTemplates": null,
+        "SetErrorsEndDatebeforeStart": null,
+        "SetValuesDates": null,
+        "SetValuesIncidentType": null,
+        "Summary": null,
+        "VisitDetails": null
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "SocialInsurance_CheckClaimResponseStatus_SampleInput.json",
+    "Description": "Checks whether the employer has responded to a workers' compensation claim filed by an employee. The check is done by fetching an individual application of type Acknowledged Claim associated with the claim.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "CheckClaimResponseStatus",
+    "OmniProcessElement": [
+        "SocialInsurance_CheckClaimResponseStatus_Element_FetchIndvApplnForEmployerResponse.json",
+        "SocialInsurance_CheckClaimResponseStatus_Element_AcknowledgedClaimIAExists.json",
+        "SocialInsurance_CheckClaimResponseStatus_Element_FetchClaimDetails.json",
+        "SocialInsurance_CheckClaimResponseStatus_Element_ClaimAcknowledged.json",
+        "SocialInsurance_CheckClaimResponseStatus_Element_ClaimYetToBeAcknowledged.json"
+    ],
+    "OmniProcessKey": "SocialInsurance_CheckClaimResponseStatus",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "SocialInsurance_CheckClaimResponseStatus_PropertySetConfig.json",
+    "SubType": "CheckClaimResponseStatus",
+    "Type": "SocialInsurance",
+    "UniqueName": "SocialInsurance_CheckClaimResponseStatus_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/SocialInsurance/CheckClaimResponseStatus/Procedure"
+}

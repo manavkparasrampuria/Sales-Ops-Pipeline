@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Request Reason --></label>
+    <name>PublicSector__RequestReason__c</name>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>ผู้พิการ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elderly</masterLabel>
+        <translation>ผู้สูงอายุ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Homeless</masterLabel>
+        <translation>คนไร้บ้าน</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Isolated</masterLabel>
+        <translation>ถูกแยกเดี่ยว</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>อื่น ๆ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarantined</masterLabel>
+        <translation>ถูกกักกัน</translation>
+    </picklistValues>
+</CustomFieldTranslation>

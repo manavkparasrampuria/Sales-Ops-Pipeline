@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRYouthJusticeAccount</dataMapperDefItemName>
+        <globalKey>DRYouthJusticeAccountCustom1545</globalKey>
+        <inputField>ContextId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>OmniAssessmentTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRYouthJusticeAccount</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRYouthJusticeAccountCustom910</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>OmniAssessmentTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRYouthJusticeAccount</dataMapperDefItemName>
+        <globalKey>DRYouthJusticeAccountCustom6560</globalKey>
+        <inputField>ParticipantId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>OwnerId</outputField>
+        <outputObject>OmniAssessmentTask</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRGetCarePlanID&quot;: null,
+        &quot;DRCreateNewAccount&quot;: null,
+        &quot;Thank You&quot;: null,
+        &quot;Save-Responses&quot;: null,
+        &quot;Step4&quot;: null,
+        &quot;Step3&quot;: null,
+        &quot;Step2&quot;: null,
+        &quot;Step1&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;Thank You&quot;: {},
+    &quot;Step4&quot;: {
+        &quot;Violent_Acts_block&quot;: {
+            &quot;Violent_Acts_assessmentresult&quot;: null,
+            &quot;Violent_Acts_uploadfile&quot;: [
+                {
+                    &quot;data&quot;: null,
+                    &quot;size&quot;: null,
+                    &quot;filename&quot;: null
+                }
+            ],
+            &quot;Violent_Acts&quot;: null
+        }
+    },
+    &quot;Step3&quot;: {
+        &quot;Days_of_work_or_school_missed_block&quot;: {
+            &quot;Days_of_work_or_school_missed&quot;: null,
+            &quot;Days_of_work_or_school_missed_uploadfile&quot;: [
+                {
+                    &quot;data&quot;: null,
+                    &quot;size&quot;: null,
+                    &quot;filename&quot;: null
+                }
+            ],
+            &quot;Days_of_work_or_school_missed_assessmentresult&quot;: null
+        }
+    },
+    &quot;Step2&quot;: {
+        &quot;Drug_Use_Last_90_days_block&quot;: {
+            &quot;Drug_Use_Last_90_days_uploadfile&quot;: [
+                {
+                    &quot;data&quot;: null,
+                    &quot;size&quot;: null,
+                    &quot;filename&quot;: null
+                }
+            ],
+            &quot;Drug_Use_Last_90_days_assessmentresult&quot;: null,
+            &quot;Drug_Use_Last_90_days&quot;: null
+        }
+    },
+    &quot;Step1&quot;: {
+        &quot;Have_you_gone_hungry_block&quot;: {
+            &quot;Have_you_gone_hungry_uploadfile&quot;: [
+                {
+                    &quot;data&quot;: null,
+                    &quot;size&quot;: null,
+                    &quot;filename&quot;: null
+                }
+            ],
+            &quot;Have_you_gone_hungry_assessmentresult&quot;: null,
+            &quot;Have_you_gone_hungry&quot;: null
+        }
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRYouthJusticeAccount</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;DRGetCarePlanID&quot;:null,&quot;DRCreateNewAccount&quot;:null,&quot;Thank You&quot;:null,&quot;Save-Responses&quot;:null,&quot;Step4&quot;:null,&quot;Step3&quot;:null,&quot;Step2&quot;:null,&quot;Step1&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;Thank You&quot;:{},&quot;Step4&quot;:{&quot;Violent_Acts_block&quot;:{&quot;Violent_Acts_assessmentresult&quot;:null,&quot;Violent_Acts_uploadfile&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;Violent_Acts&quot;:null}},&quot;Step3&quot;:{&quot;Days_of_work_or_school_missed_block&quot;:{&quot;Days_of_work_or_school_missed&quot;:null,&quot;Days_of_work_or_school_missed_uploadfile&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;Days_of_work_or_school_missed_assessmentresult&quot;:null}},&quot;Step2&quot;:{&quot;Drug_Use_Last_90_days_block&quot;:{&quot;Drug_Use_Last_90_days_uploadfile&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;Drug_Use_Last_90_days_assessmentresult&quot;:null,&quot;Drug_Use_Last_90_days&quot;:null}},&quot;Step1&quot;:{&quot;Have_you_gone_hungry_block&quot;:{&quot;Have_you_gone_hungry_uploadfile&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;Have_you_gone_hungry_assessmentresult&quot;:null,&quot;Have_you_gone_hungry&quot;:null}}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

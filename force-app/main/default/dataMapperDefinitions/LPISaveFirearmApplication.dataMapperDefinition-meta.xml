@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication44368564591973425</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ApplicationCaseId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication1868492050923214</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>LPISaveFirearmApplication9880021848441936</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <defaultValue>110</defaultValue>
+        <globalKey>LPISaveFirearmApplication14187403449848657</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AmountPaid</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <defaultValue>Fingerprint Fee</defaultValue>
+        <globalKey>LPISaveFirearmApplication1567605921279942</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication43980413281608</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <defaultValue>Application Fee</defaultValue>
+        <globalKey>LPISaveFirearmApplication014410553506322143</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication018264273606910963</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>ParentRecordId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication4693499359333395</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <defaultValue>75</defaultValue>
+        <globalKey>LPISaveFirearmApplication4718786919031799</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication7165269350378263</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <defaultValue>Paid</defaultValue>
+        <globalKey>LPISaveFirearmApplication6693512160204438</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <globalKey>LPISaveFirearmApplication4809542486372067</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <globalKey>LPISaveFirearmApplication2395405973149176</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <defaultValue>Firearm</defaultValue>
+        <globalKey>LPISaveFirearmApplication43301093185110284</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>DeveloperName</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <defaultValue>Firearm</defaultValue>
+        <globalKey>LPISaveFirearmApplication006815710202777936</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <globalKey>LPISaveFirearmApplication7627203976429648</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Asset</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <defaultValue>35</defaultValue>
+        <globalKey>LPISaveFirearmApplication71658102976803</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication3395039019213457</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>LPISaveFirearmApplication595217311607962</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <defaultValue>Permit</defaultValue>
+        <globalKey>LPISaveFirearmApplication6407049471215454</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication3134733319043941</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>gps_Individual_Application__c</outputField>
+        <outputObject>Asset</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication6182811265304</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Asset</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <globalKey>LPISaveFirearmApplication5500516482343798</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <globalKey>LPISaveFirearmApplication4719866345717081</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication35930162196671533</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <globalKey>LPISaveFirearmApplication7340790026668687</globalKey>
+        <inputField>AssetName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>Asset</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <formulaConverted>| &quot;Firearm/\/\/Asset/\/\/-/\/\/&quot; var:ApplicantInformation:FirstName &quot;/\/\/&quot; var:ApplicantInformation:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(&quot;Firearm Asset - &quot;,ApplicantInformation:FirstName,&quot; &quot;,ApplicantInformation:LastName)</formulaExpression>
+        <formulaResultPath>AssetName</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>LPISaveFirearmApplication04356213548887555</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <globalKey>LPISaveFirearmApplication08304248527979974</globalKey>
+        <inputField>FirearmsRegistration:SerialNumber</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>SerialNumber</outputField>
+        <outputObject>Asset</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <globalKey>LPISaveFirearmApplication5209432738990867</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <formulaConverted>| &quot;Concealed/\/\/Carry/\/\/Background/\/\/Check/\/\/-/\/\/&quot; var:ApplicantInformation:FirstName &quot;/\/\/&quot; var:ApplicantInformation:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(&quot;Concealed Carry Background Check - &quot;,ApplicantInformation:FirstName,&quot; &quot;,ApplicantInformation:LastName)</formulaExpression>
+        <formulaResultPath>CaseName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>LPISaveFirearmApplication2456814952502442</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <globalKey>LPISaveFirearmApplication7019696569477705</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveFirearmApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveFirearmApplication697565731569926</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRSaveFirearmApplication&quot;: null,
+        &quot;DRGetContactForFirarmUser&quot;: null,
+        &quot;DEBUG-SETTOCHARLES&quot;: null,
+        &quot;SetUserId&quot;: null,
+        &quot;GetAppointmentSlots&quot;: null,
+        &quot;Appointment&quot;: null,
+        &quot;FeesPayments&quot;: null,
+        &quot;Attachments&quot;: null,
+        &quot;FirearmRegistration&quot;: null,
+        &quot;ApplicantAffirmation&quot;: null,
+        &quot;FirearmsRegistration&quot;: null,
+        &quot;Training&quot;: null,
+        &quot;StatementOfEligibility&quot;: null,
+        &quot;ApplicantInformation&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;Appointment&quot;: {
+        &quot;AppointmentSlot&quot;: null
+    },
+    &quot;FeesPayments&quot;: {
+        &quot;PayNow&quot;: null,
+        &quot;CustomLWC1&quot;: null
+    },
+    &quot;Attachments&quot;: {
+        &quot;File1&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;File3&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;File2&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    },
+    &quot;FirearmRegistration&quot;: {
+        &quot;LicenseType&quot;: null
+    },
+    &quot;ApplicantAffirmation&quot;: {
+        &quot;CustomLWC2&quot;: null
+    },
+    &quot;FirearmsRegistration&quot;: {
+        &quot;AddressHistory&quot;: {
+            &quot;AddressStart&quot;: null,
+            &quot;EndDate&quot;: null,
+            &quot;AddressHistoryZip&quot;: null,
+            &quot;AddressHistoryState&quot;: null,
+            &quot;AddressHistoryCity&quot;: null,
+            &quot;AddressHistoryStreet&quot;: null
+        },
+        &quot;BriefStatement&quot;: null,
+        &quot;BarrelLength&quot;: null,
+        &quot;Caliber&quot;: null,
+        &quot;IdentifyingMarks&quot;: null,
+        &quot;Finish&quot;: null,
+        &quot;NoOfBarrels&quot;: null,
+        &quot;TypeOfAction&quot;: null,
+        &quot;NoOfShots&quot;: null,
+        &quot;ManufacturerIdNo&quot;: null,
+        &quot;SerialNumber&quot;: null,
+        &quot;Model&quot;: null,
+        &quot;MakeOfWeapon&quot;: null,
+        &quot;NewOrUsed&quot;: null,
+        &quot;SellerZipCode&quot;: null,
+        &quot;SellerState&quot;: null,
+        &quot;SellerCity&quot;: null,
+        &quot;SellerStreetAddress&quot;: null,
+        &quot;SellerName&quot;: null
+    },
+    &quot;Training&quot;: {
+        &quot;CompleteDCTraining&quot;: null,
+        &quot;IntendToCompleted45Days&quot;: null,
+        &quot;RequirementRequestingExemption&quot;: null,
+        &quot;RequestingExemption&quot;: null,
+        &quot;CompletedDCLawsTraining&quot;: null,
+        &quot;Completed2HoursRangeTraining&quot;: null,
+        &quot;Completed16HoursCertifiedInstructor&quot;: null
+    },
+    &quot;StatementOfEligibility&quot;: {
+        &quot;BonaFideAndConcealedAnotherState&quot;: null,
+        &quot;BonaFideBusiness&quot;: null,
+        &quot;BonaFideResidence&quot;: null,
+        &quot;SufferMentalIllness&quot;: null,
+        &quot;RegisterPistolConcurrently&quot;: null,
+        &quot;AlcoholicOrAddict&quot;: null,
+        &quot;CivilProtectionOrder&quot;: null,
+        &quot;TwoOrMoreDUIs&quot;: null,
+        &quot;LegallyBlind&quot;: null,
+        &quot;RenouncedCitizenship&quot;: null,
+        &quot;DishonorablyDischarged&quot;: null,
+        &quot;ProvidedAccurateAndTrue&quot;: null,
+        &quot;NegligentFirearm&quot;: null,
+        &quot;PhysicalDefect&quot;: null,
+        &quot;CommittedMentalHospital&quot;: null,
+        &quot;AquitedInsane&quot;: null,
+        &quot;ConvictedLast5YearsDrugs&quot;: null,
+        &quot;UnderIndictment&quot;: null,
+        &quot;ConvictedViolentCrime&quot;: null
+    },
+    &quot;ApplicantInformation&quot;: {
+        &quot;ApplicantAddress-Block&quot;: {
+            &quot;ApplicantAddress&quot;: null,
+            &quot;ZipCode&quot;: null,
+            &quot;State&quot;: null,
+            &quot;City&quot;: null,
+            &quot;StreetAddress&quot;: null
+        },
+        &quot;HairColor&quot;: null,
+        &quot;EyeColor&quot;: null,
+        &quot;Weight&quot;: null,
+        &quot;Height&quot;: null,
+        &quot;Race&quot;: null,
+        &quot;Sex&quot;: null,
+        &quot;DriversLicenseNumber&quot;: null,
+        &quot;SocialSecurityNumber&quot;: null,
+        &quot;PlaceOfBirth&quot;: null,
+        &quot;DateOfBirth&quot;: null,
+        &quot;EmailAddress&quot;: null,
+        &quot;WorkPhone&quot;: null,
+        &quot;HomePhone&quot;: null,
+        &quot;BusinessPostalCode&quot;: null,
+        &quot;BusinessState&quot;: null,
+        &quot;BusinessCity&quot;: null,
+        &quot;BusinessStreetAddress&quot;: null,
+        &quot;ApplyingAsABusinessOwner&quot;: null,
+        &quot;OccupationNameOfBusiness&quot;: null,
+        &quot;MiddleName&quot;: null,
+        &quot;FirstName&quot;: null,
+        &quot;LastName&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>LPISaveFirearmApplication</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;timeStamp&quot;: &quot;2021-09-13T18:15:16.701Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZone&quot;: &quot;-420&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;jblankenship@dc-mpd-gun2021.demo&quot;,
+  &quot;userId&quot;: &quot;0055f000000P7pMAAS&quot;,
+  &quot;ApplicantInformation&quot;: {
+    &quot;ApplyingAsABusinessOwner&quot;: false,
+    &quot;BusinessStreetAddress&quot;: null,
+    &quot;BusinessCity&quot;: null,
+    &quot;BusinessState&quot;: null,
+    &quot;BusinessPostalCode&quot;: null,
+    &quot;LastName&quot;: &quot;Green&quot;,
+    &quot;FirstName&quot;: &quot;Charles&quot;,
+    &quot;ApplicantAddress-Block&quot;: {
+      &quot;ApplicantAddress&quot;: &quot;1600 Pennsylvania Avenue Northwest, Washington, DC, USA&quot;,
+      &quot;ZipCode&quot;: &quot;20500&quot;,
+      &quot;State&quot;: &quot;DC&quot;,
+      &quot;City&quot;: &quot;Washington&quot;,
+      &quot;StreetAddress&quot;: &quot;1600 Pennsylvania Avenue Northwest&quot;
+    },
+    &quot;OccupationNameOfBusiness&quot;: &quot;Acme Inc&quot;,
+    &quot;HomePhone&quot;: null
+  },
+  &quot;StatementOfEligibility&quot;: {
+    &quot;ConvictedViolentCrime&quot;: &quot;No&quot;,
+    &quot;UnderIndictment&quot;: &quot;No&quot;,
+    &quot;ConvictedLast5YearsDrugs&quot;: &quot;No&quot;,
+    &quot;AquitedInsane&quot;: &quot;No&quot;,
+    &quot;CommittedMentalHospital&quot;: &quot;No&quot;,
+    &quot;PhysicalDefect&quot;: &quot;No&quot;,
+    &quot;NegligentFirearm&quot;: &quot;No&quot;,
+    &quot;ProvidedAccurateAndTrue&quot;: &quot;Yes&quot;,
+    &quot;DishonorablyDischarged&quot;: &quot;No&quot;,
+    &quot;RenouncedCitizenship&quot;: &quot;No&quot;,
+    &quot;LegallyBlind&quot;: &quot;No&quot;,
+    &quot;TwoOrMoreDUIs&quot;: &quot;No&quot;,
+    &quot;CivilProtectionOrder&quot;: &quot;No&quot;,
+    &quot;AlcoholicOrAddict&quot;: &quot;No&quot;,
+    &quot;RegisterPistolConcurrently&quot;: &quot;Yes&quot;,
+    &quot;SufferMentalIllness&quot;: &quot;No&quot;,
+    &quot;BonaFideResidence&quot;: &quot;Yes&quot;,
+    &quot;BonaFideBusiness&quot;: &quot;No&quot;,
+    &quot;BonaFideAndConcealedAnotherState&quot;: &quot;No&quot;
+  },
+  &quot;Training&quot;: {
+    &quot;CompleteDCTraining&quot;: true,
+    &quot;RequestingExemption&quot;: null,
+    &quot;RequirementRequestingExemption&quot;: null,
+    &quot;IntendToCompleted45Days&quot;: null,
+    &quot;Completed16HoursCertifiedInstructor&quot;: &quot;Yes&quot;,
+    &quot;Completed2HoursRangeTraining&quot;: &quot;Yes&quot;,
+    &quot;CompletedDCLawsTraining&quot;: &quot;Yes&quot;
+  },
+  &quot;FirearmsRegistration&quot;: {},
+  &quot;Attachments&quot;: {},
+  &quot;FeesPayments&quot;: {},
+  &quot;Appointment&quot;: {},
+  &quot;ApplicantAffirmation&quot;: {},
+  &quot;SampleUser&quot;: &quot;0055f000000P7pXAAS&quot;,
+  &quot;AccountId&quot;: &quot;0015f000005Cb5ZAAS&quot;,
+  &quot;ContactName&quot;: &quot;Charles Green&quot;,
+  &quot;ContactId&quot;: &quot;0035f000003tvaGAAQ&quot;,
+  &quot;ContactEmail&quot;: &quot;cgreen@mailinator.com&quot;,
+  &quot;FirearmRegistration&quot;: {
+    &quot;LicenseType&quot;: &quot;Concealed&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

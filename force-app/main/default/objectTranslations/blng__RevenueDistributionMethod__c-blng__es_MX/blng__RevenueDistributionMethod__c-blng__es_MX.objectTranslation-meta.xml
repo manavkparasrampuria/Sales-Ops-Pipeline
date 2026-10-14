@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Método de distribución de ingresos</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Métodos de distribución de ingresos</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre</nameFieldLabel>
+    <validationRules>
+        <errorMessage>No se puede seleccionar Manual en Fecha inicio plazo programación ingresos o Fecha de finalización de programación de ingresos cuando Proceso de creación transacción ingresos es Automático</errorMessage>
+        <name>blng__CannotSpecifyRevDatesifTransTypeAutomati</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La fecha de inicio y finalización de programación de ingresos solo debería ser manual cuando Proceso de creación transacción ingresos es Manual</errorMessage>
+        <name>blng__DontSpecifyDatesIfCreationProcessManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Fecha de reconocimiento completo no puede ser Manual cuando Proceso de creación transacción ingresos es Automático</errorMessage>
+        <name>blng__DontSpecifyFRDateIfCreationProcessManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La fecha de inicio y finalización de programación de ingresos no debería especificarse cuando el método de distribución es Reconocimiento completo</errorMessage>
+        <name>blng__DontSpecifyStartDateEndDateForFullRecogn</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Fecha de reconocimiento completo solo puede ser Manual cuando Proceso de creación transacción ingresos es Manual</errorMessage>
+        <name>blng__FulRecDateCanbeManualifTransTypeManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se puede seleccionar Fecha de reconocimiento completo cuando Método de distribución no es Reconocimiento completo</errorMessage>
+        <name>blng__FullRecDateEmptyForDailyMonthlyMethod</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Se requiere Fecha de reconocimiento completo cuando Método de distribución = Reconocimiento completo</errorMessage>
+        <name>blng__FullRecognitionDateIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Fecha de finalización de programación de ingresos debe estar alineada con Tipo</errorMessage>
+        <name>blng__RevenueScheduleEndDateAlignWithType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Fecha de inicio de programación de ingresos debe estar alineada con Tipo</errorMessage>
+        <name>blng__RevenueScheduleStartDateAlignWithType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Fecha de finalización de Fecha de reconocimiento completo debe estar alineada con Tipo.</errorMessage>
+        <name>blng__TYPESHOULDALIGNFULLRECOGNITIONDATE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Se requiere Fecha de finalización de plazo cuando Método de distribución = Mensual / Diario</errorMessage>
+        <name>blng__TermEndDateIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Se requiere Fecha de inicio de plazo cuando Método de distribución = Mensual / Diario</errorMessage>
+        <name>blng__TermStartDateIsRequired</name>
+    </validationRules>
+</CustomObjectTranslation>

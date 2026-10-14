@@ -1,0 +1,52 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "TestEducationDetails/Salesforce/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "recordId",
+                    "val": "1LaSB0000030Zs50AE"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "ApexRemote",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "IFSId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "remoteClass": "IFSGetReferenceRecordID",
+                "remoteMethod": "getReferenceRecordId",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "AFEducationDetails",
+    "Namespace": "",
+    "OmniUiCardKey": "AFEducationDetails/Salesforce/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "AFEducationDetails.json",
+    "SampleDataSourceResponse": "{\"ReferenceRecordId\":\"13XSB0000001dAb2AI\",\"errorCode\":\"INVOKE-200\",\"error\":\"OK\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "AFEducationDetails_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/AFEducationDetails"
+}

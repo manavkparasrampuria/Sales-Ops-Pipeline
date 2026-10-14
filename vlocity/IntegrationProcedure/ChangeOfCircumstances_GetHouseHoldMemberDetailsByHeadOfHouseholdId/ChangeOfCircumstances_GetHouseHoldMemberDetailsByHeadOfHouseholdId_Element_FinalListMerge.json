@@ -1,0 +1,79 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "FinalListMerge",
+    "OmniProcessId": {
+        "Name": "GetHouseHoldMemberDetailsByHeadOfHouseholdId",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/GetHouseHoldMemberDetailsByHeadOfHouseholdId/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "advancedMerge": true,
+        "advancedMergeMap": [
+            {
+                "listKey": "MergedAccountsAndContacts",
+                "matchingPath": "AccountId",
+                "normalizeKey": "1"
+            },
+            {
+                "listKey": "TransformDisabilityDataToUniqueAttributes:AllPersonDisabilityList",
+                "matchingPath": "IndividualId",
+                "normalizeKey": "1"
+            },
+            {
+                "listKey": "LoopPAPs",
+                "matchingPath": "PAP:AccountId",
+                "normalizeKey": "1"
+            }
+        ],
+        "allowMergeNulls": false,
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "dynamicOutputFields": "",
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "filterListFormula": "",
+        "hasPrimary": true,
+        "label": "ListAction2",
+        "mergeFields": [
+        ],
+        "mergeListsOrder": [
+            "MergedAccountsAndContacts",
+            "TransformDisabilityDataToUniqueAttributes:AllPersonDisabilityList",
+            "LoopPAPs"
+        ],
+        "primaryListKey": "MergedAccountsAndContacts",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "sortBy": [
+        ],
+        "sortInDescendingOrder": false,
+        "updateFieldValue": {
+        },
+        "useFormulas": true
+    },
+    "Type": "List Merge Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/GetHouseHoldMemberDetailsByHeadOfHouseholdId/Procedure/FinalListMerge"
+}

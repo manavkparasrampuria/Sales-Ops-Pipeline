@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "TestRecruitmentShowApplicantWorkExperienceDetails/Salesforce/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 2,
+                    "name": "Parent.applicationFormId",
+                    "val": "13Xxx0000004CfIEAU"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "applicationFormId": "{Parent.applicationFormId}"
+                },
+                "ipMethod": "Recruitment_GetApplicantWorkExperienceDetails",
+                "jsonMap": "{\"Parent.applicationFormId\":\"{Parent.applicationFormId}\"}",
+                "resultVar": "[\"WorkExperience\"]",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "Shows the details of a work experience item provided by an applicant in a job application.",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "AFRecruitmentShowApplicantWorkExperienceDetails",
+    "Namespace": "",
+    "OmniUiCardKey": "AFRecruitmentShowApplicantWorkExperienceDetails/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "AFRecruitmentShowApplicantWorkExperienceDetails.json",
+    "SampleDataSourceResponse": "{\"WorkExperience\":null}",
+    "StylingConfiguration": "",
+    "UniqueName": "AFRecruitmentShowApplicantWorkExperienceDetails_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/AFRecruitmentShowApplicantWorkExperienceDetails"
+}

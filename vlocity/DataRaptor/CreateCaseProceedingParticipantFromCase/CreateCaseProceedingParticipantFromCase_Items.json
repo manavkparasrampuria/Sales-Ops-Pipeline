@@ -1,0 +1,118 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CreateCaseProceedingParticipantFromCaseCustom2576",
+        "InputFieldName": "DRId_CaseProceeding",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CreateCaseProceedingParticipantFromCase",
+        "OmniDataTransformationId": {
+            "Name": "CreateCaseProceedingParticipantFromCase",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateCaseProceedingParticipantFromCase",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CaseProceedingId",
+        "OutputObjectName": "CaseProceedingParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "CreateCaseProceedingParticipantFromCaseCustom1517",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "CreateCaseProceedingParticipantFromCase",
+        "OmniDataTransformationId": {
+            "Name": "CreateCaseProceedingParticipantFromCase",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateCaseProceedingParticipantFromCase",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "CaseProceedingParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CreateCaseProceedingParticipantFromCaseCustom9543",
+        "InputFieldName": "Participants:caseParticipants:SelectFromList:selectedCaseParticipants:selectedCaseParticipants:pid",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CreateCaseProceedingParticipantFromCase",
+        "OmniDataTransformationId": {
+            "Name": "CreateCaseProceedingParticipantFromCase",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateCaseProceedingParticipantFromCase",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ParticipantId",
+        "OutputObjectName": "CaseProceedingParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CreateCaseProceedingParticipantFromCaseCustom1321",
+        "InputFieldName": "Participants:caseParticipants:SelectFromList:selectedCaseParticipants:selectedCaseParticipants:role",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CreateCaseProceedingParticipantFromCase",
+        "OmniDataTransformationId": {
+            "Name": "CreateCaseProceedingParticipantFromCase",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateCaseProceedingParticipantFromCase",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Role",
+        "OutputObjectName": "CaseProceedingParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CreateCaseProceedingParticipantFromCaseCustom9656",
+        "InputFieldName": "Participants:caseParticipants:SelectFromList:selectedCaseParticipants:selectedCaseParticipants:status",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CreateCaseProceedingParticipantFromCase",
+        "OmniDataTransformationId": {
+            "Name": "CreateCaseProceedingParticipantFromCase",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CreateCaseProceedingParticipantFromCase",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "CaseProceedingParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

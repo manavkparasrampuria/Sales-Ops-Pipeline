@@ -10,11 +10,11 @@
     <height>600</height>
     <isResizable>true</isResizable>
     <linkType>url</linkType>
-    <masterLabel>Noticias de Google</masterLabel>
+    <masterLabel>Google News</masterLabel>
     <openType>newWindow</openType>
     <position>none</position>
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>http://www.google.com/news?&amp;q={!Lead.Company}&amp;btnG=Search+News</url>
+    <url>http://www.google.com/news?&amp;q={!Lead_Company}&amp;btnG=Search+News</url>
 </WebLink>

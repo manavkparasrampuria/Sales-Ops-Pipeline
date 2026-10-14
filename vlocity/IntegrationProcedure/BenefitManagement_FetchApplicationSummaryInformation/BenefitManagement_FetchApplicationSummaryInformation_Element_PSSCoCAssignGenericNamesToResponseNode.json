@@ -1,0 +1,44 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PSSCoCAssignGenericNamesToResponseNode",
+    "OmniProcessId": {
+        "Name": "FetchApplicationSummaryInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/FetchApplicationSummaryInformation/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "PSSCoCAssignGenericNamesToResponseNode1",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "FetchIndividualApplicationStatus:ApplicationType == \"ChangeOfCircumstance\" || FetchIndividualApplicationStatus:ApplicationType == \"Recertification\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "ignoreCache": false,
+        "label": "DataMapperTransformAction1",
+        "responseJSONNode": "TransformedAQR",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "ReadExpenseAndHeating:AssessmentDataReturned",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Transform Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/FetchApplicationSummaryInformation/Procedure/PSSCoCAssignGenericNamesToResponseNode"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IntegrationProcdDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Accepts JSON representations of records and adds the record information to a list in serialized format.</description>
+    <integProcdName>CreateSerializedRecordList</integProcdName>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>IfPayloadString</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues2&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;AppendedString&quot;:&quot;=%ResString% + \&quot;,\&quot; + %PayloadString%&quot;}</elementValueMap>
+            <executionConditionalFormula>ISBLANK(%PayloadString%) != true</executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>ResString</responseJSONNode>
+            <responseJSONPath>AppendedString</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>2.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>ResponseAction1</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <additionalOutput>{&quot;ResString&quot;:&quot;%ResString%&quot;}</additionalOutput>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;responseDefaultData&quot;:{},&quot;show&quot;:null,&quot;label&quot;:&quot;ResponseAction1&quot;}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <responseFormat>JSON</responseFormat>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnFullDataJSON>false</returnFullDataJSON>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath></sendJSONPath>
+            <useFormulas>true</useFormulas>
+            <vlcResponseHeaders>{}</vlcResponseHeaders>
+        </propertySetConfig>
+        <sequenceNumber>3.0</sequenceNumber>
+        <type>Response Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>SetSerializeMapObject</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues1&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;SerString&quot;:&quot;=SERIALIZE(%MapObject%)&quot;}</elementValueMap>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>ResString</responseJSONNode>
+            <responseJSONPath>SerString</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcedureDefKey>BenefitManagement_CreateSerializedRecordList</integrationProcedureDefKey>
+    <integrationProcedureType>Integration Procedure</integrationProcedureType>
+    <isActive>true</isActive>
+    <isIntegProcdSignatureAvl>false</isIntegProcdSignatureAvl>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <masterLabel>BenefitManagement_CreateSerializedRecordList_Procedure</masterLabel>
+    <propertySetConfig>
+        <additionalChainableResponse>{}</additionalChainableResponse>
+        <chainableCpuLimit>2000</chainableCpuLimit>
+        <chainableQueriesLimit>50</chainableQueriesLimit>
+        <columnsPropertyMap>[]</columnsPropertyMap>
+        <description></description>
+        <dynamicProperties>{}</dynamicProperties>
+        <includeAllActionsInResponse>false</includeAllActionsInResponse>
+        <labelPlural></labelPlural>
+        <labelSingular></labelSingular>
+        <linkToExternalObject></linkToExternalObject>
+        <mockResponseMap>{}</mockResponseMap>
+        <nameColumn></nameColumn>
+        <queueableChainableCpuLimit>40000</queueableChainableCpuLimit>
+        <queueableChainableHeapSizeLimit>6</queueableChainableHeapSizeLimit>
+        <queueableChainableQueriesLimit>120</queueableChainableQueriesLimit>
+        <relationshipFieldsMap>[]</relationshipFieldsMap>
+        <rollbackOnError>false</rollbackOnError>
+        <trackingCustomData>{}</trackingCustomData>
+        <ttlMinutes>5</ttlMinutes>
+    </propertySetConfig>
+    <references>[]</references>
+    <subType>CreateSerializedRecordList</subType>
+    <type>BenefitManagement</type>
+</IntegrationProcdDefinition>

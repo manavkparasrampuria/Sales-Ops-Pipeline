@@ -1,0 +1,130 @@
+{
+    "AddressInformation": {
+        "BusinessOwnershipInformation": {
+            "EntityType": "SoleProprietor",
+            "ResponsibleEmail": "jsimmons@mailinator.com",
+            "ResponsibleFax": "6235558080",
+            "ResponsibleName": "Jennifer Simmons",
+            "ResponsibleOther": null,
+            "ResponsiblePhone": "6235554343"
+        },
+        "EstablishmentInfo": {
+            "EstablishmentEmail": "AstrosDiner@mailinator.com",
+            "EstablishmentFax": "6235557676",
+            "EstablishmentName": "Astro's Diner",
+            "EstablishmentPhone": "6235551212"
+        }
+    },
+    "ContactEmail": "jsimmons062021@gmail.com",
+    "ContactId": "003KX000001XoHbYAK",
+    "ContactName": "Jennifer Simmons",
+    "ContactPhone": "361-826-0683",
+    "ContractorArchitectInfo": {
+        "ArchitectNA": true,
+        "Checkbox1": false,
+        "ContractorEmail": "stevewilliams@mailinator.com",
+        "ContractorFax": "3933493939",
+        "ContractorName": "Steve Williams",
+        "ContractorPhone": "6343843828"
+    },
+    "Disclaimer": {
+        "DisclaimerDate1": "2024-06-25",
+        "DisclaimerDate2": "2024-06-25",
+        "Disclosure1": true,
+        "Disclosure2": true
+    },
+    "DogPatio": "DogYes",
+    "Fee": 245,
+    "FeePreviewStep": {
+        "EnvFee": {
+            "MinorReviewFee": 245,
+            "NewBusinessFee": 315,
+            "TotalFees": 560
+        }
+    },
+    "Menu": {
+        "HoursOfOperation": {
+            "DayOfWeek": "Weekdays",
+            "EndTime": "22:00:00.000Z",
+            "StartTime": "06:00:00.000Z"
+        },
+        "MenuCuisine": null,
+        "MenuDesc": "Astro’s Diner, a full-service, casual dining restaurant, will provide a static menu that is separated into groups (e.g., breakfast, lunch, dinner, brunch, drinks).  Each group will be broken down by categories like appetizers, pastas, sandwiches, sides, etc.  The type of food will be casual dining with traditional Mexican and American dishes.",
+        "SeatingCapacity": 55
+    },
+    "MinorReviewFeeName": "Minor Review",
+    "NewBusinessFeeName": "New Business Permit",
+    "PermitChoice": {
+        "BusinessType": "NewBusiness;MinorReview",
+        "ConstInstallDate": "2021-10-11",
+        "ConstInstallEndDate": "2021-10-15",
+        "ExpeditedReview": "ExpediteReviewNo",
+        "MinorAndNew": true,
+        "MinorOrNew": true,
+        "NewBusiness": true,
+        "OwnerChangeDate": "2021-10-01",
+        "PermitActivity": "New"
+    },
+    "PermitQuestionnaire": {
+        "BriefDescription": "Taking over the existing diner.  Changing the name to Astro's Diner.  Replacing the existing (broken) ice maker in the existing dog friendly patio with the same model.",
+        "DriveThru": "DriveThruNo",
+        "ExteriorOpenings": "ExteriorOpeningsNo",
+        "Floors": 1,
+        "OutdoorOperations": "OutdoorYes",
+        "SquareFeet": 4500
+    },
+    "PlumbingFinish": {
+        "DrainFinish": null,
+        "RecoveryRate": 200,
+        "Sewer": "Municipal",
+        "SewerProvider": "Buckeye Utility District",
+        "Water": "Municipal",
+        "WaterHeater": 500,
+        "WaterProvider": "Buckeye Community Water"
+    },
+    "PrefillBillingAddress": null,
+    "PrefillEstablishmentAddress": "11720 Plaza America Drive,Reston,VA,20190,United States",
+    "PrefillInspectionAddress": null,
+    "PrefillResponsibleAddress": "11720 Plaza America Drive,Reston,VA,20190,United States",
+    "PrepopulateAddress": "11720 Plaza America Drive,Reston,VA,20190,United States",
+    "PrepopulateCity": "Reston",
+    "PrepopulateCountry": "United States",
+    "PrepopulatePostalCode": "20190",
+    "PrepopulateState": "VA",
+    "PrepopulateStreet": "11720 Plaza America Drive",
+    "SampleUser": "005KX000000UBiTYAW",
+    "SaveEstablishmentAddress": "11720 Plaza America Drive,Reston,VA,20190,United States",
+    "SaveEstablishmentCity": "Reston",
+    "SaveEstablishmentCountry": "United States",
+    "SaveEstablishmentPostalCode": "",
+    "SaveEstablishmentState": "VA",
+    "SaveEstablishmentStreet": "11720 Plaza America Drive",
+    "SaveInspectionAStreet": "11720 Plaza America Drive",
+    "SaveInspectionAddress": "11720 Plaza America Drive,Reston,VA,20190,United States",
+    "SaveInspectionCity": "Reston",
+    "SaveInspectionCountry": "United States",
+    "SaveInspectionPostalCode": "",
+    "SaveInspectionState": "VA",
+    "SaveResponsibleAddress": "11720 Plaza America Drive,Reston,VA,20190,United States",
+    "SaveResponsibleCity": "Reston",
+    "SaveResponsibleCountry": "United States",
+    "SaveResponsiblePostalCode": "",
+    "SaveResponsibleState": "VA",
+    "SaveResponsibleStreet": "11720 Plaza America Drive",
+    "language": "English",
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jNKX000000CbUz2AK",
+    "omniscriptId": "0jNKX000000CbUz2AK",
+    "runMode": "preview",
+    "sId": "0jNKX000000CbUz2AK",
+    "subType": "FoodEstablishmentPermit",
+    "theme": "lightning",
+    "timeStamp": "2024-06-25T17:56:21.734Z",
+    "type": "LicensingAndPermitting",
+    "userCurrencyCode": "USD",
+    "userId": "005KX000000xWOxYAM",
+    "userName": "jblankenship@gps250.dev3",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

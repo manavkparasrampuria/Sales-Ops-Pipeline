@@ -1,0 +1,61 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PSSFetchIncome",
+    "OmniProcessId": {
+        "Name": "ApplictionSummaryCaseWorkerGuidedFlow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopOldPartyIncome",
+        "OmniProcessId": {
+            "Name": "ApplictionSummaryCaseWorkerGuidedFlow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure/LoopOldPartyIncome",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopOldPartyIncome",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "partyIncomeId": "=%AssessmentPartyIncome:partyIncomeId%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "PSSFetchIncomeFromPartyIncomeId1",
+        "chainOnStep": false,
+        "dataRaptor Input Parameters": [
+        ],
+        "disOnTplt": false,
+        "executionConditionalFormula": "((AssessmentPartyIncome:actionType == \"Update\") || (AssessmentPartyIncome:actionType == \"Remove\") || (AssessmentPartyIncome:actionType == \"None\"))==true && AssessmentPartyIncome:partyIncomeId != \"Add\" ",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "ignoreCache": true,
+        "label": "DataMapperTurboAction2",
+        "responseJSONNode": "IncomeDetails",
+        "responseJSONPath": "Income|1",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Turbo Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure/PSSFetchIncome"
+}

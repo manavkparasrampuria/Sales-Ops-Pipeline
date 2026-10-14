@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>긴급 요청</value>
+    </caseValues>
+    <nameFieldLabel>긴급 요청</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Emergency Assistance Request --></label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Emergency Supplies Donation --></label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Emergency Supplies Request --></label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

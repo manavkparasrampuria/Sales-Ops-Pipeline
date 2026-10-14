@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Request Reason --></label>
+    <name>PublicSector__RequestReason__c</name>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>Työkyvytön</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elderly</masterLabel>
+        <translation>Iäkäs</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Homeless</masterLabel>
+        <translation>Koditon</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Isolated</masterLabel>
+        <translation>Eristetty</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Muu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarantined</masterLabel>
+        <translation>Karanteenissa</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,27 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "DocumentChecklistItemProofOfMemberDetail",
+    "OmniProcessId": {
+        "Name": "ModifyReturnedIndividualApplication",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/ModifyReturnedIndividualApplication/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "ISNOTBLANK(TransformDataForDocumentChecklistItems) && ISNOTBLANK(TransformDataForDocumentChecklistItems:HouseholdInformation) && ISNOTBLANK(TransformDataForDocumentChecklistItems:HouseholdInformation:AttachMemberDetailProofs)",
+        "label": "LoopBlock3",
+        "loopList": "TransformDataForDocumentChecklistItems:HouseholdInformation:AttachMemberDetailProofs",
+        "loopOutput": {
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/ModifyReturnedIndividualApplication/Procedure/DocumentChecklistItemProofOfMemberDetail"
+}

@@ -1,0 +1,134 @@
+{
+    "AccountId": "0015f000005YjR4AAK",
+    "Consent": null,
+    "ConsentType": {
+        "ConsentChoice": "PDFGen"
+    },
+    "ContactName": "Charlie MacPherson",
+    "DRId_Financial_Report__c": "a9w5f000000UDcEAAW",
+    "EditBlkIndirectExpenditures": {
+        "BlkFormIndirectExpenses": {
+            "FormIndirectAmountCharged_1": 2747.44,
+            "FormIndirectAmountCharged_2": 1717.15,
+            "FormIndirectBase_1": 34343,
+            "FormIndirectBase_2": 34343,
+            "FormIndirectFedShare_1": 34343,
+            "FormIndirectFedShare_2": 34343,
+            "FormIndirectPeriodFrom_1": "2021-10-01",
+            "FormIndirectPeriodFrom_2": "2021-10-16",
+            "FormIndirectPeriodTo_1": "2021-10-15",
+            "FormIndirectPeriodTo_2": "2021-10-30",
+            "FormIndirectRate_1": 8,
+            "FormIndirectRate_2": 5,
+            "FormIndirectTotals_1": 71433.44,
+            "FormIndirectTotals_2": 70403.15,
+            "FormIndirectType_1": "Provisional",
+            "FormIndirectType_2": "Provisional"
+        },
+        "EditIndirectExpenses": [
+            {
+                "FinReportId": "a9w5f000000UDcEAAW",
+                "edit_IndirectAmountCharged": 2747.44,
+                "edit_IndirectBase": 34343,
+                "edit_IndirectFedShare": 34343,
+                "edit_IndirectPeriodFrom": "2021-10-01",
+                "edit_IndirectPeriodTo": "2021-10-15",
+                "edit_IndirectRate": 8,
+                "edit_IndirectTotals": 71433.44,
+                "edit_IndirectType": "Provisional"
+            },
+            {
+                "FinReportId": "a9w5f000000UDcEAAW",
+                "edit_IndirectAmountCharged": 1717.15,
+                "edit_IndirectBase": 34343,
+                "edit_IndirectFedShare": 34343,
+                "edit_IndirectPeriodFrom": "2021-10-16",
+                "edit_IndirectPeriodTo": "2021-10-30",
+                "edit_IndirectRate": 5,
+                "edit_IndirectTotals": 70403.15,
+                "edit_IndirectType": "Provisional"
+            }
+        ],
+        "Edit_TotalAmountCharged": 4464.59,
+        "Edit_TotalBase": 68686,
+        "Edit_TotalFedShare": 68686
+    },
+    "RecipientInformation": {
+        "BlkRecipients": {
+            "RecipientCountry-Block": {
+                "RecipientCountry": "United States"
+            },
+            "RecipientEIN": "123456",
+            "RecipientName": "Wisconsin Department of Transportation",
+            "RecipientState": "WI",
+            "RecipientStreet1": "4822 Madison Yards Way",
+            "RecipientUEI": "123456",
+            "RecipientZip": "53707",
+            "RecpientCity": "Madison"
+        },
+        "RecipientDUNS": "1234-12-12345"
+    },
+    "RemarksAttachments": {
+        "Remarks": "This report supersedes previous one that had mistakes"
+    },
+    "ReportInfo": {
+        "AccountingBasis": "Cash",
+        "BlkGrantPeriod": {
+            "GrantPeriodFrom": "2021-07-01",
+            "GrantPeriodTo": "2021-09-30"
+        },
+        "BlkMultipleGrants": null,
+        "BlkSingleGrant": {
+            "GrantSelection-Block": {
+                "FedGrantNumber": "DOT-21-0002",
+                "GrantSelection": "DOT-21-0002",
+                "ProjectId": "a9q5f000000sd7OAAQ",
+                "ProjectName": "Clean Energy Infrastructure Improvement - Southeast Sector"
+            }
+        },
+        "MultpleGrantsChoice": "No",
+        "RecipientAccountNumber": "WIDOT2345",
+        "ReportType": "Quarterly",
+        "ReportingEndDate": "2021-09-30"
+    },
+    "Transactions": {
+        "BlkFedCash": {
+            "TransCash_CalcCashOnHand": 6993,
+            "TransCash_CashDisbursements": 53000,
+            "TransCash_CashReceipts": 59993
+        },
+        "BlkFedExpend": {
+            "TransExpend_Authorized": 34343,
+            "TransExpend_CalcBalance": 26566,
+            "TransExpend_CalcTotalFedShare": 7777,
+            "TransExpend_ShareExpenditures": 4343,
+            "TransExpend_Shareobligations": 3434
+        },
+        "BlkProgramIncome": {
+            "TransIncome_CalcUnexpendedIncome": 54536,
+            "TransIncome_IncomeEarned": 54545,
+            "TransIncome_IncomeExpended": 51454,
+            "TransIncome_IncomeExpendedAddition": 51445
+        },
+        "BlkRecipientShare": {
+            "TransRecipient_CalcRecipientShare": 902,
+            "TransRecipient_ShareExpenditures": 23432,
+            "TransRecipient_Sharerequired": 24334
+        }
+    },
+    "UserEmail": "charlie.macpherson@mailinator.com",
+    "UserFirstName": "Charlie",
+    "UserLastName": "MacPherson",
+    "UserPhone": "626-351-4664",
+    "UserTitle": "Director of Project Management & Innovation",
+    "Welcome": {
+        "FedAgency": "Federal Railroad Administration",
+        "TestuserId": "0055f000002kmuGAAQ"
+    },
+    "timeStamp": "2021-12-01T14:43:42.131Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055f000005Z6eOAAS",
+    "userName": "kwinderlich@grants.gps",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480"
+}

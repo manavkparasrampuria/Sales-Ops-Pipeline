@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <defaultValue>KENO 603 Fee</defaultValue>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem19</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <formulaConverted>| var:ApplicationDetails:StoreOwnerFirstName &quot;/\/\/&quot; var:ApplicationDetails:StoreOwnerLastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(ApplicationDetails:StoreOwnerFirstName,&quot; &quot;,ApplicationDetails:StoreOwnerLastName)</formulaExpression>
+        <formulaResultPath>StoreOwnerFullName</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem1</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem18</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <defaultValue>PAID</defaultValue>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem16</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem3</globalKey>
+        <inputField>ApplicationDetails:PhysicalAddress-Block:PhysicalCity</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteCity</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem2</globalKey>
+        <inputField>StoreOwnerFullName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Contact</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PrimaryOwnerId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem21</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <defaultValue>500</defaultValue>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem20</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem12</globalKey>
+        <inputField>StoreOwnerFullName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Contact</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicantId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem11</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem10</globalKey>
+        <inputField>ApplicationDetails:StoreName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Account</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem8</globalKey>
+        <inputField>ApplicationDetails:PhysicalAddress-Block:PhysicalPostalCode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SitePostalCode</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem15</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ParentRecordId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem14</globalKey>
+        <inputField>ApplicationDetails:StoreName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Account</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem17</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem13</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem7</globalKey>
+        <inputField>ApplicationDetails:PhysicalAddress-Block:PhysicalState</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteState</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem6</globalKey>
+        <inputField>ApplicationDetails:PhysicalAddress-Block:PhysicalStreet</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteStreet</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <defaultValue>Permit</defaultValue>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem9</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <defaultValue>Retail Dispensary</defaultValue>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem5</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem0</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPILotteryCreateApplication</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>LPILotteryCreateApplicationCustom0jIDn000000gqlHMAQItem4</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;ApplicationDetails&quot;: null,
+        &quot;BusinessDetails&quot;: null,
+        &quot;Signature&quot;: null,
+        &quot;FeePayment&quot;: null,
+        &quot;Documentation&quot;: null,
+        &quot;Overview&quot;: null,
+        &quot;DRCreateApplication&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;ApplicationDetails&quot;: {
+        &quot;TypeOfProducts&quot;: null,
+        &quot;StoreEmail&quot;: null,
+        &quot;ManagerLastName&quot;: null,
+        &quot;PhysicalAddress-Block&quot;: {
+            &quot;PhysicalAddress&quot;: null,
+            &quot;PhysicalStreet&quot;: null,
+            &quot;PhysicalPostalCode&quot;: null,
+            &quot;PhysicalCity&quot;: null,
+            &quot;PhysicalState&quot;: null
+        },
+        &quot;StoreOwnerFirstName&quot;: null,
+        &quot;ManagerFirstName&quot;: null,
+        &quot;StoreOwnerLastName&quot;: null,
+        &quot;TypeOfApplication&quot;: null,
+        &quot;EIN&quot;: null,
+        &quot;StorePhone&quot;: null,
+        &quot;StoreName&quot;: null
+    },
+    &quot;BusinessDetails&quot;: {
+        &quot;OpenSat&quot;: null,
+        &quot;ClosedFri&quot;: null,
+        &quot;TypeOfBusiness&quot;: null,
+        &quot;OpenSun&quot;: null,
+        &quot;OpenTues&quot;: null,
+        &quot;ClosedThur&quot;: null,
+        &quot;KenoApproved&quot;: null,
+        &quot;OpenWed&quot;: null,
+        &quot;CurrentlyHaveKeno&quot;: null,
+        &quot;OpenFri&quot;: null,
+        &quot;ClosedWed&quot;: null,
+        &quot;ClosedSun&quot;: null,
+        &quot;OpenThur&quot;: null,
+        &quot;RegisteredSecretaryOfState&quot;: null,
+        &quot;ClosedMon&quot;: null,
+        &quot;ClosedTues&quot;: null,
+        &quot;LiquorLicenseNumber&quot;: null,
+        &quot;ClosedSat&quot;: null,
+        &quot;CurrentlyHaveVendingMachine&quot;: null,
+        &quot;HaveLiquorLicense&quot;: null,
+        &quot;CurrentRetailer&quot;: null,
+        &quot;Seasonal&quot;: null,
+        &quot;OpenMon&quot;: null
+    },
+    &quot;Signature&quot;: {
+        &quot;CustomLWC1&quot;: null
+    },
+    &quot;FeePayment&quot;: {
+        &quot;CustomLWC2&quot;: null,
+        &quot;PayNow&quot;: null
+    },
+    &quot;Documentation&quot;: {
+        &quot;File2&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;File1&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    },
+    &quot;Overview&quot;: {}
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>LPILotteryCreateApplication</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;ApplicationDetails&quot;:null,&quot;BusinessDetails&quot;:null,&quot;Signature&quot;:null,&quot;FeePayment&quot;:null,&quot;Documentation&quot;:null,&quot;Overview&quot;:null,&quot;DRCreateApplication&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;ApplicationDetails&quot;:{&quot;TypeOfProducts&quot;:null,&quot;StoreEmail&quot;:null,&quot;ManagerLastName&quot;:null,&quot;PhysicalAddress-Block&quot;:{&quot;PhysicalAddress&quot;:null,&quot;PhysicalStreet&quot;:null,&quot;PhysicalPostalCode&quot;:null,&quot;PhysicalCity&quot;:null,&quot;PhysicalState&quot;:null},&quot;StoreOwnerFirstName&quot;:null,&quot;ManagerFirstName&quot;:null,&quot;StoreOwnerLastName&quot;:null,&quot;TypeOfApplication&quot;:null,&quot;EIN&quot;:null,&quot;StorePhone&quot;:null,&quot;StoreName&quot;:null},&quot;BusinessDetails&quot;:{&quot;OpenSat&quot;:null,&quot;ClosedFri&quot;:null,&quot;TypeOfBusiness&quot;:null,&quot;OpenSun&quot;:null,&quot;OpenTues&quot;:null,&quot;ClosedThur&quot;:null,&quot;KenoApproved&quot;:null,&quot;OpenWed&quot;:null,&quot;CurrentlyHaveKeno&quot;:null,&quot;OpenFri&quot;:null,&quot;ClosedWed&quot;:null,&quot;ClosedSun&quot;:null,&quot;OpenThur&quot;:null,&quot;RegisteredSecretaryOfState&quot;:null,&quot;ClosedMon&quot;:null,&quot;ClosedTues&quot;:null,&quot;LiquorLicenseNumber&quot;:null,&quot;ClosedSat&quot;:null,&quot;CurrentlyHaveVendingMachine&quot;:null,&quot;HaveLiquorLicense&quot;:null,&quot;CurrentRetailer&quot;:null,&quot;Seasonal&quot;:null,&quot;OpenMon&quot;:null},&quot;Signature&quot;:{&quot;CustomLWC1&quot;:null},&quot;FeePayment&quot;:{&quot;CustomLWC2&quot;:null,&quot;PayNow&quot;:null},&quot;Documentation&quot;:{&quot;File2&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;File1&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]},&quot;Overview&quot;:{}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

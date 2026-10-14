@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>DRCreateGMIndAppCustom7064</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <formulaConverted>| var:LOIDetails:OrgContactFirstName &apos;/\/\/&apos; var:LOIDetails:OrgContactLastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(LOIDetails:OrgContactFirstName,&apos; &apos;,LOIDetails:OrgContactLastName)</formulaExpression>
+        <formulaResultPath>ContactName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>DRCreateGMIndAppCustom0jI4S000000Gy4PUASItem1</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <defaultValue>Interest</defaultValue>
+        <globalKey>DRCreateGMIndAppCustom0jI4S000000Gy4PUASItem5</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMIndAppCustom0jI4S000000Gy4PUASItem6</globalKey>
+        <inputField>LOIDetails:TextArea1</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <defaultValue>Grant Application</defaultValue>
+        <globalKey>DRCreateGMIndAppCustom4603</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMIndAppCustom0jI4S000000Gy4PUASItem4</globalKey>
+        <inputField>ContactName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Contact</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMIndAppCustom6720</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <defaultValue>Grantmaking</defaultValue>
+        <globalKey>DRCreateGMIndAppCustom392</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMIndAppCustom0jI4S000000Gy4PUASItem7</globalKey>
+        <inputField>Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>IndividualApplication</outputObject>
+        <valueMapping>{}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateGMIndAppCustom0jI4S000000Gy4PUASItem2</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <defaultValue>Community Development Investment Grant</defaultValue>
+        <globalKey>DRCreateGMIndAppCustom0jI4S000000Gy4PUASItem8</globalKey>
+        <inputField>Instructions:FundingProgramName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>FundingOpportunity</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingOpportunityId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMIndAppCustom0jI4S000000Gy4PUASItem3</globalKey>
+        <inputField>LOIDetails:ApplyingOrg</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Account</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMIndApp</dataMapperDefItemName>
+        <formulaConverted>| var:LOIDetails:ApplyingOrg &apos;/\/\/-/\/\/&apos; var:LOIDetails:ProjectName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(LOIDetails:ApplyingOrg,&apos; - &apos;,LOIDetails:ProjectName)</formulaExpression>
+        <formulaResultPath>Name</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRCreateGMIndAppCustom0jI4S000000Gy4PUASItem0</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;ContextId&quot;: null,
+    &quot;Documentation&quot;: {
+        &quot;SupportingDocs&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;filename&quot;: null,
+                &quot;size&quot;: null
+            }
+        ]
+    },
+    &quot;Instructions&quot;: {
+        &quot;FundingProgramName&quot;: null
+    },
+    &quot;LOIDetails&quot;: {
+        &quot;ApplyingOrg&quot;: null,
+        &quot;ContactEmail&quot;: null,
+        &quot;ContactPhone&quot;: null,
+        &quot;DUNSnumber&quot;: null,
+        &quot;OrgAddress-Block&quot;: {
+            &quot;City&quot;: null,
+            &quot;OrgAddress&quot;: null,
+            &quot;State&quot;: null,
+            &quot;Street&quot;: null,
+            &quot;ZIP&quot;: null
+        },
+        &quot;OrgContactFirstName&quot;: null,
+        &quot;OrgContactLastName&quot;: null,
+        &quot;ProjectName&quot;: &quot;Green Apartments&quot;,
+        &quot;TextArea1&quot;: null
+    },
+    &quot;timeStamp&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userTimeZone&quot;: null,
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRCreateFundingRequest&quot;: null,
+        &quot;DRGetHousingAccContactForUser&quot;: null,
+        &quot;DRGetHousingDemoUserId&quot;: null,
+        &quot;Documentation&quot;: null,
+        &quot;Instructions&quot;: null,
+        &quot;LOIDetails&quot;: null,
+        &quot;SetValues1&quot;: null
+    }
+}</expectedInputJson>
+    <globalKey>DRCreateGMIndApp</globalKey>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRCreateGMIndApp</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{&quot;Account&quot;:{&quot;Id&quot;:&quot;0015e00000AiJ2EAAV&quot;},&quot;Contact&quot;:{&quot;Id&quot;:&quot;0035e0000086knjAAA&quot;},&quot;Instructions&quot;:{&quot;FundingProgramName&quot;:&quot;Community Development Investment Grant&quot;},&quot;LOIDetails&quot;:{&quot;ApplyingOrg&quot;:&quot;Green Developers Co&quot;,&quot;ContactEmail&quot;:&quot;jsimmonsgrants062021@gmail.com&quot;,&quot;ContactPhone&quot;:&quot;5031234567&quot;,&quot;DUNSnumber&quot;:&quot;123456789&quot;,&quot;OrgAddress-Block&quot;:{&quot;City&quot;:&quot;Universal City&quot;,&quot;OrgAddress&quot;:null,&quot;State&quot;:&quot;CA&quot;,&quot;Street&quot;:&quot;100 Universal City Plaza&quot;,&quot;ZIP&quot;:&quot;91608&quot;},&quot;OrgContactFirstName&quot;:&quot;Jennifer&quot;,&quot;OrgContactLastName&quot;:&quot;Simmons&quot;,&quot;ProjectName&quot;:&quot;Green Apartments&quot;,&quot;TextArea1&quot;:&quot;We are an Eco-Building company with a focus on green energy in homes. We are interested in applying for funding as part of the CDI Grant Program.&quot;},&quot;UseDemoUser&quot;:true,&quot;timeStamp&quot;:&quot;2021-10-31T16:58:36.179Z&quot;,&quot;userCurrencyCode&quot;:&quot;USD&quot;,&quot;userId&quot;:&quot;0055e000004CAWfAAO&quot;,&quot;userName&quot;:&quot;arusharma@grants062021.demo&quot;,&quot;userProfile&quot;:&quot;System Administrator&quot;,&quot;userTimeZone&quot;:&quot;-420&quot;}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

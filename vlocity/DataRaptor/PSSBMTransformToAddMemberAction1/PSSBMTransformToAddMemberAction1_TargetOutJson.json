@@ -1,0 +1,49 @@
+{
+    "HouseholdInformation": {
+        "PSS_BM_v5_AreThereChildrenInTheHousehold": true,
+        "PSS_BM_v5_AreThereElderlyHouseholdMembers": false,
+        "PSS_BM_v5_Check_if_any_household_member_has_a_disability": "No",
+        "PSS_BM_v5_HouseholdMemberDetails": [
+            {
+                "LineBreak3": "",
+                "LineBreak4": "",
+                "PSS_BM_v5_Age": "",
+                "PSS_BM_v5_DateOfBirth": null,
+                "PSS_BM_v5_Edit_Member_Details": null,
+                "PSS_BM_v5_Ethnicity": null,
+                "PSS_BM_v5_Gender": "F",
+                "PSS_BM_v5_GradeCompleted": null,
+                "PSS_BM_v5_HouseholdMemberFirstName": null,
+                "PSS_BM_v5_HouseholdMemberLastName": null,
+                "PSS_BM_v5_HouseholdMemberName": " ",
+                "PSS_BM_v5_IsDisabled": "No",
+                "PSS_BM_v5_MemberSectionAction": "",
+                "PSS_BM_v5_Race": null,
+                "PSS_BM_v5_Relationship": "Spouse",
+                "PSS_BM_v5_ShouldEnableEditing": "",
+                "PSS_BM_v5_USCitizen": "No"
+            },
+            {
+                "LineBreak3": null,
+                "LineBreak4": null,
+                "PSS_BM_v5_Age": 0,
+                "PSS_BM_v5_DateOfBirth": "2023-10-11",
+                "PSS_BM_v5_Edit_Member_Details": null,
+                "PSS_BM_v5_Ethnicity": null,
+                "PSS_BM_v5_Gender": "F",
+                "PSS_BM_v5_GradeCompleted": "aa",
+                "PSS_BM_v5_HouseholdMemberFirstName": "Bikramaditya",
+                "PSS_BM_v5_HouseholdMemberLastName": "Padhi",
+                "PSS_BM_v5_HouseholdMemberName": "Bikramaditya Padhi",
+                "PSS_BM_v5_IsDisabled": "No",
+                "PSS_BM_v5_MemberSectionAction": "Add member",
+                "PSS_BM_v5_Race": "AL",
+                "PSS_BM_v5_Relationship": "Spouse",
+                "PSS_BM_v5_ShouldEnableEditing": true,
+                "PSS_BM_v5_USCitizen": "No"
+            }
+        ],
+        "PSS_BM_v5_HouseholdSize": 2,
+        "PSS_BM_v5_Select_the_programs_that_you_ve_applied_for": null
+    }
+}

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit49622831993127225</globalKey>
+        <inputField>SiteStreet</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Street</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit22929155591671724</globalKey>
+        <inputField>SiteState</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>State</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <defaultValue>Site</defaultValue>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit2693656689062647</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>LocationType</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit40937610491492005</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit584785785881321</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>VisitorAddressId</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit7472961226146064</globalKey>
+        <inputField>SiteCity</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>City</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <defaultValue>Mailing</defaultValue>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit5180472111560248</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AddressType</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit25313025743320505</globalKey>
+        <inputField>SiteState</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Address</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit127690061221019</globalKey>
+        <inputField>RecordName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit49937956089882163</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>LocationId</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit12080635238455306</globalKey>
+        <inputField>ContextId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>ContextId</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit0003436368343712193</globalKey>
+        <inputField>VisitDetails:PlannedVisitStart</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>PlannedVisitStartTime</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit620192072460638</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit9460664619353429</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit3284014938725608</globalKey>
+        <inputField>VisitDetails:VisitNotes</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>InstructionDescription</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit8942387819709874</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>AddressId</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit23696445976224956</globalKey>
+        <inputField>VisitDetails:VisitorId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>VisitorId</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit6707060477736209</globalKey>
+        <inputField>VisitDetails:PlannedVisitEnd</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>PlannedVisitEndTime</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit5657432590280229</globalKey>
+        <inputField>SitePostalCode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>PostalCode</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit7407731385623337</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit10541298089525308</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ParentId</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <defaultValue>Site</defaultValue>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit6180038894282402</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LocationType</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit021165609379915074</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit28013918893863865</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit6564282032033832</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit01228713410730009</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>PlaceId</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit5600826658117046</globalKey>
+        <inputField>VisitDetails:VisitPriority</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>VisitPriority</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRCreateLocationAddressFromContextIdandVisit</dataMapperDefItemName>
+        <globalKey>VisitDRCreateLocationAddressFromContextIdandVisit8395864439317127</globalKey>
+        <inputField>VisitDetails:InspectionTypeId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>VisitTypeId</outputField>
+        <outputObject>Visit</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;ContextId&quot;: &quot;0f0Hr000000fyfEIAQ&quot;,
+    &quot;omniscriptId&quot;: &quot;0jNHr0000004owWMAQ&quot;,
+    &quot;language&quot;: &quot;English&quot;,
+    &quot;type&quot;: &quot;LPI&quot;,
+    &quot;runMode&quot;: &quot;preview&quot;,
+    &quot;sId&quot;: &quot;0jNHr0000004owWMAQ&quot;,
+    &quot;theme&quot;: &quot;lightning&quot;,
+    &quot;subType&quot;: &quot;NewVisit&quot;,
+    &quot;timeStamp&quot;: &quot;2023-12-01T14:21:01.490Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/New_York&quot;,
+    &quot;userTimeZone&quot;: &quot;-300&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;kwinderlich@1123winter24.demo&quot;,
+    &quot;userId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+    &quot;omniProcessId&quot;: &quot;0jNHr0000004owWMAQ&quot;,
+    &quot;localTimeZoneName&quot;: &quot;America/New_York&quot;,
+    &quot;InspectionTypeName&quot;: &quot;BLA&quot;,
+    &quot;AccountName&quot;: &quot;Fashion Cuts &amp; Perms&quot;,
+    &quot;SitePostalCode&quot;: &quot;20852&quot;,
+    &quot;InspectorName&quot;: &quot;Keith Winderlich&quot;,
+    &quot;SiteState&quot;: &quot;CA&quot;,
+    &quot;SiteOwner&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+    &quot;SiteCity&quot;: &quot;San Francisco&quot;,
+    &quot;SiteStreet&quot;: &quot;5378 MISSION ST&quot;,
+    &quot;AccountId&quot;: &quot;001Hr00001s7dkMIAQ&quot;,
+    &quot;InspectorUserId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+    &quot;RecordName&quot;: &quot;Fashion Cuts &amp; Perms - BLA-0000000071&quot;,
+    &quot;PlannedVisitStartCalculated&quot;: &quot;12/01/2023, 11:21 am&quot;,
+    &quot;Inspector&quot;: [
+        {
+            &quot;UserType&quot;: &quot;Standard&quot;,
+            &quot;UserId&quot;: &quot;005Hr00000FZmykIAD&quot;,
+            &quot;Persona&quot;: &quot;Inspector&quot;,
+            &quot;DemoUser&quot;: false,
+            &quot;UserName&quot;: &quot;Irene Inspector&quot;
+        },
+        {
+            &quot;UserType&quot;: &quot;Standard&quot;,
+            &quot;UserId&quot;: &quot;005Hr00000FZn0vIAD&quot;,
+            &quot;Persona&quot;: &quot;Inspector&quot;,
+            &quot;DemoUser&quot;: true,
+            &quot;UserName&quot;: &quot;Kaylee Kwan&quot;
+        },
+        {
+            &quot;UserType&quot;: &quot;Standard&quot;,
+            &quot;UserId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+            &quot;Persona&quot;: &quot;Inspector&quot;,
+            &quot;DemoUser&quot;: true,
+            &quot;UserName&quot;: &quot;Keith Winderlich&quot;
+        }
+    ],
+    &quot;InspectType&quot;: [
+        {
+            &quot;InspectTypeName&quot;: &quot;Business Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZXMAY&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Business Reopening Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZcMAI&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Cannabis Dispensary Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZdMAI&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Deck Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZYMAY&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Emergency Request Visit&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZbMAI&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Food Safety&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZZMAY&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Foster Care Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZeMAI&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Health &amp; Safety Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZaMAI&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Home Health Aide&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZVMAY&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Investigate Property&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZgMAI&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Lottery Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZfMAI&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Prescription Drug Delivery&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZhMAI&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Safety Complaint Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZWMAY&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Salon Establishment Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZTMAY&quot;
+        },
+        {
+            &quot;InspectTypeName&quot;: &quot;Storage Tank Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZUMAY&quot;
+        }
+    ],
+    &quot;VisitDetails&quot;: {
+        &quot;EndDateTimeValidation&quot;: &quot;OK&quot;,
+        &quot;MessagingEndAfterStart&quot;: null,
+        &quot;BlkInspectionType-Block&quot;: {
+            &quot;InspectTypeName&quot;: &quot;Safety Complaint Inspection&quot;,
+            &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZWMAY&quot;,
+            &quot;BlkInspectionType&quot;: &quot;Safety Complaint Inspection&quot;
+        },
+        &quot;InspectionTypeId&quot;: &quot;0fJHr000000wnZWMAY&quot;,
+        &quot;OwnerReviewerName&quot;: &quot;Keith Winderlich&quot;,
+        &quot;OwnerReviewerId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+        &quot;OtherUser-Block&quot;: null,
+        &quot;VisitorId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+        &quot;ReviewerType&quot;: &quot;Organization Owner&quot;,
+        &quot;VisitPriority&quot;: &quot;High&quot;,
+        &quot;PlannedVisitStart&quot;: &quot;2023-12-01T16:21:00.000Z&quot;,
+        &quot;PlannedVisitEnd&quot;: &quot;2023-12-01T18:21:00.000Z&quot;,
+        &quot;VisitNotes&quot;: &quot;dfsdfsd&quot;
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>VisitDRCreateLocationAddressFromContextIdandVisit</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;ContextId&quot;: &quot;0f0Hr000000fyfIIAQ&quot;,
+  &quot;omniscriptId&quot;: &quot;0jNHr0000004owWMAQ&quot;,
+  &quot;language&quot;: &quot;English&quot;,
+  &quot;type&quot;: &quot;LPI&quot;,
+  &quot;runMode&quot;: &quot;preview&quot;,
+  &quot;sId&quot;: &quot;0jNHr0000004owWMAQ&quot;,
+  &quot;theme&quot;: &quot;lightning&quot;,
+  &quot;subType&quot;: &quot;NewVisit&quot;,
+  &quot;timeStamp&quot;: &quot;2023-12-01T21:39:47.476Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZoneName&quot;: &quot;America/New_York&quot;,
+  &quot;userTimeZone&quot;: &quot;-300&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;kwinderlich@1123winter24.demo&quot;,
+  &quot;userId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+  &quot;omniProcessId&quot;: &quot;0jNHr0000004owWMAQ&quot;,
+  &quot;localTimeZoneName&quot;: &quot;America/New_York&quot;,
+  &quot;InspectionTypeName&quot;: &quot;BLA&quot;,
+  &quot;AccountName&quot;: &quot;John Adams Hospital&quot;,
+  &quot;SitePostalCode&quot;: &quot;20852&quot;,
+  &quot;InspectorName&quot;: &quot;Keith Winderlich&quot;,
+  &quot;SiteState&quot;: &quot;CA&quot;,
+  &quot;SiteOwner&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+  &quot;SiteCity&quot;: &quot;San Francisco&quot;,
+  &quot;SiteStreet&quot;: &quot;415 Mission Street&quot;,
+  &quot;AccountId&quot;: &quot;001Hr00001s7dnmIAA&quot;,
+  &quot;InspectorUserId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+  &quot;RecordName&quot;: &quot;John Adams Hospital - BLA-0000000070&quot;,
+  &quot;PlannedVisitStartCalculated&quot;: &quot;12/01/2023, 6:39 pm&quot;,
+  &quot;Inspector&quot;: [
+    {
+      &quot;UserType&quot;: &quot;Standard&quot;,
+      &quot;UserId&quot;: &quot;005Hr00000FZmykIAD&quot;,
+      &quot;Persona&quot;: &quot;Inspector&quot;,
+      &quot;DemoUser&quot;: false,
+      &quot;UserName&quot;: &quot;Irene Inspector&quot;
+    },
+    {
+      &quot;UserType&quot;: &quot;Standard&quot;,
+      &quot;UserId&quot;: &quot;005Hr00000FZn0vIAD&quot;,
+      &quot;Persona&quot;: &quot;Inspector&quot;,
+      &quot;DemoUser&quot;: true,
+      &quot;UserName&quot;: &quot;Kaylee Kwan&quot;
+    },
+    {
+      &quot;UserType&quot;: &quot;Standard&quot;,
+      &quot;UserId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+      &quot;Persona&quot;: &quot;Inspector&quot;,
+      &quot;DemoUser&quot;: true,
+      &quot;UserName&quot;: &quot;Keith Winderlich&quot;
+    }
+  ],
+  &quot;InspectType&quot;: [
+    {
+      &quot;InspectTypeName&quot;: &quot;Business Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZXMAY&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Business Reopening Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZcMAI&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Cannabis Dispensary Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZdMAI&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Deck Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZYMAY&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Emergency Request Visit&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZbMAI&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Food Safety&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZZMAY&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Foster Care Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZeMAI&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Health &amp; Safety Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZaMAI&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Home Health Aide&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZVMAY&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Investigate Property&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZgMAI&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Lottery Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZfMAI&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Prescription Drug Delivery&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZhMAI&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Safety Complaint Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZWMAY&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Salon Establishment Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZTMAY&quot;
+    },
+    {
+      &quot;InspectTypeName&quot;: &quot;Storage Tank Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZUMAY&quot;
+    }
+  ],
+  &quot;VisitDetails&quot;: {
+    &quot;EndDateTimeValidation&quot;: &quot;OK&quot;,
+    &quot;MessagingEndAfterStart&quot;: null,
+    &quot;BlkInspectionType-Block&quot;: {
+      &quot;InspectTypeName&quot;: &quot;Salon Establishment Inspection&quot;,
+      &quot;InspectTypeId&quot;: &quot;0fJHr000000wnZTMAY&quot;,
+      &quot;BlkInspectionType&quot;: &quot;Salon Establishment Inspection&quot;
+    },
+    &quot;InspectionTypeId&quot;: &quot;0fJHr000000wnZTMAY&quot;,
+    &quot;OwnerReviewerName&quot;: &quot;Keith Winderlich&quot;,
+    &quot;OwnerReviewerId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+    &quot;OtherUser-Block&quot;: null,
+    &quot;VisitorId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+    &quot;ReviewerType&quot;: &quot;Organization Owner&quot;,
+    &quot;VisitPriority&quot;: &quot;High&quot;,
+    &quot;PlannedVisitStart&quot;: &quot;2023-12-01T23:39:00.000Z&quot;,
+    &quot;PlannedVisitEnd&quot;: &quot;2023-12-02T01:39:00.000Z&quot;,
+    &quot;VisitNotes&quot;: &quot;vdfsvvfdg&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

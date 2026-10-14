@@ -1,0 +1,43 @@
+{
+  "id" : "f25f3e32-39f9-4a73-8af1-aebccf9b7043",
+  "mobilePublisherAppUpdateConfig" : {
+    "forceAppUpdate" : false,
+    "enableAppUpdate" : false,
+    "minVersion" : {
+      "ios" : {
+        "version" : "10.0",
+        "url" : "https://apps.apple.com/us"
+      },
+      "android" : {
+        "version" : "10.1",
+        "url" : "https://play.google.com/store"
+      }
+    }
+  },
+  "nativeMobileNavConfig" : {
+    "showBackButton" : true,
+    "showHamburgerMenuWithBackButton" : true
+  },
+  "nativeTabMenu" : {
+    "branding" : {
+      "iconTintColor" : "#FFFFFF",
+      "iconTintColorUnselected" : "#C9C5C5",
+      "barTintColor" : "#395878"
+    },
+    "menuItems" : [ {
+      "name" : "Home",
+      "targetUrl" : "/"
+    }, {
+      "name" : "Knowledge",
+      "targetUrl" : "/toparticles"
+    }, {
+      "name" : "My Dashboard",
+      "targetUrl" : "/my-dashboard"
+    }, {
+      "name" : "Community",
+      "targetUrl" : "/community"
+    } ]
+  },
+  "showHamburgerMenu" : true,
+  "type" : "nativeConfig"
+}

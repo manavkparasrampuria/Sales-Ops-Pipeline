@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "LPI2008262021",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 2,
+                    "name": "DemoType",
+                    "val": "LPI"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "LPIGetDemoOmniscript",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "DemoType": "LPI"
+                },
+                "jsonMap": "{\"DemoType\":\"{DemoType}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "LPIDemoManagement",
+    "Namespace": "",
+    "OmniUiCardKey": "LPIDemoManagement/LPI2008262021/2.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "LPIDemoManagement.json",
+    "SampleDataSourceResponse": "[{\"DemoScript\":\"https://salesforce.quip.com/hsQnAMCL1Oge\",\"ScenarioName\":\"Salon Business Licensing\",\"DomainName\":\"gpsido--%vlocity_namespace%\",\"FQDN\":\"https://gpsido--%vlocity_namespace%--c.visualforce.com\",\"HasESRI\":false,\"DemoType\":\"LPI\",\"Description\":\"Demo that highlights Business licensing by going through the process of applying for a new Salon\",\"Personas\":\"Geoff Duckwall\",\"DemoSelected\":\"c:licensingandpermittingBusinessSalonEnglish\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "LPIDemoManagement_LPI2008262021_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/LPIDemoManagement"
+}

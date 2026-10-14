@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description><!-- Used for all BLAs --></description>
+        <label><!-- License or Permit --></label>
+        <name>License_or_Permit</name>
+    </recordTypes>
+    <recordTypes>
+        <label>重新開放允許要求</label>
+        <name>PublicSector__Reopening_Permit_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

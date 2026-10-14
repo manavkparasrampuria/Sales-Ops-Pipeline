@@ -1,0 +1,162 @@
+{
+    "DemoType": "LPI",
+    "ScenarioList": [
+        {
+            "DemoScript": "https://salesforce.quip.com/2x7GAJH6i9Qv",
+            "Id": "a1VHs00000KQe2nMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Charles Green",
+            "ScenarioName": "Security Guard",
+            "SubType": "SecurityGuard",
+            "Type": "Occupational"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/LMnjAu2a5AvP",
+            "Id": "a1VHs00000KQe2jMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Charles Green",
+            "ScenarioName": "Deck Permit",
+            "SubType": "Deck",
+            "Type": "Permit"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/kGnFAsGwTL8L",
+            "Id": "a1VHs00000KQe2kMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Restaurant",
+            "SubType": "FoodEstablishmentPermit",
+            "Type": "Permit"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/hsQnAMCL1Oge",
+            "Id": "a1VHs00000KQe2lMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Salon Business Licensing",
+            "SubType": "BusinessSalon",
+            "Type": "Business"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/AaPnAI7UDPcS",
+            "Id": "a1VHs00000KQe2oMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Storage Tank Permit",
+            "SubType": "StorageTankRegistration",
+            "Type": "Permit"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/pHmiA3IlklfP",
+            "Id": "a1VHs00000KQe2mMAD",
+            "Language": "English",
+            "OSType": "ESRI",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Mapping with ESRI",
+            "SubType": "PermitDemo",
+            "Type": "Permit"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/C7jEAUI3OMvX",
+            "Id": "a1VHs00000KQe2pMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermiting",
+            "Personas": "Charles Green",
+            "ScenarioName": "Boat Registration",
+            "SubType": "BoatRegistration",
+            "Type": "Asset"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/KOMbAwUT0Rks",
+            "Id": "a1VHs00000KQe2iMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermiting",
+            "Personas": "Charles Green",
+            "ScenarioName": "Firearm Permit",
+            "SubType": "FirearmRegistration",
+            "Type": "Asset"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/xY6oABUcoy9U",
+            "Id": "a1VHs00000KQe2xMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Charles Green",
+            "ScenarioName": "Medical Cannabis Patient",
+            "SubType": "CannabisPatientApplication",
+            "Type": "Permit"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/AmtGAeCG1PEq",
+            "Id": "a1VHs00000KQe2tMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Cannabis Retail Dispensary Licensing",
+            "SubType": "CannabisApplication",
+            "Type": "Business"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/XTLFAqlK6CLk",
+            "Id": "a1VHs00000KQe2yMAD",
+            "Personas": "Kate Miller",
+            "ScenarioName": "Foster Care Licensing",
+            "Type": "Occupational"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/ABDEA5l1II3t",
+            "Id": "a1VHs00000KQe2vMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Special Events",
+            "SubType": "SpecialEvent",
+            "Type": "Permit"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/GFmPA2aw7R95",
+            "Id": "a1VHs00000KQe2wMAD",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Lottery Retailer",
+            "SubType": "LotteryRetailApplication",
+            "Type": "Permit"
+        }
+    ],
+    "SelectScenario": {
+        "DemoScript": "https://salesforce.quip.com/hsQnAMCL1Oge",
+        "Id": "a1VHs00000KQe2lMAD",
+        "Language": "English",
+        "OSType": "LicensingAndPermitting",
+        "Personas": "Geoff Duckwall",
+        "ScenarioName": "Salon Business Licensing",
+        "SubType": "BusinessSalon",
+        "Type": "Business"
+    },
+    "Selection": {
+        "FormatLWCName": "c:licensingandpermittingBusinessSalonEnglish"
+    },
+    "language": "English",
+    "localTimeZoneName": "America/New_York",
+    "omniJsonDef": null,
+    "omniProcessId": "0jNHs0000009I14MAE",
+    "omniscriptId": "0jNHs0000009I14MAE",
+    "runMode": "preview",
+    "sId": "0jNHs0000009I14MAE",
+    "subType": "DemoSetup",
+    "theme": "lightning",
+    "timeStamp": "2024-02-20T18:17:21.417Z",
+    "type": "LPI",
+    "userCurrencyCode": "USD",
+    "userId": "005Hs00000ED7zFIAT",
+    "userName": "jblankenship@testesrideploy02052024.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480",
+    "userTimeZoneName": "America/Los_Angeles"
+}

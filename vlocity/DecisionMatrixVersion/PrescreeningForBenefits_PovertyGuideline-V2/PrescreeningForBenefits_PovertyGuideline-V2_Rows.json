@@ -1,0 +1,178 @@
+[
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "PrescreeningForBenefits_PovertyGuideline",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/PrescreeningForBenefits_PovertyGuideline",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "NumberOfHouseholdMembers": 1
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "96881dcd6c1510091f0aa81f4d58a8b2",
+        "OutputData": {
+            "AnnualIncomeLimit": 19320
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "PrescreeningForBenefits_PovertyGuideline",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/PrescreeningForBenefits_PovertyGuideline",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "NumberOfHouseholdMembers": 2
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "47e2891cc8344ff48e25e42309d169dc",
+        "OutputData": {
+            "AnnualIncomeLimit": 26130
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "PrescreeningForBenefits_PovertyGuideline",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/PrescreeningForBenefits_PovertyGuideline",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "NumberOfHouseholdMembers": 3
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "663bd755e364066380fad0ba89d50248",
+        "OutputData": {
+            "AnnualIncomeLimit": 32940
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "PrescreeningForBenefits_PovertyGuideline",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/PrescreeningForBenefits_PovertyGuideline",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "NumberOfHouseholdMembers": 4
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "db5d30a211de3e1c7386a09cc500ca32",
+        "OutputData": {
+            "AnnualIncomeLimit": 39750
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "PrescreeningForBenefits_PovertyGuideline",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/PrescreeningForBenefits_PovertyGuideline",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "NumberOfHouseholdMembers": 5
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "166f250f45050e710f495e28051e9a91",
+        "OutputData": {
+            "AnnualIncomeLimit": 46560
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "PrescreeningForBenefits_PovertyGuideline",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/PrescreeningForBenefits_PovertyGuideline",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "NumberOfHouseholdMembers": 6
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "130d39e0646807a2b1f4955d892e1e72",
+        "OutputData": {
+            "AnnualIncomeLimit": 53370
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "PrescreeningForBenefits_PovertyGuideline",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/PrescreeningForBenefits_PovertyGuideline",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "NumberOfHouseholdMembers": 7
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "33f31e84bbe46a7da36a2317a95b98bc",
+        "OutputData": {
+            "AnnualIncomeLimit": 60180
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "PrescreeningForBenefits_PovertyGuideline",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/PrescreeningForBenefits_PovertyGuideline",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "NumberOfHouseholdMembers": 8
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "a8f322f9bd0ce52f885418d19c7987a1",
+        "OutputData": {
+            "AnnualIncomeLimit": 66990
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    }
+]

@@ -1,0 +1,63 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "CalculateLiheapBenefitAmountInput",
+    "OmniProcessId": {
+        "Name": "Find Eligible Entitlement Amount",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/FindEligibleBenefitAmount/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopAppliedBenefits",
+        "OmniProcessId": {
+            "Name": "Find Eligible Entitlement Amount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/FindEligibleBenefitAmount/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/FindEligibleBenefitAmount/Procedure/LoopAppliedBenefits",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopAppliedBenefits",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AreThereChildrenInTheHousehold": "=IF(ISBLANK(ParticipantInfo:ChildApplicant),$Vlocity.FALSE,$Vlocity.TRUE)",
+            "AreThereDisabledHouseholdMembers": "=IF(ISBLANK(ParticipantInfo:DisabledApplicant),$Vlocity.FALSE,$Vlocity.TRUE)",
+            "AreThereElderlyHouseholdMembers": "=IF(ISBLANK(ParticipantInfo:ElderlyApplicant),$Vlocity.FALSE,$Vlocity.TRUE)",
+            "ChildCareAmount": "=%ExpenseDetails:ChildCareAmount%",
+            "ChildSupportAmount": "=%ExpenseDetails:ChildSupportAmount%",
+            "GarnishmentsAmount": "=%ExpenseDetails:GarnishmentsAmount%",
+            "InputHouseholdSize": "=IF(ISBLANK(FetchPublicApplicationParticipants),0,LISTSIZE(FetchPublicApplicationParticipants:ApplicationParticipant))",
+            "InsurancePremiumAmount": "=%ExpenseDetails:InsurancePremiumAmount%",
+            "MedicalExpensesAmount": "=%ExpenseDetails:MedicalExpensesAmount%",
+            "PrimaryHeatType": "=IF(ISBLANK(TransformedAQR:GenericData:PrimaryHeatType),\"None\",%TransformedAQR:GenericData:PrimaryHeatType%)",
+            "PrimaryHeatingBillAmount": "=IF(ISBLANK(TransformedAQR:GenericData:PrimaryHeatingBillAmount),0,%TransformedAQR:GenericData:PrimaryHeatingBillAmount%)",
+            "ReimbursementAmount": "=%ExpenseDetails:ReimbursementAmount%",
+            "RepresentativePayeeFees": "=%ExpenseDetails:RepresentativePayeeFees%",
+            "SecondaryHeatType": "=IF(ISBLANK(TransformedAQR:GenericData:SecondaryHeatType),\"None\",%TransformedAQR:GenericData:SecondaryHeatType%)",
+            "SecondaryHeatingBillAmount": "=IF(ISBLANK(TransformedAQR:GenericData:SecondaryHeatingBillAmount),0,%TransformedAQR:GenericData:SecondaryHeatingBillAmount%)",
+            "SpousalSupportAmount": "=%ExpenseDetails:SpousalSupportAmount%",
+            "TotalHouseholdIncome": "=%TotalHouseholdIncome%"
+        },
+        "executionConditionalFormula": "Benefit:BenefitType==\"LIHEAP\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/FindEligibleBenefitAmount/Procedure/CalculateLiheapBenefitAmountInput"
+}

@@ -1,0 +1,72 @@
+{
+  "appPageId" : "cb179d80-7920-4ba7-93b5-079034f23a90",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "d0d35cae-dae8-456b-9c49-8bf91e14c2ac",
+  "label" : "Complaint Incident Submenu",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>File a Complaint or Report an Incident</h1><p>Please select whether you would like to file a public complaint or if you are reporting&nbsp;a crime or incident. You will be able to save a draft application and complete it later.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "2c20f5ac-bd0f-48d9-bc7c-e66707b0baa6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a3140506-d4ea-46dd-88bd-1553ff47dbbc",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 35,
+        "borderRadius" : 20,
+        "boxShadow" : true,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(212, 212, 212)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "default",
+        "tileMenuEditor" : "File_Submenu",
+        "titleColor" : "",
+        "titleFontSize" : "medium",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "0c7f7f7c-21ea-407e-a25e-a0aa2718081e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "674e3356-fae0-467b-bea6-16138466beb6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ecb7e859-0cc3-4d9e-8db0-4e9301d70233",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Complaint Incident Submenu"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e38f3f31-72ab-4703-b6af-088b8d6da0f5",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f00fe20a-d0e5-429d-aff6-41e3247f2906",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-complaint-incident-submenu"
+}

@@ -53,7 +53,23 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Forecasting</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>LightningInstrumentation</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>LightningSchedulerSetupAssistant</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>ProductCatalog</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>ProductCategory</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
@@ -62,6 +78,14 @@
     </appMenuItems>
     <appMenuItems>
         <name>MobileHome</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CollectionsConsoleDashboard</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CriteriaBasedSearchAndFilter</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
 </AppMenu>

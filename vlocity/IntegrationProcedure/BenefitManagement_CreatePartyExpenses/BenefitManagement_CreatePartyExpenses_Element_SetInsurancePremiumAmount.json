@@ -1,0 +1,39 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetInsurancePremiumAmount",
+    "OmniProcessId": {
+        "Name": "CreatePartyExpenses",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/CreatePartyExpenses/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "InsurancePremiumAmount": {
+                "EndDateTime": "%IACreatedAt%",
+                "PartyId": "%PartyId%",
+                "StartDateTime": "%IACreatedAt%",
+                "TotalAmount": "%GenericData:InsurancePremiumAmount%",
+                "Type": "Health and Hospitalization Insurance Premiums"
+            }
+        },
+        "executionConditionalFormula": "(ISBLANK(%GenericData:InsurancePremiumAmount%) != true) && %GenericData:InsurancePremiumAmount% > 0",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues2",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/CreatePartyExpenses/Procedure/SetInsurancePremiumAmount"
+}

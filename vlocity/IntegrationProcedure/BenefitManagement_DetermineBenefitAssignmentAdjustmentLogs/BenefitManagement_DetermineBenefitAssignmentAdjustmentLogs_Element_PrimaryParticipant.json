@@ -1,0 +1,47 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PrimaryParticipant",
+    "OmniProcessId": {
+        "Name": "Determine Benefit Assignment Adjustment Logs",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/DetermineBenefitAssignmentAdjustmentLogs/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "FetchPrimaryApplicant",
+        "OmniProcessId": {
+            "Name": "Determine Benefit Assignment Adjustment Logs",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/DetermineBenefitAssignmentAdjustmentLogs/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/DetermineBenefitAssignmentAdjustmentLogs/Procedure/FetchPrimaryApplicant",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "FetchPrimaryApplicant",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ParticipantId": "=%PublicApplicationParticipants:ApplicationParticipant:ParticipantId%"
+        },
+        "executionConditionalFormula": "%PublicApplicationParticipants:ApplicationParticipant:Role% == \"Applicant\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues3",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/DetermineBenefitAssignmentAdjustmentLogs/Procedure/PrimaryParticipant"
+}

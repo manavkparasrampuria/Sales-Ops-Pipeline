@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature07830775668103374</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItemSignature:ActionPlanTemplateItemValue:ItemEntityType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ItemEntityType</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature04025269382332741</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItemSignature:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature9944515305549919</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItemSignature:DisplayOrder</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>DisplayOrder</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <formulaConverted>| &apos;InspectionTemplateUtils&apos; &apos;getAssessmentTaskIndDefinition&apos; var:DeserializedFileContent:AssessmentTaskIndDefinition:AssessmentTaskDefinitionName var:DeserializedFileContent:AssessmentTaskIndDefinition:AssessmentIndDefinitionName FUNCTION</formulaConverted>
+        <formulaExpression>FUNCTION(&apos;InspectionTemplateUtils&apos;,&apos;getAssessmentTaskIndDefinition&apos;,DeserializedFileContent:AssessmentTaskIndDefinition:AssessmentTaskDefinitionName,DeserializedFileContent:AssessmentTaskIndDefinition:AssessmentIndDefinitionName)</formulaExpression>
+        <formulaResultPath>DeserializedFileContent:AssessmentTaskIndDefinition:AssessTaskIndDefinitionName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature34841857025510614</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <defaultValue>AssessmentTask.Name</defaultValue>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature9516220961879811</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ItemEntityFieldName</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature5135090785144041</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItemSignature:ActionPlanTemplateItemValue:IsActive</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature8401630360083139</globalKey>
+        <inputField>DRId_ActionPlanTemplateVersion</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateVersionId</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature7902117758034313</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateItemId</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature6789173850274148</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItemSignature:IsRequired</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IsRequired</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature27714651396524115</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItemSignature:ItemEntityType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ItemEntityType</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature7992690986175623</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature049775459753786055</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <formulaConverted>| &apos;InspectionTemplateUtils&apos; &apos;getRegCodeAssessmentInd&apos; var:DeserializedFileContent:RegulatoryCodeAssessmentInd:RegulatoryCodeName var:DeserializedFileContent:RegulatoryCodeAssessmentInd:AssessmentIndDefinitionName FUNCTION</formulaConverted>
+        <formulaExpression>FUNCTION(&apos;InspectionTemplateUtils&apos;,&apos;getRegCodeAssessmentInd&apos;,DeserializedFileContent:RegulatoryCodeAssessmentInd:RegulatoryCodeName,DeserializedFileContent:RegulatoryCodeAssessmentInd:AssessmentIndDefinitionName)</formulaExpression>
+        <formulaResultPath>DeserializedFileContent:RegulatoryCodeAssessmentInd:RegCodeAssessmentInd</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature715783111397378</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature04702542095214657</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItemSignature:ActionPlanTemplateItemValue:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature17622069919185335</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItemSignature:ActionPlanTemplateItemValue:ValueLiteral</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ValueLiteral</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplateAddSignature</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplateAddSignature6168463026413684</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItemSignature:IsActive</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <description>This adds in any signatures to an Inspection Type as part of the Import/Export process.</description>
+    <expectedInputJson>{
+    &quot;RegulatoryAuthority&quot;: {
+        &quot;Name&quot;: &quot;Coding Location&quot;
+    },
+    &quot;RegulatoryCode&quot;: [
+        {
+            &quot;RegulatoryAuthorityName&quot;: &quot;Coding Location&quot;,
+            &quot;Name&quot;: &quot;Code1&quot;
+        },
+        {
+            &quot;RegulatoryAuthorityName&quot;: &quot;Coding Location&quot;,
+            &quot;Name&quot;: &quot;Code2&quot;
+        }
+    ],
+    &quot;AssessmentIndicatorDefinition&quot;: [
+        {
+            &quot;Name&quot;: &quot;Confirm Door&quot;,
+            &quot;DataType&quot;: &quot;Boolean&quot;
+        },
+        {
+            &quot;Name&quot;: &quot;Confirm Window&quot;,
+            &quot;DataType&quot;: &quot;Boolean&quot;
+        },
+        {
+            &quot;Name&quot;: &quot;Confirm Sky&quot;,
+            &quot;DataType&quot;: &quot;Boolean&quot;
+        },
+        {
+            &quot;Name&quot;: &quot;Confirm Clouds&quot;,
+            &quot;DataType&quot;: &quot;Boolean&quot;
+        }
+    ],
+    &quot;RegulatoryCodeAssessmentInd&quot;: [
+        {
+            &quot;RegulatoryCodeName&quot;: &quot;Code1&quot;,
+            &quot;AssessmentIndDefinitionName&quot;: &quot;Confirm Door&quot;
+        },
+        {
+            &quot;RegulatoryCodeName&quot;: &quot;Code1&quot;,
+            &quot;AssessmentIndDefinitionName&quot;: &quot;Confirm Window&quot;
+        },
+        {
+            &quot;RegulatoryCodeName&quot;: &quot;Code2&quot;,
+            &quot;AssessmentIndDefinitionName&quot;: &quot;Confirm Sky&quot;
+        },
+        {
+            &quot;RegulatoryCodeName&quot;: &quot;Code2&quot;,
+            &quot;AssessmentIndDefinitionName&quot;: &quot;Confirm Clouds&quot;
+        }
+    ],
+    &quot;AssessmentTaskDefinition&quot;: [
+        {
+            &quot;TaskType&quot;: &quot;InspectionChecklist&quot;,
+            &quot;Name&quot;: &quot;Open Door&quot;
+        },
+        {
+            &quot;TaskType&quot;: &quot;InspectionChecklist&quot;,
+            &quot;Name&quot;: &quot;Open Window&quot;
+        },
+        {
+            &quot;TaskType&quot;: &quot;InspectionChecklist&quot;,
+            &quot;Name&quot;: &quot;Open Attic&quot;
+        }
+    ],
+    &quot;AssessmentTaskIndDefinition&quot;: [
+        {
+            &quot;AssessmentIndDefinitionName&quot;: &quot;Confirm Door&quot;,
+            &quot;AssessmentTaskDefinitionName&quot;: &quot;Open Door&quot;
+        },
+        {
+            &quot;AssessmentIndDefinitionName&quot;: &quot;Confirm Window&quot;,
+            &quot;AssessmentTaskDefinitionName&quot;: &quot;Open Window&quot;
+        },
+        {
+            &quot;AssessmentIndDefinitionName&quot;: &quot;Confirm Sky&quot;,
+            &quot;AssessmentTaskDefinitionName&quot;: &quot;Open Window&quot;
+        },
+        {
+            &quot;AssessmentIndDefinitionName&quot;: &quot;Confirm Clouds&quot;,
+            &quot;AssessmentTaskDefinitionName&quot;: &quot;Open Attic&quot;
+        }
+    ],
+    &quot;ActionPlanTemplate&quot;: {
+        &quot;ActionPlanTemplateVersion&quot;: {
+            &quot;ActionPlanTemplateItemSignature&quot;: [
+                {
+                    &quot;ActionPlanTemplateItemValue&quot;: {
+                        &quot;IsActive&quot;: true,
+                        &quot;ValueLiteral&quot;: &quot;Customer&quot;,
+                        &quot;ItemEntityType&quot;: &quot;SignatureTask&quot;,
+                        &quot;ItemEntityFieldName&quot;: &quot;SignatureTask.Name&quot;,
+                        &quot;Name&quot;: &quot;Name&quot;
+                    },
+                    &quot;DisplayOrder&quot;: 2,
+                    &quot;IsRequired&quot;: false,
+                    &quot;ItemEntityType&quot;: &quot;SignatureTask&quot;,
+                    &quot;Name&quot;: &quot;Customer&quot;,
+                    &quot;IsActive&quot;: true
+                },
+                {
+                    &quot;ActionPlanTemplateItemValue&quot;: {
+                        &quot;IsActive&quot;: true,
+                        &quot;ValueLiteral&quot;: &quot;Inspector&quot;,
+                        &quot;ItemEntityType&quot;: &quot;SignatureTask&quot;,
+                        &quot;ItemEntityFieldName&quot;: &quot;SignatureTask.Name&quot;,
+                        &quot;Name&quot;: &quot;Name&quot;
+                    },
+                    &quot;DisplayOrder&quot;: 1,
+                    &quot;IsRequired&quot;: false,
+                    &quot;ItemEntityType&quot;: &quot;SignatureTask&quot;,
+                    &quot;Name&quot;: &quot;Inspector&quot;,
+                    &quot;IsActive&quot;: true
+                }
+            ],
+            &quot;ActionPlanTemplateItem&quot;: [
+                {
+                    &quot;ActionPlanTemplateItemValue2&quot;: {
+                        &quot;IsActive&quot;: true,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                        &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                        &quot;ValueLiteralLookup&quot;: &quot;Open Door&quot;
+                    },
+                    &quot;ActionPlanTemplateItemValue&quot;: {
+                        &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;Name&quot;: &quot;Name&quot;,
+                        &quot;ValueLiteral&quot;: &quot;Open Door&quot;,
+                        &quot;IsActive&quot;: true
+                    },
+                    &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                    &quot;IsRequired&quot;: false,
+                    &quot;Name&quot;: &quot;Open Door&quot;,
+                    &quot;IsActive&quot;: true
+                },
+                {
+                    &quot;ActionPlanTemplateItemValue2&quot;: {
+                        &quot;IsActive&quot;: true,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                        &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                        &quot;ValueLiteralLookup&quot;: &quot;Open Window&quot;
+                    },
+                    &quot;ActionPlanTemplateItemValue&quot;: {
+                        &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;Name&quot;: &quot;Name&quot;,
+                        &quot;ValueLiteral&quot;: &quot;Open Window&quot;,
+                        &quot;IsActive&quot;: true
+                    },
+                    &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                    &quot;IsRequired&quot;: false,
+                    &quot;Name&quot;: &quot;Open Window&quot;,
+                    &quot;IsActive&quot;: true
+                },
+                {
+                    &quot;ActionPlanTemplateItemValue2&quot;: {
+                        &quot;IsActive&quot;: true,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                        &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                        &quot;ValueLiteralLookup&quot;: &quot;Open Attic&quot;
+                    },
+                    &quot;ActionPlanTemplateItemValue&quot;: {
+                        &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;Name&quot;: &quot;Name&quot;,
+                        &quot;ValueLiteral&quot;: &quot;Open Attic&quot;,
+                        &quot;IsActive&quot;: true
+                    },
+                    &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                    &quot;IsRequired&quot;: false,
+                    &quot;Name&quot;: &quot;Open Attic&quot;,
+                    &quot;IsActive&quot;: true
+                }
+            ],
+            &quot;Name&quot;: &quot;Test12&quot;
+        },
+        &quot;TargetEntityType&quot;: &quot;Visit&quot;,
+        &quot;Name&quot;: &quot;Test12&quot;,
+        &quot;Description&quot;: &quot;Test12&quot;,
+        &quot;ActionPlanType&quot;: &quot;Retail&quot;
+    },
+    &quot;InspectionType&quot;: {
+        &quot;Name&quot;: &quot;Test 12 Inspection&quot;
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>QuickBuildMigrateInspectionTemplateAddSignature</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;RegulatoryAuthority&quot;: {
+    &quot;Name&quot;: &quot;NYC Parks&quot;
+  },
+  &quot;RegulatoryCode&quot;: {
+    &quot;Subject&quot;: &quot;NYC Tree&quot;,
+    &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+    &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+    &quot;RegulatoryAuthorityName&quot;: &quot;NYC Parks&quot;,
+    &quot;Name&quot;: &quot;NYC Trees&quot;
+  },
+  &quot;AssessmentIndicatorDefinition&quot;: [
+    {
+      &quot;Name&quot;: &quot;Can Tree be cut down?&quot;,
+      &quot;DataType&quot;: &quot;Boolean&quot;
+    },
+    {
+      &quot;Name&quot;: &quot;Is Surrounding Area Clear of obstructions?&quot;,
+      &quot;DataType&quot;: &quot;Boolean&quot;
+    }
+  ],
+  &quot;RegulatoryCodeAssessmentInd&quot;: [
+    {
+      &quot;RegulatoryCodeName&quot;: &quot;NYC Trees&quot;,
+      &quot;AssessmentIndDefinitionName&quot;: &quot;Can Tree be cut down?&quot;
+    },
+    {
+      &quot;RegulatoryCodeName&quot;: &quot;NYC Trees&quot;,
+      &quot;AssessmentIndDefinitionName&quot;: &quot;Is Surrounding Area Clear of obstructions?&quot;
+    }
+  ],
+  &quot;AssessmentTaskDefinition&quot;: [
+    {
+      &quot;TaskType&quot;: &quot;InspectionChecklist&quot;,
+      &quot;Name&quot;: &quot;Tree Condition&quot;
+    },
+    {
+      &quot;TaskType&quot;: &quot;InspectionChecklist&quot;,
+      &quot;Name&quot;: &quot;Surrounding Area&quot;
+    }
+  ],
+  &quot;AssessmentTaskIndDefinition&quot;: [
+    {
+      &quot;AssessmentIndDefinitionName&quot;: &quot;Can Tree be cut down?&quot;,
+      &quot;AssessmentTaskDefinitionName&quot;: &quot;Tree Condition&quot;
+    },
+    {
+      &quot;AssessmentIndDefinitionName&quot;: &quot;Is Surrounding Area Clear of obstructions?&quot;,
+      &quot;AssessmentTaskDefinitionName&quot;: &quot;Surrounding Area&quot;
+    }
+  ],
+  &quot;ActionPlanTemplate&quot;: {
+    &quot;ActionPlanTemplateVersion&quot;: {
+      &quot;ActionPlanTemplateItemSignature&quot;: {
+        &quot;ActionPlanTemplateItemValue&quot;: {
+          &quot;IsActive&quot;: true,
+          &quot;ValueLiteral&quot;: &quot;Inspector&quot;,
+          &quot;ItemEntityType&quot;: &quot;SignatureTask&quot;,
+          &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;,
+          &quot;Name&quot;: &quot;Name&quot;
+        },
+        &quot;IsRequired&quot;: false,
+        &quot;ItemEntityType&quot;: &quot;SignatureTask&quot;,
+        &quot;Name&quot;: &quot;Inspector&quot;,
+        &quot;IsActive&quot;: true
+      },
+      &quot;ActionPlanTemplateItem&quot;: [
+        {
+          &quot;ActionPlanTemplateItemValue2&quot;: {
+            &quot;IsActive&quot;: true,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+            &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+            &quot;ValueLiteralLookup&quot;: &quot;Tree Condition&quot;
+          },
+          &quot;ActionPlanTemplateItemValue&quot;: {
+            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;Name&quot;: &quot;Name&quot;,
+            &quot;ValueLiteral&quot;: &quot;Tree Condition&quot;,
+            &quot;IsActive&quot;: true
+          },
+          &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+          &quot;IsRequired&quot;: false,
+          &quot;Name&quot;: &quot;Tree Condition&quot;,
+          &quot;IsActive&quot;: true
+        },
+        {
+          &quot;ActionPlanTemplateItemValue2&quot;: {
+            &quot;IsActive&quot;: true,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+            &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+            &quot;ValueLiteralLookup&quot;: &quot;Surrounding Area&quot;
+          },
+          &quot;ActionPlanTemplateItemValue&quot;: {
+            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;Name&quot;: &quot;Name&quot;,
+            &quot;ValueLiteral&quot;: &quot;Surrounding Area&quot;,
+            &quot;IsActive&quot;: true
+          },
+          &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+          &quot;IsRequired&quot;: false,
+          &quot;Name&quot;: &quot;Surrounding Area&quot;,
+          &quot;IsActive&quot;: true
+        }
+      ],
+      &quot;Name&quot;: &quot;NYC Parks Tree Inspection&quot;
+    },
+    &quot;TargetEntityType&quot;: &quot;Visit&quot;,
+    &quot;Name&quot;: &quot;NYC Parks Tree Inspection&quot;,
+    &quot;Description&quot;: &quot;NYC Parks Tree Inspection&quot;,
+    &quot;ActionPlanType&quot;: &quot;Retail&quot;
+  },
+  &quot;InspectionType&quot;: {
+    &quot;Name&quot;: &quot;NYC Parks Tree Inspection&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,157 @@
+{
+    "ApplicantAffirmation": {
+        "CustomLWC2": null
+    },
+    "ApplicantInformation": {
+        "ApplicantAddress-Block": {
+            "ApplicantAddress": null,
+            "City": null,
+            "State": null,
+            "StreetAddress": null,
+            "ZipCode": null
+        },
+        "ApplyingAsABusinessOwner": null,
+        "BusinessCity": null,
+        "BusinessPostalCode": null,
+        "BusinessState": null,
+        "BusinessStreetAddress": null,
+        "DateOfBirth": null,
+        "DriversLicenseNumber": null,
+        "EmailAddress": null,
+        "EyeColor": null,
+        "FirstName": null,
+        "HairColor": null,
+        "Height": null,
+        "HomePhone": null,
+        "LastName": null,
+        "MiddleName": null,
+        "OccupationNameOfBusiness": null,
+        "PlaceOfBirth": null,
+        "Race": null,
+        "Sex": null,
+        "SocialSecurityNumber": null,
+        "Weight": null,
+        "WorkPhone": null
+    },
+    "Appointment": {
+        "AppointmentSlot": null
+    },
+    "Attachments": {
+        "File1": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File2": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File3": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "FeesPayments": {
+        "CustomLWC1": null,
+        "PayNow": null
+    },
+    "FirearmRegistration": {
+        "LicenseType": null
+    },
+    "FirearmsRegistration": {
+        "AddressHistory": {
+            "AddressHistoryCity": null,
+            "AddressHistoryState": null,
+            "AddressHistoryStreet": null,
+            "AddressHistoryZip": null,
+            "AddressStart": null,
+            "EndDate": null
+        },
+        "BarrelLength": null,
+        "BriefStatement": null,
+        "Caliber": null,
+        "Finish": null,
+        "IdentifyingMarks": null,
+        "MakeOfWeapon": null,
+        "ManufacturerIdNo": null,
+        "Model": null,
+        "NewOrUsed": null,
+        "NoOfBarrels": null,
+        "NoOfShots": null,
+        "SellerCity": null,
+        "SellerName": null,
+        "SellerState": null,
+        "SellerStreetAddress": null,
+        "SellerZipCode": null,
+        "SerialNumber": null,
+        "TypeOfAction": null
+    },
+    "StatementOfEligibility": {
+        "AlcoholicOrAddict": null,
+        "AquitedInsane": null,
+        "BonaFideAndConcealedAnotherState": null,
+        "BonaFideBusiness": null,
+        "BonaFideResidence": null,
+        "CivilProtectionOrder": null,
+        "CommittedMentalHospital": null,
+        "ConvictedLast5YearsDrugs": null,
+        "ConvictedViolentCrime": null,
+        "DishonorablyDischarged": null,
+        "LegallyBlind": null,
+        "NegligentFirearm": null,
+        "PhysicalDefect": null,
+        "ProvidedAccurateAndTrue": null,
+        "RegisterPistolConcurrently": null,
+        "RenouncedCitizenship": null,
+        "SufferMentalIllness": null,
+        "TwoOrMoreDUIs": null,
+        "UnderIndictment": null
+    },
+    "Training": {
+        "CompleteDCTraining": null,
+        "Completed16HoursCertifiedInstructor": null,
+        "Completed2HoursRangeTraining": null,
+        "CompletedDCLawsTraining": null,
+        "IntendToCompleted45Days": null,
+        "RequestingExemption": null,
+        "RequirementRequestingExemption": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApplicantAffirmation": null,
+        "ApplicantInformation": null,
+        "Appointment": null,
+        "Attachments": null,
+        "Confirmation": null,
+        "DRCreeateAppointmentEvent": null,
+        "DRGetAppNumber": null,
+        "DRGetContactForFirarmUser": null,
+        "DRSaveFirearmApplication": null,
+        "FeesPayments": null,
+        "FirearmRegistration": null,
+        "FirearmsRegistration": null,
+        "GeneratePD219": null,
+        "GetAppointmentSlots": null,
+        "NavigateAction1": null,
+        "SetUserId": null,
+        "StatementOfEligibility": null,
+        "Training": null
+    }
+}

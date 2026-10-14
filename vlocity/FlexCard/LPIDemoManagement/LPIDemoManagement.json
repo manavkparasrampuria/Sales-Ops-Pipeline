@@ -1,0 +1,562 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "DemoType",
+                "val": "LPI"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "LPIGetDemoOmniscript",
+            "bundleType": "",
+            "dsDelay": "",
+            "inputMap": {
+                "DemoType": "LPI"
+            },
+            "jsonMap": "{\"DemoType\":\"{DemoType}\"}",
+            "resultVar": ""
+        }
+    },
+    "enableLwc": true,
+    "events": [
+        {
+            "actionData": {
+                "card": "{card}",
+                "stateAction": {
+                    "eventName": "reload",
+                    "id": "flex-action-1630440375025",
+                    "type": "cardAction"
+                }
+            },
+            "channelname": "LPIDemoManagement",
+            "displayLabel": "LPIDemoManagement:data",
+            "element": "action",
+            "eventLabel": "pubsub",
+            "eventname": "data",
+            "eventtype": "pubsub",
+            "key": "event-0",
+            "recordIndex": "0"
+        }
+    ],
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfLPIDemoManagement_2_LPI2008262021",
+        "Id": "0Rb5f0000009EOICA2",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfLPIDemoManagement_2_LPI2008262021",
+        "NamespacePrefix": "c"
+    },
+    "osSupport": true,
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "ScenarioName-0",
+                            "name": "ScenarioName",
+                            "property": {
+                                "card": "{card}",
+                                "fieldName": "ScenarioName",
+                                "label": "Current Demo Scenario",
+                                "placeholder": "",
+                                "record": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "fontSize": "large",
+                                        "textDecoration": "underline"
+                                    },
+                                    "value": {
+                                        "color": "#FA2424",
+                                        "fontSize": "medium",
+                                        "textDecoration": ""
+                                    }
+                                },
+                                "type": "text"
+                            },
+                            "size": {
+                                "default": "8",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "styles": {
+                                        "label": {
+                                            "fontSize": "large",
+                                            "textDecoration": "underline"
+                                        },
+                                        "value": {
+                                            "color": "#FA2424",
+                                            "fontSize": "medium",
+                                            "textDecoration": ""
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "8",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_8-of-12 ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "field"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-1",
+                            "name": "Action",
+                            "property": {
+                                "buttonVariant": "brand",
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "hideActionIcon": true,
+                                "reRenderFlyout": true,
+                                "record": "{record}",
+                                "stateAction": {
+                                    "displayName": "Select Demo",
+                                    "flyoutLwc": "l-p-i-demo-setup-english",
+                                    "flyoutParams": {
+                                        "DemoType": "{DemoType}",
+                                        "vlocEvents": "LPIDemoManagement"
+                                    },
+                                    "flyoutType": "OmniScripts",
+                                    "hasExtraParams": true,
+                                    "id": "flex-action-1631133068804",
+                                    "layoutType": "lightning",
+                                    "openFlyoutIn": "Modal",
+                                    "openUrlIn": "Current Window",
+                                    "osName": "LPI/DemoSetup/English",
+                                    "type": "Flyout",
+                                    "vlocityIcon": "standard-default"
+                                },
+                                "stateObj": "{record}"
+                            },
+                            "size": {
+                                "default": "2",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "size": {
+                                    "default": "2",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_2-of-12 "
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-2",
+                            "name": "Action",
+                            "property": {
+                                "buttonVariant": "brand",
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "hideActionIcon": true,
+                                "reRenderFlyout": true,
+                                "record": "{record}",
+                                "stateAction": {
+                                    "displayName": "Demo Reset",
+                                    "flyoutLwc": "l-p-i-reset-data-english",
+                                    "flyoutParams": {
+                                        "vlocEvents": "LPIDemoManagement"
+                                    },
+                                    "flyoutType": "OmniScripts",
+                                    "hasExtraParams": true,
+                                    "id": "flex-action-1630441771135",
+                                    "layoutType": "lightning",
+                                    "openFlyoutIn": "Modal",
+                                    "openUrlIn": "Current Window",
+                                    "osName": "LPI/ResetData/English",
+                                    "type": "Flyout",
+                                    "vlocityIcon": "standard-default"
+                                },
+                                "stateObj": "{record}"
+                            },
+                            "size": {
+                                "default": "2",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "size": {
+                                    "default": "2",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_2-of-12 "
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-3",
+                            "name": "Action",
+                            "property": {
+                                "card": "{card}",
+                                "hideActionIcon": true,
+                                "record": "{record}",
+                                "stateAction": {
+                                    "Web Page": {
+                                        "targetName": "{DemoScript}"
+                                    },
+                                    "displayName": "Link to Demo Script",
+                                    "id": "flex-action-1631042803998",
+                                    "openUrlIn": "New Tab/Window",
+                                    "targetType": "Web Page",
+                                    "type": "Custom",
+                                    "vlocityIcon": "standard-default"
+                                },
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "fontSize": "large"
+                                    }
+                                }
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "styles": {
+                                        "label": {
+                                            "fontSize": "large"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Personas-4",
+                            "name": "Personas",
+                            "property": {
+                                "card": "{card}",
+                                "fieldName": "Personas",
+                                "label": "Personas",
+                                "placeholder": "",
+                                "record": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "fontSize": "large"
+                                    },
+                                    "value": {
+                                        "color": "#FA2424",
+                                        "fontSize": "medium"
+                                    }
+                                },
+                                "type": "text"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "styles": {
+                                        "label": {
+                                            "fontSize": "large"
+                                        },
+                                        "value": {
+                                            "color": "#FA2424",
+                                            "fontSize": "medium"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "field"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Description-5",
+                            "name": "Description",
+                            "property": {
+                                "card": "{card}",
+                                "fieldName": "Description",
+                                "label": "Description",
+                                "placeholder": "",
+                                "record": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "fontSize": "large",
+                                        "textDecoration": ""
+                                    },
+                                    "value": {
+                                        "color": "#FA2424",
+                                        "fontSize": "medium"
+                                    }
+                                },
+                                "type": "text"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "styles": {
+                                        "label": {
+                                            "fontSize": "large",
+                                            "textDecoration": ""
+                                        },
+                                        "value": {
+                                            "color": "#FA2424",
+                                            "fontSize": "medium"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "field"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+                {
+                    "language": "English",
+                    "subtype": "DemoSetup",
+                    "type": "LPI"
+                },
+                {
+                    "language": "English",
+                    "subtype": "ResetData",
+                    "type": "LPI"
+                }
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "LPI Demo Selection",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 48,
+        "isExplicitImport": false,
+        "isExposed": true,
+        "masterLabel": "LPIDemoManagement",
+        "runtimeNamespace": "%vlocity_namespace%",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

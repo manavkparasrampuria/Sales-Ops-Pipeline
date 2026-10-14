@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "{}",
+    "Description": "Gets all billing accounts associated with an AccountId",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "GET BillingAccounts from AccountId",
+    "OmniProcessElement": [
+        "Account_GetBillingAccounts_Element_DR_GetBillingAccounts.json",
+        "Account_GetBillingAccounts_Element_Response.json"
+    ],
+    "OmniProcessKey": "Account_GetBillingAccounts",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Account_GetBillingAccounts_PropertySetConfig.json",
+    "SubType": "GetBillingAccounts",
+    "Type": "Account",
+    "UniqueName": "Account_GetBillingAccounts_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Account/GetBillingAccounts/Procedure"
+}

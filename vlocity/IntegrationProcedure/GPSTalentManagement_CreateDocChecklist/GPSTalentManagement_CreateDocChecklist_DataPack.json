@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GPSTalentManagement_CreateDocChecklist_SampleInput.json",
+    "Description": "Because of some bugs with Doc Checklist creation and association through ContentDocumentLink this workaround IP is used.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Workaround Add Doc Checklist",
+    "OmniProcessElement": [
+        "GPSTalentManagement_CreateDocChecklist_Element_GetContentVersion.json",
+        "GPSTalentManagement_CreateDocChecklist_Element_CreateContentVersionChecklist.json"
+    ],
+    "OmniProcessKey": "GPSTalentManagement_CreateDocChecklist",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GPSTalentManagement_CreateDocChecklist_PropertySetConfig.json",
+    "SubType": "CreateDocChecklist",
+    "Type": "GPSTalentManagement",
+    "UniqueName": "GPSTalentManagement_CreateDocChecklist_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GPSTalentManagement/CreateDocChecklist/Procedure"
+}

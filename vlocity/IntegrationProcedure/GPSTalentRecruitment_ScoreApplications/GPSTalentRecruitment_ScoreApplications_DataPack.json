@@ -1,0 +1,32 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GPSTalentRecruitment_ScoreApplications_SampleInput.json",
+    "Description": "Uses Prompt Builder to Score how well the application matches the job posting",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Score Job Applications",
+    "OmniProcessElement": [
+        "GPSTalentRecruitment_ScoreApplications_Element_CallPromptBuilder.json",
+        "GPSTalentRecruitment_ScoreApplications_Element_TransformPrompt.json",
+        "GPSTalentRecruitment_ScoreApplications_Element_UpsertApplicationFormRelation.json",
+        "GPSTalentRecruitment_ScoreApplications_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GPSTalentRecruitment_ScoreApplications",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GPSTalentRecruitment_ScoreApplications_PropertySetConfig.json",
+    "SubType": "ScoreApplications",
+    "Type": "GPSTalentRecruitment",
+    "UniqueName": "GPSTalentRecruitment_ScoreApplications_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GPSTalentRecruitment/ScoreApplications/Procedure"
+}

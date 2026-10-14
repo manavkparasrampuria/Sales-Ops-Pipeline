@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudGetPublicComplaintNameDCT</dataMapperDefItemName>
+        <filterDataType>ID</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>publicComplaintId</filterValue>
+        <globalKey>PSSExpCloudGetPublicComplaintNameDCTCustom0jI4S000000D1b2UACItem1</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>PublicComplaint</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>PublicComplaint</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudGetPublicComplaintNameDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudGetPublicComplaintNameDCTCustom0jI4S000000D1b2UACItem0</globalKey>
+        <inputField>Name</inputField>
+        <inputObject>PublicComplaint</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>publicComplaint</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Fetches the name of the public complaint.</description>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSExpCloudGetPublicComplaintNameDCT</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{&quot;publicComplaintId&quot;:&quot;0fhxx000000003FAAQ&quot;}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Turbo Extract</type>
+</DataMapperDefinition>

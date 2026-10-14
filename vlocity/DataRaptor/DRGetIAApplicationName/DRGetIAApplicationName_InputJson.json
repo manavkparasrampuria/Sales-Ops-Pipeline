@@ -1,0 +1,148 @@
+{
+    "APPLICANT_AFFIDAVIT": {
+        "ApplicantSign": "ads",
+        "Submission Date": "2020-03-11"
+    },
+    "APPLICANT_INFORMATION": {
+        "DegreesHeld": null,
+        "EmailOfPersonAccount": "a@b.com",
+        "GenderOfPersonAccount": "Male",
+        "IsLanguagesSpokenOther": false,
+        "LanguagesSpoken": null,
+        "OtherLanguage": null,
+        "PersonAccountDob": "2020-03-03",
+        "PersonAccountLastName": "eweqwe",
+        "PersonAccountName": "ACT - 1",
+        "RaceEthnicity": null,
+        "RaceEthnicityHasChooseNotToDisclose": false,
+        "RaceEthnicitySelCountGtOne": false,
+        "RaceEthnicityValidate": false,
+        "SSN": null,
+        "Telephone1": "1231312312"
+    },
+    "ApplicationStatus": "Submitted",
+    "AssociatedAccountId": "001RM000004eZGJYA2",
+    "AuthorizationTypeId": "0ehRM0000004C9NYAU",
+    "BusinessActivityId": "2gFRM0000004C9S2AU",
+    "ContactId": "003RM000006GmF9YAK",
+    "ContactName": "Dieggo John",
+    "ContextId": "",
+    "DRId_Case": "500RM000002hw7oYAA",
+    "DRId_OccupationLicenseApplication": "0f2RM0000004C9NYAU",
+    "LICENCETYPE_AND_FEES": {
+        "ApplicationType": "License by Examination ($805.00)",
+        "AssociatedPersonAccount": "ACT - 1",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "RAT 1",
+        "BusinessActivity": "ACT 1 BT1",
+        "GraduateType": "U.S./Canada",
+        "Industries": "Healthcare",
+        "ProfessionalDesignation": "Medicine & Surgery (MD)",
+        "isBusinessActivityFilled": true,
+        "isIndustriesFilled": true
+    },
+    "MEDICAL_SCHOOLS_ATTENDED": {
+        "MedicalSchoolAttended": {
+            "DegreeCertAwarded": "qwe",
+            "GradCity": "Valsad",
+            "GradCountry": "India",
+            "GradState": "GJ",
+            "GraduationDate": "2020-03-09",
+            "MedSchoolName": "qwe"
+        }
+    },
+    "MailingAddress": {
+        "BusinessAddress": {
+            "BizEmail": null,
+            "BizTelephone": null,
+            "BizZipCode": null,
+            "BusinessCity": null,
+            "BusinessState": null,
+            "CurrentBusinessAddress": null
+        },
+        "EnsureOnlyOneOfHomeBizAddrIsSelected": true,
+        "HomeAddress": {
+            "CHA": "Gachiwad Road",
+            "HomeCity": "Valsad",
+            "HomeEmail": null,
+            "HomePhone": null,
+            "HomeState": "GJ",
+            "ZipCode": 396001
+        },
+        "IsBizAddrSelected": false,
+        "IsHomeAddrSelected": true,
+        "MailingAddrSelect": "HomeAddress"
+    },
+    "OTHER_MEDICAL_LICENSES": {
+        "MedicalLicense": {
+            "ExpiryDate": "2020-03-10",
+            "IssueDate": "2020-03-10",
+            "Jurisdiction": "cxz",
+            "LicenseNumber": "eqw"
+        }
+    },
+    "OtherNamesUsed": {
+        "OtherName": {
+            "FirstNameOther": "wqeeqw",
+            "LastNameOther": "ewqewq"
+        }
+    },
+    "PRACTICE_SPECIALTIES_AND_BOARD_CERTS": {
+        "BoardCertifiedInfo": {
+            "CertifyingAgency": "ads",
+            "CertifyingBoard": "ads"
+        },
+        "PracticeSpeciality": "qwe"
+    },
+    "PersonAccountId": "001RM000004eZGJYA2",
+    "PgMedTrainings": {
+        "PgMedicalTraining": {
+            "ProgramCity": "Valsad",
+            "ProgramCountry": "India",
+            "ProgramEndDate": "2020-03-03",
+            "ProgramName": "ewq",
+            "ProgramStartDate": "2020-03-03",
+            "ProgramState": "GJ",
+            "ProgramTypeofPosition": "Internship"
+        }
+    },
+    "REQUIRED_SCREENING_QUESTIONS": {
+        "ScreenQuestion1": false,
+        "ScreenQuestion2": false,
+        "ScreenQuestion3": false,
+        "ScreenQuestion4": false,
+        "ScreenQuestion5": false,
+        "ScreenQuestion6": false,
+        "ScreenQuestion7": false
+    },
+    "SampleUser": "005RM0000025atnYAA",
+    "WORK_EXPERIENCE": {
+        "Employer": {
+            "EmployerName": "ads",
+            "EmploymentCity": "Valsad",
+            "EmploymentCountry": "India",
+            "EmploymentEndDate": "2020-03-09",
+            "EmploymentStartDate": "2020-03-17",
+            "EmploymentState": "GJ",
+            "ReasonForLeaving": "ads"
+        }
+    },
+    "error": "OK",
+    "id": "a3KRM000000005h2AA",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vlocity-ins.na44.visual.stmfa.stm.force.com",
+    "timeStamp": "2020-03-31T06:00:23.982Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B00000065DsSåIAU",
+    "userName": "sazher_patch1@salesforce.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcKnowledge": {
+        "knowledgeItems": [
+        ]
+    },
+    "vlcPersistentComponent": {
+    }
+}

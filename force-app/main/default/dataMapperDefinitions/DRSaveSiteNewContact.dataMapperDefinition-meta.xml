@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSiteNewContact</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveSiteNewContactCustom0jI5e000000PB25EAGItem6</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>VolunteerSite__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSiteNewContact</dataMapperDefItemName>
+        <globalKey>DRSaveSiteNewContactCustom0jI5e000000PB25EAGItem1</globalKey>
+        <inputField>SiteContact:BlkSiteContactNew:SiteContactLastName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LastName</outputField>
+        <outputObject>Contact</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSiteNewContact</dataMapperDefItemName>
+        <globalKey>DRSaveSiteNewContactCustom0jI5e000000PB25EAGItem0</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Contact</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSiteNewContact</dataMapperDefItemName>
+        <globalKey>DRSaveSiteNewContactCustom0jI5e000000PB25EAGItem5</globalKey>
+        <inputField>SiteContact:BlkSiteContactNew:SiteContactFirstName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FirstName</outputField>
+        <outputObject>Contact</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSiteNewContact</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveSiteNewContactCustom0jI5e000000PB25EAGItem4</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Contact</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSiteNewContact</dataMapperDefItemName>
+        <globalKey>DRSaveSiteNewContactCustom0jI5e000000PB25EAGItem3</globalKey>
+        <inputField>ContactId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Contact</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSiteNewContact</dataMapperDefItemName>
+        <globalKey>DRSaveSiteNewContactCustom0jI5e000000PB25EAGItem2</globalKey>
+        <inputField>SiteContact:BlkSiteContactNew:SiteContactPhone</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Phone</outputField>
+        <outputObject>Contact</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;SiteContact&quot;: null,
+        &quot;SiteOperatingHours&quot;: null,
+        &quot;SetValueWed&quot;: null,
+        &quot;DataRaptorCreateSiteHourDayMon&quot;: null,
+        &quot;DataRaptorCreateSiteHourDaySUN&quot;: null,
+        &quot;SetValueSAT&quot;: null,
+        &quot;SetValueFRI&quot;: null,
+        &quot;DataRaptorCreateSiteHourDayFRI&quot;: null,
+        &quot;SetValueTues&quot;: null,
+        &quot;DataRaptorCreateSiteHourDayTues&quot;: null,
+        &quot;SetLocationIdasParentLocationId&quot;: null,
+        &quot;DRUpdateParentLocationwithAddress&quot;: null,
+        &quot;DRCreateLocationAddressFromSite&quot;: null,
+        &quot;SiteInfo&quot;: null,
+        &quot;Disclosure&quot;: null,
+        &quot;DataRaptorCreateSiteHourDayThurs&quot;: null,
+        &quot;DataRaptorCreateSiteHourDayWed&quot;: null,
+        &quot;SetValueSiteId&quot;: null,
+        &quot;DataRaptorCreateSiteHourDaySAT&quot;: null,
+        &quot;SetValueMon&quot;: null,
+        &quot;DataRaptorCreateSite&quot;: null,
+        &quot;SetValueSUN&quot;: null,
+        &quot;DataRaptorSaveSiteContact&quot;: null,
+        &quot;NavigateAction1&quot;: null,
+        &quot;SetValuesTEST&quot;: null,
+        &quot;SetValuesSiteContactfromUser&quot;: null,
+        &quot;DRGetCurrentUserasContact&quot;: null,
+        &quot;SetValueThurs&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;SiteContact&quot;: {
+        &quot;Block4&quot;: {
+            &quot;SiteContactName&quot;: null,
+            &quot;SiteContactPhoneNumber&quot;: null
+        },
+        &quot;MyselfSiteContact&quot;: null,
+        &quot;Block3&quot;: {
+            &quot;SiteContactBestTimeCallEnd&quot;: null,
+            &quot;SiteContactBestTimeCallStart&quot;: null
+        },
+        &quot;SiteContactAddress-Block&quot;: {
+            &quot;SiteContactAddress&quot;: null,
+            &quot;ContactCity&quot;: null,
+            &quot;ContactState&quot;: null,
+            &quot;ContactZipcode&quot;: null,
+            &quot;ContactStreet&quot;: null
+        }
+    },
+    &quot;SiteOperatingHours&quot;: {
+        &quot;CustomLWC1&quot;: null
+    },
+    &quot;SiteInfo&quot;: {
+        &quot;SiteAddress__c-Block&quot;: {
+            &quot;SiteAddress__c&quot;: null,
+            &quot;SiteCity&quot;: null,
+            &quot;SiteState&quot;: null,
+            &quot;SiteZipcode&quot;: null,
+            &quot;SiteStreet&quot;: null
+        },
+        &quot;SiteName&quot;: null,
+        &quot;SIDN__c&quot;: null,
+        &quot;Languages__c&quot;: null,
+        &quot;BlkSiteDetails&quot;: {
+            &quot;SitePublic__c&quot;: null,
+            &quot;SiteApptOnly__c&quot;: null,
+            &quot;SiteMobileOnly__c&quot;: null,
+            &quot;BlkSiteContact&quot;: {
+                &quot;BlkNewContact&quot;: {
+                    &quot;SiteContactPhone&quot;: null,
+                    &quot;NewContactName&quot;: null
+                },
+                &quot;AddContact&quot;: null,
+                &quot;SiteContactId&quot;: null
+            }
+        },
+        &quot;ProgramType__c&quot;: null,
+        &quot;Block1&quot;: {
+            &quot;BlkServiceSystems&quot;: {
+                &quot;ServiceSystemSelectionOtherSelected&quot;: null,
+                &quot;SiteOfferOtherServiceSystem__c&quot;: null,
+                &quot;SiteOfferServiceSystems__c&quot;: null
+            },
+            &quot;Block2&quot;: {
+                &quot;SiteOfferAFMType__c&quot;: null
+            },
+            &quot;SiteOfferPrepareLastYearReturns__c&quot;: null,
+            &quot;SiteOfferCAA__c&quot;: null,
+            &quot;SiteOfferAFMReturns__c&quot;: null
+        },
+        &quot;BlkFiling&quot;: {
+            &quot;FedeFile__c&quot;: null,
+            &quot;StateeFile__c&quot;: null
+        },
+        &quot;BlkQuestions&quot;: {
+            &quot;SiteVoterReg__c&quot;: null,
+            &quot;SiteofferFinancialServices__c&quot;: null,
+            &quot;SitePrepareForeign__c&quot;: null,
+            &quot;SiteFormTerritoryOffice__c&quot;: null
+        }
+    },
+    &quot;Disclosure&quot;: {
+        &quot;Disclosure1&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRSaveSiteNewContact</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;SiteContact&quot;:null,&quot;SiteOperatingHours&quot;:null,&quot;SetValueWed&quot;:null,&quot;DataRaptorCreateSiteHourDayMon&quot;:null,&quot;DataRaptorCreateSiteHourDaySUN&quot;:null,&quot;SetValueSAT&quot;:null,&quot;SetValueFRI&quot;:null,&quot;DataRaptorCreateSiteHourDayFRI&quot;:null,&quot;SetValueTues&quot;:null,&quot;DataRaptorCreateSiteHourDayTues&quot;:null,&quot;SetLocationIdasParentLocationId&quot;:null,&quot;DRUpdateParentLocationwithAddress&quot;:null,&quot;DRCreateLocationAddressFromSite&quot;:null,&quot;SiteInfo&quot;:null,&quot;Disclosure&quot;:null,&quot;DataRaptorCreateSiteHourDayThurs&quot;:null,&quot;DataRaptorCreateSiteHourDayWed&quot;:null,&quot;SetValueSiteId&quot;:null,&quot;DataRaptorCreateSiteHourDaySAT&quot;:null,&quot;SetValueMon&quot;:null,&quot;DataRaptorCreateSite&quot;:null,&quot;SetValueSUN&quot;:null,&quot;DataRaptorSaveSiteContact&quot;:null,&quot;NavigateAction1&quot;:null,&quot;SetValuesTEST&quot;:null,&quot;SetValuesSiteContactfromUser&quot;:null,&quot;DRGetCurrentUserasContact&quot;:null,&quot;SetValueThurs&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;SiteContact&quot;:{&quot;Block4&quot;:{&quot;SiteContactName&quot;:null,&quot;SiteContactPhoneNumber&quot;:null},&quot;MyselfSiteContact&quot;:null,&quot;Block3&quot;:{&quot;SiteContactBestTimeCallEnd&quot;:null,&quot;SiteContactBestTimeCallStart&quot;:null},&quot;SiteContactAddress-Block&quot;:{&quot;SiteContactAddress&quot;:null,&quot;ContactCity&quot;:null,&quot;ContactState&quot;:null,&quot;ContactZipcode&quot;:null,&quot;ContactStreet&quot;:null}},&quot;SiteOperatingHours&quot;:{&quot;CustomLWC1&quot;:null},&quot;SiteInfo&quot;:{&quot;SiteAddress__c-Block&quot;:{&quot;SiteAddress__c&quot;:null,&quot;SiteCity&quot;:null,&quot;SiteState&quot;:null,&quot;SiteZipcode&quot;:null,&quot;SiteStreet&quot;:null},&quot;SiteName&quot;:null,&quot;SIDN__c&quot;:null,&quot;Languages__c&quot;:null,&quot;BlkSiteDetails&quot;:{&quot;SitePublic__c&quot;:null,&quot;SiteApptOnly__c&quot;:null,&quot;SiteMobileOnly__c&quot;:null,&quot;BlkSiteContact&quot;:{&quot;BlkNewContact&quot;:{&quot;SiteContactPhone&quot;:null,&quot;NewContactName&quot;:null},&quot;AddContact&quot;:null,&quot;SiteContactId&quot;:null}},&quot;ProgramType__c&quot;:null,&quot;Block1&quot;:{&quot;BlkServiceSystems&quot;:{&quot;ServiceSystemSelectionOtherSelected&quot;:null,&quot;SiteOfferOtherServiceSystem__c&quot;:null,&quot;SiteOfferServiceSystems__c&quot;:null},&quot;Block2&quot;:{&quot;SiteOfferAFMType__c&quot;:null},&quot;SiteOfferPrepareLastYearReturns__c&quot;:null,&quot;SiteOfferCAA__c&quot;:null,&quot;SiteOfferAFMReturns__c&quot;:null},&quot;BlkFiling&quot;:{&quot;FedeFile__c&quot;:null,&quot;StateeFile__c&quot;:null},&quot;BlkQuestions&quot;:{&quot;SiteVoterReg__c&quot;:null,&quot;SiteofferFinancialServices__c&quot;:null,&quot;SitePrepareForeign__c&quot;:null,&quot;SiteFormTerritoryOffice__c&quot;:null}},&quot;Disclosure&quot;:{&quot;Disclosure1&quot;:null}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,149 @@
+{
+    "AddressInformation": {
+        "BusinessOwnershipInformation": {
+            "EntityType": "SoleProprietor",
+            "ResponsibleAddress-Block": {
+                "ResponsibleAddress": "3939 Dallas Pkwy, Plano, TX 75093, USA",
+                "ResponsibleCity": "Plano",
+                "ResponsibleState": "TX",
+                "ResponsibleStreet": "3939 Dallas Parkway",
+                "ResponsibleZip": "75093"
+            },
+            "ResponsibleEmail": "joe.franklin@gmail.com",
+            "ResponsibleFax": "6235558080",
+            "ResponsibleName": "Geoff Duckwall",
+            "ResponsibleOther": null,
+            "ResponsiblePhone": "3939292929"
+        },
+        "EstablishmentInfo": {
+            "EstablishmentAddress-Block": {
+                "EstablishmentAddress": "4949 Main Street, Amherst, NY, USA",
+                "EstablishmentCity": "Plano",
+                "EstablishmentState": "TX",
+                "EstablishmentStreet": "3939 Dallas Parkway",
+                "EstablishmentZip": "75093"
+            },
+            "EstablishmentEmail": "joe.franklin@gmail.com",
+            "EstablishmentFax": "6235557676",
+            "EstablishmentName": "Astro's Diner",
+            "EstablishmentPhone": "3939292929"
+        }
+    },
+    "ContactId": "0035f000003ABE9AAO",
+    "ContactName": "Geoff Duckwall",
+    "ContractorArchitectInfo": {
+        "ArchitectNA": false,
+        "Checkbox1": false
+    },
+    "Disclaimer": {
+        "DisclaimerDate1": "2021-08-30",
+        "DisclaimerDate2": "2021-08-30",
+        "Disclosure1": true,
+        "Disclosure2": true
+    },
+    "DogPatio": "DogYes",
+    "Fee": 245,
+    "FeePreviewStep": {
+        "EnvFee": {
+            "MinorReviewFee": 245,
+            "NewBusinessFee": 315,
+            "TotalFees": 560
+        }
+    },
+    "GeneratePDF": "00P5f000000pXuOEAU",
+    "Menu": {
+        "HoursOfOperation": {
+            "DayOfWeek": "Weekdays",
+            "EndTime": "22:00:00.000Z",
+            "StartTime": "06:00:00.000Z"
+        },
+        "MenuDesc": "Astro’s Diner, a full-service, casual dining restaurant, will provide a static menu that is separated into groups (e.g., breakfast, lunch, dinner, brunch, drinks).  Each group will be broken down by categories like appetizers, pastas, sandwiches, sides, etc.  The type of food will be casual dining with traditional Mexican and American dishes.",
+        "SeatingCapacity": 55
+    },
+    "MinorReviewFeeName": "Minor Review",
+    "NewBusinessFeeName": "New Business Permit",
+    "PaymentStep": {
+        "ShowTestCreditCard": false
+    },
+    "PermitChoice": {
+        "BusinessType": "NewBusiness;MinorReview",
+        "ConstInstallDate": "2021-10-11",
+        "ConstInstallEndDate": "2021-10-15",
+        "ExpeditedReview": "ExpediteReviewNo",
+        "MinorAndNew": true,
+        "MinorOrNew": true,
+        "NewBusiness": true,
+        "OwnerChangeDate": "2021-10-01",
+        "PermitActivity": "New"
+    },
+    "PermitQuestionnaire": {
+        "BriefDescription": "Taking over the existing diner.  Changing the name to Astro's Diner.  Replacing the existing (broken) ice maker in the existing dog friendly patio with the same model.",
+        "DriveThru": "DriveThruNo",
+        "ExteriorOpenings": "ExteriorOpeningsNo",
+        "Floors": 1,
+        "OutdoorOperations": "OutdoorYes",
+        "SquareFeet": 4500
+    },
+    "PlumbingFinish": {
+        "DrainFinish": {
+            "BathroomCeiling": "Drywall",
+            "BathroomCoveBase": "Vinyl",
+            "BathroomFloors": "Tile",
+            "BathroomWalls": "Drywall",
+            "DumpsterCeiling": "Aluminum",
+            "DumpsterCoveBase": "N/A",
+            "DumpsterFloors": "Concrete",
+            "DumpsterWalls": "Cinder Block",
+            "FreezerCeiling": "Aluminum",
+            "FreezerCoveBase": "Vinyl",
+            "FreezerFloors": "Tile",
+            "FreezerWalls": "Aluminum Siding",
+            "KitchenCeiling": "Drywall",
+            "KitchenCoveBase": "Vinyl",
+            "KitchenFloors": "Tile",
+            "KitchenWalls": "Drywall",
+            "MopCeiling": "Drywall",
+            "MopCoveBase": "Vinyl",
+            "MopFloors": "Tile",
+            "MopWalls": "Drywall",
+            "Multi-select1": "DirectDrain",
+            "Multi-select10": "DirectDrain",
+            "Multi-select2": "DirectDrain",
+            "Multi-select3": "IndirectDrain;DirectDrain",
+            "Multi-select4": "DirectDrain",
+            "Multi-select5": "IndirectDrain;DirectDrain",
+            "Multi-select6": "DirectDrain",
+            "Multi-select7": "DirectDrain",
+            "Multi-select8": "DirectDrain",
+            "Multi-select9": "IndirectDrain;DirectDrain",
+            "OtherCeiling": "N/A",
+            "OtherCoveBase": "N/A",
+            "OtherFloors": "N/A",
+            "OtherWalls": "N/A",
+            "VentCeiling": "Not Applicable",
+            "VentCoveBase": "Rubber",
+            "VentFloors": "Tile",
+            "VentWalls": "Aluminum Siding",
+            "WareCeiling": "Drywall",
+            "WareCoveBase": "Vinyl",
+            "WareFloors": "Tile",
+            "WareWalls": "Drywall"
+        },
+        "PlumbingInformation": "PlumbingForm",
+        "RecoveryRate": 200,
+        "Sewer": "Municipal",
+        "SewerProvider": "Buckeye Utility District",
+        "Water": "Municipal",
+        "WaterHeater": 500,
+        "WaterProvider": "Buckeye Community Water"
+    },
+    "SampleUser": "0055f000001oN4nAAE",
+    "UploadDocs": {
+    },
+    "timeStamp": "2021-08-30T13:48:38.157Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055f000000yem1AAA",
+    "userName": "jblankenship@lpi2.0testing.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

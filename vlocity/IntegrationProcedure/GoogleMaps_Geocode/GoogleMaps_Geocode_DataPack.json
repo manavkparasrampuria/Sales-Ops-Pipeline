@@ -1,0 +1,31 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMaps_Geocode_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Geocode",
+    "OmniProcessElement": [
+        "GoogleMaps_Geocode_Element_SetupValues.json",
+        "GoogleMaps_Geocode_Element_CallGoogleAPI.json",
+        "GoogleMaps_Geocode_Element_TransformGeocode.json",
+        "GoogleMaps_Geocode_Element_ResponseAction2.json"
+    ],
+    "OmniProcessKey": "GoogleMaps_Geocode",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMaps_Geocode_PropertySetConfig.json",
+    "SubType": "Geocode",
+    "Type": "GoogleMaps",
+    "UniqueName": "GoogleMaps_Geocode_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMaps/Geocode/Procedure"
+}

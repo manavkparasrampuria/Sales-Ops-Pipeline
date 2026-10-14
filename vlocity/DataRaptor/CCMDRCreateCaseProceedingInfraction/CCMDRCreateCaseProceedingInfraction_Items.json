@@ -1,0 +1,118 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateCaseProceedingInfractionCustom3621",
+        "InputFieldName": "DRId_CaseProceeding",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateCaseProceedingInfraction",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateCaseProceedingInfraction",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateCaseProceedingInfraction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CaseProceedingId",
+        "OutputObjectName": "CaseProceedingInfraction",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "CCMDRCreateCaseProceedingInfractionCustom4064",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "CCMDRCreateCaseProceedingInfraction",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateCaseProceedingInfraction",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateCaseProceedingInfraction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "CaseProceedingInfraction",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateCaseProceedingInfractionCustom7324",
+        "InputFieldName": "RegulatoryCodeViolation:Id",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateCaseProceedingInfraction",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateCaseProceedingInfraction",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateCaseProceedingInfraction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "InfractionId",
+        "OutputObjectName": "CaseProceedingInfraction",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateCaseProceedingInfractionCustom9511",
+        "InputFieldName": "InfractionReportingType",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateCaseProceedingInfraction",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateCaseProceedingInfraction",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateCaseProceedingInfraction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "InfractionReportingType",
+        "OutputObjectName": "CaseProceedingInfraction",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateCaseProceedingInfractionCustom3311",
+        "InputFieldName": "Status",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateCaseProceedingInfraction",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateCaseProceedingInfraction",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateCaseProceedingInfraction",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "CaseProceedingInfraction",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

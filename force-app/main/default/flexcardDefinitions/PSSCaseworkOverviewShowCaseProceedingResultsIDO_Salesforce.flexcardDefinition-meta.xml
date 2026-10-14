@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexcardDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>Salesforce</authorName>
+    <dataSourceConfiguration>{&quot;dataSource&quot;:{&quot;type&quot;:&quot;DataRaptor&quot;,&quot;value&quot;:{&quot;dsDelay&quot;:&quot;&quot;,&quot;bundle&quot;:&quot;PSSCaseworkOverviewGetCaseProceedingResultIDO&quot;,&quot;bundleType&quot;:&quot;&quot;,&quot;inputMap&quot;:{&quot;recordId&quot;:&quot;{Parent.recordId}&quot;},&quot;jsonMap&quot;:&quot;{\&quot;Parent.recordId\&quot;:\&quot;{Parent.recordId}\&quot;}&quot;,&quot;resultVar&quot;:&quot;&quot;},&quot;orderBy&quot;:{&quot;name&quot;:&quot;&quot;,&quot;isReverse&quot;:&quot;&quot;},&quot;contextVariables&quot;:[{&quot;name&quot;:&quot;Parent.recordId&quot;,&quot;val&quot;:&quot;&quot;,&quot;id&quot;:3}]}}</dataSourceConfiguration>
+    <description>Shows the count and details of the case proceeding results for a case proceeding.</description>
+    <flexcardKey>PSSCaseworkOverviewShowCaseProceedingResultsIDO/Salesforce</flexcardKey>
+    <flexcardType>Child</flexcardType>
+    <isActive>true</isActive>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isTrackingEnabled>false</isTrackingEnabled>
+    <masterLabel>PSSCaseworkOverviewShowCaseProceedingResultsIDO_Salesforce</masterLabel>
+    <propertySetConfig>
+        <dataSource>{&quot;type&quot;:&quot;DataRaptor&quot;,&quot;value&quot;:{&quot;dsDelay&quot;:&quot;&quot;,&quot;bundle&quot;:&quot;PSSCaseworkOverviewGetCaseProceedingResultIDO&quot;,&quot;bundleType&quot;:&quot;&quot;,&quot;inputMap&quot;:{&quot;recordId&quot;:&quot;{Parent.recordId}&quot;},&quot;jsonMap&quot;:&quot;{\&quot;Parent.recordId\&quot;:\&quot;{Parent.recordId}\&quot;}&quot;,&quot;resultVar&quot;:&quot;&quot;},&quot;orderBy&quot;:{&quot;name&quot;:&quot;&quot;,&quot;isReverse&quot;:&quot;&quot;},&quot;contextVariables&quot;:[{&quot;name&quot;:&quot;Parent.recordId&quot;,&quot;val&quot;:&quot;&quot;,&quot;id&quot;:3}]}</dataSource>
+        <dynamicProperties>{}</dynamicProperties>
+        <enableLwc>true</enableLwc>
+        <isFlex>true</isFlex>
+        <selectableMode>Multi</selectableMode>
+        <states>
+            <actions>[]</actions>
+            <childCards>[&quot;PSSCaseworkOverviewShowCaseProceedingResultsInDataTableIDO&quot;]</childCards>
+            <components>{&quot;layer-0&quot;:{&quot;children&quot;:[{&quot;name&quot;:&quot;Text&quot;,&quot;element&quot;:&quot;outputField&quot;,&quot;size&quot;:{&quot;isResponsive&quot;:false,&quot;default&quot;:&quot;12&quot;},&quot;stateIndex&quot;:0,&quot;class&quot;:&quot;slds-col &quot;,&quot;property&quot;:{&quot;record&quot;:&quot;{record}&quot;,&quot;mergeField&quot;:&quot;%3Ch3%3E%3Cstrong%3E&amp;nbsp;%20&amp;nbsp;%7BLabel.udd_CaseProceedingResult.Entities%7D%20(%7BTotalRecordsCount%7D)%3C/strong%3E%3C/h3%3E&quot;,&quot;card&quot;:&quot;{card}&quot;},&quot;type&quot;:&quot;text&quot;,&quot;styleObject&quot;:{&quot;sizeClass&quot;:&quot;slds-size_12-of-12&quot;},&quot;elementLabel&quot;:&quot;Text-0&quot;},{&quot;name&quot;:&quot;FlexCard&quot;,&quot;element&quot;:&quot;childCardPreview&quot;,&quot;size&quot;:{&quot;isResponsive&quot;:false,&quot;default&quot;:&quot;12&quot;},&quot;stateIndex&quot;:0,&quot;class&quot;:&quot;slds-col &quot;,&quot;property&quot;:{&quot;cardName&quot;:&quot;PSSCaseworkOverviewShowCaseProceedingResultsInDataTableIDO&quot;,&quot;recordId&quot;:&quot;{recordId}&quot;,&quot;cardNode&quot;:&quot;{record.CaseProceedingResults}&quot;,&quot;selectedState&quot;:&quot;Active&quot;,&quot;isChildCardTrackingEnabled&quot;:false},&quot;type&quot;:&quot;element&quot;,&quot;styleObject&quot;:{&quot;sizeClass&quot;:&quot;slds-size_12-of-12&quot;},&quot;elementLabel&quot;:&quot;FlexCard-1&quot;}]}}</components>
+            <conditions>{&quot;id&quot;:&quot;state-condition-object&quot;,&quot;isParent&quot;:true,&quot;group&quot;:[]}</conditions>
+            <definedActions>{&quot;actions&quot;:[]}</definedActions>
+            <documents>[]</documents>
+            <dynamicProperties>{}</dynamicProperties>
+            <fields>[]</fields>
+            <isSmartAction>false</isSmartAction>
+            <name>Active</name>
+            <omniscripts>[]</omniscripts>
+            <smartAction>{}</smartAction>
+            <styleObject>{&quot;padding&quot;:[{&quot;type&quot;:&quot;around&quot;,&quot;size&quot;:&quot;x-small&quot;}],&quot;margin&quot;:[{&quot;type&quot;:&quot;around&quot;,&quot;size&quot;:&quot;none&quot;}],&quot;container&quot;:{&quot;class&quot;:&quot;slds-card&quot;},&quot;size&quot;:{&quot;isResponsive&quot;:false,&quot;default&quot;:&quot;12&quot;},&quot;sizeClass&quot;:&quot;slds-size_12-of-12&quot;,&quot;class&quot;:&quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;}</styleObject>
+        </states>
+        <theme>slds</theme>
+        <title>PSSCaseworkOverviewShowCaseProceedingResultsIDO</title>
+        <xmlObject>{&quot;masterLabel&quot;:&quot;PSSCaseworkOverviewShowCaseProceedingResultsIDO&quot;,&quot;isExposed&quot;:true,&quot;apiVersion&quot;:56}</xmlObject>
+    </propertySetConfig>
+    <references>[{&quot;name&quot;:&quot;PSSCaseworkOverviewShowCaseProceedingResultsInDataTableIDO_Salesforce&quot;,&quot;type&quot;:&quot;FlexcardDefinition&quot;},{&quot;name&quot;:&quot;PSSCaseworkOverviewGetCaseProceedingResultIDO&quot;,&quot;type&quot;:&quot;DataMapperDefinition&quot;}]</references>
+    <sampleDataSourceResponse>[{&quot;TotalRecordsCount&quot;:0}]</sampleDataSourceResponse>
+</FlexcardDefinition>

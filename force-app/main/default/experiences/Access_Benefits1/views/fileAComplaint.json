@@ -1,0 +1,157 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "afce1308-6cd7-4fc1-a501-1dd90351c425",
+  "label" : "File a Complaint",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "6ec6c984-0406-43ed-9979-3de9e752e038",
+          "columns" : [ {
+            "UUID" : "c0f833ae-d11d-4422-8ce4-4849c658e465",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "6ec6c984-0406-43ed-9979-3de9e752e038",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<hr>\n<div style=\"border:0px solid #d4d4d4; padding:0rem;font-size:1.6rem;\"\" class=\"slds-col imagePreview\";>\n<p><b>Online Complaint Form</b></p>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "d1bbf13a-168e-46cc-be00-e856084debdb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c0f833ae-d11d-4422-8ce4-4849c658e465",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1629996f-e550-42eb-9ddd-492178c8c98e",
+          "columns" : [ {
+            "UUID" : "53c4253e-5485-4bd9-a0f0-238868dcab99",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1629996f-e550-42eb-9ddd-492178c8c98e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "direction" : "ltr",
+            "display" : "Display OmniScript on page",
+            "inlineVariant" : "brand",
+            "language" : "English",
+            "subType" : "ComplaintIntake",
+            "theme" : "lightning",
+            "type" : "CaseManagement"
+          },
+          "componentName" : "runtime_omnistudio:omniscript",
+          "id" : "9812cd60-afd3-474d-8892-a6ee01e3aafa",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "53c4253e-5485-4bd9-a0f0-238868dcab99",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "38e6863d-95ca-47de-915f-19d983e077ee",
+          "columns" : [ {
+            "UUID" : "771f704e-9688-4a5b-b726-fe371f5c16ae",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "38e6863d-95ca-47de-915f-19d983e077ee",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<HR>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "88d03dff-7614-4ee6-9dbc-2cddb1dc6383",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div align=\"center\">\n    <a href=\"/Benefits/s/support\"> \n        <button style=\"background-color: #395878; padding: 12px 30px; border: none; width:40%; font-size: 1.2rem; color: #fff; border-radius: 50px\";>Get Support</button>\n    </a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "08be705b-6cc5-4b04-9236-a23f5295e1c5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<HR>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "4d5df0ac-6f33-4f60-b183-c10162263db8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "771f704e-9688-4a5b-b726-fe371f5c16ae",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "40743743-8ca2-427b-9529-d7c00cc87cc4",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "dlO2CyJfL1keY42kKS5ZbDVJO2XPPl",
+  "type" : "view",
+  "viewType" : "file-a-complaint"
+}

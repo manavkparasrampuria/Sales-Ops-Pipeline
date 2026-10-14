@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <globalKey>LPISaveSecurityGuardApplication7525889230296368</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveSecurityGuardApplication9018978243859708</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ApplicationCaseId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <defaultValue>36</defaultValue>
+        <globalKey>LPISaveSecurityGuardApplication027211228855232195</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <defaultValue>Paid</defaultValue>
+        <globalKey>LPISaveSecurityGuardApplication5243078992149539</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveSecurityGuardApplication10286298796484572</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveSecurityGuardApplication934669042105613</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveSecurityGuardApplication6347775114216154</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveSecurityGuardApplication054146119249674385</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>ParentRecordId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveSecurityGuardApplication6939772638974393</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <defaultValue>Individual Application</defaultValue>
+        <globalKey>LPISaveSecurityGuardApplication3568288455156976</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <defaultValue>License</defaultValue>
+        <globalKey>LPISaveSecurityGuardApplication8381872118239826</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <globalKey>LPISaveSecurityGuardApplication7623818641293336</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <globalKey>LPISaveSecurityGuardApplication7478981026301643</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <defaultValue>36</defaultValue>
+        <globalKey>LPISaveSecurityGuardApplication9237151406979982</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AmountPaid</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>LPISaveSecurityGuardApplication7443558644423582</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <defaultValue>Application Fee</defaultValue>
+        <globalKey>LPISaveSecurityGuardApplication06864927819206712</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <defaultValue>Security Guard</defaultValue>
+        <globalKey>LPISaveSecurityGuardApplication41787635125361255</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <globalKey>LPISaveSecurityGuardApplication6608782442064316</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <globalKey>LPISaveSecurityGuardApplication25939500242214364</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <globalKey>LPISaveSecurityGuardApplication09225386292972315</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <formulaConverted>| &quot;Security/\/\/Guard/\/\/Application/\/\/-/\/\/&quot; var:ApplicantInformation:FirstName &quot;/\/\/&quot; var:ApplicantInformation:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(&quot;Security Guard Application - &quot;,ApplicantInformation:FirstName,&quot; &quot;,ApplicantInformation:LastName)</formulaExpression>
+        <formulaResultPath>CaseName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>LPISaveSecurityGuardApplication3523068643463747</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>LPISaveSecurityGuardApplication5048893596594022</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPISaveSecurityGuardApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>LPISaveSecurityGuardApplication0279765889840502</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRSaveSecurityGuardApplication&quot;: null,
+        &quot;Overview&quot;: null,
+        &quot;ApplicantAffirmation&quot;: null,
+        &quot;Documentation&quot;: null,
+        &quot;PaymentInformation&quot;: null,
+        &quot;NoticeOfEmployment&quot;: null,
+        &quot;BackgroundQuestions&quot;: null,
+        &quot;ApplicantInformation&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;Overview&quot;: {},
+    &quot;ApplicantAffirmation&quot;: {
+        &quot;CustomLWC1&quot;: null
+    },
+    &quot;Documentation&quot;: {
+        &quot;File2&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;File1&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    },
+    &quot;PaymentInformation&quot;: {
+        &quot;cartInput&quot;: null
+    },
+    &quot;NoticeOfEmployment&quot;: {
+        &quot;EmployerName&quot;: null,
+        &quot;EmployerUid&quot;: null,
+        &quot;GuardSocialSecurityNumber&quot;: null,
+        &quot;GuardName&quot;: null,
+        &quot;TransactionDate&quot;: null,
+        &quot;TransactionNumber&quot;: null,
+        &quot;DateOfHire&quot;: null,
+        &quot;WillEmploymentCommenceWithTheFilingOfYourApplication&quot;: null
+    },
+    &quot;BackgroundQuestions&quot;: {
+        &quot;SuspendedExplanation&quot;: null,
+        &quot;DischargeExplanation&quot;: null,
+        &quot;PleaseProvideTheLicenseNumber&quot;: null,
+        &quot;HaveYouEverAppliedInThisStateForARegistrationLicenseAsASecurityGuard?&quot;: null,
+        &quot;HaveYouEverBeenDischargedFromACorrectionalOrLawEnforcementAgencyForIncompetenceO&quot;: null,
+        &quot;HasAnyLicenseOrPermitIssuedToYouOrACompanyInWhichYouAreOrWereAPrincipalInNewYork&quot;: null,
+        &quot;AreYouAnActiveOrRetiredPoliceOfficer?&quot;: null,
+        &quot;AreYouAnActiveOrRetiredPeaceOfficer?&quot;: null
+    },
+    &quot;ApplicantInformation&quot;: {
+        &quot;Address-Block&quot;: {
+            &quot;Address&quot;: null,
+            &quot;City&quot;: null,
+            &quot;State&quot;: null,
+            &quot;Zipcode&quot;: null,
+            &quot;StreetAddress&quot;: null
+        },
+        &quot;NysDmvIdNumber&quot;: null,
+        &quot;BirthDate&quot;: null,
+        &quot;SocialSecurityNumber&quot;: null,
+        &quot;Phone&quot;: null,
+        &quot;Email&quot;: null,
+        &quot;FirstName&quot;: null,
+        &quot;LastName&quot;: null,
+        &quot;TypeOfApplication&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>LPISaveSecurityGuardApplication</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;DRSaveSecurityGuardApplication&quot;:null,&quot;Overview&quot;:null,&quot;ApplicantAffirmation&quot;:null,&quot;Documentation&quot;:null,&quot;PaymentInformation&quot;:null,&quot;NoticeOfEmployment&quot;:null,&quot;BackgroundQuestions&quot;:null,&quot;ApplicantInformation&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;Overview&quot;:{},&quot;ApplicantAffirmation&quot;:{&quot;CustomLWC1&quot;:null},&quot;Documentation&quot;:{&quot;File2&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;File1&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]},&quot;PaymentInformation&quot;:{&quot;cartInput&quot;:null},&quot;NoticeOfEmployment&quot;:{&quot;EmployerName&quot;:null,&quot;EmployerUid&quot;:null,&quot;GuardSocialSecurityNumber&quot;:null,&quot;GuardName&quot;:null,&quot;TransactionDate&quot;:null,&quot;TransactionNumber&quot;:null,&quot;DateOfHire&quot;:null,&quot;WillEmploymentCommenceWithTheFilingOfYourApplication&quot;:null},&quot;BackgroundQuestions&quot;:{&quot;SuspendedExplanation&quot;:null,&quot;DischargeExplanation&quot;:null,&quot;PleaseProvideTheLicenseNumber&quot;:null,&quot;HaveYouEverAppliedInThisStateForARegistrationLicenseAsASecurityGuard?&quot;:null,&quot;HaveYouEverBeenDischargedFromACorrectionalOrLawEnforcementAgencyForIncompetenceO&quot;:null,&quot;HasAnyLicenseOrPermitIssuedToYouOrACompanyInWhichYouAreOrWereAPrincipalInNewYork&quot;:null,&quot;AreYouAnActiveOrRetiredPoliceOfficer?&quot;:null,&quot;AreYouAnActiveOrRetiredPeaceOfficer?&quot;:null},&quot;ApplicantInformation&quot;:{&quot;Address-Block&quot;:{&quot;Address&quot;:null,&quot;City&quot;:null,&quot;State&quot;:null,&quot;Zipcode&quot;:null,&quot;StreetAddress&quot;:null},&quot;NysDmvIdNumber&quot;:null,&quot;BirthDate&quot;:null,&quot;SocialSecurityNumber&quot;:null,&quot;Phone&quot;:null,&quot;Email&quot;:null,&quot;FirstName&quot;:null,&quot;LastName&quot;:null,&quot;TypeOfApplication&quot;:null}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

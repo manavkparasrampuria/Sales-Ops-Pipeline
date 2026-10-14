@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>収益分配方法</value>
+    </caseValues>
+    <nameFieldLabel>名前</nameFieldLabel>
+    <validationRules>
+        <errorMessage>[収益トランザクションの作成プロセス] が自動であるとき、[収益スケジュール期間の開始日] または [収益スケジュール期間の終了日] で手動を選択することはできません</errorMessage>
+        <name>blng__CannotSpecifyRevDatesifTransTypeAutomati</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>収益スケジュールの開始日と終了日を手動にできるのは、[収益トランザクションの作成プロセス] が手動であるときのみです</errorMessage>
+        <name>blng__DontSpecifyDatesIfCreationProcessManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[収益トランザクションの作成プロセス] が自動であるとき、[完全認識日] を手動にすることはできません</errorMessage>
+        <name>blng__DontSpecifyFRDateIfCreationProcessManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[分配方法] が [完全認識] であるとき、収益スケジュールの開始日と終了日は指定できません</errorMessage>
+        <name>blng__DontSpecifyStartDateEndDateForFullRecogn</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[完全認識日] を手動にできるのは、[収益トランザクションの作成プロセス] が手動であるときのみです</errorMessage>
+        <name>blng__FulRecDateCanbeManualifTransTypeManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[分配方法] が [完全認識] 以外であるとき、[完全認識日] は選択できません</errorMessage>
+        <name>blng__FullRecDateEmptyForDailyMonthlyMethod</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[分配方法] が [完全認識] であるときは、[完全認識日] が必要です</errorMessage>
+        <name>blng__FullRecognitionDateIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>収益スケジュールの終了日は、種別と合わせてください</errorMessage>
+        <name>blng__RevenueScheduleEndDateAlignWithType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>収益スケジュールの開始日は、種別と合わせてください</errorMessage>
+        <name>blng__RevenueScheduleStartDateAlignWithType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>完全認識日の終了日は、種別と合わせてください。</errorMessage>
+        <name>blng__TYPESHOULDALIGNFULLRECOGNITIONDATE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[分配方法] が [月次/日次] であるときは、期間の終了日が必要です</errorMessage>
+        <name>blng__TermEndDateIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[分配方法] が [月次/日次] であるときは、期間の開始日が必要です</errorMessage>
+        <name>blng__TermStartDateIsRequired</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,178 @@
+[
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Food Assistance Benefits",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Food Assistance Benefits",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "HouseholdSize": 1
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "39319f3849884d53fb937591be2cbc85",
+        "OutputData": {
+            "MaximumMonthlyBenefit": 250
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Food Assistance Benefits",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Food Assistance Benefits",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "HouseholdSize": 2
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "3498eef6ed8a75b922f7f5bb65425901",
+        "OutputData": {
+            "MaximumMonthlyBenefit": 459
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Food Assistance Benefits",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Food Assistance Benefits",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "HouseholdSize": 3
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "dafa8dde650f0fdbc00fe4e8a920c7db",
+        "OutputData": {
+            "MaximumMonthlyBenefit": 658
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Food Assistance Benefits",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Food Assistance Benefits",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "HouseholdSize": 4
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "14e247bb6e5e7255b99415c13d54d317",
+        "OutputData": {
+            "MaximumMonthlyBenefit": 835
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Food Assistance Benefits",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Food Assistance Benefits",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "HouseholdSize": 5
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "f52ca2706ee8db2101cf662c11321a1c",
+        "OutputData": {
+            "MaximumMonthlyBenefit": 992
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Food Assistance Benefits",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Food Assistance Benefits",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "HouseholdSize": 6
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "ac0356e9da3d2b640f65735821d0efa6",
+        "OutputData": {
+            "MaximumMonthlyBenefit": 1190
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Food Assistance Benefits",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Food Assistance Benefits",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "HouseholdSize": 7
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "9f4825b7baace134dd6d968934e4c61a",
+        "OutputData": {
+            "MaximumMonthlyBenefit": 1316
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Food Assistance Benefits",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/2/CalculationMatrix/Food Assistance Benefits",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "HouseholdSize": 8
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "c8763ca8b1b78dfaf9a83165ed4295ce",
+        "OutputData": {
+            "MaximumMonthlyBenefit": 1504
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    }
+]

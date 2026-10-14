@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSSocInsFetchIndvApplnForEmployerResponse</dataMapperDefItemName>
+        <filterDataType>PICKLIST</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>&quot;Acknowledged Claim&quot;</filterValue>
+        <globalKey>PSSSocInsFetchIndvApplnForEmployerResponseCustom8611</globalKey>
+        <inputField>ApplicationType</inputField>
+        <inputObject>IndividualApplication</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>AcknowledgedClaimIA</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSSocInsFetchIndvApplnForEmployerResponse</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSSocInsFetchIndvApplnForEmployerResponseCustom5156</globalKey>
+        <inputField>Name</inputField>
+        <inputObject>IndividualApplication</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AcknowledgedClaimIA</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSSocInsFetchIndvApplnForEmployerResponse</dataMapperDefItemName>
+        <filterDataType>REFERENCE</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>ClaimId</filterValue>
+        <globalKey>PSSSocInsFetchIndvApplnForEmployerResponseCustom8161</globalKey>
+        <inputField>ClaimId</inputField>
+        <inputObject>IndividualApplication</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>AcknowledgedClaimIA</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Checks if an individual application of type Acknowledged Claim is associated with the workers&apos; compensation claim. If the individual application exists, fetches the corresponding record.</description>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSSocInsFetchIndvApplnForEmployerResponse</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;ClaimId&quot; : &quot;0Zkxx00000000XtCAI&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Turbo Extract</type>
+</DataMapperDefinition>

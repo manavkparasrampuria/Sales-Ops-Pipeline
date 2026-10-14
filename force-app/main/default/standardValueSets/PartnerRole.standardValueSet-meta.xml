@@ -4,67 +4,67 @@
     <standardValue>
         <fullName>Advertiser</fullName>
         <default>false</default>
-        <label>Anunciante</label>
+        <label>Advertiser</label>
         <reverseRole>Vendor</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>Agency</fullName>
         <default>false</default>
-        <label>Agencia</label>
+        <label>Agency</label>
         <reverseRole>Client</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>Broker</fullName>
         <default>false</default>
-        <label>Corredor</label>
+        <label>Broker</label>
         <reverseRole>Agent</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>Consultant</fullName>
         <default>false</default>
-        <label>Consultor</label>
+        <label>Consultant</label>
         <reverseRole>Client</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>Dealer</fullName>
         <default>false</default>
-        <label>Comerciante</label>
+        <label>Dealer</label>
         <reverseRole>Supplier</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>Developer</fullName>
         <default>false</default>
-        <label>Desarrollador</label>
+        <label>Developer</label>
         <reverseRole>Vendor</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>Distributor</fullName>
         <default>false</default>
-        <label>Distribuidor</label>
+        <label>Distributor</label>
         <reverseRole>Vendor</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>Institution</fullName>
         <default>false</default>
-        <label>Institución</label>
+        <label>Institution</label>
         <reverseRole>Client</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>Lender</fullName>
         <default>false</default>
-        <label>Prestamista</label>
+        <label>Lender</label>
         <reverseRole>Broker</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>System Integrator</fullName>
         <default>false</default>
-        <label>Integrador de sistemas</label>
+        <label>System Integrator</label>
         <reverseRole>Client</reverseRole>
     </standardValue>
     <standardValue>
         <fullName>VAR/Reseller</fullName>
         <default>false</default>
-        <label>Valor en riesgo / distribuidor</label>
+        <label>VAR/Reseller</label>
         <reverseRole>Vendor</reverseRole>
     </standardValue>
 </StandardValueSet>

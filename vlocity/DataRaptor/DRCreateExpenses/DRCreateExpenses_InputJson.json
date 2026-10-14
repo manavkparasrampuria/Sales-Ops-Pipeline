@@ -1,0 +1,162 @@
+{
+    "ACSD": true,
+    "ContextId": null,
+    "Demographics": {
+        "Authorized assistant": {
+            "Accesstobenefits": null,
+            "AgencyOrg": null,
+            "Assistant First": null,
+            "AssistantEmail": null,
+            "AssistantLast": null,
+            "AssistantPhone": null,
+            "Text1": null
+        },
+        "Communication": {
+            "Communication Needs": null,
+            "LanguageSpoken": null,
+            "OtherLang": null,
+            "RequiresInterpreter": null
+        },
+        "DOB": null,
+        "Email": null,
+        "FamilyCaregiver": null,
+        "First Name": null,
+        "Gender": null,
+        "HomeAddress-Block": {
+            "City": null,
+            "Country": null,
+            "HomeAddress": null,
+            "State": null,
+            "Street": null,
+            "ZIPCode": null
+        },
+        "HouseholdName": null,
+        "Last Name": null,
+        "MaritalStatus": null,
+        "Middle Name": null,
+        "NeedAssistance": null,
+        "Phone": null,
+        "PrimaryCaregiverBlock": {
+            "CaregiverFirst": null,
+            "CaregiverLast": null,
+            "CaregiverMiddle": null,
+            "CaregiverRelationship": null
+        },
+        "SSN": null,
+        "SpousalInfoBlock": {
+            "SpousalConsent": null,
+            "SpouseDOB": null,
+            "SpouseFirst": null,
+            "SpouseMiddle": null,
+            "SpouseSIN": null,
+            "Text4": null
+        }
+    },
+    "ER": true,
+    "Employment Income": {
+        "Current Employment": {
+            "Employer": null,
+            "Hours Worked / Week": null,
+            "Weekly Income": null
+        },
+        "Total Monthly Income": null,
+        "Total Weekly Income": null
+    },
+    "Estimated Benefits": {
+    },
+    "Household Expenses": {
+        "ExpensesBlock": [
+            {
+                "ExpenseDetails": null,
+                "ExpenseType": null,
+                "MonthlyAmount": null
+            }
+        ]
+    },
+    "HouseholdDetails": {
+        "DependantChild": {
+            "DependantDOB": null,
+            "DependantFirst": null,
+            "DependantLast": null,
+            "DependantMiddle": null,
+            "HealthCard": null,
+            "Hospitalized": null,
+            "Sex": null
+        },
+        "OtherChildren": {
+            "OtherChildAge": null,
+            "OtherChildFirst": null,
+            "OtherChildLast": null,
+            "OtherChildSex": null
+        }
+    },
+    "Not Eligible": {
+    },
+    "Programs": {
+        "ACSD": null,
+        "ER": null,
+        "SSAH": null
+    },
+    "SSAH": true,
+    "Self Disclosure": {
+        "HaveDisability": null,
+        "IntensiveCare": null,
+        "OntarioResident": null,
+        "PassesScreening": null,
+        "Under18": null
+    },
+    "Thank you": {
+    },
+    "Upload Documentation": {
+        "Proof of expenses": {
+            "Expense upload": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "Proof of income": {
+            "Income upload": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Create Application": null,
+        "DR - Create Expenses": null,
+        "DR - Create Family": null,
+        "DR - Create Household and Applicant": null,
+        "DR - Create Income": null,
+        "DR - Create Medicaid Program Enrollment": null,
+        "DR - Create SNAP PE and PED": null,
+        "DR - Create TANF PE and PED": null,
+        "DR - Create WIC PE and PED": null,
+        "DR - UploadExpenseAttachments": null,
+        "DR - UploadIncomeAttachments": null,
+        "Demographics": null,
+        "Employment Income": null,
+        "Estimated Benefits": null,
+        "Household Expenses": null,
+        "HouseholdDetails": null,
+        "Not Eligible": null,
+        "Programs": null,
+        "Self Disclosure": null,
+        "Set Applicant and Household ID": null,
+        "Set Primary Applicant on Application": null,
+        "Thank you": null,
+        "Upload Documentation": null
+    }
+}

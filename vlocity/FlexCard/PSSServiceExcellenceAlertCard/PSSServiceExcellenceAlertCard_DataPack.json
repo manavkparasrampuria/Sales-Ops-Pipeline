@@ -1,0 +1,69 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 12,
+                    "name": "Session.Limit",
+                    "val": "5"
+                },
+                {
+                    "id": 13,
+                    "name": "recordId",
+                    "val": "500Dm000003lhGvIAI"
+                },
+                {
+                    "id": 14,
+                    "name": "Session.AggregateAlerts",
+                    "val": "false"
+                },
+                {
+                    "id": 15,
+                    "name": "Session.ChildLimit",
+                    "val": "5"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "childLimit": "{Session.ChildLimit}",
+                    "id": "{recordId}",
+                    "isFSC": "{Session.AggregateAlerts}",
+                    "limit": "{Session.Limit}"
+                },
+                "ipMethod": "PSSServiceExcellenceAlerts_get",
+                "jsonMap": "{\"Session.Limit\":\"{Session.Limit}\",\"recordId\":\"{recordId}\",\"Session.AggregateAlerts\":\"{Session.AggregateAlerts}\",\"Session.ChildLimit\":\"{Session.ChildLimit}\"}",
+                "resultVar": "[\"ApexAlerts\"][\"results\"]",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "PSSServiceExcellenceAlertCard",
+    "Namespace": "",
+    "OmniUiCardKey": "PSSServiceExcellenceAlertCard/Salesforce/2.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "PSSServiceExcellenceAlertCard.json",
+    "SampleDataSourceResponse": "{\"ApexAlerts\":{\"results\":{\"status\":\"Success\",\"errors\":[],\"numAlerts\":1,\"alerts\":[{\"severity\":\"Warning\",\"subject\":\"This is the Subject\",\"description\":\"This is the Description\",\"effectiveDate\":\"2023-03-15T19:00:00.000Z\",\"validUntilDate\":\"2023-03-31T19:00:00.000Z\",\"isExternal\":false,\"id\":\"0qZDm000000XeYjMAK\",\"whatId\":\"500Dm000003lhGvIAI\",\"snooze\":{\"id\":\"0qZDm000000XeYjMAK\",\"isExternal\":false,\"snoozeUntilDate\":\"\"},\"dismiss\":{\"id\":\"0qZDm000000XeYjMAK\",\"isExternal\":false},\"isChild\":false}]},\"error\":\"OK\"},\"id\":\"500Dm000003lhGvIAI\",\"remoteApexForAlertsStatus\":true,\"options\":{\"vlcFilesMap\":null,\"forceQueueable\":false,\"mockHttpResponse\":null,\"ParentInteractionToken\":null,\"useFuture\":false,\"isTestProcedure\":false,\"useQueueable\":false,\"disableMetadataCache\":false,\"resetCache\":false,\"vlcIPData\":null,\"OmniAnalyticsTrackingDebug\":false,\"ignoreCache\":false,\"isDebug\":false,\"queueableChainable\":false,\"useContinuation\":false,\"chainable\":false,\"shouldCommit\":false,\"vlcTestSuiteUniqueKey\":null,\"vlcTestUniqueKey\":null,\"vlcCacheKey\":null,\"useHttpCalloutMock\":false,\"continuationStepResult\":null,\"useQueueableApexRemoting\":false},\"limit\":\"5\",\"response\":{},\"isFSC\":\"false\",\"setResultStatus\":true,\"ReserializeApexFunctionStatus\":true,\"childLimit\":\"5\",\"ResponseAction2Status\":true,\"setResult\":{\"Collection\":\"\"},\"remoteApexForAlerts\":{\"results\":{\"status\":\"Success\",\"errors\":[],\"numAlerts\":1,\"alerts\":[{\"severity\":\"Warning\",\"subject\":\"This is the Subject\",\"description\":\"This is the Description\",\"effectiveDate\":\"2023-03-15T19:00:00.000Z\",\"validUntilDate\":\"2023-03-31T19:00:00.000Z\",\"categoryName\":null,\"isExternal\":false,\"id\":\"0qZDm000000XeYjMAK\",\"whatId\":\"500Dm000003lhGvIAI\",\"whatName\":null,\"snooze\":{\"id\":\"0qZDm000000XeYjMAK\",\"isExternal\":false,\"snoozeUntilDate\":\"\"},\"dismiss\":{\"id\":\"0qZDm000000XeYjMAK\",\"isExternal\":false},\"isChild\":false}]},\"error\":\"OK\"}}",
+    "StylingConfiguration": "{\"customStyles\":\".chevron button {\\n    width: auto !important; \\n    height: auto !important;\\n    background-color: white !important;\\n    color: #747474 !important;\\n    border: 0px !important;\\n    padding: 0px !important;\\n    margin-left: 18px !important;\\n    margin-top: 3px !important;\\n}\\n\\n.chevron button:hover {\\n    width: auto !important; \\n    height: auto !important;\\n    background-color: white !important;\\n    color: #747474 !important;\\n    border: 0px !important;\\n    padding: 0px !important;\\n    margin-left: 18px !important;\\n    margin-top: 3px !important;\\n}\\n\\n.chevron button:focus {\\n    width: auto !important; \\n    height: auto !important;\\n    background-color: white !important;\\n    color: #747474 !important;\\n    border: 0px !important;\\n    padding: 0px !important;\\n    margin-left: 18px !important;\\n    margin-top: 3px !important;\\n}\\n\\n.icon {\\n    margin-top: 12px !important;\\n    margin-left: 0px !important;\\n    width: auto !important;\\n    height: auto !important;\\n}\\n\\n.subject {\\n    margin-top: 8px !important;\\n    margin-left: 10px !important;\\n}\\n\\n.subjectContainer {\\n    margin-top: 8px !important;\\n    margin-left: 10px !important;\\n    font-size: 13px !important;\\n    font-family: 'Segoe UI', Arial, sans-serif !important;\\n}\\n\\n.subjectContainer div span{\\n    font-size: 13px !important;\\n    font-family: 'Segoe UI', Arial, sans-serif !important; \\n}\\n\\n.actionContainer svg {\\n  border-radius: 2px !important;\\n  padding: 4px !important;\\n}\\n\\n.actionContainer {\\n    width: 0px !important;\\n    margin-left: auto !important;\\n    margin-right: 42px !important;\\n}\\n\\n.refreshContainer {\\n    margin-left: auto !important;\\n    margin-right: 25px !important;\\n    padding: 4px !important;\\n    width: 0px !important;\\n}\\n\\n.menu-item-label.slds-action_text span {\\n    color: black !important;\\n}\\n\\n.title strong span{\\n    font-family: 'Segoe UI', Arial, sans-serif !important;\\n    font-size: 16px !important;\\n}\"}",
+    "UniqueName": "PSSServiceExcellenceAlertCard_Salesforce_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/PSSServiceExcellenceAlertCard"
+}

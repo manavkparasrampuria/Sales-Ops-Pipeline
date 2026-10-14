@@ -1,0 +1,40 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "IfFrequencyMonthlyWhenIncomeSameForAllThreePeriods",
+    "OmniProcessId": {
+        "Name": "ProcessHouseholdIncome",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ProcessHouseholdIncome/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "MonthlyIncomeData": [
+                {
+                    "CalendarYear": "=TOSTRING(YEAR(TODAY()))",
+                    "EndDate": "=ADDDAY('4000-12-30',1)",
+                    "IncomeAmount": "%HouseholdIncomeDetails:IncomeCurrentMonth%",
+                    "StartDate": "=ADDDAY(EOM(ADDMONTH(TODAY(),-1)),1)"
+                }
+            ]
+        },
+        "executionConditionalFormula": "HouseholdIncomeDetails:IncomeFrequency==\"Monthly\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues4",
+        "responseJSONNode": "IncomeData",
+        "responseJSONPath": "MonthlyIncomeData",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ProcessHouseholdIncome/Procedure/IfFrequencyMonthlyWhenIncomeSameForAllThreePeriods"
+}

@@ -1,0 +1,67 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "CreateNewPartyIncomeRecord",
+    "OmniProcessId": {
+        "Name": "UpsertRecordsForCoC",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "IfSameHouseholdIncomeMember",
+        "OmniProcessId": {
+            "Name": "UpsertRecordsForCoC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/IfSameHouseholdIncomeMember",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "IfSameHouseholdIncomeMember",
+    "ParentElementType": "Conditional Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "CalendarYear": "=%IncomeData:CalendarYear%",
+            "Employer": "=%PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdIncomeDetails:Employer%",
+            "EndDate": "=%IncomeData:EndDate%",
+            "IncomeAmount": "=%IncomeData:IncomeAmount%",
+            "IncomeFrequency": "=%PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdIncomeDetails:IncomeFrequency%",
+            "IncomeStatus": "Active",
+            "IncomeType": "Salary",
+            "PartyId": "=%PSSUpsertPublicApplicationParticipant:AccountId%",
+            "StartDate": "=%PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdIncomeDetails:StartDate%"
+        },
+        "additionalOutput": {
+            "PartyIncomeId": "%CreateNewPartyIncomeRecord:PartyIncome_1:Id%"
+        },
+        "bundle": "PSSUpsertPartyIncome1",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataMapperPostAction10",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": true,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/CreateNewPartyIncomeRecord"
+}

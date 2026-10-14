@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCreateComplaintParticipants</dataMapperDefItemName>
+        <globalKey>CCMDRCreateComplaintParticipantsCustom5648</globalKey>
+        <inputField>CCM_NewComplaint:CCM_Participants:searchAndBuildComplaintParticipants:status</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>ComplaintParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCreateComplaintParticipants</dataMapperDefItemName>
+        <globalKey>CCMDRCreateComplaintParticipantsCustom3472</globalKey>
+        <inputField>CCM_NewComplaint:CCM_Participants:searchAndBuildComplaintParticipants:role</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Role</outputField>
+        <outputObject>ComplaintParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCreateComplaintParticipants</dataMapperDefItemName>
+        <globalKey>CCMDRCreateComplaintParticipantsCustom5898</globalKey>
+        <inputField>DRId_PublicComplaint</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PublicComplaintId</outputField>
+        <outputObject>ComplaintParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCreateComplaintParticipants</dataMapperDefItemName>
+        <globalKey>CCMDRCreateComplaintParticipantsCustom7809</globalKey>
+        <inputField>CCM_NewComplaint:CCM_Participants:searchAndBuildComplaintParticipants:id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ParticipantId</outputField>
+        <outputObject>ComplaintParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCreateComplaintParticipants</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>CCMDRCreateComplaintParticipantsCustom6863</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ComplaintParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;CCM_NewComplaint&quot;: {
+        &quot;CCM_ComplaintInformation&quot;: {
+            &quot;CCM_ComplaintNotes&quot;: null,
+            &quot;CCM_ComplaintPriority&quot;: null,
+            &quot;CCM_ComplaintSubject&quot;: null,
+            &quot;CCM_IncidentDate&quot;: null,
+            &quot;CCM_IncidentLocation&quot;: null,
+            &quot;CCM_ViolationCode&quot;: null
+        },
+        &quot;CCM_Participants&quot;: {
+            &quot;city&quot;: null,
+            &quot;firstName&quot;: null,
+            &quot;lastName&quot;: null,
+            &quot;searchAndBuildComplaintParticipants&quot;: null
+        }
+    },
+    &quot;ContextId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userTimeZone&quot;: null,
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;vlcTimeTracking&quot;: {
+        &quot;CCM_CreateComplaintParticipants&quot;: null,
+        &quot;CCM_DR_CreatePublicComplaint&quot;: null,
+        &quot;CCM_DR_GetRecordTypeId&quot;: null,
+        &quot;CCM_NewComplaint&quot;: null,
+        &quot;CCM_PublicComplaintId&quot;: null,
+        &quot;CCM_SetEmptyValues&quot;: null,
+        &quot;CCM_SetRecordType&quot;: null
+    }
+}</expectedInputJson>
+    <globalKey>CCMDRCreateComplaintParticipants</globalKey>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>CCMDRCreateComplaintParticipants</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;CCM_NewComplaint&quot;:{&quot;CCM_ComplaintInformation&quot;:{&quot;CCM_ComplaintNotes&quot;:null,&quot;CCM_ComplaintPriority&quot;:null,&quot;CCM_ComplaintSubject&quot;:null,&quot;CCM_IncidentDate&quot;:null,&quot;CCM_IncidentLocation&quot;:null,&quot;CCM_ViolationCode&quot;:null},&quot;CCM_Participants&quot;:{&quot;city&quot;:null,&quot;firstName&quot;:null,&quot;lastName&quot;:null,&quot;searchAndBuildComplaintParticipants&quot;:null}},&quot;ContextId&quot;:null,&quot;timeStamp&quot;:null,&quot;userId&quot;:null,&quot;userName&quot;:null,&quot;userProfile&quot;:null,&quot;userTimeZone&quot;:null,&quot;vlcPersistentComponent&quot;:{},&quot;vlcTimeTracking&quot;:{&quot;CCM_CreateComplaintParticipants&quot;:null,&quot;CCM_DR_CreatePublicComplaint&quot;:null,&quot;CCM_DR_GetRecordTypeId&quot;:null,&quot;CCM_NewComplaint&quot;:null,&quot;CCM_PublicComplaintId&quot;:null,&quot;CCM_SetEmptyValues&quot;:null,&quot;CCM_SetRecordType&quot;:null}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

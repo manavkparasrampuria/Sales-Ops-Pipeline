@@ -1,0 +1,64 @@
+{
+    "DevelopmentCostsAndFundingStep": {
+        "CapitalProject": {
+            "FundsRequest": 50000,
+            "ProjectType": "AHD",
+            "ProjectTypePercentage": 50,
+            "TotalDevelopmentCost": 100000
+        },
+        "TotalAHSCPercentage": 50,
+        "TotalDevelopmentCosts": 100000,
+        "TotalFundsRequests": 50000
+    },
+    "IntegratedCommunityProjectStep": {
+        "ICPRequirements": {
+            "BeServedByAtLeastOneModeOfQualifyingTransit": "Yes",
+            "IncludesAtLeastOneTransitStation": "Yes",
+            "LocatedWithinOneHalfMileOfTransit": "Yes"
+        }
+    },
+    "ProjectAreaMapStep": {
+        "ProjectAreaDefinition": "Test"
+    },
+    "ProjectNameInformationStep": {
+        "Account": {
+            "City": "Universal City",
+            "Country": "United States",
+            "Id": "0015e00000AiJ2EAAV",
+            "Name": "Green Developers Co",
+            "Phone": "5031234567",
+            "PostalCode": "91608",
+            "State": "CA",
+            "Street": "100 Universal City Plaza",
+            "Website": "greendevelopersco.com"
+        },
+        "Contact": {
+            "Email": "jsimmonsgrants062021@gmail.com",
+            "FirstName": "Jennifer",
+            "Id": "0035e0000086knjAAA",
+            "LastName": "Simmons",
+            "Phone": "361-826-0683"
+        },
+        "FundingProgramName": "Community Development Investment Grant",
+        "HousingType": "Both",
+        "ICPorRIPA": {
+            "AffordableHousingDevelopment": true,
+            "HousingRelatedInfrastructure(Hri)$103(A)(2)": false,
+            "ProgramCosts": false,
+            "SustainableTransportationInfrastructure": true,
+            "TransportationRelatedAmenities": false
+        },
+        "ProjectAreaType": "Integrated Community Project",
+        "ProjectName": "Green Apartments",
+        "UpdateInfoCheckbox": false
+    },
+    "RuralInnovationProjectAreasStep": null,
+    "TransitOrientedDevelopmentStep": null,
+    "UseDemoUser": true,
+    "timeStamp": "2021-10-31T17:56:20.820Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055e000004CAWfAAO",
+    "userName": "arusharma@grants062021.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

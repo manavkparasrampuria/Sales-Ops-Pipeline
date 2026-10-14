@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRAttachFile</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSDRAttachFile3925534699765951</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ContentDocumentLink</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRAttachFile</dataMapperDefItemName>
+        <globalKey>PSSDRAttachFile2885343070393058</globalKey>
+        <inputField>ParentId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LinkedEntityId</outputField>
+        <outputObject>ContentDocumentLink</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRAttachFile</dataMapperDefItemName>
+        <globalKey>PSSDRAttachFile6993625902877894</globalKey>
+        <inputField>ContentDocumentId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContentDocumentId</outputField>
+        <outputObject>ContentDocumentLink</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;ParentId&quot;: &quot;&quot;,
+    &quot;ContentDocumentId&quot;: &quot;&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSDRAttachFile</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;ContentDocumentId&quot;: &quot;069RO0000003PDxYAM&quot;,
+  &quot;ParentId&quot;: &quot;0wiRO000000003ZYAQ&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

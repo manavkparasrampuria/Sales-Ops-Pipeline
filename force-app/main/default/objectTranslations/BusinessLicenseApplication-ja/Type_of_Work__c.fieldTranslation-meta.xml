@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type of Work --></label>
+    <name>Type_of_Work__c</name>
+    <picklistValues>
+        <masterLabel>Building Demolition</masterLabel>
+        <translation><!-- Building Demolition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Building Expansion</masterLabel>
+        <translation><!-- Building Expansion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Removal of a Tree</masterLabel>
+        <translation><!-- Removal of a Tree --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Removal of a Tree Stump</masterLabel>
+        <translation><!-- Removal of a Tree Stump --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

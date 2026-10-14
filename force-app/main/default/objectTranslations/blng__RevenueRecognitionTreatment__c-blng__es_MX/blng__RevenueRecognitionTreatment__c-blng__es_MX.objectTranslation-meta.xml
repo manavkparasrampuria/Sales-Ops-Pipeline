@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tratamiento reconocimiento de ingresos</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tratamientos de reconocimiento de ingresos</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Si Creación programación ingresos no es Activación de producto de pedido, Asociación de acuerdo de ingresos debe ser “No aplicable” o “Manual”</errorMessage>
+        <name>blng__AGREEMENT_ASSOC_VALIDONLYFOROPACTIVATION</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Para establecer el importe de programación de ingresos a Importe de reserva, establezca primero la acción de creación de la programación de ingresos a Activación de producto de pedido.</errorMessage>
+        <name>blng__Bookings_Amount_Only_If_Order_Activation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Si el tipo es &quot;Importe fijo&quot;, Importe fijo es obligatorio.</errorMessage>
+        <name>blng__Flat_Amount_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Importe fijo no puede ser inferior a cero</errorMessage>
+        <name>blng__Flat_Amount_Value_more_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Porcentaje no puede ser superior a 100</errorMessage>
+        <name>blng__PERCENTAGE_MUST_BE_LESS_THAN_HUNDRED</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Si el tipo es &quot;Porcentaje&quot;, Porcentaje es obligatorio.</errorMessage>
+        <name>blng__Percentage_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Porcentaje debe ser superior a cero</errorMessage>
+        <name>blng__Percentage_Value_more_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Orden de procesamiento no puede ser negativo</errorMessage>
+        <name>blng__Processing_Order_Cannot_be_negative</name>
+    </validationRules>
+</CustomObjectTranslation>

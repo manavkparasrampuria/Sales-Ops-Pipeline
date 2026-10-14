@@ -10,11 +10,11 @@
     <height>600</height>
     <isResizable>true</isResizable>
     <linkType>url</linkType>
-    <masterLabel>Perfil de Hoovers</masterLabel>
+    <masterLabel>Hoovers Profile</masterLabel>
     <openType>newWindow</openType>
     <position>none</position>
     <protected>false</protected>
     <showsLocation>true</showsLocation>
     <showsStatus>true</showsStatus>
-    <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Lead.Company}</url>
+    <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Lead_Company}</url>
 </WebLink>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom5588</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Gender</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Gender</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom5335</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_ShouldEnableEditing</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_ShouldEnableEditing</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom2831</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:LineBreak3</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:LineBreak3</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom2989</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Relationship</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Relationship</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom7221</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_AccountId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_AccountId</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom7267</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_GradeCompleted</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_GradeCompleted</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom4735</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_DateOfBirth</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_DateOfBirth</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom251</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_Check_if_any_household_member_has_a_disability</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_Check_if_any_household_member_has_a_disability</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom7574</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_AreThereElderlyHouseholdMembers</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_AreThereElderlyHouseholdMembers</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom1235</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Edit_Member_Details</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Edit_Member_Details</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom8335</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Race</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Race</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom4425</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:LineBreak4</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:LineBreak4</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom4086</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Age</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Age</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom2941</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberFirstName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberFirstName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom7879</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_USCitizen</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_USCitizen</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom4667</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_MemberSectionAction</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_MemberSectionAction</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>PSSBMTransformToAddMemberActionCustom5095</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom6601</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_Select_the_programs_that_you_ve_applied_for</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_Select_the_programs_that_you_ve_applied_for</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom891</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom7869</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Ethnicity</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Ethnicity</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom6890</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberLastName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberLastName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom2958</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_IsDisabled</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_IsDisabled</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom4789</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_MemberSectionAction</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_MemberSectionActionPersisted</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom5115</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_AreThereChildrenInTheHousehold</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_AreThereChildrenInTheHousehold</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSBMTransformToAddMemberAction1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSBMTransformToAddMemberActionCustom9883</globalKey>
+        <inputField>HouseholdInformation:PSS_BM_v5_HouseholdSize</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HouseholdInformation:PSS_BM_v5_HouseholdSize</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+  &quot;HouseholdInformation&quot; : {
+    &quot;PSS_BM_v5_Select_the_programs_that_you_ve_applied_for&quot; : null,
+    &quot;PSS_BM_v5_AreThereChildrenInTheHousehold&quot; : true,
+    &quot;PSS_BM_v5_AreThereElderlyHouseholdMembers&quot; : false,
+    &quot;PSS_BM_v5_HouseholdSize&quot; : 2,
+    &quot;PSS_BM_v5_HouseholdMemberDetails&quot; : [ {
+      &quot;PSS_BM_v5_Edit_Member_Details&quot; : null,
+      &quot;PSS_BM_v5_ShouldEnableEditing&quot; : &quot;&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberName&quot; : &quot; &quot;,
+      &quot;PSS_BM_v5_Age&quot; : &quot;&quot;,
+      &quot;PSS_BM_v5_MemberSectionAction&quot; : &quot;&quot;,
+      &quot;LineBreak3&quot; : &quot;&quot;,
+      &quot;LineBreak4&quot; : &quot;&quot;,
+      &quot;PSS_BM_v5_Relationship&quot; : &quot;Spouse&quot;,
+      &quot;PSS_BM_v5_USCitizen&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_Gender&quot; : &quot;F&quot;,
+      &quot;PSS_BM_v5_IsDisabled&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberFirstName&quot; : null,
+      &quot;PSS_BM_v5_HouseholdMemberLastName&quot; : null,
+      &quot;PSS_BM_v5_DateOfBirth&quot; : null,
+      &quot;PSS_BM_v5_GradeCompleted&quot; : null,
+      &quot;PSS_BM_v5_Race&quot; : null,
+      &quot;PSS_BM_v5_Ethnicity&quot; : null
+    }, {
+      &quot;PSS_BM_v5_Edit_Member_Details&quot; : null,
+      &quot;PSS_BM_v5_ShouldEnableEditing&quot; : true,
+      &quot;PSS_BM_v5_HouseholdMemberName&quot; : &quot;Bikramaditya Padhi&quot;,
+      &quot;PSS_BM_v5_Age&quot; : 0,
+      &quot;PSS_BM_v5_MemberSectionAction&quot; : &quot;Add member&quot;,
+      &quot;LineBreak3&quot; : null,
+      &quot;LineBreak4&quot; : null,
+      &quot;PSS_BM_v5_Relationship&quot; : &quot;Spouse&quot;,
+      &quot;PSS_BM_v5_USCitizen&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_Gender&quot; : &quot;F&quot;,
+      &quot;PSS_BM_v5_IsDisabled&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberFirstName&quot; : &quot;Bikramaditya&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberLastName&quot; : &quot;Padhi&quot;,
+      &quot;PSS_BM_v5_DateOfBirth&quot; : &quot;2023-10-11&quot;,
+      &quot;PSS_BM_v5_GradeCompleted&quot; : &quot;aa&quot;,
+      &quot;PSS_BM_v5_Race&quot; : &quot;AL&quot;,
+      &quot;PSS_BM_v5_Ethnicity&quot; : null
+    } ],
+    &quot;PSS_BM_v5_Check_if_any_household_member_has_a_disability&quot; : &quot;No&quot;
+  }
+}</expectedInputJson>
+    <expectedOutputJson>{
+  &quot;HouseholdInformation&quot; : {
+    &quot;PSS_BM_v5_Select_the_programs_that_you_ve_applied_for&quot; : null,
+    &quot;PSS_BM_v5_AreThereChildrenInTheHousehold&quot; : true,
+    &quot;PSS_BM_v5_AreThereElderlyHouseholdMembers&quot; : false,
+    &quot;PSS_BM_v5_HouseholdSize&quot; : 2,
+    &quot;PSS_BM_v5_HouseholdMemberDetails&quot; : [ {
+      &quot;PSS_BM_v5_Edit_Member_Details&quot; : null,
+      &quot;PSS_BM_v5_ShouldEnableEditing&quot; : &quot;&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberName&quot; : &quot; &quot;,
+      &quot;PSS_BM_v5_Age&quot; : &quot;&quot;,
+      &quot;PSS_BM_v5_MemberSectionAction&quot; : &quot;&quot;,
+      &quot;LineBreak3&quot; : &quot;&quot;,
+      &quot;LineBreak4&quot; : &quot;&quot;,
+      &quot;PSS_BM_v5_Relationship&quot; : &quot;Spouse&quot;,
+      &quot;PSS_BM_v5_USCitizen&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_Gender&quot; : &quot;F&quot;,
+      &quot;PSS_BM_v5_IsDisabled&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberFirstName&quot; : null,
+      &quot;PSS_BM_v5_HouseholdMemberLastName&quot; : null,
+      &quot;PSS_BM_v5_DateOfBirth&quot; : null,
+      &quot;PSS_BM_v5_GradeCompleted&quot; : null,
+      &quot;PSS_BM_v5_Race&quot; : null,
+      &quot;PSS_BM_v5_Ethnicity&quot; : null
+    }, {
+      &quot;PSS_BM_v5_Edit_Member_Details&quot; : null,
+      &quot;PSS_BM_v5_ShouldEnableEditing&quot; : true,
+      &quot;PSS_BM_v5_HouseholdMemberName&quot; : &quot;Bikramaditya Padhi&quot;,
+      &quot;PSS_BM_v5_Age&quot; : 0,
+      &quot;PSS_BM_v5_MemberSectionAction&quot; : &quot;Add member&quot;,
+      &quot;LineBreak3&quot; : null,
+      &quot;LineBreak4&quot; : null,
+      &quot;PSS_BM_v5_Relationship&quot; : &quot;Spouse&quot;,
+      &quot;PSS_BM_v5_USCitizen&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_Gender&quot; : &quot;F&quot;,
+      &quot;PSS_BM_v5_IsDisabled&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberFirstName&quot; : &quot;Bikramaditya&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberLastName&quot; : &quot;Padhi&quot;,
+      &quot;PSS_BM_v5_DateOfBirth&quot; : &quot;2023-10-11&quot;,
+      &quot;PSS_BM_v5_GradeCompleted&quot; : &quot;aa&quot;,
+      &quot;PSS_BM_v5_Race&quot; : &quot;AL&quot;,
+      &quot;PSS_BM_v5_Ethnicity&quot; : null
+    } ],
+    &quot;PSS_BM_v5_Check_if_any_household_member_has_a_disability&quot; : &quot;No&quot;
+  }
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSBMTransformToAddMemberAction1</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;HouseholdInformation&quot; : {
+    &quot;PSS_BM_v5_Select_the_programs_that_you_ve_applied_for&quot; : null,
+    &quot;PSS_BM_v5_AreThereChildrenInTheHousehold&quot; : true,
+    &quot;PSS_BM_v5_AreThereElderlyHouseholdMembers&quot; : false,
+    &quot;PSS_BM_v5_HouseholdSize&quot; : 2,
+    &quot;PSS_BM_v5_HouseholdMemberDetails&quot; : [ {
+      &quot;PSS_BM_v5_Edit_Member_Details&quot; : null,
+      &quot;PSS_BM_v5_ShouldEnableEditing&quot; : &quot;&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberName&quot; : &quot; &quot;,
+      &quot;PSS_BM_v5_Age&quot; : &quot;&quot;,
+      &quot;PSS_BM_v5_MemberSectionAction&quot; : &quot;&quot;,
+      &quot;LineBreak3&quot; : &quot;&quot;,
+      &quot;LineBreak4&quot; : &quot;&quot;,
+      &quot;PSS_BM_v5_Relationship&quot; : &quot;Spouse&quot;,
+      &quot;PSS_BM_v5_USCitizen&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_Gender&quot; : &quot;F&quot;,
+      &quot;PSS_BM_v5_IsDisabled&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberFirstName&quot; : null,
+      &quot;PSS_BM_v5_HouseholdMemberLastName&quot; : null,
+      &quot;PSS_BM_v5_DateOfBirth&quot; : null,
+      &quot;PSS_BM_v5_GradeCompleted&quot; : null,
+      &quot;PSS_BM_v5_Race&quot; : null,
+      &quot;PSS_BM_v5_Ethnicity&quot; : null
+    }, {
+      &quot;PSS_BM_v5_Edit_Member_Details&quot; : null,
+      &quot;PSS_BM_v5_ShouldEnableEditing&quot; : true,
+      &quot;PSS_BM_v5_HouseholdMemberName&quot; : &quot;Bikramaditya Padhi&quot;,
+      &quot;PSS_BM_v5_Age&quot; : 0,
+      &quot;PSS_BM_v5_MemberSectionAction&quot; : &quot;Add member&quot;,
+      &quot;LineBreak3&quot; : null,
+      &quot;LineBreak4&quot; : null,
+      &quot;PSS_BM_v5_Relationship&quot; : &quot;Spouse&quot;,
+      &quot;PSS_BM_v5_USCitizen&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_Gender&quot; : &quot;F&quot;,
+      &quot;PSS_BM_v5_IsDisabled&quot; : &quot;No&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberFirstName&quot; : &quot;Bikramaditya&quot;,
+      &quot;PSS_BM_v5_HouseholdMemberLastName&quot; : &quot;Padhi&quot;,
+      &quot;PSS_BM_v5_DateOfBirth&quot; : &quot;2023-10-11&quot;,
+      &quot;PSS_BM_v5_GradeCompleted&quot; : &quot;aa&quot;,
+      &quot;PSS_BM_v5_Race&quot; : &quot;AL&quot;,
+      &quot;PSS_BM_v5_Ethnicity&quot; : null
+    } ],
+    &quot;PSS_BM_v5_Check_if_any_household_member_has_a_disability&quot; : &quot;No&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+</DataMapperDefinition>

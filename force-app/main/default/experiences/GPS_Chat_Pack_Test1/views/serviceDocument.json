@@ -1,0 +1,46 @@
+{
+  "appPageId" : "f0a9403a-39ff-443d-aef5-83a9358c6a15",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "eabcd3ea-de6e-4c3d-a3ba-811f739dfdab",
+  "label" : "Service Document",
+  "regions" : [ {
+    "id" : "c7b4f8e1-8186-4018-864b-ffc9d0151718",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "runtime_service_fieldservice:serviceDocumentView",
+      "id" : "5f750e09-f933-4fdb-a65c-809a0f93c199",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "20cf9af3-45dc-4ccb-bb09-8628bb2a624f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "cfb40de1-a415-4770-b9e8-3834389d8072",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Service Document"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bf47c708-c354-4208-9ddc-0251b9ecc373",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d7f2c129-27a4-40fe-a861-dd8c6c0c8a1e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "ServiceDocument"
+}

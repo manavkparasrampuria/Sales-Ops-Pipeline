@@ -1,0 +1,63 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PSSUpsertPublicApplicationParticipant",
+    "OmniProcessId": {
+        "Name": "UpsertRecordsForCoC",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopHouseholdMemberDetails",
+        "OmniProcessId": {
+            "Name": "UpsertRecordsForCoC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/LoopHouseholdMemberDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopHouseholdMemberDetails",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "BenefitEligibilityStatus": "%BenefitEligibilityStatus%",
+            "HouseholdMemberDetails": "%PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdMemberDetails%",
+            "PhoneNumber": "%PSSCoCAssignGenericNamesToResponseNode:GenericData:HeadOfHouseholdPhoneNumber%",
+            "RecordId": "%RecordId%"
+        },
+        "additionalOutput": {
+            "AccountId": "%PSSUpsertPublicApplicationParticipant:Account_1:Id%",
+            "PublicApplicationParticipant": "%PSSUpsertPublicApplicationParticipant:PublicApplicationParticipant_2:Id%"
+        },
+        "bundle": "PSSUpsertAccountAndPublicApplicationParticipant1",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "(PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdMemberDetails:ActionType==\"None\") || (PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdMemberDetails:ActionType==\"Add\") || (PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdMemberDetails:ActionType==\"Update\")",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataMapperPostAction1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": true,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/PSSUpsertPublicApplicationParticipant"
+}

@@ -1,0 +1,49 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "CalculateBenefitAmountInput",
+    "OmniProcessId": {
+        "Name": "FetchApplicationSummaryInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/FetchApplicationSummaryInformation/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AreThereChildrenInTheHousehold": "=%AreThereChildMember%",
+            "AreThereDisabledHouseholdMembers": "=%AreThereDisabledMember%",
+            "AreThereElderlyHouseholdMembers": "=%AreThereElderlyMember%",
+            "ChildCareAmount": "=IF(ISBLANK(TransformedAQR:GenericData:ChildCareAmount),0,%TransformedAQR:GenericData:ChildCareAmount%)",
+            "ChildSupportAmount": "=IF(ISBLANK(TransformedAQR:GenericData:ChildSupportAmount),0,%TransformedAQR:GenericData:ChildSupportAmount%)",
+            "GarnishmentsAmount": "=IF(ISBLANK(TransformedAQR:GenericData:GarnishmentsAmount),0,%TransformedAQR:GenericData:GarnishmentsAmount%)",
+            "InputHouseholdSize": "=IF(ISBLANK(TransformMemberDetails:MemberDetails),0,LISTSIZE(TransformMemberDetails:MemberDetails))",
+            "InsurancePremiumAmount": "=IF(ISBLANK(TransformedAQR:GenericData:InsurancePremiumAmount),0,%TransformedAQR:GenericData:InsurancePremiumAmount%)",
+            "MedicalExpensesAmount": "=IF(ISBLANK(TransformedAQR:GenericData:MedicalExpensesAmount),0,%TransformedAQR:GenericData:MedicalExpensesAmount%)",
+            "PrimaryHeatType": "=IF(ISBLANK(TransformedAQR:GenericData:PrimaryHeatType),\"None\",%TransformedAQR:GenericData:PrimaryHeatType%)",
+            "PrimaryHeatingBillAmount": "=IF(ISBLANK(TransformedAQR:GenericData:PrimaryHeatingBillAmount),0,%TransformedAQR:GenericData:PrimaryHeatingBillAmount%)",
+            "ReimbursementAmount": "=IF(ISBLANK(TransformedAQR:GenericData:ReimbursementAmount),0,%TransformedAQR:GenericData:ReimbursementAmount%)",
+            "RepresentativePayeeFees": "=IF(ISBLANK(TransformedAQR:GenericData:RepresentativePayeeFees),0,%TransformedAQR:GenericData:RepresentativePayeeFees%)",
+            "SecondaryHeatType": "=IF(ISBLANK(TransformedAQR:GenericData:SecondaryHeatType),\"None\",%TransformedAQR:GenericData:SecondaryHeatType%)",
+            "SecondaryHeatingBillAmount": "=IF(ISBLANK(TransformedAQR:GenericData:SecondaryHeatingBillAmount),0,%TransformedAQR:GenericData:SecondaryHeatingBillAmount%)",
+            "SpousalSupportAmount": "=IF(ISBLANK(TransformedAQR:GenericData:SpousalSupportAmount),0,%TransformedAQR:GenericData:SpousalSupportAmount%)",
+            "TotalHouseholdIncome": "=%TotalHouseholdIncome%"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/FetchApplicationSummaryInformation/Procedure/CalculateBenefitAmountInput"
+}

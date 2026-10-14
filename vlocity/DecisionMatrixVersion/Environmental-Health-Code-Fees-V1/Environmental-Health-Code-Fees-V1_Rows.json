@@ -1,0 +1,46 @@
+[
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Environmental Health Code Fees",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/Environmental Health Code Fees",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "FeeName": "Minor Review"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "8e6bf91abf58a016d9296d88318ec9e9",
+        "OutputData": {
+            "Fee": 245
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    },
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "Environmental Health Code Fees",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/Environmental Health Code Fees",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "CurrencyIsoCode": "USD",
+        "InputData": {
+            "FeeName": "New Business Permit"
+        },
+        "IsLocked": false,
+        "IsVersionEnabled": true,
+        "MayEdit": true,
+        "Name": "77b37d4bf846207c1f027998efd2920b",
+        "OutputData": {
+            "Fee": 315
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    }
+]

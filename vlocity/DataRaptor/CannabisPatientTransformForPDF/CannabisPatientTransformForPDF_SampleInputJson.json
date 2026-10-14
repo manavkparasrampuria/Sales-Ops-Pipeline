@@ -1,0 +1,116 @@
+{
+    "Attachments": {
+        "File1": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File2": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File3": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File4": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File5": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "Attestation": {
+        "CustomLWC1": null
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "FeePayment": {
+        "CustomLWC2": null,
+        "FeeAmount": null,
+        "ReducedPayment": null
+    },
+    "Instructions": {
+    },
+    "PatientInformation": {
+        "Age": null,
+        "ApplicationType": null,
+        "BirthDate": null,
+        "CheckAge": null,
+        "Email": null,
+        "FirstName": null,
+        "HouseholdIncome": null,
+        "HouseholdSize": null,
+        "LastName": null,
+        "MiddleInitial": null,
+        "PatientAddress-Block": {
+            "City": null,
+            "PatientAddress": null,
+            "State": null,
+            "StreetAddress": null,
+            "Zipcode": null
+        },
+        "Phone": null,
+        "SocialSecurityNumber": null
+    },
+    "PractionerInformation": {
+        "PractionerAddress-Block": {
+            "PractionerAddress": null,
+            "ProviderCity": null,
+            "ProviderState": null,
+            "ProviderStreetAddress": null,
+            "ProviderZipcode": null
+        },
+        "ProviderEmail": null,
+        "ProviderFirstName": null,
+        "ProviderLastName": null,
+        "ProviderMiddleInitial": null,
+        "ProviderPhone": null,
+        "TypeOfPractitioner": null
+    },
+    "ProofOfResidency": {
+        "SelectProofOfResidency": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Attachments": null,
+        "Attestation": null,
+        "Confirmation": null,
+        "DEBUG-SETTOCHARLES": null,
+        "DRGetApplicationId": null,
+        "DRGetContactForPatient": null,
+        "DRSaveCannabisPatient": null,
+        "FeePayment": null,
+        "GetPovertyLevel": null,
+        "Instructions": null,
+        "NavigateAction1": null,
+        "PatientInformation": null,
+        "PatientPDF": null,
+        "PractionerInformation": null,
+        "ProofOfResidency": null,
+        "SetUser": null
+    }
+}

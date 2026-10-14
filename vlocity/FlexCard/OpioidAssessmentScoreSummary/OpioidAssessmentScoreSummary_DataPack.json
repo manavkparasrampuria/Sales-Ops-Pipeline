@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "OpioidAssessmentScore/Salesforce/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 2,
+                    "name": "recordId",
+                    "val": "0014S000008Wm8aQAC"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "AccountId": "{recordId}"
+                },
+                "ipMethod": "Assessment_Summary",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "OpioidAssessmentScoreSummary",
+    "Namespace": "",
+    "OmniUiCardKey": "OpioidAssessmentScoreSummary/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "OpioidAssessmentScoreSummary.json",
+    "SampleDataSourceResponse": "[{\"Name\":\"Opioid Risk Assessment\",\"AssessmentDate\":\"2023-01-31T17:36:21.000Z\",\"Id\":\"0U34S000000023BSAQ\",\"Score\":\"5\",\"Label\":\"Moderate risk for future opioid abuse\"},{\"Name\":\"Opioid Risk Assessment\",\"AssessmentDate\":\"2023-01-31T17:40:35.000Z\",\"Id\":\"0U34S000000023GSAQ\",\"Score\":\"10\",\"Label\":\"High risk for future opioid abuse\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "OpioidAssessmentScoreSummary_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/OpioidAssessmentScoreSummary"
+}

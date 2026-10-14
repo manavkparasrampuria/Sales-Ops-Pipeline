@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRSaveReferralCase</dataMapperDefItemName>
+        <globalKey>PSSDRSaveReferralCase7713029990577822</globalKey>
+        <inputField>CaseDetails:NewCaseDetails:Type</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Type</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRSaveReferralCase</dataMapperDefItemName>
+        <globalKey>PSSDRSaveReferralCase20589614976637916</globalKey>
+        <inputField>CaseDetails:NewCaseDetails:Account-Block:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRSaveReferralCase</dataMapperDefItemName>
+        <globalKey>PSSDRSaveReferralCase4526504716623274</globalKey>
+        <inputField>CaseDetails:NewCaseDetails:Status</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRSaveReferralCase</dataMapperDefItemName>
+        <globalKey>PSSDRSaveReferralCase3187610565310577</globalKey>
+        <inputField>CaseDetails:NewCaseDetails:Subject</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>Case</outputObject>
+        <valueMapping>{}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRSaveReferralCase</dataMapperDefItemName>
+        <defaultValue>Medium</defaultValue>
+        <globalKey>PSSDRSaveReferralCase6299149761927423</globalKey>
+        <inputField>CaseDetails:NewCaseDetails:Priority</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Priority</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRSaveReferralCase</dataMapperDefItemName>
+        <globalKey>PSSDRSaveReferralCase19212250807732856</globalKey>
+        <inputField>CaseDetails:NewCaseDetails:Description</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRSaveReferralCase</dataMapperDefItemName>
+        <globalKey>PSSDRSaveReferralCase37276891816121727</globalKey>
+        <inputField>CaseDetails:NewCaseDetails:Reason</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Reason</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRSaveReferralCase</dataMapperDefItemName>
+        <globalKey>PSSDRSaveReferralCase02638755949020899</globalKey>
+        <inputField>CaseDetails:NewCaseDetails:Origin</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Origin</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRSaveReferralCase</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSDRSaveReferralCase4857960847175671</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;PublicComplaintID&quot;: &quot;&quot;,
+    &quot;CaseDetails&quot;: {
+        &quot;NewCaseDetails&quot;: {
+            &quot;Subject&quot;: &quot;Some isue&quot;,
+            &quot;Account-Block&quot;: {
+                &quot;Account&quot;: &quot;PizzaHut License No. 1&quot;,
+                &quot;Name&quot;: &quot;PizzaHut License No. 1&quot;,
+                &quot;Id&quot;: &quot;001RO000002yGl4YAE&quot;
+            },
+            &quot;Reason&quot;: &quot;Installation&quot;,
+            &quot;Priority&quot;: &quot;High&quot;,
+            &quot;Origin&quot;: &quot;Phone&quot;,
+            &quot;Status&quot;: &quot;New&quot;,
+            &quot;Description&quot;: &quot;soe description&quot;
+        },
+        &quot;NewOrExistingCase&quot;: &quot;StartANewCase&quot;
+    },
+    &quot;Participants&quot;: {
+        &quot;addNewParticipants&quot;: {
+            &quot;firstName&quot;: &quot;first&quot;,
+            &quot;lastName&quot;: &quot;last&quot;,
+            &quot;city&quot;: &quot;city&quot;,
+            &quot;selectAndBuildList&quot;: {
+                &quot;selectedIdList&quot;: {
+                    &quot;selectedIds&quot;: [
+                        {
+                            &quot;id&quot;: &quot;003RO000002IUe4YAG&quot;,
+                            &quot;role&quot;: &quot;Victim&quot;,
+                            &quot;status&quot;: &quot;Active&quot;,
+                            &quot;caseId&quot;: &quot;500RO000001X14rYAC&quot;
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>true</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>true</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSDRSaveReferralCase</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;ContextId&quot;: &quot;a0GRO0000009lEx2AI&quot;,
+  &quot;timeStamp&quot;: &quot;2022-09-22T09:38:11.800Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+  &quot;userTimeZone&quot;: &quot;-420&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;cintake1@demo.com&quot;,
+  &quot;userId&quot;: &quot;005RO000000ZwqXYAS&quot;,
+  &quot;ReferralID&quot;: &quot;a0GRO0000009lEx2AI&quot;,
+  &quot;FetchReferralDetails&quot;: {
+    &quot;Subject&quot;: &quot;Referral&quot;,
+    &quot;ReferralType&quot;: &quot;Ref1&quot;,
+    &quot;Category&quot;: &quot;CAT1&quot;,
+    &quot;Status&quot;: &quot;In Review&quot;
+  },
+  &quot;Case Details&quot;: {
+    &quot;NewCaseDetails&quot;: {
+      &quot;Subject&quot;: &quot;Referral&quot;
+    }
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,54 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "bbbca702-a3f6-4f07-b0d6-075afab1b471",
+  "label" : "Child Care Application",
+  "regions" : [ {
+    "id" : "aaa6cc2f-3864-4e1f-8591-84937da41d36",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "ChildCareApplication",
+        "theme" : "lightning",
+        "type" : "IntegratedEligibility"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "2a974c70-16fa-4192-ac7d-3af27519e558",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9cfbff0f-bf2a-4c1b-86a2-df8bed5ec0ce",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "90bda91f-912b-457c-b8d0-f1e9b5af35fe",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Child Care Application"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3e309313-fab8-422c-b4d2-43a55f30df42",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8f740f5a-8b6c-4d60-bc6a-fc7c4026fad4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-ccapplication"
+}

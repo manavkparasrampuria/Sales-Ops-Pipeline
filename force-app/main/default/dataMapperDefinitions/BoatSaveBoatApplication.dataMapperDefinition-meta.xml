@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <defaultValue>Paid</defaultValue>
+        <globalKey>BoatSaveBoatApplication7666434339645061</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication4946538144203909</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication38008439834626806</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>ParentRecordId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <defaultValue>Permit</defaultValue>
+        <globalKey>BoatSaveBoatApplication4034682337829403</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <defaultValue>2</defaultValue>
+        <globalKey>BoatSaveBoatApplication6651298290589398</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication8294030810140118</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <defaultValue>Title Fee</defaultValue>
+        <globalKey>BoatSaveBoatApplication3903486780118577</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication6065517089634869</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication254500154150721</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>BoatSaveBoatApplication22896794938894005</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication9878888260531904</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication9599063905970193</globalKey>
+        <inputField>BoatInformation:HullIdNumber</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>SerialNumber</outputField>
+        <outputObject>Asset</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <defaultValue>Boat</defaultValue>
+        <globalKey>BoatSaveBoatApplication33931551009815886</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>DeveloperName</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication2845372569099891</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>Individual_Application__c</outputField>
+        <outputObject>Asset</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication8125264240894712</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Asset</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication10401461414722979</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication7603245386779041</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication030878278629846045</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Asset</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication2039215012326725</globalKey>
+        <inputField>BoatInformation:NameofBoat</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>Asset</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication8765928398083043</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication08612479623217495</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ApplicationCaseId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication1850856304805617</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication01894200646536559</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication6830923491421226</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication31933778266952517</globalKey>
+        <inputField>CaseName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <formulaConverted>| &quot;Boat/\/\/Registration/\/\/Application/\/\/-/\/\/&quot; var:OwnerInformation:OwnerFirstName &quot;/\/\/&quot; var:OwnerInformation:OwnerLastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(&quot;Boat Registration Application - &quot;,OwnerInformation:OwnerFirstName,&quot; &quot;,OwnerInformation:OwnerLastName)</formulaExpression>
+        <formulaResultPath>CaseName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>BoatSaveBoatApplication8479576387898151</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>BoatSaveBoatApplication33715785603088166</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication589367251209026</globalKey>
+        <inputField>Fees:TotalFee</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AmountPaid</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <defaultValue>Boat</defaultValue>
+        <globalKey>BoatSaveBoatApplication10013387773688187</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication8706315404199185</globalKey>
+        <inputField>Fees:TitleTax</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <defaultValue>Title Tax</defaultValue>
+        <globalKey>BoatSaveBoatApplication34628524286478735</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication18633430774590054</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <globalKey>BoatSaveBoatApplication05984967058753998</globalKey>
+        <inputField>Fees:RegistrationFee</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <defaultValue>Registration Fee</defaultValue>
+        <globalKey>BoatSaveBoatApplication2970760980034044</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication6493747344162084</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>BoatSaveBoatApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>BoatSaveBoatApplication5510624656013527</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;timeStamp&quot;: &quot;2021-09-20T18:40:04.084Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZone&quot;: &quot;-420&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;jblankenship@lpi2.0testing.demo&quot;,
+    &quot;userId&quot;: &quot;0055f000000yem1AAA&quot;,
+    &quot;OwnerInformation&quot;: {
+        &quot;OwnerFirstName&quot;: &quot;Joe&quot;,
+        &quot;OwnerLastName&quot;: &quot;Smith&quot;,
+        &quot;DateofBirth&quot;: &quot;9/2/2021&quot;,
+        &quot;SSN&quot;: &quot;393-30-3033&quot;,
+        &quot;OwnerAddress-Block&quot;: {
+            &quot;OwnerAddress&quot;: &quot;123 West Main Street, Independence, KS, USA&quot;,
+            &quot;OwnerZip&quot;: &quot;67301&quot;,
+            &quot;OwnerState&quot;: &quot;KS&quot;,
+            &quot;OwnerCity&quot;: &quot;Independence&quot;,
+            &quot;OwnerStreet&quot;: &quot;123 West Main Street&quot;
+        },
+        &quot;OwnerHomePhone&quot;: &quot;3939393939&quot;,
+        &quot;OwnerBusinessPhone&quot;: &quot;3939393939&quot;,
+        &quot;OwnerEmail&quot;: &quot;j@j.com&quot;
+    },
+    &quot;BoatInformation&quot;: {
+        &quot;NameofBoat&quot;: &quot;Minnow&quot;,
+        &quot;Marina&quot;: &quot;East Lake&quot;,
+        &quot;MakeModelOfBoat&quot;: &quot;Seabird Dude&quot;,
+        &quot;HullIdNumber&quot;: &quot;39393939&quot;,
+        &quot;BoatLength&quot;: 16,
+        &quot;YearBuilt&quot;: &quot;2021&quot;,
+        &quot;TypeofFuelUsed&quot;: &quot;Kittens&quot;,
+        &quot;HullMaterial&quot;: &quot;Wood&quot;,
+        &quot;Propulsion&quot;: &quot;In/Outboard&quot;,
+        &quot;Use&quot;: &quot;Pleasure&quot;
+    },
+    &quot;SellerLienInformation&quot;: {
+        &quot;LienHolder&quot;: &quot;ABC&quot;,
+        &quot;DateOfLien&quot;: &quot;8/30/2021&quot;,
+        &quot;LienTelephone&quot;: &quot;1939393939&quot;,
+        &quot;LienStreetAddress&quot;: &quot;123 Main St&quot;,
+        &quot;LienCity&quot;: &quot;Lien City&quot;,
+        &quot;LienState&quot;: &quot;CS&quot;,
+        &quot;LienZip&quot;: &quot;39393&quot;,
+        &quot;SellerName&quot;: &quot;The Due&quot;,
+        &quot;BoatCondition&quot;: &quot;New&quot;,
+        &quot;Price&quot;: 100000,
+        &quot;SellerStreetAddress&quot;: &quot;393 main St&quot;,
+        &quot;SellerCity&quot;: &quot;die&quot;,
+        &quot;SellerState&quot;: &quot;ca&quot;,
+        &quot;SellerZip&quot;: &quot;3939&quot;,
+        &quot;Lien&quot;: &quot;Yes&quot;
+    },
+    &quot;Fees&quot;: {
+        &quot;TitleTax&quot;: 6000,
+        &quot;RegistrationFee&quot;: 15,
+        &quot;TotalFee&quot;: 6017,
+        &quot;PayNow&quot;: &quot;Yes&quot;
+    },
+    &quot;Attachments&quot;: {},
+    &quot;Certify&quot;: {
+        &quot;Certification&quot;: true
+    },
+    &quot;Confirmation&quot;: {},
+    &quot;Overview&quot;: {
+        &quot;ReasonForApplication&quot;: &quot;Application for Original Title/Registration Number&quot;
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>BoatSaveBoatApplication</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;timeStamp&quot;: &quot;2021-09-13T18:15:16.701Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZone&quot;: &quot;-420&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;jblankenship@dc-mpd-gun2021.demo&quot;,
+  &quot;userId&quot;: &quot;0055f000000P7pMAAS&quot;,
+  &quot;ApplicantInformation&quot;: {
+    &quot;ApplyingAsABusinessOwner&quot;: false,
+    &quot;BusinessStreetAddress&quot;: null,
+    &quot;BusinessCity&quot;: null,
+    &quot;BusinessState&quot;: null,
+    &quot;BusinessPostalCode&quot;: null,
+    &quot;LastName&quot;: &quot;Green&quot;,
+    &quot;FirstName&quot;: &quot;Charles&quot;,
+    &quot;ApplicantAddress-Block&quot;: {
+      &quot;ApplicantAddress&quot;: &quot;1600 Pennsylvania Avenue Northwest, Washington, DC, USA&quot;,
+      &quot;ZipCode&quot;: &quot;20500&quot;,
+      &quot;State&quot;: &quot;DC&quot;,
+      &quot;City&quot;: &quot;Washington&quot;,
+      &quot;StreetAddress&quot;: &quot;1600 Pennsylvania Avenue Northwest&quot;
+    },
+    &quot;OccupationNameOfBusiness&quot;: &quot;Acme Inc&quot;,
+    &quot;HomePhone&quot;: null
+  },
+  &quot;StatementOfEligibility&quot;: {
+    &quot;ConvictedViolentCrime&quot;: &quot;No&quot;,
+    &quot;UnderIndictment&quot;: &quot;No&quot;,
+    &quot;ConvictedLast5YearsDrugs&quot;: &quot;No&quot;,
+    &quot;AquitedInsane&quot;: &quot;No&quot;,
+    &quot;CommittedMentalHospital&quot;: &quot;No&quot;,
+    &quot;PhysicalDefect&quot;: &quot;No&quot;,
+    &quot;NegligentFirearm&quot;: &quot;No&quot;,
+    &quot;ProvidedAccurateAndTrue&quot;: &quot;Yes&quot;,
+    &quot;DishonorablyDischarged&quot;: &quot;No&quot;,
+    &quot;RenouncedCitizenship&quot;: &quot;No&quot;,
+    &quot;LegallyBlind&quot;: &quot;No&quot;,
+    &quot;TwoOrMoreDUIs&quot;: &quot;No&quot;,
+    &quot;CivilProtectionOrder&quot;: &quot;No&quot;,
+    &quot;AlcoholicOrAddict&quot;: &quot;No&quot;,
+    &quot;RegisterPistolConcurrently&quot;: &quot;Yes&quot;,
+    &quot;SufferMentalIllness&quot;: &quot;No&quot;,
+    &quot;BonaFideResidence&quot;: &quot;Yes&quot;,
+    &quot;BonaFideBusiness&quot;: &quot;No&quot;,
+    &quot;BonaFideAndConcealedAnotherState&quot;: &quot;No&quot;
+  },
+  &quot;Training&quot;: {
+    &quot;CompleteDCTraining&quot;: true,
+    &quot;RequestingExemption&quot;: null,
+    &quot;RequirementRequestingExemption&quot;: null,
+    &quot;IntendToCompleted45Days&quot;: null,
+    &quot;Completed16HoursCertifiedInstructor&quot;: &quot;Yes&quot;,
+    &quot;Completed2HoursRangeTraining&quot;: &quot;Yes&quot;,
+    &quot;CompletedDCLawsTraining&quot;: &quot;Yes&quot;
+  },
+  &quot;FirearmsRegistration&quot;: {},
+  &quot;Attachments&quot;: {},
+  &quot;FeesPayments&quot;: {},
+  &quot;Appointment&quot;: {},
+  &quot;ApplicantAffirmation&quot;: {},
+  &quot;SampleUser&quot;: &quot;0055f000000P7pXAAS&quot;,
+  &quot;AccountId&quot;: &quot;0015f000005Cb5ZAAS&quot;,
+  &quot;ContactName&quot;: &quot;Charles Green&quot;,
+  &quot;ContactId&quot;: &quot;0035f000003tvaGAAQ&quot;,
+  &quot;ContactEmail&quot;: &quot;cgreen@mailinator.com&quot;,
+  &quot;FirearmRegistration&quot;: {
+    &quot;LicenseType&quot;: &quot;Concealed&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

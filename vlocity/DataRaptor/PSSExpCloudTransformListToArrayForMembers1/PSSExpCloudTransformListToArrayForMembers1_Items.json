@@ -1,0 +1,57 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "FormulaExpression": "MembersContactIds:ContactId",
+        "FormulaResultPath": "FormulaList",
+        "FormulaSequence": 1,
+        "GlobalKey": "PSSExpCloudTransformListToArrayForMembersCustom1453",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSExpCloudTransformListToArrayForMembers1",
+        "OmniDataTransformationId": {
+            "Name": "PSSExpCloudTransformListToArrayForMembers1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSExpCloudTransformListToArrayForMembers1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "PSSExpCloudTransformListToArrayForMembersCustom9892",
+        "InputFieldName": "FormulaList",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSExpCloudTransformListToArrayForMembers1",
+        "OmniDataTransformationId": {
+            "Name": "PSSExpCloudTransformListToArrayForMembers1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSExpCloudTransformListToArrayForMembers1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AllMembersContactIds",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{ }",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

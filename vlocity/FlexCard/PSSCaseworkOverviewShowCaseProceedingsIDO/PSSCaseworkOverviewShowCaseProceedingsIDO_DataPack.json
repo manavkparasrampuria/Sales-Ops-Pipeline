@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "recordId",
+                    "val": ""
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "PSSCaseworkOverviewGetCaseProceedingsIDO",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "recordId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Shows the count and details of all the case proceedings for a case.",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "PSSCaseworkOverviewShowCaseProceedingsIDO",
+    "Namespace": "",
+    "OmniUiCardKey": "PSSCaseworkOverviewShowCaseProceedingsIDO/Salesforce/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "PSSCaseworkOverviewShowCaseProceedingsIDO.json",
+    "SampleDataSourceResponse": "[{\"CaseProceedings\":{\"keyPrefix\":\"11F\"},\"TotalRecordsCount\":0}]",
+    "StylingConfiguration": "",
+    "UniqueName": "PSSCaseworkOverviewShowCaseProceedingsIDO_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/PSSCaseworkOverviewShowCaseProceedingsIDO"
+}

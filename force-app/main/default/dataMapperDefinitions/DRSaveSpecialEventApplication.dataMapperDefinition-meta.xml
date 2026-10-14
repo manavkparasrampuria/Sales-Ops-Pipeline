@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <defaultValue>150</defaultValue>
+        <globalKey>DRSaveSpecialEventApplicationCustom6664</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <globalKey>DRSaveSpecialEventApplicationCustom6444</globalKey>
+        <inputField>ApplicantName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Contact</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicantId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <globalKey>DRSaveSpecialEventApplicationCustom4974</globalKey>
+        <inputField>EventOverview:SporningOrgAddress-Block:OrgStreet</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteAddress</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveSpecialEventApplicationCustom1658</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveSpecialEventApplicationCustom5563</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <globalKey>DRSaveSpecialEventApplicationCustom4964</globalKey>
+        <inputField>EventOverview:SponsoringOrganization</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Account</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveSpecialEventApplicationCustom4749</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <defaultValue>Jennifer Simmons</defaultValue>
+        <globalKey>DRSaveSpecialEventApplicationCustom5315</globalKey>
+        <inputField>ApplicantName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Contact</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PrimaryOwnerId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <formulaConverted>| var:EventOverview:ApplicantFirstName &quot;/\/\/&quot; var:EventOverview:ApplicantLastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(EventOverview:ApplicantFirstName,&quot; &quot;,EventOverview:ApplicantLastName)</formulaExpression>
+        <formulaResultPath>ApplicantName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>DRSaveSpecialEventApplicationCustom4656</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRSaveSpecialEventApplicationCustom767</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <defaultValue>Special Event Application Fee</defaultValue>
+        <globalKey>DRSaveSpecialEventApplicationCustom2837</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <globalKey>DRSaveSpecialEventApplicationCustom1868</globalKey>
+        <inputField>Coords</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Coordinates__c</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <globalKey>DRSaveSpecialEventApplicationCustom288</globalKey>
+        <inputField>EventOverview:SporningOrgAddress-Block:OrgCity</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteCity</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <globalKey>DRSaveSpecialEventApplicationCustom977</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <defaultValue>Location Access Permit</defaultValue>
+        <globalKey>DRSaveSpecialEventApplicationCustom9361</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <defaultValue>PAID</defaultValue>
+        <globalKey>DRSaveSpecialEventApplicationCustom3885</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <formulaConverted>| var:EventOverview:EventTitle &quot;/\/\/-/\/\/&quot; var:EventOverview:SponsoringOrganization &quot;/\/\/-/\/\/&quot; var:EventOverview:TypeOfEvent CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(EventOverview:EventTitle,&quot; - &quot;,EventOverview:SponsoringOrganization,&quot; - &quot;,EventOverview:TypeOfEvent)</formulaExpression>
+        <formulaResultPath>CaseDescription</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>DRSaveSpecialEventApplicationCustom7674</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveSpecialEventApplicationCustom5822</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ParentRecordId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <globalKey>DRSaveSpecialEventApplicationCustom7365</globalKey>
+        <inputField>EventOverview:SponsoringOrganization</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Account</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <defaultValue>true</defaultValue>
+        <globalKey>DRSaveSpecialEventApplicationCustom292</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HasCoordinates__c</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveSpecialEventApplicationCustom6081</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <globalKey>DRSaveSpecialEventApplicationCustom4340</globalKey>
+        <inputField>CaseDescription</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <globalKey>DRSaveSpecialEventApplicationCustom1661</globalKey>
+        <inputField>EventOverview:SporningOrgAddress-Block:OrgState</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteState</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <globalKey>DRSaveSpecialEventApplicationCustom712</globalKey>
+        <inputField>EventOverview:SporningOrgAddress-Block:OrgPostalCode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SitePostalCode</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>DRSaveSpecialEventApplicationCustom7506</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveSpecialEventApplication</dataMapperDefItemName>
+        <defaultValue>Permit</defaultValue>
+        <globalKey>DRSaveSpecialEventApplicationCustom416</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRSaveSpecialEventApplication&quot;: null,
+        &quot;FeePayment&quot;: null,
+        &quot;EventDetails&quot;: null,
+        &quot;EventOverview&quot;: null,
+        &quot;DocumentsSignature&quot;: null,
+        &quot;Confirmation&quot;: null,
+        &quot;SetESRI&quot;: null,
+        &quot;DRGetApplicationId&quot;: null,
+        &quot;RouteMap&quot;: null,
+        &quot;Introduction&quot;: null,
+        &quot;NavigateAction1&quot;: null,
+        &quot;SetAddress&quot;: null,
+        &quot;GetDomain&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;FeePayment&quot;: {
+        &quot;CustomLWC2&quot;: null
+    },
+    &quot;EventDetails&quot;: {
+        &quot;NumberOfficialsAssemblyArea&quot;: null,
+        &quot;TotalEventParticipants&quot;: null,
+        &quot;MarchParadeStartingTime&quot;: null,
+        &quot;HowEventWillbeConducted&quot;: null,
+        &quot;AssemblyStagingArea&quot;: null,
+        &quot;DisbandingTime&quot;: null,
+        &quot;FirstAid&quot;: null,
+        &quot;DisbandingArea&quot;: null,
+        &quot;NumberSpecators&quot;: null,
+        &quot;EndingTime&quot;: null,
+        &quot;AssemblyTime&quot;: null,
+        &quot;NumberOfficialsDisbandingArea&quot;: null
+    },
+    &quot;EventOverview&quot;: {
+        &quot;TypeOfEvent&quot;: null,
+        &quot;TearDownDate&quot;: null,
+        &quot;OrgPhone&quot;: null,
+        &quot;ApplicantAddress-Block&quot;: {
+            &quot;ApplicantAddress&quot;: null,
+            &quot;ApplicantState&quot;: null,
+            &quot;ApplicantCity&quot;: null,
+            &quot;ApplicantPostalCode&quot;: null,
+            &quot;ApplicantStreet&quot;: null
+        },
+        &quot;Exemption&quot;: null,
+        &quot;AnnualEvent&quot;: null,
+        &quot;OtherEvent&quot;: null,
+        &quot;DateOfEvent&quot;: null,
+        &quot;PoliceArea&quot;: null,
+        &quot;ApplicantFirstName&quot;: null,
+        &quot;ApplicantLastName&quot;: null,
+        &quot;EventTitle&quot;: null,
+        &quot;OrgEmail&quot;: null,
+        &quot;SporningOrgAddress-Block&quot;: {
+            &quot;SporningOrgAddress&quot;: null,
+            &quot;OrgState&quot;: null,
+            &quot;OrgCity&quot;: null,
+            &quot;OrgPostalCode&quot;: null,
+            &quot;OrgStreet&quot;: null
+        },
+        &quot;CityCouncilDistrict&quot;: null,
+        &quot;DateDifference&quot;: null,
+        &quot;SponsoringOrganization&quot;: null,
+        &quot;SetupDate&quot;: null,
+        &quot;DateOfApplication&quot;: null,
+        &quot;CheckForLessthan5&quot;: null
+    },
+    &quot;DocumentsSignature&quot;: {
+        &quot;File1&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;File2&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    },
+    &quot;Confirmation&quot;: {},
+    &quot;RouteMap&quot;: {
+        &quot;CustomLWC1&quot;: null
+    },
+    &quot;Introduction&quot;: {}
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRSaveSpecialEventApplication</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;DRSaveSpecialEventApplication&quot;:null,&quot;FeePayment&quot;:null,&quot;EventDetails&quot;:null,&quot;EventOverview&quot;:null,&quot;DocumentsSignature&quot;:null,&quot;Confirmation&quot;:null,&quot;SetESRI&quot;:null,&quot;DRGetApplicationId&quot;:null,&quot;RouteMap&quot;:null,&quot;Introduction&quot;:null,&quot;NavigateAction1&quot;:null,&quot;SetAddress&quot;:null,&quot;GetDomain&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;FeePayment&quot;:{&quot;CustomLWC2&quot;:null},&quot;EventDetails&quot;:{&quot;NumberOfficialsAssemblyArea&quot;:null,&quot;TotalEventParticipants&quot;:null,&quot;MarchParadeStartingTime&quot;:null,&quot;HowEventWillbeConducted&quot;:null,&quot;AssemblyStagingArea&quot;:null,&quot;DisbandingTime&quot;:null,&quot;FirstAid&quot;:null,&quot;DisbandingArea&quot;:null,&quot;NumberSpecators&quot;:null,&quot;EndingTime&quot;:null,&quot;AssemblyTime&quot;:null,&quot;NumberOfficialsDisbandingArea&quot;:null},&quot;EventOverview&quot;:{&quot;TypeOfEvent&quot;:null,&quot;TearDownDate&quot;:null,&quot;OrgPhone&quot;:null,&quot;ApplicantAddress-Block&quot;:{&quot;ApplicantAddress&quot;:null,&quot;ApplicantState&quot;:null,&quot;ApplicantCity&quot;:null,&quot;ApplicantPostalCode&quot;:null,&quot;ApplicantStreet&quot;:null},&quot;Exemption&quot;:null,&quot;AnnualEvent&quot;:null,&quot;OtherEvent&quot;:null,&quot;DateOfEvent&quot;:null,&quot;PoliceArea&quot;:null,&quot;ApplicantFirstName&quot;:null,&quot;ApplicantLastName&quot;:null,&quot;EventTitle&quot;:null,&quot;OrgEmail&quot;:null,&quot;SporningOrgAddress-Block&quot;:{&quot;SporningOrgAddress&quot;:null,&quot;OrgState&quot;:null,&quot;OrgCity&quot;:null,&quot;OrgPostalCode&quot;:null,&quot;OrgStreet&quot;:null},&quot;CityCouncilDistrict&quot;:null,&quot;DateDifference&quot;:null,&quot;SponsoringOrganization&quot;:null,&quot;SetupDate&quot;:null,&quot;DateOfApplication&quot;:null,&quot;CheckForLessthan5&quot;:null},&quot;DocumentsSignature&quot;:{&quot;File1&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;File2&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]},&quot;Confirmation&quot;:{},&quot;RouteMap&quot;:{&quot;CustomLWC1&quot;:null},&quot;Introduction&quot;:{}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <defaultValue>012Hu000002UnAVIA0</defaultValue>
+        <globalKey>DRCreateERCustom9934</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>DRCreateERCustom5160</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom3760</globalKey>
+        <inputField>EmergencyRequestDetails:RequestedService</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__RequestedService__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom9500</globalKey>
+        <inputField>EmergencyRequestDetails:AdditionalDetails</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__RequestDetails__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>DRCreateERCustom8786</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom6864</globalKey>
+        <inputField>EmergencyRequestDetails:DateRequired</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__DateRequired__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom5115</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__Account__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom2394</globalKey>
+        <inputField>ContactInformation:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__RequestorName__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <defaultValue>Emergency Assistance Request</defaultValue>
+        <globalKey>DRCreateERCustom7042</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom7886</globalKey>
+        <inputField>EmergencyRequestDetails:EmergencyAssistanceReasonRadio</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__RequestReason__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom3657</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom2354</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <defaultValue>Community</defaultValue>
+        <globalKey>DRCreateERCustom1931</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Origin</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom1337</globalKey>
+        <inputField>EmergencyRequestDetails:AdditionalDetails</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <defaultValue>New</defaultValue>
+        <globalKey>DRCreateERCustom8516</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <defaultValue>USD</defaultValue>
+        <globalKey>DRCreateERCustom4388</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CurrencyIsoCode</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom9235</globalKey>
+        <inputField>CaseSubject</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom7864</globalKey>
+        <inputField>ContactInformation:Email</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__Email__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom744</globalKey>
+        <inputField>ContactInformation:Phone</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__Phone__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom8679</globalKey>
+        <inputField>ContactInformation:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom7069</globalKey>
+        <inputField>EmergencyRequestDetails:RequestedService</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateERCustom7207</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <formulaConverted>| &quot;Emergency/\/\/Request,/\/\/&quot; var:ContactInformation:Name &quot;/\/\/-/\/\/&quot; var:EmergencyRequestDetails:RequestedService CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(&quot;Emergency Request, &quot;, ContactInformation:Name, &quot; - &quot;,EmergencyRequestDetails:RequestedService)</formulaExpression>
+        <formulaResultPath>CaseSubject</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>DRCreateERCustom3622</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom3299</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateERCustom5123</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__IndividualApplication__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom3560</globalKey>
+        <inputField>EmergencyRequestDetails:LicCat</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateERCustom8547</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ApplicationCaseId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateERCustom8049</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateERCustom1703</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRCreateERCustom6223</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom4283</globalKey>
+        <inputField>DeliveryLocation:AddressBlock:ZIP</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>PostalCode</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom850</globalKey>
+        <inputField>DeliveryLocation:AddressBlock:State</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>State</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom6480</globalKey>
+        <inputField>DeliveryLocation:AddressBlock:City</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>City</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <defaultValue>Site</defaultValue>
+        <globalKey>DRCreateERCustom7112</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>LocationType</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom6208</globalKey>
+        <inputField>LocationName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <formulaConverted>| var:ContactInformation:Name &quot;/\/\/-/\/\/Emergency/\/\/Request/\/\/Location/\/\/for/\/\/&quot; var:EmergencyRequestDetails:RequestedService CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(ContactInformation:Name,&quot; - Emergency Request Location for &quot;, EmergencyRequestDetails:RequestedService)</formulaExpression>
+        <formulaResultPath>LocationName</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>DRCreateERCustom5530</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateERCustom4015</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom2432</globalKey>
+        <inputField>DeliveryLocation:AddressBlock:Street</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Street</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom6586</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>4.0</linkedObjectSequence>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__Address__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateERCustom5518</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>ParentId</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateERCustom8876</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom6027</globalKey>
+        <inputField>TemporaryHousing:TemporaryHousingDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__RequestedStartDateOfStay__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateER</dataMapperDefItemName>
+        <globalKey>DRCreateERCustom4945</globalKey>
+        <inputField>TemporaryHousing:TemporaryHousingLength</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>PublicSector__RequestedLengthOfStay__c</outputField>
+        <outputObject>PublicSector__EmergencyRequest__c</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;omniscriptId&quot;: &quot;0jN4S000000DHo4UAG&quot;,
+    &quot;language&quot;: &quot;English&quot;,
+    &quot;type&quot;: &quot;GPS2EmergencyResponseManagement&quot;,
+    &quot;runMode&quot;: &quot;preview&quot;,
+    &quot;sId&quot;: &quot;0jN4S000000DHo4UAG&quot;,
+    &quot;theme&quot;: &quot;lightning&quot;,
+    &quot;subType&quot;: &quot;AssistanceRequest&quot;,
+    &quot;timeStamp&quot;: &quot;2024-01-18T20:27:01.308Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;userTimeZone&quot;: &quot;-480&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;contributor2@newidotso.com&quot;,
+    &quot;userId&quot;: &quot;0054S000003WuzdQAC&quot;,
+    &quot;omniProcessId&quot;: &quot;0jN4S000000DHo4UAG&quot;,
+    &quot;localTimeZoneName&quot;: &quot;America/Toronto&quot;,
+    &quot;TemporaryHousing&quot;: {
+        &quot;TemporaryHousingDate&quot;: &quot;2024-01-18&quot;,
+        &quot;TemporaryHousingLength&quot;: 6
+    },
+    &quot;DeliveryLocation&quot;: {
+        &quot;AddressBlock&quot;: {
+            &quot;Street&quot;: &quot;301 LAKEVIEW AVE&quot;,
+            &quot;City&quot;: &quot;BURLINGTON&quot;,
+            &quot;State&quot;: &quot;ON&quot;,
+            &quot;ZIP&quot;: &quot;L7N 1Y9&quot;
+        },
+        &quot;DeliveryInstructions&quot;: &quot;test&quot;
+    },
+    &quot;WellBeingCheck&quot;: {
+        &quot;AddressBlock2&quot;: {
+            &quot;Street2&quot;: &quot;301 LAKEVIEW AVE&quot;,
+            &quot;City2&quot;: &quot;BURLINGTON&quot;,
+            &quot;State2&quot;: &quot;ON&quot;,
+            &quot;ZIP2&quot;: &quot;L7N 1Y9&quot;
+        },
+        &quot;TextArea1&quot;: &quot;test&quot;
+    },
+    &quot;PortalUser&quot;: &quot;0054S000003WuzdQAC&quot;,
+    &quot;ContactInformation&quot;: {
+        &quot;Name&quot;: &quot;Test&quot;,
+        &quot;Phone&quot;: &quot;9052222222&quot;,
+        &quot;Email&quot;: &quot;test@test.com&quot;
+    },
+    &quot;EmergencyRequestDetails&quot;: {
+        &quot;LicCat&quot;: &quot;Food Assistance&quot;,
+        &quot;RequestedService&quot;: &quot;Food Delivery&quot;,
+        &quot;EmergencyAssistanceReasonRadio&quot;: &quot;Elderly&quot;,
+        &quot;DateRequired&quot;: &quot;2024-01-18&quot;
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRCreateER</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;omniscriptId&quot;: &quot;0jN4S000000DHo4UAG&quot;,
+  &quot;language&quot;: &quot;English&quot;,
+  &quot;type&quot;: &quot;GPS2EmergencyResponseManagement&quot;,
+  &quot;runMode&quot;: &quot;preview&quot;,
+  &quot;sId&quot;: &quot;0jN4S000000DHo4UAG&quot;,
+  &quot;theme&quot;: &quot;lightning&quot;,
+  &quot;subType&quot;: &quot;AssistanceRequest&quot;,
+  &quot;timeStamp&quot;: &quot;2024-01-18T20:56:24.982Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+  &quot;userTimeZone&quot;: &quot;-480&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;contributor2@newidotso.com&quot;,
+  &quot;userId&quot;: &quot;0054S000003WuzdQAC&quot;,
+  &quot;omniProcessId&quot;: &quot;0jN4S000000DHo4UAG&quot;,
+  &quot;localTimeZoneName&quot;: &quot;America/Toronto&quot;,
+  &quot;TemporaryHousing&quot;: null,
+  &quot;DeliveryLocation&quot;: {
+    &quot;AddressBlock&quot;: {
+      &quot;City&quot;: &quot;Fairfax&quot;,
+      &quot;Street&quot;: &quot;5216 Maple Street&quot;,
+      &quot;State&quot;: &quot;VA&quot;,
+      &quot;ZIP&quot;: &quot;22030&quot;
+    },
+    &quot;DeliveryInstructions&quot;: &quot;Test delivery instructions&quot;
+  },
+  &quot;WellBeingCheck&quot;: null,
+  &quot;PortalUser&quot;: &quot;0054S000003W9d8QAC&quot;,
+  &quot;AccountId&quot;: &quot;0014S00000DQX9KQAX&quot;,
+  &quot;ContactInformation&quot;: {
+    &quot;Name&quot;: &quot;Paul Marshall&quot;,
+    &quot;Phone&quot;: &quot;2125558763&quot;,
+    &quot;Email&quot;: &quot;pmarshall@demo.com&quot;
+  },
+  &quot;EmergencyRequestDetails&quot;: {
+    &quot;LicCat&quot;: &quot;Medical&quot;,
+    &quot;RequestedService&quot;: &quot;Medicine / Medical Supplies Delivery&quot;,
+    &quot;EmergencyAssistanceReasonRadio&quot;: &quot;Illness&quot;,
+    &quot;AdditionalDetails&quot;: &quot;Test details&quot;,
+    &quot;DateRequired&quot;: &quot;2024-01-18&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

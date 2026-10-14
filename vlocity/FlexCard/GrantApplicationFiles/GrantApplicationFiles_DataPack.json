@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "BAE",
+    "ClonedFromOmniUiCardKey": "GrantCreateBudgetCDIG/BAE/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "recordId",
+                    "val": "13aKX000000wkMXYAY"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DRGetIndividualApplicationFiles",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "IndividualApplicationTaskId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "For the Application Framework View Flexcard",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "GrantApplicationFiles",
+    "Namespace": "",
+    "OmniUiCardKey": "GrantApplicationFiles/BAE/2.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "GrantApplicationFiles.json",
+    "SampleDataSourceResponse": "[{\"Title\":\"_Version_2 (3)\",\"FileExtension\":\"docx\",\"Size\":40596},{\"Title\":\"_Version_2 (2)\",\"FileExtension\":\"docx\",\"Size\":149819},{\"Title\":\"_Version_2 (1)\",\"FileExtension\":\"docx\",\"Size\":215341}]",
+    "StylingConfiguration": "",
+    "UniqueName": "GrantApplicationFiles_BAE_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/GrantApplicationFiles"
+}

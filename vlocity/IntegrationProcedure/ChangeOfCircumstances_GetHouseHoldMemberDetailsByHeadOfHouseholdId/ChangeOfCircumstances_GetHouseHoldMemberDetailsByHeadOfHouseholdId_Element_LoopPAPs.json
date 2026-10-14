@@ -1,0 +1,28 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "LoopPAPs",
+    "OmniProcessId": {
+        "Name": "GetHouseHoldMemberDetailsByHeadOfHouseholdId",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/GetHouseHoldMemberDetailsByHeadOfHouseholdId/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "LoopBlock1",
+        "loopList": "MergedAccountsAndContacts",
+        "loopOutput": {
+            "PAP": "%ExtractPARs%"
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/GetHouseHoldMemberDetailsByHeadOfHouseholdId/Procedure/LoopPAPs"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Yêu Cầu Khẩn Cấp</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Yêu Cầu Khẩn Cấp --></value>
+    </caseValues>
+    <nameFieldLabel>Yêu Cầu Khẩn Cấp</nameFieldLabel>
+    <recordTypes>
+        <label>Yêu Cầu Hỗ Trợ Khẩn Cấp</label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Quyên Tặng Vật Tư Khẩn Cấp</label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Yêu Cầu Vật Tư Khẩn Cấp</label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+</CustomObjectTranslation>

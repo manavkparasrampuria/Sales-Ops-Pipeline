@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetPersonDisabilitysForContactIdsTurbo</dataMapperDefItemName>
+        <filterDataType>REFERENCE</filterDataType>
+        <filterGroup>1.0</filterGroup>
+        <filterOperator>IN</filterOperator>
+        <filterValue>AllMembersAccountIds</filterValue>
+        <globalKey>PSSEXPCloudGetPersonDisabilitysForContactIdsTurboCustom3183</globalKey>
+        <inputField>IndividualId</inputField>
+        <inputObject>PersonDisability</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>PersonDisabilityList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetPersonDisabilitysForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetPersonDisabilitysForContactIdsTurboCustom531</globalKey>
+        <inputField>Type</inputField>
+        <inputObject>PersonDisability</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PersonDisabilityList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetPersonDisabilitysForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetPersonDisabilitysForContactIdsTurboCustom789</globalKey>
+        <inputField>Name</inputField>
+        <inputObject>PersonDisability</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PersonDisabilityList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetPersonDisabilitysForContactIdsTurbo</dataMapperDefItemName>
+        <filterDataType>REFERENCE</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>IN</filterOperator>
+        <filterValue>AllMembersContactIds</filterValue>
+        <globalKey>PSSEXPCloudGetPersonDisabilitysForContactIdsTurboCustom6403</globalKey>
+        <inputField>IndividualId</inputField>
+        <inputObject>PersonDisability</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>PersonDisabilityList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetPersonDisabilitysForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetPersonDisabilitysForContactIdsTurboCustom3811</globalKey>
+        <inputField>VerifiedBy</inputField>
+        <inputObject>PersonDisability</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PersonDisabilityList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetPersonDisabilitysForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetPersonDisabilitysForContactIdsTurboCustom6989</globalKey>
+        <inputField>Status</inputField>
+        <inputObject>PersonDisability</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PersonDisabilityList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetPersonDisabilitysForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetPersonDisabilitysForContactIdsTurboCustom8677</globalKey>
+        <inputField>IndividualId</inputField>
+        <inputObject>PersonDisability</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PersonDisabilityList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetPersonDisabilitysForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetPersonDisabilitysForContactIdsTurboCustom8206</globalKey>
+        <inputField>VerificationDate</inputField>
+        <inputObject>PersonDisability</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PersonDisabilityList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Retrieve PersonDisability For ContactIds</description>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSEXPCloudGetPersonDisabilitysForContactIdsTurbo</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;AllMembersContactIds&quot; : [ &quot;003RM000008AonIYAS&quot;, &quot;003RM000008AwZ1YAK&quot;, &quot;003RM000008AwZ6YAK&quot;, &quot;003RM000008AwZBYA0&quot; ],
+  &quot;AllMembersAccountIds&quot; : [ &quot;001RM000005fKAyYAM&quot;, &quot;001RM000005fTroYAE&quot;, &quot;001RM000005fTrtYAE&quot;, &quot;001RM000005fTryYAE&quot; ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Turbo Extract</type>
+</DataMapperDefinition>

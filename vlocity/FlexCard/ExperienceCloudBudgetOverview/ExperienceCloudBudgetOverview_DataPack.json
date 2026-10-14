@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "BAE",
+    "ClonedFromOmniUiCardKey": "GrantProposedBudget/BAE/2.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "0iTKX0000010wBa2AI"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DRGetBudgetfromIAforExperienceCloud",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "IndividualApplicationId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "ExperienceCloudBudgetOverview",
+    "Namespace": "",
+    "OmniUiCardKey": "ExperienceCloudBudgetOverview/BAE/3.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "ExperienceCloudBudgetOverview.json",
+    "SampleDataSourceResponse": "[{\"BudgetName\":\"FY25 CDI Budget\",\"BudgetAmount\":11000,\"IATotalBudget\":11000,\"BudgetVsActual\":-4000,\"IARequestedAmount\":15000,\"IAApplicationName\":\"Green Apartments\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "ExperienceCloudBudgetOverview_BAE_3",
+    "VersionNumber": 3,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/ExperienceCloudBudgetOverview"
+}

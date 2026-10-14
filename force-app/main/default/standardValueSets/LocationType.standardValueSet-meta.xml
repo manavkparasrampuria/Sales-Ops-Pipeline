@@ -3,12 +3,12 @@
     <sorted>false</sorted>
     <standardValue>
         <fullName>Warehouse</fullName>
-        <default>true</default>
+        <default>false</default>
         <label>Warehouse</label>
     </standardValue>
     <standardValue>
         <fullName>Site</fullName>
-        <default>false</default>
+        <default>true</default>
         <label>Site</label>
     </standardValue>
     <standardValue>
@@ -25,5 +25,15 @@
         <fullName>Virtual</fullName>
         <default>false</default>
         <label>Virtual</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mobile</fullName>
+        <default>false</default>
+        <label>Mobile</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Residence</fullName>
+        <default>false</default>
+        <label>Residence</label>
     </standardValue>
 </StandardValueSet>

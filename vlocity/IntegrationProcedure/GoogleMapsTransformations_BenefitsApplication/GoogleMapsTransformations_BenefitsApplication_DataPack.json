@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_BenefitsApplication_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Benefits Application",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_BenefitsApplication_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_BenefitsApplication_Element_TransformStep.json",
+        "GoogleMapsTransformations_BenefitsApplication_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_BenefitsApplication",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_BenefitsApplication_PropertySetConfig.json",
+    "SubType": "BenefitsApplication",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_BenefitsApplication_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/BenefitsApplication/Procedure"
+}

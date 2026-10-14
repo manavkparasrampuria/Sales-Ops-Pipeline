@@ -1,0 +1,47 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "IfOldIncomeFrequencyWeekly",
+    "OmniProcessId": {
+        "Name": "ApplictionSummaryCaseWorkerGuidedFlow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopOldPartyIncome",
+        "OmniProcessId": {
+            "Name": "ApplictionSummaryCaseWorkerGuidedFlow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure/LoopOldPartyIncome",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopOldPartyIncome",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "MonthlyIncomeForWeeklyFrequency": "=%IncomeDetails:IncomeAmount% * 4.3"
+        },
+        "executionConditionalFormula": "(IncomeDetails:IncomeFrequency==\"Weekly\") && (((AssessmentPartyIncome:actionType == \"Update\") || (AssessmentPartyIncome:actionType == \"Remove\") || (AssessmentPartyIncome:actionType == \"None\"))==true)\n&& AssessmentPartyIncome:partyIncomeId != \"Add\" ",
+        "failOnStepError": true,
+        "failureConditionalFormula": "AssessmentPartyIncome:partyIncomeId == \"Add\"",
+        "label": "SetValues3",
+        "responseJSONNode": "MemberMonthlyOldIncome",
+        "responseJSONPath": "MonthlyIncomeForWeeklyFrequency",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ApplictionSummaryCaseWorkerGuidedFlow/Procedure/IfOldIncomeFrequencyWeekly"
+}

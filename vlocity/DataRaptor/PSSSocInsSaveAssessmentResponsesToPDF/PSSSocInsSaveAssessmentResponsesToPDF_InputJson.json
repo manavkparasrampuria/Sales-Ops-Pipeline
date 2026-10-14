@@ -1,0 +1,50 @@
+{
+    "Acknowledgment": {
+        "PSS_SI_v1_Date": "",
+        "PSS_SI_v1_Signature": ""
+    },
+    "CertificateOfCapacity": {
+        "PSS_SI_v1_ExaminationDate": "",
+        "PSS_SI_v1_FromDate": "",
+        "PSS_SI_v1_InjuryType": null,
+        "PSS_SI_v1_IssuedDate": "",
+        "PSS_SI_v1_ProviderContactNumber": "",
+        "PSS_SI_v1_ProviderName": "",
+        "PSS_SI_v1_SignedDate": "",
+        "PSS_SI_v1_ToDate": "",
+        "PSS_SI_v1_WorkerCapacity": null
+    },
+    "IncidentWorkersInjuryDetails": {
+        "PSS_SI_v1_DateTimeForInjury": "",
+        "PSS_SI_v1_EmployerResponsibleForWorkplace": "",
+        "PSS_SI_v1_HowYouInjured": "",
+        "PSS_SI_v1_MedicalTreatment": "",
+        "PSS_SI_v1_NatureOfInjury": "",
+        "PSS_SI_v1_ReportDateTimeForInjury": "",
+        "PSS_SI_v1_TakingTimeOff": "",
+        "PSS_SI_v1_WorkStoppedDateTime": ""
+    },
+    "WorkerPersonalDetails": {
+        "PSS_SI_v1_Address": "",
+        "PSS_SI_v1_CellPhoneNumber": "",
+        "PSS_SI_v1_City": "",
+        "PSS_SI_v1_Country": "",
+        "PSS_SI_v1_DateOfBirth": "",
+        "PSS_SI_v1_Email": "",
+        "PSS_SI_v1_FirstName": "",
+        "PSS_SI_v1_Gender": "",
+        "PSS_SI_v1_HomeTelephoneNumber": "",
+        "PSS_SI_v1_LastName": "",
+        "PSS_SI_v1_State": "",
+        "PSS_SI_v1_ZipCode": ""
+    },
+    "WorkersEmploymentDetails": {
+        "PSS_SI_v1_AreYouStillEmployed": "",
+        "PSS_SI_v1_EmploymentStartDate": "",
+        "PSS_SI_v1_EmploymentType": "",
+        "PSS_SI_v1_Income": 13512,
+        "PSS_SI_v1_IncomeFrequency": "",
+        "PSS_SI_v1_NameOfEmployer": "",
+        "PSS_SI_v1_Occupation": ""
+    }
+}

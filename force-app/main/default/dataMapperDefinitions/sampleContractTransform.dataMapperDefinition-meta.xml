@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleContractTransform</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleContractTransformCustom8524</globalKey>
+        <inputField>ContractAccountBillingCity</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>City</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleContractTransform</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleContractTransformCustom3011</globalKey>
+        <inputField>ContractAccountBillingPostalCode</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Zip</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleContractTransform</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleContractTransformCustom6493</globalKey>
+        <inputField>ContractAccountBillingState</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>State</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleContractTransform</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleContractTransformCustom250</globalKey>
+        <inputField>ContractLineItems:Quantity</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Products:Quantity</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleContractTransform</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleContractTransformCustom6015</globalKey>
+        <inputField>ContractNumber</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContractNumber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleContractTransform</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleContractTransformCustom9708</globalKey>
+        <inputField>ContractAccountName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContractAccountName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleContractTransform</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleContractTransformCustom4952</globalKey>
+        <inputField>ContractAccountBillingStreet</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Street</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleContractTransform</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleContractTransformCustom52</globalKey>
+        <inputField>ContractLineItems:Price</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Products:ListPrice</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleContractTransform</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleContractTransformCustom8608</globalKey>
+        <inputField>ContractLineItems:Name</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Products:Product</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>sampleContractTransform</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>sampleContractTransformCustom7365</globalKey>
+        <inputField>ContractName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContractName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+  &quot;ContractAccountId&quot; : &quot;001Ws000004SfqSIAS&quot;,
+  &quot;ContractAccountBillingCity&quot; : &quot;Shanghai&quot;,
+  &quot;ContractAccountName&quot; : &quot;Biospan, LLC.&quot;,
+  &quot;ContractAccountBillingStreet&quot; : &quot;355 Hong Qiao Lu&quot;,
+  &quot;ContractAccountBillingPostalCode&quot; : &quot;200030&quot;,
+  &quot;ContractNumber&quot; : &quot;00000101&quot;,
+  &quot;ContractStartDate&quot; : &quot;2024-01-24&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>sampleContractTransform</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;ContractName&quot; : &quot;Quote v1&quot;,
+  &quot;ContractAccountId&quot; : &quot;001Ws000004SfpYIAS&quot;,
+  &quot;ContractAccountBillingState&quot; : &quot;TX&quot;,
+  &quot;ContractAccountBillingCity&quot; : &quot;Dallas&quot;,
+  &quot;ContractAccountBillingStreet&quot; : &quot;6039 E Northwest Hwy&quot;,
+  &quot;ContractAccountName&quot; : &quot;Big Sky &amp; Sons&quot;,
+  &quot;ContractAccountBillingPostalCode&quot; : &quot;75225&quot;,
+  &quot;ContractNumber&quot; : &quot;00000105&quot;,
+  &quot;ContractLineItems&quot; : [ {
+    &quot;Name&quot; : &quot;00000003&quot;,
+    &quot;Quantity&quot; : 8,
+    &quot;Price&quot; : 2000
+  }, {
+    &quot;Name&quot; : &quot;00000004&quot;,
+    &quot;Quantity&quot; : 2,
+    &quot;TotalPrice&quot; : 2700,
+    &quot;Price&quot; : 1500
+  } ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <targetOutputFileName>ContractsDemo(Version 1)</targetOutputFileName>
+    <type>Transform</type>
+</DataMapperDefinition>

@@ -1,0 +1,47 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "InspectionLauncherIA/Salesforce/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 0,
+                    "name": "recordId",
+                    "val": "0kl4S00000001xJQAQ"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Query",
+            "value": {
+                "dsDelay": "",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "query": "Select Id from HealthcareFacility where Id = '{recordId}'",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Launch the Omniscript New Visit/Inspection Creation - Facility",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "InspectionLauncherFacility",
+    "Namespace": "",
+    "OmniUiCardKey": "InspectionLauncherFacility/Salesforce/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "InspectionLauncherFacility.json",
+    "SampleDataSourceResponse": "[{\"attributes\":{\"type\":\"HealthcareFacility\",\"url\":\"/services/data/v60.0/sobjects/HealthcareFacility/0kl4S00000001xJQAQ\"},\"Id\":\"0kl4S00000001xJQAQ\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "InspectionLauncherFacility_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/InspectionLauncherFacility"
+}

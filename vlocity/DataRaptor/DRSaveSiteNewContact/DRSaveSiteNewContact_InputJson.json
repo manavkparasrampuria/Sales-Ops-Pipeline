@@ -1,0 +1,113 @@
+{
+    "ContextId": null,
+    "Disclosure": {
+        "Disclosure1": null
+    },
+    "SiteContact": {
+        "Block3": {
+            "SiteContactBestTimeCallEnd": null,
+            "SiteContactBestTimeCallStart": null
+        },
+        "Block4": {
+            "SiteContactName": null,
+            "SiteContactPhoneNumber": null
+        },
+        "MyselfSiteContact": null,
+        "SiteContactAddress-Block": {
+            "ContactCity": null,
+            "ContactState": null,
+            "ContactStreet": null,
+            "ContactZipcode": null,
+            "SiteContactAddress": null
+        }
+    },
+    "SiteInfo": {
+        "BlkFiling": {
+            "FedeFile__c": null,
+            "StateeFile__c": null
+        },
+        "BlkQuestions": {
+            "SiteFormTerritoryOffice__c": null,
+            "SitePrepareForeign__c": null,
+            "SiteVoterReg__c": null,
+            "SiteofferFinancialServices__c": null
+        },
+        "BlkSiteDetails": {
+            "BlkSiteContact": {
+                "AddContact": null,
+                "BlkNewContact": {
+                    "NewContactName": null,
+                    "SiteContactPhone": null
+                },
+                "SiteContactId": null
+            },
+            "SiteApptOnly__c": null,
+            "SiteMobileOnly__c": null,
+            "SitePublic__c": null
+        },
+        "Block1": {
+            "BlkServiceSystems": {
+                "ServiceSystemSelectionOtherSelected": null,
+                "SiteOfferOtherServiceSystem__c": null,
+                "SiteOfferServiceSystems__c": null
+            },
+            "Block2": {
+                "SiteOfferAFMType__c": null
+            },
+            "SiteOfferAFMReturns__c": null,
+            "SiteOfferCAA__c": null,
+            "SiteOfferPrepareLastYearReturns__c": null
+        },
+        "Languages__c": null,
+        "ProgramType__c": null,
+        "SIDN__c": null,
+        "SiteAddress__c-Block": {
+            "SiteAddress__c": null,
+            "SiteCity": null,
+            "SiteState": null,
+            "SiteStreet": null,
+            "SiteZipcode": null
+        },
+        "SiteName": null
+    },
+    "SiteOperatingHours": {
+        "CustomLWC1": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRCreateLocationAddressFromSite": null,
+        "DRGetCurrentUserasContact": null,
+        "DRUpdateParentLocationwithAddress": null,
+        "DataRaptorCreateSite": null,
+        "DataRaptorCreateSiteHourDayFRI": null,
+        "DataRaptorCreateSiteHourDayMon": null,
+        "DataRaptorCreateSiteHourDaySAT": null,
+        "DataRaptorCreateSiteHourDaySUN": null,
+        "DataRaptorCreateSiteHourDayThurs": null,
+        "DataRaptorCreateSiteHourDayTues": null,
+        "DataRaptorCreateSiteHourDayWed": null,
+        "DataRaptorSaveSiteContact": null,
+        "Disclosure": null,
+        "NavigateAction1": null,
+        "SetLocationIdasParentLocationId": null,
+        "SetValueFRI": null,
+        "SetValueMon": null,
+        "SetValueSAT": null,
+        "SetValueSUN": null,
+        "SetValueSiteId": null,
+        "SetValueThurs": null,
+        "SetValueTues": null,
+        "SetValueWed": null,
+        "SetValuesSiteContactfromUser": null,
+        "SetValuesTEST": null,
+        "SiteContact": null,
+        "SiteInfo": null,
+        "SiteOperatingHours": null
+    }
+}

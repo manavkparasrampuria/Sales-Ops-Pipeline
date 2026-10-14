@@ -1,0 +1,95 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateRegulatoryCodeViolationCustom766",
+        "InputFieldName": "CCM_NewComplaint:CCM_ComplaintInformation:CCM_ComplaintDetails:CCM_IncidentDate",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateRegulatoryCodeViolation",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateRegulatoryCodeViolation",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateRegulatoryCodeViolation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "DateCreated",
+        "OutputObjectName": "RegulatoryCodeViolation",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "CCMDRCreateRegulatoryCodeViolationCustom8496",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "CCMDRCreateRegulatoryCodeViolation",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateRegulatoryCodeViolation",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateRegulatoryCodeViolation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "RegulatoryCodeViolation",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateRegulatoryCodeViolationCustom2895",
+        "InputFieldName": "SelectedRegulatoryCodes:Id",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateRegulatoryCodeViolation",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateRegulatoryCodeViolation",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateRegulatoryCodeViolation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "RegulatoryCodeId",
+        "OutputObjectName": "RegulatoryCodeViolation",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "CCMDRCreateRegulatoryCodeViolationCustom8275",
+        "InputFieldName": "DRId_PublicComplaint",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "CCMDRCreateRegulatoryCodeViolation",
+        "OmniDataTransformationId": {
+            "Name": "CCMDRCreateRegulatoryCodeViolation",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCMDRCreateRegulatoryCodeViolation",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ResponseContextId",
+        "OutputObjectName": "RegulatoryCodeViolation",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

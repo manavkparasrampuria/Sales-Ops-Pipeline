@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "PSUtility_CallDemoLogWebService_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Call Demo Log Demo Selected",
+    "OmniProcessElement": [
+        "PSUtility_CallDemoLogWebService_Element_GetAccessToken.json",
+        "PSUtility_CallDemoLogWebService_Element_DRGetWSData.json",
+        "PSUtility_CallDemoLogWebService_Element_SendToWS.json"
+    ],
+    "OmniProcessKey": "PSUtility_CallDemoLogWebService",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "PSUtility_CallDemoLogWebService_PropertySetConfig.json",
+    "SubType": "CallDemoLogWebService",
+    "Type": "PSUtility",
+    "UniqueName": "PSUtility_CallDemoLogWebService_Procedure_4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/PSUtility/CallDemoLogWebService/Procedure"
+}

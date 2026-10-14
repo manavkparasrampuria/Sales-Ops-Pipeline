@@ -1,0 +1,2683 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "recordId",
+                "val": "13XWs000000Hh3lMAC"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "GPSRecruitmentApplicationTracking",
+            "bundleType": "",
+            "dsDelay": "",
+            "inputMap": {
+                "recordId": "{recordId}"
+            },
+            "jsonMap": "{\"recordId\":\"{recordId}\"}",
+            "resultVar": ""
+        }
+    },
+    "enableLwc": true,
+    "events": [
+        {
+            "actionData": {
+                "card": "{card}",
+                "stateAction": {
+                    "eventName": "reload",
+                    "id": "flex-action-1628616669266",
+                    "type": "cardAction"
+                }
+            },
+            "channelname": "CommunityTracking",
+            "displayLabel": "CommunityTracking:data",
+            "element": "action",
+            "eventLabel": "pubsub",
+            "eventname": "data",
+            "eventtype": "pubsub",
+            "key": "event-0",
+            "recordIndex": "0"
+        }
+    ],
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfGPSRecruitmentApplicationTracking_1_SalesforceDemo",
+        "Id": "0Rb8a000000BAFoCAO",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfGPSRecruitmentApplicationTracking_1_SalesforceDemo",
+        "NamespacePrefix": "c"
+    },
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "class": "slds-col ",
+                                    "element": "outputField",
+                                    "elementLabel": "Block-0-WelcomeStatement2-1",
+                                    "key": "element_element_block_0_0_outputField_1_0",
+                                    "name": "WelcomeStatement2",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "fieldName": "WelcomeStatement2",
+                                        "label": "",
+                                        "placeholder": "output",
+                                        "record": "{record}",
+                                        "styles": {
+                                            "value": {
+                                                "fontSize": "20px"
+                                            }
+                                        },
+                                        "type": "text"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                            "styles": {
+                                                "value": {
+                                                    "fontSize": "20px"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_12-of-12",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "type": "field"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-Welcome",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "class": "slds-p-around_x-small",
+                                "padding": [
+                                    {
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "block",
+                            "userUpdatedElementLabel": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-InitialInterest-Icon-1",
+                                            "key": "element_element_element_block_1_0_block_0_0_flexIcon_0_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_1_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-task2 ",
+                                                "iconName": "standard:task2",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-InitialInterest-Block-0",
+                                    "key": "element_element_block_1_0_block_0_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_1_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 "
+                                    },
+                                    "type": "block"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-InitialInterest-Text-2",
+                                            "key": "element_element_element_block_1_0_block_1_0_outputField_0_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_1_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E1.%20Submit%20Application%3C/span%3E%3C/span%3E%3C/span%3E%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "7",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "7",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_7-of-12 ",
+                                                "style": "             ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-InitialInterest-Text-7",
+                                            "key": "element_element_element_block_1_0_block_1_0_outputField_1_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_1_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#169179;%22%3ECOMPLETED%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "11",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 "
+                                            },
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-InitialInterest-Block-1",
+                                    "key": "element_element_block_1_0_block_1_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_1_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": 11,
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": 11,
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_11-of-12"
+                                    },
+                                    "type": "block"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-InitialInterest",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "#cccccc",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": [
+                                    ],
+                                    "width": "1"
+                                },
+                                "class": "slds-theme_default  slds-p-around_x-small ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                    {
+                                        "label": "around:x-small",
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "     border-color:#cccccc; border-width:1px;       ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                },
+                                "theme": "theme_default"
+                            },
+                            "type": "block",
+                            "userUpdatedElementLabel": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-SafetyAssessment-Icon-0",
+                                            "key": "element_element_element_block_2_0_block_0_0_flexIcon_0_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_2_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-31",
+                                                            "operator": "!=",
+                                                            "type": "custom",
+                                                            "value": "Application Review"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-task2 ",
+                                                "iconName": "standard:task2",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-SafetyAssessment-Icon-2",
+                                            "key": "element_element_element_block_2_0_block_0_0_flexIcon_1_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_2_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-26",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Application Review"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-event ",
+                                                "iconName": "standard:event",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-SafetyAssessment-Block-0",
+                                    "key": "element_element_block_2_0_block_0_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_2_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 "
+                                    },
+                                    "type": "block"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-SafetyAssessment-Text-1",
+                                            "key": "element_element_element_block_2_0_block_1_0_outputField_0_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_2_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E2.%20Application%20Review%3C/span%3E%3C/span%3E%3C/span%3E%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "11",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 ",
+                                                "style": "             ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-SafetyAssessment-Text-6",
+                                            "key": "element_element_element_block_2_0_block_1_0_outputField_1_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_2_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-37",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Application Review"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#f1c40f;%22%3EIN%20PROGRESS%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "11",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 "
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-SafetyAssessment-Text-7",
+                                            "key": "element_element_element_block_2_0_block_1_0_outputField_2_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_2_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-172",
+                                                            "operator": "!=",
+                                                            "type": "custom",
+                                                            "value": "Application Review"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#169179;%22%3ECOMPLETED%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "11",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 "
+                                            },
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-SafetyAssessment-Block-3",
+                                    "key": "element_element_block_2_0_block_1_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_2_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "10",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "10",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_10-of-12 "
+                                    },
+                                    "type": "block"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-SafetyAssessment",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "#cccccc",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": [
+                                    ],
+                                    "width": "1"
+                                },
+                                "class": " slds-p-around_x-small ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                    {
+                                        "label": "around:x-small",
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "     border-color:#cccccc; border-width:1px;       ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "block",
+                            "userUpdatedElementLabel": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Training-Icon-0",
+                                            "key": "element_element_element_block_3_0_block_0_0_flexIcon_0_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_3_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-364",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Employment Decision"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-75",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Accept Offer"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-88",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Begin Work"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-task2 ",
+                                                "iconName": "standard:task2",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Training-Icon-1",
+                                            "key": "element_element_element_block_3_0_block_0_0_flexIcon_1_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_3_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-373",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Application Review"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-note ",
+                                                "iconName": "standard:note",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Training-Icon-2",
+                                            "key": "element_element_element_block_3_0_block_0_0_flexIcon_2_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_3_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-384",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Schedule Interview"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-event ",
+                                                "iconName": "standard:event",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-Training-Block-3",
+                                    "key": "element_element_block_3_0_block_0_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_3_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-around_x-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "around:x-small",
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 ",
+                                        "style": "             ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "type": "block"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Training-Text-3",
+                                            "key": "element_element_element_block_3_0_block_1_0_outputField_0_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_3_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E3.%20Schedule%20Interview%3C/span%3E%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "7",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "7",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_7-of-12 ",
+                                                "style": "             ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Training-Text-7",
+                                            "key": "element_element_element_block_3_0_block_1_0_outputField_2_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_3_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-415",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Schedule Interview"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#f1c40f;%22%3EIN%20PROGRESS%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "11",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 "
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Training-Text-9",
+                                            "key": "element_element_element_block_3_0_block_1_0_outputField_3_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_3_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-415",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Employment Decision"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-124",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Accept Offer"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-137",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Begin Work"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#169179;%22%3ECOMPLETED%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "11",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 "
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Training-Text-8",
+                                            "key": "element_element_element_block_3_0_block_1_0_outputField_4_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_3_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-415",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Application Review"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#e03e2d;%22%3ENOT%20STARTED%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "11",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 "
+                                            },
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-Training-Subblock",
+                                    "key": "element_element_block_3_0_block_1_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_3_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "11",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-around_x-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "around:x-small",
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "11",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_11-of-12 ",
+                                        "style": "             ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "type": "block",
+                                    "userUpdatedElementLabel": true
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-Training",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "class": "slds-p-around_x-small",
+                                "padding": [
+                                    {
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "block",
+                            "userUpdatedElementLabel": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Application-Block-0-Icon-0",
+                                            "key": "element_element_element_block_4_0_block_0_0_flexIcon_0_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_4_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-11",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Accept Offer"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-222",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Begin Work"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-task2 ",
+                                                "iconName": "standard:task2",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Application-Block-0-Icon-1",
+                                            "key": "element_element_element_block_4_0_block_0_0_flexIcon_1_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_4_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-37",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Schedule Interview"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-50",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Application Review"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-note ",
+                                                "iconName": "standard:note",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Application-Block-0-Icon-2",
+                                            "key": "element_element_element_block_4_0_block_0_0_flexIcon_2_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_4_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-11",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Employment Decision"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-event ",
+                                                "iconName": "standard:event",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-Application-Block-0",
+                                    "key": "element_element_block_4_0_block_0_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_4_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 "
+                                    },
+                                    "type": "block"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Application-Block-1-Text-0",
+                                            "key": "element_element_element_block_4_0_block_1_0_outputField_0_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_4_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E4.%20Employment%20Decision%3C/span%3E%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "7",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "7",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_7-of-12 ",
+                                                "style": "             ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Application-Block-1-Text-2",
+                                            "key": "element_element_element_block_4_0_block_1_0_outputField_1_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_4_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-33",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Employment Decision"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%3E%3Cspan%20class=%22slds-text-heading_medium%22%20style=%22color:%20#f1c40f;%22%3EIN%20PROGRESS%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "11",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 ",
+                                                "style": "             ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Application-Block-1-Text-3",
+                                            "key": "element_element_element_block_4_0_block_1_0_outputField_2_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_4_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-40",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Accept Offer"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-67",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Begin Work"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%3E%3Cspan%20class=%22slds-text-body_regular%20slds-text-heading_medium%22%20style=%22color:%20#169179;%22%3ECOMPLETED%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "11",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 "
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Application-Block-1-Text-4",
+                                            "key": "element_element_element_block_4_0_block_1_0_outputField_3_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_4_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-49",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Application Review"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-58",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Schedule Interview"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%3E%3Cspan%20class=%22slds-text-heading_medium%22%20style=%22color:%20#ba372a;%22%3ENOT%20STARTED%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "11",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 "
+                                            },
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-Application-Block-1",
+                                    "key": "element_element_block_4_0_block_1_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_4_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "11",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-around_x-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "around:x-small",
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "11",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_11-of-12 ",
+                                        "style": "             ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "type": "block"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-Application",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "class": "slds-p-around_x-small",
+                                "padding": [
+                                    {
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "block",
+                            "userUpdatedElementLabel": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Review-Block-0-Icon-0",
+                                            "key": "element_element_element_block_5_0_block_0_0_flexIcon_0_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_5_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-80",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Begin Work"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-task2 ",
+                                                "iconName": "standard:task2",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 ",
+                                                "style": "             ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "type": "element"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Review-Block-0-Icon-1",
+                                            "key": "element_element_element_block_5_0_block_0_0_flexIcon_1_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_5_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-98",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Schedule Interview"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-105",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Application Review"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-118",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Employment Decision"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-note ",
+                                                "iconName": "standard:note",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Review-Block-0-Icon-2",
+                                            "key": "element_element_element_block_5_0_block_0_0_flexIcon_2_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_5_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-107",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Accept Offer"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-event ",
+                                                "iconName": "standard:event",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-Review-Block-0",
+                                    "key": "element_element_block_5_0_block_0_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_5_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 "
+                                    },
+                                    "type": "block"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Review-Block-1-Text-0",
+                                            "key": "element_element_element_block_5_0_block_1_0_outputField_0_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_5_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E5.%20Accept%20Offer%3C/span%3E%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "8",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "8",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_8-of-12 ",
+                                                "style": "             ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Review-Block-1-Text-2",
+                                            "key": "element_element_element_block_5_0_block_1_0_outputField_2_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_5_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-148",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Accept Offer"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#f1c40f;%22%3EIN%20PROGRESS%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "sizeClass": "slds-size_12-of-12"
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Review-Block-1-Text-3",
+                                            "key": "element_element_element_block_5_0_block_1_0_outputField_3_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_5_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-139",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Begin Work"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#169179;%22%3ECOMPLETED%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "sizeClass": "slds-size_12-of-12"
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Review-Block-1-Text-4",
+                                            "key": "element_element_element_block_5_0_block_1_0_outputField_4_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_5_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-120",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Schedule Interview"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-188",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Application Review"
+                                                        },
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-201",
+                                                            "logicalOperator": "||",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Employment Decision"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#ba372a;%22%3ENOT%20STARTED%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "sizeClass": "slds-size_12-of-12"
+                                            },
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-Review-Block-1",
+                                    "key": "element_element_block_5_0_block_1_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_5_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "10",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "10",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_10-of-12 "
+                                    },
+                                    "type": "block"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-Review",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "class": "slds-p-around_x-small",
+                                "padding": [
+                                    {
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "block",
+                            "userUpdatedElementLabel": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Approval-Block-0-Icon-0",
+                                            "key": "element_element_element_block_6_0_block_0_0_flexIcon_0_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_6_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-0",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Begin Work"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-task2 ",
+                                                "iconName": "standard:task2",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "flexIcon",
+                                            "elementLabel": "Block-Approval-Block-0-Icon-1",
+                                            "key": "element_element_element_block_6_0_block_0_0_flexIcon_1_0",
+                                            "name": "Icon",
+                                            "parentElementKey": "element_element_block_6_0_block_0_0",
+                                            "property": {
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-9",
+                                                            "operator": "!=",
+                                                            "type": "custom",
+                                                            "value": "Begin Work"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "extraclass": "slds-icon_container slds-icon-standard-note ",
+                                                "iconName": "standard:note",
+                                                "iconType": "Salesforce SVG",
+                                                "imgsrc": "",
+                                                "record": "{record}",
+                                                "size": "medium",
+                                                "variant": "inverse"
+                                            },
+                                            "size": {
+                                                "default": "1",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 "
+                                            },
+                                            "type": "element"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-Approval-Block-0",
+                                    "key": "element_element_block_6_0_block_0_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_6_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 "
+                                    },
+                                    "type": "block"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Approval-Block-1-Text-0",
+                                            "key": "element_element_element_block_6_0_block_1_0_outputField_0_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_6_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E%3Cspan%20style=%22vertical-align:%20inherit;%22%3E6.%20Begin%20Work%3C/span%3E%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "8",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "8",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_8-of-12 "
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Approval-Block-1-Text-3",
+                                            "key": "element_element_element_block_6_0_block_1_0_outputField_2_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_6_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-27",
+                                                            "operator": "==",
+                                                            "type": "custom",
+                                                            "value": "Begin Work"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%3E%3Cspan%20class=%22slds-text-body_regular%20slds-text-heading_medium%22%20style=%22color:%20#169179;%22%3ECOMPLETED%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "sizeClass": "slds-size_12-of-12"
+                                            },
+                                            "type": "text"
+                                        },
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "outputField",
+                                            "elementLabel": "Block-Approval-Block-1-Text-4",
+                                            "key": "element_element_element_block_6_0_block_1_0_outputField_3_0",
+                                            "name": "Text",
+                                            "parentElementKey": "element_element_block_6_0_block_1_0",
+                                            "property": {
+                                                "card": "{card}",
+                                                "data-conditions": {
+                                                    "group": [
+                                                        {
+                                                            "field": "ApplicationStage",
+                                                            "hasMergeField": false,
+                                                            "id": "state-new-condition-36",
+                                                            "operator": "!=",
+                                                            "type": "custom",
+                                                            "value": "Begin Work"
+                                                        }
+                                                    ],
+                                                    "id": "state-condition-object",
+                                                    "isParent": true
+                                                },
+                                                "mergeField": "%3Cdiv%20class=%22slds-text-heading_medium%22%3E%3Cspan%20style=%22color:%20#ba372a;%22%3ENOT%20STARTED%3C/span%3E%3C/div%3E",
+                                                "record": "{record}"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 0,
+                                            "styleObject": {
+                                                "sizeClass": "slds-size_12-of-12"
+                                            },
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-Approval-Block-1",
+                                    "key": "element_element_block_6_0_block_1_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_6_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "10",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "10",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_10-of-12 "
+                                    },
+                                    "type": "block"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-Approval",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "class": "slds-p-around_x-small",
+                                "padding": [
+                                    {
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "block",
+                            "userUpdatedElementLabel": true
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "GPSRecruitmentApplicationTracking",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage",
+                "xmlns": "http://soap.sforce.com/2006/04/metadata"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage",
+                "xmlns": "http://soap.sforce.com/2006/04/metadata"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightningCommunity__Default",
+                "xmlns": ""
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 56,
+        "description": "",
+        "isExplicitImport": false,
+        "isExposed": true,
+        "masterLabel": "GPSRecruitmentApplicationTracking",
+        "runtimeNamespace": "",
+        "targetConfigs": "CiAgICAgICAgPHRhcmdldENvbmZpZyB4bWxucz0iaHR0cDovL3NvYXAuc2ZvcmNlLmNvbS8yMDA2LzA0L21ldGFkYXRhIiB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgICAgPHByb3BlcnR5IG5hbWU9InJlY29yZElkIiB0eXBlPSJTdHJpbmciLz4KICAgIDwvdGFyZ2V0Q29uZmlnPgogICAgPHRhcmdldENvbmZpZyB4bWxucz0iaHR0cDovL3NvYXAuc2ZvcmNlLmNvbS8yMDA2LzA0L21ldGFkYXRhIiB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iLz4KICAgIDwvdGFyZ2V0Q29uZmlnPgogICAgPHRhcmdldENvbmZpZyB4bWxucz0iIiB0YXJnZXRzPSJsaWdodG5pbmdDb21tdW5pdHlfX0RlZmF1bHQiPgogICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgPC90YXJnZXRDb25maWc+CiAgICAgICAg",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage",
+                "lightningCommunity__Page",
+                "lightningCommunity__Default"
+            ]
+        }
+    }
+}

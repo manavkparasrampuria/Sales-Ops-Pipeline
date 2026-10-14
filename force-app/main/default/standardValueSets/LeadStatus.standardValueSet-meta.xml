@@ -8,27 +8,57 @@
         <converted>false</converted>
     </standardValue>
     <standardValue>
-        <fullName>Contacted</fullName>
+        <fullName>Working</fullName>
         <default>false</default>
-        <label>Contacted</label>
-        <converted>false</converted>
-    </standardValue>
-    <standardValue>
-        <fullName>Nurturing</fullName>
-        <default>false</default>
-        <label>Nurturing</label>
+        <label>Working</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
         <fullName>Qualified</fullName>
         <default>false</default>
         <label>Qualified</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted</fullName>
+        <default>false</default>
+        <label>Converted</label>
         <converted>true</converted>
     </standardValue>
     <standardValue>
         <fullName>Unqualified</fullName>
         <default>false</default>
         <label>Unqualified</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Draft</fullName>
+        <default>false</default>
+        <label>Draft</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Submitted</fullName>
+        <default>false</default>
+        <label>Submitted</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
         <converted>false</converted>
     </standardValue>
 </StandardValueSet>

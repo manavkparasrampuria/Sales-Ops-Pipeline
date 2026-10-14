@@ -1,0 +1,51 @@
+{
+    "Income": {
+        "AreMultipleProofsOfIncomeSubmitted": false,
+        "HouseholdIncomeRecordsCount": 0,
+        "MaximumIncomeDetailsValidation": true,
+        "PSS_BM_v3_ExistingHouseholdIncomeDetails": [
+            {
+                "MemberIncomeAction": "No Change",
+                "NewMemberIncome": false,
+                "PSS_BM_v3_ExistingEmployer": null,
+                "PSS_BM_v3_ExistingIncomeCurrentMonth": 100,
+                "PSS_BM_v3_ExistingIncomeFrequency": "Monthly",
+                "PSS_BM_v3_ExistingIncomeHouseholdMemberName": "Sam Baker",
+                "PSS_BM_v3_ExistingIncomeProofDocumentId": null,
+                "PSS_BM_v3_PartyId": "001xx000003GdwOAAS",
+                "PSS_BM_v3_PartyIncomeId": "2m3xx000000001dAAA",
+                "PSS_BM_v3_StartDate": "2099-01-01",
+                "PSS_BM_v3_UpdatedIncomeCurrentMonth": 100,
+                "RemoveIncomeChangeSelected": false,
+                "UpdateIncomeChangeSelected": false
+            },
+            {
+                "IncomeChange": "Update income details",
+                "MemberIncomeAction": "Update Income",
+                "NewMemberIncome": false,
+                "PSS_BM_v3_ExistingEmployer": null,
+                "PSS_BM_v3_ExistingIncomeCurrentMonth": 100,
+                "PSS_BM_v3_ExistingIncomeFrequency": "Monthly",
+                "PSS_BM_v3_ExistingIncomeHouseholdMemberName": "Perry Baker",
+                "PSS_BM_v3_ExistingIncomeProofDocument": [
+                    {
+                        "data": "069xx0000004CSOAA2",
+                        "deleteLabel": "Delete qrcode_80920772_faec37d5e8d8e25f8abe57b80a6e38f0 (1).png",
+                        "filename": "qrcode_80920772_faec37d5e8d8e25f8abe57b80a6e38f0 (1).png",
+                        "size": 663158,
+                        "vId": "068xx0000004CSOAA2"
+                    }
+                ],
+                "PSS_BM_v3_ExistingIncomeProofDocumentId": null,
+                "PSS_BM_v3_PartyId": "001xx000003GdwPAAS",
+                "PSS_BM_v3_PartyIncomeId": "2m3xx000000001eAAA",
+                "PSS_BM_v3_StartDate": null,
+                "PSS_BM_v3_UpdatedIncomeCurrentMonth": 100,
+                "RemoveIncomeChangeSelected": false,
+                "UpdateIncomeChangeSelected": true
+            }
+        ],
+        "RemovedIncomeVisible": false,
+        "TotalHouseholdIncome": 0
+    }
+}

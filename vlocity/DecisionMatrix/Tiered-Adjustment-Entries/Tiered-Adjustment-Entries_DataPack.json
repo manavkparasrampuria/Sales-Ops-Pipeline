@@ -1,0 +1,22 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DataSource": "SingleSobject",
+    "DecisionMatrixType": "DecisionTable",
+    "DecisionTableType": "MediumVolume",
+    "Description": "Tiered Adjustment Decision Table",
+    "GroupKey": "",
+    "IsLocked": false,
+    "LastSyncDate": "2025-01-10T21:30:32.000Z",
+    "MayEdit": true,
+    "Name": "Tiered Adjustment Entries",
+    "Namespace": "",
+    "RefreshStatus": "Completed",
+    "Status": "Active",
+    "SubGroupKey": "",
+    "Type": "",
+    "UniqueName": "Tiered Adjustment Entries",
+    "UsageType": "DefaultPricing",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/Tiered Adjustment Entries"
+}

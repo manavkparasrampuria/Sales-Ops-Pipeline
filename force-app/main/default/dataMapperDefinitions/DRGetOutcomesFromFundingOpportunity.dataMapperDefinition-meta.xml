@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>IndividualApplicationTaskId</filterValue>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom4222</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>IndividualApplicationTask</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>IAT</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom722</globalKey>
+        <inputField>IA:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CreateOutcomeActivitiesStep:OutcomeBlock:IAId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>IAT:IndividualApplicationId</filterValue>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom2290</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>IndividualApplication</inputObject>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>IA</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom6165</globalKey>
+        <inputField>OC:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CreateOutcomeActivitiesStep:OutcomeBlock:OutcomeName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>IA:FundingOpportunityId</filterValue>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom3605</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>FundingOpportunity</inputObject>
+        <inputObjectQuerySequence>3.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>FO</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom4782</globalKey>
+        <inputField>IA:FundingOpportunity.Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingOpportunityName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom5489</globalKey>
+        <inputField>IA:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IndividualApplicationId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom5147</globalKey>
+        <inputField>IA:FundingOpportunity.Description</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingOpportunityDescription</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>FO:Id</filterValue>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom3305</globalKey>
+        <inputField>Funding_Opportunity__c</inputField>
+        <inputObject>Outcome</inputObject>
+        <inputObjectQuerySequence>4.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>OC</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom3363</globalKey>
+        <inputField>FO:ProgramId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CreateOutcomeActivitiesStep:OutcomeBlock:ProgramId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetOutcomesFromFundingOpportunity</dataMapperDefItemName>
+        <globalKey>DRGetOutcomesFromFundingOpportunityCustom6661</globalKey>
+        <inputField>OC:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CreateOutcomeActivitiesStep:OutcomeBlock:OutcomeId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedOutputJson>{
+    &quot;ContextId&quot;: &quot;13aKX000000wkMTYAY&quot;,
+    &quot;omniscriptId&quot;: &quot;0jNKX000000wruJ2AQ&quot;,
+    &quot;language&quot;: &quot;English&quot;,
+    &quot;type&quot;: &quot;GrantsAF&quot;,
+    &quot;runMode&quot;: &quot;preview&quot;,
+    &quot;sId&quot;: &quot;0jNKX000000wruJ2AQ&quot;,
+    &quot;theme&quot;: &quot;lightning&quot;,
+    &quot;subType&quot;: &quot;CreateOutcomeActivities&quot;,
+    &quot;timeStamp&quot;: &quot;2024-09-04T16:20:55.916Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;userTimeZone&quot;: &quot;-420&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;admin@df24.grantmaking&quot;,
+    &quot;userId&quot;: &quot;005KX0000012A3YYAU&quot;,
+    &quot;omniProcessId&quot;: &quot;0jNKX000000wruJ2AQ&quot;,
+    &quot;localTimeZoneName&quot;: &quot;America/New_York&quot;,
+    &quot;CreateOutcomeActivitiesStep&quot;: {
+        &quot;OutcomeBlock&quot;: [
+            {
+                &quot;OutcomeId&quot;: &quot;9OCKX000000TNM94AO&quot;,
+                &quot;ProgramId&quot;: &quot;11WKX000000kNrT2AU&quot;,
+                &quot;OutcomeNames&quot;: &quot;ABC&quot;
+            },
+            {
+                &quot;OutcomeId&quot;: &quot;9OCKX000000TNM44AO&quot;,
+                &quot;ProgramId&quot;: &quot;11WKX000000kNrT2AU&quot;,
+                &quot;OutcomeNames&quot;: &quot;DEF&quot;
+            }
+        ]
+    }
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRGetOutcomesFromFundingOpportunity</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{&quot;ContextId&quot;:&quot;13aKX000000wkMuYAI&quot;}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Extract</type>
+</DataMapperDefinition>

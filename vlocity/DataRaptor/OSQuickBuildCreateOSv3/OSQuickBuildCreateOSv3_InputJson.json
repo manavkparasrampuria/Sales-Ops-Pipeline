@@ -1,0 +1,237 @@
+{
+    "ContextId": "",
+    "Details": {
+        "LWCEnabled": true,
+        "NumSteps": 3,
+        "OmniscriptName": "Test",
+        "SubType": "Test",
+        "Type": "Test"
+    },
+    "Elements": {
+        "ElementDetails": [
+            {
+                "ElementLabel": "Name of person assessed: ",
+                "ElementName": "NamePersonAssessed",
+                "ElementOrder": "1",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Lives alone ",
+                "ElementName": "LivesAlone",
+                "ElementOrder": "2",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Other (describe): ",
+                "ElementName": "Other",
+                "ElementOrder": "3",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Title of person completing assessment: ",
+                "ElementName": "PersonTitle",
+                "ElementOrder": "4",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "In what areas does the person report needing help? ",
+                "ElementName": "PersonNeedHelp",
+                "ElementOrder": "5",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Name of person completing assessment: ",
+                "ElementName": "PersonCompletingAssessment",
+                "ElementOrder": "1",
+                "ElementStep": "2",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Names of participants and relationship to person assessed: ",
+                "ElementName": "ParticipantRelationship",
+                "ElementOrder": "2",
+                "ElementStep": "2",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "County of residence: ",
+                "ElementName": "County",
+                "ElementOrder": "3",
+                "ElementStep": "2",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Date of interview: ",
+                "ElementName": "DateOfInterview",
+                "ElementOrder": "4",
+                "ElementStep": "2",
+                "ElementType": "Date"
+            },
+            {
+                "ElementLabel": "Lives in a Nursing Facility ",
+                "ElementName": "NursingHome",
+                "ElementOrder": "5",
+                "ElementStep": "2",
+                "ElementType": "Checkbox"
+            },
+            {
+                "ElementLabel": "Lives with others who are not caregivers ",
+                "ElementName": "LivesWithNotCaregiver",
+                "ElementOrder": "1",
+                "ElementStep": "3",
+                "ElementType": "Checkbox"
+            },
+            {
+                "ElementLabel": "Date of birth: ",
+                "ElementName": "DateOfBirth",
+                "ElementOrder": "2",
+                "ElementStep": "3",
+                "ElementType": "Date"
+            },
+            {
+                "ElementLabel": "Address: ",
+                "ElementName": "Address",
+                "ElementOrder": "3",
+                "ElementStep": "3",
+                "ElementType": "Text"
+            }
+        ],
+        "ElementFile": [
+            {
+                "$$hashKey": "object:154",
+                "contentDocumentId": "0694x000000ddNOAAY",
+                "data": "4351c406-a11a-4e54-a5a6-4c7b739f4da1",
+                "filename": "OSUpload.csv",
+                "size": 804,
+                "vId": "0684x000000djEtAAI"
+            }
+        ],
+        "FileCount": 1
+    },
+    "StepData": [
+        {
+            "Elements": [
+                {
+                    "ElementLabel": "Name of person assessed: ",
+                    "ElementName": "NamePersonAssessed",
+                    "ElementOrder": "1",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Lives alone ",
+                    "ElementName": "LivesAlone",
+                    "ElementOrder": "2",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Other (describe): ",
+                    "ElementName": "Other",
+                    "ElementOrder": "3",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Title of person completing assessment: ",
+                    "ElementName": "PersonTitle",
+                    "ElementOrder": "4",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "In what areas does the person report needing help? ",
+                    "ElementName": "PersonNeedHelp",
+                    "ElementOrder": "5",
+                    "ElementStep": "1",
+                    "ElementType": "Text"
+                }
+            ],
+            "StepName": "Step1"
+        },
+        {
+            "Elements": [
+                {
+                    "ElementLabel": "Name of person completing assessment: ",
+                    "ElementName": "PersonCompletingAssessment",
+                    "ElementOrder": "1",
+                    "ElementStep": "2",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Names of participants and relationship to person assessed: ",
+                    "ElementName": "ParticipantRelationship",
+                    "ElementOrder": "2",
+                    "ElementStep": "2",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "County of residence: ",
+                    "ElementName": "County",
+                    "ElementOrder": "3",
+                    "ElementStep": "2",
+                    "ElementType": "Text"
+                },
+                {
+                    "ElementLabel": "Date of interview: ",
+                    "ElementName": "DateOfInterview",
+                    "ElementOrder": "4",
+                    "ElementStep": "2",
+                    "ElementType": "Date"
+                },
+                {
+                    "ElementLabel": "Lives in a Nursing Facility ",
+                    "ElementName": "NursingHome",
+                    "ElementOrder": "5",
+                    "ElementStep": "2",
+                    "ElementType": "Checkbox"
+                }
+            ],
+            "StepName": "Step2"
+        },
+        {
+            "Elements": [
+                {
+                    "ElementLabel": "Lives with others who are not caregivers ",
+                    "ElementName": "LivesWithNotCaregiver",
+                    "ElementOrder": "1",
+                    "ElementStep": "3",
+                    "ElementType": "Checkbox"
+                },
+                {
+                    "ElementLabel": "Date of birth: ",
+                    "ElementName": "DateOfBirth",
+                    "ElementOrder": "2",
+                    "ElementStep": "3",
+                    "ElementType": "Date"
+                },
+                {
+                    "ElementLabel": "Address: ",
+                    "ElementName": "Address",
+                    "ElementOrder": "3",
+                    "ElementStep": "3",
+                    "ElementType": "Text"
+                }
+            ],
+            "StepName": "Step3"
+        }
+    ],
+    "id": "a5y4x0000004PmOAAU",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://rentassist-20210129-demo--vlocity-ins.visualforce.com",
+    "timeStamp": "2021-02-24T20:11:16.915Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054x000003dns8AAA",
+    "userName": "jblankenship@rentassistance01292021.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

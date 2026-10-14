@@ -1,0 +1,47 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "InspectionLauncherBLA/Salesforce/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 0,
+                    "name": "recordId",
+                    "val": "0iT4S000000L49XUAS"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Query",
+            "value": {
+                "dsDelay": "",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "query": "Select Id from IndividualApplication where Id = '{recordId}'",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "InspectionLauncherIA",
+    "Namespace": "",
+    "OmniUiCardKey": "InspectionLauncherIA/Salesforce/2.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "InspectionLauncherIA.json",
+    "SampleDataSourceResponse": "[{\"attributes\":{\"type\":\"IndividualApplication\",\"url\":\"/services/data/v60.0/sobjects/IndividualApplication/0iT4S000000L49XUAS\"},\"Id\":\"0iT4S000000L49XUAS\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "InspectionLauncherIA_Salesforce_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/InspectionLauncherIA"
+}

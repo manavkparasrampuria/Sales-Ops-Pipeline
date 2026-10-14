@@ -1,0 +1,82 @@
+{
+    "ContextId": null,
+    "ProgramCostsAndFundingStep": {
+        "CapitalProject": {
+            "FundsRequested": null,
+            "ProgramArea": null,
+            "ProgramCost": null,
+            "ProjectTypePercentage": null
+        },
+        "TotalAHSCPercentage": null,
+        "TotalDevelopmentCosts": null,
+        "TotalFundsRequested": null
+    },
+    "ProgramOutcomesStep": {
+        "ProgramOutcome": {
+            "ActivitiesBlock": {
+                "Activities": null
+            },
+            "OutcomeDescription": null,
+            "OutcomeName": null,
+            "PersonResponsible": null,
+            "TargetCompletionDate": null
+        }
+    },
+    "ProjectNameInformationStep": {
+        "Account": {
+            "Address": {
+                "City": null,
+                "Country": null,
+                "PostalCode": null,
+                "State": null,
+                "Street": null
+            },
+            "LEANumber": null,
+            "LegalName": null,
+            "Name": null
+        },
+        "Contact": {
+            "Email": null,
+            "FirstName": null,
+            "LastName": null
+        },
+        "FundingProgramName": "Elementary and Secondary Education STEM Grant",
+        "IDNumbers": {
+            "CongressionalDistrict": null,
+            "County": null
+        },
+        "UpdateInfoCheckbox": null
+    },
+    "StatementofNeedStep": {
+        "NarrativeResponse1": null
+    },
+    "SupportingDocumentationStep": {
+        "ProjectAreaDefinition": null,
+        "ProjectAreaMap": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRCreateSTEMGrantFR": null,
+        "DRGetDemoUserId": null,
+        "DRGetEducationAccountAndContactForUser": null,
+        "NavigateAction1": null,
+        "ProgramCostsAndFundingStep": null,
+        "ProgramGoalsStep": null,
+        "ProjectNameInformationStep": null,
+        "SetInitialValues": null,
+        "StatementofNeedStep": null,
+        "SupportingDocumentationStep": null
+    }
+}

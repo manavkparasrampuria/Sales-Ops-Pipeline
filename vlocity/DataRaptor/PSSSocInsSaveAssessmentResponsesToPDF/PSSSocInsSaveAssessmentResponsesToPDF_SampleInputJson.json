@@ -1,0 +1,111 @@
+{
+    "Acknowledgment": {
+        "PSS_SI_v1_Date": "2024-03-03T18:30:00.000Z",
+        "PSS_SI_v1_Signature": "rwe"
+    },
+    "CertificateOfCapacity": {
+        "PSS_SI_v1_UploadDocument": null
+    },
+    "ClaimValues": null,
+    "DRId_PreliminaryApplicationRef": "0goSM0000000EUPYA2",
+    "IncidentWorkersInjuryDetails": {
+        "EmployerTypeAHead-Block": {
+            "EmployerTypeAHead": "salesforce.com",
+            "PSS_SI_v1_EmployerAccountId": "001SM000004dEeRYAU",
+            "PSS_SI_v1_EmployerResponsibleForWorkplace": "salesforce.com"
+        },
+        "PSS_SI_v1_DateTimeForInjury": "2024-02-25T06:30:00.000Z",
+        "PSS_SI_v1_NatureOfInjury": null,
+        "PSS_SI_v1_ReportDateTimeForInjury": "2024-02-25T06:30:00.000Z"
+    },
+    "Review": {
+        "ReviewAcknowledgment": {
+            "PSS_SI_v1_ReviewDate": "2024-03-03T18:30:00.000Z",
+            "PSS_SI_v1_ReviewSignature": "rwe"
+        },
+        "ReviewCertificateOfCapacity": {
+            "PSS_SI_v1_ReviewExaminationDate": "",
+            "PSS_SI_v1_ReviewFromDate": "",
+            "PSS_SI_v1_ReviewInjuryType": "",
+            "PSS_SI_v1_ReviewIssuedDate": "",
+            "PSS_SI_v1_ReviewProviderContactNumber": "",
+            "PSS_SI_v1_ReviewProviderName": "",
+            "PSS_SI_v1_ReviewSignedDate": "",
+            "PSS_SI_v1_ReviewToDate": "",
+            "PSS_SI_v1_ReviewWorkerCapacity": ""
+        },
+        "ReviewIncidentAndWorkersInjuryDetails": {
+            "PSS_SI_v1_ReviewDateTimeForInjury": "2024-2-25",
+            "PSS_SI_v1_ReviewEmployerResponsibleForWorkplace": "salesforce.com",
+            "PSS_SI_v1_ReviewHowYouInjured": "",
+            "PSS_SI_v1_ReviewMedicalTreatment": "",
+            "PSS_SI_v1_ReviewNatureOfInjury": "",
+            "PSS_SI_v1_ReviewReportDateTimeForInjury": "2024-2-25",
+            "PSS_SI_v1_ReviewTakingTimeOff": "",
+            "PSS_SI_v1_ReviewWorkStoppedDateTime": ""
+        },
+        "ReviewWorkerEmploymentDetails": {
+            "PSS_SI_v1_ReviewAreYouStillEmployed": "No",
+            "PSS_SI_v1_ReviewEmploymentStartDate": "2024-03-07",
+            "PSS_SI_v1_ReviewEmploymentType": "Full Time",
+            "PSS_SI_v1_ReviewIncome": 34534,
+            "PSS_SI_v1_ReviewIncomeFrequency": "Monthly",
+            "PSS_SI_v1_ReviewNameOfEmployer": "salesforce",
+            "PSS_SI_v1_ReviewOccupation": ""
+        },
+        "ReviewWorkersPersonalDetails": {
+            "PSS_SI_v1_ReviewAddress": "ad",
+            "PSS_SI_v1_ReviewCity": "fsad",
+            "PSS_SI_v1_ReviewCountry": "gdfs",
+            "PSS_SI_v1_ReviewDateOfBirth": "2024-02-28T00:00:00.000Z",
+            "PSS_SI_v1_ReviewEmail": "govind@gmail.com",
+            "PSS_SI_v1_ReviewFirstName": "Demo ",
+            "PSS_SI_v1_ReviewGender": "Male",
+            "PSS_SI_v1_ReviewHomePhone": "",
+            "PSS_SI_v1_ReviewLastName": "Sprint",
+            "PSS_SI_v1_ReviewMobilePhone": "",
+            "PSS_SI_v1_ReviewState": "fs",
+            "PSS_SI_v1_ReviewZipCode": "423543"
+        }
+    },
+    "WorkerPersonalDetails": {
+        "PSS_SI_v1_Address": "ad",
+        "PSS_SI_v1_City": "fsad",
+        "PSS_SI_v1_Country": "gdfs",
+        "PSS_SI_v1_DateOfBirth": "2024-02-28",
+        "PSS_SI_v1_Email": "govind@gmail.com",
+        "PSS_SI_v1_FirstName": "Demo ",
+        "PSS_SI_v1_Gender": "Male",
+        "PSS_SI_v1_LastName": "Sprint",
+        "PSS_SI_v1_State": "fs",
+        "PSS_SI_v1_ZipCode": "423543"
+    },
+    "WorkersEmploymentDetails": {
+        "PSS_SI_v1_AreYouStillEmployed": "No",
+        "PSS_SI_v1_EmploymentStartDate": "2024-03-07",
+        "PSS_SI_v1_EmploymentType": "Full Time",
+        "PSS_SI_v1_Income": 34534,
+        "PSS_SI_v1_IncomeFrequency": "Monthly",
+        "PSS_SI_v1_NameOfEmployer": "salesforce",
+        "PSS_SI_v1_UploadPayslips": null
+    },
+    "elementName": "CreateIndividualApplicationAndRelatedRecords",
+    "language": "English",
+    "localTimeZoneName": "Asia/Calcutta",
+    "omniProcessId": "0jNSM0000000HC92AM",
+    "omniScriptId": "0jNSM0000000HC92AM",
+    "omniscriptId": "0jNSM0000000HC92AM",
+    "runMode": "preview",
+    "sId": "0jNSM0000000HC92AM",
+    "sInstanceId": "0kTSM0000000JvV2AU",
+    "subType": "FileClaim",
+    "theme": "lightning",
+    "timeStamp": "2024-03-04T12:26:30.641Z",
+    "type": "SocialInsurance",
+    "userCurrencyCode": "USD",
+    "userId": "005SM000000ykeHYAQ",
+    "userName": "epic.24c1f9d59f5d@salesforce.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480",
+    "userTimeZoneName": "America/Los_Angeles"
+}

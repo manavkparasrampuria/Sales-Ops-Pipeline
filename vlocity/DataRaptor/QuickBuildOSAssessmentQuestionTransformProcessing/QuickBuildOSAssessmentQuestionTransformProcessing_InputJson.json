@@ -1,0 +1,57 @@
+{
+    "AQ": {
+        "AQV": {
+            "AdditionalInformation": "Text",
+            "DataType": "Text",
+            "Description": "Text",
+            "HelpText": "Text",
+            "IsOptionSourceResponseValue": "Text",
+            "Name": "Text",
+            "QuestionText": "Text",
+            "ResponseValues": "Text",
+            "Status": "Text",
+            "VersionNumber": "Text"
+        },
+        "DataType": "Text",
+        "Description": "Text",
+        "DeveloperName": "Text",
+        "FormulaResponseDataType": "Text",
+        "Name": "Text",
+        "Namespace": "Text",
+        "QuestionCategory": "Text",
+        "QuestionText": "Text",
+        "RelatedAQ": {
+            "DataType": "Text",
+            "Description": "Text",
+            "DeveloperName": "Text",
+            "FormulaResponseDataType": "Text",
+            "Name": "Text",
+            "Namespace": "Text",
+            "QuestionCategory": "Text",
+            "QuestionText": "Text",
+            "RelatedVersion": {
+                "AdditionalInformation": "Text",
+                "DataType": "Text",
+                "Description": "Text",
+                "HelpText": "Text",
+                "IsOptionSourceResponseValue": "Text",
+                "Name": "Text",
+                "QuestionText": "Text",
+                "ResponseValues": "Text",
+                "Status": "Text",
+                "VersionNumber": "Text"
+            }
+        },
+        "RelatedQuestionDeveloperName": "Text",
+        "UniqueIndex": "Text"
+    },
+    "OPAQ": {
+        "AQ": {
+            "RelatedQuestionDeveloperName": "Text"
+        },
+        "AssessmentQuestionVersionQuestionDeveloperName": "Text",
+        "OmniProcessElementName": "Text",
+        "OmniProcessSubType": "Text",
+        "OmniProcessType": "Text"
+    }
+}

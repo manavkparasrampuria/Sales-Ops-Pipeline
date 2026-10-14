@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveOrganicCropApplicationCustom2412</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <defaultValue>Location Access Permit</defaultValue>
+        <globalKey>DRSaveOrganicCropApplicationCustom8292</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <globalKey>DRSaveOrganicCropApplicationCustom4656</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <defaultValue>Permit</defaultValue>
+        <globalKey>DRSaveOrganicCropApplicationCustom3351</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveOrganicCropApplicationCustom7738</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>AccountId</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveOrganicCropApplicationCustom9822</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveOrganicCropApplicationCustom4930</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ParentRecordId</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveOrganicCropApplicationCustom6456</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>RegulatoryTrxnFeeId</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <globalKey>DRSaveOrganicCropApplicationCustom2284</globalKey>
+        <inputField>ApplicantInformation:FarmName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Account</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <defaultValue>PAID</defaultValue>
+        <globalKey>DRSaveOrganicCropApplicationCustom2992</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <defaultValue>300</defaultValue>
+        <globalKey>DRSaveOrganicCropApplicationCustom2305</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>FeeAmount</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <defaultValue>License</defaultValue>
+        <globalKey>DRSaveOrganicCropApplicationCustom1973</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationCategory</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>DRSaveOrganicCropApplicationCustom4071</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>BusinessLicenseApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <defaultValue>Application Fee</defaultValue>
+        <globalKey>DRSaveOrganicCropApplicationCustom4737</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryTrxnFeeItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRSaveOrganicCropApplicationCustom5789</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryTrxnFee</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRSaveOrganicCropApplication</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRSaveOrganicCropApplicationCustom9579</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRSaveApplication&quot;: null,
+        &quot;InspectionDetails&quot;: null,
+        &quot;FieldMap&quot;: null,
+        &quot;ReviewFee&quot;: null,
+        &quot;Payment&quot;: null,
+        &quot;CropProductInformation&quot;: null,
+        &quot;SetValues1&quot;: null,
+        &quot;FarmManagementandLocation&quot;: null,
+        &quot;GotoApplicationDetails&quot;: null,
+        &quot;ApplicantInformation&quot;: null,
+        &quot;FarmInformation&quot;: null,
+        &quot;OrganicSeedSeedingUsed&quot;: null,
+        &quot;Acknowledgement&quot;: null,
+        &quot;FieldHistoryInformation&quot;: null,
+        &quot;Instructions&quot;: null,
+        &quot;ApplicationSubmitted&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;InspectionDetails&quot;: {
+        &quot;Typicaloperationhours&quot;: null,
+        &quot;Disclosure2&quot;: null,
+        &quot;Daysofweeknotgood&quot;: null
+    },
+    &quot;FieldMap&quot;: {
+        &quot;File1&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    },
+    &quot;ReviewFee&quot;: {
+        &quot;PayNow&quot;: null
+    },
+    &quot;Payment&quot;: {
+        &quot;CustomLWC2&quot;: null
+    },
+    &quot;CropProductInformation&quot;: {
+        &quot;CropProducts&quot;: {
+            &quot;CropProduct&quot;: null,
+            &quot;Acreage&quot;: null
+        }
+    },
+    &quot;FarmManagementandLocation&quot;: {
+        &quot;ManagementEmail&quot;: null,
+        &quot;ManagementFirstName&quot;: null,
+        &quot;ManagementLastName&quot;: null,
+        &quot;ManagementPhoneNumber&quot;: null,
+        &quot;FarmAddressSame&quot;: null,
+        &quot;CustomLWC1&quot;: null,
+        &quot;DirectionstoFarm&quot;: null
+    },
+    &quot;ApplicantInformation&quot;: {
+        &quot;MailingCity&quot;: null,
+        &quot;ApplicantLastName&quot;: null,
+        &quot;OrganicCertNum&quot;: null,
+        &quot;EmailAddress&quot;: null,
+        &quot;PrimaryLastName&quot;: null,
+        &quot;MailingAddress&quot;: null,
+        &quot;ApplicantFirstName&quot;: null,
+        &quot;Phone&quot;: null,
+        &quot;MailingState&quot;: null,
+        &quot;PrimaryFirstName&quot;: null,
+        &quot;FarmName&quot;: null,
+        &quot;MailingPostalCode&quot;: null
+    },
+    &quot;FarmInformation&quot;: {
+        &quot;LegalStatus&quot;: null,
+        &quot;USDACFRstandards&quot;: null,
+        &quot;Hascertificationeverbeendenied&quot;: null,
+        &quot;Previouslyreceivedorgcert&quot;: null,
+        &quot;NumberofGrowers&quot;: null,
+        &quot;DescriptionofFarmOwnership&quot;: null,
+        &quot;Pleasedescribecircumstances&quot;: null,
+        &quot;AvailabletoContact&quot;: null,
+        &quot;YearOSPsubmitted&quot;: null,
+        &quot;Currentlycertifiedbyanyotherorgagency&quot;: null,
+        &quot;AvailableforInspection&quot;: null,
+        &quot;YearFirstCertified&quot;: null,
+        &quot;CopyofNOPCPR&quot;: null,
+        &quot;File2&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;NumberofLocations&quot;: null,
+        &quot;Please list the agencies&quot;: null
+    },
+    &quot;OrganicSeedSeedingUsed&quot;: {
+        &quot;SeedSeedings&quot;: {
+            &quot;DatePlanted&quot;: null,
+            &quot;TreatmentStatus&quot;: null,
+            &quot;SeedorSeedling&quot;: null,
+            &quot;TreatmentDescription&quot;: null,
+            &quot;LocationPlanted&quot;: null,
+            &quot;OrganicStatus&quot;: null,
+            &quot;VarietySource&quot;: null,
+            &quot;NumberorWeight&quot;: null,
+            &quot;GMOStatus&quot;: null
+        },
+        &quot;SeedSeedlingmanualorupload&quot;: null,
+        &quot;SeedSeedlingupload&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    },
+    &quot;Acknowledgement&quot;: {
+        &quot;CaptureSignature&quot;: null,
+        &quot;Disclosure1&quot;: null
+    },
+    &quot;FieldHistoryInformation&quot;: {
+        &quot;Block3&quot;: {
+            &quot;Code&quot;: null,
+            &quot;YearCropInput&quot;: {
+                &quot;Crop&quot;: null,
+                &quot;Input&quot;: null,
+                &quot;Year&quot;: null
+            },
+            &quot;Acres&quot;: null,
+            &quot;FieldNo&quot;: null
+        },
+        &quot;FieldHistorymanualorupload&quot;: null,
+        &quot;File3&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    },
+    &quot;Instructions&quot;: {},
+    &quot;ApplicationSubmitted&quot;: {}
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRSaveOrganicCropApplication</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;DRSaveApplication&quot;:null,&quot;InspectionDetails&quot;:null,&quot;FieldMap&quot;:null,&quot;ReviewFee&quot;:null,&quot;Payment&quot;:null,&quot;CropProductInformation&quot;:null,&quot;SetValues1&quot;:null,&quot;FarmManagementandLocation&quot;:null,&quot;GotoApplicationDetails&quot;:null,&quot;ApplicantInformation&quot;:null,&quot;FarmInformation&quot;:null,&quot;OrganicSeedSeedingUsed&quot;:null,&quot;Acknowledgement&quot;:null,&quot;FieldHistoryInformation&quot;:null,&quot;Instructions&quot;:null,&quot;ApplicationSubmitted&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;InspectionDetails&quot;:{&quot;Typicaloperationhours&quot;:null,&quot;Disclosure2&quot;:null,&quot;Daysofweeknotgood&quot;:null},&quot;FieldMap&quot;:{&quot;File1&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]},&quot;ReviewFee&quot;:{&quot;PayNow&quot;:null},&quot;Payment&quot;:{&quot;CustomLWC2&quot;:null},&quot;CropProductInformation&quot;:{&quot;CropProducts&quot;:{&quot;CropProduct&quot;:null,&quot;Acreage&quot;:null}},&quot;FarmManagementandLocation&quot;:{&quot;ManagementEmail&quot;:null,&quot;ManagementFirstName&quot;:null,&quot;ManagementLastName&quot;:null,&quot;ManagementPhoneNumber&quot;:null,&quot;FarmAddressSame&quot;:null,&quot;CustomLWC1&quot;:null,&quot;DirectionstoFarm&quot;:null},&quot;ApplicantInformation&quot;:{&quot;MailingCity&quot;:null,&quot;ApplicantLastName&quot;:null,&quot;OrganicCertNum&quot;:null,&quot;EmailAddress&quot;:null,&quot;PrimaryLastName&quot;:null,&quot;MailingAddress&quot;:null,&quot;ApplicantFirstName&quot;:null,&quot;Phone&quot;:null,&quot;MailingState&quot;:null,&quot;PrimaryFirstName&quot;:null,&quot;FarmName&quot;:null,&quot;MailingPostalCode&quot;:null},&quot;FarmInformation&quot;:{&quot;LegalStatus&quot;:null,&quot;USDACFRstandards&quot;:null,&quot;Hascertificationeverbeendenied&quot;:null,&quot;Previouslyreceivedorgcert&quot;:null,&quot;NumberofGrowers&quot;:null,&quot;DescriptionofFarmOwnership&quot;:null,&quot;Pleasedescribecircumstances&quot;:null,&quot;AvailabletoContact&quot;:null,&quot;YearOSPsubmitted&quot;:null,&quot;Currentlycertifiedbyanyotherorgagency&quot;:null,&quot;AvailableforInspection&quot;:null,&quot;YearFirstCertified&quot;:null,&quot;CopyofNOPCPR&quot;:null,&quot;File2&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;NumberofLocations&quot;:null,&quot;Please list the agencies&quot;:null},&quot;OrganicSeedSeedingUsed&quot;:{&quot;SeedSeedings&quot;:{&quot;DatePlanted&quot;:null,&quot;TreatmentStatus&quot;:null,&quot;SeedorSeedling&quot;:null,&quot;TreatmentDescription&quot;:null,&quot;LocationPlanted&quot;:null,&quot;OrganicStatus&quot;:null,&quot;VarietySource&quot;:null,&quot;NumberorWeight&quot;:null,&quot;GMOStatus&quot;:null},&quot;SeedSeedlingmanualorupload&quot;:null,&quot;SeedSeedlingupload&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]},&quot;Acknowledgement&quot;:{&quot;CaptureSignature&quot;:null,&quot;Disclosure1&quot;:null},&quot;FieldHistoryInformation&quot;:{&quot;Block3&quot;:{&quot;Code&quot;:null,&quot;YearCropInput&quot;:{&quot;Crop&quot;:null,&quot;Input&quot;:null,&quot;Year&quot;:null},&quot;Acres&quot;:null,&quot;FieldNo&quot;:null},&quot;FieldHistorymanualorupload&quot;:null,&quot;File3&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]},&quot;Instructions&quot;:{},&quot;ApplicationSubmitted&quot;:{}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,84 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8c0be5cd-0bfe-4742-b49d-5648f9b22f73",
+  "label" : "Search for License or Permit Holder",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><br></p><p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "d1d01569-3cb4-480b-b98e-04205e019610",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "52383982-e3a5-47b4-82eb-1c417ac656ec",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "LicenseSearch",
+        "theme" : "lightning",
+        "type" : "LicensingAndPermitting"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "3a272e2a-0733-4d9f-bd92-95bf0d19245e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5e8bdbf8-f4b7-4e94-9e60-46aa3fe71d52",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "2be9ced1-4107-4c77-89c9-27a92ea2d28e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "omnistudio:customComponentKnowledge",
+      "id" : "ec1f5774-81c1-4f11-9a51-889482ba8f03",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div align=\"center\">\n    <a href=\"/LPI/s/contact-support\"> \n        <button style=\"background-color: #1a82c8; padding: 14px 50px; border: none; font-size: 1rem; color: #fff; border-radius: 25px\";>Contact Support</button>\n    </a>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e5a675b8-9181-4511-aca4-a159db3d72d3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "e4c8510a-14fa-4f6f-b6df-12da8f1e04e1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0ad15f37-75c7-4604-9baf-e492caaee9a6",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "kryffYyvinzAiFjLFNAnbvfiqGv5Sg",
+  "type" : "view",
+  "viewType" : "lookup-licenses-permits"
+}

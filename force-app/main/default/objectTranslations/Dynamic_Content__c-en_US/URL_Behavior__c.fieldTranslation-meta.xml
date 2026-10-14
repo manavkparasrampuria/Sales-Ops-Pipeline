@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When clicked, should the URL be visited in the same window/tab (_self) or a new one (_new)? --></help>
+    <label><!-- URL Behavior --></label>
+    <name>URL_Behavior__c</name>
+    <picklistValues>
+        <masterLabel>_new</masterLabel>
+        <translation><!-- _new --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>_self</masterLabel>
+        <translation><!-- _self --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Αίτημα έκτακτης ανάγκης</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Αιτήματα έκτακτης ανάγκης</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Αίτημα έκτακτης ανάγκης</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Αιτήματα έκτακτης ανάγκης</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Αιτήματος έκτακτης ανάγκης</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Αιτημάτων έκτακτης ανάγκης</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Αίτημα έκτακτης ανάγκης</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Emergency Assistance Request --></label>
+        <name>PublicSector__Emergency_Assistance_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Emergency Supplies Donation --></label>
+        <name>PublicSector__Emergency_Supplies_Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Emergency Supplies Request --></label>
+        <name>PublicSector__Emergency_Supplies_Request</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

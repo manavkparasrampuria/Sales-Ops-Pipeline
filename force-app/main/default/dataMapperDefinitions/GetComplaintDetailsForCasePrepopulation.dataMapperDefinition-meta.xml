@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GetComplaintDetailsForCasePrepopulation</dataMapperDefItemName>
+        <globalKey>GetComplaintDetailsForCasePrepopulationCustom1318</globalKey>
+        <inputField>Complaint:Subject</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Case Details:NewCaseDetails:Subject</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GetComplaintDetailsForCasePrepopulation</dataMapperDefItemName>
+        <globalKey>GetComplaintDetailsForCasePrepopulationCustom4484</globalKey>
+        <inputField>Complaint:Account.PersonContact.Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Case Details:NewCaseDetails:Contact-Block:ContactId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GetComplaintDetailsForCasePrepopulation</dataMapperDefItemName>
+        <globalKey>GetComplaintDetailsForCasePrepopulationCustom4873</globalKey>
+        <inputField>Complaint:Account.PersonContact.Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Case Details:NewCaseDetails:Contact-Block:Contact</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GetComplaintDetailsForCasePrepopulation</dataMapperDefItemName>
+        <globalKey>GetComplaintDetailsForCasePrepopulationCustom8670</globalKey>
+        <inputField>Complaint:Account.Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Case Details:NewCaseDetails:Account-Block:Name</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GetComplaintDetailsForCasePrepopulation</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>ContextId</filterValue>
+        <globalKey>GetComplaintDetailsForCasePrepopulationCustom2998</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>PublicComplaint</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Complaint</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GetComplaintDetailsForCasePrepopulation</dataMapperDefItemName>
+        <globalKey>GetComplaintDetailsForCasePrepopulationCustom3913</globalKey>
+        <inputField>Complaint:Description</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Case Details:NewCaseDetails:Description</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GetComplaintDetailsForCasePrepopulation</dataMapperDefItemName>
+        <globalKey>GetComplaintDetailsForCasePrepopulationCustom6225</globalKey>
+        <inputField>Complaint:Account.PersonContact.Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Case Details:NewCaseDetails:Contact-Block:ContactName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GetComplaintDetailsForCasePrepopulation</dataMapperDefItemName>
+        <globalKey>GetComplaintDetailsForCasePrepopulationCustom371</globalKey>
+        <inputField>Complaint:Account.PersonContactId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Case Details:NewCaseDetails:Account-Block:PersonContactId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GetComplaintDetailsForCasePrepopulation</dataMapperDefItemName>
+        <globalKey>GetComplaintDetailsForCasePrepopulationCustom7790</globalKey>
+        <inputField>Complaint:Account.Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Case Details:NewCaseDetails:Account-Block:Account</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GetComplaintDetailsForCasePrepopulation</dataMapperDefItemName>
+        <globalKey>GetComplaintDetailsForCasePrepopulationCustom5900</globalKey>
+        <inputField>Complaint:AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Case Details:NewCaseDetails:Account-Block:Id</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedOutputJson>{
+    &quot;timeStamp&quot;: &quot;2022-06-28T13:21:33.874Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/New_York&quot;,
+    &quot;userTimeZone&quot;: &quot;-240&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;jeremy.blankenship@gps.ido&quot;,
+    &quot;userId&quot;: &quot;0054S0000015CoyQAE&quot;,
+    &quot;PublicComplaintID&quot;: &quot;&quot;,
+    &quot;Case Details&quot;: {
+        &quot;NewCaseDetails&quot;: {
+            &quot;Account-Block&quot;: {
+                &quot;Account&quot;: &quot;Johnny Rushbrook&quot;,
+                &quot;Name&quot;: &quot;Johnny Rushbrook&quot;,
+                &quot;Id&quot;: &quot;0014S000008Wm8aQAC&quot;
+            },
+            &quot;Contact-Block&quot;: {
+                &quot;Contact&quot;: &quot;Johnny Rushbrook&quot;,
+                &quot;ContactName&quot;: &quot;Johnny Rushbrook&quot;,
+                &quot;ContactId&quot;: &quot;0034S000006uI3MQAU&quot;
+            }
+        }
+    }
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>GetComplaintDetailsForCasePrepopulation</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{&quot;ContextId&quot;:&quot;0fh4S00000000HQQAY&quot;}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Extract</type>
+</DataMapperDefinition>

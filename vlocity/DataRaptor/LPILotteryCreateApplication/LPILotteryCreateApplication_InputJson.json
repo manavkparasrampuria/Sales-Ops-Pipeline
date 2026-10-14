@@ -1,0 +1,88 @@
+{
+    "ApplicationDetails": {
+        "EIN": null,
+        "ManagerFirstName": null,
+        "ManagerLastName": null,
+        "PhysicalAddress-Block": {
+            "PhysicalAddress": null,
+            "PhysicalCity": null,
+            "PhysicalPostalCode": null,
+            "PhysicalState": null,
+            "PhysicalStreet": null
+        },
+        "StoreEmail": null,
+        "StoreName": null,
+        "StoreOwnerFirstName": null,
+        "StoreOwnerLastName": null,
+        "StorePhone": null,
+        "TypeOfApplication": null,
+        "TypeOfProducts": null
+    },
+    "BusinessDetails": {
+        "ClosedFri": null,
+        "ClosedMon": null,
+        "ClosedSat": null,
+        "ClosedSun": null,
+        "ClosedThur": null,
+        "ClosedTues": null,
+        "ClosedWed": null,
+        "CurrentRetailer": null,
+        "CurrentlyHaveKeno": null,
+        "CurrentlyHaveVendingMachine": null,
+        "HaveLiquorLicense": null,
+        "KenoApproved": null,
+        "LiquorLicenseNumber": null,
+        "OpenFri": null,
+        "OpenMon": null,
+        "OpenSat": null,
+        "OpenSun": null,
+        "OpenThur": null,
+        "OpenTues": null,
+        "OpenWed": null,
+        "RegisteredSecretaryOfState": null,
+        "Seasonal": null,
+        "TypeOfBusiness": null
+    },
+    "ContextId": null,
+    "Documentation": {
+        "File1": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File2": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "FeePayment": {
+        "CustomLWC2": null,
+        "PayNow": null
+    },
+    "Overview": {
+    },
+    "Signature": {
+        "CustomLWC1": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApplicationDetails": null,
+        "BusinessDetails": null,
+        "DRCreateApplication": null,
+        "Documentation": null,
+        "FeePayment": null,
+        "Overview": null,
+        "Signature": null
+    }
+}

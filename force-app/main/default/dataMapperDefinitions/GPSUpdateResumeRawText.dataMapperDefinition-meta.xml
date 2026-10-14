@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSUpdateResumeRawText</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>GPSUpdateResumeRawTextCustom8526</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSUpdateResumeRawText</dataMapperDefItemName>
+        <globalKey>GPSUpdateResumeRawTextCustom5216</globalKey>
+        <inputField>UploadResume:ResumeContents:htmlcontent</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>gps_Resume_Raw_Text__c</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSUpdateResumeRawText</dataMapperDefItemName>
+        <globalKey>GPSUpdateResumeRawTextCustom3800</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;UpdateResumeRawText&quot;: null,
+        &quot;NavigateAction1&quot;: null,
+        &quot;SetSearchResultsFromDataCloud&quot;: null,
+        &quot;SearchResults&quot;: null,
+        &quot;ParsingResults&quot;: null,
+        &quot;SetAccount&quot;: null,
+        &quot;CallPromptBuilder&quot;: null,
+        &quot;UploadResume&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;SearchResults&quot;: {
+        &quot;CleanJobId&quot;: null,
+        &quot;selectJob&quot;: null
+    },
+    &quot;ParsingResults&quot;: {},
+    &quot;UploadResume&quot;: {
+        &quot;ResumeContents&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>GPSUpdateResumeRawText</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;UpdateResumeRawText&quot;:null,&quot;NavigateAction1&quot;:null,&quot;SetSearchResultsFromDataCloud&quot;:null,&quot;SearchResults&quot;:null,&quot;ParsingResults&quot;:null,&quot;SetAccount&quot;:null,&quot;CallPromptBuilder&quot;:null,&quot;UploadResume&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;SearchResults&quot;:{&quot;CleanJobId&quot;:null,&quot;selectJob&quot;:null},&quot;ParsingResults&quot;:{},&quot;UploadResume&quot;:{&quot;ResumeContents&quot;:null}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

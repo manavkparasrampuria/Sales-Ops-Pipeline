@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGrantContractDetails</dataMapperDefItemName>
+        <globalKey>TransformGrantContractDetailsCustom3317</globalKey>
+        <inputField>FundingAward:FundingOpportunityId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingAwardFundingOpportunityId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGrantContractDetails</dataMapperDefItemName>
+        <globalKey>TransformGrantContractDetailsCustom303</globalKey>
+        <inputField>FundingAward:AwardNumber</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingAwardAwardNumber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGrantContractDetails</dataMapperDefItemName>
+        <globalKey>TransformGrantContractDetailsCustom5777</globalKey>
+        <inputField>FundingAward:EndDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingAwardEndDate</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGrantContractDetails</dataMapperDefItemName>
+        <globalKey>TransformGrantContractDetailsCustom2657</globalKey>
+        <inputField>FundingAward:AwardeeId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingAwardAwardeeId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGrantContractDetails</dataMapperDefItemName>
+        <globalKey>TransformGrantContractDetailsCustom7743</globalKey>
+        <inputField>FundingAward:StartDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingAwardStartDate</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGrantContractDetails</dataMapperDefItemName>
+        <globalKey>TransformGrantContractDetailsCustom8804</globalKey>
+        <inputField>FundingAward:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingAwardName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGrantContractDetails</dataMapperDefItemName>
+        <globalKey>TransformGrantContractDetailsCustom9255</globalKey>
+        <inputField>FundingAward:ContactName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingAwardContactName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGrantContractDetails</dataMapperDefItemName>
+        <globalKey>TransformGrantContractDetailsCustom1482</globalKey>
+        <inputField>FundingAward:Amount</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingAwardAmount</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformGrantContractDetails</dataMapperDefItemName>
+        <globalKey>TransformGrantContractDetailsCustom9125</globalKey>
+        <inputField>FundingAward:AwardeeName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingAwardAwardeeName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>TransformGrantContractDetails</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+    &quot;Contract&quot;: {
+        &quot;FundingAwardId&quot;: &quot;1212K000000GmmXQAS&quot;,
+        &quot;Id&quot;: &quot;8002K000000q1VWQAY&quot;,
+        &quot;FundingId&quot;: &quot;1212K000000GmmXQAS&quot;
+    },
+    &quot;FundingAward&quot;: {
+        &quot;Name&quot;: &quot;Test for Contracts&quot;,
+        &quot;EndDate&quot;: &quot;2024-12-01T19:46:00.000Z&quot;,
+        &quot;FundingOpportunityId&quot;: &quot;1192K000000000aQAA&quot;,
+        &quot;AwardeeName&quot;: &quot;Paul Marshall&quot;,
+        &quot;AwardeeId&quot;: &quot;0012K000027rWhMQAU&quot;,
+        &quot;Amount&quot;: 10000,
+        &quot;StartDate&quot;: &quot;2024-03-01T19:46:00.000Z&quot;
+    }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <targetOutputFileName>Grant Agreement Template(Version 1)</targetOutputFileName>
+    <type>Transform</type>
+</DataMapperDefinition>

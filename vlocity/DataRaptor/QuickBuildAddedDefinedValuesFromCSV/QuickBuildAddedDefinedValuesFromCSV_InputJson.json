@@ -1,0 +1,231 @@
+{
+    "DRId_ActionPlanTemplate": "0PR5Y000000oS8XWAU",
+    "DRId_ActionPlanTemplateVersion": "0PT5Y000000oS8YWAU",
+    "DRId_InspectionType": "0fJ5Y000000kBbeUAE",
+    "DefinedValuedForImport": [
+        {
+            "AssessmentIndicatorDefinedValues": "AAA|BBB|CCC|DDD|EEE",
+            "AssessmentIndicatorName": "Test1111B",
+            "AssessmentIndicatorType": "Picklist",
+            "ItemEntity": "AssessmentTask",
+            "ParsedDefinedValues": [
+                {
+                    "AssessmentIndicatorName": "Test1111B",
+                    "DefinedValue": "AAA"
+                },
+                {
+                    "AssessmentIndicatorName": "Test1111B",
+                    "DefinedValue": "BBB"
+                },
+                {
+                    "AssessmentIndicatorName": "Test1111B",
+                    "DefinedValue": "CCC"
+                },
+                {
+                    "AssessmentIndicatorName": "Test1111B",
+                    "DefinedValue": "DDD"
+                },
+                {
+                    "AssessmentIndicatorName": "Test1111B",
+                    "DefinedValue": "EEE"
+                }
+            ],
+            "RegulatoryCodeAuthority": "Test1111B",
+            "RegulatoryCodeName": "Test1111B",
+            "RegulatoryCodeSubject": "Test1111B",
+            "TaskDefinition": "Test1111B"
+        },
+        {
+            "AssessmentIndicatorDefinedValues": "HHH|III|JJJ|LLL",
+            "AssessmentIndicatorName": "Test1111D",
+            "AssessmentIndicatorType": "Picklist",
+            "ItemEntity": "AssessmentTask",
+            "ParsedDefinedValues": [
+                {
+                    "AssessmentIndicatorName": "Test1111D",
+                    "DefinedValue": "HHH"
+                },
+                {
+                    "AssessmentIndicatorName": "Test1111D",
+                    "DefinedValue": "III"
+                },
+                {
+                    "AssessmentIndicatorName": "Test1111D",
+                    "DefinedValue": "JJJ"
+                },
+                {
+                    "AssessmentIndicatorName": "Test1111D",
+                    "DefinedValue": "LLL"
+                }
+            ],
+            "RegulatoryCodeAuthority": "Test1111D",
+            "RegulatoryCodeName": "Test1111D",
+            "RegulatoryCodeSubject": "Test1111D",
+            "TaskDefinition": "Test1111D"
+        }
+    ],
+    "Details": {
+        "Description": "Test1111",
+        "Name": " Test1111",
+        "RequireSignatures": false
+    },
+    "FilteredList": {
+        "AssessmentIndDefinitionsToInsert": [
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "Test1111A",
+                "AssessmentIndicatorType": "Boolean",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "Test1111A",
+                "RegulatoryCodeName": "Test1111A",
+                "RegulatoryCodeSubject": "Test1111A",
+                "TaskDefinition": "Test1111A"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": "AAA|BBB|CCC|DDD|EEE",
+                "AssessmentIndicatorName": "Test1111B",
+                "AssessmentIndicatorType": "Picklist",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "Test1111B",
+                "RegulatoryCodeName": "Test1111B",
+                "RegulatoryCodeSubject": "Test1111B",
+                "TaskDefinition": "Test1111B"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "Test1111C",
+                "AssessmentIndicatorType": "Text",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "Test1111C",
+                "RegulatoryCodeName": "Test1111C",
+                "RegulatoryCodeSubject": "Test1111C",
+                "TaskDefinition": "Test1111C"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": "HHH|III|JJJ|LLL",
+                "AssessmentIndicatorName": "Test1111D",
+                "AssessmentIndicatorType": "Picklist",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "Test1111D",
+                "RegulatoryCodeName": "Test1111D",
+                "RegulatoryCodeSubject": "Test1111D",
+                "TaskDefinition": "Test1111D"
+            }
+        ]
+    },
+    "FilteredList2": {
+        "RegCodeAssementIndToInsert": [
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "Test1111A",
+                "AssessmentIndicatorType": "Boolean",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "Test1111A",
+                "RegulatoryCodeName": "Test1111A",
+                "RegulatoryCodeSubject": "Test1111A",
+                "TaskDefinition": "Test1111A"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": "AAA|BBB|CCC|DDD|EEE",
+                "AssessmentIndicatorName": "Test1111B",
+                "AssessmentIndicatorType": "Picklist",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "Test1111B",
+                "RegulatoryCodeName": "Test1111B",
+                "RegulatoryCodeSubject": "Test1111B",
+                "TaskDefinition": "Test1111B"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "Test1111C",
+                "AssessmentIndicatorType": "Text",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "Test1111C",
+                "RegulatoryCodeName": "Test1111C",
+                "RegulatoryCodeSubject": "Test1111C",
+                "TaskDefinition": "Test1111C"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": "HHH|III|JJJ|LLL",
+                "AssessmentIndicatorName": "Test1111D",
+                "AssessmentIndicatorType": "Picklist",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "Test1111D",
+                "RegulatoryCodeName": "Test1111D",
+                "RegulatoryCodeSubject": "Test1111D",
+                "TaskDefinition": "Test1111D"
+            }
+        ]
+    },
+    "HasAssessmentTaskIndDefinitions": true,
+    "HasDefinedValues": true,
+    "HasRegulatoryIndDefintions": true,
+    "Items": {
+        "FileCount": 0,
+        "InspectionComponents": [
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "Test1111A",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "Test1111A",
+                "RegulatoryCodeName": "Test1111A",
+                "RegulatoryCodeSubject": "Test1111A",
+                "TaskDefinition": "Test1111A"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": "AAA|BBB|CCC|DDD|EEE",
+                "AssessmentIndicatorName": "Test1111B",
+                "AssessmentIndicatorType": "Picklist",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "Test1111B",
+                "RegulatoryCodeName": "Test1111B",
+                "RegulatoryCodeSubject": "Test1111B",
+                "TaskDefinition": "Test1111B"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "Test1111C",
+                "AssessmentIndicatorType": "Text",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "Test1111C",
+                "RegulatoryCodeName": "Test1111C",
+                "RegulatoryCodeSubject": "Test1111C",
+                "TaskDefinition": "Test1111C"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": "HHH|III|JJJ|LLL",
+                "AssessmentIndicatorName": "Test1111D",
+                "AssessmentIndicatorType": "Picklist",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "Test1111D",
+                "RegulatoryCodeName": "Test1111D",
+                "RegulatoryCodeSubject": "Test1111D",
+                "TaskDefinition": "Test1111D"
+            }
+        ]
+    },
+    "SignatureTasks": null,
+    "timeStamp": "2021-09-07T13:43:08.464Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055Y00000Gb048QAB",
+    "userName": "admin@lpi-inspectiontest-1.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

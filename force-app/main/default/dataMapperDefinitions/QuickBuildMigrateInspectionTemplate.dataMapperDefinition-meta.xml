@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate347414263512166</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ActionPlanTemplateItemValue:ItemEntityFieldName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>ItemEntityFieldName</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate29572592768442707</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ActionPlanTemplateItemValue:IsActive</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate33496709541522374</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>AssessmentTaskDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate22057154993324213</globalKey>
+        <inputField>DeserializedFileContent:InspectionType:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>10.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>InspectionType</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate6831366644658867</globalKey>
+        <inputField>DeserializedFileContent:RegulatoryCode:EffectiveTo</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>EffectiveTo</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate9510594967525863</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate765684517902685</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>7.0</linkedObjectSequence>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateItemId</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate9522184474664173</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate41109823644746846</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ActionPlanTemplateItemValue2:ItemEntityFieldName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>ItemEntityFieldName</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate5508906531513424</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ActionPlanTemplateItemValue2:IsActive</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>IsActive</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate7892780123702599</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ActionPlanTemplateItemValue:ValueLiteral</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>ValueLiteral</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate2029261401768636</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>7.0</linkedObjectSequence>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateItemId</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate5333097784301368</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate22541036051325225</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:Description</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>ActionPlanTemplate</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate8978233086380625</globalKey>
+        <inputField>DeserializedFileContent:RegulatoryAuthority:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryAuthority</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate8931447129490457</globalKey>
+        <inputField>DeserializedFileContent:RegulatoryCode:Subject</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate8510402465231253</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate4404942543603674</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate5389615826931671</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>5.0</linkedObjectSequence>
+        <outputCreationSequence>6.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateId</outputField>
+        <outputObject>ActionPlanTemplateVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate6941968125097508</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>5.0</linkedObjectSequence>
+        <outputCreationSequence>10.0</outputCreationSequence>
+        <outputField>Action_Plan_Template__c</outputField>
+        <outputObject>InspectionType</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate8025461013184854</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>10.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>InspectionType</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate6152388408879161</globalKey>
+        <inputField>DeserializedFileContent:AssessmentTaskDefinition:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>AssessmentTaskDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate5890177609441536</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:DisplayOrder</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>DisplayOrder</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate5766396053728009</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ActionPlanTemplateItemValue2:ItemEntityType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>ItemEntityType</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate1802247023279855</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate48824832604477497</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:TargetEntityType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>TargetEntityType</outputField>
+        <outputObject>ActionPlanTemplate</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate5806569067341969</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ItemEntityType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>ItemEntityType</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate34381779372074095</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplate</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate8864291041489507</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate8873527084633583</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RegulatoryAuthority</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate5823028962015029</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>ActionPlanType</outputField>
+        <outputObject>ActionPlanTemplate</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate9832424201303185</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ActionPlanTemplateItemValue2:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate03756031480909905</globalKey>
+        <inputField>DeserializedFileContent:AssessmentTaskDefinition:TaskType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>TaskType</outputField>
+        <outputObject>AssessmentTaskDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate09135798143501295</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplate</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate3323675003688056</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>6.0</linkedObjectSequence>
+        <outputCreationSequence>7.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateVersionId</outputField>
+        <outputObject>ActionPlanTemplateItem</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate5456241952279641</globalKey>
+        <inputField>DeserializedFileContent:AssessmentIndicatorDefinition:DataType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>DataType</outputField>
+        <outputObject>AssessmentIndicatorDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate34559619933123864</globalKey>
+        <inputField>DeserializedFileContent:AssessmentIndicatorDefinition:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>AssessmentIndicatorDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate9854305895072266</globalKey>
+        <inputField>DeserializedFileContent:RegulatoryCode:EffectiveFrom</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>EffectiveFrom</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate7331582143979956</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ActionPlanTemplateItemValue:ItemEntityType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>ItemEntityType</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate9481382047776796</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ActionPlanTemplateItemValue:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>8.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate3486334492007801</globalKey>
+        <inputField>DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItem:ActionPlanTemplateItemValue2:ValueLiteralLookup</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>AssessmentTaskDefinition</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>9.0</outputCreationSequence>
+        <outputField>ValueLiteral</outputField>
+        <outputObject>ActionPlanTemplateItemValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrateInspectionTemplate37606629150730164</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>AssessmentIndicatorDefinition</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate3406477376232606</globalKey>
+        <inputField>DeserializedFileContent:RegulatoryAuthority:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthority</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RegulatoryAuthorityId</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrateInspectionTemplate</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrateInspectionTemplate9516074955704723</globalKey>
+        <inputField>DeserializedFileContent:RegulatoryCode:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>RegulatoryCode</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Used to migrate Inspection Templates across Orgs.  This only moves the Assessment Component.  There is another DR for adding in the Signatures.  It was split because of issues with trying to load them all in one DR if there were no Signatures.</description>
+    <expectedInputJson>{
+    &quot;FilteredList2&quot;: {
+        &quot;RegCodeAssementIndToInsert&quot;: [
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA111&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA222&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;BBB&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;BBB&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;CCC&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;CCC&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;DDD&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;DDD&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;DDD&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;DDD111&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;EEE&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;EEE111&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;FFF&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;FFF&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;FFF&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;FFF111&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA333&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA333&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;GGG&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;GGG111&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            },
+            {
+                &quot;RegulatoryCodeName&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;HHH&quot;,
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;
+            }
+        ]
+    },
+    &quot;FilteredList&quot;: {
+        &quot;AssessmentIndDefinitionsToInsert&quot;: [
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA111&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA222&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA333&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;BBB&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;BBB&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;CCC&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;CCC&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;DDD&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;DDD&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;DDD111&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;DDD&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;EEE&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;EEE&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;EEE111&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;EEE&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;FFF&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;FFF&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;FFF111&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;FFF&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;GGG&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;GGG&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;GGG111&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;GGG&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            },
+            {
+                &quot;AssessmentIndDefinitionName&quot;: &quot;HHH&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;HHH&quot;,
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;
+            }
+        ]
+    },
+    &quot;DeserializedFileContent&quot;: {
+        &quot;InspectionType&quot;: {
+            &quot;Name&quot;: &quot;Here Goes Nothing&quot;
+        },
+        &quot;ActionPlanTemplate&quot;: {
+            &quot;ActionPlanType&quot;: &quot;Retail&quot;,
+            &quot;Name&quot;: &quot;Here Goes Nothing&quot;,
+            &quot;TargetEntityType&quot;: &quot;Visit&quot;,
+            &quot;ActionPlanTemplateVersion&quot;: {
+                &quot;Name&quot;: &quot;Here Goes Nothing&quot;,
+                &quot;ActionPlanTemplateItem&quot;: [
+                    {
+                        &quot;IsActive&quot;: true,
+                        &quot;Name&quot;: &quot;AAA&quot;,
+                        &quot;IsRequired&quot;: false,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ActionPlanTemplateItemValue&quot;: {
+                            &quot;IsActive&quot;: true,
+                            &quot;ValueLiteral&quot;: &quot;AAA&quot;,
+                            &quot;Name&quot;: &quot;Name&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+                        },
+                        &quot;ActionPlanTemplateItemValue2&quot;: {
+                            &quot;ValueLiteralLookup&quot;: &quot;AAA&quot;,
+                            &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;IsActive&quot;: true
+                        }
+                    },
+                    {
+                        &quot;IsActive&quot;: true,
+                        &quot;Name&quot;: &quot;BBB&quot;,
+                        &quot;IsRequired&quot;: false,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ActionPlanTemplateItemValue&quot;: {
+                            &quot;IsActive&quot;: true,
+                            &quot;ValueLiteral&quot;: &quot;BBB&quot;,
+                            &quot;Name&quot;: &quot;Name&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+                        },
+                        &quot;ActionPlanTemplateItemValue2&quot;: {
+                            &quot;ValueLiteralLookup&quot;: &quot;BBB&quot;,
+                            &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;IsActive&quot;: true
+                        }
+                    },
+                    {
+                        &quot;IsActive&quot;: true,
+                        &quot;Name&quot;: &quot;CCC&quot;,
+                        &quot;IsRequired&quot;: false,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ActionPlanTemplateItemValue&quot;: {
+                            &quot;IsActive&quot;: true,
+                            &quot;ValueLiteral&quot;: &quot;CCC&quot;,
+                            &quot;Name&quot;: &quot;Name&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+                        },
+                        &quot;ActionPlanTemplateItemValue2&quot;: {
+                            &quot;ValueLiteralLookup&quot;: &quot;CCC&quot;,
+                            &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;IsActive&quot;: true
+                        }
+                    },
+                    {
+                        &quot;IsActive&quot;: true,
+                        &quot;Name&quot;: &quot;DDD&quot;,
+                        &quot;IsRequired&quot;: false,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ActionPlanTemplateItemValue&quot;: {
+                            &quot;IsActive&quot;: true,
+                            &quot;ValueLiteral&quot;: &quot;DDD&quot;,
+                            &quot;Name&quot;: &quot;Name&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+                        },
+                        &quot;ActionPlanTemplateItemValue2&quot;: {
+                            &quot;ValueLiteralLookup&quot;: &quot;DDD&quot;,
+                            &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;IsActive&quot;: true
+                        }
+                    },
+                    {
+                        &quot;IsActive&quot;: true,
+                        &quot;Name&quot;: &quot;EEE&quot;,
+                        &quot;IsRequired&quot;: false,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ActionPlanTemplateItemValue&quot;: {
+                            &quot;IsActive&quot;: true,
+                            &quot;ValueLiteral&quot;: &quot;EEE&quot;,
+                            &quot;Name&quot;: &quot;Name&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+                        },
+                        &quot;ActionPlanTemplateItemValue2&quot;: {
+                            &quot;ValueLiteralLookup&quot;: &quot;EEE&quot;,
+                            &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;IsActive&quot;: true
+                        }
+                    },
+                    {
+                        &quot;IsActive&quot;: true,
+                        &quot;Name&quot;: &quot;FFF&quot;,
+                        &quot;IsRequired&quot;: false,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ActionPlanTemplateItemValue&quot;: {
+                            &quot;IsActive&quot;: true,
+                            &quot;ValueLiteral&quot;: &quot;FFF&quot;,
+                            &quot;Name&quot;: &quot;Name&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+                        },
+                        &quot;ActionPlanTemplateItemValue2&quot;: {
+                            &quot;ValueLiteralLookup&quot;: &quot;FFF&quot;,
+                            &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;IsActive&quot;: true
+                        }
+                    },
+                    {
+                        &quot;IsActive&quot;: true,
+                        &quot;Name&quot;: &quot;GGG&quot;,
+                        &quot;IsRequired&quot;: false,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ActionPlanTemplateItemValue&quot;: {
+                            &quot;IsActive&quot;: true,
+                            &quot;ValueLiteral&quot;: &quot;GGG&quot;,
+                            &quot;Name&quot;: &quot;Name&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+                        },
+                        &quot;ActionPlanTemplateItemValue2&quot;: {
+                            &quot;ValueLiteralLookup&quot;: &quot;GGG&quot;,
+                            &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;IsActive&quot;: true
+                        }
+                    },
+                    {
+                        &quot;IsActive&quot;: true,
+                        &quot;Name&quot;: &quot;HHH&quot;,
+                        &quot;IsRequired&quot;: false,
+                        &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                        &quot;ActionPlanTemplateItemValue&quot;: {
+                            &quot;IsActive&quot;: true,
+                            &quot;ValueLiteral&quot;: &quot;HHH&quot;,
+                            &quot;Name&quot;: &quot;Name&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+                        },
+                        &quot;ActionPlanTemplateItemValue2&quot;: {
+                            &quot;ValueLiteralLookup&quot;: &quot;HHH&quot;,
+                            &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+                            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+                            &quot;IsActive&quot;: true
+                        }
+                    }
+                ]
+            }
+        },
+        &quot;AssessmentTaskIndDefinition&quot;: [
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA111&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA222&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA333&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;BBB&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;BBB&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;CCC&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;CCC&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;DDD&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;DDD&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;DDD&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;DDD111&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;EEE&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;EEE&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;EEE111&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;FFF&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;FFF&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;FFF&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;FFF111&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;GGG&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;GGG&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;GGG111&quot;
+            },
+            {
+                &quot;AssessTaskIndDefinitionName&quot;: &quot;&quot;,
+                &quot;AssessmentTaskDefinitionName&quot;: &quot;HHH&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;HHH&quot;
+            }
+        ],
+        &quot;AssessmentTaskDefinition&quot;: [
+            {
+                &quot;Name&quot;: &quot;AAA&quot;,
+                &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;BBB&quot;,
+                &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;CCC&quot;,
+                &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;DDD&quot;,
+                &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;EEE&quot;,
+                &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;FFF&quot;,
+                &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;GGG&quot;,
+                &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;HHH&quot;,
+                &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+            }
+        ],
+        &quot;RegulatoryCodeAssessmentInd&quot;: [
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA111&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA222&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;BBB&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;BBB&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;CCC&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;CCC&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;DDD&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;DDD&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;DDD111&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;DDD&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;EEE&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;EEE&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;EEE111&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;EEE&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;FFF&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;FFF&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;FFF111&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;FFF&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA333&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;AAA333&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;GGG111&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;
+            },
+            {
+                &quot;RegCodeAssessmentInd&quot;: &quot;&quot;,
+                &quot;AssessmentIndDefinitionName&quot;: &quot;HHH&quot;,
+                &quot;RegulatoryCodeName&quot;: &quot;HHH&quot;
+            }
+        ],
+        &quot;AssessmentIndicatorDefinition&quot;: [
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;AAA&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;AAA111&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;AAA222&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;BBB&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;CCC&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;DDD&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;DDD111&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;EEE&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;EEE111&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;FFF&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;FFF111&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;AAA333&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;GGG&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;GGG111&quot;
+            },
+            {
+                &quot;DataType&quot;: &quot;Boolean&quot;,
+                &quot;Name&quot;: &quot;HHH&quot;
+            }
+        ],
+        &quot;RegulatoryCode&quot;: [
+            {
+                &quot;Name&quot;: &quot;AAA&quot;,
+                &quot;RegulatoryAuthorityName&quot;: &quot;AAA&quot;,
+                &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+                &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+                &quot;Subject&quot;: &quot;AAA&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;BBB&quot;,
+                &quot;RegulatoryAuthorityName&quot;: &quot;BBB&quot;,
+                &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+                &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+                &quot;Subject&quot;: &quot;BBB&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;CCC&quot;,
+                &quot;RegulatoryAuthorityName&quot;: &quot;CCC&quot;,
+                &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+                &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+                &quot;Subject&quot;: &quot;CCC&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;DDD&quot;,
+                &quot;RegulatoryAuthorityName&quot;: &quot;DDD&quot;,
+                &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+                &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+                &quot;Subject&quot;: &quot;DDD&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;EEE&quot;,
+                &quot;RegulatoryAuthorityName&quot;: &quot;EEE&quot;,
+                &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+                &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+                &quot;Subject&quot;: &quot;EEE&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;FFF&quot;,
+                &quot;RegulatoryAuthorityName&quot;: &quot;FFF&quot;,
+                &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+                &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+                &quot;Subject&quot;: &quot;FFF&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;GGG&quot;,
+                &quot;RegulatoryAuthorityName&quot;: &quot;GGG&quot;,
+                &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+                &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+                &quot;Subject&quot;: &quot;GGG&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;HHH&quot;,
+                &quot;RegulatoryAuthorityName&quot;: &quot;HHH&quot;,
+                &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+                &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+                &quot;Subject&quot;: &quot;HHH&quot;
+            }
+        ],
+        &quot;RegulatoryAuthority&quot;: [
+            {
+                &quot;Name&quot;: &quot;AAA&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;BBB&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;CCC&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;DDD&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;EEE&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;FFF&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;GGG&quot;
+            },
+            {
+                &quot;Name&quot;: &quot;HHH&quot;
+            }
+        ]
+    },
+    &quot;HasSignature&quot;: false
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>QuickBuildMigrateInspectionTemplate</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;DeserializedFileContent&quot;: {
+    &quot;InspectionType&quot;: {
+      &quot;Name&quot;: &quot;Here Goes Nothing&quot;
+    },
+    &quot;ActionPlanTemplate&quot;: {
+      &quot;ActionPlanType&quot;: &quot;Retail&quot;,
+      &quot;Name&quot;: &quot;Here Goes Nothing&quot;,
+      &quot;TargetEntityType&quot;: &quot;Visit&quot;,
+      &quot;ActionPlanTemplateVersion&quot;: {
+        &quot;Name&quot;: &quot;Here Goes Nothing&quot;,
+        &quot;ActionPlanTemplateItem&quot;: [
+          {
+            &quot;IsActive&quot;: true,
+            &quot;Name&quot;: &quot;AAA&quot;,
+            &quot;IsRequired&quot;: false,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;ActionPlanTemplateItemValue&quot;: {
+              &quot;IsActive&quot;: true,
+              &quot;ValueLiteral&quot;: &quot;AAA&quot;,
+              &quot;Name&quot;: &quot;Name&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+            },
+            &quot;ActionPlanTemplateItemValue2&quot;: {
+              &quot;ValueLiteralLookup&quot;: &quot;AAA&quot;,
+              &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;IsActive&quot;: true
+            }
+          },
+          {
+            &quot;IsActive&quot;: true,
+            &quot;Name&quot;: &quot;BBB&quot;,
+            &quot;IsRequired&quot;: false,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;ActionPlanTemplateItemValue&quot;: {
+              &quot;IsActive&quot;: true,
+              &quot;ValueLiteral&quot;: &quot;BBB&quot;,
+              &quot;Name&quot;: &quot;Name&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+            },
+            &quot;ActionPlanTemplateItemValue2&quot;: {
+              &quot;ValueLiteralLookup&quot;: &quot;BBB&quot;,
+              &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;IsActive&quot;: true
+            }
+          },
+          {
+            &quot;IsActive&quot;: true,
+            &quot;Name&quot;: &quot;CCC&quot;,
+            &quot;IsRequired&quot;: false,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;ActionPlanTemplateItemValue&quot;: {
+              &quot;IsActive&quot;: true,
+              &quot;ValueLiteral&quot;: &quot;CCC&quot;,
+              &quot;Name&quot;: &quot;Name&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+            },
+            &quot;ActionPlanTemplateItemValue2&quot;: {
+              &quot;ValueLiteralLookup&quot;: &quot;CCC&quot;,
+              &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;IsActive&quot;: true
+            }
+          },
+          {
+            &quot;IsActive&quot;: true,
+            &quot;Name&quot;: &quot;DDD&quot;,
+            &quot;IsRequired&quot;: false,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;ActionPlanTemplateItemValue&quot;: {
+              &quot;IsActive&quot;: true,
+              &quot;ValueLiteral&quot;: &quot;DDD&quot;,
+              &quot;Name&quot;: &quot;Name&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+            },
+            &quot;ActionPlanTemplateItemValue2&quot;: {
+              &quot;ValueLiteralLookup&quot;: &quot;DDD&quot;,
+              &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;IsActive&quot;: true
+            }
+          },
+          {
+            &quot;IsActive&quot;: true,
+            &quot;Name&quot;: &quot;EEE&quot;,
+            &quot;IsRequired&quot;: false,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;ActionPlanTemplateItemValue&quot;: {
+              &quot;IsActive&quot;: true,
+              &quot;ValueLiteral&quot;: &quot;EEE&quot;,
+              &quot;Name&quot;: &quot;Name&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+            },
+            &quot;ActionPlanTemplateItemValue2&quot;: {
+              &quot;ValueLiteralLookup&quot;: &quot;EEE&quot;,
+              &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;IsActive&quot;: true
+            }
+          },
+          {
+            &quot;IsActive&quot;: true,
+            &quot;Name&quot;: &quot;FFF&quot;,
+            &quot;IsRequired&quot;: false,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;ActionPlanTemplateItemValue&quot;: {
+              &quot;IsActive&quot;: true,
+              &quot;ValueLiteral&quot;: &quot;FFF&quot;,
+              &quot;Name&quot;: &quot;Name&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+            },
+            &quot;ActionPlanTemplateItemValue2&quot;: {
+              &quot;ValueLiteralLookup&quot;: &quot;FFF&quot;,
+              &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;IsActive&quot;: true
+            }
+          },
+          {
+            &quot;IsActive&quot;: true,
+            &quot;Name&quot;: &quot;GGG&quot;,
+            &quot;IsRequired&quot;: false,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;ActionPlanTemplateItemValue&quot;: {
+              &quot;IsActive&quot;: true,
+              &quot;ValueLiteral&quot;: &quot;GGG&quot;,
+              &quot;Name&quot;: &quot;Name&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+            },
+            &quot;ActionPlanTemplateItemValue2&quot;: {
+              &quot;ValueLiteralLookup&quot;: &quot;GGG&quot;,
+              &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;IsActive&quot;: true
+            }
+          },
+          {
+            &quot;IsActive&quot;: true,
+            &quot;Name&quot;: &quot;HHH&quot;,
+            &quot;IsRequired&quot;: false,
+            &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+            &quot;ActionPlanTemplateItemValue&quot;: {
+              &quot;IsActive&quot;: true,
+              &quot;ValueLiteral&quot;: &quot;HHH&quot;,
+              &quot;Name&quot;: &quot;Name&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.Name&quot;
+            },
+            &quot;ActionPlanTemplateItemValue2&quot;: {
+              &quot;ValueLiteralLookup&quot;: &quot;HHH&quot;,
+              &quot;Name&quot;: &quot;AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityFieldName&quot;: &quot;AssessmentTask.AssessmentTaskDefinitionId&quot;,
+              &quot;ItemEntityType&quot;: &quot;AssessmentTask&quot;,
+              &quot;IsActive&quot;: true
+            }
+          }
+        ]
+      }
+    },
+    &quot;AssessmentTaskIndDefinition&quot;: [
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;AAA&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;AAA111&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;AAA222&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;AAA&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;AAA333&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;BBB&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;BBB&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;CCC&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;CCC&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;DDD&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;DDD&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;DDD&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;DDD111&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;EEE&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;EEE&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;EEE&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;EEE111&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;FFF&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;FFF&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;FFF&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;FFF111&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;GGG&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;GGG&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;GGG&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;GGG111&quot;
+      },
+      {
+        &quot;AssessTaskIndDefinitionName&quot;: &quot;00000075&quot;,
+        &quot;AssessmentTaskDefinitionName&quot;: &quot;HHH&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;HHH&quot;
+      }
+    ],
+    &quot;AssessmentTaskDefinition&quot;: [
+      {
+        &quot;Name&quot;: &quot;AAA&quot;,
+        &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;BBB&quot;,
+        &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;CCC&quot;,
+        &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;DDD&quot;,
+        &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;EEE&quot;,
+        &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;FFF&quot;,
+        &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;GGG&quot;,
+        &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;HHH&quot;,
+        &quot;TaskType&quot;: &quot;InspectionChecklist&quot;
+      }
+    ],
+    &quot;RegulatoryCodeAssessmentInd&quot;: [
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;AAA&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;AAA111&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;AAA222&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;BBB&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;BBB&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;CCC&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;CCC&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;DDD&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;DDD&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;DDD111&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;DDD&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;EEE&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;EEE&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;EEE111&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;EEE&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;FFF&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;FFF&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;FFF111&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;FFF&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;AAA333&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;AAA333&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;AAA&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;GGG&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;GGG111&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;GGG&quot;
+      },
+      {
+        &quot;RegCodeAssessmentInd&quot;: &quot;RCAI-0000000098&quot;,
+        &quot;AssessmentIndDefinitionName&quot;: &quot;HHH&quot;,
+        &quot;RegulatoryCodeName&quot;: &quot;HHH&quot;
+      }
+    ],
+    &quot;AssessmentIndicatorDefinition&quot;: [
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;AAA&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;AAA111&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;AAA222&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;BBB&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;CCC&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;DDD&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;DDD111&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;EEE&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;EEE111&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;FFF&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;FFF111&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;AAA333&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;GGG&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;GGG111&quot;
+      },
+      {
+        &quot;DataType&quot;: &quot;Boolean&quot;,
+        &quot;Name&quot;: &quot;HHH&quot;
+      }
+    ],
+    &quot;RegulatoryCode&quot;: [
+      {
+        &quot;Name&quot;: &quot;AAA&quot;,
+        &quot;RegulatoryAuthorityName&quot;: &quot;AAA&quot;,
+        &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+        &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+        &quot;Subject&quot;: &quot;AAA&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;BBB&quot;,
+        &quot;RegulatoryAuthorityName&quot;: &quot;BBB&quot;,
+        &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+        &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+        &quot;Subject&quot;: &quot;BBB&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;CCC&quot;,
+        &quot;RegulatoryAuthorityName&quot;: &quot;CCC&quot;,
+        &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+        &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+        &quot;Subject&quot;: &quot;CCC&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;DDD&quot;,
+        &quot;RegulatoryAuthorityName&quot;: &quot;DDD&quot;,
+        &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+        &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+        &quot;Subject&quot;: &quot;DDD&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;EEE&quot;,
+        &quot;RegulatoryAuthorityName&quot;: &quot;EEE&quot;,
+        &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+        &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+        &quot;Subject&quot;: &quot;EEE&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;FFF&quot;,
+        &quot;RegulatoryAuthorityName&quot;: &quot;FFF&quot;,
+        &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+        &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+        &quot;Subject&quot;: &quot;FFF&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;GGG&quot;,
+        &quot;RegulatoryAuthorityName&quot;: &quot;GGG&quot;,
+        &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+        &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+        &quot;Subject&quot;: &quot;GGG&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;HHH&quot;,
+        &quot;RegulatoryAuthorityName&quot;: &quot;HHH&quot;,
+        &quot;EffectiveFrom&quot;: &quot;2021-01-02T00:00:00.000Z&quot;,
+        &quot;EffectiveTo&quot;: &quot;2025-12-31T00:00:00.000Z&quot;,
+        &quot;Subject&quot;: &quot;HHH&quot;
+      }
+    ],
+    &quot;RegulatoryAuthority&quot;: [
+      {
+        &quot;Name&quot;: &quot;AAA&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;BBB&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;CCC&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;DDD&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;EEE&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;FFF&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;GGG&quot;
+      },
+      {
+        &quot;Name&quot;: &quot;HHH&quot;
+      }
+    ]
+  },
+  &quot;HasSignature&quot;: false
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateInspectionAssessment</dataMapperDefItemName>
+        <globalKey>DRUpdateInspectionAssessmentCustom7991</globalKey>
+        <inputField>AssessEffectiveDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>EffectiveDateTime</outputField>
+        <outputObject>Assessment</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateInspectionAssessment</dataMapperDefItemName>
+        <globalKey>DRUpdateInspectionAssessmentCustom5871</globalKey>
+        <inputField>AssessmentId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Assessment</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateInspectionAssessment</dataMapperDefItemName>
+        <globalKey>DRUpdateInspectionAssessmentCustom6157</globalKey>
+        <inputField>SiteFacilityId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SiteFacility__c</outputField>
+        <outputObject>Assessment</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateInspectionAssessment</dataMapperDefItemName>
+        <defaultValue>Completed</defaultValue>
+        <globalKey>DRUpdateInspectionAssessmentCustom6968</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AssessmentStatus</outputField>
+        <outputObject>Assessment</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateInspectionAssessment</dataMapperDefItemName>
+        <defaultValue>High</defaultValue>
+        <globalKey>DRUpdateInspectionAssessmentCustom2056</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AssessmentRating</outputField>
+        <outputObject>Assessment</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateInspectionAssessment</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRUpdateInspectionAssessmentCustom2606</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Assessment</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRUpdateInspectionAssessment</dataMapperDefItemName>
+        <globalKey>DRUpdateInspectionAssessmentCustom8719</globalKey>
+        <inputField>AssessNameComplete</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>Assessment</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DataRaptorPostAction1&quot;: null,
+        &quot;DRGetLatestAssessment&quot;: null,
+        &quot;SetValueAssessData&quot;: null,
+        &quot;DRGetFacilityFromOmniTask&quot;: null,
+        &quot;Thank You&quot;: null,
+        &quot;Save-Responses&quot;: null,
+        &quot;Overview&quot;: null,
+        &quot;DRUpdateCurrentFacilityInspection&quot;: null,
+        &quot;SetValuesInspectionStatusCompleted&quot;: null,
+        &quot;DRUpdateCurrentFacilityInspectionBegin&quot;: null,
+        &quot;SetValuesInspectionStatusBegin&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;Thank You&quot;: {},
+    &quot;Overview&quot;: {
+        &quot;CleanFacility_block&quot;: {
+            &quot;CleanFacility_assessmentresult&quot;: null,
+            &quot;CleanFacility_uploadfile&quot;: [
+                {
+                    &quot;data&quot;: null,
+                    &quot;size&quot;: null,
+                    &quot;filename&quot;: null
+                }
+            ],
+            &quot;CleanFacility&quot;: null
+        },
+        &quot;X1_Condition_block&quot;: {
+            &quot;X1_Condition_assessmentresult&quot;: null,
+            &quot;X1_Condition_uploadfile&quot;: [
+                {
+                    &quot;data&quot;: null,
+                    &quot;size&quot;: null,
+                    &quot;filename&quot;: null
+                }
+            ],
+            &quot;X1_Condition&quot;: null
+        }
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRUpdateInspectionAssessment</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;DataRaptorPostAction1&quot;:null,&quot;DRGetLatestAssessment&quot;:null,&quot;SetValueAssessData&quot;:null,&quot;DRGetFacilityFromOmniTask&quot;:null,&quot;Thank You&quot;:null,&quot;Save-Responses&quot;:null,&quot;Overview&quot;:null,&quot;DRUpdateCurrentFacilityInspection&quot;:null,&quot;SetValuesInspectionStatusCompleted&quot;:null,&quot;DRUpdateCurrentFacilityInspectionBegin&quot;:null,&quot;SetValuesInspectionStatusBegin&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;Thank You&quot;:{},&quot;Overview&quot;:{&quot;CleanFacility_block&quot;:{&quot;CleanFacility_assessmentresult&quot;:null,&quot;CleanFacility_uploadfile&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;CleanFacility&quot;:null},&quot;X1_Condition_block&quot;:{&quot;X1_Condition_assessmentresult&quot;:null,&quot;X1_Condition_uploadfile&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;X1_Condition&quot;:null}}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

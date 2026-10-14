@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <defaultValue>High School</defaultValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom5151</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHofH:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_GradeCompleted</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom2555</globalKey>
+        <inputField>HeadOfHousehold:FirstName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHofH:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberFirstName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>User:ContactId</filterValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem3</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>HeadOfHousehold</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem14</globalKey>
+        <inputField>HeadOfHousehold:MailingState</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeadOfHouseholdDetails:PSS_BM_v5_HeadOfHouseholdState</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom1496</globalKey>
+        <inputField>HeadOfHousehold:MailingCity</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeadOfHouseholdDetails:PSS_BM_v5_HeadOfHouseholdCounty</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>HouseholdAccount:Id</filterValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem2</globalKey>
+        <inputField>AccountId</inputField>
+        <inputObject>AccountContactRelation</inputObject>
+        <inputObjectQuerySequence>4.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>HouseholdMember</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem13</globalKey>
+        <inputField>HeadOfHousehold:MailingCity</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeadOfHouseholdDetails:PSS_BM_v5_HeadOfHouseholdCity</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom5310</globalKey>
+        <inputField>HouseholdMember:Contact.LastName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberLastName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem12</globalKey>
+        <inputField>HeadOfHousehold:MobilePhone</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeadOfHouseholdDetails:PSS_BM_v5_HeadOfHouseholdCellNumber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <defaultValue>Self</defaultValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom9178</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHofH:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Relationship</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom5611</globalKey>
+        <inputField>HeadOfHousehold:Birthdate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeaderOfHouseholdDetails:HeadOfHouseholdBirthDate</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <defaultValue>High School</defaultValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom9305</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_GradeCompleted</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <defaultValue>Yes</defaultValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom1382</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_USCitizen</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>HeadOfHousehold:AccountId</filterValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem1</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>3.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>HouseholdAccount</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>userId</filterValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem0</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>User</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>User</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom404</globalKey>
+        <inputField>HeadOfHousehold:Gender</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHofH:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Gender</outputField>
+        <outputObject>json</outputObject>
+        <valueMapping>{&quot;Female&quot;:&quot;F&quot;,&quot;Male&quot;:&quot;M&quot;}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <defaultValue>Yes</defaultValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom4113</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHofH:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_USCitizen</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom2064</globalKey>
+        <inputField>HeadOfHousehold:LastName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeadOfHouseholdDetails:PSS_BM_v5_HeadOfHouseholdLastName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom2967</globalKey>
+        <inputField>HeadOfHousehold:Birthdate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHofH:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_DateOfBirth</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem6</globalKey>
+        <inputField>HeadOfHousehold:Email</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeadOfHouseholdDetails:PSS_BM_v5_HeadOfHouseholdEmail</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem5</globalKey>
+        <inputField>HouseholdMember:Roles</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Relationship</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem7</globalKey>
+        <inputField>HouseholdMember:Contact.Gender</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_Gender</outputField>
+        <outputObject>json</outputObject>
+        <valueMapping>{&quot;Female&quot;:&quot;F&quot;,&quot;Male&quot;:&quot;M&quot;}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem15</globalKey>
+        <inputField>HeadOfHousehold:FirstName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeadOfHouseholdDetails:PSS_BM_v5_HeadOfHouseholdFirstName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem11</globalKey>
+        <inputField>HeadOfHousehold:Phone</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeadOfHouseholdDetails:PSS_BM_v5_HeadOfHouseholdPhoneNumber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <defaultValue>No</defaultValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom5598</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_IsDisabled</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem4</globalKey>
+        <inputField>HeadOfHousehold:MailingPostalCode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeadOfHouseholdDetails:PSS_BM_v5_HeadOfHouseholdZipCode</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem9</globalKey>
+        <inputField>HouseholdMember:Contact.FirstName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberFirstName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom7276</globalKey>
+        <inputField>HeadOfHousehold:LastName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHofH:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_HouseholdMemberLastName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <defaultValue>No</defaultValue>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom2041</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHofH:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_IsDisabled</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem10</globalKey>
+        <inputField>HeadOfHousehold:MailingStreet</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HeadOfHouseholdDetails:PSS_BM_v5_HeadOfHouseholdAddress</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetHouseholdBenefitsAssessment</dataMapperDefItemName>
+        <globalKey>DRGetHouseholdBenefitsAssessmentCustom0jI4S000000GxO0UAKItem8</globalKey>
+        <inputField>HouseholdMember:Contact.Birthdate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HoldHouseholdInformation:PSS_BM_v5_HouseholdMemberDetails:PSS_BM_v5_DateOfBirth</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedOutputJson>{
+    &quot;timeStamp&quot;: &quot;2023-05-31T12:01:23.209Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;userTimeZone&quot;: &quot;-420&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;jeremy.blankenship@gpssummer23.dev&quot;,
+    &quot;userId&quot;: &quot;0054S0000037D4jQAE&quot;,
+    &quot;omniProcessId&quot;: &quot;0jN4S000000H0dbUAC&quot;,
+    &quot;HeadOfHouseholdDetails&quot;: {
+        &quot;PSS_BM_v2_HeadOfHouseholdFirstName&quot;: &quot;r&quot;,
+        &quot;PSS_BM_v2_HeadOfHouseholdLastName&quot;: &quot;r&quot;,
+        &quot;PSS_BM_v2_HeadOfHouseholdEmail&quot;: &quot;j@j.com&quot;,
+        &quot;PSS_BM_v2_HeadOfHouseholdPhoneNumber&quot;: &quot;3939393939&quot;,
+        &quot;PSS_BM_v2_HeadOfHouseholdCellNumber&quot;: &quot;3939393939&quot;,
+        &quot;PSS_BM_v2_HeadOfHouseholdAddress&quot;: &quot;123 Main St&quot;,
+        &quot;PSS_BM_v2_HeadOfHouseholdCity&quot;: &quot;Jers&quot;,
+        &quot;PSS_BM_v2_HeadOfHouseholdState&quot;: &quot;NJ&quot;,
+        &quot;PSS_BM_v2_HeadOfHouseholdZipCode&quot;: &quot;39393&quot;,
+        &quot;PSS_BM_v2_HeadOfHouseholdCounty&quot;: &quot;USA&quot;
+    },
+    &quot;HouseholdInformation&quot;: {
+        &quot;PSS_BM_v2_ProgramList&quot;: &quot;General Assistance&quot;,
+        &quot;PSS_BM_v2_AreThereChildrenInTheHousehold&quot;: true,
+        &quot;PSS_BM_v2_AreThereElderlyHouseholdMembers&quot;: false,
+        &quot;PSS_BM_v2_HouseholdSize&quot;: 1,
+        &quot;PSS_BM_v2_AreThereDisabledHouseholdMembers&quot;: false,
+        &quot;MinimumHouseholdMemberDetailsValidation&quot;: null,
+        &quot;MaximumHouseholdMemberDetailsValidation&quot;: null,
+        &quot;PSS_BM_v2_HouseholdMemberDetails&quot;: {
+            &quot;PSS_BM_v2_Age&quot;: 0,
+            &quot;PSS_BM_v2_HouseholdMemberName&quot;: &quot;a a&quot;,
+            &quot;PSS_BM_v2_HouseholdMemberFirstName&quot;: &quot;a&quot;,
+            &quot;PSS_BM_v2_HouseholdMemberLastName&quot;: &quot;a&quot;,
+            &quot;PSS_BM_v2_Relationship&quot;: &quot;Daughter&quot;,
+            &quot;PSS_BM_v2_DateOfBirth&quot;: &quot;2023-05-03&quot;,
+            &quot;PSS_BM_v2_GradeCompleted&quot;: &quot;10&quot;,
+            &quot;PSS_BM_v2_Race&quot;: &quot;BL&quot;,
+            &quot;PSS_BM_v2_Ethnicity&quot;: &quot;NH&quot;,
+            &quot;PSS_BM_v2_IsDisabled&quot;: &quot;No&quot;,
+            &quot;PSS_BM_v2_USCitizen&quot;: &quot;No&quot;,
+            &quot;PSS_BM_v2_Gender&quot;: &quot;F&quot;
+        }
+    },
+    &quot;Income&quot;: {},
+    &quot;Expenses&quot;: {},
+    &quot;HousingAndHeating&quot;: {},
+    &quot;Acknowledgement&quot;: {},
+    &quot;ApplicationReview&quot;: {},
+    &quot;sInstanceId&quot;: &quot;0kT4S000000CcvVUAS&quot;
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRGetHouseholdBenefitsAssessment</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{&quot;userId&quot;:&quot;0054S000003W9d8QAC&quot;}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Extract</type>
+</DataMapperDefinition>

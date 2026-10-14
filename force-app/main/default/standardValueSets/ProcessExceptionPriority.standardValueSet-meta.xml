@@ -2,13 +2,13 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Alto</fullName>
+        <fullName>High</fullName>
         <default>false</default>
-        <label>Alto</label>
+        <label>High</label>
     </standardValue>
     <standardValue>
-        <fullName>Bajo</fullName>
+        <fullName>Low</fullName>
         <default>true</default>
-        <label>Bajo</label>
+        <label>Low</label>
     </standardValue>
 </StandardValueSet>

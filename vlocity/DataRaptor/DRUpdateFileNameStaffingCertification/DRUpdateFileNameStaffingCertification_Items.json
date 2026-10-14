@@ -1,0 +1,72 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "DRUpdateFileNameStaffingCertificationCustom2970",
+        "InputFieldName": "DocumentChecklistStep:StaffingCertification:data",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "MayEdit": true,
+        "Name": "DRUpdateFileNameStaffingCertification",
+        "OmniDataTransformationId": {
+            "Name": "DRUpdateFileNameStaffingCertification",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRUpdateFileNameStaffingCertification",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "ContentDocument",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "DRUpdateFileNameStaffingCertificationCustom6903",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "DRUpdateFileNameStaffingCertification",
+        "OmniDataTransformationId": {
+            "Name": "DRUpdateFileNameStaffingCertification",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRUpdateFileNameStaffingCertification",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "ContentDocument",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "DefaultValue": "Staffing Certification",
+        "GlobalKey": "DRUpdateFileNameStaffingCertificationCustom9722",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "DRUpdateFileNameStaffingCertification",
+        "OmniDataTransformationId": {
+            "Name": "DRUpdateFileNameStaffingCertification",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRUpdateFileNameStaffingCertification",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Title",
+        "OutputObjectName": "ContentDocument",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

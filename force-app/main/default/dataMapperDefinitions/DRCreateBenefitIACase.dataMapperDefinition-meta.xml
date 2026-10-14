@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom3111</globalKey>
+        <inputField>BeneficiaryStep:AddressLookup-Block:State</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>State__c</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <defaultValue>Services &amp; Benefits</defaultValue>
+        <globalKey>DRCreateBenefitIACaseCustom6982</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Type</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <defaultValue>Home Health Agency (HHA) License</defaultValue>
+        <globalKey>DRCreateBenefitIACaseCustom8778</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <formulaConverted>| var:BeneficiaryStep:FirstName &quot;/\/\/&quot; var:BeneficiaryStep:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(BeneficiaryStep:FirstName, &quot; &quot;, BeneficiaryStep:LastName)</formulaExpression>
+        <formulaResultPath>ContactName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>DRCreateBenefitIACaseCustom4080</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <defaultValue>Web</defaultValue>
+        <globalKey>DRCreateBenefitIACaseCustom948</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Origin</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBenefitIACaseCustom9072</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <formulaConverted>| var:BeneficiaryStep:FamilyMemberBlock:SupportFirstName &quot;/\/\/&quot; var:BeneficiaryStep:FamilyMemberBlock:SupportLastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(BeneficiaryStep:FamilyMemberBlock:SupportFirstName, &quot; &quot;, BeneficiaryStep:FamilyMemberBlock:SupportLastName)</formulaExpression>
+        <formulaResultPath>FamilyMemberName</formulaResultPath>
+        <formulaSequence>4.0</formulaSequence>
+        <globalKey>DRCreateBenefitIACaseCustom1659</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom2156</globalKey>
+        <inputField>BeneficiaryStep:AddressLookup-Block:Street</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Street__c</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom2562</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>ApprovedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom7921</globalKey>
+        <inputField>CategorySelectionStep:SubCategory</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Service_Sub_Category__c</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom2050</globalKey>
+        <inputField>ContactName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Contact</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>ContactId</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom856</globalKey>
+        <inputField>BeneficiaryStep:FamilyMemberBlock:SupportPhone</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Phone</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom9076</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBenefitIACaseCustom8491</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>ApplicationCaseId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>DRCreateBenefitIACaseCustom5852</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <defaultValue>Medium</defaultValue>
+        <globalKey>DRCreateBenefitIACaseCustom5430</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Priority</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>DRCreateBenefitIACaseCustom6516</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBenefitIACaseCustom4881</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <formulaConverted>| &quot;Home/\/\/Health/\/\/Services/\/\/-/\/\/&quot; var:BeneficiaryStep:FirstName &quot;/\/\/&quot; var:BeneficiaryStep:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(&quot;Home Health Services - &quot;, BeneficiaryStep:FirstName, &quot; &quot;, BeneficiaryStep:LastName)</formulaExpression>
+        <formulaResultPath>Subject</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRCreateBenefitIACaseCustom2970</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBenefitIACaseCustom4573</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom7230</globalKey>
+        <inputField>BeneficiaryStep:AddressLookup-Block:City</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>City__c</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom3729</globalKey>
+        <inputField>BeneficiaryStep:AddressLookup-Block:AddressLookup</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BillingAddress</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom7769</globalKey>
+        <inputField>BeneficiaryStep:Telephone</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Phone</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBenefitIACaseCustom6619</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom1180</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>DeveloperName</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Aging_Disability_Services</lookupReturnedField>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom212</globalKey>
+        <inputField>BeneficiaryStep:AddressLookup-Block:PostalCode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Zip__c</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <defaultValue>New</defaultValue>
+        <globalKey>DRCreateBenefitIACaseCustom3880</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom3</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>DeveloperName</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Case</lookupReturnedField>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBenefitIACaseCustom4816</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom6206</globalKey>
+        <inputField>Subject</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom9496</globalKey>
+        <inputField>BeneficiaryStep:FamilyMemberBlock:SupportEmail</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>PersonEmail</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBenefitIACaseCustom1271</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom9021</globalKey>
+        <inputField>BeneficiaryStep:Email</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PersonEmail</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBenefitIACase</dataMapperDefItemName>
+        <globalKey>DRCreateBenefitIACaseCustom8633</globalKey>
+        <inputField>CategorySelectionStep:Category</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRCreateBenefitIACase&quot;: null,
+        &quot;SupportingDocumentationStep&quot;: null,
+        &quot;CategorySelectionStep&quot;: null,
+        &quot;DRGetContactDetailsforUser&quot;: null,
+        &quot;InformationStep&quot;: null,
+        &quot;AttestationStep&quot;: null,
+        &quot;BeneficiaryStep&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;SupportingDocumentationStep&quot;: {
+        &quot;File1&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    },
+    &quot;CategorySelectionStep&quot;: {
+        &quot;SupportReceivedPreviously&quot;: null,
+        &quot;Category&quot;: null,
+        &quot;SubCategory&quot;: null
+    },
+    &quot;InformationStep&quot;: {},
+    &quot;AttestationStep&quot;: {
+        &quot;CustomLWC1&quot;: null,
+        &quot;Disclosure1&quot;: null
+    },
+    &quot;BeneficiaryStep&quot;: {
+        &quot;TaxID&quot;: null,
+        &quot;Email&quot;: null,
+        &quot;LastName&quot;: null,
+        &quot;AddressLookup-Block&quot;: {
+            &quot;AddressLookup&quot;: null,
+            &quot;Country&quot;: null,
+            &quot;PostalCode&quot;: null,
+            &quot;State&quot;: null,
+            &quot;City&quot;: null,
+            &quot;Street&quot;: null
+        },
+        &quot;FirstName&quot;: null,
+        &quot;BeneficiarySubmission&quot;: null,
+        &quot;FamilyMemberBlock&quot;: {
+            &quot;SupportPhone&quot;: null,
+            &quot;SupportEmail&quot;: null,
+            &quot;SupportLastName&quot;: null,
+            &quot;SupportFirstName&quot;: null
+        },
+        &quot;Telephone&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRCreateBenefitIACase</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;LastName&quot;: &quot;Simmons&quot;,
+  &quot;ContactId&quot;: &quot;0034S000005gvl0QAA&quot;,
+  &quot;FirstName&quot;: &quot;Jennifer&quot;,
+  &quot;Telephone&quot;: &quot;9052222222&quot;,
+  &quot;Email&quot;: &quot;jsimmonsgrants062021@gmail.com&quot;,
+  &quot;omniscriptId&quot;: &quot;0jN4S00000000trUAA&quot;,
+  &quot;language&quot;: &quot;English&quot;,
+  &quot;type&quot;: &quot;Benefits&quot;,
+  &quot;runMode&quot;: &quot;preview&quot;,
+  &quot;sId&quot;: &quot;0jN4S00000000trUAA&quot;,
+  &quot;theme&quot;: &quot;lightning&quot;,
+  &quot;subType&quot;: &quot;Application&quot;,
+  &quot;timeStamp&quot;: &quot;2023-01-17T18:17:22.688Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZoneName&quot;: &quot;America/New_York&quot;,
+  &quot;userTimeZone&quot;: &quot;-300&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;jeremy.blankenship@gps.ido&quot;,
+  &quot;userId&quot;: &quot;0054S0000015CoyQAE&quot;,
+  &quot;omniProcessId&quot;: &quot;0jN4S00000000trUAA&quot;,
+  &quot;CategorySelectionStep&quot;: {
+    &quot;SubCategory&quot;: &quot;Full-time home health aid&quot;,
+    &quot;SupportReceivedPreviously&quot;: &quot;No&quot;,
+    &quot;Category&quot;: &quot;Home Health Services&quot;
+  },
+  &quot;BeneficiaryStep&quot;: {
+    &quot;BeneficiarySubmission&quot;: true,
+    &quot;FamilyMemberBlock&quot;: {
+      &quot;SupportPhone&quot;: &quot;067920425&quot;,
+      &quot;SupportEmail&quot;: &quot;paiut@mailinator.com&quot;,
+      &quot;SupportLastName&quot;: &quot;Aiuti&quot;,
+      &quot;SupportFirstName&quot;: &quot;Patrizia&quot;
+    },
+    &quot;TaxID&quot;: &quot;MA641934001002IT&quot;,
+    &quot;AddressLookup-Block&quot;: {
+      &quot;Street&quot;: &quot;6 Via Colle Carciano&quot;,
+      &quot;City&quot;: &quot;Velletri&quot;,
+      &quot;State&quot;: &quot;Lazio&quot;,
+      &quot;Country&quot;: &quot;Italy&quot;,
+      &quot;PostalCode&quot;: &quot;00049&quot;,
+      &quot;AddressLookup&quot;: &quot;Via Colle Carciano, 6, 00049 Velletri RM, Italy&quot;
+    },
+    &quot;Email&quot;: &quot;mauiti@mailinator.com&quot;,
+    &quot;Telephone&quot;: &quot;390629349&quot;,
+    &quot;LastName&quot;: &quot;Aiuti&quot;,
+    &quot;FirstName&quot;: &quot;Massimo&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

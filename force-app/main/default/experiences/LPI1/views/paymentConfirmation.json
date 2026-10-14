@@ -1,0 +1,31 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "99dbcaa3-4442-46d8-9dee-bd72ceb4bcfb",
+  "label" : "Payment Confirmation",
+  "regions" : [ {
+    "id" : "f89f3b59-a102-47ce-968f-5a380089e04e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "pss_payment:postPaymentLanding",
+      "id" : "e3093d20-f279-43a6-ba18-1eb6a1d17db4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6a6c502c-9b18-46c1-bafe-bdfffac71b38",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "01ea8001-a8bf-4c69-a867-bab20f64e205",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "post-payment-landing"
+}

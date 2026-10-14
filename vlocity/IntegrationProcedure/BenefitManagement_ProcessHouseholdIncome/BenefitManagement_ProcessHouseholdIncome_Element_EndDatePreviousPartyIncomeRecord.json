@@ -1,0 +1,67 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "EndDatePreviousPartyIncomeRecord",
+    "OmniProcessId": {
+        "Name": "ProcessHouseholdIncome",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ProcessHouseholdIncome/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopPreviousPartyIncomeRecords",
+        "OmniProcessId": {
+            "Name": "ProcessHouseholdIncome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/ProcessHouseholdIncome/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ProcessHouseholdIncome/Procedure/LoopPreviousPartyIncomeRecords",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopPreviousPartyIncomeRecords",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "CalendarYear": "=%FetchPreviousPartyIncomeRecords:Records:CalendarYear%",
+            "Employer": "=%FetchPreviousPartyIncomeRecords:Records:Employer%",
+            "EndDate": "=ADDDAY(%IncomeData:StartDate%, -1)",
+            "IncomeAmount": "=%FetchPreviousPartyIncomeRecords:Records:IncomeAmount%",
+            "IncomeFrequency": "=%FetchPreviousPartyIncomeRecords:Records:IncomeFrequency%",
+            "IncomeStatus": "=%FetchPreviousPartyIncomeRecords:Records:IncomeStatus%",
+            "IncomeType": "=%FetchPreviousPartyIncomeRecords:Records:IncomeType%",
+            "PartyId": "=%FetchPreviousPartyIncomeRecords:Records:PartyId%",
+            "PartyIncomeId": "=%FetchPreviousPartyIncomeRecords:Records:PartyIncomeId%",
+            "StartDate": "=%FetchPreviousPartyIncomeRecords:Records:StartDate%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "PSSUpsertPartyIncome1",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataMapperPostAction5",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/ProcessHouseholdIncome/Procedure/EndDatePreviousPartyIncomeRecord"
+}

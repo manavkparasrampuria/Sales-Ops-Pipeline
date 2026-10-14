@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>c738eff0-12da-42d8-af14-bd5f9e322523</globalKey>
+        <inputField>actList:BusinessTypeName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BusinessTypeName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>ac6804d9-98d2-4260-97f8-f95aff370c4a</globalKey>
+        <inputField>actList:BusinessOperatingName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BusinessOperatingName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>d3cc1a8f-09ad-422a-a8c2-e31c2321abe7</globalKey>
+        <inputField>actList:AccountName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>5be82db1-267d-40cc-b41a-e0c043267fd8</globalKey>
+        <inputField>actList:City</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>City</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>d8499482-1228-43e8-9f17-8bf175803651</globalKey>
+        <inputField>actList:Street</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Street</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>d2661fb6-aa98-4ea5-899c-2226b4e2d272</globalKey>
+        <inputField>actList:State</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>State</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <formulaConverted>var:actList:Street</formulaConverted>
+        <formulaExpression>actList:Street</formulaExpression>
+        <formulaResultPath>Address</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>a6d4dc69-2438-4fb9-8d04-72f83583a5c5</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>6df732a4-ab4d-4bfb-bf01-34f4b36a6db2</globalKey>
+        <inputField>actList:IsPersonAccount</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IsPersonAccount</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>e9e72211-21d1-4799-af65-3b4c94782edd</globalKey>
+        <inputField>actList:Country</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Country</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>99d5da98-c811-4c8d-b191-29d77b9ff1ac</globalKey>
+        <inputField>Address</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Address</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>8945bbc4-def6-4ef3-8c2d-99ceb762ea6b</globalKey>
+        <inputField>actList:Website</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Website</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>7dff38a2-1c2c-44de-997b-183a415ccfad</globalKey>
+        <inputField>actList:AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRTransformAccountsList</dataMapperDefItemName>
+        <globalKey>53112b3c-4ffd-488a-84aa-aee05250a264</globalKey>
+        <inputField>actList:Zipcode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Zipcode</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;actList&quot;: [
+        {
+            &quot;BusinessTypeName&quot;: &quot;BT1&quot;,
+            &quot;Zipcode&quot;: &quot;77095&quot;,
+            &quot;State&quot;: &quot;TX&quot;,
+            &quot;Street&quot;: &quot;7034 Highway 6 North&quot;,
+            &quot;IsPersonAccount&quot;: true,
+            &quot;City&quot;: &quot;Houston&quot;,
+            &quot;AccountId&quot;: &quot;001RM000004fmGNYAY&quot;,
+            &quot;AccountName&quot;: &quot;Sarah Silvery&quot;,
+            &quot;BusinessOperatingName&quot;: &quot;Sarah Operating Name&quot;
+        },
+        {
+            &quot;BusinessTypeName&quot;: &quot;BT1&quot;,
+            &quot;Country&quot;: &quot;United Kingdom&quot;,
+            &quot;Zipcode&quot;: &quot;EC2N 4AY&quot;,
+            &quot;Street&quot;: &quot;Heron Tower\n110 Bishopsgate&quot;,
+            &quot;IsPersonAccount&quot;: true,
+            &quot;City&quot;: &quot;London&quot;,
+            &quot;AccountId&quot;: &quot;001RM000004fmGIYAY&quot;,
+            &quot;AccountName&quot;: &quot;Sarah Jones&quot;,
+            &quot;BusinessOperatingName&quot;: &quot;Sarah Operating Name&quot;
+        }
+    ]
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRTransformAccountsList</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+    &quot;accountList&quot;: [
+        {
+            &quot;BusinessTypeName&quot;: &quot;BT1&quot;,
+            &quot;Country&quot;: &quot;United Kingdom&quot;,
+            &quot;Zipcode&quot;: &quot;EC2N 4AY&quot;,
+            &quot;Street&quot;: &quot;Heron Tower\n110 Bishopsgate&quot;,
+            &quot;AccountName&quot;: &quot;Sarah Jones&quot;,
+            &quot;IsPersonAccount&quot;: true,
+            &quot;AccountId&quot;: &quot;001RM000004fmGIYAY&quot;,
+            &quot;City&quot;: &quot;London&quot;,
+            &quot;BusinessOperatingName&quot;: &quot;Sarah Operating Name&quot;
+        },
+        {
+            &quot;BusinessTypeName&quot;: &quot;BT1&quot;,
+            &quot;Zipcode&quot;: &quot;77095&quot;,
+            &quot;State&quot;: &quot;TX&quot;,
+            &quot;Street&quot;: &quot;7034 Highway 6 North&quot;,
+            &quot;AccountName&quot;: &quot;Sarah Silvery&quot;,
+            &quot;IsPersonAccount&quot;: true,
+            &quot;AccountId&quot;: &quot;001RM000004fmGNYAY&quot;,
+            &quot;City&quot;: &quot;Houston&quot;,
+            &quot;BusinessOperatingName&quot;: &quot;Sarah Operating Name&quot;
+        }
+    ]
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Transform</type>
+</DataMapperDefinition>

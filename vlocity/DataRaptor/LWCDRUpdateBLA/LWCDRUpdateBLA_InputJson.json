@@ -1,0 +1,99 @@
+{
+    "ApplicationAttachments": {
+        "EINProof": null,
+        "IdentificationProof": [
+            {
+                "$$hashKey": "object:1661",
+                "data": "5c8bb52c-7edf-42b0-bcca-dd8064b8540e",
+                "filename": "2- Creating a DataRaptor Interface to Map an OmniScript to a PDF.pdf",
+                "size": 36531
+            }
+        ],
+        "PropertyProof": [
+            {
+                "$$hashKey": "object:1668",
+                "data": "b335ab39-1e0a-4989-9df2-de7e285c54f1",
+                "filename": "2- Creating a DataRaptor Interface to Map an OmniScript to a PDF.pdf",
+                "size": 36531
+            }
+        ]
+    },
+    "ApplicationInformation": {
+        "ApplicationCategory": "Basic",
+        "AssociatedAccount": "ACT - 1",
+        "AssociatedAccountId": "001RM000004eZGJYA2",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "RAT 1",
+        "AuthorizationTypeId": "0ehRM0000004C9NYAU",
+        "BusinessActivity": "ACT 1 BT1",
+        "BusinessActivityId": "2gFRM0000004C9S2AU",
+        "Industries": "Healthcare",
+        "IsPARCreated": "a67RM00000000AgYAI",
+        "expIsPARCreated": false,
+        "exprShowMinnesotaSalonLicenceApplication": true,
+        "isBusinessActivityFilled": true,
+        "isEditable": true,
+        "isIndustriesFilled": true
+    },
+    "ApplicationStatus": "Submitted",
+    "Certification": {
+        "CertificationText": true,
+        "Signature": "adf"
+    },
+    "ContactId": "003RM000006GmF9YAK",
+    "ContextId": "",
+    "CreatedApplicationId": "BLA-0000000061",
+    "CreatedPreliminaryApplicationRefId": "a67RM00000000AgYAI",
+    "CreatedStandardPARId": "0goRM0000004CL9YAM",
+    "DRId_BusinessLicenseApplication": "0f0RM0000004CGEYA2",
+    "DRId_Case": "500RM000002hshsYAA",
+    "DRId_PreliminaryApplicationRef__c": "a67RM00000000AgYAI",
+    "EstablishmentInformation": {
+        "Address": "Street -:  adsf City -: null State -: null Zipcode -: undefined",
+        "BlaCreatedText": "0f0RM0000004CGEYA2",
+        "BusinessDBAName": "adf",
+        "BusinessLegalName": "ACT - 1",
+        "City": null,
+        "ContactEmail": null,
+        "ContactName": "Dieggo John",
+        "Neighborhood": "adsfsadf",
+        "State": null,
+        "Street": "adsf",
+        "TaxID": null,
+        "Zipcode": null,
+        "isExistingApplication": false
+    },
+    "OwnershipInformation": {
+        "CorporationOrLLCOwnership": null,
+        "IndividualOwnership": {
+            "IndividualFirstName": null,
+            "IndividualLastName": "adsf"
+        },
+        "OwnershipType": "Individual",
+        "PartnershipOwnership": null,
+        "PriorEstablishmentDetails": null,
+        "PurchaseOrTakeOver": "Purchasing"
+    },
+    "SalonInformation": {
+        "BusinessLocation": "No",
+        "BusinessType": null,
+        "SalonInAResidence": "No",
+        "SalonStartDate": "2020-03-23"
+    },
+    "SampleUser": "005RM0000025atnYAA",
+    "id": "a3KRM000000005X2AQ",
+    "isBLASubmitted": false,
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sInstanceId": "a3JRM00000000C32AI",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vlocity-ins.na44.visual.stmfa.stm.force.com",
+    "timeStamp": "2020-03-25T10:21:49.023Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B00000065DsSIAU",
+    "userName": "sazher_patch1@salesforce.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

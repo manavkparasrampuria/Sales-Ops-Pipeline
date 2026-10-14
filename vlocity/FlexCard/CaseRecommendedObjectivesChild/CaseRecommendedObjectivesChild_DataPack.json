@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "SalesforceDemo",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "5004S000003Op0PQAS"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "GetCaseRecommendedObjectives",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "CaseId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": "[\"0\"][\"RecommendedObjectives\"]"
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "CaseRecommendedObjectivesChild",
+    "Namespace": "",
+    "OmniUiCardKey": "CaseRecommendedObjectivesChild/SalesforceDemo/2.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "CaseRecommendedObjectivesChild.json",
+    "SampleDataSourceResponse": "[{\"CaseId\":\"5004S000003Op0PQAS\",\"RecommendedObjectives\":[{\"ObjectiveName\":\"Needs Homebound Assistance\"},{\"ObjectiveName\":\"Doctors Orders Objective\"},{\"ObjectiveName\":\"Needs Bathing Assistance\"}],\"ObjectivesExist\":true}]",
+    "StylingConfiguration": "",
+    "UniqueName": "CaseRecommendedObjectivesChild_SalesforceDemo_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/CaseRecommendedObjectivesChild"
+}

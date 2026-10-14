@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Umsatzverteilungsmethode</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Umsatzverteilungsmethoden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Umsatzverteilungsmethode</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Umsatzverteilungsmethoden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Umsatzverteilungsmethode</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Umsatzverteilungsmethoden</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Umsatzverteilungsmethode</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Umsatzverteilungsmethoden</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Für das Startdatum und das Enddatum der Umsatzplan-Laufzeit darf nicht &quot;Manuell&quot; ausgewählt werden, wenn für &quot;Erstellungsprozess für Umsatztransaktion&quot; die Option &quot;Automatisch&quot; festgelegt ist.</errorMessage>
+        <name>blng__CannotSpecifyRevDatesifTransTypeAutomati</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Für das Startdatum und das Enddatum der Umsatzplan-Laufzeit darf nur &quot;Manuell&quot; ausgewählt werden, wenn für &quot;Erstellungsprozess für Umsatztransaktion&quot; die Option &quot;Manuell&quot; festgelegt ist.</errorMessage>
+        <name>blng__DontSpecifyDatesIfCreationProcessManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Für das Datum der vollständigen Umsatzrealisierung darf nicht &quot;Manuell&quot; ausgewählt werden, wenn für &quot;Erstellungsprozess für Umsatztransaktion&quot; die Option &quot;Automatisch&quot; festgelegt ist.</errorMessage>
+        <name>blng__DontSpecifyFRDateIfCreationProcessManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Startdatum und das Enddatum für den Umsatzplan dürfen nicht angegeben werden, wenn die Verteilungsmethode &quot;Vollständige Umsatzrealisierung&quot; festgelegt ist.</errorMessage>
+        <name>blng__DontSpecifyStartDateEndDateForFullRecogn</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Für das Datum der vollständigen Umsatzrealisierung darf nur &quot;Manuell&quot; festgelegt werden, wenn für &quot;Erstellungsprozess für Umsatztransaktion&quot; die Option &quot;Manuell&quot; festgelegt ist.</errorMessage>
+        <name>blng__FulRecDateCanbeManualifTransTypeManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>&quot;Datum der vollständigen Umsatzrealisierung&quot; darf nicht ausgewählt werden, wenn eine andere Verteilungsmethode als die vollständige Umsatzrealisierung festgelegt ist.</errorMessage>
+        <name>blng__FullRecDateEmptyForDailyMonthlyMethod</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>&quot;Datum der vollständigen Umsatzrealisierung&quot; ist erforderlich, wenn als Verteilungsmethode die vollständige Umsatzrealisierung ausgewählt wurde.</errorMessage>
+        <name>blng__FullRecognitionDateIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Enddatum für den Umsatzplan muss dem Typ entsprechen.</errorMessage>
+        <name>blng__RevenueScheduleEndDateAlignWithType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Startdatum für den Umsatzplan muss dem Typ entsprechen.</errorMessage>
+        <name>blng__RevenueScheduleStartDateAlignWithType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Enddatum für die vollständige Umsatzrealisierung muss dem Typ entsprechen.</errorMessage>
+        <name>blng__TYPESHOULDALIGNFULLRECOGNITIONDATE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Enddatum für die Laufzeit ist erforderlich, wenn als Verteilungsmethode &quot;Monatlich&quot; oder &quot;Täglich&quot; ausgewählt wurde.</errorMessage>
+        <name>blng__TermEndDateIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Startdatum für die Laufzeit ist erforderlich, wenn als Verteilungsmethode &quot;Monatlich&quot; oder &quot;Täglich&quot; ausgewählt wurde.</errorMessage>
+        <name>blng__TermStartDateIsRequired</name>
+    </validationRules>
+</CustomObjectTranslation>

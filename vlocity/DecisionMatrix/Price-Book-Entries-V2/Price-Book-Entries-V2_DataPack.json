@@ -1,0 +1,22 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DataSource": "SingleSobject",
+    "DecisionMatrixType": "DecisionTable",
+    "DecisionTableType": "MediumVolume",
+    "Description": "Price Book Entry Decision Table V2",
+    "GroupKey": "",
+    "IsLocked": false,
+    "LastSyncDate": "2025-01-10T21:30:27.000Z",
+    "MayEdit": true,
+    "Name": "Price Book Entries V2",
+    "Namespace": "",
+    "RefreshStatus": "Completed",
+    "Status": "Active",
+    "SubGroupKey": "",
+    "Type": "",
+    "UniqueName": "Price Book Entries V2",
+    "UsageType": "DefaultPricing",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/Price Book Entries V2"
+}

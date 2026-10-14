@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <globalKey>GPSTalentManagementUpsertAFRCustom114</globalKey>
+        <inputField>ApplicationFormId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationFormId</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <globalKey>GPSTalentManagementUpsertAFRCustom7821</globalKey>
+        <inputField>ValidLocation</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>gps_Valid_Location__c</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+        <valueMapping>{&quot;Yes&quot;:&quot;true&quot;,&quot;No&quot;:&quot;false&quot;}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <globalKey>GPSTalentManagementUpsertAFRCustom6468</globalKey>
+        <inputField>EducationScoreExplanation</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>gps_Education_Score_Explanation__c</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <globalKey>GPSTalentManagementUpsertAFRCustom4262</globalKey>
+        <inputField>SkillsScore</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>gps_Skills_Score__c</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>GPSTalentManagementUpsertAFRCustom7268</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <globalKey>GPSTalentManagementUpsertAFRCustom3476</globalKey>
+        <inputField>SkillsScoreExplanation</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>gps_Skills_Score_Explanation__c</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <globalKey>GPSTalentManagementUpsertAFRCustom5148</globalKey>
+        <inputField>ValidLocationExplanation</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>gps_Location_Explanation__c</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <globalKey>GPSTalentManagementUpsertAFRCustom7479</globalKey>
+        <inputField>EducationScore</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>gps_Education_Score__c</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <globalKey>GPSTalentManagementUpsertAFRCustom3390</globalKey>
+        <inputField>ExperienceExplanation</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>gps_Experience_Score_Explanation__c</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <globalKey>GPSTalentManagementUpsertAFRCustom9352</globalKey>
+        <inputField>ExperienceScore</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>gps_Experience_Score__c</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GPSTalentManagementUpsertAFR</dataMapperDefItemName>
+        <globalKey>GPSTalentManagementUpsertAFRCustom5899</globalKey>
+        <inputField>RequisitionId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ReferenceRecordId</outputField>
+        <outputObject>ApplicationFormRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;RequisitionId&quot;: &quot;18AKX000000Gma92AC&quot;,
+    &quot;ApplicationFormId&quot;: &quot;13XKX000000PAsD2AW&quot;,
+    &quot;SkillsScoreExplanation&quot;: &quot;The applicant possesses strong technical skills relevant to software development, including programming languages and technologies directly applicable to managing and optimizing IT infrastructure. However, there is a lack of explicit mention of experience with IT security measures and systems, which are crucial for the job.&quot;,
+    &quot;ValidLocationExplanation&quot;: &quot;The job is located in San Francisco, California, while the applicant&apos;s current address is in Fairfax, VA. Despite telework eligibility, the position does not indicate full remote work as an option, and the applicant&apos;s location does not meet the job&apos;s geographical requirements.&quot;,
+    &quot;ExperienceExplanation&quot;: &quot;The applicant has demonstrated experience in software engineering, including leading projects and developing applications. However, the job description emphasizes IT infrastructure management, security, and technical support, areas not directly covered in the applicant&apos;s work experience.&quot;,
+    &quot;EducationScore&quot;: 8,
+    &quot;SkillsScore&quot;: 8,
+    &quot;ValidLocation&quot;: &quot;No&quot;,
+    &quot;ExperienceScore&quot;: 7,
+    &quot;EducationScoreExplanation&quot;: &quot;The applicant has a Bachelor of Science in Computer Science with a high GPA and relevant coursework, which aligns well with the technical nature of the job. However, the job seeks a Senior Software Engineer, potentially implying a preference for advanced degrees or more specialized education in IT systems management and security.&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>GPSTalentManagementUpsertAFR</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;SkillsScoreExplanation&quot;: &quot;The applicant possesses strong technical skills in software development, including experience with various programming languages and technologies relevant to the job. There is, however, a gap in explicitly mentioned IT infrastructure and security skills, which are crucial for the role.&quot;,
+  &quot;ValidLocationExplanation&quot;: &quot;The job is located in San Francisco, California, and the applicant is currently in Fairfax, VA, United States. The job posting does not indicate that it is a remote position, therefore the applicant does not meet the location requirements.&quot;,
+  &quot;ApplicationFormId&quot;: &quot;13XKX000000PAsD2AW&quot;,
+  &quot;ExperienceExplanation&quot;: &quot;The applicant has demonstrated experience in software engineering, including leading projects and developing software solutions. However, the job description emphasizes IT infrastructure, security, and technical support, areas not directly covered in the applicant&apos;s experience.&quot;,
+  &quot;EducationScore&quot;: 8,
+  &quot;SkillsScore&quot;: 8,
+  &quot;ValidLocation&quot;: &quot;No&quot;,
+  &quot;ExperienceScore&quot;: 7,
+  &quot;EducationScoreExplanation&quot;: &quot;The applicant has a Bachelor of Science in Computer Science with a high GPA and relevant coursework, which aligns well with the technical requirements of the job. However, the position seeks a Senior Software Engineer, which may imply a preference for further education or more specialized training.&quot;,
+  &quot;RequisitionId&quot;: &quot;18AKX000000Gma92AC&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

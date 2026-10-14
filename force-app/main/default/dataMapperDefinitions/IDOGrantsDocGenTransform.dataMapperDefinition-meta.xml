@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom4891</globalKey>
+        <inputField>RecipientName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecipientName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom8666</globalKey>
+        <inputField>AwardNumber</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AwardNumber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom3270</globalKey>
+        <inputField>Awardee</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Awardee</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom1133</globalKey>
+        <inputField>AccountNumber</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountNumber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom3852</globalKey>
+        <inputField>Duration</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Duration</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom790</globalKey>
+        <inputField>FundingStart</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingStart</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom4783</globalKey>
+        <inputField>BillingState</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BillingState</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom8602</globalKey>
+        <inputField>BillingStreet</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BillingStreet</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom8192</globalKey>
+        <inputField>Amount</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Amount</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom3421</globalKey>
+        <inputField>BillingCity</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BillingCity</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom7905</globalKey>
+        <inputField>GrantName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>GrantName</outputField>
+        <outputObject>json</outputObject>
+        <valueMapping>{}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom7093</globalKey>
+        <inputField>EndDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>EndDate</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom2487</globalKey>
+        <inputField>County</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>County</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom4702</globalKey>
+        <inputField>DurationYears</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>DurationYears</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom6650</globalKey>
+        <inputField>StartDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>StartDate</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom8377</globalKey>
+        <inputField>DocDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>DocDate</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom4457</globalKey>
+        <inputField>FundingEnd</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingEnd</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom7578</globalKey>
+        <inputField>BillingZip</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BillingZip</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>IDOGrantsDocGenTransform</dataMapperDefItemName>
+        <globalKey>IDOGrantsDocGenTransformCustom2230</globalKey>
+        <inputField>FundingOpportunityName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingOpportunityName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;GrantName&quot;: &quot;Associated Supply Co. 2023-2024 Relief &amp; Reinvestment Grant&quot;,
+    &quot;BillingState&quot;: &quot;TX&quot;,
+    &quot;RecipientName&quot;: &quot;Associated Supply Co.&quot;,
+    &quot;BillingStreet&quot;: &quot;2056 Laurel Ave&quot;,
+    &quot;AwardNumber&quot;: &quot;00000050&quot;,
+    &quot;FundingStart&quot;: &quot;09/04/2023&quot;,
+    &quot;StartDate&quot;: &quot;12/12/2023&quot;,
+    &quot;AccountNumber&quot;: &quot;A15147135&quot;,
+    &quot;County&quot;: &quot;Caroline&quot;,
+    &quot;EndDate&quot;: &quot;03/21/2024&quot;,
+    &quot;BillingZip&quot;: &quot;77701&quot;,
+    &quot;Awardee&quot;: &quot;Associated Supply Co.&quot;,
+    &quot;Duration&quot;: 100,
+    &quot;FundingEnd&quot;: &quot;09/04/2024&quot;,
+    &quot;DurationYears&quot;: 1,
+    &quot;Amount&quot;: &quot;$651,354.00&quot;,
+    &quot;BillingCity&quot;: &quot;Jefferson&quot;,
+    &quot;DocDate&quot;: &quot;03/21/2024&quot;
+}</expectedInputJson>
+    <expectedOutputJson>{
+    &quot;GrantName&quot;: &quot;Associated Supply Co. 2023-2024 Relief &amp; Reinvestment Grant&quot;,
+    &quot;BillingState&quot;: &quot;TX&quot;,
+    &quot;RecipientName&quot;: &quot;Associated Supply Co.&quot;,
+    &quot;BillingStreet&quot;: &quot;2056 Laurel Ave&quot;,
+    &quot;AwardNumber&quot;: &quot;00000050&quot;,
+    &quot;FundingStart&quot;: &quot;09/04/2023&quot;,
+    &quot;StartDate&quot;: &quot;12/12/2023&quot;,
+    &quot;AccountNumber&quot;: &quot;A15147135&quot;,
+    &quot;County&quot;: &quot;Caroline&quot;,
+    &quot;EndDate&quot;: &quot;03/21/2024&quot;,
+    &quot;BillingZip&quot;: &quot;77701&quot;,
+    &quot;Awardee&quot;: &quot;Associated Supply Co.&quot;,
+    &quot;Duration&quot;: 100,
+    &quot;FundingEnd&quot;: &quot;09/04/2024&quot;,
+    &quot;DurationYears&quot;: 1,
+    &quot;Amount&quot;: &quot;$651,354.00&quot;,
+    &quot;BillingCity&quot;: &quot;Jefferson&quot;,
+    &quot;DocDate&quot;: &quot;03/21/2024&quot;
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>IDOGrantsDocGenTransform</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+    &quot;GrantName&quot;: &quot;Associated Supply Co. 2023-2024 Relief &amp; Reinvestment Grant&quot;,
+    &quot;BillingState&quot;: &quot;TX&quot;,
+    &quot;RecipientName&quot;: &quot;Associated Supply Co.&quot;,
+    &quot;BillingStreet&quot;: &quot;2056 Laurel Ave&quot;,
+    &quot;AwardNumber&quot;: &quot;00000050&quot;,
+    &quot;FundingStart&quot;: &quot;09/04/2023&quot;,
+    &quot;StartDate&quot;: &quot;12/12/2023&quot;,
+    &quot;AccountNumber&quot;: &quot;A15147135&quot;,
+    &quot;County&quot;: &quot;Caroline&quot;,
+    &quot;EndDate&quot;: &quot;03/21/2024&quot;,
+    &quot;BillingZip&quot;: &quot;77701&quot;,
+    &quot;Awardee&quot;: &quot;Associated Supply Co.&quot;,
+    &quot;Duration&quot;: 100,
+    &quot;FundingEnd&quot;: &quot;09/04/2024&quot;,
+    &quot;DurationYears&quot;: 1,
+    &quot;Amount&quot;: &quot;$651,354.00&quot;,
+    &quot;BillingCity&quot;: &quot;Jefferson&quot;,
+    &quot;DocDate&quot;: &quot;03/21/2024&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <targetOutputFileName>Grant Award Notice(Version 1)</targetOutputFileName>
+    <type>Transform</type>
+</DataMapperDefinition>

@@ -1,0 +1,98 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FormulaExpression": "DESERIALIZE(fileContent)",
+        "FormulaResultPath": "DeserializedFileContent",
+        "FormulaSequence": 1,
+        "GlobalKey": "QuickBuildDeserializeJSONImport2163495861325948",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "QuickBuildDeserializeJSONImport",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildDeserializeJSONImport",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildDeserializeJSONImport",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FormulaExpression": "ISNOTBLANK(DeserializedFileContent:ActionPlanTemplate:ActionPlanTemplateVersion:ActionPlanTemplateItemSignature)",
+        "FormulaResultPath": "HasSignature",
+        "FormulaSequence": 2,
+        "GlobalKey": "QuickBuildDeserializeJSONImport2387071123375506",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "QuickBuildDeserializeJSONImport",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildDeserializeJSONImport",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildDeserializeJSONImport",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildDeserializeJSONImport9150936204570002",
+        "InputFieldName": "DeserializedFileContent",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "QuickBuildDeserializeJSONImport",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildDeserializeJSONImport",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildDeserializeJSONImport",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "DeserializedFileContent",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildDeserializeJSONImport4665996418522178",
+        "InputFieldName": "HasSignature",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "QuickBuildDeserializeJSONImport",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildDeserializeJSONImport",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildDeserializeJSONImport",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "HasSignature",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

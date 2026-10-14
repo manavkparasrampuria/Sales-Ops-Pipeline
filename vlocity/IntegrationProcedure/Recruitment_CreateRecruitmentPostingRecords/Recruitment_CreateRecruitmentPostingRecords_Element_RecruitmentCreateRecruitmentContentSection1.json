@@ -1,0 +1,52 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "RecruitmentCreateRecruitmentContentSection1",
+    "OmniProcessId": {
+        "Name": "CreateRecruitmentPostingandRelatedRecords",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/CreateRecruitmentPostingRecords/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "ContentLanguage": "=%RecruitmentTransformContentSectionInput:Section1ContentLanguage%",
+            "ContentName": "=%RecruitmentTransformContentSectionInput:Section1ContentName%",
+            "ContentType": "=%RecruitmentTransformContentSectionInput:Section1ContentType%",
+            "SectionContent": "=%RecruitmentTransformContentSectionInput:Section1Content%",
+            "SectionDescription": "=%RecruitmentTransformContentSectionInput:Section1Description%",
+            "SectionEndDate": "=%RecruitmentTransformContentSectionInput:Section1EndDate%",
+            "SectionStartDate": "=%RecruitmentTransformContentSectionInput:Section1StartDate%",
+            "SectionStatus": "=%RecruitmentTransformContentSectionInput:Section1Status%"
+        },
+        "additionalOutput": {
+            "JobContentID": "=%RecruitmentCreateRecruitmentContentSection1:RecruitmentContentSection_1:Id%"
+        },
+        "bundle": "RecruitmentCreateRecruitmentContentSection",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "%PostingDetailsSection1:PopulateContent%!=\"Existing section\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataRaptorPostAction1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/CreateRecruitmentPostingRecords/Procedure/RecruitmentCreateRecruitmentContentSection1"
+}

@@ -1,0 +1,95 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildOSAssessmentQuestionUpsertCustom4160",
+        "InputFieldName": "OPAQ:AssessmentQuestionVersionId",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "MayEdit": true,
+        "Name": "QuickBuildOSAssessmentQuestionUpsert",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildOSAssessmentQuestionUpsert",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildOSAssessmentQuestionUpsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AssessmentQuestionVersionId",
+        "OutputObjectName": "OmniProcessAsmtQuestionVer",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "QuickBuildOSAssessmentQuestionUpsertCustom2821",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "QuickBuildOSAssessmentQuestionUpsert",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildOSAssessmentQuestionUpsert",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildOSAssessmentQuestionUpsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "OmniProcessAsmtQuestionVer",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildOSAssessmentQuestionUpsertCustom2503",
+        "InputFieldName": "OPAQ:OmniProcessElementId",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "MayEdit": true,
+        "Name": "QuickBuildOSAssessmentQuestionUpsert",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildOSAssessmentQuestionUpsert",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildOSAssessmentQuestionUpsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "OmniProcessElementId",
+        "OutputObjectName": "OmniProcessAsmtQuestionVer",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildOSAssessmentQuestionUpsertCustom3127",
+        "InputFieldName": "OPAQ:OmniProcessId",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "MayEdit": true,
+        "Name": "QuickBuildOSAssessmentQuestionUpsert",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildOSAssessmentQuestionUpsert",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildOSAssessmentQuestionUpsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "OmniProcessId",
+        "OutputObjectName": "OmniProcessAsmtQuestionVer",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Método de distribuição de receita</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Métodos de distribuição de receita</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Não é possível selecionar Manual em Data de início do termo da agenda de receita ou Data final da agenda de receita quando Processo de criação da transação de receita é Automático</errorMessage>
+        <name>blng__CannotSpecifyRevDatesifTransTypeAutomati</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Data inicial e Data final da agenda de receita devem ser manuais apenas quando o Processo de criação da transação de receita é Manual</errorMessage>
+        <name>blng__DontSpecifyDatesIfCreationProcessManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A data de reconhecimento completo não pode ser Manual quando o Processo de criação da transação de receita é Automático</errorMessage>
+        <name>blng__DontSpecifyFRDateIfCreationProcessManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A Data inicial e Data final da agenda de receita não podem ser especificadas quando o método de distribuição é Reconhecimento completo</errorMessage>
+        <name>blng__DontSpecifyStartDateEndDateForFullRecogn</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A data de reconhecimento completo apenas deve ser Manual quando o Processo de criação da transação de receita é Manual</errorMessage>
+        <name>blng__FulRecDateCanbeManualifTransTypeManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Não é possível selecionar a Data de reconhecimento completo quando o Método de distribuição é outro além de Reconhecimento completo</errorMessage>
+        <name>blng__FullRecDateEmptyForDailyMonthlyMethod</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A Data de reconhecimento completo é obrigatória quando Método de distribuição = Reconhecimento completo</errorMessage>
+        <name>blng__FullRecognitionDateIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Data final de agenda de receita deve estar alinhado com Tipo</errorMessage>
+        <name>blng__RevenueScheduleEndDateAlignWithType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Data inicial de agenda de receita deve estar alinhado com Tipo</errorMessage>
+        <name>blng__RevenueScheduleStartDateAlignWithType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Data final de reconhecimento completo deve estar alinhado com Tipo.</errorMessage>
+        <name>blng__TYPESHOULDALIGNFULLRECOGNITIONDATE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A Data final de termo é obrigatória quando Método de distribuição = Mensal/Diário</errorMessage>
+        <name>blng__TermEndDateIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Data inicial de termo é obrigatória quando Método de distribuição = Mensal/diário</errorMessage>
+        <name>blng__TermStartDateIsRequired</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPICleanupSalonCharges</dataMapperDefItemName>
+        <globalKey>LPICleanupSalonCharges371615199512473</globalKey>
+        <inputField>charges:amount</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>formattedcharges:amount</outputField>
+        <outputFieldDataType>Currency</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPICleanupSalonCharges</dataMapperDefItemName>
+        <globalKey>LPICleanupSalonCharges16299812132926483</globalKey>
+        <inputField>charges:formattedname</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>formattedcharges:formattedname</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPICleanupSalonCharges</dataMapperDefItemName>
+        <formulaConverted>| var:charges:name | var:charges:calculationInfo var:null != &quot;(&quot; &quot;&quot; IF var:charges:calculationInfo | var:charges:calculationInfo var:null != &quot;)&quot; &quot;&quot; IF CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(charges:name, IF(charges:calculationInfo != null,&quot;(&quot;,&quot;&quot;),charges:calculationInfo,IF(charges:calculationInfo != null,&quot;)&quot;,&quot;&quot;))</formulaExpression>
+        <formulaResultPath>charges:formattedname</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>LPICleanupSalonCharges2923127946788333</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;charges&quot;: [
+        {
+            &quot;name&quot;: &quot;Base Fee&quot;,
+            &quot;amount&quot;: 150,
+            &quot;ID&quot;: &quot;inputData&quot;,
+            &quot;$$hashKey&quot;: &quot;object:962&quot;
+        },
+        {
+            &quot;name&quot;: &quot;Location Fee&quot;,
+            &quot;amount&quot;: 100,
+            &quot;ID&quot;: &quot;inputData&quot;,
+            &quot;$$hashKey&quot;: &quot;object:963&quot;
+        },
+        {
+            &quot;calculationInfo&quot;: &quot;Fee for Seating Capacity&quot;,
+            &quot;name&quot;: &quot;Additional Fee&quot;,
+            &quot;amount&quot;: 45,
+            &quot;ID&quot;: &quot;inputData&quot;,
+            &quot;$$hashKey&quot;: &quot;object:964&quot;
+        },
+        {
+            &quot;calculationInfo&quot;: &quot;20%&quot;,
+            &quot;name&quot;: &quot;Business Discount&quot;,
+            &quot;amount&quot;: -30,
+            &quot;ID&quot;: &quot;inputData&quot;,
+            &quot;$$hashKey&quot;: &quot;object:965&quot;
+        }
+    ]
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>LPICleanupSalonCharges</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;charges&quot;: [
+    {
+      &quot;name&quot;: &quot;Base Fee&quot;,
+      &quot;amount&quot;: 150,
+      &quot;ID&quot;: &quot;inputData&quot;,
+      &quot;$$hashKey&quot;: &quot;object:962&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Location Fee&quot;,
+      &quot;amount&quot;: 100,
+      &quot;ID&quot;: &quot;inputData&quot;,
+      &quot;$$hashKey&quot;: &quot;object:963&quot;
+    },
+    {
+      &quot;calculationInfo&quot;: &quot;Fee for Seating Capacity&quot;,
+      &quot;name&quot;: &quot;Additional Fee&quot;,
+      &quot;amount&quot;: 45,
+      &quot;ID&quot;: &quot;inputData&quot;,
+      &quot;$$hashKey&quot;: &quot;object:964&quot;
+    },
+    {
+      &quot;calculationInfo&quot;: &quot;20%&quot;,
+      &quot;name&quot;: &quot;Business Discount&quot;,
+      &quot;amount&quot;: -30,
+      &quot;ID&quot;: &quot;inputData&quot;,
+      &quot;$$hashKey&quot;: &quot;object:965&quot;
+    }
+  ]
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Transform</type>
+</DataMapperDefinition>

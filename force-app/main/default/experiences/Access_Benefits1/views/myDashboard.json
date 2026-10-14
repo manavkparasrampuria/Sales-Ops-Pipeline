@@ -1,0 +1,493 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b8539dc4-dab4-449c-91fb-8d0cf95d11b8",
+  "label" : "My Dashboard",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "4ea75851-762c-40d8-9771-f761e07f9e7e",
+          "columns" : [ {
+            "UUID" : "28ecd8ee-0c7a-4246-849e-05e0dd9c976a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4ea75851-762c-40d8-9771-f761e07f9e7e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<hr>\n<div style=\"border:0px solid #d4d4d4; padding:0rem;font-size:1.6rem;\"\" class=\"slds-col imagePreview\";>\n<p><b>Manage Your Records</b></p>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "29f55191-2937-42dd-a347-1cc91ccef5ca",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "6cce58da-104e-498d-84dc-687a9750b497",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "3a3a4578-69fa-4126-a5ad-b47fa5a8c591",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Draft Applications"
+              }, {
+                "UUID" : "987d3090-f8ad-4e8b-9c60-7d79bbdb8bab",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "Submitted Applications"
+              }, {
+                "UUID" : "4b193f70-4646-4b14-bde3-ab5dd64cd8f8",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "3",
+                "tabName" : "Benefit Assignments"
+              }, {
+                "UUID" : "720db818-811d-44ad-b739-f2d63112caef",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "9071a",
+                "tabName" : "Care Plans"
+              }, {
+                "UUID" : "5d189f91-eeec-40c6-bbae-3759a1171b26",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "8cf3a",
+                "tabName" : "Cases"
+              }, {
+                "UUID" : "625fcfa2-d102-46af-b77e-171c73b8b616",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "78fcc",
+                "tabName" : "Complaints"
+              }, {
+                "UUID" : "c100c36f-3411-4793-a472-aed08dcf2850",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "33177",
+                "tabName" : "Goal Assignments"
+              }, {
+                "UUID" : "70a9190c-88fc-49fb-a05c-1bc175b7b16c",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "3e315",
+                "tabName" : "Case Proceedings"
+              }, {
+                "UUID" : "3f017786-43a9-4607-99cc-9543d959d34c",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "c5119",
+                "tabName" : "Tasks"
+              }, {
+                "UUID" : "d2bdd58a-9c2d-4588-ad2d-3dfcb0bfc88c",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "731bf",
+                "tabName" : "My Messages"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "6cce58da-104e-498d-84dc-687a9750b497",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : false,
+                "filterName" : "DraftPreliminaryApplicationRef",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "PreliminaryApplicationRef",
+                "showActionBar" : false,
+                "showChartsPanel" : false,
+                "showDisplay" : "grid",
+                "showFilterPanel" : false,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : true,
+                "showObjectName" : true,
+                "showPinnedList" : false,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "6ba914e4-651d-4a5f-aa96-9dd92e1cf139",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "3a3a4578-69fa-4126-a5ad-b47fa5a8c591",
+            "regionLabel" : "Draft Applications",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : false,
+                "filterName" : "My_Individual_Applications",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "IndividualApplication",
+                "showActionBar" : false,
+                "showChartsPanel" : true,
+                "showDisplay" : "grid",
+                "showFilterPanel" : false,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : true,
+                "showObjectName" : true,
+                "showPinnedList" : false,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "df0f04ca-1ba4-415c-acc5-4076f3eec29e",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "987d3090-f8ad-4e8b-9c60-7d79bbdb8bab",
+            "regionLabel" : "Submitted Applications",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "richTextValue" : "<p><br></p><p><em>Note: Drill down into you benefit assignment record(s) to see all benefit disbursement information.</em></p>"
+              },
+              "componentName" : "forceCommunity:richTextInline",
+              "id" : "738d9032-a80c-4faa-a733-8175bbff4248",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "enableInlineEdit" : false,
+                "filterName" : "All_BenefitAssignments",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "BenefitAssignment",
+                "showActionBar" : false,
+                "showChartsPanel" : false,
+                "showDisplay" : "grid",
+                "showFilterPanel" : false,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : true,
+                "showObjectName" : false,
+                "showPinnedList" : false,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "61842870-09d3-4419-8263-94d5571d7dcc",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "4b193f70-4646-4b14-bde3-ab5dd64cd8f8",
+            "regionLabel" : "Benefit Assignments",
+            "regionName" : "3",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : false,
+                "filterName" : "All_CarePlans",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "CarePlan",
+                "showActionBar" : false,
+                "showChartsPanel" : false,
+                "showDisplay" : "grid",
+                "showFilterPanel" : true,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : true,
+                "showObjectName" : false,
+                "showPinnedList" : false,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "96128dfc-8d2d-41f9-a750-6d9ef377af44",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "720db818-811d-44ad-b739-f2d63112caef",
+            "regionLabel" : "Care Plans",
+            "regionName" : "9071a",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : false,
+                "filterName" : "SDO_Experience_Consumer_MyExperienceCases",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "Case",
+                "showActionBar" : false,
+                "showChartsPanel" : false,
+                "showDisplay" : "grid",
+                "showFilterPanel" : false,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : true,
+                "showObjectName" : false,
+                "showPinnedList" : false,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "1c09a977-1329-43b8-adaf-a4a6b877b5d0",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "5d189f91-eeec-40c6-bbae-3759a1171b26",
+            "regionLabel" : "Cases",
+            "regionName" : "8cf3a",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : false,
+                "filterName" : "New_Complaints",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "PublicComplaint",
+                "showActionBar" : false,
+                "showChartsPanel" : false,
+                "showDisplay" : "grid",
+                "showFilterPanel" : false,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : true,
+                "showObjectName" : false,
+                "showPinnedList" : false,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "384e1462-74c2-4f5a-85d9-d5c236e193ca",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "625fcfa2-d102-46af-b77e-171c73b8b616",
+            "regionLabel" : "Complaints",
+            "regionName" : "78fcc",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : false,
+                "filterName" : "All_GoalAssignments",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "GoalAssignment",
+                "showActionBar" : false,
+                "showChartsPanel" : false,
+                "showDisplay" : "grid",
+                "showFilterPanel" : false,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : true,
+                "showObjectName" : false,
+                "showPinnedList" : false,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "14e609b2-fa7e-43ca-bc91-95987f3077a3",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "c100c36f-3411-4793-a472-aed08dcf2850",
+            "regionLabel" : "Goal Assignments",
+            "regionName" : "33177",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "All_CaseProceedings",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "CaseProceeding",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "showall",
+                "showFilterPanel" : true,
+                "showImageIcon" : true,
+                "showManualRefreshButton" : true,
+                "showObjectName" : true,
+                "showPinnedList" : true,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "9b6721c4-3b0c-40ce-8f9d-ee830aa8e7ea",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "70a9190c-88fc-49fb-a05c-1bc175b7b16c",
+            "regionLabel" : "Case Proceedings",
+            "regionName" : "3e315",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "enableInlineEdit" : true,
+                "filterName" : "OpenTasks",
+                "layout" : "FULL",
+                "pageSize" : 25,
+                "scope" : "Task",
+                "showActionBar" : true,
+                "showChartsPanel" : true,
+                "showDisplay" : "grid",
+                "showFilterPanel" : false,
+                "showImageIcon" : false,
+                "showManualRefreshButton" : true,
+                "showObjectName" : false,
+                "showPinnedList" : false,
+                "showSearchBar" : true
+              },
+              "componentName" : "forceCommunity:objectHome",
+              "id" : "55e844ee-304f-48f6-8341-fbc7c8d1b18a",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "3f017786-43a9-4607-99cc-9543d959d34c",
+            "regionLabel" : "Tasks",
+            "regionName" : "c5119",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : {
+                "richTextValue" : "<BR>"
+              },
+              "componentName" : "forceCommunity:htmlBlock",
+              "id" : "554d1bfc-7083-4054-9e2d-807160412e30",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : { },
+              "componentName" : "forceChatter:messages",
+              "id" : "1a86dd4a-ce16-4215-ae8f-e697e9927d26",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "d2bdd58a-9c2d-4588-ad2d-3dfcb0bfc88c",
+            "regionLabel" : "My Messages",
+            "regionName" : "731bf",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "28ecd8ee-0c7a-4246-849e-05e0dd9c976a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "8f9cd42f-7a83-4cfa-b81e-874b56236a67",
+          "columns" : [ {
+            "UUID" : "231aa921-ba1f-45ac-bc4e-0e4132172fbf",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "8f9cd42f-7a83-4cfa-b81e-874b56236a67",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<HR>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "e5796cf3-32ae-4f8b-8f5a-ab1d440d9de3",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div align=\"center\">\n    <a href=\"/Benefits/s/support\"> \n        <button style=\"background-color: #395878; padding: 12px 30px; border: none; width:40%; font-size: 1.2rem; color: #fff; border-radius: 50px\";>Get Support</button>\n    </a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "7819572f-bde6-4af9-82ff-438151e2b379",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<HR>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "d13fd1cd-46c3-4701-b270-b1628eb736cf",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "231aa921-ba1f-45ac-bc4e-0e4132172fbf",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4173f722-2122-4e1b-9c33-95fc034d605f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Dashboard"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b210b43a-f1a3-4908-9118-a5ec63791f2d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9d89f367-b9cd-4fcc-bd30-af2982ba566e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "9CEZmDcmVq8kvgjXR5N0qt7Widg9aG",
+  "type" : "view",
+  "viewType" : "custom-my-dashboard"
+}

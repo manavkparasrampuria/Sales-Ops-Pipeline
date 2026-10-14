@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage><!-- Can&apos;t edit the FSLDemoTools Master data --></errorMessage>
+        <name>FSLDemoTools_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Slutdatumet måste vara inom 3 år från dagens datum</errorMessage>
+        <name>FSL__Limit_STM_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Det går inte att spara serviceområdesmedlem för typen sekundär med drifttimmar och adress</errorMessage>
+        <name>FSL__Secondary_STM</name>
+    </validationRules>
+</CustomObjectTranslation>

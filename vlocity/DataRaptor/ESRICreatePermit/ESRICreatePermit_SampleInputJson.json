@@ -1,0 +1,46 @@
+{
+    "ApplicantInformation": {
+        "AccountName": null,
+        "Address": null,
+        "Email": null,
+        "Fax": null,
+        "Phone": null
+    },
+    "ContextId": null,
+    "ProjectInformation": {
+        "ProjectDescription": null,
+        "ProjectName": null
+    },
+    "SupportingDocumentation": {
+        "UploadFiles": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "TypeOfWorkStep": {
+        "CompanyName": null,
+        "TypeOfWork": null,
+        "WorkEntityInformation": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApplicantInformation": null,
+        "CallMulesoftToAddToESRI": null,
+        "DRAddCrop": null,
+        "DRGetCrop": null,
+        "DRSaveApplication": null,
+        "DRUpdateCrop": null,
+        "ProjectInformation": null,
+        "SupportingDocumentation": null,
+        "TypeOfWorkStep": null
+    }
+}

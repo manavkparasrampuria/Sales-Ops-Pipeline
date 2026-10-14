@@ -1,0 +1,32 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMaps_Autocomplete_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Autocomplete",
+    "OmniProcessElement": [
+        "GoogleMaps_Autocomplete_Element_SetupValues.json",
+        "GoogleMaps_Autocomplete_Element_EncodeURL.json",
+        "GoogleMaps_Autocomplete_Element_CallGoogleAPI.json",
+        "GoogleMaps_Autocomplete_Element_TransformResults.json",
+        "GoogleMaps_Autocomplete_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "GoogleMaps_Autocomplete",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMaps_Autocomplete_PropertySetConfig.json",
+    "SubType": "Autocomplete",
+    "Type": "GoogleMaps",
+    "UniqueName": "GoogleMaps_Autocomplete_Procedure_16",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMaps/Autocomplete/Procedure"
+}

@@ -6,6 +6,8 @@
     <columns>ENTITLEMENT.STARTDATE</columns>
     <columns>ENTITLEMENT.ENDDATE</columns>
     <columns>ENTITLEMENT.STATUS</columns>
+    <columns>SLA.NAME</columns>
+    <columns>ENTITLEMENT.CREATED_DATE</columns>
     <filterScope>Everything</filterScope>
-    <label>Todas las asignaciones</label>
+    <label>All Entitlements</label>
 </ListView>

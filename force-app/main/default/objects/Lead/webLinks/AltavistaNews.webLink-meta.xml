@@ -10,11 +10,11 @@
     <height>600</height>
     <isResizable>true</isResizable>
     <linkType>url</linkType>
-    <masterLabel>Noticias de Altavista</masterLabel>
+    <masterLabel>Altavista News</masterLabel>
     <openType>newWindow</openType>
     <position>none</position>
     <protected>false</protected>
     <showsLocation>true</showsLocation>
     <showsStatus>true</showsStatus>
-    <url>http://news.altavista.com/search?nc=0&amp;q={!Lead.Company}</url>
+    <url>http://news.altavista.com/search?nc=0&amp;q={!Lead_Company}</url>
 </WebLink>

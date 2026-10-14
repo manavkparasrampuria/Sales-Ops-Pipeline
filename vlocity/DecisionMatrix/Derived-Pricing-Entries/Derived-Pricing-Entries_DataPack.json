@@ -1,0 +1,22 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DataSource": "SingleSobject",
+    "DecisionMatrixType": "DecisionTable",
+    "DecisionTableType": "MediumVolume",
+    "Description": "Derived Pricing Entries Decision Table",
+    "GroupKey": "",
+    "IsLocked": false,
+    "LastSyncDate": "2025-01-10T21:30:34.000Z",
+    "MayEdit": true,
+    "Name": "Derived Pricing Entries",
+    "Namespace": "",
+    "RefreshStatus": "Completed",
+    "Status": "Active",
+    "SubGroupKey": "",
+    "Type": "",
+    "UniqueName": "Derived Pricing Entries",
+    "UsageType": "PricingDiscovery",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/Derived Pricing Entries"
+}

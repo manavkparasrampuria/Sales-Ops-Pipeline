@@ -1,0 +1,39 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetSpousalSupportAmount",
+    "OmniProcessId": {
+        "Name": "CreatePartyExpenses",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/CreatePartyExpenses/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "SpousalSupportAmount": {
+                "EndDateTime": "%IACreatedAt%",
+                "PartyId": "%PartyId%",
+                "StartDateTime": "%IACreatedAt%",
+                "TotalAmount": "%GenericData:SpousalSupportAmount%",
+                "Type": "Spousal Support"
+            }
+        },
+        "executionConditionalFormula": "(ISBLANK(%GenericData:SpousalSupportAmount%) != true) && %GenericData:SpousalSupportAmount% > 0",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues2",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/CreatePartyExpenses/Procedure/SetSpousalSupportAmount"
+}

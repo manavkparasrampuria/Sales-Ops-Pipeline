@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateInteractionSummary</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>CreateInteractionSummaryCustom5719</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>InteractionSummary</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateInteractionSummary</dataMapperDefItemName>
+        <globalKey>CreateInteractionSummaryCustom7007</globalKey>
+        <inputField>NewComplaint:RunningNotes</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>MeetingNotes</outputField>
+        <outputObject>InteractionSummary</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateInteractionSummary</dataMapperDefItemName>
+        <globalKey>CreateInteractionSummaryCustom5571</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:Subject</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>InteractionSummary</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateInteractionSummary</dataMapperDefItemName>
+        <globalKey>CreateInteractionSummaryCustom5849</globalKey>
+        <inputField>PublicComplaintId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RelatedRecordId</outputField>
+        <outputObject>InteractionSummary</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;data&quot;: [],
+    &quot;timeStamp&quot;: &quot;2022-05-06T06:02:24.287Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;userTimeZone&quot;: &quot;-420&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;admin238rfpss@sf.com&quot;,
+    &quot;userId&quot;: &quot;005RQ000000HfNuYAK&quot;,
+    &quot;PublicComplaintId&quot;: &quot;0fhRO00000000MiYAI&quot;,
+    &quot;NewComplaint&quot;: {
+        &quot;AddAdditionalDetails&quot;: false,
+        &quot;Participants&quot;: null,
+        &quot;Allegations&quot;: null,
+        &quot;RequestConfidentiality&quot;: &quot;No&quot;,
+        &quot;ComplaintDetails&quot;: {
+            &quot;Subject&quot;: &quot;subject&quot;,
+            &quot;Priority&quot;: &quot;Critical&quot;,
+            &quot;Status&quot;: &quot;Submitted&quot;,
+            &quot;FirstName&quot;: &quot;reporter firstname&quot;,
+            &quot;LastName&quot;: &quot;reporter lastname&quot;,
+            &quot;Organization&quot;: &quot;org&quot;,
+            &quot;Phone&quot;: &quot;2342342342&quot;,
+            &quot;Email&quot;: &quot;sdfg@sdf.sdfg&quot;,
+            &quot;Address&quot;: &quot;sfgsdfgsfg&quot;,
+            &quot;LocationOfIncident&quot;: &quot;bangalore&quot;,
+            &quot;DateReported&quot;: &quot;2022-05-05&quot;,
+            &quot;Details&quot;: &quot;sdsdfsf&quot;
+        },
+        &quot;RunningNotes&quot;: &quot;Running Notes&quot;
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>CreateInteractionSummary</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;data&quot;: [],
+  &quot;timeStamp&quot;: &quot;2022-05-06T06:02:24.287Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+  &quot;userTimeZone&quot;: &quot;-420&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;admin238rfpss@sf.com&quot;,
+  &quot;userId&quot;: &quot;005RQ000000HfNuYAK&quot;,
+  &quot;DRId_PublicComplaint&quot;: &quot;0fhRO00000000MiYAI&quot;,
+  &quot;NewComplaint&quot;: {
+    &quot;AddAdditionalDetails&quot;: false,
+    &quot;Participants&quot;: null,
+    &quot;Allegations&quot;: null,
+    &quot;RequestConfidentiality&quot;: &quot;No&quot;,
+    &quot;ComplaintDetails&quot;: {
+      &quot;Subject&quot;: &quot;complaint1&quot;,
+      &quot;Priority&quot;: &quot;Critical&quot;,
+      &quot;Status&quot;: &quot;Submitted&quot;,
+      &quot;FirstName&quot;: &quot;brij&quot;,
+      &quot;LastName&quot;: &quot;reporter lastname&quot;,
+      &quot;Organization&quot;: &quot;org&quot;,
+      &quot;Phone&quot;: &quot;2342342342&quot;,
+      &quot;Email&quot;: &quot;sdfg@sdf.sdfg&quot;,
+      &quot;Address&quot;: &quot;sfgsdfgsfg&quot;,
+      &quot;LocationOfIncident&quot;: &quot;bangalore&quot;,
+      &quot;DateReported&quot;: &quot;2022-05-05&quot;,
+      &quot;Details&quot;: &quot;sdsdfsf&quot;
+    },
+    &quot;RunningNotes&quot;: &quot;Running Notes1&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

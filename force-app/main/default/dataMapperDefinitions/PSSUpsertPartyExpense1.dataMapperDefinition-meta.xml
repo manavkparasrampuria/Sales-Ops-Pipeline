@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertPartyExpense1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSUpsertPartyExpenseCustom6920</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>PartyExpense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertPartyExpense1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertPartyExpenseCustom2618</globalKey>
+        <inputField>TotalAmount</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>TotalAmount</outputField>
+        <outputObject>PartyExpense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertPartyExpense1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertPartyExpenseCustom5766</globalKey>
+        <inputField>StartDateTime</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>StartDateTime</outputField>
+        <outputObject>PartyExpense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertPartyExpense1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertPartyExpenseCustom7074</globalKey>
+        <inputField>Type</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Type</outputField>
+        <outputObject>PartyExpense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertPartyExpense1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertPartyExpenseCustom7142</globalKey>
+        <inputField>PartyId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PartyId</outputField>
+        <outputObject>PartyExpense</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertPartyExpense1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertPartyExpenseCustom8861</globalKey>
+        <inputField>EndDateTime</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>EndDateTime</outputField>
+        <outputObject>PartyExpense</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Creates or updates a party expense.</description>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>true</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSUpsertPartyExpense1</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>[ {
+  &quot;TotalAmount&quot; : &quot;500&quot;,
+  &quot;PartyId&quot; : &quot;001xx000003Ggt9AAC&quot;,
+  &quot;StartDateTime&quot; : &quot;2023-06-13T05:02:59.000Z&quot;,
+  &quot;EndDateTime&quot; : &quot;2023-06-13T05:02:59.000Z&quot;,
+  &quot;Type&quot; : &quot;Child Care&quot;
+}, {
+  &quot;TotalAmount&quot; : &quot;150&quot;,
+  &quot;PartyId&quot; : &quot;001xx000003Ggt9AAC&quot;,
+  &quot;StartDateTime&quot; : &quot;2023-06-13T05:02:59.000Z&quot;,
+  &quot;EndDateTime&quot; : &quot;2023-06-13T05:02:59.000Z&quot;,
+  &quot;Type&quot; : &quot;Garnishments&quot;
+} ]</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <defaultValue>Benefit</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase24656513866344398</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase1737111539067444</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase9827998714069219</globalKey>
+        <inputField>User:AccountId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <defaultValue>Draft</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase42945748742066425</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase6770453456751002</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <defaultValue>Benefits</defaultValue>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCaseCustom7639</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase302421903356451</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase43629892877107457</globalKey>
+        <inputField>AppliedDate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase5924563548946591</globalKey>
+        <inputField>CaseSubject</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <defaultValue>Web</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase7677422932828211</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Origin</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>Case</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase34068393897680793</globalKey>
+        <inputField>DRId_PreliminaryApplicationRef</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>SavedApplicationRefId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <defaultValue>Heating Assistance</defaultValue>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCaseCustom816</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RegulatoryAuthorizationType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>LicenseTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>var:HeadOfHouseholdDetails:PSS_BM_v2_HeadOfHouseholdFirstName &quot;_&quot; + var:HeadOfHouseholdDetails:PSS_BM_v2_HeadOfHouseholdLastName + &quot;_LIHEAP&quot; +</formulaConverted>
+        <formulaExpression>HeadOfHouseholdDetails:PSS_BM_v2_HeadOfHouseholdFirstName+&quot;_&quot;+HeadOfHouseholdDetails:PSS_BM_v2_HeadOfHouseholdLastName+&quot;_LIHEAP&quot;</formulaExpression>
+        <formulaResultPath>CaseSubject</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase5073304911494019</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase10004281512022928</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreateIndividualApplicationAndCase</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSExpCloudCreateIndividualApplicationAndCase5077961354848559</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ApplicationCaseId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Creates an individual application and its related case.</description>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>true</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSExpCloudCreateIndividualApplicationAndCase</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+    &quot;timeStamp&quot;: &quot;2023-05-30T19:39:04.157Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;userTimeZone&quot;: &quot;-420&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;jeremy.blankenship@gpssummer23.dev&quot;,
+    &quot;userId&quot;: &quot;0054S0000037D4jQAE&quot;,
+    &quot;omniProcessId&quot;: &quot;0jN4S000000H0dNUAS&quot;,
+    &quot;HeadOfHouseholdDetails&quot;: {
+        &quot;PSS_BM_v1_HeadOfHouseholdFirstName&quot;: &quot;Radhika&quot;,
+        &quot;PSS_BM_v1_HeadOfHouseholdLastName&quot;: &quot;Marshall&quot;,
+        &quot;PSS_BM_v1_HeadOfHouseholdEmail&quot;: &quot;j@j.com&quot;,
+        &quot;PSS_BM_v1_HeadOfHouseholdPhoneNumber&quot;: &quot;3939393903&quot;,
+        &quot;PSS_BM_v1_HeadOfHouseholdCellNumber&quot;: &quot;3939393939&quot;,
+        &quot;PSS_BM_v1_HeadOfHouseholdAddress&quot;: &quot;123 Main S&quot;,
+        &quot;PSS_BM_v1_HeadOfHouseholdCity&quot;: &quot;Richmond&quot;,
+        &quot;PSS_BM_v1_HeadOfHouseholdState&quot;: &quot;VA&quot;,
+        &quot;PSS_BM_v1_HeadOfHouseholdZipCode&quot;: &quot;393939&quot;
+    },
+    &quot;HouseholdInformation&quot;: {},
+    &quot;Income&quot;: {},
+    &quot;Expenses&quot;: {},
+    &quot;HousingAndHeating&quot;: {},
+    &quot;Acknowledgement&quot;: {},
+    &quot;ApplicationReview&quot;: {},
+    &quot;User&quot;:{
+        &quot;AccountId&quot;:&quot;0014S00000BPvrMQAT&quot;
+    }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

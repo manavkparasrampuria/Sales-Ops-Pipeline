@@ -1,0 +1,123 @@
+{
+    "ApplicationInformation": {
+        "ApplicationCategory": "Basic",
+        "AssociatedAccount": "ALICIA RENDON SALON",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "Salon Establishment License",
+        "BusinessActivity": "Beauty Salon",
+        "Industries": "Personal Care Services",
+        "expIsPARCreated": false,
+        "exprShowMinnesotaSalonLicenceApplication": true,
+        "isBusinessActivityFilled": true,
+        "isIndustriesFilled": true
+    },
+    "ApplicationStatus": "Submitted",
+    "Certification": {
+        "CertificationText": true
+    },
+    "ContactId": "0035f000003ABE9AAO",
+    "DRId_PreliminaryApplicationRef": "0go5f000000blgDAAQ",
+    "EstablishmentInformation": {
+        "Address": "Street -:  5378 MISSION ST City -: San Francisco State -: CA Zipcode -: null",
+        "BusinessDBAName": "ALICIA RENDON SALON",
+        "BusinessLegalName": "ALICIA RENDON SALON",
+        "City": "San Francisco",
+        "ContactName": "Geoff Duckwall",
+        "State": "CA",
+        "Street": "5378 MISSION ST",
+        "Zipcode": "94112"
+    },
+    "OwnershipInformation": {
+        "CorporationOrLLCOwnership": null,
+        "IndividualOwnership": {
+            "IndividualFirstName": "Duckwall",
+            "IndividualLastName": "Geoff"
+        },
+        "OwnershipType": "Individual",
+        "PartnershipOwnership": null,
+        "PriorEstablishmentDetails": null,
+        "PurchaseOrTakeOver": "Purchasing"
+    },
+    "Payment": {
+    },
+    "ReasonForNewLicenseApplication": null,
+    "ReviewFee": {
+        "PayNow": "Yes",
+        "isExistingApplication": false
+    },
+    "SalonAccountId": "0015f0000042mmRAAQ",
+    "SalonAuthorizationTypeId": "0eh5f000000GmywAAC",
+    "SalonBusinessActivityId": "2gF5f000000k9jeEAA",
+    "SalonInformation": {
+        "BusinessLocation": "No",
+        "BusinessType": null,
+        "NumberOfChairs": 15,
+        "NumberOfEmployees": 14,
+        "SalonInAResidence": "No",
+        "SalonStartDate": "2021-08-27"
+    },
+    "SampleUser": "0055f000001oN4nAAE",
+    "calculationDate": "",
+    "charges": [
+        {
+            "ID": "inputData",
+            "amount": 150,
+            "name": "Base Fee"
+        },
+        {
+            "ID": "inputData",
+            "amount": 100,
+            "name": "Location Fee"
+        },
+        {
+            "ID": "inputData",
+            "amount": 45,
+            "calculationInfo": "Fee for Seating Capacity",
+            "name": "Additional Fee"
+        },
+        {
+            "ID": "inputData",
+            "amount": -30,
+            "calculationInfo": "20%",
+            "name": "Business Discount"
+        }
+    ],
+    "dueDate": "",
+    "formattedcharges": [
+        {
+            "amount": "$150.00",
+            "formattedname": "Base Fee"
+        },
+        {
+            "amount": "$100.00",
+            "formattedname": "Location Fee"
+        },
+        {
+            "amount": "$45.00",
+            "formattedname": "Additional Fee(Fee for Seating Capacity)"
+        },
+        {
+            "amount": "$-30.00",
+            "formattedname": "Business Discount(20%)"
+        }
+    ],
+    "inputData": {
+        "ApplicationCategory": "Basic",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "Salon Establishment License",
+        "BusinessLocation": "No",
+        "EmployeeSize": "",
+        "NumberOfChairs": 15,
+        "SalonInAResidence": "No"
+    },
+    "isBLASubmitted": false,
+    "isEditable": true,
+    "isPDFDownloaded": true,
+    "timeStamp": "2021-08-27T17:22:40.187Z",
+    "totalFee": 265,
+    "userCurrencyCode": "USD",
+    "userId": "0055f000000yem1AAA",
+    "userName": "jblankenship@lpi2.0testing.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

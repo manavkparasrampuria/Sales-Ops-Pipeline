@@ -4,16 +4,17 @@
     <doesEnforceApexCpuTimeLimit>true</doesEnforceApexCpuTimeLimit>
     <doesFormulaEnforceDataAccess>false</doesFormulaEnforceDataAccess>
     <doesFormulaGenerateHtmlOutput>false</doesFormulaGenerateHtmlOutput>
+    <enableAgentforceFlowAutomation>false</enableAgentforceFlowAutomation>
     <enableEmailSimpleRespectProfiles>true</enableEmailSimpleRespectProfiles>
     <enableEmailsimpleSecureProfiles>false</enableEmailsimpleSecureProfiles>
     <enableFlowBREncodedFixEnabled>true</enableFlowBREncodedFixEnabled>
     <enableFlowCustomPropertyEditor>false</enableFlowCustomPropertyEditor>
-    <enableFlowDeployAsActiveEnabled>false</enableFlowDeployAsActiveEnabled>
-    <enableFlowFieldFilterEnabled>true</enableFlowFieldFilterEnabled>
+    <enableFlowDeployAsActiveEnabled>true</enableFlowDeployAsActiveEnabled>
+    <enableFlowFieldFilterEnabled>false</enableFlowFieldFilterEnabled>
     <enableFlowFormulasFixEnabled>true</enableFlowFormulasFixEnabled>
     <enableFlowInterviewSharingEnabled>true</enableFlowInterviewSharingEnabled>
-    <enableFlowNullPreviousValueFix>false</enableFlowNullPreviousValueFix>
-    <enableFlowPauseEnabled>false</enableFlowPauseEnabled>
+    <enableFlowNullPreviousValueFix>true</enableFlowNullPreviousValueFix>
+    <enableFlowPauseEnabled>true</enableFlowPauseEnabled>
     <enableFlowReactiveChoiceOptions>false</enableFlowReactiveChoiceOptions>
     <enableFlowReactiveScreens>false</enableFlowReactiveScreens>
     <enableFlowUseApexExceptionEmail>false</enableFlowUseApexExceptionEmail>
@@ -23,5 +24,4 @@
     <isEnhancedFlowListViewVisible>true</isEnhancedFlowListViewVisible>
     <isFlowBlockAccessToSessionIDEnabled>true</isFlowBlockAccessToSessionIDEnabled>
     <isManageFlowRequiredForAutomationCharts>false</isManageFlowRequiredForAutomationCharts>
-    <isSupportRollbackOnErrorForApexInvocableActionsEnabled>true</isSupportRollbackOnErrorForApexInvocableActionsEnabled>
 </FlowSettings>

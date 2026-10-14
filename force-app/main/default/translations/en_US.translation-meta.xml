@@ -1,3 +1,427 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customTabs>
+        <label><!-- Analytics Demo Tools --></label>
+        <name>AnalyticsDemoTools</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- B2B Commerce Service Console --></label>
+        <name>B2B_Commerce_Service_Console</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Commerce Dashboard --></label>
+        <name>Commerce_Dashboard</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Crew Management --></label>
+        <name>Crew_Management</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Dashboard Magic 2 --></label>
+        <name>DBM_25</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Dynamic Banner Setup --></label>
+        <name>Dynamic_Banner_Setup</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Work Capacity --></label>
+        <name>FSL__CapacityManagement</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Dispatch Console (Beta) --></label>
+        <name>FSL__DispatchConsole</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Field Service --></label>
+        <name>FSL__FieldService</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Field Service Settings --></label>
+        <name>FSL__Field_Service_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Optimization Center --></label>
+        <name>FSL__OptimizationCenter</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Field Service Starter Kit Settings --></label>
+        <name>FSSK__Field_Service_Starter_Kit_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- GPS Demo Tools --></label>
+        <name>GPS_Demo_Tools</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Grants Demo Management --></label>
+        <name>Grants_Demo_Management</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- LPI Demo Management --></label>
+        <name>LPI_Demo_Management</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Maps Settings --></label>
+        <name>Maps_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Call Center --></label>
+        <name>P4SF_Standalone__Call_Center</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Fleet Management --></label>
+        <name>P4SF_Standalone__Fleet_Management</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Recurring Revenue --></label>
+        <name>P4SF_Standalone__Recurring_Revenue</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Sales Pipeline --></label>
+        <name>P4SF_Standalone__Sales_Pipeline</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Sales and Margin --></label>
+        <name>P4SF_Standalone__Sales_and_Margin</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Service Desk --></label>
+        <name>P4SF_Standalone__Service_Desk</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Shipment --></label>
+        <name>P4SF_Standalone__Shipment</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Company ESG --></label>
+        <name>P4SF_Standalone__Tableau_Insight_Company_ESG</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Project Portfolio --></label>
+        <name>P4SF_Standalone__Tableau_Insight_PMO</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Retail Sales --></label>
+        <name>P4SF_Standalone__Tableau_Insight_Retail_Sales</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Tableau Pulse --></label>
+        <name>P4SF_Standalone__Tableau_Pulse</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Pulse --></label>
+        <name>P4SF_Standalone__Tableau_Pulse1</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Workplace Management --></label>
+        <name>P4SF_Standalone__Workplace_Management</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Open Reports in Quip --></label>
+        <name>Quip__Open_Reports_in_Quip</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Referral Guided Intake --></label>
+        <name>Referral_Guided_Intake</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Dashboard Magic --></label>
+        <name>SDO_Analytics_Dashboard_Magic</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- SFS Demo Tools --></label>
+        <name>SDO_FSL_Demo_Tools</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Work Type Analysis --></label>
+        <name>SDO_FSL_Work_Type_Analysis</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OMS Order Search --></label>
+        <name>SDO_OMS_Order_Search</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Pardot - Create External Activities --></label>
+        <name>SDO_Pardot_Create_External_Activities</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Pardot - Insert External Activites --></label>
+        <name>SDO_Pardot_Insert_External_Activites</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Platform Events Wizard --></label>
+        <name>SDO_Platform_Events_Wizard</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Voice Call 1 --></label>
+        <name>SDO_Sales_Voice_Call_1</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Voice Call 2 --></label>
+        <name>SDO_Sales_Voice_Call_2</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Voice Call 3 --></label>
+        <name>SDO_Sales_Voice_Call_3</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- CTI_Flow --></label>
+        <name>SDO_Service_CTI_Flow</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Omni Supervisor Dashboard --></label>
+        <name>SDO_Service_Omni_Supervisor_Dashboard</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- EMC² --></label>
+        <name>SDO_Tool_Einstein_EMC</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- SFS Quick Setup --></label>
+        <name>SFS_Quick_Setup</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- START HERE --></label>
+        <name>START_HERE</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Spotter Configuration --></label>
+        <name>Spotter_Configuration</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Tableau Insights --></label>
+        <name>Tableau_Insights</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Create AQI --></label>
+        <name>aqi_ltng_mng__Create_AQI</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Configuration --></label>
+        <name>datamask__DM_Configuration</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Home --></label>
+        <name>datamask__DM_Home</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Job Session --></label>
+        <name>datamask__DM_Job</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Configurations --></label>
+        <name>datamask__DM_Masks</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Masks --></label>
+        <name>datamask__Data_Mask</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Jobs --></label>
+        <name>datamask__Jobs</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Einstein Admin --></label>
+        <name>einsteinplay__Einstein_Usage</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Language Model Builder --></label>
+        <name>einsteinplay__Language_Model_Builder</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Playground --></label>
+        <name>einsteinplay__Playground</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Engage Reports Permissions --></label>
+        <name>engage_reports__Engage_Reports_Perm</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Engage Team Reports --></label>
+        <name>engage_reports__Engage_Team_Reports</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Marketing Cloud --></label>
+        <name>et4ae5__ExactTargetPhoenix</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Send Analytics --></label>
+        <name>et4ae5__Send_Analytics</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- My PMT --></label>
+        <name>inov8__PMT_Home</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Resource Management --></label>
+        <name>inov8__Resource_Management</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Maps Advanced Route --></label>
+        <name>maps__AdvRoute</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Maps Advanced Visit Plans --></label>
+        <name>maps__AdvRouteTemplateBuilder</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Maps Advanced Shared Visit Windows --></label>
+        <name>maps__AdvRouteVisitWindows</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Maps Live Rules --></label>
+        <name>maps__LiveRules</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Maps --></label>
+        <name>maps__Maps</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Maps Mobile --></label>
+        <name>maps__Mobile</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Live Tracking Plugin --></label>
+        <name>maps__Salesforce_Maps_Live_Tracking_Plugin</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Salesforce Maps Plugin --></label>
+        <name>maps__Salesforce_Maps_Plugin</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Territory Planning --></label>
+        <name>maps__Territory_Planning</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniStudio DataPacks --></label>
+        <name>omnistudio__DataPacks</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Omnistudio Data Mappers --></label>
+        <name>omnistudio__DataRaptor</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Document Template Designer --></label>
+        <name>omnistudio__DocumentTemplate</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniStudio FlexCards --></label>
+        <name>omnistudio__FlexCards</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniStudio Integration Procedures --></label>
+        <name>omnistudio__IntegrationProcedureHome</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Document Generation 2.0 Notification --></label>
+        <name>omnistudio__LegalBannerSetup</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Omnistudio OmniScripts --></label>
+        <name>omnistudio__OmniScriptHome</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniScript Workbench --></label>
+        <name>omnistudio__OmniScriptWorkbench</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniStudio DocuSign Setup --></label>
+        <name>omnistudio__VlocityDocuSignSetup</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Engage Sales Tools --></label>
+        <name>pi__EngageSalesTools</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Engage Alerts --></label>
+        <name>pi__Lead_Deck</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Pardot LeadDeck --></label>
+        <name>pi__Pardot_LeadDeck</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Pardot --></label>
+        <name>pi__ProspectInsight</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Salesforce Engage License Assignment --></label>
+        <name>pi__Sales_Cloud_Engage_License_Assignment</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Engage --></label>
+        <name>pi__Sales_Edge</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Engage Reports --></label>
+        <name>pi__Sales_Edge_Reports</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Demo Wizard --></label>
+        <name>qbranch__Demo_Wizard</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Demo Components --></label>
+        <name>qbranch__Q_Demo_Components_Lightning</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Q Home --></label>
+        <name>qbranch__Q_Home_Lightning</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Q Support --></label>
+        <name>qbranch__Q_Support</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Demo Tools --></label>
+        <name>qbranch__Q_Tools_Lightning</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- CMS Content Types --></label>
+        <name>sflabs_cms_ct__CMS_Content_Types</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Field Service Data Generator --></label>
+        <name>sfsdg__Field_Service_Data_Generator</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Quota Attainment Planning --></label>
+        <name>sfsp__QuotaAttainmentPlanning</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Data Setup --></label>
+        <name>sfsp__SalesPlanningDataSetup</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Sales Planning --></label>
+        <name>sfsp__SalesPlanningHome</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Sales Planning Settings --></label>
+        <name>sfsp__SalesPlanningSettings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Permission Check --></label>
+        <name>tspa__Permission_Check</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- VisualRemoteAssistantMobileDashboard --></label>
+        <name>tspa__VisualRemoteAssistantMobileDashboard</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Visual Remote Assistant Configuration --></label>
+        <name>tspa__Visual_Configuration_Panel</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Visual_Remote_Assistant_Mobile_Dashboard --></label>
+        <name>tspa__Visual_Remote_Assistant_Mobile_Dashboard</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Demo Boost --></label>
+        <name>xdo__XDO_Automation</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Demo Boost Staging --></label>
+        <name>xdo__XDO_Automation_Staging</name>
+    </customTabs>
+</Translations>

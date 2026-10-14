@@ -1,0 +1,68 @@
+{
+    "AccountId": "001Hr00001s7dedIAA",
+    "AccountName": "Acme Consulting Services",
+    "AdditonalInfo": null,
+    "Assessment": {
+    },
+    "ClassificationDetails": null,
+    "Completion": null,
+    "Consent": null,
+    "ContactId": "003Hr00002XkUdFIAV",
+    "ContactName": "Keith Winderlich",
+    "CurrentSobjectType": "HealthcareFacility",
+    "Disclosure": {
+        "Disclosure1": true
+    },
+    "General": null,
+    "LocationIdDeleted": "",
+    "OperatingHoursIdDeleted": "",
+    "SiteContact": {
+        "BestTimetoCall": {
+            "SiteContactBestTimeCallEnd": "12:00:00.000Z",
+            "SiteContactBestTimeCallStart": "09:00:00.000Z"
+        },
+        "BlkSiteContactNew": null,
+        "MyselfSiteContact": true,
+        "SiteContactPhone": "2405553883",
+        "SiteOperatingHoursAdd": "No"
+    },
+    "SiteContactId": "003Hr00002XkUdFIAV",
+    "SiteContactPhone__c": "(415)443-9822",
+    "SiteFacilityId": null,
+    "SiteFacilityIdDeleted": "",
+    "SiteInfo": {
+        "Description": "This is the HQ for various administration and services. This is also includes a warehouse for various materials",
+        "NumberofStaff": 200,
+        "SIDN__c": "S12344567",
+        "SiteAddress-Block": {
+            "SiteAddress": "415 Mission St, San Francisco, CA 94105 USA",
+            "SiteCity": " San Francisco",
+            "SiteCountry": "United States",
+            "SiteState": "CA",
+            "SiteStreet": "415 Mission St",
+            "SiteZipcode": "94105"
+        },
+        "SiteFacilityType": "HQ",
+        "SiteName": "Acme Consulting Services - HQ"
+    },
+    "SiteNameDefault": "Acme Consulting Services - HQ",
+    "SiteNameIP": "Acme Consulting Services - HQ",
+    "SiteOperatingHours": null,
+    "UserId": "005Hr00000FOMbWIAX",
+    "language": "English",
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jNHr0000004mVrMAI",
+    "omniscriptId": "0jNHr0000004mVrMAI",
+    "runMode": "preview",
+    "sId": "0jNHr0000004mVrMAI",
+    "subType": "NewSiteFacility",
+    "theme": "lightning",
+    "timeStamp": "2023-12-05T17:32:05.233Z",
+    "type": "SiteFacility",
+    "userCurrencyCode": "USD",
+    "userId": "005Hr00000FOMbWIAX",
+    "userName": "kwinderlich@1123winter24.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-300",
+    "userTimeZoneName": "America/New_York"
+}

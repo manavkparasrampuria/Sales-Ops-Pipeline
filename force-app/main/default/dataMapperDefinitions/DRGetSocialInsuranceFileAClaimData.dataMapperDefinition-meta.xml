@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom6706</globalKey>
+        <inputField>BusinessName:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BusinessName:Name</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>LIMIT</filterOperator>
+        <filterValue>1</filterValue>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom3620</globalKey>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>3.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>BusinessName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom6451</globalKey>
+        <inputField>HealthcareProvider:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HealthcareProvider:Id</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom3050</globalKey>
+        <inputField>Contact:Birthdate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_DateOfBirth</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>User:ContactId</filterValue>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom5127</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom9251</globalKey>
+        <inputField>ThreeDaysAgo</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ThreeDaysAgo</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom6690</globalKey>
+        <inputField>Contact:FirstName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_FirstName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom5010</globalKey>
+        <inputField>Contact:MailingPostalCode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_ZipCode</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom61</globalKey>
+        <inputField>HealthcareProvider:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HealthcareProvider:Name</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>HealthcareProvider</filterValue>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom5667</globalKey>
+        <inputField>Name</inputField>
+        <inputObject>HealthcareProvider</inputObject>
+        <inputObjectQuerySequence>4.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>HealthcareProvider</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom8741</globalKey>
+        <inputField>Contact:Email</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_Email</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom2990</globalKey>
+        <inputField>Contact:MailingCountry</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_Country</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom2527</globalKey>
+        <inputField>Contact:MailingStreet</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_Address</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom2361</globalKey>
+        <inputField>Contact:MobilePhone</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_CellPhoneNumber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom8303</globalKey>
+        <inputField>Contact:LastName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_LastName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>userId</filterValue>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom8834</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>User</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>User</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom5277</globalKey>
+        <inputField>Contact:MailingCity</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_City</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom797</globalKey>
+        <inputField>Contact:Phone</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_HomeTelephoneNumber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>LIMIT</filterOperator>
+        <filterValue>1</filterValue>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom6181</globalKey>
+        <inputObject>HealthcareProvider</inputObject>
+        <inputObjectQuerySequence>4.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>HealthcareProvider</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>BusinessName</filterValue>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom9478</globalKey>
+        <inputField>Name</inputField>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>3.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>BusinessName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom5732</globalKey>
+        <inputField>Contact:Gender</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_Gender</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom9305</globalKey>
+        <inputField>BusinessName:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BusinessName:Id</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom1965</globalKey>
+        <inputField>NowValue</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>NowValue</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetSocialInsuranceFileAClaimData</dataMapperDefItemName>
+        <globalKey>DRGetSocialInsuranceFileAClaimDataCustom2688</globalKey>
+        <inputField>Contact:MailingState</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>WorkerPersonalDetails:PSS_SI_v1_State</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedOutputJson>{
+    &quot;WorkersEmploymentDetails&quot;: {
+        &quot;PSS_SI_v1_UploadPayslips&quot;: null,
+        &quot;PSS_SI_v1_Occupation&quot;: &quot;Forklift operator&quot;,
+        &quot;EmployerTypeAhead-Block&quot;: {
+            &quot;EmployerTypeAhead&quot;: &quot;Jennifer&apos;s Custom Creations&quot;,
+            &quot;PSS_SI_v1_EmployerAccountId&quot;: &quot;001KX000002KYqLYAW&quot;,
+            &quot;PSS_SI_v1_NameOfEmployer&quot;: &quot;Jennifer&apos;s Custom Creations&quot;
+        },
+        &quot;PSS_SI_v1_AreYouStillEmployed&quot;: &quot;Yes&quot;,
+        &quot;PSS_SI_v1_EmploymentType&quot;: &quot;Full Time&quot;,
+        &quot;PSS_SI_v1_EmploymentStartDate&quot;: &quot;2023-05-08&quot;,
+        &quot;PSS_SI_v1_IncomeFrequency&quot;: &quot;Weekly&quot;,
+        &quot;PSS_SI_v1_Income&quot;: 1000
+    },
+    &quot;CertificateOfCapacity&quot;: {
+        &quot;PSS_SI_v1_UploadDocument&quot;: null,
+        &quot;PSS_SI_v1_InjuryType&quot;: &quot;Fracture&quot;,
+        &quot;PSS_SI_v1_WorkerCapacity&quot;: 25,
+        &quot;HealthcareProviderTypeAhead-Block&quot;: {
+            &quot;HealthcareProviderTypeAhead&quot;: &quot;Bayfield Counselling&quot;,
+            &quot;PSS_SI_v1_HealthcareProviderId&quot;: &quot;0cmKX0000008OQLYA2&quot;,
+            &quot;PSS_SI_v1_ProviderName&quot;: &quot;Bayfield Counselling&quot;
+        },
+        &quot;PSS_SI_v1_IssuedDate&quot;: &quot;2024-05-02&quot;
+    },
+    &quot;ClaimValues&quot;: null,
+    &quot;omniscriptId&quot;: &quot;0jNKX000000CaxF2AS&quot;,
+    &quot;language&quot;: &quot;English&quot;,
+    &quot;type&quot;: &quot;SocialInsurance&quot;,
+    &quot;runMode&quot;: &quot;preview&quot;,
+    &quot;sId&quot;: &quot;0jNKX000000CaxF2AS&quot;,
+    &quot;theme&quot;: &quot;lightning&quot;,
+    &quot;subType&quot;: &quot;FileClaim&quot;,
+    &quot;timeStamp&quot;: &quot;2024-05-31T14:46:51.378Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;userTimeZone&quot;: &quot;-420&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;jblankenship@gps250.dev3&quot;,
+    &quot;userId&quot;: &quot;005KX000000xWOxYAM&quot;,
+    &quot;omniProcessId&quot;: &quot;0jNKX000000CaxF2AS&quot;,
+    &quot;localTimeZoneName&quot;: &quot;America/New_York&quot;,
+    &quot;WorkerPersonalDetails&quot;: {
+        &quot;PSS_SI_v1_FirstName&quot;: &quot;Paul&quot;,
+        &quot;PSS_SI_v1_LastName&quot;: &quot;Marshall&quot;,
+        &quot;PSS_SI_v1_DateOfBirth&quot;: &quot;1995-01-01&quot;,
+        &quot;PSS_SI_v1_Gender&quot;: &quot;Male&quot;,
+        &quot;PSS_SI_v1_HomeTelephoneNumber&quot;: &quot;3838383838&quot;,
+        &quot;PSS_SI_v1_CellPhoneNumber&quot;: &quot;3838383838&quot;,
+        &quot;PSS_SI_v1_Email&quot;: &quot;p@m.com&quot;,
+        &quot;PSS_SI_v1_Address&quot;: &quot;123 Main St&quot;,
+        &quot;PSS_SI_v1_City&quot;: &quot;Richmond&quot;,
+        &quot;PSS_SI_v1_State&quot;: &quot;VA&quot;,
+        &quot;PSS_SI_v1_ZipCode&quot;: &quot;23113&quot;,
+        &quot;PSS_SI_v1_Country&quot;: &quot;USA&quot;
+    },
+    &quot;IncidentWorkersInjuryDetails&quot;: {
+        &quot;PSS_SI_v1_NatureOfInjury&quot;: &quot;Broken Arm;Broken Leg&quot;,
+        &quot;PSS_SI_v1_TakingTimeOff&quot;: &quot;Yes&quot;,
+        &quot;PSS_SI_v1_MedicalTreatment&quot;: &quot;Yes&quot;,
+        &quot;PSS_SI_v1_HowYouInjured&quot;: &quot;Forklift accident broke arm&quot;,
+        &quot;EmployerAtTimeofInjuryTypeAHead-Block&quot;: {
+            &quot;EmployerAtTimeofInjuryTypeAHead&quot;: &quot;Jennifer&apos;s Custom Creations&quot;,
+            &quot;PSS_SI_v1_EmployerResponsibleForWorkplace&quot;: &quot;Jennifer&apos;s Custom Creations&quot;,
+            &quot;PSS_SI_v1_InjuryTimeEmployerId&quot;: &quot;001KX000002KYqLYAW&quot;
+        },
+        &quot;PSS_SI_v1_DateTimeForInjury&quot;: &quot;2024-05-02T16:00:00.000Z&quot;,
+        &quot;PSS_SI_v1_WorkStoppedDateTime&quot;: &quot;2024-05-02T16:00:00.000Z&quot;,
+        &quot;PSS_SI_v1_ReportDateTimeForInjury&quot;: &quot;2024-05-02T16:00:00.000Z&quot;
+    },
+    &quot;Acknowledgment&quot;: {
+        &quot;PSS_SI_v1_Date&quot;: &quot;2024-05-31T04:00:00.000Z&quot;
+    },
+    &quot;Review&quot;: {},
+    &quot;sInstanceId&quot;: &quot;0kTKX000000blNR2AY&quot;,
+    &quot;DRId_PreliminaryApplicationRef&quot;: &quot;0goKX0000008OMwYAM&quot;
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRGetSocialInsuranceFileAClaimData</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{&quot;userId&quot;:&quot;005KX000000UBiQYAW&quot;,&quot;BusinessName&quot;:&quot;Associated Supply Co.&quot;,&quot;HealthcareProvider&quot;:&quot;Brookside Rehabilitation&quot;}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Extract</type>
+</DataMapperDefinition>

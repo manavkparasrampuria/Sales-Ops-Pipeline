@@ -1,0 +1,68 @@
+{
+    "DomainName": "lpi20-08262021--vlocity-ins",
+    "ScenarioList": [
+        {
+            "Id": "a9Y5f000000oaX6EAI",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Charles Green",
+            "ScenarioName": "Deck Permit",
+            "SubType": "Deck",
+            "Type": "Permit"
+        },
+        {
+            "Id": "a9Y5f000000oaX7EAI",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "ScenarioName": "Restaurant",
+            "SubType": "FoodEstablishmentPermit",
+            "Type": "Permit"
+        },
+        {
+            "DemoScript": "https://salesforce.quip.com/hsQnAMCL1Oge",
+            "Id": "a9Y5f000000oaX1EAI",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Salon Business Licensing",
+            "SubType": "BusinessSalon",
+            "Type": "Business"
+        },
+        {
+            "Id": "a9Y5f000000obYYEAY",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Geoff Duckwall",
+            "ScenarioName": "Tank Storage Permit",
+            "SubType": "StorageTankRegistration",
+            "Type": "Permit"
+        },
+        {
+            "Id": "a9Y5f000000ogq7EAA",
+            "Language": "English",
+            "OSType": "ESRI",
+            "ScenarioName": "Mapping with ESRI",
+            "SubType": "PermitDemo",
+            "Type": "Permit"
+        }
+    ],
+    "Selection": {
+        "FormatLWCName": "c:licensingandpermittingDeckEnglish",
+        "SelectScenario": {
+            "Id": "a9Y5f000000oaX6EAI",
+            "Language": "English",
+            "OSType": "LicensingAndPermitting",
+            "Personas": "Charles Green",
+            "ScenarioName": "Deck Permit",
+            "SubType": "Deck",
+            "Type": "Permit"
+        }
+    },
+    "omniJsonDef": null,
+    "timeStamp": "2021-09-08T10:48:19.229Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055f000000yem1AAA",
+    "userName": "jblankenship@lpi2.0testing.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

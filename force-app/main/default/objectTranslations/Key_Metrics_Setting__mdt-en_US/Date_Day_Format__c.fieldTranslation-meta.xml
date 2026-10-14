@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- &apos;numeric&apos; will drop leading zeros. Visit http://sfdc.co/date-component for more details. --></help>
+    <label><!-- Date Day Format --></label>
+    <name>Date_Day_Format__c</name>
+    <picklistValues>
+        <masterLabel>2-digit</masterLabel>
+        <translation><!-- 2-digit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>numeric</masterLabel>
+        <translation><!-- numeric --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

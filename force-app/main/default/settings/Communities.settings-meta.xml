@@ -5,18 +5,22 @@
     <canModerateAllFeedPosts>false</canModerateAllFeedPosts>
     <embeddedVisualforcePages>false</embeddedVisualforcePages>
     <enableCommunityWorkspaces>true</enableCommunityWorkspaces>
-    <enableCspContactVisibilityPref>false</enableCspContactVisibilityPref>
-    <enableCspNotesOnAccConPref>false</enableCspNotesOnAccConPref>
-    <enableExternalAccHierPref>false</enableExternalAccHierPref>
+    <enableCspContactVisibilityPref>true</enableCspContactVisibilityPref>
+    <enableCspNotesOnAccConPref>true</enableCspNotesOnAccConPref>
+    <enableEnablePRM>true</enableEnablePRM>
+    <enableExternalAccHierPref>true</enableExternalAccHierPref>
     <enableGuestPermDisOptOutCruc>false</enableGuestPermDisOptOutCruc>
     <enableGuestSecurityOptOutCruc>false</enableGuestSecurityOptOutCruc>
     <enableGuvSecurityOptOutPref>false</enableGuvSecurityOptOutPref>
     <enableInviteChatterGuestEnabled>true</enableInviteChatterGuestEnabled>
     <enableNameFieldsUserPIIEnabled>true</enableNameFieldsUserPIIEnabled>
+    <enableNetPortalUserReportOpts>true</enableNetPortalUserReportOpts>
     <enableNetworksEnabled>true</enableNetworksEnabled>
     <enableOotbProfExtUserOpsEnable>false</enableOotbProfExtUserOpsEnable>
-    <enablePRMAccRelPref>false</enablePRMAccRelPref>
+    <enablePRMAccRelPref>true</enablePRMAccRelPref>
+    <enablePowerCustomerCaseStatus>true</enablePowerCustomerCaseStatus>
     <enablePreventBadgeGuestAccess>true</enablePreventBadgeGuestAccess>
     <enableRelaxPartnerAccountFieldPref>false</enableRelaxPartnerAccountFieldPref>
     <enableUnsupportedBrowserModalPref>true</enableUnsupportedBrowserModalPref>
+    <enableUsernameUniqForOrgPref>true</enableUsernameUniqForOrgPref>
 </CommunitiesSettings>

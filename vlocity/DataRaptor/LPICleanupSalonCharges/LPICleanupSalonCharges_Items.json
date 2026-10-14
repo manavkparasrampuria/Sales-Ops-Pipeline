@@ -1,0 +1,74 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FormulaExpression": "CONCAT(charges:name, IF(charges:calculationInfo != null,\"(\",\"\"),charges:calculationInfo,IF(charges:calculationInfo != null,\")\",\"\"))",
+        "FormulaResultPath": "charges:formattedname",
+        "FormulaSequence": 1,
+        "GlobalKey": "LPICleanupSalonCharges2923127946788333",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "LPICleanupSalonCharges",
+        "OmniDataTransformationId": {
+            "Name": "LPICleanupSalonCharges",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LPICleanupSalonCharges",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "LPICleanupSalonCharges371615199512473",
+        "InputFieldName": "charges:amount",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "LPICleanupSalonCharges",
+        "OmniDataTransformationId": {
+            "Name": "LPICleanupSalonCharges",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LPICleanupSalonCharges",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Currency",
+        "OutputFieldName": "formattedcharges:amount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "LPICleanupSalonCharges16299812132926483",
+        "InputFieldName": "charges:formattedname",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "LPICleanupSalonCharges",
+        "OmniDataTransformationId": {
+            "Name": "LPICleanupSalonCharges",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/LPICleanupSalonCharges",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "formattedcharges:formattedname",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

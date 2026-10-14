@@ -1,0 +1,42 @@
+{
+  "forgotPasswordRouteId" : "e1da1619-edab-4af5-86ba-df0817aa980d",
+  "isAvailableToGuests" : true,
+  "isFilteredComponentsView" : true,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "96847c87-1da7-4e0d-97cb-5c302ff1d203",
+  "mainAppPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "579c6839-d583-4b29-aaba-2f4a4878fc4a",
+  "trustedSitesForScript" : [ {
+    "id" : "66927a60-f62d-4124-8245-d8c7d031845a",
+    "isActive" : true,
+    "trustedSiteName" : "LiveAgent",
+    "trustedSiteUrl" : "https://*.salesforceliveagent.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "a2a846c3-908b-4de0-9b7c-7d2aeae7ed25",
+    "isActive" : true,
+    "trustedSiteName" : "LocationForceCOM",
+    "trustedSiteUrl" : "https://location.force.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "7a2f894e-aebb-4041-8339-b648e6d80284",
+    "isActive" : true,
+    "trustedSiteName" : "isvsi-14ddd2ecd93-1687f12594-17dc43f93fe.force.com",
+    "trustedSiteUrl" : "https://isvsi-14ddd2ecd93-1687f12594-17dc43f93fe.force.com/LPI/resource/1658334669000/DE_snapinsSnippetSettingsFile",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "91efcb42-a37f-4465-9417-65e43dc91800",
+    "isActive" : true,
+    "trustedSiteName" : "isvsi-14ddd2ecd93-1687f12594-17dc43f93fe.force.com1",
+    "trustedSiteUrl" : "https://isvsi-14ddd2ecd93-1687f12594-17dc43f93fe.force.com/LPI/resource/1674053924000/PSS_snapinsSnippetSettingsFile_ChannelMenu",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "3584c89c-76bb-4305-bc6c-f74809d4428c",
+    "isActive" : true,
+    "trustedSiteName" : "gpsido.my.site.com",
+    "trustedSiteUrl" : "https://*.my.site.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

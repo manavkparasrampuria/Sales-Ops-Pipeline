@@ -1,0 +1,29 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "DiscoveryFramework_Flatten_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Discovery Framework Flatten Assessment Data",
+    "OmniProcessElement": [
+        "DiscoveryFramework_Flatten_Element_Flatten.json",
+        "DiscoveryFramework_Flatten_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "DiscoveryFramework_Flatten",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "DiscoveryFramework_Flatten_PropertySetConfig.json",
+    "SubType": "Flatten",
+    "Type": "DiscoveryFramework",
+    "UniqueName": "DiscoveryFramework_Flatten_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/DiscoveryFramework/Flatten/Procedure"
+}

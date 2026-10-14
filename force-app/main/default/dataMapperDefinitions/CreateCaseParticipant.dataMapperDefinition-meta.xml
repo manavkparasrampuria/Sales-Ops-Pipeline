@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateCaseParticipant</dataMapperDefItemName>
+        <globalKey>CreateCaseParticipantCustom6514</globalKey>
+        <inputField>DRId_Case</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CaseId</outputField>
+        <outputObject>CaseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateCaseParticipant</dataMapperDefItemName>
+        <globalKey>CreateCaseParticipantCustom4410</globalKey>
+        <inputField>Participants:addNewParticipants:selectAndBuildList:selectedData:selectedData:status</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>CaseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateCaseParticipant</dataMapperDefItemName>
+        <globalKey>CreateCaseParticipantCustom4089</globalKey>
+        <inputField>Participants:addNewParticipants:selectAndBuildList:selectedData:selectedData:id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ParticipantId</outputField>
+        <outputObject>CaseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateCaseParticipant</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>CreateCaseParticipantCustom8750</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>CaseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateCaseParticipant</dataMapperDefItemName>
+        <globalKey>CreateCaseParticipantCustom3800</globalKey>
+        <inputField>Participants:addNewParticipants:selectAndBuildList:selectedData:selectedData:role</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Role</outputField>
+        <outputObject>CaseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;Participants&quot;: {
+        &quot;addNewParticipants&quot;: {
+            &quot;firstName&quot;: &quot;first&quot;,
+            &quot;lastName&quot;: &quot;last&quot;,
+            &quot;city&quot;: &quot;city&quot;,
+            &quot;selectAndBuildList&quot;: {
+                &quot;selectedData&quot;: {
+                    &quot;selectedData&quot;: [
+                        {
+                            &quot;id&quot;: &quot;003RO000002IUe4YAG&quot;,
+                            &quot;role&quot;: &quot;Victim&quot;,
+                            &quot;status&quot;: &quot;Active&quot;,
+                            &quot;caseId&quot;: &quot;500RO000001X14rYAC&quot;
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    &quot;DRId_Case&quot;: &quot;&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>CreateCaseParticipant</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+    &quot;Participants&quot;: {
+        &quot;addNewParticipants&quot;: {
+            &quot;firstName&quot;: &quot;first&quot;,
+            &quot;lastName&quot;: &quot;last&quot;,
+            &quot;city&quot;: &quot;city&quot;,
+            &quot;selectAndBuildList&quot;: {
+                &quot;selectedIdList&quot;: {
+                    &quot;selectedIds&quot;: [
+                        {
+                            &quot;id&quot;: &quot;003RO000002IUe4YAG&quot;,
+                            &quot;role&quot;: &quot;Victim&quot;,
+                            &quot;status&quot;: &quot;Active&quot;,
+                            &quot;caseId&quot;: &quot;500RO000001X14rYAC&quot;
+                        },
+                        {
+                            &quot;id&quot;: &quot;001RO000003KO2BYAW&quot;,
+                            &quot;role&quot;: &quot;Victim&quot;,
+                            &quot;status&quot;: &quot;Active&quot;,
+                            &quot;caseId&quot;: &quot;500RO000001X14rYAC&quot;
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

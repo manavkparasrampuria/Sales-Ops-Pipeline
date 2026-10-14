@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Nico",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "121Wz00000018LiIAI"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "GetFundingDisbursement",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "contextId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "DisbursementInformationChild",
+    "Namespace": "",
+    "OmniUiCardKey": "DisbursementInformationChild/Nico/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "DisbursementInformationChild.json",
+    "SampleDataSourceResponse": "[{\"FundingRequirement\":{\"Status Requirement\":\"In Progress\",\"Name Requirement\":\"Requirement 3\"},\"Name\":\"FD-0000000026\",\"Amount\":444554,\"DisbursementId\":\"125Wz000000A0bqIAC\",\"DisbursementName\":\"First Payment\",\"Status\":\"Approved\"},{\"FundingRequirement\":[{\"Status Requirement\":\"In Progress\",\"Name Requirement\":\"Requirement 1\"},{\"Status Requirement\":\"In Progress\",\"Name Requirement\":\"Requirement 2\"}],\"Name\":\"FD-0000000133\",\"Amount\":500,\"DisbursementId\":\"125Wz000000AmrNIAS\",\"DisbursementName\":\"Tesrt Disbursement\",\"Status\":\"Pending Approval\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "DisbursementInformationChild_Nico_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/DisbursementInformationChild"
+}

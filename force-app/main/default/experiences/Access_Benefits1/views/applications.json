@@ -1,0 +1,133 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e1908b8e-1ba0-429f-8e8a-d7447bc71dcc",
+  "label" : "Applications",
+  "regions" : [ {
+    "id" : "f7c52771-d820-4e09-9075-dd6f7f35a34a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "fcb6166c-8715-4a61-a932-f96a6b59f123",
+          "activeTab" : "draftApps",
+          "tabs" : [ {
+            "UUID" : "f3b58341-2c28-49f4-89fa-3fbe573e4f5a",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_PreliminaryApplicationRef",
+                "layout" : "FULL",
+                "scope" : "PreliminaryApplicationRef"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "draftApps",
+            "tabName" : "Draft"
+          }, {
+            "UUID" : "0f465371-7e5f-443b-96b9-08cd1175397b",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_IndividualApplication",
+                "layout" : "FULL",
+                "scope" : "IndividualApplication"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "submittedApps",
+            "tabName" : "Submitted"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "fcb6166c-8715-4a61-a932-f96a6b59f123",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_PreliminaryApplicationRef",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "PreliminaryApplicationRef",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "33438165-f82c-4ed4-b042-e2ed9a49401c",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f3b58341-2c28-49f4-89fa-3fbe573e4f5a",
+        "regionLabel" : "Draft",
+        "regionName" : "draftApps",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_IndividualApplications",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "IndividualApplication",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "b6c338d5-c1d3-4de9-8478-ac1d78549d06",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0f465371-7e5f-443b-96b9-08cd1175397b",
+        "regionLabel" : "Submitted",
+        "regionName" : "submittedApps",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "646cfc48-61c5-4774-a737-31b43f48cdde",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<HR>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "3abb7c87-b3a6-47fe-aa52-905d047e0b59",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0098600a-f4f0-484a-9642-deabadb20809",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "bm-applications"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IntegrationProcdDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <integProcdName>GET Assets from ServiceAccountId</integProcdName>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>Response</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <additionalOutput>{}</additionalOutput>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;label&quot;:&quot;ResponseAction1&quot;,&quot;responseDefaultData&quot;:{},&quot;show&quot;:null}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <responseFormat>JSON</responseFormat>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnFullDataJSON>false</returnFullDataJSON>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath>DR_GetAssets</sendJSONPath>
+            <useFormulas>true</useFormulas>
+            <vlcResponseHeaders>{}</vlcResponseHeaders>
+        </propertySetConfig>
+        <sequenceNumber>2.0</sequenceNumber>
+        <type>Response Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>DR_GetAssets</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <additionalInput>{}</additionalInput>
+            <additionalOutput>{}</additionalOutput>
+            <bundle>GET Assets from ServiceAccountId</bundle>
+            <chainOnStep>false</chainOnStep>
+            <dataRaptorInputParameters>[{&quot;element&quot;:&quot;ServAcctId&quot;,&quot;inputParam&quot;:&quot;ServAcctId&quot;}]</dataRaptorInputParameters>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;label&quot;:&quot;DataRaptorExtractAction1&quot;,&quot;show&quot;:null}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <failureResponse>{}</failureResponse>
+            <ignoreCache>false</ignoreCache>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <returnOnlyFailureResponse>false</returnOnlyFailureResponse>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath></sendJSONPath>
+            <sendOnlyAdditionalInput>false</sendOnlyAdditionalInput>
+            <useFormulas>true</useFormulas>
+        </propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>DataRaptor Extract Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcedureDefKey>Account_GetAssets</integrationProcedureDefKey>
+    <integrationProcedureType>Integration Procedure</integrationProcedureType>
+    <isActive>true</isActive>
+    <isIntegProcdSignatureAvl>false</isIntegProcdSignatureAvl>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <masterLabel>Account_GetAssets_Procedure</masterLabel>
+    <propertySetConfig>
+        <additionalChainableResponse>{}</additionalChainableResponse>
+        <chainableCpuLimit>2000</chainableCpuLimit>
+        <chainableQueriesLimit>50</chainableQueriesLimit>
+        <columnsPropertyMap>[]</columnsPropertyMap>
+        <description></description>
+        <dynamicProperties>{}</dynamicProperties>
+        <includeAllActionsInResponse>false</includeAllActionsInResponse>
+        <labelPlural></labelPlural>
+        <labelSingular></labelSingular>
+        <linkToExternalObject></linkToExternalObject>
+        <mockResponseMap>{}</mockResponseMap>
+        <nameColumn></nameColumn>
+        <queueableChainableCpuLimit>40000</queueableChainableCpuLimit>
+        <queueableChainableHeapSizeLimit>6</queueableChainableHeapSizeLimit>
+        <queueableChainableQueriesLimit>120</queueableChainableQueriesLimit>
+        <relationshipFieldsMap>[]</relationshipFieldsMap>
+        <rollbackOnError>false</rollbackOnError>
+        <trackingCustomData>{}</trackingCustomData>
+        <ttlMinutes>5</ttlMinutes>
+    </propertySetConfig>
+    <references>[]</references>
+    <subType>GetAssets</subType>
+    <type>Account</type>
+</IntegrationProcdDefinition>

@@ -1,0 +1,54 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "PSSTransformAssessmentQuestionResponseName15593215943054362",
+        "InputFieldName": "HeadOfHouseholdDetails:PSS_BM_v2_HeadOfHouseholdFirstName",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSTransformAssessmentQuestionResponseName",
+        "OmniDataTransformationId": {
+            "Name": "PSSTransformAssessmentQuestionResponseName",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSTransformAssessmentQuestionResponseName",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "HeadOfHouseholdDetails:HeadOfHouseholdFirstName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "PSSTransformAssessmentQuestionResponseName3665417805764275",
+        "InputFieldName": "HeadOfHouseholdDetails:PSS_BM_v2_HeadOfHouseholdLastName",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSTransformAssessmentQuestionResponseName",
+        "OmniDataTransformationId": {
+            "Name": "PSSTransformAssessmentQuestionResponseName",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSTransformAssessmentQuestionResponseName",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "HeadOfHouseholdDetails:HeadOfHouseholdLastName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

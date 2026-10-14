@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_FoodEstablishment_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Food Establishment",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_FoodEstablishment_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_FoodEstablishment_Element_TransformStep.json",
+        "GoogleMapsTransformations_FoodEstablishment_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_FoodEstablishment",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_FoodEstablishment_PropertySetConfig.json",
+    "SubType": "FoodEstablishment",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_FoodEstablishment_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/FoodEstablishment/Procedure"
+}

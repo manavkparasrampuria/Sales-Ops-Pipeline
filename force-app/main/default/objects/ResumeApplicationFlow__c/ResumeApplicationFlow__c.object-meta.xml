@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Configures the Experience site URL used to resume an application.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Resume Application Flow</label>
+    <visibility>Public</visibility>
+</CustomObject>

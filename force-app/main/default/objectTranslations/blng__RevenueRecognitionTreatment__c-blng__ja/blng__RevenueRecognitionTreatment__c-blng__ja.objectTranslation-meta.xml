@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>収益認識処理</value>
+    </caseValues>
+    <nameFieldLabel>名前</nameFieldLabel>
+    <validationRules>
+        <errorMessage>[収益スケジュールの作成] が [注文商品の有効化] でない場合は、[収益契約の関連付け] を [該当なし] または [手動] にする必要があります</errorMessage>
+        <name>blng__AGREEMENT_ASSOC_VALIDONLYFOROPACTIVATION</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[収益スケジュール額] を [予約金額] に設定するには、まず [収益スケジュールの作成アクション] を [注文商品の有効化] に設定します。</errorMessage>
+        <name>blng__Bookings_Amount_Only_If_Order_Activation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>種別が [均一金額] である場合、均一金額の入力は必須です。</errorMessage>
+        <name>blng__Flat_Amount_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>均一金額は 0 以上で指定してください</errorMessage>
+        <name>blng__Flat_Amount_Value_more_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>パーセントは 100 より大きくできません</errorMessage>
+        <name>blng__PERCENTAGE_MUST_BE_LESS_THAN_HUNDRED</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>種別が [パーセント] である場合、パーセントの入力は必須です。</errorMessage>
+        <name>blng__Percentage_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>パーセントは 0 より大きくする必要があります</errorMessage>
+        <name>blng__Percentage_Value_more_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>処理順序をマイナスにすることはできません</errorMessage>
+        <name>blng__Processing_Order_Cannot_be_negative</name>
+    </validationRules>
+</CustomObjectTranslation>

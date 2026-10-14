@@ -1,0 +1,47 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "InspectionLauncherCaseIncident/Salesforce/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 0,
+                    "name": "recordId",
+                    "val": "500Dn00000GLTb2IAH"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Query",
+            "value": {
+                "dsDelay": "",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "query": "Select Id from Case where Id = '{recordId}'",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Launch the Omniscript New Visit/Inspection Creation",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "InspectionLauncherCase",
+    "Namespace": "",
+    "OmniUiCardKey": "InspectionLauncherCase/Salesforce/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "InspectionLauncherCase.json",
+    "SampleDataSourceResponse": "[{\"attributes\":{\"type\":\"Case\",\"url\":\"/services/data/v59.0/sobjects/Case/500Dn00000GLTb2IAH\"},\"Id\":\"500Dn00000GLTb2IAH\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "InspectionLauncherCase_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/InspectionLauncherCase"
+}

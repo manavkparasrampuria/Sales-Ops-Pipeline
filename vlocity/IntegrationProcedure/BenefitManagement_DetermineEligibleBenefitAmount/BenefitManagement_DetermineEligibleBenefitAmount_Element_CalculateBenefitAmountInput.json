@@ -1,0 +1,49 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "CalculateBenefitAmountInput",
+    "OmniProcessId": {
+        "Name": "Determine Eligible Benefit Amount",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/DetermineEligibleBenefitAmount/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AreThereChildrenInTheHousehold": "=IF(ISBLANK(ParticipantInfo:ChildApplicant),$Vlocity.FALSE,$Vlocity.TRUE)",
+            "AreThereDisabledHouseholdMembers": "=IF(ISBLANK(ParticipantInfo:DisabledApplicant),$Vlocity.FALSE,$Vlocity.TRUE)",
+            "AreThereElderlyHouseholdMembers": "=IF(ISBLANK(ParticipantInfo:ElderlyApplicant),$Vlocity.FALSE,$Vlocity.TRUE)",
+            "ChildCareAmount": "=%ExpenseDetails:ChildCareAmount%",
+            "ChildSupportAmount": "=%ExpenseDetails:ChildSupportAmount%",
+            "GarnishmentsAmount": "=%ExpenseDetails:GarnishmentsAmount%",
+            "InputHouseholdSize": "=IF(ISBLANK(PublicApplicationParticipants),0,LISTSIZE(PublicApplicationParticipants))",
+            "InsurancePremiumAmount": "=%ExpenseDetails:InsurancePremiumAmount%",
+            "MedicalExpensesAmount": "=%ExpenseDetails:MedicalExpensesAmount%",
+            "PrimaryHeatType": "=IF(ISBLANK(TransformedAQR:GenericData:PrimaryHeatType),\"None\",%TransformedAQR:GenericData:PrimaryHeatType%)",
+            "PrimaryHeatingBillAmount": "=IF(ISBLANK(TransformedAQR:GenericData:PrimaryHeatingBillAmount),0,%TransformedAQR:GenericData:PrimaryHeatingBillAmount%)",
+            "ReimbursementAmount": "=%ExpenseDetails:ReimbursementAmount%",
+            "RepresentativePayeeFees": "=%ExpenseDetails:RepresentativePayeeFees%",
+            "SecondaryHeatType": "=IF(ISBLANK(TransformedAQR:GenericData:SecondaryHeatType),\"None\",%TransformedAQR:GenericData:SecondaryHeatType%)",
+            "SecondaryHeatingBillAmount": "=IF(ISBLANK(TransformedAQR:GenericData:SecondaryHeatingBillAmount),0,%TransformedAQR:GenericData:SecondaryHeatingBillAmount%)",
+            "SpousalSupportAmount": "=%ExpenseDetails:SpousalSupportAmount%",
+            "TotalHouseholdIncome": "=%TotalHouseholdIncome%"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/DetermineEligibleBenefitAmount/Procedure/CalculateBenefitAmountInput"
+}

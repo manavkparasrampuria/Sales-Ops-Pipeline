@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateGMSTEMAppCustom7609</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateGMSTEMAppCustom8480</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ApplicationReview</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <defaultValue>Grant Application</defaultValue>
+        <globalKey>DRCreateGMSTEMAppCustom7959</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMSTEMAppCustom6497</globalKey>
+        <inputField>StatementofNeedStep:NarrativeResponse1</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingRequestPurpose</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <formulaConverted>| NOW</formulaConverted>
+        <formulaExpression>NOW()</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>DRCreateGMSTEMAppCustom4660</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <formulaConverted>| var:ProjectNameInformationStep:Contact:FirstName &apos;/\/\/&apos; var:ProjectNameInformationStep:Contact:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(ProjectNameInformationStep:Contact:FirstName,&apos; &apos;,ProjectNameInformationStep:Contact:LastName)</formulaExpression>
+        <formulaResultPath>ContactName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>DRCreateGMSTEMAppCustom0jI4S000000Gy4eUACItem1</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <defaultValue>Not Started</defaultValue>
+        <globalKey>DRCreateGMSTEMAppCustom6973</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>ApplicationReview</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateGMSTEMAppCustom1409</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ApplicationId</outputField>
+        <outputObject>ApplicationReview</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <defaultValue>Elementary and Secondary Education STEM Grant</defaultValue>
+        <globalKey>DRCreateGMSTEMAppCustom3151</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>FundingOpportunity</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingOpportunityId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMSTEMAppCustom1675</globalKey>
+        <inputField>ContactName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Contact</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMSTEMAppCustom6287</globalKey>
+        <inputField>ProgramCostsAndFundingStep:TotalFundsRequested</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RequestedAmount</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <defaultValue>Grantmaking</defaultValue>
+        <globalKey>DRCreateGMSTEMAppCustom5500</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMSTEMAppCustom4062</globalKey>
+        <inputField>RequestName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>DRCreateGMSTEMAppCustom1457</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>InternalStatus</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMSTEMAppCustom6863</globalKey>
+        <inputField>AppliedDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <formulaConverted>| var:ProjectNameInformationStep:Account:Name &quot;/\/\/-/\/\/STEM/\/\/Grant/\/\/Request&quot; CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(ProjectNameInformationStep:Account:Name,&quot; - STEM Grant Request&quot;)</formulaExpression>
+        <formulaResultPath>RequestName</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRCreateGMSTEMAppCustom0jI4S000000Gy4eUACItem0</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMSTEMAppCustom8544</globalKey>
+        <inputField>ProjectNameInformationStep:Account:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Account</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <globalKey>DRCreateGMSTEMAppCustom8795</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateGMSTEMApp</dataMapperDefItemName>
+        <globalKey>DRCreateGMSTEMAppCustom5847</globalKey>
+        <inputField>RequestName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationName</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;ContextId&quot;: null,
+    &quot;ProgramCostsAndFundingStep&quot;: {
+        &quot;CapitalProject&quot;: {
+            &quot;FundsRequested&quot;: null,
+            &quot;ProgramArea&quot;: null,
+            &quot;ProgramCost&quot;: null,
+            &quot;ProjectTypePercentage&quot;: null
+        },
+        &quot;TotalAHSCPercentage&quot;: null,
+        &quot;TotalDevelopmentCosts&quot;: null,
+        &quot;TotalFundsRequested&quot;: null
+    },
+    &quot;ProgramOutcomesStep&quot;: {
+        &quot;ProgramOutcome&quot;: {
+            &quot;ActivitiesBlock&quot;: {
+                &quot;Activities&quot;: null
+            },
+            &quot;OutcomeDescription&quot;: null,
+            &quot;OutcomeName&quot;: null,
+            &quot;PersonResponsible&quot;: null,
+            &quot;TargetCompletionDate&quot;: null
+        }
+    },
+    &quot;ProjectNameInformationStep&quot;: {
+        &quot;Account&quot;: {
+            &quot;Address&quot;: {
+                &quot;City&quot;: null,
+                &quot;Country&quot;: null,
+                &quot;PostalCode&quot;: null,
+                &quot;State&quot;: null,
+                &quot;Street&quot;: null
+            },
+            &quot;LEANumber&quot;: null,
+            &quot;LegalName&quot;: null,
+            &quot;Name&quot;: null
+        },
+        &quot;Contact&quot;: {
+            &quot;Email&quot;: null,
+            &quot;FirstName&quot;: null,
+            &quot;LastName&quot;: null
+        },
+        &quot;FundingProgramName&quot;: &quot;Elementary and Secondary Education STEM Grant&quot;,
+        &quot;IDNumbers&quot;: {
+            &quot;CongressionalDistrict&quot;: null,
+            &quot;County&quot;: null
+        },
+        &quot;UpdateInfoCheckbox&quot;: null
+    },
+    &quot;StatementofNeedStep&quot;: {
+        &quot;NarrativeResponse1&quot;: null
+    },
+    &quot;SupportingDocumentationStep&quot;: {
+        &quot;ProjectAreaDefinition&quot;: null,
+        &quot;ProjectAreaMap&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;filename&quot;: null,
+                &quot;size&quot;: null
+            }
+        ]
+    },
+    &quot;timeStamp&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userTimeZone&quot;: null,
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRCreateSTEMGrantFR&quot;: null,
+        &quot;DRGetDemoUserId&quot;: null,
+        &quot;DRGetEducationAccountAndContactForUser&quot;: null,
+        &quot;NavigateAction1&quot;: null,
+        &quot;ProgramCostsAndFundingStep&quot;: null,
+        &quot;ProgramGoalsStep&quot;: null,
+        &quot;ProjectNameInformationStep&quot;: null,
+        &quot;SetInitialValues&quot;: null,
+        &quot;StatementofNeedStep&quot;: null,
+        &quot;SupportingDocumentationStep&quot;: null
+    }
+}</expectedInputJson>
+    <globalKey>DRCreateGMSTEMApp</globalKey>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRCreateGMSTEMApp</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{&quot;DefaultApplicationStatus&quot;:&quot;Submitted&quot;,&quot;ProgramCostsAndFundingStep&quot;:{&quot;CapitalProject&quot;:[{&quot;FundsRequested&quot;:50000,&quot;ProgramArea&quot;:&quot;AP&quot;,&quot;ProgramCost&quot;:100000,&quot;ProjectTypePercentage&quot;:0},{&quot;FundsRequested&quot;:12000,&quot;ProgramArea&quot;:&quot;IB&quot;,&quot;ProgramCost&quot;:120000,&quot;ProjectTypePercentage&quot;:0}],&quot;TotalAHSCPercentage&quot;:28.181818181818183,&quot;TotalDevelopmentCosts&quot;:220000,&quot;TotalFundsRequested&quot;:62000},&quot;ProgramOutcomesStep&quot;:{&quot;ProgramOutcome&quot;:[{&quot;OutcomeDescription&quot;:&quot;Here is a description of this outcome&quot;,&quot;OutcomeName&quot;:&quot;Outcome #1&quot;,&quot;PersonResponsible&quot;:&quot;Jennifer Simmons&quot;,&quot;TargetCompletionDate&quot;:&quot;2021-12-31&quot;},{&quot;OutcomeDescription&quot;:&quot;Here is a description of the second outcome&quot;,&quot;OutcomeName&quot;:&quot;Outcome #2&quot;,&quot;PersonResponsible&quot;:&quot;Jennifer Simmons&quot;,&quot;TargetCompletionDate&quot;:&quot;2022-02-01&quot;}]},&quot;ProjectNameInformationStep&quot;:{&quot;Account&quot;:{&quot;Address&quot;:{&quot;City&quot;:&quot;Becker&quot;,&quot;Country&quot;:&quot;United States&quot;,&quot;PostalCode&quot;:&quot;55308&quot;,&quot;State&quot;:&quot;MN&quot;,&quot;Street&quot;:&quot;12050 Hancock Street&quot;},&quot;Id&quot;:&quot;0014S00000BPvsRQAT&quot;,&quot;LEANumber&quot;:&quot;100100123&quot;,&quot;LegalName&quot;:&quot;Becker Primary School&quot;,&quot;Name&quot;:&quot;Becker Primary School&quot;,&quot;Phone&quot;:&quot;(763) 200-1500&quot;,&quot;Website&quot;:&quot;beckerprimary.com&quot;},&quot;Contact&quot;:{&quot;Email&quot;:&quot;jsimmonsgrants062021@gmail.com&quot;,&quot;FirstName&quot;:&quot;Jennifer&quot;,&quot;Id&quot;:&quot;0034S00000AKCwuQAH&quot;,&quot;LastName&quot;:&quot;Simmons&quot;,&quot;Phone&quot;:&quot;9052222222&quot;},&quot;FundingProgramName&quot;:&quot;Elementary and Secondary Education STEM Grant&quot;,&quot;IDNumbers&quot;:{&quot;CongressionalDistrict&quot;:&quot;MN-06&quot;,&quot;County&quot;:&quot;27005&quot;},&quot;UpdateInfoCheckbox&quot;:false},&quot;StatementofNeedStep&quot;:{&quot;NarrativeResponse1&quot;:&quot;Here is an example of a Narrative Response. This is a long text field and you can add many details in this step to describe how the school will achieve the Outcomes they identify.&quot;},&quot;UseDemoUser&quot;:true,&quot;localTimeZoneName&quot;:&quot;America/Toronto&quot;,&quot;omniProcessId&quot;:&quot;0jN4S000000H1nNUAS&quot;,&quot;timeStamp&quot;:&quot;2023-06-16T15:31:19.110Z&quot;,&quot;userCurrencyCode&quot;:&quot;USD&quot;,&quot;userId&quot;:&quot;0054S0000037D5BQAU&quot;,&quot;userName&quot;:&quot;arusharma@gpssummer23.dev&quot;,&quot;userProfile&quot;:&quot;System Administrator&quot;,&quot;userTimeZone&quot;:&quot;-420&quot;,&quot;userTimeZoneName&quot;:&quot;America/Los_Angeles&quot;}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

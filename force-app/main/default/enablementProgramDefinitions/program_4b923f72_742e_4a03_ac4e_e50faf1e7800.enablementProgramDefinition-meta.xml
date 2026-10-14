@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EnablementProgramDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Get started as a new partner and ensure continued access to your account and the site.</description>
+    <developerName>program_4b923f72_742e_4a03_ac4e_e50faf1e7800</developerName>
+    <doesAllowSelfEnrollment>false</doesAllowSelfEnrollment>
+    <masterLabel>Partner Registration</masterLabel>
+    <name>Partner Registration</name>
+    <type>PtnrEnablement</type>
+</EnablementProgramDefinition>

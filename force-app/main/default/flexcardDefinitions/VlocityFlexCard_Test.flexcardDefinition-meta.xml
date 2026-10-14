@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexcardDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorName>Test</authorName>
+    <dataSourceConfiguration>{&quot;dataSource&quot;:{&quot;contextVariables&quot;:[],&quot;orderBy&quot;:{},&quot;type&quot;:null,&quot;value&quot;:{}}}</dataSourceConfiguration>
+    <description>vlocityFlexCard_dp</description>
+    <flexcardKey>VlocityFlexCard/Test</flexcardKey>
+    <flexcardType>Parent</flexcardType>
+    <isActive>true</isActive>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isTrackingEnabled>false</isTrackingEnabled>
+    <masterLabel>VlocityFlexCard_Test</masterLabel>
+    <propertySetConfig>
+        <dataSource>{&quot;contextVariables&quot;:[],&quot;orderBy&quot;:{},&quot;type&quot;:null,&quot;value&quot;:{}}</dataSource>
+        <dynamicProperties>{&quot;xmlJson&quot;:[{&quot;@attributes&quot;:{&quot;targets&quot;:&quot;lightning__AppPage&quot;,&quot;xmlns&quot;:&quot;http://soap.sforce.com/2006/04/metadata&quot;},&quot;property&quot;:[{&quot;@attributes&quot;:{&quot;name&quot;:&quot;debug&quot;,&quot;type&quot;:&quot;Boolean&quot;}},{&quot;@attributes&quot;:{&quot;name&quot;:&quot;recordId&quot;,&quot;type&quot;:&quot;String&quot;}}]},{&quot;@attributes&quot;:{&quot;targets&quot;:&quot;lightning__RecordPage&quot;,&quot;xmlns&quot;:&quot;http://soap.sforce.com/2006/04/metadata&quot;},&quot;property&quot;:[{&quot;@attributes&quot;:{&quot;name&quot;:&quot;debug&quot;,&quot;type&quot;:&quot;Boolean&quot;}}]}]}</dynamicProperties>
+        <enableLwc>true</enableLwc>
+        <isFlex>true</isFlex>
+        <selectableMode>Multi</selectableMode>
+        <states>
+            <actions>[]</actions>
+            <childCards>[]</childCards>
+            <components>{&quot;layer-0&quot;:{&quot;children&quot;:[]}}</components>
+            <conditions>{&quot;group&quot;:[],&quot;id&quot;:&quot;state-condition-object&quot;,&quot;isParent&quot;:true}</conditions>
+            <definedActions>{&quot;actions&quot;:[]}</definedActions>
+            <documents>[]</documents>
+            <dynamicProperties>{}</dynamicProperties>
+            <fields>[]</fields>
+            <isSmartAction>false</isSmartAction>
+            <name>Active</name>
+            <omniscripts>[]</omniscripts>
+            <smartAction>{}</smartAction>
+            <styleObject>{&quot;class&quot;:&quot;slds-card slds-p-around_x-small slds-m-bottom_x-small&quot;,&quot;container&quot;:{&quot;class&quot;:&quot;slds-card&quot;},&quot;margin&quot;:[{&quot;size&quot;:&quot;x-small&quot;,&quot;type&quot;:&quot;bottom&quot;}],&quot;padding&quot;:[{&quot;size&quot;:&quot;x-small&quot;,&quot;type&quot;:&quot;around&quot;}],&quot;size&quot;:{&quot;default&quot;:&quot;12&quot;,&quot;isResponsive&quot;:false},&quot;sizeClass&quot;:&quot;slds-size_12-of-12&quot;}</styleObject>
+        </states>
+        <theme>slds</theme>
+        <title>VlocityFlexCard</title>
+        <xmlObject>{&quot;apiVersion&quot;:51,&quot;isExplicitImport&quot;:false,&quot;isExposed&quot;:true,&quot;masterLabel&quot;:&quot;VlocityFlexCard&quot;,&quot;runtimeNamespace&quot;:&quot;omnistudio&quot;,&quot;targetConfigs&quot;:&quot;PHRhcmdldENvbmZpZyB4bWxucz0iaHR0cDovL3NvYXAuc2ZvcmNlLmNvbS8yMDA2LzA0L21ldGFkYXRhIiB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB4bWxucz0iaHR0cDovL3NvYXAuc2ZvcmNlLmNvbS8yMDA2LzA0L21ldGFkYXRhIiB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==&quot;,&quot;targets&quot;:{&quot;target&quot;:[&quot;lightning__RecordPage&quot;,&quot;lightning__AppPage&quot;,&quot;lightning__HomePage&quot;]}}</xmlObject>
+    </propertySetConfig>
+    <references>[]</references>
+</FlexcardDefinition>

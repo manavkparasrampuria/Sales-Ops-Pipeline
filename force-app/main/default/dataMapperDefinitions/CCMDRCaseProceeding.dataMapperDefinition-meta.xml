@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCaseProceeding</dataMapperDefItemName>
+        <globalKey>CCMDRCaseProceedingCustom9341</globalKey>
+        <inputField>CaseProceedingDetails:NewCaseDetails:CaseProceedingUpdate:Description</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>CaseProceeding</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCaseProceeding</dataMapperDefItemName>
+        <globalKey>CCMDRCaseProceedingCustom7949</globalKey>
+        <inputField>CaseProceedingDetails:NewCaseDetails:GeneralCaseProceedingInformation:StartDateTime</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>StartDateTime</outputField>
+        <outputObject>CaseProceeding</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCaseProceeding</dataMapperDefItemName>
+        <globalKey>CCMDRCaseProceedingCustom873</globalKey>
+        <inputField>CaseProceedingDetails:NewCaseDetails:GeneralCaseProceedingInformation:CaseFilingDateTime</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CaseFilingDateTime</outputField>
+        <outputObject>CaseProceeding</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCaseProceeding</dataMapperDefItemName>
+        <globalKey>CCMDRCaseProceedingCustom1810</globalKey>
+        <inputField>CaseProceedingDetails:NewCaseDetails:GeneralCaseProceedingInformation:SubType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SubType</outputField>
+        <outputObject>CaseProceeding</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCaseProceeding</dataMapperDefItemName>
+        <globalKey>CCMDRCaseProceedingCustom9327</globalKey>
+        <inputField>CaseProceedingDetails:NewCaseDetails:CaseProceedingUpdate:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>CaseProceeding</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCaseProceeding</dataMapperDefItemName>
+        <globalKey>CCMDRCaseProceedingCustom3499</globalKey>
+        <inputField>CaseProceedingDetails:NewCaseDetails:GeneralCaseProceedingInformation:Status</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>CaseProceeding</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCaseProceeding</dataMapperDefItemName>
+        <globalKey>CCMDRCaseProceedingCustom694</globalKey>
+        <inputField>Case:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CaseId</outputField>
+        <outputObject>CaseProceeding</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCaseProceeding</dataMapperDefItemName>
+        <globalKey>CCMDRCaseProceedingCustom2884</globalKey>
+        <inputField>CaseProceedingDetails:NewCaseDetails:GeneralCaseProceedingInformation:EndDateTime</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>EndDateTime</outputField>
+        <outputObject>CaseProceeding</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCaseProceeding</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>CCMDRCaseProceedingCustom6418</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>CaseProceeding</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CCMDRCaseProceeding</dataMapperDefItemName>
+        <globalKey>CCMDRCaseProceedingCustom7127</globalKey>
+        <inputField>CaseProceedingDetails:NewCaseDetails:GeneralCaseProceedingInformation:Type</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Type</outputField>
+        <outputObject>CaseProceeding</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;GetCaseDetails&quot;: null,
+        &quot;SetCaseID&quot;: null,
+        &quot;setObjectsToRetrieve&quot;: null,
+        &quot;SaveWhenNewCaseProceedingCreated&quot;: null,
+        &quot;Confirmation&quot;: null,
+        &quot;Participants&quot;: null,
+        &quot;DRGetCaseDetails&quot;: null,
+        &quot;SaveCaseParticipantsFromPublicComplaint&quot;: null,
+        &quot;setEmptyResults&quot;: null,
+        &quot;SaveCaseParticipantsWhenNewCaseCreated&quot;: null,
+        &quot;getCaseParticipants&quot;: null,
+        &quot;setCaseProceedingValues&quot;: null,
+        &quot;GetComplaintCaseDetails&quot;: null,
+        &quot;CaseProceedingDetails&quot;: null,
+        &quot;SetCaseProceedingValues&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;Confirmation&quot;: {},
+    &quot;Participants&quot;: {
+        &quot;executeComplaintParticipantDR&quot;: null,
+        &quot;addNewParticipants&quot;: {
+            &quot;city&quot;: null,
+            &quot;lastName&quot;: null,
+            &quot;cityFormula&quot;: null,
+            &quot;firstNameFormula&quot;: null,
+            &quot;selectAndBuildList&quot;: null,
+            &quot;limitationFlexCard&quot;: null,
+            &quot;firstName&quot;: null,
+            &quot;lastNameFormula&quot;: null
+        },
+        &quot;complaintParticipants&quot;: {
+            &quot;SelectFromList&quot;: null
+        },
+        &quot;executeAddNewParticipantDR&quot;: null
+    },
+    &quot;CaseProceedingDetails&quot;: {
+        &quot;NewCaseDetails&quot;: {
+            &quot;GeneralCaseProceedingInformation&quot;: {
+                &quot;EndDateTime&quot;: null,
+                &quot;StartDateTime&quot;: null,
+                &quot;SubType&quot;: null,
+                &quot;Status&quot;: null,
+                &quot;Type&quot;: null,
+                &quot;CaseFilingDateTime&quot;: null
+            },
+            &quot;CaseProceedingUpdate&quot;: {
+                &quot;Description&quot;: null,
+                &quot;Name&quot;: null
+            }
+        }
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>CCMDRCaseProceeding</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;GetCaseDetails&quot;:null,&quot;SetCaseID&quot;:null,&quot;setObjectsToRetrieve&quot;:null,&quot;SaveWhenNewCaseProceedingCreated&quot;:null,&quot;Confirmation&quot;:null,&quot;Participants&quot;:null,&quot;DRGetCaseDetails&quot;:null,&quot;SaveCaseParticipantsFromPublicComplaint&quot;:null,&quot;setEmptyResults&quot;:null,&quot;SaveCaseParticipantsWhenNewCaseCreated&quot;:null,&quot;getCaseParticipants&quot;:null,&quot;setCaseProceedingValues&quot;:null,&quot;GetComplaintCaseDetails&quot;:null,&quot;CaseProceedingDetails&quot;:null,&quot;SetCaseProceedingValues&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;Confirmation&quot;:{},&quot;Participants&quot;:{&quot;executeComplaintParticipantDR&quot;:null,&quot;addNewParticipants&quot;:{&quot;city&quot;:null,&quot;lastName&quot;:null,&quot;cityFormula&quot;:null,&quot;firstNameFormula&quot;:null,&quot;selectAndBuildList&quot;:null,&quot;limitationFlexCard&quot;:null,&quot;firstName&quot;:null,&quot;lastNameFormula&quot;:null},&quot;complaintParticipants&quot;:{&quot;SelectFromList&quot;:null},&quot;executeAddNewParticipantDR&quot;:null},&quot;CaseProceedingDetails&quot;:{&quot;NewCaseDetails&quot;:{&quot;GeneralCaseProceedingInformation&quot;:{&quot;EndDateTime&quot;:null,&quot;StartDateTime&quot;:null,&quot;SubType&quot;:null,&quot;Status&quot;:null,&quot;Type&quot;:null,&quot;CaseFilingDateTime&quot;:null},&quot;CaseProceedingUpdate&quot;:{&quot;Description&quot;:null,&quot;Name&quot;:null}}}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

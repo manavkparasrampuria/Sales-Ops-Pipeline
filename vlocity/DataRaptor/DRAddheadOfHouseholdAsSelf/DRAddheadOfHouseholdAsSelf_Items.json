@@ -1,0 +1,50 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FormulaExpression": "HoldHofH:PSS_BM_v5_HouseholdMemberDetails,HoldHouseholdInformation:PSS_BM_v5_HouseholdMemberDetails",
+        "FormulaResultPath": "Combined:PSS_BM_v5_HouseholdMemberDetails",
+        "FormulaSequence": 1,
+        "GlobalKey": "DRAddheadOfHouseholdAsSelfCustom8820",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "DRAddheadOfHouseholdAsSelf",
+        "OmniDataTransformationId": {
+            "Name": "DRAddheadOfHouseholdAsSelf",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRAddheadOfHouseholdAsSelf",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "DRAddheadOfHouseholdAsSelfCustom1144",
+        "InputFieldName": "Combined",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "DRAddheadOfHouseholdAsSelf",
+        "OmniDataTransformationId": {
+            "Name": "DRAddheadOfHouseholdAsSelf",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRAddheadOfHouseholdAsSelf",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "HouseholdInformation",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

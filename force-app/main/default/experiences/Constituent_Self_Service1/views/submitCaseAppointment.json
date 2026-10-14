@@ -1,0 +1,93 @@
+{
+  "appPageId" : "cb179d80-7920-4ba7-93b5-079034f23a90",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "08c045aa-0ed4-4a70-9424-c9037faa6fd8",
+  "label" : "Submit Case Appointment",
+  "regions" : [ {
+    "id" : "a3348e54-c7d9-44ce-a42e-cafd613969e5",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowAttachments" : true,
+        "attachmentLabel" : "Upload File",
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "rgb(44, 89, 109)",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : "",
+        "buttonRadius" : 25,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "callToAction" : false,
+        "callToActionButtonText" : "",
+        "callToActionText" : "",
+        "callToActionUrl" : "",
+        "confirmationSubtext" : "We’ll get back to you soon.",
+        "confirmationText" : "Your case was created.",
+        "guestQuickActionName" : "New_Case_Record",
+        "headerSubtitle" : "Tell us how we can help with questions regarding appointments",
+        "headerTitle" : "Contact Customer Support - Appointments",
+        "quickActionName" : "Community_Case_Appointment",
+        "requestSummaryText" : "Case summary"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "f90a4b25-0d17-405c-9947-e5c4bd9391e1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d5354897-26e6-4cb4-af9a-bc4c1b062f82",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askConfirmationQuestion" : true,
+        "confirmationMessageLabel" : "Got it!",
+        "deflectionSubtitle" : "Find what you need here.",
+        "deflectionTitle" : "Need Answers Fast?",
+        "firstQuestion" : "Did this content solve your issue?",
+        "maxResults" : 6,
+        "measureDeflection" : true,
+        "redirectUrl" : "",
+        "secondQuestion" : "Stop creating your case?",
+        "showArticles" : true,
+        "showDiscussions" : false,
+        "topicId" : ""
+      },
+      "componentName" : "forceCommunity:caseDeflection",
+      "id" : "1cd1a419-2c7a-46db-bfce-41622eb52dfe",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b2480c77-0d0d-458b-9736-509f1f2d13a4",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "83024b3c-cd2c-474e-aa08-a4d0558384f5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Submit Case Appointment"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "98aa32ca-be1f-4d1b-87ff-5d2b0692ce85",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8bd60ca0-fd1f-43c7-bb97-579e333e0e52",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-submit-case-appointment"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildOSAssessmentQuestionUpsert</dataMapperDefItemName>
+        <globalKey>QuickBuildOSAssessmentQuestionUpsertCustom2503</globalKey>
+        <inputField>OPAQ:OmniProcessElementId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>OmniProcessElementId</outputField>
+        <outputObject>OmniProcessAsmtQuestionVer</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildOSAssessmentQuestionUpsert</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildOSAssessmentQuestionUpsertCustom2821</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>OmniProcessAsmtQuestionVer</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildOSAssessmentQuestionUpsert</dataMapperDefItemName>
+        <globalKey>QuickBuildOSAssessmentQuestionUpsertCustom3127</globalKey>
+        <inputField>OPAQ:OmniProcessId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>OmniProcessId</outputField>
+        <outputObject>OmniProcessAsmtQuestionVer</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildOSAssessmentQuestionUpsert</dataMapperDefItemName>
+        <globalKey>QuickBuildOSAssessmentQuestionUpsertCustom4160</globalKey>
+        <inputField>OPAQ:AssessmentQuestionVersionId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AssessmentQuestionVersionId</outputField>
+        <outputObject>OmniProcessAsmtQuestionVer</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;OPAQ&quot;: [
+        {
+            &quot;OmniProcessId&quot;: &quot;0jNHs000000c6zIMAQ&quot;,
+            &quot;AssessmentQuestionVersionId&quot;: &quot;0lFHs000000bsuGMAQ&quot;,
+            &quot;OmniProcessElementId&quot;: &quot;0kEHs000001FwtmMAC&quot;
+        },
+        {
+            &quot;OmniProcessId&quot;: &quot;0jNHs000000c6zIMAQ&quot;,
+            &quot;AssessmentQuestionVersionId&quot;: &quot;0lFHs000000bsuHMAQ&quot;,
+            &quot;OmniProcessElementId&quot;: &quot;0kEHs000001FwtnMAC&quot;
+        },
+        {
+            &quot;OmniProcessId&quot;: &quot;0jNHs000000c6zIMAQ&quot;,
+            &quot;AssessmentQuestionVersionId&quot;: &quot;0lFHs000000bsuIMAQ&quot;,
+            &quot;OmniProcessElementId&quot;: &quot;0kEHs000001FwtoMAC&quot;
+        }
+    ]
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>QuickBuildOSAssessmentQuestionUpsert</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;OPAQ&quot;: [
+    {
+      &quot;OmniProcessId&quot;: &quot;0jNHs000000c6zNMAQ&quot;,
+      &quot;AssessmentQuestionVersionId&quot;: &quot;0lFHs000000bsuLMAQ&quot;,
+      &quot;OmniProcessElementId&quot;: &quot;0kEHs000001Fx6fMAC&quot;
+    },
+    {
+      &quot;OmniProcessId&quot;: &quot;0jNHs000000c6zNMAQ&quot;,
+      &quot;AssessmentQuestionVersionId&quot;: &quot;0lFHs000000bsuMMAQ&quot;,
+      &quot;OmniProcessElementId&quot;: &quot;0kEHs000001Fx6gMAC&quot;
+    },
+    {
+      &quot;OmniProcessId&quot;: &quot;0jNHs000000c6zNMAQ&quot;,
+      &quot;AssessmentQuestionVersionId&quot;: &quot;0lFHs000000bsuNMAQ&quot;,
+      &quot;OmniProcessElementId&quot;: &quot;0kEHs000001Fx6hMAC&quot;
+    }
+  ]
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

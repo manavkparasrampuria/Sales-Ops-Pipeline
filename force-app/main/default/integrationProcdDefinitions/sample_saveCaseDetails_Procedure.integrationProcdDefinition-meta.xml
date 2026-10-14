@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IntegrationProcdDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <integProcdName>Sample Save Case Details</integProcdName>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>DRSaveCaseDetails</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <additionalInput>{}</additionalInput>
+            <additionalOutput>{}</additionalOutput>
+            <bundle>sampleSaveCaseDetails</bundle>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;label&quot;:&quot;DataRaptorPostAction1&quot;,&quot;show&quot;:null}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <failureResponse>{}</failureResponse>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <returnOnlyFailureResponse>false</returnOnlyFailureResponse>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath></sendJSONPath>
+            <sendOnlyAdditionalInput>false</sendOnlyAdditionalInput>
+            <useFormulas>true</useFormulas>
+        </propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>DataRaptor Post Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcedureDefKey>sample_saveCaseDetails</integrationProcedureDefKey>
+    <integrationProcedureType>Integration Procedure</integrationProcedureType>
+    <isActive>true</isActive>
+    <isIntegProcdSignatureAvl>false</isIntegProcdSignatureAvl>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <masterLabel>sample_saveCaseDetails_Procedure</masterLabel>
+    <propertySetConfig>
+        <chainableCpuLimit>2000</chainableCpuLimit>
+        <chainableQueriesLimit>50</chainableQueriesLimit>
+        <columnsPropertyMap>[]</columnsPropertyMap>
+        <description></description>
+        <dynamicProperties>{}</dynamicProperties>
+        <includeAllActionsInResponse>false</includeAllActionsInResponse>
+        <labelPlural></labelPlural>
+        <labelSingular></labelSingular>
+        <linkToExternalObject></linkToExternalObject>
+        <nameColumn></nameColumn>
+        <relationshipFieldsMap>[]</relationshipFieldsMap>
+        <rollbackOnError>false</rollbackOnError>
+        <trackingCustomData>{}</trackingCustomData>
+    </propertySetConfig>
+    <references>[{&quot;name&quot;:&quot;sampleSaveCaseDetails&quot;,&quot;type&quot;:&quot;DataMapperDefinition&quot;}]</references>
+    <subType>saveCaseDetails</subType>
+    <type>sample</type>
+</IntegrationProcdDefinition>

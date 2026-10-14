@@ -26,6 +26,10 @@
                 <behavior>Edit</behavior>
                 <field>ContentDocumentId</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>LastActivationDateTime</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -33,8 +37,16 @@
                 <field>AuthorizationFormId</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Locale</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsActive</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsReadOnly</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

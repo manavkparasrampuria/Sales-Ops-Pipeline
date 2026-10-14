@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateActionPlan</dataMapperDefItemName>
+        <globalKey>CreateActionPlan4874638526692321</globalKey>
+        <inputField>TypeOfActionPlan</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ActionPlanType</outputField>
+        <outputObject>ActionPlan</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateActionPlan</dataMapperDefItemName>
+        <globalKey>CreateActionPlan024680052551633747</globalKey>
+        <inputField>StateOfActionPlan</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ActionPlanState</outputField>
+        <outputObject>ActionPlan</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateActionPlan</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>CreateActionPlan33596894162944824</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlan</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateActionPlan</dataMapperDefItemName>
+        <globalKey>CreateActionPlan5840774260659669</globalKey>
+        <inputField>StartDateOfActionPlan</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>StartDate</outputField>
+        <outputObject>ActionPlan</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateActionPlan</dataMapperDefItemName>
+        <globalKey>CreateActionPlan6199710318155649</globalKey>
+        <inputField>DRId_ApplicationForm</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>TargetId</outputField>
+        <outputObject>ActionPlan</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateActionPlan</dataMapperDefItemName>
+        <globalKey>CreateActionPlan9931483831764394</globalKey>
+        <inputField>APTVId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ActionPlanTemplateVersionId</outputField>
+        <outputObject>ActionPlan</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateActionPlan</dataMapperDefItemName>
+        <globalKey>CreateActionPlan9769956471998185</globalKey>
+        <inputField>APTVName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>ActionPlan</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DataMapperPostAction3&quot;: null,
+        &quot;DataMapperExtractAction4&quot;: null,
+        &quot;DataMapperExtractAction3&quot;: null,
+        &quot;SetValues2&quot;: null,
+        &quot;DataMapperPostAction2&quot;: null,
+        &quot;DataMapperExtractAction2&quot;: null,
+        &quot;SetValues1&quot;: null,
+        &quot;DataMapperPostAction1&quot;: null,
+        &quot;DataMapperExtractAction1&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>CreateActionPlan</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;vlcTimeTracking&quot;: {
+    &quot;DataMapperPostAction3&quot;: null,
+    &quot;DataMapperExtractAction4&quot;: null,
+    &quot;DataMapperExtractAction3&quot;: null,
+    &quot;SetValues2&quot;: null,
+    &quot;DataMapperPostAction2&quot;: null,
+    &quot;DataMapperExtractAction2&quot;: null,
+    &quot;SetValues1&quot;: null,
+    &quot;DataMapperPostAction1&quot;: null,
+    &quot;DataMapperExtractAction1&quot;: null
+  },
+  &quot;vlcPersistentComponent&quot;: {},
+  &quot;userTimeZone&quot;: null,
+  &quot;userProfile&quot;: null,
+  &quot;userName&quot;: null,
+  &quot;userId&quot;: null,
+  &quot;timeStamp&quot;: null,
+  &quot;ContextId&quot;: null
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

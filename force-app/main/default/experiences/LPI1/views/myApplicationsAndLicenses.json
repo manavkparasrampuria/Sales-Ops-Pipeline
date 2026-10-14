@@ -1,0 +1,210 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "6dda3369-2cc9-453f-992e-943b42c3a473",
+  "label" : "My Applications and Licenses",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>    <span style=\"color: #2D2D2D;font-size: 21px;\">View the Status of a License or Permit</span>   </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">View submitted license or permit applications, draft applications, and issued licenses and permits.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "b0bd3673-c230-4b38-8caf-773f393cca4f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b097972b-8dc3-42db-ad82-5f8a7eeecf25",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "b523f134-6c27-44c8-aacc-0baa1361f1aa",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "14040220-942c-4ef1-adf0-6d55d05fdb13",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "My Licenses and Permits"
+          }, {
+            "UUID" : "0b0e5a1e-063f-42d9-96ea-6d0fa9a85b7e",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Business License Applications"
+          }, {
+            "UUID" : "15a7f1fc-32c4-4763-bfab-e596953e2ca8",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "3",
+            "tabName" : "Individual Applications"
+          }, {
+            "UUID" : "00bcbeed-20f2-4d09-b770-f03b796cfbbe",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "e9c27",
+            "tabName" : "Draft Applications and Assessments"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "b523f134-6c27-44c8-aacc-0baa1361f1aa",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_Licenses",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "BusinessLicense",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "fbd65bd7-81f5-4cf9-ac52-239efda7d571",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "14040220-942c-4ef1-adf0-6d55d05fdb13",
+        "regionLabel" : "My Licenses and Permits",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_BusinessLicenseApplication",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "BusinessLicenseApplication",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "23c5b3b3-6d88-4b86-949a-85e91ac5350f",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "Owned_ReturnedBusinessApplications",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "BusinessLicenseApplication",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "2e10c4f6-0343-4340-aba3-0f30f8391aed",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0b0e5a1e-063f-42d9-96ea-6d0fa9a85b7e",
+        "regionLabel" : "Business License Applications",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "My_Individual_Applications",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "IndividualApplication",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "e3c333f9-563e-4a3f-98fa-afc922f79b6f",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "15a7f1fc-32c4-4763-bfab-e596953e2ca8",
+        "regionLabel" : "Individual Applications",
+        "regionName" : "3",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "Draft_Applications",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "PreliminaryApplicationRef",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "3c8e0544-c6c0-438b-93da-b94537cc3cb3",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "00bcbeed-20f2-4d09-b770-f03b796cfbbe",
+        "regionLabel" : "Draft Applications and Assessments",
+        "regionName" : "e9c27",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3d3ca218-2f3c-4d0d-bfda-3e60e1d8e944",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9184a265-671c-436e-ad17-9558971a13f8",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "my-application-licenses"
+}

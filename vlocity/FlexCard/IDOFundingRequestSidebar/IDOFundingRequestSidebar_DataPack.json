@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "IDOFRSidebar/Salesforce/6.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 6,
+                    "name": "recordId",
+                    "val": "0iT4S000000U0qoUAC"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "IDOGetRelatedFundingProgram",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "RecordId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Sidebar content for the Funding Request layout",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "IDOFundingRequestSidebar",
+    "Namespace": "",
+    "OmniUiCardKey": "IDOFundingRequestSidebar/Salesforce/3.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "IDOFundingRequestSidebar.json",
+    "SampleDataSourceResponse": "[{\"Name\":\"FY24 Sustainable Infrastructure Initiative\",\"Id\":\"1194S0000008PhNQAU\",\"IDOCFDA_Number__c\":\"99.43\",\"IDONOFO_Submitted__c\":\"11/11/2023\",\"IDOApplication_Due_Date__c\":\"01/19/2024\",\"IDOAnnouncement_Date__c\":\"11/13/2023\",\"IDOTotal_Program_Amount__c\":150000000,\"IDOAward_Decision_Date__c\":\"02/05/2024\",\"IDOFunding_Opportunity_Number__c\":\"gotf-000181\",\"Status\":\"Application Review\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "IDOFundingRequestSidebar_Salesforce_3",
+    "VersionNumber": 3,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/IDOFundingRequestSidebar"
+}

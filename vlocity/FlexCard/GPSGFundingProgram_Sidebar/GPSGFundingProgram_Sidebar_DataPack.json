@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "GPSGFPSidebar/Salesforce/11.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "119KX000000XZV9YAO"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "GPSGGetFundingOpportunityDetails",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "RecordId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Sidebar content for the Funding Program layout",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "GPSGFundingProgram_Sidebar",
+    "Namespace": "",
+    "OmniUiCardKey": "GPSGFundingProgram_Sidebar/Salesforce/8.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "GPSGFundingProgram_Sidebar.json",
+    "SampleDataSourceResponse": "[{\"outfunds__End_Date__c\":\"07/31/2025\",\"Funding_Eligibility__c\":\"Eligible Applicants\\r\\n\\r\\nA governmental entity\\r\\nA nonprofit organization with 501(c) (3) tax-exempt status whose overall service population includes a considerable number of area residents; or delivers a considerable number of service hours to local residents. The nonprofit organization must have a physical presence in area or be located within reasonable proximity to the area. Also, it must have been in business for at least two years by the time of the application.\\r\\n\\r\\nEligible Projects/Activities \\r\\nMust occur within the area and/or directly serve local residents.\\r\\nMust address one or more of the four U.S. Department of Housing and Urban Development national objectives which provide primary benefits for people with low- to moderate income. Details about those objectives are available in the CDBG public service or non-public service application.  \\r\\nMust relate to one or more of the Priority Needs in the Draft 2021-2025 Five Year Consolidated Plan (PDF) - housing strategy, homeless strategy, other special needs strategy, community development strategy, and economic development strategy (details in section SP-25 of the document).\",\"outfunds__Description__c\":\"<p>The Community Development Investment (CDI) Grant Program is to incent primarily downtown community development in the state. The program will support urban, small city and rural community redevelopment efforts by providing financial incentives for shovel-ready projects with emphasis on, but not limited to, downtown community-driven efforts. Funded activities should lead to measurable benefits in job opportunities, property values and/or leveraged investment by local and private partners.</p>\",\"GPSGGrant_Type__c\":\"Competitive\",\"Id\":\"119KX000000XZV9YAO\",\"GPSGAnnouncement_Date__c\":\"12/01/2024\",\"Accepting_Applications__c\":\"12/15/2024\",\"GPSGExpected_Number_of_Awards__c\":20,\"GPSGApplication_Due_Date__c\":\"07/31/2025\",\"GPSGAward_Decision_Date__c\":\"08/29/2025\",\"Name\":\"Community Development Investment Grant\",\"outfunds__Total_Program_Amount__c\":\"$1,200,000\",\"GPSGCFDA_Number__c\":\"A-2230\",\"outfunds__Start_Date__c\":\"07/10/2023\",\"Status\":\"Active\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "GPSGFundingProgram_Sidebar_Salesforce_8",
+    "VersionNumber": 8,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/GPSGFundingProgram_Sidebar"
+}

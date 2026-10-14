@@ -1,0 +1,168 @@
+{
+    "ContextId": null,
+    "Demographics": {
+        "Authorized assistant": {
+            "Access to benefits": null,
+            "Assistant Email": null,
+            "Assistant First": null,
+            "Assistant Last": null,
+            "Assistant Phone": null
+        },
+        "Citizenship": {
+            "Citizen": null,
+            "Country of origin": null,
+            "Date of Entry": null,
+            "INS Number": null,
+            "Non-Citizenship Status": null,
+            "USCitizen": null
+        },
+        "City": null,
+        "Communication": {
+            "Communication Needs": null,
+            "Language Spoken": null,
+            "Language written": null,
+            "Requires Interpreter": null
+        },
+        "Contact Information": {
+            "First Name": null,
+            "Last Name": null,
+            "Middle Name": null
+        },
+        "Currently pregnant": null,
+        "DOB": null,
+        "Disability": {
+            "Disability details": null,
+            "Disability duration": null,
+            "Has Disability": null
+        },
+        "Due Date": null,
+        "Email": null,
+        "Ethnicity": null,
+        "Gender": null,
+        "HouseholdName": null,
+        "I need assistance": null,
+        "Last Grade": null,
+        "Marital Status": null,
+        "Next Steps": {
+            "Expenses": null,
+            "I have a family": null,
+            "Income": null
+        },
+        "Phone": null,
+        "SSN": null,
+        "State": null,
+        "Street": null,
+        "ZIP Code": null
+    },
+    "Employment Income": {
+        "IncomeBlock": [
+            {
+                "Amount": null,
+                "Frequency": null,
+                "Hours": null,
+                "IncomeDetail": null,
+                "Source": null
+            }
+        ]
+    },
+    "Estimated Benefits": {
+    },
+    "Household Expenses": {
+        "Expense": {
+            "Expense Type": null,
+            "Monthly amount": null,
+            "Paid to": null
+        },
+        "Total Monthly Expenses": null
+    },
+    "Medicaid": false,
+    "My Household": {
+        "Family Members": {
+            "Currently Pregnant - Family": null,
+            "DOB - Family": null,
+            "Disability - Family": {
+                "Disability details - Family": null,
+                "Disability duration - Family": null,
+                "Has Disability - Family": null
+            },
+            "Due Date - Family": null,
+            "First - Family": null,
+            "Gender - Family": null,
+            "Last - Family": null,
+            "Last Grade - Family": null,
+            "Relationship": null,
+            "SSN - Family": null
+        }
+    },
+    "Not Eligible": {
+    },
+    "Programs": {
+        "Child Care Assistance": null,
+        "Medicaid": null,
+        "SNAP": null,
+        "TANF": null
+    },
+    "SNAP": true,
+    "Self Disclosure": {
+        "Assertion of truth": null,
+        "Double benefits": null,
+        "Felony drug conviction 2013": null,
+        "Felony drug conviction 2015": null,
+        "Fleeing Prosecution": null,
+        "Passes Screening": null,
+        "Trading food stamps for drugs": null,
+        "Trading food stamps for guns": null,
+        "Violating Probation": null
+    },
+    "TANF": true,
+    "Thank you": {
+    },
+    "Upload Documentation": {
+        "Proof of expenses": {
+            "Expense upload": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "Proof of income": {
+            "Income upload": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        }
+    },
+    "timeStamp": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Create Application": null,
+        "DR - Create Expenses": null,
+        "DR - Create Family": null,
+        "DR - Create Household and Applicant": null,
+        "DR - Create Income": null,
+        "DR - Create SNAP PE and PED": null,
+        "DR - Create TANF PE and PED": null,
+        "DR - UploadExpenseAttachments": null,
+        "DR - UploadIncomeAttachments": null,
+        "Demographics": null,
+        "Employment Income": null,
+        "Estimated Benefits": null,
+        "Household Expenses": null,
+        "My Household": null,
+        "Not Eligible": null,
+        "Programs": null,
+        "Self Disclosure": null,
+        "Set Applicant and Household ID": null,
+        "Set Primary Applicant on Application": null,
+        "Thank you": null,
+        "Upload Documentation": null
+    }
+}

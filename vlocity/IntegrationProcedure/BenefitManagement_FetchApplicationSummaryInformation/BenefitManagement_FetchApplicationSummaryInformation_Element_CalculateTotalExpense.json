@@ -1,0 +1,33 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "CalculateTotalExpense",
+    "OmniProcessId": {
+        "Name": "FetchApplicationSummaryInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/FetchApplicationSummaryInformation/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "TotalExpense": "=%CalculateBenefitAmountInput:MedicalExpensesAmount% + %CalculateBenefitAmountInput:InsurancePremiumAmount% + %CalculateBenefitAmountInput:RepresentativePayeeFees% + %CalculateBenefitAmountInput:ChildCareAmount% + %CalculateBenefitAmountInput:GarnishmentsAmount% + %CalculateBenefitAmountInput:SpousalSupportAmount% + %CalculateBenefitAmountInput:PrimaryHeatingBillAmount% + %CalculateBenefitAmountInput:SecondaryHeatingBillAmount%"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues9",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/FetchApplicationSummaryInformation/Procedure/CalculateTotalExpense"
+}

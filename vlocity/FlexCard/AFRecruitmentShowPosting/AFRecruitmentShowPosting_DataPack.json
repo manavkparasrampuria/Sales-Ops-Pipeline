@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 2,
+                    "name": "recordId",
+                    "val": "18BTC0000000bM92AI"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "recordId": "{recordId}"
+                },
+                "ipMethod": "Recruitment_GetRecruitmentPostingData",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "Shows a recruitment posting on the recruitment portal.",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "AFRecruitmentShowPosting",
+    "Namespace": "",
+    "OmniUiCardKey": "AFRecruitmentShowPosting/Salesforce/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "AFRecruitmentShowPosting.json",
+    "SampleDataSourceResponse": "{\"EndDate\":\"2024-07-26\",\"Section2Name\":\"Job Summary\",\"Section3Content\":\"<p>As a Member of Technical Staff in Salesforce , you will be part of a software engineering team that delivers functionality built on a Salesforce Platform. You will work with the team of software engineers, product managers, and architects responsible for feature development and application maintenance.</p><p>You will help to ensure every line of code we push to production is of the highest quality. This includes taking part in the design, planning, and enhancement of automation frameworks, utilities and tools. You should deliver solutions others can understand, support, maintain and expand, and provide other team members with direction on development projects. You are aware of trends and technical developments in the industry, and how those can be applied in your work; and have a point of view on the delivery approach for very complex or foundational features. You have the demonstrated ability to anticipate technology lifecycle issues, work with projects involving multiple systems, and influence the team to deliver durable, extensible solutions.</p><p><br></p><p>This role requires that you be a self-starter with the ability to work under pressure and handle multiple tasks simultaneously. You must possess good oral and written documentation skills and be able to interact with other team members to deliver fast and reliable code. You will also be asked to contribute ideas and provide feedback on many projects within the team’s portfolio.</p><ul><li>Build applications on Salesforce platform</li><li>Integrate Salesforce with 3rd party applications</li><li>Participate in product and feature design with product team, architects</li><li>Design applications based on common design patterns and best practice algorithms</li><li>Plan, design, and enhance automation framework, utilities and tools</li><li>Participate in and contribute to code reviews</li><li>Work with engineers, business analysts and product owners for product delivery</li><li>Ensure product quality meets customer expectations</li></ul><p><br></p>\",\"Section2Content\":\"<p><strong style=\\\"color: rgb(0, 93, 186); font-family: inherit; font-size: inherit;\\\">About Salesforce</strong></p><p><span style=\\\"font-family: inherit;\\\">We’re Salesforce, the Customer Company, inspiring the future of business with AI+ Data +CRM. Leading with our core values, we help companies across every industry blaze new trails and connect with customers in a whole new way. And, we empower you to be a Trailblazer, too — driving your performance and career growth, charting new paths, and improving the state of the world. If you believe in business as the greatest platform for change and in companies doing well and doing good – you’ve come to the right place.</span></p><p><strong style=\\\"font-family: inherit; font-size: inherit;\\\">Salesforce has one of the best Information Security teams in the world and growing this piece of the business is a top priority! Trust and security are Salesforce’s number one value as a company. As a member of the Security Control Planes Team, you will be focused on protecting Salesforce assets from threats.  In this role, you’ll be responsible for assessing, deploying, and maturing Salesforce’s suite of security tools to provide necessary control and monitoring at an enterprise level.</strong></p><p><strong style=\\\"font-family: inherit; font-size: inherit;\\\">We are looking for an individual contributor that wants to leverage their existing security development skills, help automate existing operations and reduce the operational overhead to build supportive services.</strong></p>\",\"Section3Name\":\"Responsibilities\",\"Section1Content\":\"<ul><li>Job Requisition ID</li><li>JR261253</li><li>Remote Type<ul><li>Office - Based<span style=\\\"font-family: inherit;\\\"><img src=\\\"https://prod-wd12.myworkdaycdn.com/wday/asset/ui-html/update/WorkdayApp/8CB9E57BEDDE62E4F67DEB6E19F5308C.cache.png\\\" alt=\\\"\\\"></img></span></li></ul></li><li>Location<ul><li>India - Hyderabad<span style=\\\"font-family: inherit;\\\"><img src=\\\"https://prod-wd12.myworkdaycdn.com/wday/asset/ui-html/update/WorkdayApp/8CB9E57BEDDE62E4F67DEB6E19F5308C.cache.png\\\" alt=\\\"\\\"></img></span></li></ul></li><li>Additional Locations<ul><li>India - Bangalore<span style=\\\"font-family: inherit;\\\"><img src=\\\"https://prod-wd12.myworkdaycdn.com/wday/asset/ui-html/update/WorkdayApp/8CB9E57BEDDE62E4F67DEB6E19F5308C.cache.png\\\" alt=\\\"\\\"></img></span></li></ul></li><li>Posting Date</li><li>25/07/2024 - 1 day ago</li><li>Job Family<ul><li>Core Software Engineering<span style=\\\"font-family: inherit;\\\"><img src=\\\"https://prod-wd12.myworkdaycdn.com/wday/asset/ui-html/update/WorkdayApp/8CB9E57BEDDE62E4F67DEB6E19F5308C.cache.png\\\" alt=\\\"\\\"></img></span></li></ul></li><li>Time Type<ul><li>Full time<span style=\\\"font-family: inherit;\\\"><img src=\\\"https://prod-wd12.myworkdaycdn.com/wday/asset/ui-html/update/WorkdayApp/8CB9E57BEDDE62E4F67DEB6E19F5308C.cache.png\\\" alt=\\\"\\\"></img></span></li></ul></li><li>Job Type<ul><li>Regular<span style=\\\"font-family: inherit;\\\"><img src=\\\"https://prod-wd12.myworkdaycdn.com/wday/asset/ui-html/update/WorkdayApp/8CB9E57BEDDE62E4F67DEB6E19F5308C.cache.png\\\" alt=\\\"\\\"></img></span></li></ul></li><li>Supervisory Organization<ul><li>Salesforce<span style=\\\"font-family: inherit;\\\"><img src=\\\"https://prod-wd12.myworkdaycdn.com/wday/asset/ui-html/update/WorkdayApp/8CB9E57BEDDE62E4F67DEB6E19F5308C.cache.png\\\" alt=\\\"\\\"></img></span></li></ul></li></ul><p><br></p>\",\"StartDate\":\"2024-07-04\",\"PostingType\":\"Internal\",\"RecruitmentRequisition\":\"Teacher\",\"Section1Name\":\"Job Details\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "AFRecruitmentShowPosting_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/AFRecruitmentShowPosting"
+}

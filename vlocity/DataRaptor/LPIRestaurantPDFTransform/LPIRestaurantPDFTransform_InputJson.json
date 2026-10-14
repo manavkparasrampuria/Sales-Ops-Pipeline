@@ -1,0 +1,157 @@
+{
+    "AddressInformation": {
+        "Block2": {
+            "InspectionAddress-Block": {
+                "InspectionAddress": "1111 MC 85, Buckeye, AZ, United States",
+                "InspectionCity": "Buckeye",
+                "InspectionStreet": "1111 MC 85",
+                "InspectionZip": "85326"
+            },
+            "InspectionEmail": "AstrosDiner@mailinator.com",
+            "InspectionFax": "6235557676",
+            "InspectionName": "Inspector Gadget",
+            "InspectionPhone": "6235551212"
+        },
+        "BusinessOwnershipInformation": {
+            "EntityType": "SoleProprietor",
+            "ResponsibleAddress-Block": {
+                "ResponsibleAddress": "19802 MC 85, Buckeye, AZ, USA",
+                "ResponsibleCity": "Buckeye",
+                "ResponsibleState": "AZ",
+                "ResponsibleStreet": "19802 MC 85",
+                "ResponsibleZip": "85326"
+            },
+            "ResponsibleEmail": "HikingMan@mailinator.com",
+            "ResponsibleFax": "6235558080",
+            "ResponsibleName": "Geoff Duckwall",
+            "ResponsibleOther": null,
+            "ResponsiblePhone": "6235554343"
+        },
+        "EstablishmentInfo": {
+            "EstablishmentAddress-Block": {
+                "EstablishmentAddress": "1111 MC 85, Buckeye, AZ, United States",
+                "EstablishmentCity": "Buckeye",
+                "EstablishmentState": "AZ",
+                "EstablishmentStreet": "1111 MC 85",
+                "EstablishmentZip": "85326"
+            },
+            "EstablishmentEmail": "AstrosDiner@mailinator.com",
+            "EstablishmentFax": "6235557676",
+            "EstablishmentName": "Astro's Diner",
+            "EstablishmentPhone": "6235551212"
+        },
+        "MailingBilling": {
+            "BillingAddress-Block": {
+                "BillingAddress": "19802 MC 85, Buckeye, AZ, USA",
+                "BillingCity": "Buckeye",
+                "BillingState": "AZ",
+                "BillingStreet": "19802 MC 85",
+                "BillingZip": "85326"
+            },
+            "BillingEmail": "HikingMan@mailinator.com",
+            "BillingFax": "6235558080",
+            "BillingName": "Geoff Duckwall",
+            "BillingPhone": "6235554343"
+        }
+    },
+    "ContractorArchitectInfo": {
+        "ArchitectEmail": "j@j.com",
+        "ArchitectFax": "9393939393",
+        "ArchitectNA": true,
+        "ArchitectName": "Jane Architect",
+        "Checkbox1": true,
+        "ContractorEmail": "j@j.com",
+        "ContractorFax": "3939393939",
+        "ContractorName": "Joe Schmoe",
+        "ContractorPhone": "3939393939",
+        "Telephone2": "3939393939"
+    },
+    "Disclaimer": {
+        "DisclaimerDate1": "2021-08-04",
+        "DisclaimerDate2": "2021-08-04",
+        "Disclosure1": true,
+        "Disclosure2": true
+    },
+    "DogApplication": {
+        "DogAddress-Block": {
+            "DogAddress": "1111 MC 85, Buckeye, AZ, USA",
+            "DogCity": "Buckeye",
+            "DogState": "AZ",
+            "DogStreet": "1111 MC 85",
+            "DogZip": "85326"
+        },
+        "DogBusiness": "Astro's Diner",
+        "DogChemicals": "Astro's Diner uses commercially available, animal safe and human safe, organic cleaning products, including \"Clean Doggie Organic Disinfectant\", Commercial Strength, non-toxic, safe for all dog patio restaurant surfaces (floors, tables, chairs, walls).",
+        "DogCleaning": "The dog patio is a separate area of the patio that has separate drains and stringent cleaning procedures.",
+        "DogDate": "2021-08-04",
+        "DogDisclosure": true,
+        "DogEmail": "AstrosDiner@mailinator.com",
+        "DogEntrance": "The patio contains a separate outdoor entrance for dogs that put them in the designated dog friendly area of the patio, with a divider from the non-dog friendly area of the patio.",
+        "DogFax": "6235557676",
+        "DogPhone": "6235551212",
+        "DogPrep": "Cross contamination prevention areas contain county required signage on preventing contamination in a dog friendly patio.  Additionally, upon hire, all employees must complete a mandatory contamination prevention training and retrain every six months.",
+        "DogSignage": "Signs are posted at all entrances stating \"Customers with dogs, please use the designated dog entrance in the outdoor patio\"."
+    },
+    "Fee": 245,
+    "FeePreviewStep": {
+        "Block1": null,
+        "EnvFee": {
+            "MinorReviewFee": 245,
+            "NewBusinessFee": 315,
+            "TotalFees": 560
+        }
+    },
+    "GeneratePDF": "00P5e00000XisNQEAZ",
+    "InspectionState": "AZ",
+    "Menu": {
+        "HoursOfOperation": {
+            "DayOfWeek": "Weekdays",
+            "EndTime": "22:00:00.000Z",
+            "StartTime": "06:00:00.000Z"
+        },
+        "MenuDesc": "Astro’s Diner, a full-service, casual dining restaurant, will provide a static menu that is separated into groups (e.g., breakfast, lunch, dinner, brunch, drinks).  Each group will be broken down by categories like appetizers, pastas, sandwiches, sides, etc.  The type of food will be casual dining with traditional Mexican and American dishes.",
+        "SeatingCapacity": 55
+    },
+    "MinorReviewFeeName": "Minor Review",
+    "NewBusinessFeeName": "New Business Permit",
+    "PaymentStep": {
+        "ShowTestCreditCard": false
+    },
+    "Permit": null,
+    "PermitChoice": {
+        "BusinessType": "NewBusiness;MinorReview",
+        "ConstInstallDate": "2021-10-11",
+        "ConstInstallEndDate": "2021-10-15",
+        "ExpeditedReview": "ExpediteReviewNo",
+        "MinorAndNew": true,
+        "MinorOrNew": true,
+        "NewBusiness": true,
+        "OwnerChangeDate": "2021-10-01",
+        "PermitActivity": "New"
+    },
+    "PermitQuestionnaire": {
+        "BriefDescription": "Taking over the existing diner.  Changing the name to Astro's Diner.  Replacing the existing (broken) ice maker in the existing dog friendly patio with the same model.",
+        "DogPatio": "DogYes",
+        "DriveThru": "DriveThruNo",
+        "ExteriorOpenings": "ExteriorOpeningsNo",
+        "Floors": 1,
+        "OutdoorOperations": "OutdoorYes",
+        "SquareFeet": 4500
+    },
+    "PermitRenewal": null,
+    "PlumbingFinish": {
+        "DrainFinish": null,
+        "SewerProvider": null,
+        "WaterProvider": null
+    },
+    "RenewalThanks": null,
+    "UploadDocs": {
+    },
+    "omniJsonDef": null,
+    "timeStamp": "2021-08-04T11:37:55.013Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055e000005GyyLAAS",
+    "userName": "jblankenship@mclpi.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

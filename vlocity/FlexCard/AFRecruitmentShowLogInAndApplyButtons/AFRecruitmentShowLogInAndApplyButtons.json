@@ -1,0 +1,795 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfAFRecruitmentShowLogInAndApplyButtons_1_Salesforce",
+        "Id": "0RbSM0000005LVF0A2",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfAFRecruitmentShowLogInAndApplyButtons_1_Salesforce",
+        "NamespacePrefix": "c"
+    },
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-0",
+                            "name": "Action",
+                            "property": {
+                                "actionList": [
+                                    {
+                                        "actionIndex": 0,
+                                        "draggable": false,
+                                        "isOpen": true,
+                                        "key": "1719564167172-kcwi43owx",
+                                        "label": "Action",
+                                        "stateAction": {
+                                            "Login": {
+                                                "targetAction": "login"
+                                            },
+                                            "id": "flex-action-1722414815752",
+                                            "openUrlIn": "Current Window",
+                                            "targetType": "Login",
+                                            "type": "Custom"
+                                        }
+                                    }
+                                ],
+                                "buttonVariant": "brand",
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "flyoutDetails": {
+                                },
+                                "hideActionIcon": true,
+                                "iconName": "standard-default",
+                                "iconOnly": false,
+                                "iconSize": "medium",
+                                "label": "Log In",
+                                "record": "{record}",
+                                "showSpinner": "false",
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "textAlign": "right"
+                                    }
+                                }
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "slds-text-align_right slds-button--float-right ",
+                                "container": {
+                                    "class": "slds-button--float-right"
+                                },
+                                "elementStyleProperties": {
+                                    "iconSize": "medium",
+                                    "styles": {
+                                        "label": {
+                                            "textAlign": "right"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "      \n         ",
+                                "text": {
+                                    "align": "right",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-text-align_right slds-button--float-right ",
+                                        "container": {
+                                            "class": "slds-button--float-right"
+                                        },
+                                        "elementStyleProperties": {
+                                            "iconSize": "medium",
+                                            "styles": {
+                                                "label": {
+                                                    "textAlign": "right"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "      \n         ",
+                                        "text": {
+                                            "align": "right",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                    {
+                        "field": "User.userType",
+                        "hasMergeField": false,
+                        "id": "state-new-condition-0",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Guest"
+                    }
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "NotLoggedIn",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-card slds-p-around_x-small slds-m-around_none ",
+                "container": {
+                    "class": "slds-card"
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "around:none",
+                        "size": "none",
+                        "type": "around"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "      \n         ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        },
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-1",
+                            "name": "Action",
+                            "property": {
+                                "actionList": [
+                                    {
+                                        "actionIndex": 0,
+                                        "contextId": "\\{recordId}",
+                                        "draggable": true,
+                                        "isOpen": true,
+                                        "isTrackingDisabled": false,
+                                        "key": "1719564167172-kcwi43owx",
+                                        "label": "Action",
+                                        "stateAction": {
+                                            "Community Named Page": {
+                                                "targetName": "Recruitment_Application_Form"
+                                            },
+                                            "hasExtraParams": true,
+                                            "id": "flex-action-1720502354704",
+                                            "openUrlIn": "Current Window",
+                                            "targetParams": {
+                                                "osLanguage": "English",
+                                                "osSubType": "JobApplication",
+                                                "osType": "Recruitment",
+                                                "recordId": "{recordId}"
+                                            },
+                                            "targetType": "Community Named Page",
+                                            "type": "Custom"
+                                        }
+                                    }
+                                ],
+                                "ariaLabel": "Apply",
+                                "buttonVariant": "brand",
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "flyoutChannel": "close_modal",
+                                "flyoutDetails": {
+                                },
+                                "hideActionIcon": true,
+                                "iconName": "standard-default",
+                                "iconSize": "medium",
+                                "label": "Apply",
+                                "record": "{record}",
+                                "showSpinner": "false",
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "fontSize": "",
+                                        "textAlign": "right"
+                                    }
+                                }
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false,
+                                "large": "4",
+                                "medium": "4",
+                                "small": "4"
+                            },
+                            "stateIndex": 1,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "repeat",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "slds-text-align_right slds-button--float-right ",
+                                "container": {
+                                    "class": "slds-button--float-right"
+                                },
+                                "elementStyleProperties": {
+                                    "iconSize": "medium",
+                                    "styles": {
+                                        "label": {
+                                            "fontSize": "",
+                                            "textAlign": "right"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false,
+                                    "large": "4",
+                                    "medium": "4",
+                                    "small": "4"
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "  background-repeat:repeat;    \n         ",
+                                "text": {
+                                    "align": "right",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "repeat",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-text-align_right slds-button--float-right ",
+                                        "container": {
+                                            "class": "slds-button--float-right"
+                                        },
+                                        "elementStyleProperties": {
+                                            "iconSize": "medium",
+                                            "styles": {
+                                                "label": {
+                                                    "fontSize": "",
+                                                    "textAlign": "right"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false,
+                                            "large": "4",
+                                            "medium": "4",
+                                            "small": "4"
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "  background-repeat:repeat;    \n         ",
+                                        "text": {
+                                            "align": "right",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                    {
+                        "field": "ApplicationFrameworkType",
+                        "hasMergeField": false,
+                        "id": "state-new-condition-46",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "Application Framework"
+                    }
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "LoggedIn",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-card slds-p-around_x-small slds-m-around_none ",
+                "container": {
+                    "class": "slds-card"
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "around:none",
+                        "size": "none",
+                        "type": "around"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "      \n         ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        },
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-1",
+                            "name": "Action",
+                            "property": {
+                                "actionList": [
+                                    {
+                                        "actionIndex": 0,
+                                        "contextId": "\\{recordId}",
+                                        "draggable": false,
+                                        "isOpen": true,
+                                        "isTrackingDisabled": false,
+                                        "key": "1719564167172-kcwi43owx",
+                                        "label": "Action",
+                                        "stateAction": {
+                                            "hasExtraParams": true,
+                                            "id": "flex-action-1739297785227",
+                                            "isLwcOS": true,
+                                            "layoutType": "lightning",
+                                            "omniType": {
+                                                "Id": "0jNKX000000hi762AA",
+                                                "Name": "Recruitment/AFCreateJobApplication/English",
+                                                "isLwcOs": true
+                                            },
+                                            "openUrlIn": "Current Window",
+                                            "type": "OmniScript"
+                                        }
+                                    }
+                                ],
+                                "ariaLabel": "Apply",
+                                "buttonVariant": "brand",
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "flyoutChannel": "close_modal",
+                                "flyoutDetails": {
+                                },
+                                "hideActionIcon": true,
+                                "iconName": "standard-default",
+                                "iconSize": "medium",
+                                "label": "Apply",
+                                "record": "{record}",
+                                "showSpinner": "false",
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "fontSize": "",
+                                        "textAlign": "right"
+                                    }
+                                }
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false,
+                                "large": "4",
+                                "medium": "4",
+                                "small": "4"
+                            },
+                            "stateIndex": 2,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "repeat",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "slds-text-align_right slds-button--float-right ",
+                                "container": {
+                                    "class": "slds-button--float-right"
+                                },
+                                "elementStyleProperties": {
+                                    "iconSize": "medium",
+                                    "styles": {
+                                        "label": {
+                                            "fontSize": "",
+                                            "textAlign": "right"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false,
+                                    "large": "4",
+                                    "medium": "4",
+                                    "small": "4"
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "  background-repeat:repeat;    \n         ",
+                                "text": {
+                                    "align": "right",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "repeat",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-text-align_right slds-button--float-right ",
+                                        "container": {
+                                            "class": "slds-button--float-right"
+                                        },
+                                        "elementStyleProperties": {
+                                            "iconSize": "medium",
+                                            "styles": {
+                                                "label": {
+                                                    "fontSize": "",
+                                                    "textAlign": "right"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false,
+                                            "large": "4",
+                                            "medium": "4",
+                                            "small": "4"
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "  background-repeat:repeat;    \n         ",
+                                        "text": {
+                                            "align": "right",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                    {
+                        "field": "ApplicationFrameworkType",
+                        "hasMergeField": false,
+                        "id": "state-new-condition-0",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Application Framework"
+                    }
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "LoggedInAFApp",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-card slds-p-around_x-small slds-m-around_none ",
+                "container": {
+                    "class": "slds-card"
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "around:none",
+                        "size": "none",
+                        "type": "around"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "      \n         ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "AFRecruitmentShowLogInAndApplyButtons",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightningCommunity__Default",
+                "xmlns": "http://soap.sforce.com/2006/04/metadata"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "isExplicitImport": false,
+        "masterLabel": "AFRecruitmentShowLogInAndApplyButtons",
+        "targetConfigs": "CiAgICAgICAgCiAgICAgICAgCiAgICA8dGFyZ2V0Q29uZmlnIHhtbG5zPSJodHRwOi8vc29hcC5zZm9yY2UuY29tLzIwMDYvMDQvbWV0YWRhdGEiIHRhcmdldHM9ImxpZ2h0bmluZ0NvbW11bml0eV9fRGVmYXVsdCI+CiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJyZWNvcmRJZCIgdHlwZT0iU3RyaW5nIi8+CiAgICA8L3RhcmdldENvbmZpZz4KICAKICAgICAgICAKICAgICAgICA=",
+        "targets": {
+            "target": [
+                "lightning__AppPage",
+                "lightning__RecordPage",
+                "lightning__HomePage",
+                "lightningCommunity__Page",
+                "lightningCommunity__Default"
+            ]
+        }
+    }
+}

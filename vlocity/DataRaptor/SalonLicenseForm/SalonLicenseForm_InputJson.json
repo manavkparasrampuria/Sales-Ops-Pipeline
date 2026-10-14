@@ -1,0 +1,123 @@
+{
+    "ApplicationAttachments": {
+        "EINProof": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "IdentificationProof": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "PropertyProof": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "ApplicationInformation": {
+        "ApplicationCategory": null,
+        "AssociatedAccount": null,
+        "AssociatedAccountId": null,
+        "AuthorizationCategory": null,
+        "AuthorizationType": null,
+        "AuthorizationTypeId": null,
+        "BusinessActivity": null,
+        "BusinessActivityId": null,
+        "Industries": null,
+        "exprShowMinnesotaSalonLicenceApplication": null,
+        "isBusinessActivityFilled": null,
+        "isIndustriesFilled": null
+    },
+    "Certification": {
+        "CertificationText": null,
+        "Signature": null
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "EstablishmentInformation": {
+        "Address": null,
+        "BusinessDBAName": null,
+        "BusinessLegalName": null,
+        "City": null,
+        "ContactEmail": null,
+        "ContactName": null,
+        "Neighborhood": null,
+        "State": null,
+        "Street": null,
+        "TaxID": null,
+        "Zipcode": null
+    },
+    "OwnershipInformation": {
+        "CorporationOrLLCOwnership": {
+            "CorporationEIN": null,
+            "CorporationName": null,
+            "Member1_FirstName": null,
+            "Member1_LastName": null,
+            "Member2_FirstName": null,
+            "Member2_LastName": null
+        },
+        "IndividualOwnership": {
+            "IndividualFirstName": null,
+            "IndividualLastName": null
+        },
+        "OwnershipType": null,
+        "PartnershipOwnership": {
+            "EIN": null,
+            "Partner1_FirstName": null,
+            "Partner1_LastName": null,
+            "Partner2_FirstName": null,
+            "Partner2_LastName": null
+        },
+        "PriorEstablishmentDetails": {
+            "PriorEstablishmentLicense": null,
+            "PriorEstablishmentName": null
+        },
+        "PurchaseOrTakeOver": null
+    },
+    "ReasonForNewLicenseApplication": {
+        "PreviousExpirationDate": null,
+        "SalonPrevLic": null,
+        "SalonPrevOwner": null,
+        "SalonRelocPrevAddr": null,
+        "SelectReasonforNewLicenseApplication": null
+    },
+    "SalonInformation": {
+        "BusinessLocation": null,
+        "BusinessType": null,
+        "SalonInAResidence": null,
+        "SalonStartDate": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApplicationAttachments": null,
+        "ApplicationInformation": null,
+        "Certification": null,
+        "Confirmation": null,
+        "DRApplicationId1": null,
+        "DRBusinessAccountProfileInfo": null,
+        "DRContactForUser": null,
+        "DRGetIds": null,
+        "DRSaveLicensePermitApplication": null,
+        "DoneAction": null,
+        "EstablishmentInformation": null,
+        "OwnershipInformation": null,
+        "ReasonForNewLicenseApplication": null,
+        "SalonInformation": null,
+        "SetContext": null
+    }
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSSocInsCreateContentDocumentCollection</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSSocInsCreateContentDocumentCollection09458517899813423</globalKey>
+        <inputField>PSS_SI_v1_UploadPayslips</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_SI_v1_UploadPayslips</outputField>
+        <outputFieldDataType>List&lt;Map&gt;</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSSocInsCreateContentDocumentCollection</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSSocInsCreateContentDocumentCollection6808891889312028</globalKey>
+        <inputField>PSS_SI_v1_UploadDocument</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PSS_SI_v1_UploadDocument</outputField>
+        <outputFieldDataType>List&lt;Map&gt;</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Creates an array of content document JSON objects.</description>
+    <expectedInputJson>{
+  &quot;size&quot; : 54019,
+  &quot;deleteLabel&quot; : &quot;mCode Issue.png&quot;,
+  &quot;data&quot; : &quot;069SM0000001hm5YAA&quot;,
+  &quot;filename&quot; : &quot;mCode Issue.png&quot;,
+  &quot;vId&quot; : &quot;068SM0000001gI9YAI&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>true</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSSocInsCreateContentDocumentCollection</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;PSS_SI_v1_UploadPayslips&quot; : {
+    &quot;size&quot; : 54019,
+    &quot;deleteLabel&quot; : &quot;mCode Issue.png&quot;,
+    &quot;data&quot; : &quot;069SM0000001hm5YAA&quot;,
+    &quot;filename&quot; : &quot;mCode Issue.png&quot;,
+    &quot;vId&quot; : &quot;068SM0000001gI9YAI&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+</DataMapperDefinition>

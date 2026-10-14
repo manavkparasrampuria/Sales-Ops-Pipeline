@@ -1,0 +1,82 @@
+{
+    "AccountId": "0014S00000DbliVQAR",
+    "AccountName": "Aerospace Services",
+    "AdditonalInfo": null,
+    "Assessment": {
+    },
+    "ClassificationDetails": null,
+    "Completion": null,
+    "Consent": null,
+    "ContactId": "0034S00000BnZj5QAF",
+    "ContactName": "Paula Partner",
+    "ContextId": "0054S0000042YpuQAE",
+    "CurrentDay": "Tuesday",
+    "CurrentSobjectType": "HealthcareFacility",
+    "DRId_Address": "1304S000000QnQAQA0",
+    "DRId_Contact": "0034S00000C5XK0QAN",
+    "DRId_HealthcareFacility": "0kl4S000000bmenQAA",
+    "DRId_Location": "1314S000000VCZZQA4",
+    "DRId_OperatingHours": "0OH4S000000q1ldWAA",
+    "Disclosure": {
+        "Disclosure1": true
+    },
+    "General": null,
+    "IPOutput": "",
+    "Order": 1,
+    "ParentLocationId": "1314S000000VCZZQA4",
+    "RecordType": {
+        "DeveloperName": "SiteFacility",
+        "Id": "0124S000000xYr0QAE"
+    },
+    "RecordTypeName": "SiteFacility",
+    "SiteCityOrig": " San Francisco",
+    "SiteContact": {
+        "BestTimetoCall": {
+            "SiteContactBestTimeCallEnd": "12:00:00.000Z",
+            "SiteContactBestTimeCallStart": "09:00:00.000Z"
+        },
+        "BlkSiteContactNew": {
+            "SiteContactFirstName": "Frank",
+            "SiteContactLastName": "Facility",
+            "SiteContactPhoneNumber": "29243434343",
+            "SiteContactTitle": "Facility Manager"
+        },
+        "MyselfSiteContact": false
+    },
+    "SiteContactId": "0034S00000C5XK0QAN",
+    "SiteContactPhone__c": "(415)443-9822",
+    "SiteFacilityId": "0kl4S000000bmenQAA",
+    "SiteInfo": {
+        "Description": "This is the HQ for various administration and services. This is also includes a warehouse for various materials",
+        "NumberofStaff": 200,
+        "SIDN__c": "S12344567",
+        "SiteAddress-Block": {
+            "SiteAddress": "415 Mission St, San Francisco, CA 94105, USA",
+            "SiteCity": "San Francisco",
+            "SiteCountry": "United States",
+            "SiteCounty": "San Francisco County",
+            "SiteState": "CA",
+            "SiteStreet": "415 Mission St",
+            "SiteZipcode": "94105",
+            "place_id": "ChIJVVUVamOAhYARqZJ1H2ETsm0"
+        },
+        "SiteName": "Aerospace Services - HQ",
+        "SiteOperatingHoursAdd": "Yes"
+    },
+    "SiteNameDefault": "Aerospace Services - HQ",
+    "SiteOperatingHours": {
+    },
+    "SiteStateOrig": "CA",
+    "SiteStreetOrig": "415 Mission St",
+    "SiteZipcodeOrig": "94105",
+    "UserId": "0054S0000042YpuQAE",
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jN4S000000LVI0UAO",
+    "timeStamp": "2023-10-10T14:32:11.427Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054S0000042YpuQAE",
+    "userName": "kwinderlich@gpswinter24.dev3",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

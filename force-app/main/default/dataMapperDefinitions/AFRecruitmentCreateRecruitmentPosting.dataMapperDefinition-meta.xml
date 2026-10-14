@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item5</globalKey>
+        <inputField>RecruitmentPostingDetails:PostingType</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PostingType</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom52</globalKey>
+        <inputField>RecruitmentPostingDetails:AppFramework</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>gps_Application_Type__c</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item3</globalKey>
+        <inputField>RecruitmentPostingDetails:PostingEndDate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>EndDate</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item2</globalKey>
+        <inputField>RecruitmentPostingDetails:RecruitmentRequisition</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PostingTitle</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item1</globalKey>
+        <inputField>RecruitmentPostingDetails:PostingDescription</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item0</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item4</globalKey>
+        <inputField>RecruitmentPostingDetails:StartDate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>StartDate</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item6</globalKey>
+        <inputField>RecruitmentPostingDetails:CandidateSourceKey</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CandidateSourceKey</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item10</globalKey>
+        <inputField>RecruitmentPostingDetails:PostingStatus</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item9</globalKey>
+        <inputField>RecruitmentPostingDetails:RecruitmentRequisitionId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecruitmentRequisitionId</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item8</globalKey>
+        <inputField>RecruitmentPostingDetails:RecruitmentRequisitionName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RequisitionIdentifier</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>AFRecruitmentCreateRecruitmentPosting</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>AFRecruitmentCreateRecruitmentPostingCustom0jIKX000000lHWL2A2Item7</globalKey>
+        <inputField>RecruitmentPostingDetails:PostingId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>RecruitmentPosting</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;RecruitmentPostingDetails&quot;: {
+        &quot;RecruitmentRequisition&quot;: &quot;Salesforce Hiring&quot;,
+        &quot;CandidateSourceKey&quot;: &quot;Salesforce Experience Cloud&quot;,
+        &quot;PostingType&quot;: &quot;Internal&quot;,
+        &quot;PostingStatus&quot;: &quot;InDraft&quot;,
+        &quot;StartDate&quot;: &quot;2024-05-03&quot;,
+        &quot;PostingEndDate&quot;: &quot;2024-05-07&quot;,
+        &quot;PostingDescription&quot;: &quot;bbgkk&quot;
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>AFRecruitmentCreateRecruitmentPosting</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;ContextId&quot; : &quot;18Axx0000004C92EAE&quot;,
+  &quot;RecruitmentPostingDetails&quot; : {
+    &quot;RecruitmentRequisition&quot; : &quot;LMTS1&quot;,
+    &quot;CandidateSourceKey&quot; : &quot;Salesforce Experience Cloud&quot;,
+    &quot;PostingType&quot; : &quot;Internal&quot;,
+    &quot;PostingStatus&quot; : &quot;InDraft&quot;,
+    &quot;StartDate&quot; : &quot;2024-05-03&quot;,
+    &quot;PostingEndDate&quot; : &quot;2024-05-07&quot;,
+    &quot;PostingDescription&quot; : &quot;bbgkk&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,29 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "GET Contracts from Account with AccountId",
+    "OmniProcessElement": [
+        "Account_ContractDetails_Element_DR_GetContracts.json",
+        "Account_ContractDetails_Element_Response.json"
+    ],
+    "OmniProcessKey": "Account_ContractDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Account_ContractDetails_PropertySetConfig.json",
+    "SubType": "ContractDetails",
+    "Type": "Account",
+    "UniqueName": "Account_ContractDetails_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Account/ContractDetails/Procedure"
+}

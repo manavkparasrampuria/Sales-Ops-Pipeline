@@ -1,0 +1,39 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetGarnishmentsExpense",
+    "OmniProcessId": {
+        "Name": "CreatePartyExpenses",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/CreatePartyExpenses/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "GarnishmentsExpense": {
+                "EndDateTime": "%IACreatedAt%",
+                "PartyId": "%PartyId%",
+                "StartDateTime": "%IACreatedAt%",
+                "TotalAmount": "%GenericData:GarnishmentsAmount%",
+                "Type": "Garnishments"
+            }
+        },
+        "executionConditionalFormula": "(ISBLANK(%GenericData:GarnishmentsAmount%) != true) && %GenericData:GarnishmentsAmount% > 0",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues2",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/CreatePartyExpenses/Procedure/SetGarnishmentsExpense"
+}

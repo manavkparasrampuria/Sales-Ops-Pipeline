@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactProfilesForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactProfilesForContactIdsTurboCustom5611</globalKey>
+        <inputField>Name</inputField>
+        <inputObject>ContactProfile</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactProfile</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactProfilesForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactProfilesForContactIdsTurboCustom1273</globalKey>
+        <inputField>Ethnicity</inputField>
+        <inputObject>ContactProfile</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactProfile</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactProfilesForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactProfilesForContactIdsTurboCustom1949</globalKey>
+        <inputField>PrimaryCitizenshipType</inputField>
+        <inputObject>ContactProfile</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactProfile</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactProfilesForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactProfilesForContactIdsTurboCustom9375</globalKey>
+        <inputField>BirthPlace</inputField>
+        <inputObject>ContactProfile</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactProfile</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactProfilesForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactProfilesForContactIdsTurboCustom8035</globalKey>
+        <inputField>HighestEducationLevel</inputField>
+        <inputObject>ContactProfile</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactProfile</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactProfilesForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactProfilesForContactIdsTurboCustom5044</globalKey>
+        <inputField>Race</inputField>
+        <inputObject>ContactProfile</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactProfile</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactProfilesForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetContactProfilesForContactIdsTurboCustom7226</globalKey>
+        <inputField>ContactId</inputField>
+        <inputObject>ContactProfile</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactProfile</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetContactProfilesForContactIdsTurbo</dataMapperDefItemName>
+        <filterDataType>REFERENCE</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>IN</filterOperator>
+        <filterValue>AllMembersContactIds</filterValue>
+        <globalKey>PSSEXPCloudGetContactProfilesForContactIdsTurboCustom844</globalKey>
+        <inputField>ContactId</inputField>
+        <inputObject>ContactProfile</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>ContactProfilesList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Retrieve ContactProfiles</description>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSEXPCloudGetContactProfilesForContactIdsTurbo</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;AllMembersContactIds&quot; : [ &quot;003RM000008AonIYAS&quot;, &quot;003RM000008AwZ1YAK&quot;, &quot;003RM000008AwZ6YAK&quot;, &quot;003RM000008AwZBYA0&quot; ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Turbo Extract</type>
+</DataMapperDefinition>

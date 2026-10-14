@@ -1,0 +1,68 @@
+{
+    "AccountId": "0015e00000H0OrIAAV",
+    "ContactId": "0035e000014CisAAAS",
+    "DRId_Address": "1305e0000011GYKAA2",
+    "DRId_Location": "1315e0000011RSIAA2",
+    "DRId_VolunteerSite__c": "a1l5e000002BrdSAAS",
+    "Disclosure": {
+        "Disclosure1": false
+    },
+    "ParentLocationId": "1315e0000011RSIAA2",
+    "SiteAppointmentContactInfo__c": "John Smith 404-444-4321",
+    "SiteContactPhone__c": "(404)444-0000",
+    "SiteId": "a1l5e000002BrdSAAS",
+    "SiteInfo": {
+        "BlkFiling": {
+            "FedeFile__c": "Yes",
+            "StateeFile__c": "Yes"
+        },
+        "BlkQuestions": {
+            "SiteFormTerritoryOffice__c": "Yes",
+            "SitePrepareForeign__c": "No",
+            "SiteVoterReg__c": "Yes",
+            "SiteofferFinancialServices__c": "Yes"
+        },
+        "BlkSiteDetails": {
+            "BlkSiteContact": {
+                "AddContact": false,
+                "BlkNewContact": null
+            },
+            "SiteApptOnly__c": "Yes",
+            "SiteMobileOnly__c": "No",
+            "SitePublic__c": "Yes"
+        },
+        "Block1": {
+            "BlkServiceSystems": {
+                "ServiceSystemSelectionOtherSelected": false,
+                "SiteOfferOtherServiceSystem__c": null,
+                "SiteOfferServiceSystems__c": "DocuSign;TaxSlayer Taxpayer Scanned Documents"
+            },
+            "Block2": {
+                "SiteOfferAFMType__c": "FSA Self-Prep Fusion"
+            },
+            "SiteOfferAFMReturns__c": "Yes",
+            "SiteOfferCAA__c": "Yes",
+            "SiteOfferPrepareLastYearReturns__c": "Yes"
+        },
+        "Languages__c": "English,Spanish",
+        "ProgramType__c": "VITA",
+        "SIDN__c": null,
+        "SiteAddress__c-Block": {
+            "SiteAddress__c": "455 Perrine Blvd, Manasquan, NJ 08736, USA",
+            "SiteCity": "Manasquan",
+            "SiteState": "NJ",
+            "SiteStreet": "455 Perrine Boulevard",
+            "SiteZipcode": "08736"
+        },
+        "SiteName": "Manasquan Office Test 1"
+    },
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jN5e0000010wX7EAI",
+    "timeStamp": "2023-06-27T18:10:25.572Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055e000007jn4GAAQ",
+    "userName": "kwinderlich@irs-tfa.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

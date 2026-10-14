@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>承認</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- RequestFields --></label>
+        <name>sbaa__RequestFields</name>
+    </fieldSets>
+    <nameFieldLabel>承認番号</nameFieldLabel>
+    <webLinks>
+        <label>承認</label>
+        <name>sbaa__Approve</name>
+    </webLinks>
+    <webLinks>
+        <label>再割り当て</label>
+        <name>sbaa__Reassign</name>
+    </webLinks>
+    <webLinks>
+        <label>却下</label>
+        <name>sbaa__Reject</name>
+    </webLinks>
+    <webLinks>
+        <label>申請の再送信</label>
+        <name>sbaa__ResendRequestEmail</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,242 @@
+{
+    "output": {
+        "predictions": [
+            {
+                "description": "559 Osage Ave, Lenapah, OK, USA",
+                "matched_substrings": [
+                    {
+                        "length": 3,
+                        "offset": 0
+                    }
+                ],
+                "place_id": "ChIJsXZ6AcyYt4cRkSY32KsdY8s",
+                "reference": "ChIJsXZ6AcyYt4cRkSY32KsdY8s",
+                "structured_formatting": {
+                    "main_text": "559 Osage Ave",
+                    "main_text_matched_substrings": [
+                        {
+                            "length": 3,
+                            "offset": 0
+                        }
+                    ],
+                    "secondary_text": "Lenapah, OK, USA"
+                },
+                "terms": [
+                    {
+                        "offset": 0,
+                        "value": "559"
+                    },
+                    {
+                        "offset": 4,
+                        "value": "Osage Ave"
+                    },
+                    {
+                        "offset": 15,
+                        "value": "Lenapah"
+                    },
+                    {
+                        "offset": 24,
+                        "value": "OK"
+                    },
+                    {
+                        "offset": 28,
+                        "value": "USA"
+                    }
+                ],
+                "types": [
+                    "premise",
+                    "geocode"
+                ]
+            },
+            {
+                "description": "5599 San Felipe Street, Houston, TX, USA",
+                "matched_substrings": [
+                    {
+                        "length": 3,
+                        "offset": 0
+                    }
+                ],
+                "place_id": "ChIJ4bX1617BQIYRW63r4HhFRu0",
+                "reference": "ChIJ4bX1617BQIYRW63r4HhFRu0",
+                "structured_formatting": {
+                    "main_text": "5599 San Felipe Street",
+                    "main_text_matched_substrings": [
+                        {
+                            "length": 3,
+                            "offset": 0
+                        }
+                    ],
+                    "secondary_text": "Houston, TX, USA"
+                },
+                "terms": [
+                    {
+                        "offset": 0,
+                        "value": "5599"
+                    },
+                    {
+                        "offset": 5,
+                        "value": "San Felipe Street"
+                    },
+                    {
+                        "offset": 24,
+                        "value": "Houston"
+                    },
+                    {
+                        "offset": 33,
+                        "value": "TX"
+                    },
+                    {
+                        "offset": 37,
+                        "value": "USA"
+                    }
+                ],
+                "types": [
+                    "premise",
+                    "geocode"
+                ]
+            },
+            {
+                "description": "5595 Grand Drive, St. Louis, MO, USA",
+                "matched_substrings": [
+                    {
+                        "length": 3,
+                        "offset": 0
+                    }
+                ],
+                "place_id": "ChIJT2HS8Ei12IcRJ5OmXucGL6w",
+                "reference": "ChIJT2HS8Ei12IcRJ5OmXucGL6w",
+                "structured_formatting": {
+                    "main_text": "5595 Grand Drive",
+                    "main_text_matched_substrings": [
+                        {
+                            "length": 3,
+                            "offset": 0
+                        }
+                    ],
+                    "secondary_text": "St. Louis, MO, USA"
+                },
+                "terms": [
+                    {
+                        "offset": 0,
+                        "value": "5595"
+                    },
+                    {
+                        "offset": 5,
+                        "value": "Grand Drive"
+                    },
+                    {
+                        "offset": 18,
+                        "value": "St. Louis"
+                    },
+                    {
+                        "offset": 29,
+                        "value": "MO"
+                    },
+                    {
+                        "offset": 33,
+                        "value": "USA"
+                    }
+                ],
+                "types": [
+                    "premise",
+                    "geocode"
+                ]
+            },
+            {
+                "description": "5599 Ambler Drive, Mississauga, ON, Canada",
+                "matched_substrings": [
+                    {
+                        "length": 3,
+                        "offset": 0
+                    }
+                ],
+                "place_id": "ChIJuXKGdsg4K4gRxdNiKCkuLuI",
+                "reference": "ChIJuXKGdsg4K4gRxdNiKCkuLuI",
+                "structured_formatting": {
+                    "main_text": "5599 Ambler Drive",
+                    "main_text_matched_substrings": [
+                        {
+                            "length": 3,
+                            "offset": 0
+                        }
+                    ],
+                    "secondary_text": "Mississauga, ON, Canada"
+                },
+                "terms": [
+                    {
+                        "offset": 0,
+                        "value": "5599"
+                    },
+                    {
+                        "offset": 5,
+                        "value": "Ambler Drive"
+                    },
+                    {
+                        "offset": 19,
+                        "value": "Mississauga"
+                    },
+                    {
+                        "offset": 32,
+                        "value": "ON"
+                    },
+                    {
+                        "offset": 36,
+                        "value": "Canada"
+                    }
+                ],
+                "types": [
+                    "premise",
+                    "geocode"
+                ]
+            },
+            {
+                "description": "559 College Street, Toronto, ON, Canada",
+                "matched_substrings": [
+                    {
+                        "length": 3,
+                        "offset": 0
+                    }
+                ],
+                "place_id": "ChIJTYOIQ-40K4gR067_gPKwc2A",
+                "reference": "ChIJTYOIQ-40K4gR067_gPKwc2A",
+                "structured_formatting": {
+                    "main_text": "559 College Street",
+                    "main_text_matched_substrings": [
+                        {
+                            "length": 3,
+                            "offset": 0
+                        }
+                    ],
+                    "secondary_text": "Toronto, ON, Canada"
+                },
+                "terms": [
+                    {
+                        "offset": 0,
+                        "value": "559"
+                    },
+                    {
+                        "offset": 4,
+                        "value": "College Street"
+                    },
+                    {
+                        "offset": 20,
+                        "value": "Toronto"
+                    },
+                    {
+                        "offset": 29,
+                        "value": "ON"
+                    },
+                    {
+                        "offset": 33,
+                        "value": "Canada"
+                    }
+                ],
+                "types": [
+                    "premise",
+                    "geocode"
+                ]
+            }
+        ],
+        "status": "OK"
+    }
+}

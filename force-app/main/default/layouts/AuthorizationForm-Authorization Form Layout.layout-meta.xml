@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>DefaultAuthFormTextId</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AssociatedRegulation</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -31,6 +35,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>IsSignatureRequired</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ConsentDurationDayCount</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

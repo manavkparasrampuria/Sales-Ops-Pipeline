@@ -1,0 +1,47 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "AgricultureGrants",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 0,
+                    "name": "recordId",
+                    "val": "121al0000005N81AAE"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Query",
+            "value": {
+                "dsDelay": "",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "query": "Select Id from FundingAward where Id = '{recordId}'",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "LaunchFundingAwardDocGen",
+    "Namespace": "",
+    "OmniUiCardKey": "LaunchFundingAwardDocGen/AgricultureGrants/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "LaunchFundingAwardDocGen.json",
+    "SampleDataSourceResponse": "[{\"attributes\":{\"type\":\"FundingAward\",\"url\":\"/services/data/v60.0/sobjects/FundingAward/121al0000005N81AAE\"},\"Id\":\"121al0000005N81AAE\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "LaunchFundingAwardDocGen_AgricultureGrants_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/LaunchFundingAwardDocGen"
+}

@@ -1,0 +1,79 @@
+{
+    "Acknowledgment": {
+        "PSS_SI_v1_Date": "2024-05-31T04:00:00.000Z"
+    },
+    "CertificateOfCapacity": {
+        "HealthcareProviderTypeAhead-Block": {
+            "HealthcareProviderTypeAhead": "Bayfield Counselling",
+            "PSS_SI_v1_HealthcareProviderId": "0cmKX0000008OQLYA2",
+            "PSS_SI_v1_ProviderName": "Bayfield Counselling"
+        },
+        "PSS_SI_v1_InjuryType": "Fracture",
+        "PSS_SI_v1_IssuedDate": "2024-05-02",
+        "PSS_SI_v1_UploadDocument": null,
+        "PSS_SI_v1_WorkerCapacity": 25
+    },
+    "ClaimValues": null,
+    "DRId_PreliminaryApplicationRef": "0goKX0000008OMwYAM",
+    "IncidentWorkersInjuryDetails": {
+        "EmployerAtTimeofInjuryTypeAHead-Block": {
+            "EmployerAtTimeofInjuryTypeAHead": "Jennifer's Custom Creations",
+            "PSS_SI_v1_EmployerResponsibleForWorkplace": "Jennifer's Custom Creations",
+            "PSS_SI_v1_InjuryTimeEmployerId": "001KX000002KYqLYAW"
+        },
+        "PSS_SI_v1_DateTimeForInjury": "2024-05-02T16:00:00.000Z",
+        "PSS_SI_v1_HowYouInjured": "Forklift accident broke arm",
+        "PSS_SI_v1_MedicalTreatment": "Yes",
+        "PSS_SI_v1_NatureOfInjury": "Broken Arm;Broken Leg",
+        "PSS_SI_v1_ReportDateTimeForInjury": "2024-05-02T16:00:00.000Z",
+        "PSS_SI_v1_TakingTimeOff": "Yes",
+        "PSS_SI_v1_WorkStoppedDateTime": "2024-05-02T16:00:00.000Z"
+    },
+    "Review": {
+    },
+    "WorkerPersonalDetails": {
+        "PSS_SI_v1_Address": "123 Main St",
+        "PSS_SI_v1_CellPhoneNumber": "3838383838",
+        "PSS_SI_v1_City": "Richmond",
+        "PSS_SI_v1_Country": "USA",
+        "PSS_SI_v1_DateOfBirth": "1995-01-01",
+        "PSS_SI_v1_Email": "p@m.com",
+        "PSS_SI_v1_FirstName": "Paul",
+        "PSS_SI_v1_Gender": "Male",
+        "PSS_SI_v1_HomeTelephoneNumber": "3838383838",
+        "PSS_SI_v1_LastName": "Marshall",
+        "PSS_SI_v1_State": "VA",
+        "PSS_SI_v1_ZipCode": "23113"
+    },
+    "WorkersEmploymentDetails": {
+        "EmployerTypeAhead-Block": {
+            "EmployerTypeAhead": "Jennifer's Custom Creations",
+            "PSS_SI_v1_EmployerAccountId": "001KX000002KYqLYAW",
+            "PSS_SI_v1_NameOfEmployer": "Jennifer's Custom Creations"
+        },
+        "PSS_SI_v1_AreYouStillEmployed": "Yes",
+        "PSS_SI_v1_EmploymentStartDate": "2023-05-08",
+        "PSS_SI_v1_EmploymentType": "Full Time",
+        "PSS_SI_v1_Income": 1000,
+        "PSS_SI_v1_IncomeFrequency": "Weekly",
+        "PSS_SI_v1_Occupation": "Forklift operator",
+        "PSS_SI_v1_UploadPayslips": null
+    },
+    "language": "English",
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jNKX000000CaxF2AS",
+    "omniscriptId": "0jNKX000000CaxF2AS",
+    "runMode": "preview",
+    "sId": "0jNKX000000CaxF2AS",
+    "sInstanceId": "0kTKX000000blNR2AY",
+    "subType": "FileClaim",
+    "theme": "lightning",
+    "timeStamp": "2024-05-31T14:46:51.378Z",
+    "type": "SocialInsurance",
+    "userCurrencyCode": "USD",
+    "userId": "005KX000000xWOxYAM",
+    "userName": "jblankenship@gps250.dev3",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

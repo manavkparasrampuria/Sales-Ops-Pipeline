@@ -1,0 +1,58 @@
+{
+    "Consent": null,
+    "ContextId": "a0E4S000000mTynUAE",
+    "ProjectInfo": {
+        "AccountId": "0014S00000781FX",
+        "ProjectId": "a0E4S000000mTynUAE",
+        "ReportInfo": {
+            "FedGrantNumber": "CTT11M008",
+            "ProjectName": "VA Electric Vehicle Charging Network"
+        }
+    },
+    "ReportInfo": {
+        "AccountingBasis": "Cash",
+        "BlkGrantPeriod": {
+            "GrantPeriodFrom": "2023-01-01",
+            "GrantPeriodTo": "2023-03-31"
+        },
+        "FedGrantNumber": "CTT11M008",
+        "ProjectName": "VA Electric Vehicle Charging Network",
+        "RecipientAccountNumber": "WIDOT2345",
+        "ReportType": "Quarterly",
+        "ReportingEndDate": "2023-03-31"
+    },
+    "Transactions": {
+        "BlkFedCash": {
+            "TransCash_CalcCashOnHand": 6993,
+            "TransCash_CashDisbursements": 53000,
+            "TransCash_CashReceipts": 59993
+        },
+        "BlkFedExpend": {
+            "TransExpend_Authorized": 14806000,
+            "TransExpend_CalcBalance": 14798223,
+            "TransExpend_CalcTotalFedShare": 7777,
+            "TransExpend_ShareExpenditures": 4343,
+            "TransExpend_Shareobligations": 3434
+        },
+        "BlkProgramIncome": {
+            "TransIncome_CalcUnexpendedIncome": 54536,
+            "TransIncome_IncomeEarned": 54545,
+            "TransIncome_IncomeExpended": 51454,
+            "TransIncome_IncomeExpendedAddition": 51445
+        },
+        "BlkRecipientShare": {
+            "TransRecipient_CalcRecipientShare": 902,
+            "TransRecipient_ShareExpenditures": 23432,
+            "TransRecipient_Sharerequired": 24334
+        }
+    },
+    "UserEmail": "kwinderlich@salesforce.com",
+    "UserFirstName": "Keith",
+    "UserLastName": "Winderlich",
+    "timeStamp": "2022-03-03T22:37:08.122Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054S000000eAieQAE",
+    "userName": "kwinderlich@gpsg.demo",
+    "userProfile": "*GPSG System Administrator",
+    "userTimeZone": "-300"
+}

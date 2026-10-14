@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Reason for Access --></label>
+    <name>PublicSector__AccessReason__c</name>
+    <picklistValues>
+        <masterLabel>Conference</masterLabel>
+        <translation>การประชุมสาย</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inspection</masterLabel>
+        <translation>การตรวจสอบ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meetings</masterLabel>
+        <translation>การประชุม</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>อื่น ๆ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shift Work</masterLabel>
+        <translation>งานเป็นกะ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training</masterLabel>
+        <translation>การฝึกอบรม</translation>
+    </picklistValues>
+</CustomFieldTranslation>

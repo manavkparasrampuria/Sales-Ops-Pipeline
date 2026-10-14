@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem9</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Budget</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem3</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationStageDefinitionId</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <defaultValue>Completed</defaultValue>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem2</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem24</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem23</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>BudgetId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem8</globalKey>
+        <inputField>CreateBudgetFrameworkStep:BudgetName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>Budget</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem7</globalKey>
+        <inputField>CreateBudgetFrameworkStep:BudgetDescription</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>Budget</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <defaultValue>USD</defaultValue>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem6</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>CurrencyIsoCode</outputField>
+        <outputObject>Budget</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <defaultValue>Planned</defaultValue>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem5</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>Budget</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem1</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem18</globalKey>
+        <inputField>CreateBudgetPeriodStep:BudgetPeriod:EndDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>PeriodEndDate</outputField>
+        <outputObject>BudgetPeriod</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem17</globalKey>
+        <inputField>CreateBudgetPeriodStep:BudgetPeriod:PeriodName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>BudgetPeriod</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem16</globalKey>
+        <inputField>CreateBudgetPeriodStep:BudgetPeriod:BudgetPeriodSequenceNumber</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>SequenceNumber</outputField>
+        <outputObject>BudgetPeriod</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem21</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>BudgetId</outputField>
+        <outputObject>BudgetPeriod</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem20</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>BudgetPeriod</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem19</globalKey>
+        <inputField>CreateBudgetPeriodStep:BudgetPeriod:StartDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>PeriodStartDate</outputField>
+        <outputObject>BudgetPeriod</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem22</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedField>IndividualApplicationId</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem4</globalKey>
+        <inputField>BudgetId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Budget</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem11</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>BudgetId</outputField>
+        <outputObject>BudgetCategory</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem10</globalKey>
+        <inputField>CreateBudgetFrameworkStep:BudgetCategories:BudgetCategorySequenceNumber</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>SequenceNumber</outputField>
+        <outputObject>BudgetCategory</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem0</globalKey>
+        <inputField>ContextId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplicationTask</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <defaultValue>USD</defaultValue>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem14</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>CurrencyIsoCode</outputField>
+        <outputObject>BudgetCategory</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem13</globalKey>
+        <inputField>CreateBudgetFrameworkStep:BudgetCategories:CategoryDescription</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>BudgetCategory</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem12</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>BudgetCategory</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateBudgetCategoryandBudgetPeriodSegmented</dataMapperDefItemName>
+        <globalKey>DRCreateBudgetCategoryandBudgetPeriodSegmentedCustom0jIKX000000wp2P2AQItem15</globalKey>
+        <inputField>CreateBudgetFrameworkStep:BudgetCategories:CategoryName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>BudgetCategory</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRCreateBudget&quot;: null,
+        &quot;CreateBudget&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;CreateBudget&quot;: {
+        &quot;BudgetPeriod&quot;: {
+            &quot;EndDate&quot;: null,
+            &quot;StartDate&quot;: null,
+            &quot;PeriodName&quot;: null
+        },
+        &quot;BudgetDescription&quot;: null,
+        &quot;BudgetName&quot;: null,
+        &quot;BudgetCategories&quot;: {
+            &quot;CategoryDescription&quot;: null,
+            &quot;CategoryName&quot;: null
+        },
+        &quot;BudgetType&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRCreateBudgetCategoryandBudgetPeriodSegmented</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRCreateBudget&quot;: null,
+        &quot;CreateBudget&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;CreateBudget&quot;: {
+        &quot;BudgetPeriod&quot;: {
+            &quot;EndDate&quot;: null,
+            &quot;StartDate&quot;: null,
+            &quot;PeriodName&quot;: null
+        },
+        &quot;BudgetDescription&quot;: null,
+        &quot;BudgetName&quot;: null,
+        &quot;BudgetCategories&quot;: {
+            &quot;CategoryDescription&quot;: null,
+            &quot;CategoryName&quot;: null
+        },
+        &quot;BudgetType&quot;: null
+    }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

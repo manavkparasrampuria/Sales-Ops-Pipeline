@@ -1,0 +1,112 @@
+{
+    "Attachments": {
+        "File1": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File2": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File3": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "BoatInformation": {
+        "BoatLength": null,
+        "HullIdNumber": null,
+        "HullMaterial": null,
+        "MakeModelOfBoat": null,
+        "Marina": null,
+        "NameofBoat": null,
+        "Propulsion": null,
+        "TypeofFuelUsed": null,
+        "Use": null,
+        "YearBuilt": null
+    },
+    "Certify": {
+        "Certification": null,
+        "LWCSignature": null
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "Fees": {
+        "LWCCreditCard": null,
+        "PayNow": null,
+        "RegistrationFee": null,
+        "TitleTax": null,
+        "TotalFee": null
+    },
+    "Overview": {
+        "ReasonForApplication": null
+    },
+    "OwnerInformation": {
+        "DateofBirth": null,
+        "OwnerAddress-Block": {
+            "OwnerAddress": null,
+            "OwnerCity": null,
+            "OwnerState": null,
+            "OwnerStreet": null,
+            "OwnerZip": null
+        },
+        "OwnerBusinessPhone": null,
+        "OwnerEmail": null,
+        "OwnerFirstName": null,
+        "OwnerHomePhone": null,
+        "OwnerLastName": null,
+        "SSN": null
+    },
+    "SellerLienInformation": {
+        "AcquistionDate": null,
+        "BoatCondition": null,
+        "DateOfLien": null,
+        "Lien": null,
+        "LienCity": null,
+        "LienHolder": null,
+        "LienState": null,
+        "LienStreetAddress": null,
+        "LienTelephone": null,
+        "LienZip": null,
+        "Price": null,
+        "SellerCity": null,
+        "SellerName": null,
+        "SellerState": null,
+        "SellerStreetAddress": null,
+        "SellerZip": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Attachments": null,
+        "BoatInformation": null,
+        "BoatRegistrationPDF": null,
+        "Certify": null,
+        "Confirmation": null,
+        "DRGetIAAppNumber": null,
+        "DRGetUserDetails": null,
+        "DRSaveBoatApplication": null,
+        "Fees": null,
+        "NavigateAction1": null,
+        "Overview": null,
+        "OwnerInformation": null,
+        "SellerLienInformation": null,
+        "SetNameValues": null,
+        "SetUserId": null
+    }
+}

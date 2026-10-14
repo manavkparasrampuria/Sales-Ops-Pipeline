@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildFinalizeTemplateVersion</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildFinalizeTemplateVersion6772142733768904</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildFinalizeTemplateVersion</dataMapperDefItemName>
+        <defaultValue>Final</defaultValue>
+        <globalKey>QuickBuildFinalizeTemplateVersion17680791761506742</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>ActionPlanTemplateVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildFinalizeTemplateVersion</dataMapperDefItemName>
+        <globalKey>QuickBuildFinalizeTemplateVersion8123285477333464</globalKey>
+        <inputField>DRId_ActionPlanTemplateVersion</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>ActionPlanTemplateVersion</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRUpdateTemplateVersionFinal&quot;: null,
+        &quot;DRAddSignatures&quot;: null,
+        &quot;DRCreateInspection&quot;: null,
+        &quot;Items&quot;: null,
+        &quot;SignatureTasks&quot;: null,
+        &quot;Details&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;Items&quot;: {
+        &quot;FileCount&quot;: null,
+        &quot;InspectionFile&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ],
+        &quot;InspectionComponents&quot;: {
+            &quot;ItemEntity&quot;: null,
+            &quot;RegulatoryCodeAuthority&quot;: null,
+            &quot;RegulatoryCodeName&quot;: null,
+            &quot;RegulatoryCodeSubject&quot;: null,
+            &quot;AssessmentIndicatorType&quot;: null,
+            &quot;AssessmentIndicatorName&quot;: null,
+            &quot;TaskDefinition&quot;: null,
+            &quot;AssessmentIndicatorDefinedValues&quot;: null
+        }
+    },
+    &quot;SignatureTasks&quot;: {
+        &quot;Signatures&quot;: {
+            &quot;Order&quot;: null,
+            &quot;SignatureName&quot;: null,
+            &quot;SignatureRequired&quot;: null
+        }
+    },
+    &quot;Details&quot;: {
+        &quot;RequireSignatures&quot;: null,
+        &quot;Description&quot;: null,
+        &quot;Name&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>QuickBuildFinalizeTemplateVersion</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;DRUpdateTemplateVersionFinal&quot;:null,&quot;DRAddSignatures&quot;:null,&quot;DRCreateInspection&quot;:null,&quot;Items&quot;:null,&quot;SignatureTasks&quot;:null,&quot;Details&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;Items&quot;:{&quot;FileCount&quot;:null,&quot;InspectionFile&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}],&quot;InspectionComponents&quot;:{&quot;ItemEntity&quot;:null,&quot;RegulatoryCodeAuthority&quot;:null,&quot;RegulatoryCodeName&quot;:null,&quot;RegulatoryCodeSubject&quot;:null,&quot;AssessmentIndicatorType&quot;:null,&quot;AssessmentIndicatorName&quot;:null,&quot;TaskDefinition&quot;:null,&quot;AssessmentIndicatorDefinedValues&quot;:null}},&quot;SignatureTasks&quot;:{&quot;Signatures&quot;:{&quot;Order&quot;:null,&quot;SignatureName&quot;:null,&quot;SignatureRequired&quot;:null}},&quot;Details&quot;:{&quot;RequireSignatures&quot;:null,&quot;Description&quot;:null,&quot;Name&quot;:null}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

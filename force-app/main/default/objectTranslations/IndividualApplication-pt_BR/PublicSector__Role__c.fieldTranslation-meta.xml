@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Papel do solicitante</help>
+    <label><!-- Role --></label>
+    <name>PublicSector__Role__c</name>
+    <picklistValues>
+        <masterLabel>Employee</masterLabel>
+        <translation>Funcionário</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Visitor</masterLabel>
+        <translation>Visitante</translation>
+    </picklistValues>
+</CustomFieldTranslation>

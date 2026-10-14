@@ -1,0 +1,22 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DataSource": "MultipleSobjects",
+    "DecisionMatrixType": "DecisionTable",
+    "DecisionTableType": "MediumVolume",
+    "Description": "A table that stores the contract item price adjustment tiers that are used in slab calculations.",
+    "GroupKey": "",
+    "IsLocked": false,
+    "LastSyncDate": "2025-01-11T04:24:31.000Z",
+    "MayEdit": true,
+    "Name": "Contract Pricing  Adjustment Tiers",
+    "Namespace": "",
+    "RefreshStatus": "Completed",
+    "Status": "Active",
+    "SubGroupKey": "",
+    "Type": "",
+    "UniqueName": "Contract Pricing  Adjustment Tiers",
+    "UsageType": "DefaultPricing",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/Contract Pricing  Adjustment Tiers"
+}

@@ -1,0 +1,32 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "SPCM_SearchReferrerByName_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Search for a Referrer",
+    "OmniProcessElement": [
+        "SPCM_SearchReferrerByName_Element_SearchAccountByName.json",
+        "SPCM_SearchReferrerByName_Element_SearchContactByName.json",
+        "SPCM_SearchReferrerByName_Element_MergedResult.json",
+        "SPCM_SearchReferrerByName_Element_TransformedResult.json",
+        "SPCM_SearchReferrerByName_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "SPCM_SearchReferrerByName",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "SPCM_SearchReferrerByName_PropertySetConfig.json",
+    "SubType": "SearchReferrerByName",
+    "Type": "SPCM",
+    "UniqueName": "SPCM_SearchReferrerByName_Procedure_4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/SPCM/SearchReferrerByName/Procedure"
+}

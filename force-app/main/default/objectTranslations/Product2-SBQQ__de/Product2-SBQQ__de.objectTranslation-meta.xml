@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Product Information --></label>
+        <name>Product_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Konfigurator-Filter</label>
+        <name>SBQQ__ConfiguratorFilter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Konfigurator-Nachschlagevorgang</label>
+        <name>SBQQ__ConfiguratorLookup</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Suchfilter</label>
+        <name>SBQQ__SearchFilters</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Suchergebnisse</label>
+        <name>SBQQ__SearchResults</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- Master --></label>
+        <name>Master</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Sie müssen entweder das Kontrollkästchen &quot;In Wartung einbeziehen&quot; oder &quot;Aus Wartung ausschließen&quot; aktivieren.</errorMessage>
+        <name>SBQQ__Include_or_Exclude_Maintenance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Wenn als Kostenart &quot;Wiederkehrend&quot; festgelegt ist, muss eine Abrechnungsart ausgewählt werden.</errorMessage>
+        <name>SBQQ__RecurringChargeTypeMustHaveBillingType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Nur bei Abonnementprodukten kann eine Laufzeitrabattregelung angegeben werden</errorMessage>
+        <name>SBQQ__Term_schedule_requires_subscription</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Wenn als Kostenart &quot;Einmalig&quot; festgelegt ist, kann kein Abrechnungshäufigkeitswert ausgewählt werden.</errorMessage>
+        <name>SBQQ__Validate_billing_frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Wenn als Kostenart &quot;Einmalig&quot; oder &quot;Nutzung&quot; festgelegt ist, kann kein Wert für die Abrechnungsart ausgewählt werden.</errorMessage>
+        <name>SBQQ__Validate_billing_type</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Mass_Delete_Records --></label>
+        <name>Mass_Delete_Records</name>
+    </webLinks>
+    <webLinks>
+        <label>Mit Zugehörigen duplizieren</label>
+        <name>SBQQ__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label>Mit Zugehörigen duplizieren</label>
+        <name>SBQQ__CloneWithRelatedClassic</name>
+    </webLinks>
+    <webLinks>
+        <label>Übersetzen</label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

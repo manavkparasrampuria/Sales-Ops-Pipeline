@@ -1,0 +1,1368 @@
+{
+    "customCSSResourcePath": "/projRes/ui-fsc-components/css/ServiceExcellenceAlertCard.css",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "id": 12,
+                "name": "Session.Limit",
+                "val": "5"
+            },
+            {
+                "id": 13,
+                "name": "recordId",
+                "val": "500Dm000003lhGvIAI"
+            },
+            {
+                "id": 14,
+                "name": "Session.AggregateAlerts",
+                "val": "false"
+            },
+            {
+                "id": 15,
+                "name": "Session.ChildLimit",
+                "val": "5"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": "",
+            "inputMap": {
+                "childLimit": "{Session.ChildLimit}",
+                "id": "{recordId}",
+                "isFSC": "{Session.AggregateAlerts}",
+                "limit": "{Session.Limit}"
+            },
+            "ipMethod": "PSSServiceExcellenceAlerts_get",
+            "jsonMap": "{\"Session.Limit\":\"{Session.Limit}\",\"recordId\":\"{recordId}\",\"Session.AggregateAlerts\":\"{Session.AggregateAlerts}\",\"Session.ChildLimit\":\"{Session.ChildLimit}\"}",
+            "resultVar": "[\"ApexAlerts\"][\"results\"]",
+            "vlocityAsync": false
+        }
+    },
+    "enableLwc": true,
+    "events": [
+        {
+            "actionList": [
+                {
+                    "actionIndex": 0,
+                    "card": "{card}",
+                    "draggable": false,
+                    "isOpen": true,
+                    "key": "1648578445975-odm4bwmy1",
+                    "label": "Reload",
+                    "stateAction": {
+                        "Web Page": {
+                            "targetName": "/apex"
+                        },
+                        "displayName": "Action",
+                        "eventName": "reload",
+                        "id": "flex-action-1648578446003",
+                        "openUrlIn": "Current Window",
+                        "targetType": "Web Page",
+                        "type": "cardAction",
+                        "vlocityIcon": "standard-default"
+                    }
+                }
+            ],
+            "channelname": "AlertCard",
+            "displayLabel": "AlertCard:reload",
+            "element": "action",
+            "eventLabel": "pubsub",
+            "eventname": "reload",
+            "eventtype": "pubsub",
+            "key": "event-0",
+            "recordIndex": "0",
+            "showSpinner": "false"
+        }
+    ],
+    "globalCSS": true,
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfPSSServiceExcellenceAlertCard_2_Salesforce",
+        "Id": "0Rb8Y000000VZaaSAG",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfPSSServiceExcellenceAlertCard_2_Salesforce",
+        "NamespacePrefix": "c"
+    },
+    "selectableMode": "Multi",
+    "sessionVars": [
+        {
+            "isApi": true,
+            "name": "Limit",
+            "val": "3"
+        },
+        {
+            "isApi": true,
+            "name": "ChildLimit",
+            "val": "5"
+        },
+        {
+            "isApi": true,
+            "name": "AggregateAlerts",
+            "val": "true"
+        }
+    ],
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+                "PSSServiceExcellenceGroupedAlert",
+                "PSSServiceExcellenceSingleAlert"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "class": "slds-col ",
+                                    "element": "flexIcon",
+                                    "elementLabel": "Block-0-Icon-0",
+                                    "key": "element_element_block_0_0_flexIcon_0_0",
+                                    "name": "Icon",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "extraclass": "slds-icon_container slds-icon-custom-custom53 ",
+                                        "iconName": "custom:custom53",
+                                        "iconType": "Salesforce SVG",
+                                        "imgsrc": "",
+                                        "record": "{record}",
+                                        "size": "small",
+                                        "variant": "inverse"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-text-align_center slds-m-top_xx-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "customClass": "",
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "width: auto; height: auto;",
+                                        "margin": [
+                                            {
+                                                "label": "top:xx-small",
+                                                "size": "xx-small",
+                                                "type": "top"
+                                            }
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 ",
+                                        "style": "      \n         width: auto; height: auto;",
+                                        "text": {
+                                            "align": "center",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-text-align_center slds-m-top_xx-small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "customClass": "",
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "width: auto; height: auto;",
+                                                "margin": [
+                                                    {
+                                                        "label": "top:xx-small",
+                                                        "size": "xx-small",
+                                                        "type": "top"
+                                                    }
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 ",
+                                                "style": "      \n         width: auto; height: auto;",
+                                                "text": {
+                                                    "align": "center",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "element"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "outputField",
+                                    "elementLabel": "Block-0-Text-1",
+                                    "key": "element_element_block_0_0_outputField_1_0",
+                                    "name": "Text",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2014pt;%22%3E%3Cstrong%3E%3Cspan%20class=%22slds-text-heading_small%20slds-text-color_default%20slds-text-body_regular%22%20style=%22font-family:%20'Salesforce%20Sans',%20Arial,%20sans-serif;%22%3EAlerts%20(%7BnumAlerts%7D)%3C/span%3E%3C/strong%3E%3C/span%3E%3C/div%3E",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "10",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-text-align_left title slds-m-top_xxx-small slds-m-left_x-small ",
+                                        "container": {
+                                            "class": "title"
+                                        },
+                                        "customClass": "",
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "color: #444444 !important; font-family: 'Segoe UI', Arial, sans-serif !important; font-size: 16px !important; height: auto !important;",
+                                        "margin": [
+                                            {
+                                                "label": "top:xxx-small",
+                                                "size": "xxx-small",
+                                                "type": "top"
+                                            },
+                                            {
+                                                "label": "left:x-small",
+                                                "size": "x-small",
+                                                "type": "left"
+                                            }
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "10",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_10-of-12 ",
+                                        "style": "      \n        color:#444444; color: #444444 !important; font-family: 'Segoe UI', Arial, sans-serif !important; font-size: 16px !important; height: auto !important;",
+                                        "text": {
+                                            "align": "left",
+                                            "color": "#444444"
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-text-align_left title slds-m-top_xxx-small slds-m-left_x-small ",
+                                                "container": {
+                                                    "class": "title"
+                                                },
+                                                "customClass": "",
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "color: #444444 !important; font-family: 'Segoe UI', Arial, sans-serif !important; font-size: 16px !important; height: auto !important;",
+                                                "margin": [
+                                                    {
+                                                        "label": "top:xxx-small",
+                                                        "size": "xxx-small",
+                                                        "type": "top"
+                                                    },
+                                                    {
+                                                        "label": "left:x-small",
+                                                        "size": "x-small",
+                                                        "type": "left"
+                                                    }
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "10",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_10-of-12 ",
+                                                "style": "      \n        color:#444444; color: #444444 !important; font-family: 'Segoe UI', Arial, sans-serif !important; font-size: 16px !important; height: auto !important;",
+                                                "text": {
+                                                    "align": "left",
+                                                    "color": "#444444"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "text"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "flexIcon",
+                                    "elementLabel": "Block-0-Icon-2",
+                                    "key": "element_element_block_0_0_flexIcon_2_0",
+                                    "name": "Icon",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "action": {
+                                            "actionData": {
+                                                "card": "{card}",
+                                                "stateAction": {
+                                                    "Web Page": {
+                                                        "targetName": "/apex"
+                                                    },
+                                                    "displayName": "Action",
+                                                    "eventName": "reload",
+                                                    "id": "flex-action-1636647368142",
+                                                    "openUrlIn": "Current Window",
+                                                    "targetType": "Web Page",
+                                                    "type": "cardAction",
+                                                    "vlocityIcon": "standard-default"
+                                                },
+                                                "stateObj": "{record}"
+                                            },
+                                            "eventType": "onclick",
+                                            "iconName": "standard-default",
+                                            "label": "Action",
+                                            "name": ""
+                                        },
+                                        "card": "{card}",
+                                        "extraclass": "slds-icon_container slds-icon__svg--default ",
+                                        "iconName": "utility:refresh",
+                                        "iconType": "Salesforce SVG",
+                                        "imgsrc": "",
+                                        "record": "{record}",
+                                        "size": "x-small",
+                                        "variant": "default"
+                                    },
+                                    "size": {
+                                        "default": 1,
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-text-align_center refreshContainer ",
+                                        "container": {
+                                            "class": "refreshContainer"
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": 1,
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 ",
+                                        "style": "      \n         ",
+                                        "text": {
+                                            "align": "center",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-text-align_center refreshContainer ",
+                                                "container": {
+                                                    "class": "refreshContainer"
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": 1,
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 ",
+                                                "style": "      \n         ",
+                                                "text": {
+                                                    "align": "center",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "element"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-0",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "slds-p-around_x-small ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                    {
+                                        "label": "around:x-small",
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "      \n         ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-around_x-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "around:x-small",
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "      \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "block"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "class": "slds-col ",
+                                    "element": "flexIcon",
+                                    "elementLabel": "Block-1-Icon-0",
+                                    "key": "element_element_block_1_0_flexIcon_0_0",
+                                    "name": "Icon",
+                                    "parentElementKey": "element_block_1_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "extraclass": "slds-icon_container slds-icon__svg--default ",
+                                        "iconName": "utility:warning",
+                                        "iconType": "Salesforce SVG",
+                                        "imgsrc": "",
+                                        "record": "{record}",
+                                        "size": "small",
+                                        "variant": "warning"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-text-align_right ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "width: auto;",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 ",
+                                        "style": "      \n         width: auto;",
+                                        "text": {
+                                            "align": "right",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-text-align_right ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "width: auto;",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 ",
+                                                "style": "      \n         width: auto;",
+                                                "text": {
+                                                    "align": "right",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "element"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "outputField",
+                                    "elementLabel": "Block-1-Text-1",
+                                    "key": "element_element_block_1_0_outputField_1_0",
+                                    "name": "Text",
+                                    "parentElementKey": "element_block_1_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-weight:%20400;%22%3ESomething%20went%20wrong%20and%20we%20can&rsquo;t%20retrieve%20one%20or%20more%20alerts.%20Click%20Refresh%20or%20contact%20your%20Salesforce%20admin%20for%20help.%3C/span%3E%3C/div%3E",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "10",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-m-left_small slds-m-top_xx-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "    font-family: 'Segoe UI', Arial, sans-serif !important;\n    font-size: 13px !important;",
+                                        "margin": [
+                                            {
+                                                "label": "left:small",
+                                                "size": "small",
+                                                "type": "left"
+                                            },
+                                            {
+                                                "label": "top:xx-small",
+                                                "size": "xx-small",
+                                                "type": "top"
+                                            }
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "10",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_10-of-12 ",
+                                        "style": "      \n             font-family: 'Segoe UI', Arial, sans-serif !important;\n    font-size: 13px !important;",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-m-left_small slds-m-top_xx-small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "    font-family: 'Segoe UI', Arial, sans-serif !important;\n    font-size: 13px !important;",
+                                                "margin": [
+                                                    {
+                                                        "label": "left:small",
+                                                        "size": "small",
+                                                        "type": "left"
+                                                    },
+                                                    {
+                                                        "label": "top:xx-small",
+                                                        "size": "xx-small",
+                                                        "type": "top"
+                                                    }
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "10",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_10-of-12 ",
+                                                "style": "      \n             font-family: 'Segoe UI', Arial, sans-serif !important;\n    font-size: 13px !important;",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "text"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "action",
+                                    "elementLabel": "Block-1-Action-2",
+                                    "key": "element_element_block_1_0_action_2_0",
+                                    "name": "Action",
+                                    "parentElementKey": "element_block_1_0",
+                                    "property": {
+                                        "actionList": [
+                                            {
+                                                "actionIndex": 0,
+                                                "draggable": false,
+                                                "isOpen": true,
+                                                "key": "1648496969902-qz41zg85d",
+                                                "label": "Action",
+                                                "stateAction": {
+                                                    "Web Page": {
+                                                        "targetName": "/apex"
+                                                    },
+                                                    "eventName": "reload",
+                                                    "id": "flex-action-1648496991952",
+                                                    "openUrlIn": "Current Window",
+                                                    "targetType": "Web Page",
+                                                    "type": "cardAction"
+                                                }
+                                            }
+                                        ],
+                                        "buttonVariant": "neutral",
+                                        "card": "{card}",
+                                        "displayAsButton": false,
+                                        "flyoutDetails": {
+                                        },
+                                        "hideActionIcon": true,
+                                        "iconName": "standard-default",
+                                        "label": "Refresh",
+                                        "record": "{record}",
+                                        "showSpinner": "false",
+                                        "stateObj": "{record}",
+                                        "styles": {
+                                            "label": {
+                                                "fontSize": "13px"
+                                            }
+                                        }
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-text-align_right slds-m-top_xxx-small slds-text-link",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "customClass": "slds-text-link",
+                                        "elementStyleProperties": {
+                                            "styles": {
+                                                "label": {
+                                                    "fontSize": "13px"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "   font-family: 'Segoe UI', Arial, sans-serif !important;",
+                                        "margin": [
+                                            {
+                                                "label": "top:xxx-small",
+                                                "size": "xxx-small",
+                                                "type": "top"
+                                            }
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 ",
+                                        "style": "      \n            font-family: 'Segoe UI', Arial, sans-serif !important;",
+                                        "text": {
+                                            "align": "right",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-text-align_right slds-m-top_xxx-small slds-text-link",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "customClass": "slds-text-link",
+                                                "elementStyleProperties": {
+                                                    "styles": {
+                                                        "label": {
+                                                            "fontSize": "13px"
+                                                        }
+                                                    }
+                                                },
+                                                "inlineStyle": "   font-family: 'Segoe UI', Arial, sans-serif !important;",
+                                                "margin": [
+                                                    {
+                                                        "label": "top:xxx-small",
+                                                        "size": "xxx-small",
+                                                        "type": "top"
+                                                    }
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 ",
+                                                "style": "      \n            font-family: 'Segoe UI', Arial, sans-serif !important;",
+                                                "text": {
+                                                    "align": "right",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "element"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-1",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "data-conditions": {
+                                    "group": [
+                                        {
+                                            "field": "status",
+                                            "hasMergeField": false,
+                                            "id": "state-new-condition-7",
+                                            "operator": "==",
+                                            "type": "custom",
+                                            "value": "Failure"
+                                        },
+                                        {
+                                            "field": "status",
+                                            "hasMergeField": false,
+                                            "id": "state-new-condition-16",
+                                            "logicalOperator": "||",
+                                            "operator": "==",
+                                            "type": "custom",
+                                            "value": "Partial_Success"
+                                        }
+                                    ],
+                                    "id": "state-condition-object",
+                                    "isParent": true
+                                },
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "#E5E5E5",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "slds-p-around_x-small ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                    {
+                                        "label": "around:x-small",
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "background-color:#E5E5E5;      \n         ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "#E5E5E5",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-around_x-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "around:x-small",
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "background-color:#E5E5E5;      \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "block"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "class": "slds-col ",
+                                    "element": "outputField",
+                                    "elementLabel": "Block-1-Text-0",
+                                    "key": "element_element_block_1_0_outputField_0_0",
+                                    "name": "Text",
+                                    "parentElementKey": "element_block_1_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "mergeField": "%3Cdiv%20class=%22slds-text-align_center%22%3E&nbsp;%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E&nbsp;%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E%3Cspan%20style=%22font-size:%2012pt;%20color:%20#7e8c8d;%22%3ENo%20Alerts%20to%20Display%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E&nbsp;%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E&nbsp;%3C/div%3E",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "sizeClass": "slds-size_12-of-12"
+                                    },
+                                    "type": "text"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-2",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "data-conditions": {
+                                    "group": [
+                                        {
+                                            "field": "numAlerts",
+                                            "hasMergeField": false,
+                                            "id": "state-new-condition-0",
+                                            "operator": "==",
+                                            "type": "custom",
+                                            "value": "0"
+                                        }
+                                    ],
+                                    "id": "state-condition-object",
+                                    "isParent": true
+                                },
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "class": "slds-p-around_x-small",
+                                "padding": [
+                                    {
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "block"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-3",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "PSSServiceExcellenceGroupedAlert",
+                                "cardNode": "{record.groupedAlerts}",
+                                "isChildCardTrackingEnabled": false,
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-4",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "PSSServiceExcellenceSingleAlert",
+                                "cardNode": "{record.alerts}",
+                                "isChildCardTrackingEnabled": false,
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-card slds-m-bottom_x-small ",
+                "container": {
+                    "class": "slds-card"
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "bottom:x-small",
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "      \n         ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "PSSServiceExcellenceAlertCard",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage",
+                "xmlns": "http://soap.sforce.com/2006/04/metadata"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "default": "3",
+                        "label": "Maximum Number of Alerts (1-20)",
+                        "name": "cfLimit",
+                        "type": "Integer"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "default": "5",
+                        "label": "Maximum Number of Aggregated Alerts (1-10)",
+                        "name": "cfChildLimit",
+                        "type": "Integer"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "default": "true",
+                        "label": "Aggregate Alerts",
+                        "name": "cfAggregateAlerts",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "apiVersion": 51,
+        "isExplicitImport": false,
+        "isExposed": true,
+        "masterLabel": "PSSServiceExcellenceAlertCard",
+        "runtimeNamespace": "devopsimpkg11",
+        "targetConfigs": "PHRhcmdldENvbmZpZyAgeG1sbnM9Imh0dHA6Ly9zb2FwLnNmb3JjZS5jb20vMjAwNi8wNC9tZXRhZGF0YSIgdGFyZ2V0cz0ibGlnaHRuaW5nX19SZWNvcmRQYWdlIj48cHJvcGVydHkgIG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIj48L3Byb3BlcnR5Pjxwcm9wZXJ0eSAgbmFtZT0iY2ZMaW1pdCIgdHlwZT0iSW50ZWdlciIgbGFiZWw9Ik1heGltdW0gTnVtYmVyIG9mIEFsZXJ0cyAoMS0yMCkiIGRlZmF1bHQ9IjMiPjwvcHJvcGVydHk+PHByb3BlcnR5ICBuYW1lPSJjZkNoaWxkTGltaXQiIHR5cGU9IkludGVnZXIiIGxhYmVsPSJNYXhpbXVtIE51bWJlciBvZiBBZ2dyZWdhdGVkIEFsZXJ0cyAoMS0xMCkiIGRlZmF1bHQ9IjUiPjwvcHJvcGVydHk+PHByb3BlcnR5ICBuYW1lPSJjZkFnZ3JlZ2F0ZUFsZXJ0cyIgdHlwZT0iQm9vbGVhbiIgbGFiZWw9IkFnZ3JlZ2F0ZSBBbGVydHMiIGRlZmF1bHQ9InRydWUiPjwvcHJvcGVydHk+PC90YXJnZXRDb25maWc+",
+        "targets": {
+            "target": [
+                "lightning__RecordPage"
+            ]
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "ContextId": "",
+    "DRId_%vlocity_namespace%__Element__c": "a4O4x000000ZxMHEA0",
+    "DRId_%vlocity_namespace%__OmniScript__c": "a5y4x0000004PnWAAU",
+    "Details": {
+        "LWCEnabled": true,
+        "OmniscriptName": "Test",
+        "SubType": "Test",
+        "Type": "Test"
+    },
+    "Elements": {
+        "ElementDetails": [
+            {
+                "ElementLabel": "Name of person assessed: ",
+                "ElementName": "NamePersonAssessed",
+                "ElementOrder": "1",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Lives alone ",
+                "ElementName": "LivesAlone",
+                "ElementOrder": "2",
+                "ElementStep": "1",
+                "ElementType": "Text"
+            },
+            {
+                "ElementLabel": "Other (describe): ",
+                "ElementName": "Other",
+                "ElementOrder": "3",
+                "ElementStep": "2",
+                "ElementType": "Date"
+            }
+        ],
+        "ElementFile": null,
+        "FileCount": 0
+    },
+    "id": "a5y4x0000004PmOAAU",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://rentassist-20210129-demo--vlocity-ins.visualforce.com",
+    "timeStamp": "2021-02-23T15:39:17.531Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054x000003dns8AAA",
+    "userName": "jblankenship@rentassistance01292021.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

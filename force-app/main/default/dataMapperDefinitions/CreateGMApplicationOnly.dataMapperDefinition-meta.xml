@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem12</globalKey>
+        <inputField>ApplicationInformation:FundsUsage</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingRequestPurpose</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem11</globalKey>
+        <inputField>FundingRequestName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationName</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem10</globalKey>
+        <inputField>ApplicationInformation:FundingRequestAmount</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RequestedAmount</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem9</globalKey>
+        <inputField>BusinessInformation:Account:Id</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| | TODAY 1 ADDDAY</formulaConverted>
+        <formulaExpression>ADDDAY(TODAY(),1)</formulaExpression>
+        <formulaResultPath>AppliedDate</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem2</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:BusinessInformation:Account:Name &quot;/\/\/-/\/\/Relief/\/\/&amp;/\/\/Reinvestment/\/\/Grant&quot; CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(BusinessInformation:Account:Name, &quot; - Relief &amp; Reinvestment Grant&quot;)</formulaExpression>
+        <formulaResultPath>FundingRequestName</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem1</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem14</globalKey>
+        <inputField>AppliedDate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AppliedDate</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem13</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>InternalStatus</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <defaultValue>Grantmaking</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem4</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>RecordType</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <defaultValue>2024-2025 Relief &amp; Reinvestment Grant</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem3</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>FundingOpportunity</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FundingOpportunityId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| | TODAY 7 ADDDAY</formulaConverted>
+        <formulaExpression>ADDDAY(TODAY(),7)</formulaExpression>
+        <formulaResultPath>DueDate</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem0</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <defaultValue>Submitted</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem8</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <defaultValue>Grant Application</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem7</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Category</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem6</globalKey>
+        <inputField>BusinessInformation:Contact:Id</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactId</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CreateGMApplicationOnly</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>CreateGMApplicationOnlyCustom0jIKd000000kK2GMAUItem5</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>IndividualApplication</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;ApplicationInformation&quot;: {
+        &quot;DateBusinessEstablished&quot;: null,
+        &quot;Eligible&quot;: null,
+        &quot;FundingRequestAmount&quot;: null,
+        &quot;FundsUsage&quot;: null,
+        &quot;Industry&quot;: null,
+        &quot;OtherDescription&quot;: null
+    },
+    &quot;BusinessInformation&quot;: {
+        &quot;Account&quot;: {
+            &quot;City&quot;: null,
+            &quot;Name&quot;: null,
+            &quot;PostalCode&quot;: null,
+            &quot;State&quot;: null,
+            &quot;Street&quot;: null,
+            &quot;Website&quot;: null
+        },
+        &quot;BusinessProfile&quot;: {
+            &quot;BusinessOperatingName&quot;: null,
+            &quot;BusinessStructure&quot;: null,
+            &quot;BusinessTaxIdentifier&quot;: null
+        },
+        &quot;Contact&quot;: {
+            &quot;Email&quot;: null,
+            &quot;FirstName&quot;: null,
+            &quot;LastName&quot;: null,
+            &quot;Phone&quot;: null,
+            &quot;Title&quot;: null
+        }
+    },
+    &quot;ContextId&quot;: null,
+    &quot;Ineligible&quot;: {},
+    &quot;RequiredDocumentation&quot;: {
+        &quot;IncomeTaxReturn&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;filename&quot;: null,
+                &quot;size&quot;: null
+            }
+        ],
+        &quot;MortgageRentDocumentation&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;filename&quot;: null,
+                &quot;size&quot;: null
+            }
+        ],
+        &quot;PayrollDocumentation&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;filename&quot;: null,
+                &quot;size&quot;: null
+            }
+        ],
+        &quot;UtilitiesDocumentation&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;filename&quot;: null,
+                &quot;size&quot;: null
+            }
+        ]
+    },
+    &quot;ThankYou&quot;: {},
+    &quot;timeStamp&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userTimeZone&quot;: null,
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;vlcTimeTracking&quot;: {
+        &quot;ApplicationInformation&quot;: null,
+        &quot;BackToHome&quot;: null,
+        &quot;BusinessInformation&quot;: null,
+        &quot;CreateGrantApplication&quot;: null,
+        &quot;DRContactAndAccountForUser&quot;: null,
+        &quot;DRGetDemoUserId&quot;: null,
+        &quot;Ineligible&quot;: null,
+        &quot;NavigateToApplication&quot;: null,
+        &quot;RequiredDocumentation&quot;: null,
+        &quot;SetInitialState&quot;: null,
+        &quot;ThankYou&quot;: null
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>CreateGMApplicationOnly</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;ApplicationInformation&quot; : {
+    &quot;DateBusinessEstablished&quot; : null,
+    &quot;Eligible&quot; : null,
+    &quot;FundingRequestAmount&quot; : null,
+    &quot;FundsUsage&quot; : null,
+    &quot;Industry&quot; : null,
+    &quot;OtherDescription&quot; : null,
+    &quot;AppliedDate&quot; : null
+  },
+  &quot;BusinessInformation&quot; : {
+    &quot;Account&quot; : {
+      &quot;City&quot; : null,
+      &quot;Name&quot; : null,
+      &quot;PostalCode&quot; : null,
+      &quot;State&quot; : null,
+      &quot;Street&quot; : null,
+      &quot;Website&quot; : null
+    },
+    &quot;BusinessProfile&quot; : {
+      &quot;BusinessOperatingName&quot; : null,
+      &quot;BusinessStructure&quot; : null,
+      &quot;BusinessTaxIdentifier&quot; : null
+    },
+    &quot;Contact&quot; : {
+      &quot;Email&quot; : null,
+      &quot;FirstName&quot; : null,
+      &quot;LastName&quot; : null,
+      &quot;Phone&quot; : null,
+      &quot;Title&quot; : null
+    }
+  },
+  &quot;ContextId&quot; : null,
+  &quot;Ineligible&quot; : { },
+  &quot;RequiredDocumentation&quot; : {
+    &quot;IncomeTaxReturn&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;filename&quot; : null,
+      &quot;size&quot; : null
+    } ],
+    &quot;MortgageRentDocumentation&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;filename&quot; : null,
+      &quot;size&quot; : null
+    } ],
+    &quot;PayrollDocumentation&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;filename&quot; : null,
+      &quot;size&quot; : null
+    } ],
+    &quot;UtilitiesDocumentation&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;filename&quot; : null,
+      &quot;size&quot; : null
+    } ]
+  },
+  &quot;ThankYou&quot; : { },
+  &quot;timeStamp&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userTimeZone&quot; : null,
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;vlcTimeTracking&quot; : {
+    &quot;ApplicationInformation&quot; : null,
+    &quot;BackToHome&quot; : null,
+    &quot;BusinessInformation&quot; : null,
+    &quot;CreateGrantApplication&quot; : null,
+    &quot;DRContactAndAccountForUser&quot; : null,
+    &quot;DRGetDemoUserId&quot; : null,
+    &quot;Ineligible&quot; : null,
+    &quot;NavigateToApplication&quot; : null,
+    &quot;RequiredDocumentation&quot; : null,
+    &quot;SetInitialState&quot; : null,
+    &quot;ThankYou&quot; : null
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

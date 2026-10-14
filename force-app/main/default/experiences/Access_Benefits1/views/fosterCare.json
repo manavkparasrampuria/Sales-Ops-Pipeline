@@ -1,0 +1,168 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "a67837b8-d49f-4450-999e-d3446f3caf5c",
+  "label" : "Foster Care",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b626340b-4db1-4da4-b313-3a662f02e0a6",
+          "columns" : [ {
+            "UUID" : "ceb49f21-af02-417c-860d-fcc932c47358",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 36
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b626340b-4db1-4da4-b313-3a662f02e0a6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<hr>\n<div style=\"border:0px solid #d4d4d4; padding:0rem;font-size:1.6rem;\"\" class=\"slds-col imagePreview\";>\n<p><b>Foster Care Services</b></p>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "56efc08a-c200-4dcd-8554-181013cfebce",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ceb49f21-af02-417c-860d-fcc932c47358",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f2c4606f-9101-4731-895c-84c8e8bc9cab",
+          "columns" : [ {
+            "UUID" : "dc13a80f-715a-45e8-953e-3cbfc4f0a4fe",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f2c4606f-9101-4731-895c-84c8e8bc9cab",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flexcardName" : "CommunityTracking",
+            "objectApiName" : "{!objectApiName}",
+            "recordId" : "{!CurrentUser.id}"
+          },
+          "componentName" : "runtime_omnistudio:flexcard",
+          "id" : "5d035837-b640-483b-a4b4-fdc29809e94a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "dc13a80f-715a-45e8-953e-3cbfc4f0a4fe",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "15035448-1bfe-4064-8039-4957b09ad5c4",
+          "columns" : [ {
+            "UUID" : "d80272d8-b579-4a78-a2f7-0fcb78a47974",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "15035448-1bfe-4064-8039-4957b09ad5c4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<HR>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "6e8bd5d3-1f14-497e-85ce-77a5ccc1f1a5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div align=\"center\">\n    <a href=\"/Benefits/s/support\"> \n        <button style=\"background-color: #395878; padding: 12px 30px; border: none; width:40%; font-size: 1.2rem; color: #fff; border-radius: 50px\";>Get Support</button>\n    </a>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "b912b109-ab86-4ba3-b074-977aeacfbed6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<HR>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "f67517b8-10d1-4225-8f7b-9595154fc887",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d80272d8-b579-4a78-a2f7-0fcb78a47974",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "55737db7-2360-4bf5-8332-795308e088a6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Foster Care"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e80c8aba-07f7-483e-bdb6-e35b2c214ae0",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4f1a6e49-07be-4524-beca-10aaa64c620d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "JSEEKbv1VTckh5xUI0N4CAKJN3JBDl",
+  "type" : "view",
+  "viewType" : "custom-foster-care"
+}

@@ -1,0 +1,31 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "Recruitment_GetDataToPrefillEducationDetails_SampleInput.json",
+    "Description": "Gets the person education records related to an applicant’s person account, and uses the data from the records to prefill the education details in the job application.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "GetDataToPrefillEducationDetails",
+    "OmniProcessElement": [
+        "Recruitment_GetDataToPrefillEducationDetails_Element_GetPersonEducationRecords.json",
+        "Recruitment_GetDataToPrefillEducationDetails_Element_Response.json"
+    ],
+    "OmniProcessKey": "Recruitment_GetDataToPrefillEducationDetails",
+    "OmniProcessType": "Integration Procedure",
+    "OverrideKey": "ap_exp_flows__Recruitment_GetDataToPrefillEducationDetails_Procedure_1",
+    "PropertySetConfig": "Recruitment_GetDataToPrefillEducationDetails_PropertySetConfig.json",
+    "SubType": "GetDataToPrefillEducationDetails",
+    "Type": "Recruitment",
+    "UniqueName": "Recruitment_GetDataToPrefillEducationDetails_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Recruitment/GetDataToPrefillEducationDetails/Procedure"
+}

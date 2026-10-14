@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Monthly invoice runs launch on the last day of the month. The scheduler’s start date must also be the last day of the month. --></help>
+    <label>Executar ao fim do mês</label>
+    <name>blng__EndOfMonth__c</name>
+</CustomFieldTranslation>

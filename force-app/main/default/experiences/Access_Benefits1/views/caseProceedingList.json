@@ -1,0 +1,46 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "44e22d3b-432d-4c4b-aebd-12a9ff68e3ed",
+  "label" : "Case Proceeding List",
+  "regions" : [ {
+    "id" : "ce2853f4-7dd1-4dd1-910a-5702344a4d3e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "0b6dbdfa-048a-4473-bfe3-741e7eadb4a0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4d8fdb3d-33b4-4167-8a2a-95459300373b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e0b3e8c6-d5f8-491b-90c0-243e4d63418e",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-11F"
+}

@@ -1,0 +1,101 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "5eebb518-0be3-4b97-a03c-77aeb9494330",
+  "label" : "File a Complaint",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "9cb32d13-2c08-47b3-9628-cd977e0076b2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><b><i>Note to Salesforce Public Sector Solution Engineer:&nbsp;</i></b><i>&nbsp;This OmniScript searches on the&nbsp;&nbsp;Business License Object's \"Authorized&nbsp;&nbsp;Organization\" field&nbsp;&nbsp;(for example, search for business: Top Nails )</i></p><p><b style=\"color: rgb(230, 0, 0);\"><i>REMOVE THIS COMPONENT BEFORE DEMO'ING</i></b></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "fcefd73e-8d3d-44c7-97f3-9ec6ba6a1cac",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "06d705f4-14da-48ba-8886-90ae6b1c7145",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "PublicComplaint",
+        "theme" : "lightning",
+        "type" : "LicensingAndPermitting"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "83bdccd0-2eb0-4965-9e1c-f8a362afaf3b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f1085c5c-2712-46bb-9a12-9fc1b95cbf66",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3d5a5bfe-5ffe-4f95-a4c4-d6cccf19ea63",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div align=\"center\">\n    <a href=\"/LPI/s/contact-support\"> \n        <button style=\"background-color: #1a82c8; padding: 14px 50px; border: none; font-size: 1rem; color: #fff; border-radius: 25px\";>Contact Support</button>\n    </a>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "8ff38528-246e-4a5b-8e70-46d8293ef880",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "233f7ae1-b5ea-44e4-a558-bbae520f871c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1b466626-36ba-4858-b9ec-6f884395722b",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "File a Complaint"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3e54af23-0201-49af-9ba4-66fbd23de270",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cb642629-3ce1-4d3e-907e-e693376cea0b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "f1d14tuz3M2pfXLw3VG3Ums2pLm9Mr",
+  "type" : "view",
+  "viewType" : "report-a-business"
+}

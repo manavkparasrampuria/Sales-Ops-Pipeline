@@ -1,0 +1,142 @@
+{
+    "FetchRemovedMember": [
+        {
+            "AddedHHMembersStatus": false,
+            "AddedMembers": "",
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": false,
+            "RemovedHHMembersStatus": true,
+            "RemovedMembers": {
+                "MemberRemoved": "Yes",
+                "name": "Integration Demo Wife"
+            }
+        },
+        {
+            "AddedHHMembersStatus": false,
+            "AddedMembers": "",
+            "LoopBlockIterationIndex": 2,
+            "LoopBlockIterationStatus": false,
+            "RemovedHHMembersStatus": true,
+            "RemovedMembers": {
+                "MemberRemoved": "Yes",
+                "name": "Integration Demo PA"
+            }
+        }
+    ],
+    "FetchRemovedMemberStatus": true,
+    "MemberList": [
+        {
+            "MemberSectionAction": "Remove member",
+            "PSS_BM_v3_HouseholdMemberFirstName": "Integration Demo",
+            "PSS_BM_v3_HouseholdMemberLastName": "Wife"
+        },
+        {
+            "MemberSectionAction": "Remove member",
+            "PSS_BM_v3_HouseholdMemberFirstName": "Integration Demo",
+            "PSS_BM_v3_HouseholdMemberLastName": "PA"
+        }
+    ],
+    "MergeList": [
+        {
+            "AccountId": "001xx000003GdzbAAC",
+            "MemberRemoved": "Yes",
+            "PSS_BM_v3_Employer": "Salesforce",
+            "PSS_BM_v3_ExistingIncomeCurrentMonth": 125,
+            "PSS_BM_v3_ExistingIncomeFrequency": "Monthly",
+            "PSS_BM_v3_IncomeCurrentMonth": 125,
+            "PSS_BM_v3_IncomeHouseholdMemberName": "Integration Demo PA",
+            "PSS_BM_v3_StartDate": "09/07/2023",
+            "PartyId": "001xx000003GdzbAAC",
+            "PartyIncomeId": "2m3xx00000000EXAAY",
+            "name": "Integration Demo PA"
+        },
+        {
+            "AccountId": "001xx000003Ge1DAAS",
+            "MemberRemoved": "Yes",
+            "PSS_BM_v3_Employer": "Amex",
+            "PSS_BM_v3_ExistingIncomeCurrentMonth": 120,
+            "PSS_BM_v3_IncomeCurrentMonth": 120,
+            "PSS_BM_v3_IncomeFrequency": "Weekly",
+            "PSS_BM_v3_IncomeHouseholdMemberName": "Integration Demo Wife",
+            "PSS_BM_v3_StartDate": "10/04/2023",
+            "PartyId": "001xx000003Ge1DAAS",
+            "PartyIncomeId": "2m3xx00000000CwAAI",
+            "name": "Integration Demo Wife"
+        },
+        {
+            "AccountId": "001xx000003GdzbAAC",
+            "MemberRemoved": "Yes",
+            "PSS_BM_v3_Employer": "Salesforce",
+            "PSS_BM_v3_ExistingIncomeCurrentMonth": 125,
+            "PSS_BM_v3_IncomeCurrentMonth": 125,
+            "PSS_BM_v3_IncomeFrequency": "Monthly",
+            "PSS_BM_v3_IncomeHouseholdMemberName": "Integration Demo PA",
+            "PSS_BM_v3_StartDate": "09/07/2023",
+            "PartyId": "001xx000003GdzbAAC",
+            "PartyIncomeId": "2m3xx00000000EXAAY",
+            "name": "Integration Demo PA"
+        }
+    ],
+    "MergeListStatus": true,
+    "PSS_BM_v3_HouseholdIncomeDetails": [
+        {
+            "AccountId": "001xx000003GdzbAAC",
+            "PSS_BM_v3_Employer": "Salesforce",
+            "PSS_BM_v3_ExistingIncomeCurrentMonth": 125,
+            "PSS_BM_v3_IncomeCurrentMonth": 125,
+            "PSS_BM_v3_IncomeFrequency": "Monthly",
+            "PSS_BM_v3_IncomeHouseholdMemberName": "Integration Demo PA",
+            "PSS_BM_v3_StartDate": "09/07/2023",
+            "PartyId": "001xx000003GdzbAAC",
+            "PartyIncomeId": "2m3xx00000000EXAAY"
+        },
+        {
+            "AccountId": "001xx000003Ge1DAAS",
+            "PSS_BM_v3_Employer": "Amex",
+            "PSS_BM_v3_ExistingIncomeCurrentMonth": 120,
+            "PSS_BM_v3_IncomeCurrentMonth": 120,
+            "PSS_BM_v3_IncomeFrequency": "Weekly",
+            "PSS_BM_v3_IncomeHouseholdMemberName": "Integration Demo Wife",
+            "PSS_BM_v3_StartDate": "10/04/2023",
+            "PartyId": "001xx000003Ge1DAAS",
+            "PartyIncomeId": "2m3xx00000000CwAAI"
+        },
+        {
+            "AccountId": "001xx000003GdzbAAC",
+            "PSS_BM_v3_Employer": "Salesforce",
+            "PSS_BM_v3_ExistingIncomeCurrentMonth": 125,
+            "PSS_BM_v3_IncomeCurrentMonth": 125,
+            "PSS_BM_v3_IncomeFrequency": "Monthly",
+            "PSS_BM_v3_IncomeHouseholdMemberName": "Integration Demo PA",
+            "PSS_BM_v3_StartDate": "09/07/2023",
+            "PartyId": "001xx000003GdzbAAC",
+            "PartyIncomeId": "2m3xx00000000EXAAY"
+        }
+    ],
+    "options": {
+        "OmniAnalyticsTrackingDebug": false,
+        "ParentInteractionToken": null,
+        "chainable": false,
+        "continuationStepResult": null,
+        "disableMetadataCache": false,
+        "forceQueueable": false,
+        "ignoreCache": true,
+        "isDebug": true,
+        "isTestProcedure": false,
+        "mockHttpResponse": null,
+        "queueableChainable": false,
+        "resetCache": false,
+        "shouldCommit": false,
+        "useContinuation": false,
+        "useFuture": false,
+        "useHttpCalloutMock": false,
+        "useQueueable": false,
+        "useQueueableApexRemoting": false,
+        "vlcApexResponse": true,
+        "vlcCacheKey": null,
+        "vlcFilesMap": null,
+        "vlcIPData": null,
+        "vlcTestSuiteUniqueKey": null,
+        "vlcTestUniqueKey": null
+    }
+}

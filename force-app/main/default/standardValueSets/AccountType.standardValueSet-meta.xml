@@ -2,53 +2,28 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Analyst</fullName>
+        <fullName>Enterprise</fullName>
         <default>false</default>
-        <label>Analista</label>
+        <label>Enterprise</label>
     </standardValue>
     <standardValue>
-        <fullName>Competitor</fullName>
+        <fullName>Mid-Market</fullName>
         <default>false</default>
-        <label>Competidor</label>
+        <label>Mid-Market</label>
     </standardValue>
     <standardValue>
-        <fullName>Customer</fullName>
+        <fullName>Small Business</fullName>
         <default>false</default>
-        <label>Cliente</label>
+        <label>Small Business</label>
     </standardValue>
     <standardValue>
-        <fullName>Integrator</fullName>
+        <fullName>Person</fullName>
         <default>false</default>
-        <label>Integrador</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Investor</fullName>
-        <default>false</default>
-        <label>Inversor</label>
+        <label>Person</label>
     </standardValue>
     <standardValue>
         <fullName>Partner</fullName>
         <default>false</default>
-        <label>Socio</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Press</fullName>
-        <default>false</default>
-        <label>Prensa</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Prospect</fullName>
-        <default>false</default>
-        <label>Cliente potencial</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Reseller</fullName>
-        <default>false</default>
-        <label>Distribuidor</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>Otros</label>
+        <label>Partner</label>
     </standardValue>
 </StandardValueSet>

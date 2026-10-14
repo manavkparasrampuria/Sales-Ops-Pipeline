@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "TestRecruitmentShowApplicantEducationDetails/Salesforce/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "Parent.applicationFormId",
+                    "val": "13Xxx0000004CfIEAU"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "applicationFormId": "{Parent.applicationFormId}"
+                },
+                "ipMethod": "Recruitment_GetApplicantEducationDetails",
+                "jsonMap": "{\"Parent.applicationFormId\":\"{Parent.applicationFormId}\"}",
+                "resultVar": "[\"EducationDetailsWithDocuments\"]",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "Shows the details provided by an applicant about an education qualification.",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "AFRecruitmentShowApplicantEducationDetails",
+    "Namespace": "",
+    "OmniUiCardKey": "AFRecruitmentShowApplicantEducationDetails/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "AFRecruitmentShowApplicantEducationDetails.json",
+    "SampleDataSourceResponse": "{\"EducationDetailsWithDocuments\":\"\"}",
+    "StylingConfiguration": "",
+    "UniqueName": "AFRecruitmentShowApplicantEducationDetails_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/AFRecruitmentShowApplicantEducationDetails"
+}

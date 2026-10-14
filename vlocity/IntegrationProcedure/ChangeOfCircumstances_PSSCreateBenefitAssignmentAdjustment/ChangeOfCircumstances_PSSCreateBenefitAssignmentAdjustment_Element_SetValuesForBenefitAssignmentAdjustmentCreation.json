@@ -1,0 +1,53 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValuesForBenefitAssignmentAdjustmentCreation",
+    "OmniProcessId": {
+        "Name": "PSSCreateBenefitAssignmentAdjustment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/PSSCreateBenefitAssignmentAdjustment/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "BenefitAssignment": {
+                "Id": "%BenefitAssignmentId%"
+            },
+            "BenefitAssignmentAdjustmentDetails": {
+                "AccountId": "=%AccountId%",
+                "AdjustmentType": "=%AdjustmentType%",
+                "ApprovalStatus": "=%ApprovalStatus%",
+                "BenefitId": "=%BenefitId%",
+                "EndDate": "=%EndDate%",
+                "EntitlementAmount": "=%EntitlementAmount%",
+                "ParentRecordId": "=%RecordId%",
+                "PayoutFrequency": "=%PayoutFrequency%",
+                "ProcessingStatus": "=%ProcessingStatus%",
+                "ProgramEnrollmentName": "%ProgramEnrollmentName%",
+                "ProgramId": "=%FetchProgram:ProgramId%",
+                "Reason": "=%Reason%",
+                "RecurringAmount": "=%RecurringAmount%",
+                "StartDate": "=%StartDate%",
+                "TotalAdjustmentAmount": "=%TotalAdjustmentAmount%",
+                "TotalApprovedAmount": "=%TotalApprovedAmount%"
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/PSSCreateBenefitAssignmentAdjustment/Procedure/SetValuesForBenefitAssignmentAdjustmentCreation"
+}

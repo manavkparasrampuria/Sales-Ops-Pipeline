@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateSiteFacility5586712596281804</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacility22783011919129392</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>LocationId</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateSiteFacility8506413056072384</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacility009892430094755822</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <defaultValue>Business Site</defaultValue>
+        <globalKey>DRCreateSiteFacility555927175891733</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LocationType</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <defaultValue>New</defaultValue>
+        <globalKey>DRCreateSiteFacilityCustom9816</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Status__c</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateSiteFacilityCustom2453</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>3.0</linkedObjectSequence>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>SiteFacility__c</outputField>
+        <outputObject>OperatingHours</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom6739</globalKey>
+        <inputField>SiteInfo:SiteAddress-Block:SiteAddress</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Address</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom1061</globalKey>
+        <inputField>SiteInfo:SiteAddress-Block:SiteState</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>State</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacility1985109323926051</globalKey>
+        <inputField>SiteInfo:SiteName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <defaultValue>Business Site</defaultValue>
+        <globalKey>DRCreateSiteFacilityCustom2920</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>LocationType</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom4000</globalKey>
+        <inputField>SiteInfo:NumberofStaff</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>NumberofStaff__c</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateSiteFacilityCustom5005</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom1665</globalKey>
+        <inputField>SiteInfo:SiteAddress-Block:SiteZipcode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>PostalCode</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom9764</globalKey>
+        <inputField>userTimeZoneName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>TimeZone</outputField>
+        <outputObject>OperatingHours</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom5276</globalKey>
+        <inputField>CalcOperatingHoursName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>OperatingHours</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <formulaConverted>| var:SiteInfo:SiteName &quot;/\/\/-/\/\/&quot; &apos;Regular&apos; CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(%SiteInfo:SiteName% ,&quot; - &quot;, &apos;Regular&apos;)</formulaExpression>
+        <formulaResultPath>CalcOperatingHoursName</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRCreateSiteFacilityCustom9835</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom7877</globalKey>
+        <inputField>RecordType:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>RecordTypeId</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom606</globalKey>
+        <inputField>SiteInfo:SiteAddress-Block:SiteCity</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>City</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateSiteFacilityCustom7996</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>4.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>OperatingHours</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom5332</globalKey>
+        <inputField>SiteInfo:SiteAddress-Block:SiteCountry</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Country</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom9168</globalKey>
+        <inputField>SiteInfo:SiteAddress-Block:SiteStreet</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Street</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <defaultValue>Site</defaultValue>
+        <globalKey>DRCreateSiteFacilityCustom7113</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>LocationType</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateSiteFacilityCustom5973</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>2.0</linkedObjectSequence>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>VisitorAddressId</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <defaultValue>To Be Scheduled</defaultValue>
+        <globalKey>DRCreateSiteFacilityCustom705</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Inspection_Status__c</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom885</globalKey>
+        <inputField>AccountId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>AccountRel__c</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateSiteFacilityCustom3378</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ParentId</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <defaultValue>Office</defaultValue>
+        <globalKey>DRCreateSiteFacilityCustom8024</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AddressType</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <defaultValue>HQ</defaultValue>
+        <globalKey>DRCreateSiteFacilityCustom7706</globalKey>
+        <inputField>SiteInfo:SiteFacilityType</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>SiteFacilityType__c</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateSiteFacilityCustom9925</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>5.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Location</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateSiteFacilityCustom4436</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Address</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacility9620063881358278</globalKey>
+        <inputField>SiteInfo:SIDN__c</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>SIDN__c</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacilityCustom8026</globalKey>
+        <inputField>SiteContactId</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Contact__c</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateSiteFacility</dataMapperDefItemName>
+        <globalKey>DRCreateSiteFacility5312328845842094</globalKey>
+        <inputField>SiteInfo:SiteName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>HealthcareFacility</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;SiteFacilityId&quot;: &quot;0klHr000000wr4WIAQ&quot;,
+    &quot;omniscriptId&quot;: &quot;0jNHr0000004mVrMAI&quot;,
+    &quot;language&quot;: &quot;English&quot;,
+    &quot;type&quot;: &quot;SiteFacility&quot;,
+    &quot;runMode&quot;: &quot;preview&quot;,
+    &quot;sId&quot;: &quot;0jNHr0000004mVrMAI&quot;,
+    &quot;theme&quot;: &quot;lightning&quot;,
+    &quot;subType&quot;: &quot;NewSiteFacility&quot;,
+    &quot;timeStamp&quot;: &quot;2023-12-05T20:23:27.311Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/New_York&quot;,
+    &quot;userTimeZone&quot;: &quot;-300&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;kwinderlich@1123winter24.demo&quot;,
+    &quot;userId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+    &quot;omniProcessId&quot;: &quot;0jNHr0000004mVrMAI&quot;,
+    &quot;localTimeZoneName&quot;: &quot;America/New_York&quot;,
+    &quot;SiteOperatingHours&quot;: null,
+    &quot;Assessment&quot;: {
+        &quot;AssessmentExecute&quot;: &quot;Yes&quot;
+    },
+    &quot;General&quot;: {
+        &quot;FacilityUsage&quot;: &quot;HQ;Administrative;Warehouse&quot;,
+        &quot;FacilityPrevCert&quot;: &quot;2020-03-10&quot;,
+        &quot;FacilityAge&quot;: 15,
+        &quot;FacilityClassified&quot;: &quot;Yes&quot;
+    },
+    &quot;ClassificationDetails&quot;: {
+        &quot;FacilityClassifiedTypes&quot;: {
+            &quot;ClassifiedUsageAdmin&quot;: &quot;FOU&quot;,
+            &quot;ClassifiedUsageExec&quot;: &quot;Confidential&quot;,
+            &quot;ClassifiedUsageEngineering&quot;: &quot;Secret&quot;
+        }
+    },
+    &quot;AdditonalInfo&quot;: {
+        &quot;FacilityAssetValueTotal&quot;: 69275,
+        &quot;FacilityRG_Condition&quot;: {
+            &quot;RGFacilityCondition_FacilityBuilding&quot;: &quot;Excellent&quot;,
+            &quot;RGFacilityCondition_FacilityEquipment&quot;: &quot;Good&quot;,
+            &quot;RGFacilityCondition_FacilityGrounds&quot;: &quot;Good&quot;
+        },
+        &quot;FacilityComments&quot;: &quot;Facility is in great shape and well maintained.&quot;,
+        &quot;FacilityAssetEditBlock&quot;: [
+            {
+                &quot;FacilityAssetName&quot;: &quot;Item 1&quot;,
+                &quot;FacilityAssetValue&quot;: 14500
+            },
+            {
+                &quot;FacilityAssetName&quot;: &quot;Item 2&quot;,
+                &quot;FacilityAssetValue&quot;: 54775
+            }
+        ]
+    },
+    &quot;Consent&quot;: {},
+    &quot;Completion&quot;: {},
+    &quot;UserId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+    &quot;AccountName&quot;: &quot;Acme Consulting Services&quot;,
+    &quot;ContactName&quot;: &quot;Keith Winderlich&quot;,
+    &quot;ContactId&quot;: &quot;003Hr00002XkUdFIAV&quot;,
+    &quot;AccountId&quot;: &quot;001Hr00001s7dedIAA&quot;,
+    &quot;Disclosure&quot;: {
+        &quot;Disclosure1&quot;: true
+    },
+    &quot;SiteNameDefault&quot;: &quot;Acme Consulting Services - HQ&quot;,
+    &quot;SiteNameIP&quot;: &quot;&quot;,
+    &quot;SiteFacilityIdDeleted&quot;: &quot;&quot;,
+    &quot;LocationIdDeleted&quot;: &quot;&quot;,
+    &quot;OperatingHoursIdDeleted&quot;: &quot;&quot;,
+    &quot;SiteInfo&quot;: {
+        &quot;NumberofStaff&quot;: 200,
+        &quot;SiteName&quot;: &quot;Acme Consulting Services - HQ&quot;,
+        &quot;SiteAddress-Block&quot;: {
+            &quot;SiteAddress&quot;: &quot;415 Mission St, San Francisco, CA 94105 USA&quot;,
+            &quot;SiteStreet&quot;: &quot;415 Mission St&quot;,
+            &quot;SiteCity&quot;: &quot; San Francisco&quot;,
+            &quot;SiteState&quot;: &quot;CA&quot;,
+            &quot;SiteZipcode&quot;: &quot;94105&quot;,
+            &quot;SiteCountry&quot;: &quot;United States&quot;
+        },
+        &quot;Description&quot;: &quot;This is the HQ for various administration and services. This is also includes a warehouse for various materials&quot;,
+        &quot;SiteFacilityType&quot;: &quot;HQ&quot;,
+        &quot;SIDN__c&quot;: &quot;S12344567&quot;
+    },
+    &quot;SiteContactPhone__c&quot;: &quot;(415)443-9822&quot;,
+    &quot;SiteContact&quot;: {
+        &quot;MyselfSiteContact&quot;: true,
+        &quot;BlkSiteContactNew&quot;: null,
+        &quot;BestTimetoCall&quot;: {
+            &quot;SiteContactBestTimeCallStart&quot;: &quot;09:00:00.000Z&quot;,
+            &quot;SiteContactBestTimeCallEnd&quot;: &quot;12:00:00.000Z&quot;
+        },
+        &quot;SiteContactPhone&quot;: &quot;2405553883&quot;,
+        &quot;SiteOperatingHoursAdd&quot;: &quot;No&quot;
+    },
+    &quot;SiteContactId&quot;: &quot;003Hr00002XkUdFIAV&quot;,
+    &quot;CurrentSobjectType&quot;: &quot;HealthcareFacility&quot;,
+    &quot;RecordTypeName&quot;: &quot;SiteFacility&quot;,
+    &quot;RecordType&quot;: {
+        &quot;DeveloperName&quot;: &quot;SiteFacility&quot;,
+        &quot;Id&quot;: &quot;012Hr0000008SfxIAE&quot;
+    },
+    &quot;DRId_Location&quot;: &quot;131Hr0000000rxeIAA&quot;,
+    &quot;DRId_Address&quot;: &quot;130Hr0000000iv8IAA&quot;,
+    &quot;DRId_HealthcareFacility&quot;: &quot;0klHr000000wr4WIAQ&quot;,
+    &quot;DRId_OperatingHours&quot;: &quot;0OHHr0000009FiQOAU&quot;,
+    &quot;CurrentDay&quot;: &quot;Sunday&quot;,
+    &quot;Order&quot;: 7,
+    &quot;DRId_TimeSlot&quot;: &quot;0GjHr0000009UhjKAE&quot;,
+    &quot;ContextId&quot;: &quot;0klHr000000wr4WIAQ&quot;,
+    &quot;SiteFacilityName&quot;: &quot;Acme Consulting Services - HQ&quot;,
+    &quot;AssessName&quot;: &quot;Acme Consulting Services - HQ Facility Intake Assessment 122023&quot;,
+    &quot;OrganizationName&quot;: &quot;Acme Consulting Services&quot;,
+    &quot;DocumentContentType&quot;: &quot;image/png&quot;,
+    &quot;SignedDate&quot;: &quot;2023-12-05T20:28:15.241Z&quot;,
+    &quot;SignedBy&quot;: &quot;Kevin Wind&quot;,
+    &quot;CanvasChosen&quot;: &quot;draw&quot;,
+    &quot;FontChosen&quot;: 0,
+    &quot;AssessmentSignature&quot;: [
+        {
+            &quot;DateTime&quot;: &quot;2023-12-05T20:28:15.243Z&quot;,
+            &quot;SignedBy&quot;: &quot;Kevin Wind&quot;,
+            &quot;SignedInitial&quot;: &quot;KW&quot;,
+            &quot;OmniscriptIdentifier&quot;: &quot;MySignature&quot;
+        }
+    ],
+    &quot;SignedElements&quot;: [
+        &quot;MySignature&quot;
+    ],
+    &quot;AssessEffectiveDate&quot;: &quot;2023-12-05T20:28:18.000Z&quot;,
+    &quot;assessmentId&quot;: &quot;0U3Hr000000wwD9KAI&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRCreateSiteFacility</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;SiteFacilityId&quot;: null,
+  &quot;omniscriptId&quot;: &quot;0jNHr0000004mVrMAI&quot;,
+  &quot;language&quot;: &quot;English&quot;,
+  &quot;type&quot;: &quot;SiteFacility&quot;,
+  &quot;runMode&quot;: &quot;preview&quot;,
+  &quot;sId&quot;: &quot;0jNHr0000004mVrMAI&quot;,
+  &quot;theme&quot;: &quot;lightning&quot;,
+  &quot;subType&quot;: &quot;NewSiteFacility&quot;,
+  &quot;timeStamp&quot;: &quot;2023-12-05T17:32:05.233Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZoneName&quot;: &quot;America/New_York&quot;,
+  &quot;userTimeZone&quot;: &quot;-300&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;kwinderlich@1123winter24.demo&quot;,
+  &quot;userId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+  &quot;omniProcessId&quot;: &quot;0jNHr0000004mVrMAI&quot;,
+  &quot;localTimeZoneName&quot;: &quot;America/New_York&quot;,
+  &quot;SiteOperatingHours&quot;: null,
+  &quot;Assessment&quot;: {},
+  &quot;General&quot;: null,
+  &quot;ClassificationDetails&quot;: null,
+  &quot;AdditonalInfo&quot;: null,
+  &quot;Consent&quot;: null,
+  &quot;Completion&quot;: null,
+  &quot;UserId&quot;: &quot;005Hr00000FOMbWIAX&quot;,
+  &quot;AccountName&quot;: &quot;Acme Consulting Services&quot;,
+  &quot;ContactName&quot;: &quot;Keith Winderlich&quot;,
+  &quot;ContactId&quot;: &quot;003Hr00002XkUdFIAV&quot;,
+  &quot;AccountId&quot;: &quot;001Hr00001s7dedIAA&quot;,
+  &quot;Disclosure&quot;: {
+    &quot;Disclosure1&quot;: true
+  },
+  &quot;SiteNameDefault&quot;: &quot;Acme Consulting Services - HQ&quot;,
+  &quot;SiteInfo&quot;: {
+    &quot;NumberofStaff&quot;: 200,
+    &quot;SiteName&quot;: &quot;Acme Consulting Services - HQ&quot;,
+    &quot;SiteAddress-Block&quot;: {
+      &quot;SiteAddress&quot;: &quot;415 Mission St, San Francisco, CA 94105 USA&quot;,
+      &quot;SiteStreet&quot;: &quot;415 Mission St&quot;,
+      &quot;SiteCity&quot;: &quot; San Francisco&quot;,
+      &quot;SiteState&quot;: &quot;CA&quot;,
+      &quot;SiteZipcode&quot;: &quot;94105&quot;,
+      &quot;SiteCountry&quot;: &quot;United States&quot;
+    },
+    &quot;Description&quot;: &quot;This is the HQ for various administration and services. This is also includes a warehouse for various materials&quot;,
+    &quot;SiteFacilityType&quot;: &quot;HQ&quot;,
+    &quot;SIDN__c&quot;: &quot;S12344567&quot;
+  },
+  &quot;SiteContactPhone__c&quot;: &quot;(415)443-9822&quot;,
+  &quot;SiteNameIP&quot;: &quot;Acme Consulting Services - HQ&quot;,
+  &quot;SiteFacilityIdDeleted&quot;: &quot;&quot;,
+  &quot;LocationIdDeleted&quot;: &quot;&quot;,
+  &quot;OperatingHoursIdDeleted&quot;: &quot;&quot;,
+  &quot;SiteContact&quot;: {
+    &quot;MyselfSiteContact&quot;: true,
+    &quot;BlkSiteContactNew&quot;: null,
+    &quot;BestTimetoCall&quot;: {
+      &quot;SiteContactBestTimeCallStart&quot;: &quot;09:00:00.000Z&quot;,
+      &quot;SiteContactBestTimeCallEnd&quot;: &quot;12:00:00.000Z&quot;
+    },
+    &quot;SiteContactPhone&quot;: &quot;2405553883&quot;,
+    &quot;SiteOperatingHoursAdd&quot;: &quot;No&quot;
+  },
+  &quot;SiteContactId&quot;: &quot;003Hr00002XkUdFIAV&quot;,
+  &quot;CurrentSobjectType&quot;: &quot;HealthcareFacility&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,99 @@
+{
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "DocumentsSignature": {
+        "File1": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File2": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "EventDetails": {
+        "AssemblyStagingArea": null,
+        "AssemblyTime": null,
+        "DisbandingArea": null,
+        "DisbandingTime": null,
+        "EndingTime": null,
+        "FirstAid": null,
+        "HowEventWillbeConducted": null,
+        "MarchParadeStartingTime": null,
+        "NumberOfficialsAssemblyArea": null,
+        "NumberOfficialsDisbandingArea": null,
+        "NumberSpecators": null,
+        "TotalEventParticipants": null
+    },
+    "EventOverview": {
+        "AnnualEvent": null,
+        "ApplicantAddress-Block": {
+            "ApplicantAddress": null,
+            "ApplicantCity": null,
+            "ApplicantPostalCode": null,
+            "ApplicantState": null,
+            "ApplicantStreet": null
+        },
+        "ApplicantFirstName": null,
+        "ApplicantLastName": null,
+        "CheckForLessthan5": null,
+        "CityCouncilDistrict": null,
+        "DateDifference": null,
+        "DateOfApplication": null,
+        "DateOfEvent": null,
+        "EventTitle": null,
+        "Exemption": null,
+        "OrgEmail": null,
+        "OrgPhone": null,
+        "OtherEvent": null,
+        "PoliceArea": null,
+        "SetupDate": null,
+        "SponsoringOrganization": null,
+        "SporningOrgAddress-Block": {
+            "OrgCity": null,
+            "OrgPostalCode": null,
+            "OrgState": null,
+            "OrgStreet": null,
+            "SporningOrgAddress": null
+        },
+        "TearDownDate": null,
+        "TypeOfEvent": null
+    },
+    "FeePayment": {
+        "CustomLWC2": null
+    },
+    "Introduction": {
+    },
+    "RouteMap": {
+        "CustomLWC1": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Confirmation": null,
+        "DRGetApplicationId": null,
+        "DRSaveSpecialEventApplication": null,
+        "DocumentsSignature": null,
+        "EventDetails": null,
+        "EventOverview": null,
+        "FeePayment": null,
+        "GetDomain": null,
+        "Introduction": null,
+        "NavigateAction1": null,
+        "RouteMap": null,
+        "SetAddress": null,
+        "SetESRI": null
+    }
+}

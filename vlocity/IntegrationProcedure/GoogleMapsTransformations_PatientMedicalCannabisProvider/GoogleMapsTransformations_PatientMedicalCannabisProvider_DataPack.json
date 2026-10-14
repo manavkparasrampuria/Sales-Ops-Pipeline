@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_PatientMedicalCannabisProvider_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Cannabis Patient Provider",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_PatientMedicalCannabisProvider_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_PatientMedicalCannabisProvider_Element_TransformStep.json",
+        "GoogleMapsTransformations_PatientMedicalCannabisProvider_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_PatientMedicalCannabisProvider",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_PatientMedicalCannabisProvider_PropertySetConfig.json",
+    "SubType": "PatientMedicalCannabisProvider",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_PatientMedicalCannabisProvider_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/PatientMedicalCannabisProvider/Procedure"
+}

@@ -1,0 +1,38 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ValuesToSendWS",
+    "OmniProcessId": {
+        "Name": "Call Utility Log Demo Selected",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/PSUtility/CallUtilityLogWebService/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "InspectionName": "%InspectionName%",
+            "NumberOfSteps": "%Details:NumSteps%",
+            "OmniscriptName": "%Details:OmniscriptName%",
+            "OrgId": "%DRGetWSData:OrgId%",
+            "Type": "%LogType%",
+            "UserEmail": "%DRGetWSData:UserEmail%"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/PSUtility/CallUtilityLogWebService/Procedure/ValuesToSendWS"
+}

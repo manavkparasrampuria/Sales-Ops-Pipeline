@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_LotteryRetailer_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Lottery Retailer",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_LotteryRetailer_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_LotteryRetailer_Element_TransformStep.json",
+        "GoogleMapsTransformations_LotteryRetailer_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_LotteryRetailer",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_LotteryRetailer_PropertySetConfig.json",
+    "SubType": "LotteryRetailer",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_LotteryRetailer_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/LotteryRetailer/Procedure"
+}

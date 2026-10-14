@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetAccountIDsForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetAccountIDsForContactIdsTurboCustom6122</globalKey>
+        <inputField>FirstName</inputField>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Account</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetAccountIDsForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetAccountIDsForContactIdsTurboCustom7618</globalKey>
+        <inputField>LastName</inputField>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Account</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetAccountIDsForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetAccountIDsForContactIdsTurboCustom8132</globalKey>
+        <inputField>PersonContactId</inputField>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Account</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetAccountIDsForContactIdsTurbo</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSEXPCloudGetAccountIDsForContactIdsTurboCustom5792</globalKey>
+        <inputField>Name</inputField>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Account</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSEXPCloudGetAccountIDsForContactIdsTurbo</dataMapperDefItemName>
+        <filterDataType>REFERENCE</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>IN</filterOperator>
+        <filterValue>AllMembersContactIds</filterValue>
+        <globalKey>PSSEXPCloudGetAccountIDsForContactIdsTurboCustom7357</globalKey>
+        <inputField>PersonContactId</inputField>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>AccountsList</outputField>
+        <outputObject>Turbo Extract</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Get AccountIDs For ContactIds</description>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSEXPCloudGetAccountIDsForContactIdsTurbo</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;AllMembersContactIds&quot; : [ &quot;003RM000008AonIYAS&quot;, &quot;003RM000008AwZ1YAK&quot;, &quot;003RM000008AwZ6YAK&quot;, &quot;003RM000008AwZBYA0&quot; ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Turbo Extract</type>
+</DataMapperDefinition>

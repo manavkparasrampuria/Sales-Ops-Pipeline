@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCreateHouseholdCustom3742</globalKey>
+        <inputField>Name</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>PartyRelationshipGroup</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <defaultValue>Group</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCreateHouseholdCustom7487</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Type</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>PartyRelationshipGroup</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCreateHouseholdCustom506</globalKey>
+        <inputField>Name</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Name</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:Account:FirstName &apos;/\/\/&apos; var:Account:LastName &apos;/\/\/&apos; &quot;Household&quot; CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(Account:FirstName, &apos; &apos;, Account:LastName, &apos; &apos;, &quot;Household&quot;)</formulaExpression>
+        <formulaResultPath>Name</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>PSSCreateHouseholdCustom4527</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSCreateHouseholdCustom2700</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>PartyRelationshipGroup</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSCreateHouseholdCustom7956</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>PartyRelationshipGroup</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCreateHouseholdCustom2562</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>AccountContactRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCreateHouseholdCustom2556</globalKey>
+        <inputField>Contact:ContactId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>ContactId</outputField>
+        <outputObject>AccountContactRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <defaultValue>True</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCreateHouseholdCustom1801</globalKey>
+        <inputField>Contact:HeadOfHousehold</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>IsPrimaryMember</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>AccountContactRelation</outputObject>
+        <valueMapping>{ }</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSCreateHouseholdCustom9128</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <defaultValue>False</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCreateHouseholdCustom8542</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IsPersonAccount</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSCreateHouseholdCustom4343</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>3.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>AccountContactRelation</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCreateHousehold</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:Contact:ContactId var:HeadOfHouseholdContactId == &quot;true&quot; &quot;false&quot; IF</formulaConverted>
+        <formulaExpression>IF(Contact:ContactId==HeadOfHouseholdContactId, &quot;true&quot;, &quot;false&quot;)</formulaExpression>
+        <formulaResultPath>Contact:HeadOfHousehold</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>PSSCreateHouseholdCustom197</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Creates account and party relationship group records to capture details of the benefit applicant&apos;s household. The DataRaptor also creates account contact relationship records to add household members to the party relationship group.</description>
+    <expectedInputJson>{
+  &quot;Contact&quot; : [ {
+    &quot;ContactId&quot; : &quot;003RO000003SS5nYAG&quot;
+  }, {
+    &quot;ContactId&quot; : &quot;003RO000003Sw4bYAC&quot;
+  } ],
+  &quot;Account&quot; : {
+    &quot;LastName&quot; : &quot;abc&quot;,
+    &quot;Id&quot; : &quot;001RO000004W1q3YAC&quot;,
+    &quot;FirstName&quot; : &quot;abc&quot;
+  },
+  &quot;HeadOfHouseholdContactId&quot; : &quot;003RO000003SS5nYAG&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSCreateHousehold</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;Contact&quot; : [ {
+    &quot;ContactId&quot; : &quot;003RM000008DVcWYAW&quot;
+  }, {
+    &quot;ContactId&quot; : &quot;003RM000008DVcbYAG&quot;
+  }, {
+    &quot;ContactId&quot; : &quot;003RM000008DVvxYAG&quot;
+  }, {
+    &quot;ContactId&quot; : &quot;003RM0000089fw3YAA&quot;
+  }, {
+    &quot;ContactId&quot; : &quot;003RM0000089fw4YAA&quot;
+  }, {
+    &quot;ContactId&quot; : &quot;003RM0000089fw5YAA&quot;
+  }, {
+    &quot;ContactId&quot; : &quot;003RM0000089fw6YAA&quot;
+  } ],
+  &quot;HeadOfHouseholdContactId&quot; : &quot;003RM0000089fw6YAA&quot;,
+  &quot;Account&quot; : {
+    &quot;LastName&quot; : &quot;abc&quot;,
+    &quot;FirstName&quot; : &quot;abc daughter-in-law&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

@@ -1,0 +1,81 @@
+{
+    "DefaultApplicationStatus": "Submitted",
+    "ProgramCostsAndFundingStep": {
+        "CapitalProject": [
+            {
+                "FundsRequested": 50000,
+                "ProgramArea": "AP",
+                "ProgramCost": 100000,
+                "ProjectTypePercentage": 0
+            },
+            {
+                "FundsRequested": 12000,
+                "ProgramArea": "IB",
+                "ProgramCost": 120000,
+                "ProjectTypePercentage": 0
+            }
+        ],
+        "TotalAHSCPercentage": 28.181818181818183,
+        "TotalDevelopmentCosts": 220000,
+        "TotalFundsRequested": 62000
+    },
+    "ProgramOutcomesStep": {
+        "ProgramOutcome": [
+            {
+                "OutcomeDescription": "Here is a description of this outcome",
+                "OutcomeName": "Outcome #1",
+                "PersonResponsible": "Jennifer Simmons",
+                "TargetCompletionDate": "2021-12-31"
+            },
+            {
+                "OutcomeDescription": "Here is a description of the second outcome",
+                "OutcomeName": "Outcome #2",
+                "PersonResponsible": "Jennifer Simmons",
+                "TargetCompletionDate": "2022-02-01"
+            }
+        ]
+    },
+    "ProjectNameInformationStep": {
+        "Account": {
+            "Address": {
+                "City": "Becker",
+                "Country": "United States",
+                "PostalCode": "55308",
+                "State": "MN",
+                "Street": "12050 Hancock Street"
+            },
+            "Id": "0014S00000BPvsRQAT",
+            "LEANumber": "100100123",
+            "LegalName": "Becker Primary School",
+            "Name": "Becker Primary School",
+            "Phone": "(763) 200-1500",
+            "Website": "beckerprimary.com"
+        },
+        "Contact": {
+            "Email": "jsimmonsgrants062021@gmail.com",
+            "FirstName": "Jennifer",
+            "Id": "0034S00000AKCwuQAH",
+            "LastName": "Simmons",
+            "Phone": "9052222222"
+        },
+        "FundingProgramName": "Elementary and Secondary Education STEM Grant",
+        "IDNumbers": {
+            "CongressionalDistrict": "MN-06",
+            "County": "27005"
+        },
+        "UpdateInfoCheckbox": false
+    },
+    "StatementofNeedStep": {
+        "NarrativeResponse1": "Here is an example of a Narrative Response. This is a long text field and you can add many details in this step to describe how the school will achieve the Outcomes they identify."
+    },
+    "UseDemoUser": true,
+    "localTimeZoneName": "America/Toronto",
+    "omniProcessId": "0jN4S000000H1nNUAS",
+    "timeStamp": "2023-06-16T15:31:19.110Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054S0000037D5BQAU",
+    "userName": "arusharma@gpssummer23.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

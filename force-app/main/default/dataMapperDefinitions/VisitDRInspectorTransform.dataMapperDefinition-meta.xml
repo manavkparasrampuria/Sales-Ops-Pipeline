@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>VisitDRInspectorTransform</dataMapperDefItemName>
+        <globalKey>VisitDRInspectorTransformCustom6364</globalKey>
+        <inputField>Inspector</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Inspectors</outputField>
+        <outputFieldDataType>List&lt;Map&gt;</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{&quot;vlcTimeTracking&quot;:{&quot;DataRaptorTransformAction1&quot;:null,&quot;GetTemplateCount&quot;:null,&quot;SetValuesIncidentType&quot;:null,&quot;DRGetOtherActionPlanTemplates&quot;:null,&quot;DRGetCurrentFacilityForVisit&quot;:null,&quot;DRGetInternalUsersforInspection&quot;:null,&quot;Summary&quot;:null,&quot;DRGetCurrentCaseIncidentForVisit&quot;:null,&quot;DRGetCurrentIAForVisit&quot;:null,&quot;DRGetBLA_IActionPlanTemplates&quot;:null,&quot;SetErrorsEndDatebeforeStart&quot;:null,&quot;DRCreateLocationAddressFromContextIdandVisit&quot;:null,&quot;DRGetCurrentBLAForVisit&quot;:null,&quot;NavigateAction1&quot;:null,&quot;CANCEL&quot;:null,&quot;SetValuesDates&quot;:null,&quot;VisitDetails&quot;:null,&quot;DRCreateVisitRequestFromOmniscript_Facility&quot;:null,&quot;NoTemplates&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;Summary&quot;:{},&quot;VisitDetails&quot;:{&quot;ReviewerType&quot;:null,&quot;PlannedVisitEnd&quot;:null,&quot;MessagingEndAfterStart&quot;:null,&quot;EndDateTimeValidation&quot;:null,&quot;PlannedVisitStart&quot;:null,&quot;ReviewerTypeIncident&quot;:null,&quot;OwnerReviewerId&quot;:null,&quot;OtherUser-Block&quot;:{&quot;OtherUser&quot;:null},&quot;VisitorId&quot;:null,&quot;OwnerReviewerName&quot;:null,&quot;BlkInspectionType-Block&quot;:{&quot;BlkInspectionType&quot;:null},&quot;VisitPriority&quot;:null,&quot;InspectionTypeId&quot;:null,&quot;VisitNotes&quot;:null},&quot;NoTemplates&quot;:{}}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>VisitDRInspectorTransform</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;Inspector&quot;: {
+    &quot;UserType&quot;: &quot;Standard&quot;,
+    &quot;UserId&quot;: &quot;005Kb00000BWhBkIAL&quot;,
+    &quot;Persona&quot;: &quot;Inspector&quot;,
+    &quot;UserName&quot;: &quot;Kaylee Kwan&quot;
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Transform</type>
+</DataMapperDefinition>

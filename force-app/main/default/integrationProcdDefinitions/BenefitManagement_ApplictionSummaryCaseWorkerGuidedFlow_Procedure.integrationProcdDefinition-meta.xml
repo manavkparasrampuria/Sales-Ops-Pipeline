@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IntegrationProcdDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <integProcdName>ApplictionSummaryCaseWorkerGuidedFlow</integProcdName>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>IncomeDetails</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues4&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;IncomeFrequency&quot;:&quot;=%GetPartyIncomes:partyIncome:incomeFrequency%&quot;,&quot;IncomeAmount&quot;:&quot;=%GetPartyIncomes:partyIncome:incomeAmount%&quot;,&quot;IncomeStartDate&quot;:&quot;=%GetPartyIncomes:partyIncome:startDate%&quot;,&quot;IncomeEndDate&quot;:&quot;=%GetPartyIncomes:partyIncome:endDate%&quot;,&quot;AppliedDate&quot;:&quot;=%GetPartyIncomes:iaAppliedDate%&quot;,&quot;LastModifiedDate&quot;:&quot;=%GetPartyIncomes:partyIncome:lastModifiedDate%&quot;}</elementValueMap>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>SetOldTotalHouseholdIncome</integProcdDefElmntName>
+        <isActive>false</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues11&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;OldTotalHouseholdIncome&quot;:&quot;=%FetchIAData:TotalIncome%&quot;}</elementValueMap>
+            <executionConditionalFormula>OldTotalHouseholdIncome == 0</executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>OldTotalHouseholdIncome</responseJSONNode>
+            <responseJSONPath>OldTotalHouseholdIncome</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>13.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>ResponseAction1</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <additionalOutput>{}</additionalOutput>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;responseDefaultData&quot;:{},&quot;show&quot;:null,&quot;label&quot;:&quot;ResponseAction1&quot;}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <responseFormat>JSON</responseFormat>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnFullDataJSON>false</returnFullDataJSON>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath>SetApplicationSummaryInformation:Output</sendJSONPath>
+            <useFormulas>true</useFormulas>
+            <vlcResponseHeaders>{}</vlcResponseHeaders>
+        </propertySetConfig>
+        <sequenceNumber>15.0</sequenceNumber>
+        <type>Response Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>LoopPartyIncome</integProcdDefElmntName>
+        <isActive>false</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;LoopBlock2&quot;}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <loopList>GetPartyIncomes:partyIncome</loopList>
+            <loopOutput>{}</loopOutput>
+        </propertySetConfig>
+        <sequenceNumber>12.0</sequenceNumber>
+        <type>Loop Block</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>SetApplicationSummaryInformation</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues1&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;Output&quot;:{&quot;TotalNewParticipants&quot;:&quot;%FetchIAData:TotalParticipant%&quot;,&quot;TotalIncome&quot;:&quot;%FetchIAData:TotalIncome%&quot;,&quot;NewTotalIncome&quot;:&quot;%NewTotalHouseholdIncome%&quot;,&quot;OldTotalIncome&quot;:&quot;%OldTotalHouseholdIncome%&quot;,&quot;ParentIAID&quot;:&quot;%IndividualApplicationAndParentData:ParentApplicationId%&quot;,&quot;ParentIAName&quot;:&quot;%IndividualApplicationAndParentData:ParentApplication:Name%&quot;,&quot;TotalExpense&quot;:&quot;%FetchIAData:TotalExpense%&quot;,&quot;EligibleBenefitAmount&quot;:&quot;%FetchIAData:EligibleBenefitAmount%&quot;,&quot;IsCOC&quot;:&quot;%Flow:isCOC%&quot;,&quot;IsCW2&quot;:&quot;%Flow:isCW2%&quot;,&quot;ExpressionSetId&quot;:&quot;%FetchIAData:ExpressionSetVersion:Id%&quot;,&quot;ExpenseDetailsString&quot;:&quot;%FetchIAData:ExpenseDetailsString%&quot;,&quot;FetchCurrentBenefits&quot;:&quot;%FetchIAData:FetchCurrentBenefits%&quot;,&quot;ChangeOfCircumstancesReportChangeIncome&quot;:&quot;%FetchIAData:ChangeOfCircumstancesReportChangeIncome%&quot;,&quot;ChangeOfCircumstancesReportChangeMember&quot;:&quot;%FetchIAData:ChangeOfCircumstancesReportChangeMember%&quot;,&quot;ThisIndividualApplication:IndividualApplicationId&quot;:&quot;%ContextId%&quot;,&quot;ParticipantDetails&quot;:&quot;%FetchIAData:ParticipantDetails%&quot;,&quot;ApplicationStatus&quot;:&quot;%IndividualApplicationAndParentData:Status%&quot;,&quot;FetchNotFilledFieldNames&quot;:&quot;%FetchNotFilledFieldNames%&quot;,&quot;FetchFilledFieldNames&quot;:&quot;%FetchFilledFieldNames%&quot;,&quot;incomeactiontype&quot;:&quot;%FetchIAData:incomeactiontype%&quot;,&quot;householdactiontype&quot;:&quot;%FetchIAData:householdactiontype%&quot;,&quot;isREC&quot;:&quot;%Flow:isREC%&quot;}}</elementValueMap>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>14.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>SetFlow</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues2&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;isCOC&quot;:&quot;=IF(%IndividualApplicationAndParentData:ApplicationType%=\&quot;ChangeOfCircumstance\&quot;, \&quot;true\&quot;, \&quot;false\&quot;)&quot;,&quot;isCW2&quot;:&quot;=IF(ISNOTBLANK(%IndividualApplicationAndParentData:ParentApplicationId%), \&quot;true\&quot;, \&quot;false\&quot;)&quot;,&quot;isREC&quot;:&quot;=IF(%IndividualApplicationAndParentData:ApplicationType%=\&quot;Recertification\&quot;, \&quot;true\&quot;, \&quot;false\&quot;)&quot;}</elementValueMap>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>Flow</responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>2.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>IfOldIncomeFrequencyWeekly</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopOldPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues3&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;MonthlyIncomeForWeeklyFrequency&quot;:&quot;=%IncomeDetails:IncomeAmount% * 4.3&quot;}</elementValueMap>
+            <executionConditionalFormula>(IncomeDetails:IncomeFrequency==&quot;Weekly&quot;) &amp;&amp; (((AssessmentPartyIncome:actionType == &quot;Update&quot;) || (AssessmentPartyIncome:actionType == &quot;Remove&quot;) || (AssessmentPartyIncome:actionType == &quot;None&quot;))==true)
+&amp;&amp; AssessmentPartyIncome:partyIncomeId != &quot;Add&quot; </executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula>AssessmentPartyIncome:partyIncomeId == &quot;Add&quot;</failureConditionalFormula>
+            <responseJSONNode>MemberMonthlyOldIncome</responseJSONNode>
+            <responseJSONPath>MonthlyIncomeForWeeklyFrequency</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>3.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>IfOldIncomeFrequencyYearly</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopOldPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues3&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;MonthlyIncomeForYearlyFrequency&quot;:&quot;=%IncomeDetails:IncomeAmount% * 0.083&quot;}</elementValueMap>
+            <executionConditionalFormula>(IncomeDetails:IncomeFrequency==&quot;Yearly&quot;) &amp;&amp; (((AssessmentPartyIncome:actionType == &quot;Update&quot;) || (AssessmentPartyIncome:actionType == &quot;Remove&quot;) || (AssessmentPartyIncome:actionType == &quot;None&quot;))==true)</executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>MemberMonthlyOldIncome</responseJSONNode>
+            <responseJSONPath>MonthlyIncomeForYearlyFrequency</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>5.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>PSSFetchIncome</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopOldPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <additionalInput>{&quot;partyIncomeId&quot;:&quot;=%AssessmentPartyIncome:partyIncomeId%&quot;}</additionalInput>
+            <additionalOutput>{}</additionalOutput>
+            <bundle>PSSFetchIncomeFromPartyIncomeId1</bundle>
+            <chainOnStep>false</chainOnStep>
+            <dataRaptorInputParameters>[]</dataRaptorInputParameters>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;DataMapperTurboAction2&quot;}</dynamicProperties>
+            <executionConditionalFormula>((AssessmentPartyIncome:actionType == &quot;Update&quot;) || (AssessmentPartyIncome:actionType == &quot;Remove&quot;) || (AssessmentPartyIncome:actionType == &quot;None&quot;))==true &amp;&amp; AssessmentPartyIncome:partyIncomeId != &quot;Add&quot; </executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <failureResponse>{}</failureResponse>
+            <ignoreCache>true</ignoreCache>
+            <responseJSONNode>IncomeDetails</responseJSONNode>
+            <responseJSONPath>Income|1</responseJSONPath>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <returnOnlyFailureResponse>false</returnOnlyFailureResponse>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath></sendJSONPath>
+            <sendOnlyAdditionalInput>true</sendOnlyAdditionalInput>
+            <useFormulas>true</useFormulas>
+        </propertySetConfig>
+        <sequenceNumber>2.0</sequenceNumber>
+        <type>DataRaptor Turbo Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>SetAssessmentPartyIncome</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopOldPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues12&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;partyIncomeId&quot;:&quot;=%FetchIAData:HouseholdIncomeDetails:PartyIncomeId%&quot;,&quot;actionType&quot;:&quot;=%FetchIAData:HouseholdIncomeDetails:ActionType%&quot;,&quot;income&quot;:&quot;=%FetchIAData:HouseholdIncomeDetails:IncomeCurrentMonth%&quot;}</elementValueMap>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>AssessmentPartyIncome</responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>IfNewIncomeFrequencyYearly</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopOldPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues3&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;MonthlyIncomeForWeeklyFrequency&quot;:&quot;=%IncomeDetails:IncomeAmount% * 0.083&quot;}</elementValueMap>
+            <executionConditionalFormula>IncomeDetails:IncomeFrequency==&quot;Yearly&quot; &amp;&amp; AssessmentPartyIncome:actionType == &quot;Remove&quot;</executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>MemberMonthlyIncome</responseJSONNode>
+            <responseJSONPath>MonthlyIncomeForYearlyFrequency</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>8.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>IfOldIncomeFrequencyMonthly</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopOldPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues3&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;MonthlyIncomeForMonthlyFrequency&quot;:&quot;=%IncomeDetails:IncomeAmount%&quot;}</elementValueMap>
+            <executionConditionalFormula>(IncomeDetails:IncomeFrequency==&quot;Monthly&quot;) &amp;&amp; (((AssessmentPartyIncome:actionType == &quot;Update&quot;) || (AssessmentPartyIncome:actionType == &quot;Remove&quot;) || (AssessmentPartyIncome:actionType == &quot;None&quot;))==true)
+&amp;&amp; AssessmentPartyIncome:partyIncomeId != &quot;Add&quot; </executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula>AssessmentPartyIncome:partyIncomeId == &quot;Add&quot;</failureConditionalFormula>
+            <responseJSONNode>MemberMonthlyOldIncome</responseJSONNode>
+            <responseJSONPath>MonthlyIncomeForMonthlyFrequency</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>4.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>AggregateOldTotalIncome</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopOldPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues5&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;TotalIncome&quot;:&quot;=%OldTotalHouseholdIncome% + %MemberMonthlyOldIncome%&quot;}</elementValueMap>
+            <executionConditionalFormula>((AssessmentPartyIncome:actionType == &quot;Update&quot;) || (AssessmentPartyIncome:actionType == &quot;Remove&quot;) || (AssessmentPartyIncome:actionType == &quot;None&quot;))==true &amp;&amp; AssessmentPartyIncome:partyIncomeId != &quot;Add&quot;</executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>OldTotalHouseholdIncome</responseJSONNode>
+            <responseJSONPath>TotalIncome</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>9.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>AggregateNewTotalIncome</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopOldPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues5&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;TotalIncome&quot;:&quot;=%NewTotalHouseholdIncome% + %AssessmentPartyIncome:income%&quot;}</elementValueMap>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>NewTotalHouseholdIncome</responseJSONNode>
+            <responseJSONPath>TotalIncome</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>10.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>IfNewIncomeFrequencyWeekly</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopOldPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues3&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;MonthlyIncomeForWeeklyFrequency&quot;:&quot;=%IncomeDetails:IncomeAmount% * 4.3&quot;}</elementValueMap>
+            <executionConditionalFormula>IncomeDetails:IncomeFrequency==&quot;Weekly&quot; &amp;&amp; AssessmentPartyIncome:actionType != &quot;Remove&quot;</executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>MemberMonthlyIncome</responseJSONNode>
+            <responseJSONPath>MonthlyIncomeForWeeklyFrequency</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>6.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>IfNewIncomeFrequencyMonthly</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>1.0</level>
+        <parentElementName>LoopOldPartyIncome</parentElementName>
+        <parentElementType>Loop Block</parentElementType>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues3&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;MonthlyIncomeForWeeklyFrequency&quot;:&quot;=%IncomeDetails:IncomeAmount%&quot;}</elementValueMap>
+            <executionConditionalFormula>IncomeDetails:IncomeFrequency==&quot;Monthly&quot; &amp;&amp; AssessmentPartyIncome:actionType == &quot;Remove&quot;</executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>MemberMonthlyIncome</responseJSONNode>
+            <responseJSONPath>MonthlyIncomeForMonthlyFrequency</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>7.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>FetchFieldNames</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <additionalInput>{}</additionalInput>
+            <additionalOutput>{}</additionalOutput>
+            <bundle>PSSDRFetchNotImportantFieldsName1</bundle>
+            <chainOnStep>false</chainOnStep>
+            <dataRaptorInputParameters>[{&quot;inputParam&quot;:&quot;id&quot;,&quot;element&quot;:&quot;ContextId&quot;}]</dataRaptorInputParameters>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;DataMapperExtractAction2&quot;}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <failureResponse>{}</failureResponse>
+            <ignoreCache>false</ignoreCache>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <returnOnlyFailureResponse>false</returnOnlyFailureResponse>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath></sendJSONPath>
+            <sendOnlyAdditionalInput>false</sendOnlyAdditionalInput>
+            <useFormulas>true</useFormulas>
+        </propertySetConfig>
+        <sequenceNumber>8.0</sequenceNumber>
+        <type>DataRaptor Extract Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>FetchFilledFieldNames</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <additionalChainableResponse>{}</additionalChainableResponse>
+            <additionalInput>{}</additionalInput>
+            <additionalOutput>{}</additionalOutput>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;advancedMerge&quot;:false,&quot;advancedMergeMap&quot;:[],&quot;mergeFields&quot;:[],&quot;allowMergeNulls&quot;:true,&quot;hasPrimary&quot;:false,&quot;primaryListKey&quot;:&quot;&quot;,&quot;sortBy&quot;:[],&quot;sortInDescendingOrder&quot;:false,&quot;mergeListsOrder&quot;:[&quot;FetchFieldNames&quot;],&quot;filterListFormula&quot;:&quot;ResponseValue != \&quot;0\&quot; AND ResponseValue != \&quot;false\&quot;&quot;,&quot;dynamicOutputFields&quot;:&quot;&quot;,&quot;updateFieldValue&quot;:{},&quot;show&quot;:null,&quot;label&quot;:&quot;ListAction1&quot;}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <failureResponse>{}</failureResponse>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <returnOnlyFailureResponse>false</returnOnlyFailureResponse>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath></sendJSONPath>
+            <sendOnlyAdditionalInput>false</sendOnlyAdditionalInput>
+            <useFormulas>true</useFormulas>
+        </propertySetConfig>
+        <sequenceNumber>10.0</sequenceNumber>
+        <type>List Merge Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>FetchIAData</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <additionalInput>{}</additionalInput>
+            <additionalOutput>{}</additionalOutput>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <disableChainable>false</disableChainable>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;IntegrationProcedureAction1&quot;}</dynamicProperties>
+            <executionConditionalFormula>Flow:isCW2==false || Flow:isREC==true</executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <failureResponse>{}</failureResponse>
+            <integrationProcedureKey>BenefitManagement_FetchApplicationSummaryInformation</integrationProcedureKey>
+            <remoteOptions>{}</remoteOptions>
+            <responseJSONNode>FetchIAData</responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <returnOnlyFailureResponse>false</returnOnlyFailureResponse>
+            <sendJSONNode>ContextId</sendJSONNode>
+            <sendJSONPath>ContextId</sendJSONPath>
+            <sendOnlyAdditionalInput>false</sendOnlyAdditionalInput>
+            <useFormulas>true</useFormulas>
+        </propertySetConfig>
+        <sequenceNumber>3.0</sequenceNumber>
+        <type>Integration Procedure Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>FetchNotFilledFieldNames</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <additionalChainableResponse>{}</additionalChainableResponse>
+            <additionalInput>{}</additionalInput>
+            <additionalOutput>{}</additionalOutput>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;advancedMerge&quot;:false,&quot;advancedMergeMap&quot;:[],&quot;mergeFields&quot;:[],&quot;allowMergeNulls&quot;:true,&quot;hasPrimary&quot;:false,&quot;primaryListKey&quot;:&quot;&quot;,&quot;sortBy&quot;:[],&quot;sortInDescendingOrder&quot;:false,&quot;mergeListsOrder&quot;:[&quot;FetchFieldNames&quot;],&quot;filterListFormula&quot;:&quot;ResponseValue == \&quot;0\&quot; OR ResponseValue == \&quot;false\&quot;&quot;,&quot;dynamicOutputFields&quot;:&quot;&quot;,&quot;updateFieldValue&quot;:{},&quot;show&quot;:null,&quot;label&quot;:&quot;ListAction1&quot;}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <failureResponse>{}</failureResponse>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <returnOnlyFailureResponse>false</returnOnlyFailureResponse>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath></sendJSONPath>
+            <sendOnlyAdditionalInput>false</sendOnlyAdditionalInput>
+            <useFormulas>true</useFormulas>
+        </propertySetConfig>
+        <sequenceNumber>9.0</sequenceNumber>
+        <type>List Merge Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>FetchParentIAData</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <additionalInput>{}</additionalInput>
+            <additionalOutput>{}</additionalOutput>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <disableChainable>false</disableChainable>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;IntegrationProcedureAction1&quot;}</dynamicProperties>
+            <executionConditionalFormula>Flow:isCW2==true || Flow:isREC==false</executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <failureResponse>{}</failureResponse>
+            <integrationProcedureKey>BenefitManagement_FetchApplicationSummaryInformation</integrationProcedureKey>
+            <remoteOptions>{}</remoteOptions>
+            <responseJSONNode>FetchIAData</responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <returnOnlyFailureResponse>false</returnOnlyFailureResponse>
+            <sendJSONNode>ContextId</sendJSONNode>
+            <sendJSONPath>IndividualApplicationAndParentData:ParentApplicationId</sendJSONPath>
+            <sendOnlyAdditionalInput>false</sendOnlyAdditionalInput>
+            <useFormulas>true</useFormulas>
+        </propertySetConfig>
+        <sequenceNumber>4.0</sequenceNumber>
+        <type>Integration Procedure Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>GetParentIA</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <additionalInput>{}</additionalInput>
+            <additionalOutput>{}</additionalOutput>
+            <bundle>PSSGetParentIA1</bundle>
+            <chainOnStep>false</chainOnStep>
+            <dataRaptorInputParameters>[{&quot;inputParam&quot;:&quot;individualApplicationId&quot;,&quot;element&quot;:&quot;ContextId&quot;}]</dataRaptorInputParameters>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;DataMapperTurboAction1&quot;}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <failureResponse>{}</failureResponse>
+            <ignoreCache>false</ignoreCache>
+            <responseJSONNode>IndividualApplicationAndParentData</responseJSONNode>
+            <responseJSONPath>IndividualApplication</responseJSONPath>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <returnOnlyFailureResponse>false</returnOnlyFailureResponse>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath></sendJSONPath>
+            <sendOnlyAdditionalInput>false</sendOnlyAdditionalInput>
+            <useFormulas>true</useFormulas>
+        </propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>DataRaptor Turbo Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>GetPartyIncomes</integProcdDefElmntName>
+        <isActive>false</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <additionalInput>{}</additionalInput>
+            <additionalOutput>{}</additionalOutput>
+            <bundle>PSSFetchPartyIncome1</bundle>
+            <chainOnStep>false</chainOnStep>
+            <dataRaptorInputParameters>[{&quot;inputParam&quot;:&quot;individualApplicationId&quot;,&quot;element&quot;:&quot;ContextId&quot;}]</dataRaptorInputParameters>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;DataMapperExtractAction1&quot;}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <failureResponse>{}</failureResponse>
+            <ignoreCache>false</ignoreCache>
+            <responseJSONNode></responseJSONNode>
+            <responseJSONPath></responseJSONPath>
+            <returnOnlyAdditionalOutput>false</returnOnlyAdditionalOutput>
+            <returnOnlyFailureResponse>false</returnOnlyFailureResponse>
+            <sendJSONNode></sendJSONNode>
+            <sendJSONPath></sendJSONPath>
+            <sendOnlyAdditionalInput>false</sendOnlyAdditionalInput>
+            <useFormulas>true</useFormulas>
+        </propertySetConfig>
+        <sequenceNumber>11.0</sequenceNumber>
+        <type>DataRaptor Extract Action</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>LoopOldPartyIncome</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;LoopBlock2&quot;}</dynamicProperties>
+            <executionConditionalFormula></executionConditionalFormula>
+            <loopList>FetchIAData:HouseholdIncomeDetails</loopList>
+            <loopOutput>{}</loopOutput>
+        </propertySetConfig>
+        <sequenceNumber>7.0</sequenceNumber>
+        <type>Loop Block</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>InitNewTotalHouseholdIncome</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues6&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;NewHouseholdIncome&quot;:&quot;=0&quot;}</elementValueMap>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>NewTotalHouseholdIncome</responseJSONNode>
+            <responseJSONPath>NewHouseholdIncome</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>6.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcdDefElmnt>
+        <integProcdDefElmntName>InitOldTotalHouseholdIncome</integProcdDefElmntName>
+        <isActive>true</isActive>
+        <level>0.0</level>
+        <propertySetConfig>
+            <actionMessage></actionMessage>
+            <chainOnStep>false</chainOnStep>
+            <disOnTplt>false</disOnTplt>
+            <dynamicProperties>{&quot;show&quot;:null,&quot;label&quot;:&quot;SetValues6&quot;}</dynamicProperties>
+            <elementValueMap>{&quot;OldHouseholdIncome&quot;:&quot;=0&quot;}</elementValueMap>
+            <executionConditionalFormula></executionConditionalFormula>
+            <failOnStepError>true</failOnStepError>
+            <failureConditionalFormula></failureConditionalFormula>
+            <responseJSONNode>OldTotalHouseholdIncome</responseJSONNode>
+            <responseJSONPath>OldHouseholdIncome</responseJSONPath>
+        </propertySetConfig>
+        <sequenceNumber>5.0</sequenceNumber>
+        <type>Set Values</type>
+    </integrationProcdDefElmnt>
+    <integrationProcedureDefKey>BenefitManagement_ApplictionSummaryCaseWorkerGuidedFlow</integrationProcedureDefKey>
+    <integrationProcedureType>Integration Procedure</integrationProcedureType>
+    <isActive>true</isActive>
+    <isIntegProcdSignatureAvl>false</isIntegProcdSignatureAvl>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <masterLabel>BenefitManagement_ApplictionSummaryCaseWorkerGuidedFlow_Procedure</masterLabel>
+    <propertySetConfig>
+        <additionalChainableResponse>{}</additionalChainableResponse>
+        <chainableCpuLimit>2000</chainableCpuLimit>
+        <chainableQueriesLimit>50</chainableQueriesLimit>
+        <columnsPropertyMap>[]</columnsPropertyMap>
+        <description></description>
+        <dynamicProperties>{}</dynamicProperties>
+        <includeAllActionsInResponse>false</includeAllActionsInResponse>
+        <labelPlural></labelPlural>
+        <labelSingular></labelSingular>
+        <linkToExternalObject></linkToExternalObject>
+        <mockResponseMap>{}</mockResponseMap>
+        <nameColumn></nameColumn>
+        <queueableChainableCpuLimit>40000</queueableChainableCpuLimit>
+        <queueableChainableHeapSizeLimit>6</queueableChainableHeapSizeLimit>
+        <queueableChainableQueriesLimit>120</queueableChainableQueriesLimit>
+        <relationshipFieldsMap>[]</relationshipFieldsMap>
+        <rollbackOnError>false</rollbackOnError>
+        <trackingCustomData>{}</trackingCustomData>
+        <ttlMinutes>5</ttlMinutes>
+    </propertySetConfig>
+    <references>[{&quot;name&quot;:&quot;PSSDRFetchNotImportantFieldsName1&quot;,&quot;type&quot;:&quot;DataMapperDefinition&quot;},{&quot;name&quot;:&quot;PSSFetchIncomeFromPartyIncomeId1&quot;,&quot;type&quot;:&quot;DataMapperDefinition&quot;},{&quot;name&quot;:&quot;BenefitManagement_FetchApplicationSummaryInformation_Procedure&quot;,&quot;type&quot;:&quot;IntegrationProcdDefinition&quot;},{&quot;name&quot;:&quot;PSSFetchPartyIncome1&quot;,&quot;type&quot;:&quot;DataMapperDefinition&quot;},{&quot;name&quot;:&quot;PSSGetParentIA1&quot;,&quot;type&quot;:&quot;DataMapperDefinition&quot;}]</references>
+    <subType>ApplictionSummaryCaseWorkerGuidedFlow</subType>
+    <type>BenefitManagement</type>
+</IntegrationProcdDefinition>

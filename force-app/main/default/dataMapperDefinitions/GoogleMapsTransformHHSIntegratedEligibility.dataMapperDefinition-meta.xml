@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GoogleMapsTransformHHSIntegratedEligibility</dataMapperDefItemName>
+        <globalKey>GoogleMapsTransformHHSIntegratedEligibilityCustom0jI4S000000H5AjUAKItem4</globalKey>
+        <inputField>GoogleSearchResults:StreetAddress</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Street</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GoogleMapsTransformHHSIntegratedEligibility</dataMapperDefItemName>
+        <globalKey>GoogleMapsTransformHHSIntegratedEligibilityCustom0jI4S000000H5AjUAKItem7</globalKey>
+        <inputField>GoogleSearchResults:County</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>OwnerCounty</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GoogleMapsTransformHHSIntegratedEligibility</dataMapperDefItemName>
+        <globalKey>GoogleMapsTransformHHSIntegratedEligibilityCustom0jI4S000000H5AjUAKItem1</globalKey>
+        <inputField>GoogleSearchResults:Country</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Country</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GoogleMapsTransformHHSIntegratedEligibility</dataMapperDefItemName>
+        <globalKey>GoogleMapsTransformHHSIntegratedEligibilityCustom0jI4S000000H5AjUAKItem6</globalKey>
+        <inputField>GoogleSearchResults:City</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>City</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GoogleMapsTransformHHSIntegratedEligibility</dataMapperDefItemName>
+        <globalKey>GoogleMapsTransformHHSIntegratedEligibilityCustom0jI4S000000H5AjUAKItem5</globalKey>
+        <inputField>GoogleSearchResults:place_id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>place_id</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GoogleMapsTransformHHSIntegratedEligibility</dataMapperDefItemName>
+        <globalKey>GoogleMapsTransformHHSIntegratedEligibilityCustom0jI4S000000H5AjUAKItem3</globalKey>
+        <inputField>GoogleSearchResults:Description</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GoogleMapsTransformHHSIntegratedEligibility</dataMapperDefItemName>
+        <globalKey>GoogleMapsTransformHHSIntegratedEligibilityCustom0jI4S000000H5AjUAKItem2</globalKey>
+        <inputField>GoogleSearchResults:State</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>State</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>GoogleMapsTransformHHSIntegratedEligibility</dataMapperDefItemName>
+        <globalKey>GoogleMapsTransformHHSIntegratedEligibilityCustom0jI4S000000H5AjUAKItem0</globalKey>
+        <inputField>GoogleSearchResults:PostalCode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ZIPCode</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;GoogleSearchResults&quot;: [
+        {
+            &quot;place_id&quot;: &quot;EiY1NTkgUGV0ZXJzYnVyZyBSZCwgRXZhbnN2aWxsZSwgSU4sIFVTQSIxEi8KFAoSCf8G54rg1XGIEY1MEfnd1UyBEK8EKhQKEglnWzk9SihuiBH3nD0KRvdjSA&quot;,
+            &quot;County&quot;: &quot;Vanderburgh County&quot;,
+            &quot;City&quot;: &quot;Evansville&quot;,
+            &quot;Country&quot;: &quot;United States&quot;,
+            &quot;State&quot;: &quot;IN&quot;,
+            &quot;Description&quot;: &quot;559 Petersburg Rd, Evansville, IN 47711, USA&quot;,
+            &quot;StreetAddress&quot;: &quot;559 Petersburg Rd&quot;
+        },
+        {
+            &quot;place_id&quot;: &quot;EiI1NTkgUGV0ZXJzYnVyZyBSZCwgSGVicm9uLCBLWSwgVVNBIjESLwoUChIJaS2CNP7IQYgR3IMXnHYHlpIQrwQqFAoSCZ9Qp1HWz0GIESqxxQQwJBZI&quot;,
+            &quot;County&quot;: &quot;Boone County&quot;,
+            &quot;City&quot;: &quot;Hebron&quot;,
+            &quot;Country&quot;: &quot;United States&quot;,
+            &quot;State&quot;: &quot;KY&quot;,
+            &quot;Description&quot;: &quot;559 Petersburg Rd, Hebron, KY 41048, USA&quot;,
+            &quot;StreetAddress&quot;: &quot;559 Petersburg Rd&quot;
+        },
+        {
+            &quot;place_id&quot;: &quot;ChIJ4SZS9CJ8sYkR8GP9YcBO2Wk&quot;,
+            &quot;County&quot;: &quot;Powhatan County&quot;,
+            &quot;City&quot;: &quot;Powhatan&quot;,
+            &quot;Country&quot;: &quot;United States&quot;,
+            &quot;State&quot;: &quot;VA&quot;,
+            &quot;Description&quot;: &quot;559 Petersburg Rd, Powhatan, VA 23139, USA&quot;,
+            &quot;StreetAddress&quot;: &quot;559 Petersburg Rd&quot;
+        },
+        {
+            &quot;place_id&quot;: &quot;EiI1NTkgUGV0ZXJzYnVyZyBSZCwgTGl0aXR6LCBQQSwgVVNBIjESLwoUChIJJZjfo1IixokRfmhcxaQvANsQrwQqFAoSCbGcHS6rI8aJEU66g7SIYK8r&quot;,
+            &quot;County&quot;: &quot;Lancaster County&quot;,
+            &quot;City&quot;: &quot;Lititz&quot;,
+            &quot;Country&quot;: &quot;United States&quot;,
+            &quot;State&quot;: &quot;PA&quot;,
+            &quot;Description&quot;: &quot;559 Petersburg Rd, Lititz, PA 17543, USA&quot;,
+            &quot;StreetAddress&quot;: &quot;559 Petersburg Rd&quot;
+        },
+        {
+            &quot;place_id&quot;: &quot;EiQ1NTkgUGV0ZXJzYnVyZyBSZCwgQ2FybGlzbGUsIFBBLCBVU0EiMRIvChQKEgkL0Gz_J-LIiRFl8a7D0CnQQBCvBCoUChIJ8x2RCiziyIkRd7TN3DYl5RM&quot;,
+            &quot;County&quot;: &quot;Cumberland County&quot;,
+            &quot;City&quot;: &quot;Carlisle&quot;,
+            &quot;Country&quot;: &quot;United States&quot;,
+            &quot;State&quot;: &quot;PA&quot;,
+            &quot;Description&quot;: &quot;559 Petersburg Rd, Carlisle, PA 17015, USA&quot;,
+            &quot;StreetAddress&quot;: &quot;559 Petersburg Rd&quot;
+        }
+    ]
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>GoogleMapsTransformHHSIntegratedEligibility</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+    &quot;GoogleSearchResults&quot;: [
+        {
+            &quot;place_id&quot;: &quot;EiY1NTkgUGV0ZXJzYnVyZyBSZCwgRXZhbnN2aWxsZSwgSU4sIFVTQSIxEi8KFAoSCf8G54rg1XGIEY1MEfnd1UyBEK8EKhQKEglnWzk9SihuiBH3nD0KRvdjSA&quot;,
+            &quot;County&quot;: &quot;Vanderburgh County&quot;,
+            &quot;City&quot;: &quot;Evansville&quot;,
+            &quot;Country&quot;: &quot;United States&quot;,
+            &quot;State&quot;: &quot;IN&quot;,
+            &quot;Description&quot;: &quot;559 Petersburg Rd, Evansville, IN 47711, USA&quot;,
+            &quot;StreetAddress&quot;: &quot;559 Petersburg Rd&quot;
+        },
+        {
+            &quot;place_id&quot;: &quot;EiI1NTkgUGV0ZXJzYnVyZyBSZCwgSGVicm9uLCBLWSwgVVNBIjESLwoUChIJaS2CNP7IQYgR3IMXnHYHlpIQrwQqFAoSCZ9Qp1HWz0GIESqxxQQwJBZI&quot;,
+            &quot;County&quot;: &quot;Boone County&quot;,
+            &quot;City&quot;: &quot;Hebron&quot;,
+            &quot;Country&quot;: &quot;United States&quot;,
+            &quot;State&quot;: &quot;KY&quot;,
+            &quot;Description&quot;: &quot;559 Petersburg Rd, Hebron, KY 41048, USA&quot;,
+            &quot;StreetAddress&quot;: &quot;559 Petersburg Rd&quot;
+        },
+        {
+            &quot;place_id&quot;: &quot;ChIJ4SZS9CJ8sYkR8GP9YcBO2Wk&quot;,
+            &quot;County&quot;: &quot;Powhatan County&quot;,
+            &quot;City&quot;: &quot;Powhatan&quot;,
+            &quot;Country&quot;: &quot;United States&quot;,
+            &quot;State&quot;: &quot;VA&quot;,
+            &quot;Description&quot;: &quot;559 Petersburg Rd, Powhatan, VA 23139, USA&quot;,
+            &quot;StreetAddress&quot;: &quot;559 Petersburg Rd&quot;
+        },
+        {
+            &quot;place_id&quot;: &quot;EiI1NTkgUGV0ZXJzYnVyZyBSZCwgTGl0aXR6LCBQQSwgVVNBIjESLwoUChIJJZjfo1IixokRfmhcxaQvANsQrwQqFAoSCbGcHS6rI8aJEU66g7SIYK8r&quot;,
+            &quot;County&quot;: &quot;Lancaster County&quot;,
+            &quot;City&quot;: &quot;Lititz&quot;,
+            &quot;Country&quot;: &quot;United States&quot;,
+            &quot;State&quot;: &quot;PA&quot;,
+            &quot;Description&quot;: &quot;559 Petersburg Rd, Lititz, PA 17543, USA&quot;,
+            &quot;StreetAddress&quot;: &quot;559 Petersburg Rd&quot;
+        },
+        {
+            &quot;place_id&quot;: &quot;EiQ1NTkgUGV0ZXJzYnVyZyBSZCwgQ2FybGlzbGUsIFBBLCBVU0EiMRIvChQKEgkL0Gz_J-LIiRFl8a7D0CnQQBCvBCoUChIJ8x2RCiziyIkRd7TN3DYl5RM&quot;,
+            &quot;County&quot;: &quot;Cumberland County&quot;,
+            &quot;City&quot;: &quot;Carlisle&quot;,
+            &quot;Country&quot;: &quot;United States&quot;,
+            &quot;State&quot;: &quot;PA&quot;,
+            &quot;Description&quot;: &quot;559 Petersburg Rd, Carlisle, PA 17015, USA&quot;,
+            &quot;StreetAddress&quot;: &quot;559 Petersburg Rd&quot;
+        }
+    ]
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Transform</type>
+</DataMapperDefinition>

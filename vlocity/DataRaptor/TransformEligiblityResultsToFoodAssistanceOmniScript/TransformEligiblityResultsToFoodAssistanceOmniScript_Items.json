@@ -1,0 +1,48 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "TransformEligiblityResultsToFoodAssistanceOmniScript5014926267062496",
+        "InputFieldName": "output:calculationResults:EligibleForFoodAssistance",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "TransformEligiblityResultsToFoodAssistanceOmniScript",
+        "OmniDataTransformationId": {
+            "Name": "TransformEligiblityResultsToFoodAssistanceOmniScript",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TransformEligiblityResultsToFoodAssistanceOmniScript",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "EligibleForFoodAssistance",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "TransformEligiblityResultsToFoodAssistanceOmniScript8520708372086365",
+        "InputFieldName": "output:calculationResults:BenefitAmount",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "TransformEligiblityResultsToFoodAssistanceOmniScript",
+        "OmniDataTransformationId": {
+            "Name": "TransformEligiblityResultsToFoodAssistanceOmniScript",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TransformEligiblityResultsToFoodAssistanceOmniScript",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "FoodAssistanceBenefit",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

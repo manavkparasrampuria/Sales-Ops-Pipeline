@@ -1,0 +1,60 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8eb2cdc6-f9b4-465c-a59e-982fee763461",
+  "label" : "Search",
+  "regions" : [ {
+    "id" : "096a02c7-9f3d-4c5e-8812-adc2488d8768",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "scopes" : [ {
+          "isPublic" : false,
+          "name" : "BenefitAssignment"
+        }, {
+          "isPublic" : false,
+          "name" : "BenefitDisbursement"
+        }, {
+          "isPublic" : false,
+          "name" : "BusinessLicenseApplication"
+        }, {
+          "isPublic" : false,
+          "name" : "CarePlan"
+        }, {
+          "isPublic" : false,
+          "name" : "Case"
+        }, {
+          "isPublic" : true,
+          "name" : "FullFeed"
+        }, {
+          "isPublic" : false,
+          "name" : "IndividualApplication"
+        }, {
+          "isPublic" : true,
+          "name" : "Knowledge__kav"
+        } ],
+        "searchResultFiltering" : true,
+        "searchTerm" : "{!term}",
+        "showTopResults" : true
+      },
+      "componentName" : "forceCommunity:search",
+      "id" : "336986c2-d855-4e4b-9afb-55b7536a2b0d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "83a4d65c-ed7d-46c3-9aaf-156096338502",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "15a5ef91-3497-41a8-b930-038db78d38a1",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "global-search"
+}

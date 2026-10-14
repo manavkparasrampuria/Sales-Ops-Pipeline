@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Lookup to the legal entity for this revenue --></help>
+    <label>収益の法人</label>
+    <name>blng__RevenueLegalEntity__c</name>
+    <relationshipLabel>収益認識処理 (収益の法人)</relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,71 @@
+{
+    "AccountId": "0015e00000H0OrkAAF",
+    "AccountName": "Atlanta Community Food Bank Inc.",
+    "ContactId": "0035e000014DXt3AAG",
+    "ContactName": "Ellen Jackson",
+    "CurrentDay": "SUN",
+    "DRId_Address": "1305e0000011GZhAAM",
+    "DRId_Location": "1315e0000011RTaAAM",
+    "DRId_VolunteerSiteHours__c": "a1k5e000003DlGIAA0",
+    "DRId_VolunteerSite__c": "a1l5e000002Brj5AAC",
+    "Disclosure": {
+        "Disclosure1": true
+    },
+    "Order": 7,
+    "ParentLocationId": "1315e0000011RTaAAM",
+    "SiteAppointmentContactInfo__c": "John Smith 404-444-4321",
+    "SiteContactPhone__c": "(404)898-9822",
+    "SiteId": "a1l5e000002Brj5AAC",
+    "SiteInfo": {
+        "BlkFiling": {
+            "FedeFile__c": "Yes",
+            "StateeFile__c": "Yes"
+        },
+        "BlkQuestions": {
+            "SiteFormTerritoryOffice__c": "Yes",
+            "SitePrepareForeign__c": "No",
+            "SiteVoterReg__c": "Yes",
+            "SiteofferFinancialServices__c": "Yes"
+        },
+        "BlkSiteDetails": {
+            "BlkSiteContact": null,
+            "SiteApptOnly__c": "No",
+            "SiteMobileOnly__c": "No",
+            "SitePublic__c": "Yes"
+        },
+        "Block1": {
+            "BlkServiceSystems": {
+                "ServiceSystemSelectionOtherSelected": false,
+                "SiteOfferOtherServiceSystem__c": null,
+                "SiteOfferServiceSystems__c": "DocuSign;TaxSlayer Taxpayer Scanned Documents"
+            },
+            "Block2": {
+                "SiteOfferAFMType__c": "FSA Self-Prep Fusion"
+            },
+            "SiteOfferAFMReturns__c": "Yes",
+            "SiteOfferCAA__c": "Yes",
+            "SiteOfferPrepareLastYearReturns__c": "Yes"
+        },
+        "Languages__c": "English,Spanish",
+        "ProgramType__c": "VITA",
+        "SIDN__c": "S12344567",
+        "SiteAddress__c-Block": {
+            "SiteAddress__c": "3400 N Desert Dr, East Point, GA 30344, USA",
+            "SiteCity": "East Point",
+            "SiteState": "GA",
+            "SiteStreet": "3400 North Desert Drive",
+            "SiteZipcode": "30344"
+        },
+        "SiteName": "Financial Assistance Center 4"
+    },
+    "UserId": "0055e000007jps9AAA",
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jN5e0000010wX7EAI",
+    "timeStamp": "2023-06-30T15:38:22.780Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055e000007jps9AAA",
+    "userName": "kwinderlich@irs-tfa.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-240",
+    "userTimeZoneName": "America/New_York"
+}

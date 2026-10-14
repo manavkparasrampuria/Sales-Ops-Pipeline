@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2194842427567765393</globalKey>
+        <inputField>ApplicantInformation:DateOfBirth</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PurchaserDOB</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2196415498071970673</globalKey>
+        <inputField>FirearmsRegistration:BriefStatement</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FirearmLocation</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2192455174855033031</globalKey>
+        <inputField>ApplicantInformation:PlaceOfBirth</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PurchaserPlaceOfBirth</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD21910111756144812967</globalKey>
+        <inputField>ApplicantInformation:HomePhone</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>HomePhone</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2198020436789246419</globalKey>
+        <inputField>FirearmsRegistration:MakeOfWeapon</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>MakeOfWeapon</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2195079656419462353</globalKey>
+        <inputField>PDFCity</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PurchasherCity</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2195549043788231482</globalKey>
+        <inputField>PastAddress1</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>past address 1</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2193600771977157604</globalKey>
+        <inputField>PDFStreet</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PurchaserStreet</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD21939665427929843</globalKey>
+        <inputField>ApplicantInformation:WorkPhone</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BusinessPhone</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD21907311224546741046</globalKey>
+        <inputField>FirearmsRegistration:Caliber</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Caliber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:FirearmsRegistration:AddressHistory:AddressHistoryStreet &quot;,&quot; var:FirearmsRegistration:AddressHistory:AddressHistoryCity &quot;,&quot; var:FirearmsRegistration:AddressHistory:AddressHistoryState &quot;,&quot; var:FirearmsRegistration:AddressHistory:AddressHistoryZip &quot;/\/\/-/\/\/&quot; var:FirearmsRegistration:AddressHistory:AddressStart &quot;-&quot; var:FirearmsRegistration:AddressHistory:AddressEnd CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(FirearmsRegistration:AddressHistory:AddressHistoryStreet,&quot;,&quot;,FirearmsRegistration:AddressHistory:AddressHistoryCity,&quot;,&quot;,FirearmsRegistration:AddressHistory:AddressHistoryState,&quot;,&quot;,FirearmsRegistration:AddressHistory:AddressHistoryZip,&quot; - &quot;,FirearmsRegistration:AddressHistory:AddressStart,&quot;-&quot;,FirearmsRegistration:AddressHistory:AddressEnd)</formulaExpression>
+        <formulaResultPath>PastAddress1</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>LPIPopulateDCMPD2197907225274804934</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2192239984096114458</globalKey>
+        <inputField>PDFPostalCode</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PurchaserZip</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD21906732995840940803</globalKey>
+        <inputField>FormulaSerialNumber</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SerialNumber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>&quot;29392939-2939291&quot;</formulaConverted>
+        <formulaExpression>&quot;29392939-2939291&quot;</formulaExpression>
+        <formulaResultPath>FormulaSerialNumber</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>LPIPopulateDCMPD2197048233443660956</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD21948770174034266645</globalKey>
+        <inputField>FirearmsRegistration:ManufacturerIdNo</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ManufacturerIdNo</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD21909994765634125113</globalKey>
+        <inputField>PurchaserFullName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PurchaserName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD21906712040922246043</globalKey>
+        <inputField>FirearmsRegistration:Model</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Model</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD21946047347316165754</globalKey>
+        <inputField>FirearmsRegistration:SellerCity</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SellerCity</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2197651426071679341</globalKey>
+        <inputField>FirearmsRegistration:NoOfShots</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>NoOfShots</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2192928201868386633</globalKey>
+        <inputField>FirearmsRegistration:NoOfBarrels</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>NumberofBarrels</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2199247432438283012</globalKey>
+        <inputField>FirearmsRegistration:Finish</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Finish</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2192894930154053983</globalKey>
+        <inputField>FirearmsRegistration:IdentifyingMarks</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IdentifyingMarks</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2196973402337308319</globalKey>
+        <inputField>ApplicantInformation:OccupationNameOfBusiness</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PurchaserOccupation</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2195836123161297231</globalKey>
+        <inputField>FirearmsRegistration:TypeOfAction</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>TypeOfAction</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:ApplicantInformation:FirstName &quot;/\/\/&quot; var:ApplicantInformation:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(ApplicantInformation:FirstName,&quot; &quot;,ApplicantInformation:LastName)</formulaExpression>
+        <formulaResultPath>PurchaserFullName</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>LPIPopulateDCMPD2191869711479011853</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2197067897489470181</globalKey>
+        <inputField>FirearmsRegistration:SellerZipCode</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SellerZip</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2196751056356340377</globalKey>
+        <inputField>ApplicantInformation:EmailAddress</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PurchaserEmail</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD21943395553808989074</globalKey>
+        <inputField>FirearmsRegistration:SellerName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SellerName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2194890769213636079</globalKey>
+        <inputField>ApplicantInformation:Race</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PurchaserRace</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2199872627092935389</globalKey>
+        <inputField>FirearmsRegistration:BarrelLength</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BarrelLength</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2198782740994702132</globalKey>
+        <inputField>FirearmsRegistration:SellerStreetAddress</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SellerStreet</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIPopulateDCMPD219</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIPopulateDCMPD2194388259930199969</globalKey>
+        <inputField>ApplicantInformation:Sex</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PurchaserSex</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+  &quot;vlcTimeTracking&quot; : {
+    &quot;GeneratePD219&quot; : null,
+    &quot;NavigateAction1&quot; : null,
+    &quot;DRGetAppNumber&quot; : null,
+    &quot;Confirmation&quot; : null,
+    &quot;DRCreeateAppointmentEvent&quot; : null,
+    &quot;DRSaveFirearmApplication&quot; : null,
+    &quot;DRGetContactForFirarmUser&quot; : null,
+    &quot;SetUserId&quot; : null,
+    &quot;GetAppointmentSlots&quot; : null,
+    &quot;Appointment&quot; : null,
+    &quot;FeesPayments&quot; : null,
+    &quot;Attachments&quot; : null,
+    &quot;FirearmRegistration&quot; : null,
+    &quot;ApplicantAffirmation&quot; : null,
+    &quot;FirearmsRegistration&quot; : null,
+    &quot;Training&quot; : null,
+    &quot;StatementOfEligibility&quot; : null,
+    &quot;ApplicantInformation&quot; : null
+  },
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;userTimeZone&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;timeStamp&quot; : null,
+  &quot;ContextId&quot; : null,
+  &quot;Confirmation&quot; : { },
+  &quot;Appointment&quot; : {
+    &quot;AppointmentSlot&quot; : null
+  },
+  &quot;FeesPayments&quot; : {
+    &quot;PayNow&quot; : null,
+    &quot;CustomLWC1&quot; : null
+  },
+  &quot;Attachments&quot; : {
+    &quot;File1&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;size&quot; : null,
+      &quot;filename&quot; : null
+    } ],
+    &quot;File3&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;size&quot; : null,
+      &quot;filename&quot; : null
+    } ],
+    &quot;File2&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;size&quot; : null,
+      &quot;filename&quot; : null
+    } ]
+  },
+  &quot;FirearmRegistration&quot; : {
+    &quot;LicenseType&quot; : null
+  },
+  &quot;ApplicantAffirmation&quot; : {
+    &quot;CustomLWC2&quot; : null
+  },
+  &quot;FirearmsRegistration&quot; : {
+    &quot;AddressHistory&quot; : {
+      &quot;AddressStart&quot; : null,
+      &quot;EndDate&quot; : null,
+      &quot;AddressHistoryZip&quot; : null,
+      &quot;AddressHistoryState&quot; : null,
+      &quot;AddressHistoryCity&quot; : null,
+      &quot;AddressHistoryStreet&quot; : null
+    },
+    &quot;BriefStatement&quot; : null,
+    &quot;BarrelLength&quot; : null,
+    &quot;Caliber&quot; : null,
+    &quot;IdentifyingMarks&quot; : null,
+    &quot;Finish&quot; : null,
+    &quot;NoOfBarrels&quot; : null,
+    &quot;TypeOfAction&quot; : null,
+    &quot;NoOfShots&quot; : null,
+    &quot;ManufacturerIdNo&quot; : null,
+    &quot;SerialNumber&quot; : null,
+    &quot;Model&quot; : null,
+    &quot;MakeOfWeapon&quot; : null,
+    &quot;NewOrUsed&quot; : null,
+    &quot;SellerZipCode&quot; : null,
+    &quot;SellerState&quot; : null,
+    &quot;SellerCity&quot; : null,
+    &quot;SellerStreetAddress&quot; : null,
+    &quot;SellerName&quot; : null
+  },
+  &quot;Training&quot; : {
+    &quot;CompleteDCTraining&quot; : null,
+    &quot;IntendToCompleted45Days&quot; : null,
+    &quot;RequirementRequestingExemption&quot; : null,
+    &quot;RequestingExemption&quot; : null,
+    &quot;CompletedDCLawsTraining&quot; : null,
+    &quot;Completed2HoursRangeTraining&quot; : null,
+    &quot;Completed16HoursCertifiedInstructor&quot; : null
+  },
+  &quot;StatementOfEligibility&quot; : {
+    &quot;BonaFideAndConcealedAnotherState&quot; : null,
+    &quot;BonaFideBusiness&quot; : null,
+    &quot;BonaFideResidence&quot; : null,
+    &quot;SufferMentalIllness&quot; : null,
+    &quot;RegisterPistolConcurrently&quot; : null,
+    &quot;AlcoholicOrAddict&quot; : null,
+    &quot;CivilProtectionOrder&quot; : null,
+    &quot;TwoOrMoreDUIs&quot; : null,
+    &quot;LegallyBlind&quot; : null,
+    &quot;RenouncedCitizenship&quot; : null,
+    &quot;DishonorablyDischarged&quot; : null,
+    &quot;ProvidedAccurateAndTrue&quot; : null,
+    &quot;NegligentFirearm&quot; : null,
+    &quot;PhysicalDefect&quot; : null,
+    &quot;CommittedMentalHospital&quot; : null,
+    &quot;AquitedInsane&quot; : null,
+    &quot;ConvictedLast5YearsDrugs&quot; : null,
+    &quot;UnderIndictment&quot; : null,
+    &quot;ConvictedViolentCrime&quot; : null
+  },
+  &quot;ApplicantInformation&quot; : {
+    &quot;ApplicantAddress-Block&quot; : {
+      &quot;ApplicantAddress&quot; : null,
+      &quot;ZipCode&quot; : null,
+      &quot;State&quot; : null,
+      &quot;City&quot; : null,
+      &quot;StreetAddress&quot; : null
+    },
+    &quot;HairColor&quot; : null,
+    &quot;EyeColor&quot; : null,
+    &quot;Weight&quot; : null,
+    &quot;Height&quot; : null,
+    &quot;Race&quot; : null,
+    &quot;Sex&quot; : null,
+    &quot;DriversLicenseNumber&quot; : null,
+    &quot;SocialSecurityNumber&quot; : null,
+    &quot;PlaceOfBirth&quot; : null,
+    &quot;DateOfBirth&quot; : null,
+    &quot;EmailAddress&quot; : null,
+    &quot;WorkPhone&quot; : null,
+    &quot;HomePhone&quot; : null,
+    &quot;BusinessPostalCode&quot; : null,
+    &quot;BusinessState&quot; : null,
+    &quot;BusinessCity&quot; : null,
+    &quot;BusinessStreetAddress&quot; : null,
+    &quot;ApplyingAsABusinessOwner&quot; : null,
+    &quot;OccupationNameOfBusiness&quot; : null,
+    &quot;MiddleName&quot; : null,
+    &quot;FirstName&quot; : null,
+    &quot;LastName&quot; : null
+  }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>LPIPopulateDCMPD219</masterLabel>
+    <outputType>PDF</outputType>
+    <previewJsonData>{
+  &quot;vlcTimeTracking&quot; : {
+    &quot;GeneratePD219&quot; : null,
+    &quot;NavigateAction1&quot; : null,
+    &quot;DRGetAppNumber&quot; : null,
+    &quot;Confirmation&quot; : null,
+    &quot;DRCreeateAppointmentEvent&quot; : null,
+    &quot;DRSaveFirearmApplication&quot; : null,
+    &quot;DRGetContactForFirarmUser&quot; : null,
+    &quot;SetUserId&quot; : null,
+    &quot;GetAppointmentSlots&quot; : null,
+    &quot;Appointment&quot; : null,
+    &quot;FeesPayments&quot; : null,
+    &quot;Attachments&quot; : null,
+    &quot;FirearmRegistration&quot; : null,
+    &quot;ApplicantAffirmation&quot; : null,
+    &quot;FirearmsRegistration&quot; : null,
+    &quot;Training&quot; : null,
+    &quot;StatementOfEligibility&quot; : null,
+    &quot;ApplicantInformation&quot; : null
+  },
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;userTimeZone&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;timeStamp&quot; : null,
+  &quot;ContextId&quot; : null,
+  &quot;Confirmation&quot; : { },
+  &quot;Appointment&quot; : {
+    &quot;AppointmentSlot&quot; : null
+  },
+  &quot;FeesPayments&quot; : {
+    &quot;PayNow&quot; : null,
+    &quot;CustomLWC1&quot; : null
+  },
+  &quot;Attachments&quot; : {
+    &quot;File1&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;size&quot; : null,
+      &quot;filename&quot; : null
+    } ],
+    &quot;File3&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;size&quot; : null,
+      &quot;filename&quot; : null
+    } ],
+    &quot;File2&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;size&quot; : null,
+      &quot;filename&quot; : null
+    } ]
+  },
+  &quot;FirearmRegistration&quot; : {
+    &quot;LicenseType&quot; : null
+  },
+  &quot;ApplicantAffirmation&quot; : {
+    &quot;CustomLWC2&quot; : null
+  },
+  &quot;FirearmsRegistration&quot; : {
+    &quot;AddressHistory&quot; : {
+      &quot;AddressStart&quot; : null,
+      &quot;EndDate&quot; : null,
+      &quot;AddressHistoryZip&quot; : null,
+      &quot;AddressHistoryState&quot; : null,
+      &quot;AddressHistoryCity&quot; : null,
+      &quot;AddressHistoryStreet&quot; : null
+    },
+    &quot;BriefStatement&quot; : null,
+    &quot;BarrelLength&quot; : null,
+    &quot;Caliber&quot; : null,
+    &quot;IdentifyingMarks&quot; : null,
+    &quot;Finish&quot; : null,
+    &quot;NoOfBarrels&quot; : null,
+    &quot;TypeOfAction&quot; : null,
+    &quot;NoOfShots&quot; : null,
+    &quot;ManufacturerIdNo&quot; : null,
+    &quot;SerialNumber&quot; : null,
+    &quot;Model&quot; : null,
+    &quot;MakeOfWeapon&quot; : null,
+    &quot;NewOrUsed&quot; : null,
+    &quot;SellerZipCode&quot; : null,
+    &quot;SellerState&quot; : null,
+    &quot;SellerCity&quot; : null,
+    &quot;SellerStreetAddress&quot; : null,
+    &quot;SellerName&quot; : null
+  },
+  &quot;Training&quot; : {
+    &quot;CompleteDCTraining&quot; : null,
+    &quot;IntendToCompleted45Days&quot; : null,
+    &quot;RequirementRequestingExemption&quot; : null,
+    &quot;RequestingExemption&quot; : null,
+    &quot;CompletedDCLawsTraining&quot; : null,
+    &quot;Completed2HoursRangeTraining&quot; : null,
+    &quot;Completed16HoursCertifiedInstructor&quot; : null
+  },
+  &quot;StatementOfEligibility&quot; : {
+    &quot;BonaFideAndConcealedAnotherState&quot; : null,
+    &quot;BonaFideBusiness&quot; : null,
+    &quot;BonaFideResidence&quot; : null,
+    &quot;SufferMentalIllness&quot; : null,
+    &quot;RegisterPistolConcurrently&quot; : null,
+    &quot;AlcoholicOrAddict&quot; : null,
+    &quot;CivilProtectionOrder&quot; : null,
+    &quot;TwoOrMoreDUIs&quot; : null,
+    &quot;LegallyBlind&quot; : null,
+    &quot;RenouncedCitizenship&quot; : null,
+    &quot;DishonorablyDischarged&quot; : null,
+    &quot;ProvidedAccurateAndTrue&quot; : null,
+    &quot;NegligentFirearm&quot; : null,
+    &quot;PhysicalDefect&quot; : null,
+    &quot;CommittedMentalHospital&quot; : null,
+    &quot;AquitedInsane&quot; : null,
+    &quot;ConvictedLast5YearsDrugs&quot; : null,
+    &quot;UnderIndictment&quot; : null,
+    &quot;ConvictedViolentCrime&quot; : null
+  },
+  &quot;ApplicantInformation&quot; : {
+    &quot;ApplicantAddress-Block&quot; : {
+      &quot;ApplicantAddress&quot; : null,
+      &quot;ZipCode&quot; : null,
+      &quot;State&quot; : null,
+      &quot;City&quot; : null,
+      &quot;StreetAddress&quot; : null
+    },
+    &quot;HairColor&quot; : null,
+    &quot;EyeColor&quot; : null,
+    &quot;Weight&quot; : null,
+    &quot;Height&quot; : null,
+    &quot;Race&quot; : null,
+    &quot;Sex&quot; : null,
+    &quot;DriversLicenseNumber&quot; : null,
+    &quot;SocialSecurityNumber&quot; : null,
+    &quot;PlaceOfBirth&quot; : null,
+    &quot;DateOfBirth&quot; : null,
+    &quot;EmailAddress&quot; : null,
+    &quot;WorkPhone&quot; : null,
+    &quot;HomePhone&quot; : null,
+    &quot;BusinessPostalCode&quot; : null,
+    &quot;BusinessState&quot; : null,
+    &quot;BusinessCity&quot; : null,
+    &quot;BusinessStreetAddress&quot; : null,
+    &quot;ApplyingAsABusinessOwner&quot; : null,
+    &quot;OccupationNameOfBusiness&quot; : null,
+    &quot;MiddleName&quot; : null,
+    &quot;FirstName&quot; : null,
+    &quot;LastName&quot; : null
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <targetOutputFileName>DCMPD219</targetOutputFileName>
+    <type>Transform</type>
+</DataMapperDefinition>

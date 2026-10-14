@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRCreateCaseParticipantsForReferral</dataMapperDefItemName>
+        <globalKey>PSSDRCreateCaseParticipantsForReferral1874133879179125</globalKey>
+        <inputField>AddedParticipants:Status</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputObject>CaseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRCreateCaseParticipantsForReferral</dataMapperDefItemName>
+        <globalKey>PSSDRCreateCaseParticipantsForReferral6049196487131909</globalKey>
+        <inputField>DRId_Case</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CaseId</outputField>
+        <outputObject>CaseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRCreateCaseParticipantsForReferral</dataMapperDefItemName>
+        <globalKey>PSSDRCreateCaseParticipantsForReferral7690152875756191</globalKey>
+        <inputField>AddedParticipants:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ParticipantId</outputField>
+        <outputObject>CaseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRCreateCaseParticipantsForReferral</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSDRCreateCaseParticipantsForReferral5779599240855573</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>CaseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSDRCreateCaseParticipantsForReferral</dataMapperDefItemName>
+        <globalKey>PSSDRCreateCaseParticipantsForReferral6095345523213318</globalKey>
+        <inputField>AddedParticipants:Role</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Role</outputField>
+        <outputObject>CaseParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;AddedParticipants&quot;: [
+        {
+            &quot;Id&quot;: &quot;dafsd&quot;,
+            &quot;Role&quot;: &quot;&quot;,
+            &quot;Status&quot;: &quot;&quot;
+        }
+    ],
+    &quot;DRId_Case&quot;: &quot;CaseId&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSDRCreateCaseParticipantsForReferral</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;AddedParticipants&quot;: [
+    {
+      &quot;Id&quot;: &quot;001RO00000421HjYAI&quot;,
+      &quot;Role&quot;: &quot;Victim&quot;,
+      &quot;Status&quot;: &quot;Active&quot;
+    }
+  ],
+  &quot;DRId_Case&quot;: &quot;500RO000002KWDVYA4&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Load</type>
+</DataMapperDefinition>

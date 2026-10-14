@@ -1,0 +1,83 @@
+{
+    "AQ": [
+        {
+            "AQV": {
+                "AdditionalInformation": "MigrationTestA",
+                "DataType": "Text",
+                "IsOptionSourceResponseValue": false,
+                "Name": "MigrationTestA",
+                "QuestionText": "Related Question Test",
+                "Status": "Active",
+                "VersionNumber": 1
+            },
+            "DataType": "Text",
+            "DeveloperName": "MigrationTestA",
+            "Name": "MigrationTestA",
+            "QuestionCategory": "Demographic",
+            "QuestionText": "Related Question Test",
+            "UniqueIndex": "MigrationTestA"
+        },
+        {
+            "AQV": {
+                "AdditionalInformation": "MigrationTestB",
+                "DataType": "Text",
+                "Description": "Test",
+                "IsOptionSourceResponseValue": false,
+                "Name": "MigrationTestB",
+                "QuestionText": "Related to Migration Test A",
+                "Status": "Active",
+                "VersionNumber": 1
+            },
+            "DataType": "Text",
+            "Description": "Test",
+            "DeveloperName": "MigrationTestB",
+            "Name": "MigrationTestB",
+            "QuestionCategory": "Demographic",
+            "QuestionText": "Related to Migration Test A",
+            "RelatedQuestionDeveloperName": "MigrationTestA",
+            "UniqueIndex": "MigrationTestB"
+        },
+        {
+            "AQV": {
+                "AdditionalInformation": "MigrationTestC",
+                "DataType": "Radio",
+                "IsOptionSourceResponseValue": false,
+                "Name": "MigrationTestC",
+                "QuestionText": "Just random question",
+                "ResponseValues": "A\nB\nC",
+                "Status": "Active",
+                "VersionNumber": 1
+            },
+            "DataType": "Radio",
+            "DeveloperName": "MigrationTestC",
+            "Name": "MigrationTestC",
+            "QuestionCategory": "Demographic",
+            "QuestionText": "Just random question",
+            "UniqueIndex": "MigrationTestC"
+        }
+    ],
+    "OPAQ": [
+        {
+            "AssessmentQuestionVersionQuestionDeveloperName": "MigrationTestA",
+            "OmniProcessElementName": "MigrationTestA",
+            "OmniProcessSubType": "Migration2",
+            "OmniProcessType": "Test"
+        },
+        {
+            "AssessmentQuestionVersionQuestionDeveloperName": "MigrationTestB",
+            "OmniProcessElementName": "MigrationTestB",
+            "OmniProcessSubType": "Migration2",
+            "OmniProcessType": "Test"
+        },
+        {
+            "AssessmentQuestionVersionQuestionDeveloperName": "MigrationTestC",
+            "OmniProcessElementName": "MigrationTestC",
+            "OmniProcessSubType": "Migration2",
+            "OmniProcessType": "Test"
+        }
+    ],
+    "OS": {
+        "SubType": "Migration2",
+        "Type": "Test"
+    }
+}

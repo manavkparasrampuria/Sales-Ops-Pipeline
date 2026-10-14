@@ -2,13 +2,13 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Facturación</fullName>
+        <fullName>Billing</fullName>
         <default>false</default>
-        <label>Facturación</label>
+        <label>Billing</label>
     </standardValue>
     <standardValue>
-        <fullName>Envío</fullName>
+        <fullName>Shipping</fullName>
         <default>false</default>
-        <label>Envío</label>
+        <label>Shipping</label>
     </standardValue>
 </StandardValueSet>

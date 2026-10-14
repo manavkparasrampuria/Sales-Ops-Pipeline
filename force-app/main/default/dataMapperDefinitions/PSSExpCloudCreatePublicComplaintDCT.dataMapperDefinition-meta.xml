@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem14</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:Reporter:Email</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Email</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem13</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:Reporter:LastName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LastName</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem8</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:IncidentDetails:IncidentLocation</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>BusinessAddress</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem7</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:Reporter:ReporterCategory</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ReporterCategory</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem6</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:IncidentDetails:IncidentDate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IncidentDate</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem5</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:IncidentDetails:IncidentObservations</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Comments</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem12</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:Priority</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Priority</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem11</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:Reporter:Phone</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>MobileNumber</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem10</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:ComplaintDescription</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Subject</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem9</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:Reporter:ReporterAddress</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ReporterAddress</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem0</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:Reporter:ReporterOrganization</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ReporterOrganization</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem4</globalKey>
+        <inputField>NewComplaint:RequestReporterConfidentiality</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IsReporterConfidential</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem3</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:Reporter:FirstName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FirstName</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem2</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSExpCloudCreatePublicComplaintDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSExpCloudCreatePublicComplaintDCTCustom0jI4S000000D1axUACItem1</globalKey>
+        <inputField>NewComplaint:ComplaintDetails:IncidentDetails:IncidentParticipants</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Description</outputField>
+        <outputObject>PublicComplaint</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Creates public complaints.</description>
+    <expectedInputJson>{
+  &quot;vlcTimeTracking&quot; : {
+    &quot;createPublicComplaint&quot; : null,
+    &quot;setEmptyValues&quot; : null,
+    &quot;NewComplaint&quot; : null
+  },
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;userTimeZone&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;timeStamp&quot; : null,
+  &quot;ContextId&quot; : null,
+  &quot;NewComplaint&quot; : {
+    &quot;ComplaintDetails&quot; : {
+      &quot;Subject&quot; : null,
+      &quot;IncidentDetails&quot; : {
+        &quot;LocationOfIncident&quot; : null,
+        &quot;IncidentDate&quot; : null,
+        &quot;Description&quot; : null,
+        &quot;Comments&quot; : null
+      },
+      &quot;Priority&quot; : null,
+      &quot;Reporter&quot; : {
+        &quot;FirstName&quot; : null,
+        &quot;Email&quot; : null,
+        &quot;LastName&quot; : null,
+        &quot;ReporterOrganization&quot; : null,
+        &quot;Phone&quot; : null,
+        &quot;ReporterAddress&quot; : null,
+        &quot;ReporterCategory&quot; : null
+      },
+      &quot;Status&quot; : null
+    },
+    &quot;RequestConfidentiality&quot; : null
+  }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSExpCloudCreatePublicComplaintDCT</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;vlcTimeTracking&quot; : {
+    &quot;createPublicComplaint&quot; : null,
+    &quot;setEmptyValues&quot; : null,
+    &quot;NewComplaint&quot; : null
+  },
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;userTimeZone&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;timeStamp&quot; : null,
+  &quot;ContextId&quot; : null,
+  &quot;NewComplaint&quot; : {
+    &quot;ComplaintDetails&quot; : {
+      &quot;Subject&quot; : null,
+      &quot;IncidentDetails&quot; : {
+        &quot;LocationOfIncident&quot; : null,
+        &quot;IncidentDate&quot; : null,
+        &quot;Description&quot; : null,
+        &quot;Comments&quot; : null
+      },
+      &quot;Priority&quot; : null,
+      &quot;Reporter&quot; : {
+        &quot;FirstName&quot; : null,
+        &quot;Email&quot; : null,
+        &quot;LastName&quot; : null,
+        &quot;ReporterOrganization&quot; : null,
+        &quot;Phone&quot; : null,
+        &quot;ReporterAddress&quot; : null,
+        &quot;ReporterCategory&quot; : null
+      }
+    },
+    &quot;RequestConfidentiality&quot; : null
+  }
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

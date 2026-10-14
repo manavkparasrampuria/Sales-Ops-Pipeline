@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpdateBenefitAssignmentStatus</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSUpdateBenefitAssignmentStatusCustom6688</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>BenefitAssignment</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpdateBenefitAssignmentStatus</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpdateBenefitAssignmentStatusCustom9575</globalKey>
+        <inputField>BARecertificationStatus</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecertificationStatus</outputField>
+        <outputObject>BenefitAssignment</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpdateBenefitAssignmentStatus</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpdateBenefitAssignmentStatusCustom1493</globalKey>
+        <inputField>BenefitAssignmentId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>BenefitAssignment</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Updates the status of an individual application.</description>
+    <expectedInputJson>{
+  &quot;IndividualApplicationId&quot; : &quot;0iTxx0000000001EAA&quot;,
+  &quot;IndividualApplicationStatus&quot; : &quot;Rejected&quot;,
+  &quot;CaseId&quot; : &quot;500xx000000brYrAAI&quot;,
+  &quot;CaseStatus&quot; : &quot;Closed&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>true</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSUpdateBenefitAssignmentStatus</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;BenefitAssignmentId&quot; : &quot;0nDSB0000000FqH2AU&quot;,
+  &quot;BARecertificationStatus&quot; : &quot;InProgress&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

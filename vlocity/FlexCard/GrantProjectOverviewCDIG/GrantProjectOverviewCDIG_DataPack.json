@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "BAE",
+    "ClonedFromOmniUiCardKey": "CDBGProjectRequestOverview/BAE/2.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "recordId",
+                    "val": "13aKX000000fxg3YAA"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DRGetIndividualApplicationID",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "IndividualApplicationTaskId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "For the Application Framework View Flexcard",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "GrantProjectOverviewCDIG",
+    "Namespace": "",
+    "OmniUiCardKey": "GrantProjectOverviewCDIG/BAE/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "GrantProjectOverviewCDIG.json",
+    "SampleDataSourceResponse": "[{\"IDOApplication_Number__c\":\"Jennifer Creations - CDIG\",\"IndividualApplicationTaskIndividualApplicationId\":\"0iTKX000000TPMU2A4\",\"IndividualApplicationTaskApplicationStageDefinitionId\":\"13bKX000000k9fuYAA\",\"LastName\":\"Simmons\",\"Id\":\"0iTKX000000TPMU2A4\",\"ProjectType\":\"Integrated Community Project\",\"IndividualApplicationTaskName\":\"Project Overview\",\"FundingOp\":\"119KX000000GmaOYAS\",\"Date\":\"2024-07-01T13:45:42.000Z\",\"IndividualApplicationTaskStatus\":\"Completed\",\"InternalStatus\":\"In Review\",\"RequestedAmount\":34000,\"FirstName\":\"Jennifer\",\"ProjectAreaType\":\"Integrated Community Project\",\"Status\":\"Approved\",\"ProjectAreaDefinition\":\"Our Green Apartments Project is part of the larger Barstow Community Development in California. We have attached the project map with a detailed layout of out plan.\",\"IndividualApplicationTaskId\":\"13aKX000000fxg3YAA\",\"IDOProject_Description__c\":\"Both\",\"Name\":\"Jennifer's Custom Creations\",\"ContactId\":\"003KX000001XoErYAK\",\"Website\":\"https://jenniferscustoms.com\",\"ProjectName\":\"Green Apartments\",\"ApplyingOrganization\":\"001KX000002KYo8YAG\",\"Email\":\"jsimmons062021@gmail.com\",\"Category\":\"Grant Application\",\"IndividualApplicationTaskType\":\"Grantmaking\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "GrantProjectOverviewCDIG_BAE_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/GrantProjectOverviewCDIG"
+}

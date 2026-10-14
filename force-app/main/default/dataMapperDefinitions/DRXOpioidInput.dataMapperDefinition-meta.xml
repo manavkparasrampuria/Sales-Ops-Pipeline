@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom2814</globalKey>
+        <inputField>Step1:Patient_Gender</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:Gender</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom4504</globalKey>
+        <inputField>Step2:Personal_History_Group:Personal_History_Rx_drugs</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:Personal_History_Rx_drugs</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom9208</globalKey>
+        <inputField>Step2:Family_History_Group:Family_History_Rx_drugs</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:Family_History_Rx_drugs</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom1484</globalKey>
+        <inputField>Step2:Personal_History_Group:Personal_History_Alcohol</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:Personal_History_Alcohol</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom209</globalKey>
+        <inputField>Step2:Psychological_disease_Group:Psychological_disease_ADD_OCD_bipolar_schizophrenia</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:Psychological_disease_ADD_OCD_bipolar_schizophrenia</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom9745</globalKey>
+        <inputField>Step1:Age</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:patient_age</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom1325</globalKey>
+        <inputField>Step2:Psychological_disease_Group:Psychological_Disease_Depression</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:Psychological_Disease_Depression</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRXOpioidInputCustom2408</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom4077</globalKey>
+        <inputField>Step2:Personal_History_Group:Personal_History_Illegal_drugs</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:Personal_History_Illegal_drugs</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom3146</globalKey>
+        <inputField>Step2:Family_History_Group:Family_History_Alcohol</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:Family_History_Alcohol</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom1828</globalKey>
+        <inputField>Step2:History_of_preadolescent_sexual_abuse</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:History_of_preadolescent_sexual_abuse</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRXOpioidInput</dataMapperDefItemName>
+        <globalKey>DRXOpioidInputCustom728</globalKey>
+        <inputField>Step2:Family_History_Group:Family_History_Illegal_Drugs</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>input:Family_History_Illegal_Drugs</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;omniscriptId&quot;: &quot;0jN4S00000009ZLUAY&quot;,
+    &quot;language&quot;: &quot;English&quot;,
+    &quot;type&quot;: &quot;Risk&quot;,
+    &quot;runMode&quot;: &quot;preview&quot;,
+    &quot;sId&quot;: &quot;0jN4S00000009ZLUAY&quot;,
+    &quot;theme&quot;: &quot;lightning&quot;,
+    &quot;subType&quot;: &quot;Assessment&quot;,
+    &quot;timeStamp&quot;: &quot;2023-01-18T00:13:17.022Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;userTimeZone&quot;: &quot;-480&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;bryan.wise@gps.ido&quot;,
+    &quot;userId&quot;: &quot;0054S000000KExrQAG&quot;,
+    &quot;omniProcessId&quot;: &quot;0jN4S00000009ZLUAY&quot;,
+    &quot;Step1&quot;: {
+        &quot;Patient_Gender&quot;: &quot;Male&quot;,
+        &quot;Age&quot;: 16
+    },
+    &quot;Step2&quot;: {
+        &quot;Family_History_Group&quot;: {
+            &quot;Family_History_Alcohol&quot;: &quot;Yes&quot;,
+            &quot;Family_History_Illegal_Drugs&quot;: &quot;Yes&quot;,
+            &quot;Family_History_Rx_drugs&quot;: &quot;Yes&quot;
+        },
+        &quot;Personal_History_Group&quot;: {
+            &quot;Personal_History_Illegal_drugs&quot;: &quot;Yes&quot;,
+            &quot;Personal_History_Rx_drugs&quot;: &quot;Yes&quot;,
+            &quot;Personal_History_Alcohol&quot;: &quot;Yes&quot;
+        },
+        &quot;Psychological_disease_Group&quot;: {
+            &quot;Psychological_Disease_Depression&quot;: &quot;Yes&quot;,
+            &quot;Psychological_disease_ADD_OCD_bipolar_schizophrenia&quot;: &quot;Yes&quot;
+        },
+        &quot;History_of_preadolescent_sexual_abuse&quot;: &quot;Yes&quot;
+    }
+}</expectedInputJson>
+    <expectedOutputJson>{
+    &quot;input&quot;: {
+        &quot;Personal_History_Illegal_drugs&quot;: &quot;No&quot;,
+        &quot;Family_History_Alcohol&quot;: &quot;Yes&quot;,
+        &quot;Psychological_disease_ADD_OCD_bipolar_schizophrenia&quot;: &quot;Yes&quot;,
+        &quot;Family_History_Rx_drugs&quot;: &quot;No&quot;,
+        &quot;History_of_preadolescent_sexual_abuse&quot;: &quot;No&quot;,
+        &quot;Personal_History_Alcohol&quot;: &quot;No&quot;,
+        &quot;Family_History_Illegal_Drugs&quot;: &quot;Yes&quot;,
+        &quot;Psychological_Disease_Depression&quot;: &quot;No&quot;,
+        &quot;patient_age&quot;: &quot;15&quot;,
+        &quot;Gender&quot;: &quot;Female&quot;,
+        &quot;Personal_History_Rx_drugs&quot;: &quot;No&quot;
+    }
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRXOpioidInput</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+    &quot;omniscriptId&quot;: &quot;0jN4S00000009ZLUAY&quot;,
+    &quot;language&quot;: &quot;English&quot;,
+    &quot;type&quot;: &quot;Risk&quot;,
+    &quot;runMode&quot;: &quot;preview&quot;,
+    &quot;sId&quot;: &quot;0jN4S00000009ZLUAY&quot;,
+    &quot;theme&quot;: &quot;lightning&quot;,
+    &quot;subType&quot;: &quot;Assessment&quot;,
+    &quot;timeStamp&quot;: &quot;2023-01-18T00:13:17.022Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+    &quot;userTimeZone&quot;: &quot;-480&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;bryan.wise@gps.ido&quot;,
+    &quot;userId&quot;: &quot;0054S000000KExrQAG&quot;,
+    &quot;omniProcessId&quot;: &quot;0jN4S00000009ZLUAY&quot;,
+    &quot;Step1&quot;: {
+        &quot;Patient_Gender&quot;: &quot;Male&quot;,
+        &quot;Age&quot;: 16
+    },
+    &quot;Step2&quot;: {
+        &quot;Family_History_Group&quot;: {
+            &quot;Family_History_Alcohol&quot;: &quot;Yes&quot;,
+            &quot;Family_History_Illegal_Drugs&quot;: &quot;Yes&quot;,
+            &quot;Family_History_Rx_drugs&quot;: &quot;Yes&quot;
+        },
+        &quot;Personal_History_Group&quot;: {
+            &quot;Personal_History_Illegal_drugs&quot;: &quot;Yes&quot;,
+            &quot;Personal_History_Rx_drugs&quot;: &quot;Yes&quot;,
+            &quot;Personal_History_Alcohol&quot;: &quot;Yes&quot;
+        },
+        &quot;Psychological_disease_Group&quot;: {
+            &quot;Psychological_Disease_Depression&quot;: &quot;Yes&quot;,
+            &quot;Psychological_disease_ADD_OCD_bipolar_schizophrenia&quot;: &quot;Yes&quot;
+        },
+        &quot;History_of_preadolescent_sexual_abuse&quot;: &quot;Yes&quot;
+    }
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <type>Transform</type>
+</DataMapperDefinition>

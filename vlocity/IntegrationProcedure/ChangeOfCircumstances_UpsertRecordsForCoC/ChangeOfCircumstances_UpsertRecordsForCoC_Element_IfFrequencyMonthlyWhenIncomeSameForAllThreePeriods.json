@@ -1,0 +1,52 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "IfFrequencyMonthlyWhenIncomeSameForAllThreePeriods",
+    "OmniProcessId": {
+        "Name": "UpsertRecordsForCoC",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "IfSameHouseholdIncomeMember",
+        "OmniProcessId": {
+            "Name": "UpsertRecordsForCoC",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/IfSameHouseholdIncomeMember",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "IfSameHouseholdIncomeMember",
+    "ParentElementType": "Conditional Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "MonthlyIncomeData": {
+                "CalendarYear": "=TOSTRING(YEAR(TODAY()))",
+                "EndDate": "=ADDDAY('4000-12-30',1)",
+                "IncomeAmount": "%PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdIncomeDetails:IncomeCurrentMonth%",
+                "StartDate": "=ADDDAY(EOM(ADDMONTH(TODAY(),-2)),1)"
+            }
+        },
+        "executionConditionalFormula": "PSSCoCAssignGenericNamesToResponseNode:GenericData:HouseholdIncomeDetails:IncomeFrequency==\"Monthly\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues5",
+        "responseJSONNode": "IncomeData",
+        "responseJSONPath": "MonthlyIncomeData",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/IfFrequencyMonthlyWhenIncomeSameForAllThreePeriods"
+}

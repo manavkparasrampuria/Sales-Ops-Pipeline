@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR44717707319078737</globalKey>
+        <inputField>records:displaySequence</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:displaySequence</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR5978825360491644</globalKey>
+        <inputField>records:actions:setpricelist:rest:params</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:actions:setpricelist:rest:params</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR9780943179730746</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records</outputField>
+        <outputFieldDataType>List&lt;Map&gt;</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR1669105952208536</globalKey>
+        <inputField>records:actions:setpricelist:remote:params:methodName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:actions:setpricelist:remote:params:methodName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR3762351067291434</globalKey>
+        <inputField>records:actions:setpricelist:remote:params:inputFields:omnistudio__PriceListId__c</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:actions:setpricelist:remote:params:inputFields:omnistudio__PriceListId__c</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR7773465388874907</globalKey>
+        <inputField>records:actions:setpricelist:remote:params:cartId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:actions:setpricelist:remote:params:cartId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR8389737469325991</globalKey>
+        <inputField>records:Name</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:label</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR3962590352530586</globalKey>
+        <inputField>records:Name</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:Name</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR301174699111169</globalKey>
+        <inputField>records:Id</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:Id</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR8047043650820609</globalKey>
+        <inputField>records:Id</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:value</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR40474524230934317</globalKey>
+        <inputField>records:actions:setpricelist:rest:link</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:actions:setpricelist:rest:link</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR7774166512010996</globalKey>
+        <inputField>records:actions:setpricelist:rest:method</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:actions:setpricelist:rest:method</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetPriceListsDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetPriceListsDR4563231971523416</globalKey>
+        <inputField>records:actions:setpricelist:client:params</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>records:actions:setpricelist:client:params</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Transforms GetPriceLists Response JSON to add additional required values</description>
+    <expectedInputJson>{
+  &quot;records&quot; : [ {
+    &quot;Id&quot; : &quot;a3GRN0000000EI32AM&quot;,
+    &quot;Name&quot; : &quot;B2B Pricelist&quot;,
+    &quot;actions&quot; : {
+      &quot;setpricelist&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : {
+            &quot;cartId&quot; : &quot;801RN000000FcW9YAK&quot;,
+            &quot;inputFields&quot; : [ {
+              &quot;omnistudio__PriceListId__c&quot; : &quot;a3GRN0000000EI32AM&quot;
+            } ],
+            &quot;methodName&quot; : &quot;updateCarts&quot;
+          }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : null,
+          &quot;method&quot; : null,
+          &quot;params&quot; : { }
+        }
+      }
+    },
+    &quot;displaySequence&quot; : -1
+  } ]
+}</expectedInputJson>
+    <expectedOutputJson>{
+  &quot;records&quot; : [ {
+    &quot;Id&quot; : &quot;a3GRN0000000EI32AM&quot;,
+    &quot;Name&quot; : &quot;B2B Pricelist&quot;,
+    &quot;actions&quot; : {
+      &quot;setpricelist&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : {
+            &quot;cartId&quot; : &quot;801RN000000FcW9YAK&quot;,
+            &quot;inputFields&quot; : [ {
+              &quot;omnistudio__PriceListId__c&quot; : &quot;a3GRN0000000EI32AM&quot;
+            } ],
+            &quot;methodName&quot; : &quot;updateCarts&quot;
+          }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : null,
+          &quot;method&quot; : null,
+          &quot;params&quot; : { }
+        }
+      }
+    },
+    &quot;displaySequence&quot; : -1,
+    &quot;label&quot; : &quot;B2B Pricelist&quot;,
+    &quot;value&quot; : &quot;a3GRN0000000EI32AM&quot;
+  } ]
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>CPQGetPriceListsDR</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;records&quot; : [ {
+    &quot;Id&quot; : &quot;a3GRN0000000EI32AM&quot;,
+    &quot;Name&quot; : &quot;B2B Pricelist&quot;,
+    &quot;actions&quot; : {
+      &quot;setpricelist&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : {
+            &quot;cartId&quot; : &quot;801RN000000FcW9YAK&quot;,
+            &quot;inputFields&quot; : [ {
+              &quot;omnistudio__PriceListId__c&quot; : &quot;a3GRN0000000EI32AM&quot;
+            } ],
+            &quot;methodName&quot; : &quot;updateCarts&quot;
+          }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : null,
+          &quot;method&quot; : null,
+          &quot;params&quot; : { }
+        }
+      }
+    },
+    &quot;displaySequence&quot; : -1
+  }, {
+    &quot;Id&quot; : &quot;123&quot;,
+    &quot;Name&quot; : &quot;B2B&quot;,
+    &quot;actions&quot; : {
+      &quot;setpricelist&quot; : {
+        &quot;client&quot; : {
+          &quot;params&quot; : { }
+        },
+        &quot;remote&quot; : {
+          &quot;params&quot; : {
+            &quot;cartId&quot; : &quot;801RN000000FcW9YAK&quot;,
+            &quot;inputFields&quot; : [ {
+              &quot;omnistudio__PriceListId__c&quot; : &quot;a3GRN0000000EI32AM&quot;
+            } ],
+            &quot;methodName&quot; : &quot;updateCarts&quot;
+          }
+        },
+        &quot;rest&quot; : {
+          &quot;link&quot; : null,
+          &quot;method&quot; : null,
+          &quot;params&quot; : { }
+        }
+      }
+    },
+    &quot;displaySequence&quot; : -1
+  } ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+</DataMapperDefinition>

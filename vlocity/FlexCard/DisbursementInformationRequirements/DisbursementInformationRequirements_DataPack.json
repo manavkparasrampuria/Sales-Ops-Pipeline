@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Nico",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 27,
+                    "name": "Parent.Id",
+                    "val": "125Wz000000AmrNIAS"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "GetFundingDisbursementRequirements",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "DisbursementId": "{Parent.Id}"
+                },
+                "jsonMap": "{\"Parent.Id\":\"{Parent.Id}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "DisbursementInformationRequirements",
+    "Namespace": "",
+    "OmniUiCardKey": "DisbursementInformationRequirements/Nico/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "DisbursementInformationRequirements.json",
+    "SampleDataSourceResponse": "[{\"Name\":\"Requirement 1\",\"Due Date\":\"2024-08-28T10:00:00.000Z\",\"ApprovalStatus\":\"In Review\",\"Description\":\"<p>Test Description</p>\",\"Status\":\"In Progress\"},{\"Name\":\"Requirement 2\",\"Status\":\"In Progress\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "DisbursementInformationRequirements_Nico_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/DisbursementInformationRequirements"
+}

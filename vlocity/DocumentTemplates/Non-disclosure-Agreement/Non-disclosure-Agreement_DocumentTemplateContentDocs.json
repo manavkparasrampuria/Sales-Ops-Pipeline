@@ -1,0 +1,35 @@
+[
+    {
+        "ContentDocumentId": {
+            "LatestPublishedVersion.ExternalDocumentInfo2": "1b6d7ab0-5b86-f536-0999-d222ff1684c6",
+            "LatestPublishedVersion.Title": "NDA.docx",
+            "LatestPublishedVersion.VersionNumber": "1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "ContentDocument/Generated-1802487516",
+            "VlocityRecordSObjectType": "ContentDocument"
+        },
+        "CurrencyIsoCode": "USD",
+        "DocumentTemplate.GlobalKey": "Non-disclosure Agreement/2/00D2K000000kXJ9/1707409228522",
+        "DocumentTemplateId": {
+            "GlobalKey": "Non-disclosure Agreement/2/00D2K000000kXJ9/1707409228522",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-2116762399",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "FileStageType": "Original",
+        "IsLocked": false,
+        "LatestContentVersionId": {
+            "ExternalDocumentInfo2": "1b6d7ab0-5b86-f536-0999-d222ff1684c6",
+            "Title": "NDA.docx",
+            "VersionNumber": "1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "VlocityRecordSourceKey:068Hu00000isT0zIAE",
+            "VlocityRecordSObjectType": "ContentVersion"
+        },
+        "MayEdit": true,
+        "Name": "NDA.docx",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateContentDoc",
+        "VlocityRecordSourceKey": "DocumentTemplateContentDoc/Generated-908182450"
+    }
+]

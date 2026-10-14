@@ -1,0 +1,38 @@
+{
+    "Step1": {
+        "Age": 16,
+        "Patient_Gender": "Male"
+    },
+    "Step2": {
+        "Family_History_Group": {
+            "Family_History_Alcohol": "Yes",
+            "Family_History_Illegal_Drugs": "Yes",
+            "Family_History_Rx_drugs": "Yes"
+        },
+        "History_of_preadolescent_sexual_abuse": "Yes",
+        "Personal_History_Group": {
+            "Personal_History_Alcohol": "Yes",
+            "Personal_History_Illegal_drugs": "Yes",
+            "Personal_History_Rx_drugs": "Yes"
+        },
+        "Psychological_disease_Group": {
+            "Psychological_Disease_Depression": "Yes",
+            "Psychological_disease_ADD_OCD_bipolar_schizophrenia": "Yes"
+        }
+    },
+    "language": "English",
+    "omniProcessId": "0jN4S00000009ZLUAY",
+    "omniscriptId": "0jN4S00000009ZLUAY",
+    "runMode": "preview",
+    "sId": "0jN4S00000009ZLUAY",
+    "subType": "Assessment",
+    "theme": "lightning",
+    "timeStamp": "2023-01-18T00:13:17.022Z",
+    "type": "Risk",
+    "userCurrencyCode": "USD",
+    "userId": "0054S000000KExrQAG",
+    "userName": "bryan.wise@gps.ido",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480",
+    "userTimeZoneName": "America/Los_Angeles"
+}

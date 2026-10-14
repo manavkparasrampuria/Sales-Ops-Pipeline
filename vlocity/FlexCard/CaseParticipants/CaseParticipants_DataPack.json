@@ -1,0 +1,52 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "SFDC",
+    "ClonedFromOmniUiCardKey": "ComplaintParticipants/SFDC/2.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "5004S000005lrtNQAQ"
+                },
+                {
+                    "id": 0,
+                    "name": "rtId",
+                    "val": "asdfa"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Query",
+            "value": {
+                "dsDelay": "",
+                "jsonMap": "{\"recordId\":\"{recordId}\",\"rtId\":\"{rtId}\"}",
+                "query": "SELECT Id, participantid, role, status, TYPEOF participant WHEN Account THEN name WHEN Contact THEN name END FROM CaseParticipant WHERE CaseId='{recordId}'",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "CaseParticipants",
+    "Namespace": "",
+    "OmniUiCardKey": "CaseParticipants/SFDC/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "CaseParticipants.json",
+    "SampleDataSourceResponse": "[{\"attributes\":{\"type\":\"CaseParticipant\",\"url\":\"/services/data/v59.0/sobjects/CaseParticipant/1ca4S000000ChIUQA0\"},\"Id\":\"1ca4S000000ChIUQA0\",\"ParticipantId\":\"0014S00000DblrZQAR\",\"Role\":\"Victim\",\"Status\":\"Active\",\"Participant\":{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/0014S00000DblrZQAR\"},\"Name\":\"Jerry Jones\",\"Id\":\"0014S00000DblrZQAR\"}},{\"attributes\":{\"type\":\"CaseParticipant\",\"url\":\"/services/data/v59.0/sobjects/CaseParticipant/1ca4S000000ChIVQA0\"},\"Id\":\"1ca4S000000ChIVQA0\",\"ParticipantId\":\"0014S00000Dblz3QAB\",\"Role\":\"Suspect\",\"Status\":\"Active\",\"Participant\":{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/0014S00000Dblz3QAB\"},\"Name\":\"Steve Marshall\",\"Id\":\"0014S00000Dblz3QAB\"}}]",
+    "StylingConfiguration": "",
+    "UniqueName": "CaseParticipants_SFDC_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/CaseParticipants"
+}

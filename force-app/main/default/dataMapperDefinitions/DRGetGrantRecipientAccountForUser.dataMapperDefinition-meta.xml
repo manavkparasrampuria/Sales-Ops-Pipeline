@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>987ba213-925e-4bf2-a3b4-0e0705f74ddb</globalKey>
+        <inputField>Account:DUNS_Number__c</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecipientInformation:RecipientDUNS</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>e5ef37b9-68b0-4fc4-aa76-29ad3e8ad917</globalKey>
+        <inputField>Account:BillingState</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecipientInformation:BlkRecipients:RecipientState</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>ec2f7d89-7655-433f-85f6-f496a632ae35</globalKey>
+        <inputField>Account:UEI__c</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecipientInformation:BlkRecipients:RecipientUEI</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>251e809a-b38a-4609-baa5-0f76d68935b9</globalKey>
+        <inputField>Account:Id</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AccountId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>2d02b808-4558-42ec-bcdf-45258eb2b253</globalKey>
+        <inputField>Account:BillingPostalCode</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecipientInformation:BlkRecipients:RecipientZip</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>f0fd6806-5eb1-4910-927b-374d69b6e1e9</globalKey>
+        <inputField>Account:BillingStreet</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecipientInformation:BlkRecipients:RecipientStreet1</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>5cac3396-bf4a-412c-8a2a-3685af9147ea</globalKey>
+        <inputField>Account:EIN__c</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecipientInformation:BlkRecipients:RecipientEIN</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>e762ae5c-134e-48a7-b81a-714496d899c8</globalKey>
+        <inputField>Contact:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>User:Id</filterValue>
+        <globalKey>f834024d-de41-4221-820d-a76bcc571ccd</globalKey>
+        <inputField>omnistudio__UserId__c</inputField>
+        <inputObject>Contact</inputObject>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Contact</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>8de48021-8cd7-4422-81f7-d422364972c1</globalKey>
+        <inputField>Account:BillingCity</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecipientInformation:BlkRecipients:RecpientCity</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>658d148e-24c0-4ef0-a598-45050148e5e6</globalKey>
+        <inputField>User:Phone</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>UserPhone</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>userId</filterValue>
+        <globalKey>5c62bfdd-88e3-4719-8079-7407026eb2ec</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>User</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>User</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>48648f31-42e5-4fa2-82c2-015cba3d04c1</globalKey>
+        <inputField>User:FirstName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>UserFirstName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>c892923b-6f88-434d-a0ab-4505b01a9607</globalKey>
+        <inputField>User:LastName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>UserLastName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>75ba99c1-452b-401a-8cd6-db8dded4a481</globalKey>
+        <inputField>Account:Name</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecipientInformation:BlkRecipients:RecipientName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>97e9e3a0-c260-4cd3-aea9-843c4b8f4c9c</globalKey>
+        <inputField>User:Title</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>UserTitle</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>0cd5d612-1034-40d1-9c0f-de67b220b078</globalKey>
+        <inputField>User:Email</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>UserEmail</outputField>
+        <outputFieldDataType>UserEmail</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>Contact:AccountId</filterValue>
+        <globalKey>5cddbb1f-0fca-439c-a3b2-d570063a6492</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>3.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Account</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRGetGrantRecipientAccountForUser</dataMapperDefItemName>
+        <globalKey>d3e185d8-db7a-4bf7-a802-3f17091094c7</globalKey>
+        <inputField>Account:BillingCountry</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>RecipientInformation:BlkRecipients:RecipientCountry-Block:RecipientCountry</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;timeStamp&quot;: &quot;2021-11-19T19:58:54.950Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZone&quot;: &quot;-480&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;kwinderlich@grants.gps&quot;,
+    &quot;userId&quot;: &quot;0055f000005Z6eOAAS&quot;,
+    &quot;RecipientInformation&quot;: {
+        &quot;BlkRecipients&quot;: {
+            &quot;RecipientName&quot;: &quot;Acme Corp&quot;,
+            &quot;RecipientStreet1&quot;: &quot;sdfsdf&quot;,
+            &quot;RecipientStreet2&quot;: &quot;sdfsdf&quot;,
+            &quot;RecpientCity&quot;: &quot;sdfsd&quot;,
+            &quot;RecipientState&quot;: &quot;MD&quot;,
+            &quot;RecipientZip&quot;: &quot;20934&quot;,
+            &quot;RecipientCountry-Block&quot;: {
+                &quot;RecipientCountry&quot;: &quot;United States of America&quot;,
+                &quot;CountryCode&quot;: &quot;US&quot;,
+                &quot;Country&quot;: &quot;United States of America&quot;
+            }
+        },
+        &quot;RecipientUEI&quot;: &quot;5454&quot;,
+        &quot;RecipientEIN&quot;: &quot;45454&quot;
+    },
+    &quot;ReportInfo&quot;: {
+        &quot;BlkSingleGrant&quot;: null,
+        &quot;BlkMultipleGrants&quot;: null
+    }
+}</expectedInputJson>
+    <expectedOutputJson>{
+    &quot;timeStamp&quot;: &quot;2021-11-19T19:58:54.950Z&quot;,
+    &quot;userProfile&quot;: &quot;System Administrator&quot;,
+    &quot;userTimeZone&quot;: &quot;-480&quot;,
+    &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+    &quot;userName&quot;: &quot;kwinderlich@grants.gps&quot;,
+    &quot;userId&quot;: &quot;0055f000005Z6eOAAS&quot;,
+    &quot;RecipientInformation&quot;: {
+        &quot;BlkRecipients&quot;: {
+            &quot;RecipientName&quot;: &quot;Acme Corp&quot;,
+            &quot;RecipientStreet1&quot;: &quot;sdfsdf&quot;,
+            &quot;RecipientStreet2&quot;: &quot;sdfsdf&quot;,
+            &quot;RecpientCity&quot;: &quot;sdfsd&quot;,
+            &quot;RecipientState&quot;: &quot;MD&quot;,
+            &quot;RecipientZip&quot;: &quot;20934&quot;,
+            &quot;RecipientCountry-Block&quot;: {
+                &quot;RecipientCountry&quot;: &quot;United States of America&quot;,
+                &quot;CountryCode&quot;: &quot;US&quot;,
+                &quot;Country&quot;: &quot;United States of America&quot;
+            }
+        },
+        &quot;RecipientUEI&quot;: &quot;5454&quot;,
+        &quot;RecipientEIN&quot;: &quot;45454&quot;
+    },
+    &quot;ReportInfo&quot;: {
+        &quot;BlkSingleGrant&quot;: null,
+        &quot;BlkMultipleGrants&quot;: null
+    }
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRGetGrantRecipientAccountForUser</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{&quot;userId&quot;:&quot;0054S000000e7KW&quot;,&quot;Contact&quot;:&quot;0034S000005LSL9&quot;}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Extract</type>
+</DataMapperDefinition>

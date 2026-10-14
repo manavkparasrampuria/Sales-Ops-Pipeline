@@ -1,0 +1,102 @@
+{
+    "Acknowledgment": {
+        "PSS_SI_v1_Date": "2024-01-31T18:30:00.000Z",
+        "PSS_SI_v1_Signature": "Test123"
+    },
+    "CertificateOfCapacity": {
+        "PSS_SI_v1_UploadDocument": null
+    },
+    "DRId_PreliminaryApplicationRef": "0goSG0000000pCDYAY",
+    "IncidentWorkersInjuryDetails": {
+        "PSS_SI_v1_DateTimeForInjury": "2024-01-30T06:30:00.000Z",
+        "PSS_SI_v1_EmployerResponsibleForWorkplace": "Test123",
+        "PSS_SI_v1_NatureOfInjury": null,
+        "PSS_SI_v1_ReportDateTimeForInjury": "2024-01-31T06:30:00.000Z"
+    },
+    "Review": {
+        "ReviewAcknowledgment": {
+            "PSS_SI_v1_ReviewDate": "  2024-01-31T18:30:00.000Z",
+            "PSS_SI_v1_ReviewSignature": "  Test123"
+        },
+        "ReviewCertificateOfCapacity": {
+            "PSS_SI_v1_ReviewExaminationDate": "  null",
+            "PSS_SI_v1_ReviewFromDate": "  null",
+            "PSS_SI_v1_ReviewInjuryType": "  null",
+            "PSS_SI_v1_ReviewIssuedDate": "  null",
+            "PSS_SI_v1_ReviewProviderContactNumber": "  null",
+            "PSS_SI_v1_ReviewProviderName": "  null",
+            "PSS_SI_v1_ReviewSignedDate": "  null",
+            "PSS_SI_v1_ReviewToDate": "  null",
+            "PSS_SI_v1_ReviewWorkerCapacity": "  null"
+        },
+        "ReviewIncidentAndWorkersInjuryDetails": {
+            "PSS_SI_v1_ReviewDateTimeForInjury": "  2024-1-2",
+            "PSS_SI_v1_ReviewEmployerResponsibleForWorkplace": "  Test123",
+            "PSS_SI_v1_ReviewHowYouInjured": "  null",
+            "PSS_SI_v1_ReviewMedicalTreatment": "  null",
+            "PSS_SI_v1_ReviewNatureOfInjury": "  null",
+            "PSS_SI_v1_ReviewReportDateTimeForInjury": "  2024-1-3",
+            "PSS_SI_v1_ReviewTakingTimeOff": "  null",
+            "PSS_SI_v1_ReviewWorkStoppedDateTime": "  null-null-null"
+        },
+        "ReviewWorkerEmploymentDetails": {
+            "PSS_SI_v1_ReviewAreYouStillEmployed": "  null",
+            "PSS_SI_v1_ReviewEmploymentStartDate": "  null",
+            "PSS_SI_v1_ReviewEmploymentType": "  null",
+            "PSS_SI_v1_ReviewIncome": 0,
+            "PSS_SI_v1_ReviewIncomeFrequency": "  null",
+            "PSS_SI_v1_ReviewNameOfEmployer": "  null",
+            "PSS_SI_v1_ReviewOccupation": "  null"
+        },
+        "ReviewWorkersPersonalDetails": {
+            "PSS_SI_v1_ReviewAddress": "  Test123Test123",
+            "PSS_SI_v1_ReviewCity": "  HYD",
+            "PSS_SI_v1_ReviewCountry": "  IN",
+            "PSS_SI_v1_ReviewDateOfBirth": "2024-01-30T18:30:00.000Z",
+            "PSS_SI_v1_ReviewEmail": "  Test@gmail.com",
+            "PSS_SI_v1_ReviewFirstName": "  Test123",
+            "PSS_SI_v1_ReviewGender": " Male",
+            "PSS_SI_v1_ReviewHomePhone": "6437657688",
+            "PSS_SI_v1_ReviewLastName": "  Test123",
+            "PSS_SI_v1_ReviewMobilePhone": " 7567568787",
+            "PSS_SI_v1_ReviewState": "  TN",
+            "PSS_SI_v1_ReviewZipCode": "  435358"
+        }
+    },
+    "WorkerPersonalDetails": {
+        "PSS_SI_v1_Address": "Test123Test123",
+        "PSS_SI_v1_CellPhoneNumber": "7567568787",
+        "PSS_SI_v1_City": "HYD",
+        "PSS_SI_v1_Country": "IN",
+        "PSS_SI_v1_DateOfBirth": "2024-01-31",
+        "PSS_SI_v1_Email": "Test@gmail.com",
+        "PSS_SI_v1_FirstName": "Test123",
+        "PSS_SI_v1_Gender": "Male",
+        "PSS_SI_v1_HomeTelephoneNumber": "6437657688",
+        "PSS_SI_v1_LastName": "Test123",
+        "PSS_SI_v1_State": "TN",
+        "PSS_SI_v1_ZipCode": "435358"
+    },
+    "WorkersEmploymentDetails": {
+        "PSS_SI_v1_UploadPayslips": null
+    },
+    "elementName": "CreateIndividualApplicationAndRelatedRecords",
+    "language": "English",
+    "localTimeZoneName": "Asia/Calcutta",
+    "omniProcessId": "0jNSG0000001oKX2AY",
+    "omniScriptId": "0jNSG0000001oKX2AY",
+    "omniscriptId": "0jNSG0000001oKX2AY",
+    "runMode": "preview",
+    "sId": "0jNSG0000001oKX2AY",
+    "sInstanceId": "0kTSG0000000ptl2AA",
+    "subType": "FileClaim",
+    "theme": "lightning",
+    "timeStamp": "2024-02-01T10:31:21.264Z",
+    "type": "SocialInsurance",
+    "userCurrencyCode": "USD",
+    "userId": "005SG000004OK05YAG",
+    "userName": "vikingsvjt1sdb6@salesforce.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480",
+    "userTimeZoneName": "America/Los_Angeles"
+}

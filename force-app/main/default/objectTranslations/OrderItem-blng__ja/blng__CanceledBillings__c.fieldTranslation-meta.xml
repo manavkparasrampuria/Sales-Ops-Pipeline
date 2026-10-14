@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total subtracted from the order product due to cancellation, swap, etc. --></help>
+    <label>キャンセル済み請求金額 (税抜)</label>
+    <name>blng__CanceledBillings__c</name>
+</CustomFieldTranslation>

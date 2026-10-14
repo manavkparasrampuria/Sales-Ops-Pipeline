@@ -1,0 +1,36 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "Description": "Shows the Apply button to a logged-in user. If the user hasn’t logged in, the Log In button is shown instead. If the Posting is related to an Application Framework Omniscript, the Apply button runs that Omniscript.",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "AFRecruitmentShowLogInAndApplyButtons",
+    "Namespace": "",
+    "OmniUiCardKey": "AFRecruitmentShowLogInAndApplyButtons/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "AFRecruitmentShowLogInAndApplyButtons.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "AFRecruitmentShowLogInAndApplyButtons_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/AFRecruitmentShowLogInAndApplyButtons"
+}

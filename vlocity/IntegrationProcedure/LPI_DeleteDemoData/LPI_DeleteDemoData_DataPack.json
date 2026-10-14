@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "MayEdit": true,
+    "Name": "LPIDeleteDemoData",
+    "OmniProcessElement": [
+        "LPI_DeleteDemoData_Element_DRGetDemoData.json",
+        "LPI_DeleteDemoData_Element_DeleteData.json",
+        "LPI_DeleteDemoData_Element_DeleteData2.json"
+    ],
+    "OmniProcessKey": "LPI_DeleteDemoData",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "LPI_DeleteDemoData_PropertySetConfig.json",
+    "SubType": "DeleteDemoData",
+    "Type": "LPI",
+    "UniqueName": "LPI_DeleteDemoData_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/LPI/DeleteDemoData/English"
+}

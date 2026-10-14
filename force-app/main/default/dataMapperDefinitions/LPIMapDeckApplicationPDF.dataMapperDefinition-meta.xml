@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF7634074372199269</globalKey>
+        <inputField>ContractorInformation:StateLicenseNumber</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>StateLicense</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF5249152420825229</globalKey>
+        <inputField>SaveJobPostalCode</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>JobZIP</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF13460985440340778</globalKey>
+        <inputField>ContractorInformation:ContractorPhone</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContractorPhone</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF5601561244832503</globalKey>
+        <inputField>GeneralInformation:LotNumber</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Lot</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF24862417540629855</globalKey>
+        <inputField>FeesAndPayment:PermitFee</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PermitFee</outputField>
+        <outputFieldDataType>Currency</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF26522103913765305</globalKey>
+        <inputField>OwnerInformation:PropertyOwnerPhone</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PropertyOwnerPhone</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF9058956329171015</globalKey>
+        <inputField>SaveJobAddress</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>JobAddress</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF6697098961925982</globalKey>
+        <inputField>GeneralInformation:ApplicationDate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ApplicationDate</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF23418695799834177</globalKey>
+        <inputField>OwnerInformation:PropertyOwnerName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PropertyOwnerName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF2576926228284153</globalKey>
+        <inputField>BuildingInformation:CostOfConstruction</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CostOfConstruction</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF534001865386317</globalKey>
+        <inputField>JobCounty</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>County</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF24484823435073833</globalKey>
+        <inputField>FeesAndPayment:TotalFee</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>TotalFees</outputField>
+        <outputFieldDataType>Currency</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF8756595557733677</globalKey>
+        <inputField>GeneralInformation:ParcelNumber</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Parcel</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF8867498947388917</globalKey>
+        <inputField>BuildingInformation:DescriptionOfWork</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>DescriptionOfWork</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF26825315644754144</globalKey>
+        <inputField>SaveContractorAddress</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContractorAddress</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF7939820426996633</globalKey>
+        <inputField>BuildingInformation:GrossSquareFootage</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>GrossSquareFootage</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF9060250369104941</globalKey>
+        <inputField>ContractorInformation:ContractorEmail</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContractorEmail</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF8288031335515202</globalKey>
+        <inputField>FeesAndPayment:OnePercentStateFee</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>OnePercentFee</outputField>
+        <outputFieldDataType>Currency</outputFieldDataType>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF024148943382120258</globalKey>
+        <inputField>ContractorInformation:Contractor</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Contractor</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>LPIMapDeckApplicationPDF</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>LPIMapDeckApplicationPDF3786613862064394</globalKey>
+        <inputField>SavePropertyOwnerAddress</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PropertyOwnerAddress</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+  &quot;vlcTimeTracking&quot; : {
+    &quot;DeckApplicationPDF&quot; : null,
+    &quot;FeesAndPayment&quot; : null,
+    &quot;SetUser&quot; : null,
+    &quot;DRGetContactDetails&quot; : null,
+    &quot;NavigateAction1&quot; : null,
+    &quot;DRSaveDeckApplication&quot; : null,
+    &quot;DRGetApplicationId&quot; : null,
+    &quot;Confirmation&quot; : null,
+    &quot;DocumentsAndSignature&quot; : null,
+    &quot;BuildingInformation&quot; : null,
+    &quot;ContractorInformation&quot; : null,
+    &quot;OwnerInformation&quot; : null,
+    &quot;GeneralInformation&quot; : null
+  },
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;userTimeZone&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;timeStamp&quot; : null,
+  &quot;ContextId&quot; : null,
+  &quot;FeesAndPayment&quot; : {
+    &quot;CustomLWC1&quot; : null,
+    &quot;PayNow&quot; : null,
+    &quot;TotalFee&quot; : null,
+    &quot;PermitFee&quot; : null,
+    &quot;OnePercentStateFee&quot; : null
+  },
+  &quot;Confirmation&quot; : { },
+  &quot;DocumentsAndSignature&quot; : {
+    &quot;SignatureLWC&quot; : null,
+    &quot;SignDate&quot; : null,
+    &quot;AssociatedFiles&quot; : [ {
+      &quot;data&quot; : null,
+      &quot;size&quot; : null,
+      &quot;filename&quot; : null
+    } ],
+    &quot;PrintedName&quot; : null
+  },
+  &quot;BuildingInformation&quot; : {
+    &quot;TypeOfWork&quot; : null,
+    &quot;GrossSquareFootage&quot; : null,
+    &quot;CostOfConstruction&quot; : null,
+    &quot;DescriptionOfWork&quot; : null
+  },
+  &quot;ContractorInformation&quot; : {
+    &quot;StateLicenseNumber&quot; : null,
+    &quot;ContractorAddress-Block&quot; : {
+      &quot;ContractorAddress&quot; : null,
+      &quot;ContractorZip&quot; : null,
+      &quot;ContractorCity&quot; : null,
+      &quot;ContractorState&quot; : null,
+      &quot;ContractorStreet&quot; : null
+    },
+    &quot;ContractorPhone&quot; : null,
+    &quot;ContractorEmail&quot; : null,
+    &quot;Contractor&quot; : null
+  },
+  &quot;OwnerInformation&quot; : {
+    &quot;PropertyOwnerEmail&quot; : null,
+    &quot;PropertyOwnerPhone&quot; : null,
+    &quot;PropertyOwnerName&quot; : null,
+    &quot;PropertyOwnerAddress-Block&quot; : {
+      &quot;PropertyOwnerAddress&quot; : null,
+      &quot;PropertyOwnerZip&quot; : null,
+      &quot;PropertyOwnerCity&quot; : null,
+      &quot;PropertyOwnerState&quot; : null,
+      &quot;PropertyOwnerStreet&quot; : null
+    }
+  },
+  &quot;GeneralInformation&quot; : {
+    &quot;FormulaCounty&quot; : null,
+    &quot;JobAddress-Block&quot; : {
+      &quot;JobAddress&quot; : null,
+      &quot;JobZip&quot; : null,
+      &quot;JobCity&quot; : null,
+      &quot;JobState&quot; : null,
+      &quot;JobStreet&quot; : null,
+      &quot;JobCounty&quot; : null
+    },
+    &quot;ParcelNumber&quot; : null,
+    &quot;LotNumber&quot; : null,
+    &quot;ApplicationDate&quot; : null
+  }
+}</expectedInputJson>
+    <expectedOutputJson>{
+  &quot;DATE&quot; : &quot;&quot;,
+  &quot;PARCEL&quot; : &quot;&quot;,
+  &quot;JOB ADDRESS&quot; : &quot;&quot;,
+  &quot;Lot&quot; : &quot;&quot;,
+  &quot;County&quot; : &quot;&quot;,
+  &quot;JobZIP&quot; : &quot;&quot;,
+  &quot;CONTRACTOR&quot; : &quot;&quot;,
+  &quot;Phone No&quot; : &quot;&quot;,
+  &quot;ContractorAddress&quot; : &quot;&quot;,
+  &quot;State License&quot; : &quot;&quot;,
+  &quot;ContractorEmail&quot; : &quot;&quot;,
+  &quot;PROPERTY OWNER&quot; : &quot;&quot;,
+  &quot;PropertyOwnerPhone&quot; : &quot;&quot;,
+  &quot;PropertyOwnerAddress&quot; : &quot;&quot;,
+  &quot;DescriptionOfWork&quot; : &quot;&quot;,
+  &quot;Cost of Construction&quot; : &quot;&quot;,
+  &quot;Gross Square Footage&quot; : &quot;&quot;,
+  &quot;Check Box1&quot; : &quot;&quot;,
+  &quot;Check Box2&quot; : &quot;&quot;,
+  &quot;Check Box3&quot; : &quot;&quot;,
+  &quot;Check Box4&quot; : &quot;&quot;,
+  &quot;Check Box7&quot; : &quot;&quot;,
+  &quot;Check Box8&quot; : &quot;&quot;,
+  &quot;Check Box9&quot; : &quot;&quot;,
+  &quot;Check Box5&quot; : &quot;&quot;,
+  &quot;Check Box6&quot; : &quot;&quot;,
+  &quot;PermitFee&quot; : &quot;&quot;,
+  &quot;OnePercentFee&quot; : &quot;&quot;,
+  &quot;TotalFees&quot; : &quot;&quot;
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>LPIMapDeckApplicationPDF</masterLabel>
+    <outputType>PDF</outputType>
+    <previewJsonData>{
+  &quot;timeStamp&quot; : &quot;2021-09-01T16:39:57.284Z&quot;,
+  &quot;userProfile&quot; : &quot;System Administrator&quot;,
+  &quot;userTimeZone&quot; : &quot;-420&quot;,
+  &quot;userCurrencyCode&quot; : &quot;USD&quot;,
+  &quot;userName&quot; : &quot;jblankenship@lpi2.0testing.demo&quot;,
+  &quot;userId&quot; : &quot;0055f000000yem1AAA&quot;,
+  &quot;SampleUser&quot; : &quot;0055f000000yemCAAQ&quot;,
+  &quot;PrepopulateAddress&quot; : &quot;7 Grandin Circle Rockville, MD  20851 USA&quot;,
+  &quot;AccountId&quot; : &quot;0015f0000042mmUAAQ&quot;,
+  &quot;PrepopulateName&quot; : &quot;Charles Green&quot;,
+  &quot;ContactId&quot; : &quot;0035f000003ABEEAA4&quot;,
+  &quot;PrepopulateEmail&quot; : &quot;cgreen@mailinator.com&quot;,
+  &quot;GeneralInformation&quot; : {
+    &quot;ApplicationDate&quot; : &quot;2021-09-01T04:00:00.000Z&quot;,
+    &quot;FormulaCounty&quot; : &quot;Montgomery County&quot;,
+    &quot;JobAddress-Block&quot; : {
+      &quot;JobAddress&quot; : &quot;7 Grandin Circle, Rockville, MD 20851, USA&quot;,
+      &quot;JobZip&quot; : &quot;20851&quot;,
+      &quot;JobCounty&quot; : &quot;Montgomery County&quot;,
+      &quot;JobState&quot; : &quot;MD&quot;,
+      &quot;JobCity&quot; : &quot;Rockville&quot;,
+      &quot;JobStreet&quot; : &quot;7 Grandin Circle&quot;
+    },
+    &quot;LotNumber&quot; : &quot;35&quot;,
+    &quot;ParcelNumber&quot; : &quot;060-6C&quot;
+  },
+  &quot;ContractorInformation&quot; : {
+    &quot;StateLicenseNumber&quot; : &quot;39-390392103&quot;,
+    &quot;ContractorEmail&quot; : &quot;steve.williams@mailinator.com&quot;,
+    &quot;ContractorPhone&quot; : &quot;3943929393&quot;,
+    &quot;Contractor&quot; : &quot;Steve Williams&quot;,
+    &quot;ContractorAddress-Block&quot; : {
+      &quot;ContractorAddress&quot; : &quot;1299 County Road 2575, Caney, KS, USA&quot;,
+      &quot;ContractorStreet&quot; : &quot;1299 County Road 2575&quot;,
+      &quot;ContractorCity&quot; : &quot;Caney&quot;,
+      &quot;ContractorState&quot; : &quot;KS&quot;,
+      &quot;ContractorZip&quot; : &quot;67333&quot;
+    }
+  },
+  &quot;OwnerInformation&quot; : {
+    &quot;PropertyOwnerEmail&quot; : &quot;cgreen@mailinator.com&quot;,
+    &quot;PropertyOwnerPhone&quot; : null,
+    &quot;PropertyOwnerAddress-Block&quot; : {
+      &quot;PropertyOwnerAddress&quot; : &quot;7 Grandin Circle, Rockville, MD 20851, USA&quot;,
+      &quot;PropertyOwnerZip&quot; : &quot;20851&quot;,
+      &quot;PropertyOwnerState&quot; : &quot;MD&quot;,
+      &quot;PropertyOwnerCity&quot; : &quot;Rockville&quot;,
+      &quot;PropertyOwnerStreet&quot; : &quot;7 Grandin Circle&quot;
+    },
+    &quot;PropertyOwnerName&quot; : &quot;Charles Green&quot;
+  },
+  &quot;BuildingInformation&quot; : {
+    &quot;GrossSquareFootage&quot; : 435,
+    &quot;CostOfConstruction&quot; : 4830,
+    &quot;DescriptionOfWork&quot; : &quot;Adding a deck to my house.  Deck material will be pressure treated lumber&quot;,
+    &quot;TypeOfWork&quot; : &quot;Deck&quot;
+  },
+  &quot;FeesAndPayment&quot; : {
+    &quot;PermitFee&quot; : 75,
+    &quot;OnePercentStateFee&quot; : 0.75,
+    &quot;TotalFee&quot; : 75.75,
+    &quot;PayNow&quot; : &quot;Yes&quot;
+  },
+  &quot;DRId_RegulatoryTrxnFee&quot; : &quot;0kx5f0000008OKBAA2&quot;,
+  &quot;DRId_BusinessLicenseApplication&quot; : &quot;0f05f000000kA2FAAU&quot;,
+  &quot;DRId_Case&quot; : &quot;5005f000001jc05AAA&quot;,
+  &quot;DeckApplicationPDF&quot; : &quot;00P5f000000paZLEAY&quot;,
+  &quot;CreatedApplicationId&quot; : &quot;BLA-0000000046&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <targetOutputFileName>DeckApplication</targetOutputFileName>
+    <type>Transform</type>
+</DataMapperDefinition>

@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetOutputResponse",
+    "OmniProcessId": {
+        "Name": "FetchPartyExpenses",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/FetchPartyExpenses/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Output": {
+                "ChildCareAmount": "%ChildCareAmount%",
+                "ChildSupportAmount": "%ChildSupportAmount%",
+                "GarnishmentsAmount": "%GarnishmentsAmount%",
+                "InsurancePremiumAmount": "%InsurancePremiumAmount%",
+                "MedicalExpensesAmount": "%MedicalExpensesAmount%",
+                "ReimbursementAmount": "%ReimbursementAmount%",
+                "RepresentativePayeeFees": "%RepresentativePayeeFees%",
+                "SpousalSupportAmount": "%SpousalSupportAmount%"
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues17",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/FetchPartyExpenses/Procedure/SetOutputResponse"
+}

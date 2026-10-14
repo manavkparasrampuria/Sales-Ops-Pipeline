@@ -1,0 +1,59 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "PSSExpCloudGetPublicComplaintNameDCTCustom0jI4S000000D1b2UACItem0",
+        "InputFieldName": "Name",
+        "InputObjectName": "PublicComplaint",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSExpCloudGetPublicComplaintNameDCT",
+        "OmniDataTransformationId": {
+            "Name": "PSSExpCloudGetPublicComplaintNameDCT",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSExpCloudGetPublicComplaintNameDCT",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "publicComplaint",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterDataType": "ID",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "publicComplaintId",
+        "GlobalKey": "PSSExpCloudGetPublicComplaintNameDCTCustom0jI4S000000D1b2UACItem1",
+        "InputFieldName": "Id",
+        "InputObjectName": "PublicComplaint",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "PSSExpCloudGetPublicComplaintNameDCT",
+        "OmniDataTransformationId": {
+            "Name": "PSSExpCloudGetPublicComplaintNameDCT",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSExpCloudGetPublicComplaintNameDCT",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "PublicComplaint",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

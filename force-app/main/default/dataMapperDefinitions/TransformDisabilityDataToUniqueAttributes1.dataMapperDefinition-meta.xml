@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformDisabilityDataToUniqueAttributes1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>TransformDisabilityDataToUniqueAttributesCustom9250</globalKey>
+        <inputField>PersonDisabilityList:Status</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AllPersonDisabilityList:DisabilityStatus</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformDisabilityDataToUniqueAttributes1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>TransformDisabilityDataToUniqueAttributesCustom2819</globalKey>
+        <inputField>PersonDisabilityList:IndividualId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AllPersonDisabilityList:IndividualId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformDisabilityDataToUniqueAttributes1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>TransformDisabilityDataToUniqueAttributesCustom1675</globalKey>
+        <inputField>PersonDisabilityList:Name</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AllPersonDisabilityList:DisabilityName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>TransformDisabilityDataToUniqueAttributes1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>TransformDisabilityDataToUniqueAttributesCustom6456</globalKey>
+        <inputField>PersonDisabilityList:Id</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AllPersonDisabilityList:DisabilityId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Transform Disability Data To Unique Attributes</description>
+    <expectedInputJson>{
+  &quot;PersonDisabilityList&quot; : [ {
+    &quot;Name&quot; : &quot;PD1&quot;,
+    &quot;IndividualId&quot; : &quot;001RM000005fKAyYAM&quot;,
+    &quot;Id&quot; : &quot;0xDRM0000004C9I2AU&quot;,
+    &quot;Status&quot; : &quot;Temporary&quot;
+  }, {
+    &quot;Name&quot; : &quot;PD2&quot;,
+    &quot;IndividualId&quot; : &quot;001RM000005fTryYAE&quot;,
+    &quot;Id&quot; : &quot;0xDRM0000004C9N2AU&quot;
+  } ]
+}</expectedInputJson>
+    <expectedOutputJson>{
+  &quot;PersonDisabilityList&quot; : [ {
+    &quot;DisabilityName&quot; : &quot;PD1&quot;,
+    &quot;IndividualId&quot; : &quot;001RM000005fKAyYAM&quot;,
+    &quot;DisabilityNameId&quot; : &quot;0xDRM0000004C9I2AU&quot;,
+    &quot;DisabilityNameStatus&quot; : &quot;Temporary&quot;
+  }, {
+    &quot;DisabilityName&quot; : &quot;PD2&quot;,
+    &quot;IndividualId&quot; : &quot;001RM000005fTryYAE&quot;,
+    &quot;DisabilityId&quot; : &quot;0xDRM0000004C9N2AU&quot;,
+    &quot;DisabilityStatus&quot; : &quot;Temporary&quot;
+  } ]
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>TransformDisabilityDataToUniqueAttributes1</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;PersonDisabilityList&quot; : [ {
+    &quot;Name&quot; : &quot;PD1&quot;,
+    &quot;IndividualId&quot; : &quot;001RM000005fKAyYAM&quot;,
+    &quot;Id&quot; : &quot;0xDRM0000004C9I2AU&quot;,
+    &quot;Status&quot; : &quot;Temporary&quot;
+  }, {
+    &quot;Name&quot; : &quot;PD2&quot;,
+    &quot;IndividualId&quot; : &quot;001RM000005fTryYAE&quot;,
+    &quot;Id&quot; : &quot;0xDRM0000004C9N2AU&quot;
+  } ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+</DataMapperDefinition>

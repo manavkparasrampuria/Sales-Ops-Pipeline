@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_BoatOwner_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Boat Owner",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_BoatOwner_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_BoatOwner_Element_TransformStep.json",
+        "GoogleMapsTransformations_BoatOwner_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_BoatOwner",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_BoatOwner_PropertySetConfig.json",
+    "SubType": "BoatOwner",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_BoatOwner_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/BoatOwner/Procedure"
+}

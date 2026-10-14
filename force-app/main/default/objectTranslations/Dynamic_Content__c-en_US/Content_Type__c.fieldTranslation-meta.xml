@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What type of content does this record represent?  Different types of content are used in different ways. --></help>
+    <label><!-- Content Type --></label>
+    <name>Content_Type__c</name>
+    <picklistValues>
+        <masterLabel>Button - Flow</masterLabel>
+        <translation><!-- Button - Flow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Button - Link</masterLabel>
+        <translation><!-- Button - Link --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Content Card</masterLabel>
+        <translation><!-- Content Card --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metric</masterLabel>
+        <translation><!-- Metric --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

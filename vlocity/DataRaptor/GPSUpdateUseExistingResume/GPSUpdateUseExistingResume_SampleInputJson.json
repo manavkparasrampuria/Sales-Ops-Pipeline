@@ -1,0 +1,128 @@
+{
+    "ConfirmApplicationForm": {
+        "RecruitmentConfirmApplicationSubmissionLWC": null
+    },
+    "ContextId": null,
+    "EducationDetails": {
+        "Education": {
+            "AccountId": null,
+            "Degree": null,
+            "EducationLevel": null,
+            "GraduationDate": null,
+            "Id": null,
+            "Institution": null,
+            "InstitutionCity": null,
+            "InstitutionCountry": null,
+            "InstitutionPostalCode": null,
+            "InstitutionState": null,
+            "InstitutionStreet": null,
+            "StartDate": null
+        }
+    },
+    "ExistingResume": [
+        {
+            "data": "069KX000000gKeGYAU",
+            "filename": "Paul Marshall-Resume.docx",
+            "size": null
+        }
+    ],
+    "JobOpeningDetails": {
+        "PositionTitle": null,
+        "RequisitionID": null
+    },
+    "PersonalDetails": {
+        "CurrentAddress": {
+            "CurrentCity": null,
+            "CurrentCountry": null,
+            "CurrentPostalCode": null,
+            "CurrentState": null,
+            "CurrentStreet": null
+        },
+        "DateOfBirth": null,
+        "Email": null,
+        "FirstName": null,
+        "Gender": null,
+        "IdentificationNumber": null,
+        "IdentifierType": null,
+        "LastName": null,
+        "PermanentAddress": {
+            "PermanentCity": null,
+            "PermanentCountry": null,
+            "PermanentPostalCode": null,
+            "PermanentState": null,
+            "PermanentStreet": null
+        },
+        "Phone": null
+    },
+    "UploadCertificates": {
+        "NewCertificateUpload": {
+            "Certificate": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "NCUDegree": null,
+            "NCUInstitution": null,
+            "NCUPersonEducationId": null
+        },
+        "UploadedCertificates": {
+            "CustomLWC1": null
+        }
+    },
+    "UseExistingResume": null,
+    "WorkExperienceDetails": {
+        "WorkExperience": {
+            "AnnualIncome": null,
+            "Description": null,
+            "Employer": null,
+            "EmployerCity": null,
+            "EmployerCountry": null,
+            "EmployerPhone": null,
+            "EmployerPostalCode": null,
+            "EmployerState": null,
+            "EmployerStreet": null,
+            "EndDate": null,
+            "Id": null,
+            "JobTitle": null,
+            "RelatedPersonId": null,
+            "StartDate": null,
+            "WeeklyHourCount": null
+        }
+    },
+    "applicationFormDetails": {
+        "applicationFormId": "001KX000003PWFOYA4"
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ConfirmApplicationForm": null,
+        "CreateApplicationFormAndRelatedRecords": null,
+        "CreatePreliminaryApplicationReference": null,
+        "EducationDetails": null,
+        "GetApplicantAccountID": null,
+        "GetContentDocumentDetails": null,
+        "GetDataToPrefillEducationDetails": null,
+        "GetDataToPrefillWorkExperienceDetails": null,
+        "GetLastResume": null,
+        "GetPositionTitleAndRequisitionID": null,
+        "JobOpeningDetails": null,
+        "MarkApplicationSubmitted": null,
+        "PersonalDetails": null,
+        "PrefillPersonalDetails": null,
+        "PreliminaryApplicationReferenceExists": null,
+        "ScoreApplication": null,
+        "TransformEducationDetailsForCertificateUpload": null,
+        "UploadCertificates": null,
+        "UploadResume": null,
+        "UpsertApplicantPersonalDetails": null,
+        "UseExistingResume": null,
+        "WorkExperienceDetails": null
+    }
+}

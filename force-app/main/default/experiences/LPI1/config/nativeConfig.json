@@ -1,0 +1,49 @@
+{
+  "id" : "1b209180-cc89-4376-9268-f8a3d2b63b64",
+  "mobilePublisherAppUpdateConfig" : {
+    "forceAppUpdate" : false,
+    "enableAppUpdate" : false,
+    "minVersion" : {
+      "ios" : {
+        "version" : "10.0",
+        "url" : "https://apps.apple.com/us"
+      },
+      "android" : {
+        "version" : "10.1",
+        "url" : "https://play.google.com/store"
+      }
+    }
+  },
+  "nativeMobileNavConfig" : {
+    "showBackButton" : true,
+    "showHamburgerMenuWithBackButton" : true
+  },
+  "nativeTabMenu" : {
+    "branding" : {
+      "iconTintColor" : "#FFFFFF",
+      "iconTintColorUnselected" : "#C9C5C5",
+      "barTintColor" : "#223648"
+    },
+    "menuItems" : [ {
+      "name" : "Home",
+      "targetUrl" : "/"
+    }, {
+      "name" : "Community",
+      "targetUrl" : "/community-forum"
+    }, {
+      "name" : "FAQs",
+      "targetUrl" : "/toparticles"
+    }, {
+      "name" : "License Holder Search",
+      "targetUrl" : "/search-license-permit-holder"
+    }, {
+      "name" : "File a Complaint",
+      "targetUrl" : "/file-a-complaint"
+    }, {
+      "name" : "My Dashboard",
+      "targetUrl" : "/my-dashboard"
+    } ]
+  },
+  "showHamburgerMenu" : true,
+  "type" : "nativeConfig"
+}

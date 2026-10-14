@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>WorkOrderEstimationDocumentDataTransformDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>WorkOrderEstimationDocumentDataTransformDCT11299529567452149</globalKey>
+        <inputField>CreatedDate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CreatedDate</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>WorkOrderEstimationDocumentDataTransformDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>WorkOrderEstimationDocumentDataTransformDCT6523365481206234</globalKey>
+        <inputField>LineItems:ProductName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LineItems:ProductName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>WorkOrderEstimationDocumentDataTransformDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>WorkOrderEstimationDocumentDataTransformDCT24771681957465264</globalKey>
+        <inputField>LineItems:Quantity</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LineItems:Quantity</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>WorkOrderEstimationDocumentDataTransformDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>WorkOrderEstimationDocumentDataTransformDCT2577611719803121</globalKey>
+        <inputField>CreatedBy</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CreatedBy</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>WorkOrderEstimationDocumentDataTransformDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>WorkOrderEstimationDocumentDataTransformDCT185757794001018</globalKey>
+        <inputField>GrandTotal</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>GrandTotal</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>WorkOrderEstimationDocumentDataTransformDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>WorkOrderEstimationDocumentDataTransformDCT12266140482094312</globalKey>
+        <inputField>QuoteNumber</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>QuoteNumber</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>WorkOrderEstimationDocumentDataTransformDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>WorkOrderEstimationDocumentDataTransformDCT3944983321210924</globalKey>
+        <inputField>LineItems:ListPrice</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LineItems:ListPrice</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>WorkOrderEstimationDocumentDataTransformDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>WorkOrderEstimationDocumentDataTransformDCT38238389970837816</globalKey>
+        <inputField>CreatedByEmail</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CreatedByEmail</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>WorkOrderEstimationDocumentDataTransformDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>WorkOrderEstimationDocumentDataTransformDCT7722809019797972</globalKey>
+        <inputField>QuoteName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>QuoteName</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>WorkOrderEstimationDocumentDataTransformDCT</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>WorkOrderEstimationDocumentDataTransformDCT8929814402034022</globalKey>
+        <inputField>LineItems:TotalPrice</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LineItems:TotalPrice</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Modified on 12-04-2024 by AAL</description>
+    <expectedInputJson>{
+  &quot;AccountName&quot; : &quot;Larry Baxter&quot;,
+  &quot;QuoteName&quot; : &quot;Baxter Proposal&quot;,
+  &quot;CreatedByEmail&quot; : &quot;sivaji.kandimalla@salesforce.com&quot;,
+  &quot;CreatedDate&quot; : &quot;09/16/2024&quot;,
+  &quot;GrandTotal&quot; : 6499,
+  &quot;ObjectId&quot; : &quot;0Q0KX0000004p5n0AA&quot;,
+  &quot;OwnerId&quot; : &quot;005KX000000Z7LDYA0&quot;,
+  &quot;ExpirationDate&quot; : &quot;2020-06-10&quot;,
+  &quot;CreatedBy&quot; : &quot;Admin User&quot;,
+  &quot;Products&quot; : [ {
+    &quot;Quantity&quot; : 3,
+    &quot;TotalPrice&quot; : 6000,
+    &quot;ProductName&quot; : &quot;Small Turbine&quot;
+  }, {
+    &quot;Quantity&quot; : 1,
+    &quot;TotalPrice&quot; : 499,
+    &quot;ProductName&quot; : &quot;Performance Optimization&quot;
+  } ],
+  &quot;OpportunityName&quot; : &quot;Larry Baxter - Add-On Business - 6K&quot;,
+  &quot;QuoteNumber&quot; : &quot;00000001&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>WorkOrderEstimationDocumentDataTransformDCT</masterLabel>
+    <outputType>Document Template</outputType>
+    <previewJsonData>{
+  &quot;AccountName&quot; : &quot;Larry Baxter&quot;,
+  &quot;QuoteName&quot; : &quot;Baxter Proposal&quot;,
+  &quot;CreatedDate&quot; : &quot;11/27/2024&quot;,
+  &quot;GrandTotal&quot; : 6499,
+  &quot;ObjectId&quot; : &quot;0Q0Hu000009ov4pKAA&quot;,
+  &quot;ExpirationDate&quot; : &quot;2020-06-10&quot;,
+  &quot;LineItems&quot; : [ {
+    &quot;Id&quot; : &quot;0QLHu00000CKaWvOAL&quot;,
+    &quot;Quantity&quot; : 3,
+    &quot;TotalPrice&quot; : 6000,
+    &quot;ProductName&quot; : &quot;Small Turbine&quot;
+  }, {
+    &quot;Id&quot; : &quot;0QLHu00000CKaWwOAL&quot;,
+    &quot;Quantity&quot; : 1,
+    &quot;TotalPrice&quot; : 499,
+    &quot;ProductName&quot; : &quot;Performance Optimization&quot;
+  } ],
+  &quot;OpportunityName&quot; : &quot;Larry Baxter - Add-On Business - 6K&quot;,
+  &quot;QuoteNumber&quot; : &quot;00000001&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <targetOutputFileName>WorkOrderEstimationProposalDCT(Version 1)</targetOutputFileName>
+    <type>Transform</type>
+</DataMapperDefinition>

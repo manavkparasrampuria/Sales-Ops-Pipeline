@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "BAE",
+    "ClonedFromOmniUiCardKey": "GrantProjectLocationCDIG/BAE/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "recordId",
+                    "val": "13aKX000000wkMVYAY"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DRGetOutcomeActivitiesfromIA",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "IndividualApplicationTaskId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "For the Application Framework View Flexcard",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "GrantOutcomeActivities",
+    "Namespace": "",
+    "OmniUiCardKey": "GrantOutcomeActivities/BAE/2.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "GrantOutcomeActivities.json",
+    "SampleDataSourceResponse": "[{\"Name\":\"Increase Public-Private Partnerships\",\"OutcomeName\":\"Increase Public-Private Partnerships\",\"ProgramName\":\"Sustainable Infrastructure Improvement Program\",\"OutcomeActivityType\":\"Program\"},{\"Name\":\"Reduction in Greenhouse Gas Emissions\",\"OutcomeName\":\"Reduction in Greenhouse Gas Emissions\",\"OutcomeActivityType\":\"Program\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "GrantOutcomeActivities_BAE_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/GrantOutcomeActivities"
+}

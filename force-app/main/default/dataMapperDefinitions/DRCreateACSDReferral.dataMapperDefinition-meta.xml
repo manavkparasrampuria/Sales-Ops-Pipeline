@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <globalKey>DRCreateACSDReferralCustom3774</globalKey>
+        <inputField>Demographics:Communication:LanguageSpoken</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ClientLanguage</outputField>
+        <outputObject>Referral</outputObject>
+        <valueMapping>{&quot;&quot;:&quot;&quot;}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <globalKey>DRCreateACSDReferralCustom3924</globalKey>
+        <inputField>ApplicantName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ClientName</outputField>
+        <outputObject>Referral</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <formulaConverted>| var:Demographics:FirstName &quot;/\/\/&quot; var:Demographics:LastName CONCAT</formulaConverted>
+        <formulaExpression>CONCAT(Demographics:FirstName,&quot; &quot;, Demographics:LastName)</formulaExpression>
+        <formulaResultPath>ApplicantName</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>DRCreateACSDReferral8022239878617334</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <defaultValue>Application</defaultValue>
+        <globalKey>DRCreateACSDReferralCustom5073</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Source</outputField>
+        <outputObject>Referral</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <globalKey>DRCreateACSDReferralCustom9348</globalKey>
+        <inputField>ApplicationDate</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ReferralDate</outputField>
+        <outputObject>Referral</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <globalKey>DRCreateACSDReferralCustom7217</globalKey>
+        <inputField>DRId_Case</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>CaseId</outputField>
+        <outputObject>Referral</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <defaultValue>Simmons Household</defaultValue>
+        <globalKey>DRCreateACSDReferralCustom3050</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Account</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ClientId</outputField>
+        <outputObject>Referral</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <defaultValue>Outbound</defaultValue>
+        <globalKey>DRCreateACSDReferralCustom902</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ReferralType</outputField>
+        <outputObject>Referral</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <defaultValue>Assistance for Children with Severe Disabilities (ACSD)</defaultValue>
+        <globalKey>DRCreateACSDReferralCustom1676</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>Program</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ProgramId</outputField>
+        <outputObject>Referral</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>DRCreateACSDReferralCustom7729</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Referral</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>DRCreateACSDReferral</dataMapperDefItemName>
+        <formulaConverted>| TODAY</formulaConverted>
+        <formulaExpression>TODAY()</formulaExpression>
+        <formulaResultPath>ApplicationDate</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>DRCreateACSDReferral7617995603212191</globalKey>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;timeStamp&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userTimeZone&quot;: null,
+    &quot;userCurrencyCode&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;Not Eligible&quot;: null,
+    &quot;Demographics&quot;: {
+        &quot;NeedAssistance&quot;: null,
+        &quot;Authorized assistant&quot;: null,
+        &quot;HouseholdName&quot;: null,
+        &quot;PrimaryCaregiverBlock&quot;: null,
+        &quot;SpousalInfoBlock&quot;: null,
+        &quot;Communication&quot;: {
+            &quot;RequiresInterpreter&quot;: null,
+            &quot;OtherLang&quot;: null,
+            &quot;LanguageSpoken&quot;: null
+        },
+        &quot;DOB&quot;: null,
+        &quot;Gender&quot;: null,
+        &quot;MaritalStatus&quot;: null,
+        &quot;SSN&quot;: null,
+        &quot;Phone&quot;: null,
+        &quot;Email&quot;: null,
+        &quot;HomeAddress-Block&quot;: {
+            &quot;Street&quot;: null,
+            &quot;City&quot;: null,
+            &quot;State&quot;: null,
+            &quot;Country&quot;: null,
+            &quot;ZIPCode&quot;: null,
+            &quot;HomeAddress&quot;: null
+        },
+        &quot;FamilyCaregiver&quot;: null,
+        &quot;FirstName&quot;: null,
+        &quot;MiddleName&quot;: null,
+        &quot;LastName&quot;: null
+    },
+    &quot;HouseholdDetails&quot;: {
+        &quot;DependantChild&quot;: {
+            &quot;DependantDOB&quot;: null,
+            &quot;Sex&quot;: null,
+            &quot;HealthCard&quot;: null,
+            &quot;DependantLast&quot;: null,
+            &quot;DependantMiddle&quot;: null,
+            &quot;DependantFirst&quot;: null
+        }
+    },
+    &quot;Employment Income&quot;: {
+        &quot;Total Weekly Income&quot;: null,
+        &quot;Total Monthly Income&quot;: null,
+        &quot;Current Employment&quot;: [
+            {
+                &quot;Weekly Income&quot;: null,
+                &quot;Hours Worked / Week&quot;: null,
+                &quot;Employer&quot;: null
+            },
+            {
+                &quot;Weekly Income&quot;: null,
+                &quot;Hours Worked / Week&quot;: null,
+                &quot;Employer&quot;: null
+            }
+        ]
+    },
+    &quot;Household Expenses&quot;: {
+        &quot;PrivateTransport&quot;: [
+            {
+                &quot;TotalKMs&quot;: null,
+                &quot;TotalKMsPerTrip&quot;: null,
+                &quot;NumberTrips&quot;: null,
+                &quot;TreatmentLocation&quot;: null
+            },
+            {
+                &quot;TotalKMs&quot;: null,
+                &quot;TotalKMsPerTrip&quot;: null,
+                &quot;NumberTrips&quot;: null,
+                &quot;TreatmentLocation&quot;: null
+            }
+        ],
+        &quot;PublicTransport&quot;: {
+            &quot;TotalOtherTransport&quot;: null,
+            &quot;CostperTrip&quot;: null,
+            &quot;OtherNumberofTrips&quot;: null
+        },
+        &quot;ParkingBlock&quot;: {
+            &quot;TotalParking&quot;: null,
+            &quot;ParkingCost&quot;: null,
+            &quot;NumberofParkingperYear&quot;: null
+        },
+        &quot;TotalTransportCosts&quot;: null,
+        &quot;SpecializedCareBlock&quot;: {
+            &quot;SpecializedCostperYear&quot;: null,
+            &quot;SpecializedHoursperMonth&quot;: null,
+            &quot;SpecializedCostperhour&quot;: null
+        },
+        &quot;TotalChildCareCosts&quot;: null,
+        &quot;GrandTotal&quot;: null
+    },
+    &quot;Estimated Benefits&quot;: {},
+    &quot;Documentation&quot;: {},
+    &quot;Thank you&quot;: {},
+    &quot;Programs&quot;: {
+        &quot;ACSD&quot;: null,
+        &quot;SSAH&quot;: null,
+        &quot;ER&quot;: null
+    },
+    &quot;Self Disclosure&quot;: {
+        &quot;PassesScreening&quot;: null,
+        &quot;OntarioResident&quot;: null,
+        &quot;Under18&quot;: null,
+        &quot;HaveDisability&quot;: null,
+        &quot;IntensiveCare&quot;: null
+    },
+    &quot;Last Name&quot;: null,
+    &quot;Middle Name&quot;: null,
+    &quot;First Name&quot;: null
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>DRCreateACSDReferral</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;timeStamp&quot;: &quot;2023-06-19T20:08:08.972Z&quot;,
+  &quot;userProfile&quot;: &quot;System Administrator&quot;,
+  &quot;userTimeZoneName&quot;: &quot;America/Los_Angeles&quot;,
+  &quot;userTimeZone&quot;: &quot;-420&quot;,
+  &quot;userCurrencyCode&quot;: &quot;USD&quot;,
+  &quot;userName&quot;: &quot;arusharma@gpssummer23.dev&quot;,
+  &quot;userId&quot;: &quot;0054S0000037D4ZQAU&quot;,
+  &quot;omniProcessId&quot;: &quot;0jN4S000000H2GjUAK&quot;,
+  &quot;localTimeZoneName&quot;: &quot;America/Toronto&quot;,
+  &quot;NotEligibleStep&quot;: null,
+  &quot;Demographics&quot;: {
+    &quot;NeedAssistance&quot;: false,
+    &quot;Authorized assistant&quot;: null,
+    &quot;Communication&quot;: {
+      &quot;RequiresInterpreter&quot;: false,
+      &quot;OtherLang&quot;: null,
+      &quot;LanguageSpoken&quot;: &quot;English&quot;
+    },
+    &quot;DOB&quot;: &quot;7/31/1987&quot;,
+    &quot;HomeAddress-Block&quot;: {
+      &quot;HomeAddress&quot;: &quot;1143 Brooks Dr, Mississauga, ON L5E 1T4, Canada&quot;,
+      &quot;ZIPCode&quot;: &quot;L5E 1T4&quot;,
+      &quot;Country&quot;: &quot;Canada&quot;,
+      &quot;State&quot;: &quot;ON&quot;,
+      &quot;City&quot;: &quot;Mississauga&quot;,
+      &quot;Street&quot;: &quot;1143 Brooks Drive&quot;
+    },
+    &quot;Email&quot;: &quot;jsimmonsgrants062021@gmail.com&quot;,
+    &quot;Phone&quot;: &quot;9052222222&quot;,
+    &quot;SSN&quot;: &quot;123456789&quot;,
+    &quot;MaritalStatus&quot;: &quot;Single&quot;,
+    &quot;Gender&quot;: &quot;Female&quot;,
+    &quot;FirstName&quot;: &quot;Jennifer&quot;,
+    &quot;LastName&quot;: &quot;Simmons&quot;
+  },
+  &quot;HouseholdDetails&quot;: {
+    &quot;SpousalInfoBlock&quot;: null,
+    &quot;DependantChild&quot;: {
+      &quot;DependantDOB&quot;: &quot;2015-07-06&quot;,
+      &quot;DependantFirst&quot;: &quot;Hannah&quot;,
+      &quot;DependantLast&quot;: &quot;Simmons&quot;,
+      &quot;HealthCard&quot;: &quot;123456789-NP&quot;,
+      &quot;Sex&quot;: &quot;Female&quot;
+    },
+    &quot;OtherChildren&quot;: {
+      &quot;OtherChildFirst&quot;: &quot;Allie&quot;,
+      &quot;OtherChildLast&quot;: &quot;Simmons&quot;,
+      &quot;OtherChildSex&quot;: &quot;Female&quot;
+    }
+  },
+  &quot;Employment Income&quot;: {},
+  &quot;Household Expenses&quot;: null,
+  &quot;Estimated Benefits&quot;: {},
+  &quot;Documentation&quot;: {},
+  &quot;Thank you&quot;: {},
+  &quot;Programs&quot;: {
+    &quot;ACSD&quot;: &quot;true&quot;,
+    &quot;SSAH&quot;: &quot;true&quot;,
+    &quot;ER&quot;: &quot;true&quot;
+  },
+  &quot;Self Disclosure&quot;: {
+    &quot;PassesScreening&quot;: &quot;Yes&quot;,
+    &quot;OntarioResident&quot;: &quot;Yes&quot;,
+    &quot;Under18&quot;: &quot;Yes&quot;,
+    &quot;HaveDisability&quot;: &quot;Yes&quot;,
+    &quot;IntensiveCare&quot;: &quot;Yes&quot;
+  },
+  &quot;FamilyCaregiver&quot;: &quot;Yes&quot;,
+  &quot;DRId_Case&quot;: &quot;5004S0000057r7yQAA&quot;,
+  &quot;CaseNumber&quot;: &quot;00001803&quot;,
+  &quot;ApplicantID&quot;: &quot;0034S00000AKCwuQAH&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

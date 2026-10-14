@@ -1,0 +1,22 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DataSource": "SingleSobject",
+    "DecisionMatrixType": "DecisionTable",
+    "DecisionTableType": "LowVolume",
+    "Description": "FSC:  IFS Pricebook Entries",
+    "GroupKey": "",
+    "IsLocked": false,
+    "LastSyncDate": "2025-02-20T15:04:19.000Z",
+    "MayEdit": true,
+    "Name": "IFS_Pricebook_Entries",
+    "Namespace": "",
+    "RefreshStatus": "InProgress",
+    "Status": "Active",
+    "SubGroupKey": "",
+    "Type": "",
+    "UniqueName": "IFS_Pricebook_Entries",
+    "UsageType": "DefaultPricing",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/IFS_Pricebook_Entries"
+}

@@ -1,0 +1,33 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetExpenseDetails",
+    "OmniProcessId": {
+        "Name": "FetchApplicationSummaryInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/FetchApplicationSummaryInformation/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ExpenseDetails": "SpousalSupportAmount|%CalculateBenefitAmountInput:SpousalSupportAmount%#AreThereElderlyHouseholdMembers|%CalculateBenefitAmountInput:AreThereElderlyHouseholdMembers%#InputHouseholdSize|%CalculateBenefitAmountInput:InputHouseholdSize%#PrimaryHeatingBillAmount|%CalculateBenefitAmountInput:PrimaryHeatingBillAmount%#InsurancePremiumAmount|%CalculateBenefitAmountInput:InsurancePremiumAmount%#TotalHouseholdIncome|%CalculateBenefitAmountInput:TotalHouseholdIncome%#MedicalExpensesAmount|%CalculateBenefitAmountInput:MedicalExpensesAmount%#AreThereChildrenInTheHousehold|%CalculateBenefitAmountInput:AreThereChildrenInTheHousehold%#PrimaryHeatType|%CalculateBenefitAmountInput:PrimaryHeatType%#RepresentativePayeeFees|%CalculateBenefitAmountInput:RepresentativePayeeFees%#SecondaryHeatType|%CalculateBenefitAmountInput:SecondaryHeatType%#ChildCareAmount|%CalculateBenefitAmountInput:ChildCareAmount%#ChildSupportAmount|%CalculateBenefitAmountInput:ChildSupportAmount%#AreThereDisabledHouseholdMembers|%CalculateBenefitAmountInput:AreThereDisabledHouseholdMembers%#ReimbursementAmount|%CalculateBenefitAmountInput:ReimbursementAmount%#SecondaryHeatingBillAmount|%CalculateBenefitAmountInput:SecondaryHeatingBillAmount%#GarnishmentsAmount|%CalculateBenefitAmountInput:GarnishmentsAmount%"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues10",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/FetchApplicationSummaryInformation/Procedure/SetExpenseDetails"
+}

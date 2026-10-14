@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchParticipantContact1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSFetchParticipantContact4516994318018068</globalKey>
+        <inputField>Account:PersonContactId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>ContactId</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchParticipantContact1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>PublicApplicationParticipant:ApplicantId</filterValue>
+        <globalKey>PSSFetchParticipantContact6604597595092208</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>PublicApplicationParticipant</inputObject>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>PAP</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSFetchParticipantContact1</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <filterValue>PAP:ParticipantId</filterValue>
+        <globalKey>PSSFetchParticipantContact6764454711214869</globalKey>
+        <inputField>Id</inputField>
+        <inputObject>Account</inputObject>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Account</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Fetches the contact record associated with a public application participant&apos;s person account.</description>
+    <expectedInputJson>{
+  &quot;PublicApplicationParticipant&quot; : [ {
+    &quot;ApplicantId&quot; : &quot;1apRO000000000zYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000001OYAQ&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000000pYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000000uYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000000vYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000000fYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000001EYAQ&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO0000000014YAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO0000000019YAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000000kYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000001JYAQ&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000001dYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000001TYAQ&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000001YYAQ&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000001iYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO0000000022YAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000001nYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000001sYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000001xYAA&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000004rYAA&quot;,
+    &quot;Role&quot; : &quot;Co-applicant&quot;
+  } ]
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSFetchParticipantContact1</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;PublicApplicationParticipant&quot; : [ {
+    &quot;ApplicantId&quot; : &quot;1apRO000000005gYAA&quot;,
+    &quot;&quot; : &quot;&quot;,
+    &quot;Role&quot; : &quot;Co-applicant&quot;
+  }, {
+    &quot;ApplicantId&quot; : &quot;1apRO000000005fYAA&quot;,
+    &quot;&quot; : &quot;&quot;,
+    &quot;Role&quot; : &quot;Applicant&quot;
+  } ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Extract</type>
+</DataMapperDefinition>

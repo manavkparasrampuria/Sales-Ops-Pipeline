@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Amount that could be canceled from an order product based on termination date. Can&apos;t be more than the pending billing amount. --></help>
+    <label>Valor faturamento encerrado (s/ imposto)</label>
+    <name>blng__TerminatedBillings__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,58 @@
+{
+    "AccountId": "0014S00000DbliVQAR",
+    "AccountName": "Keith Winderlich",
+    "ActionPlanTemplateId": "0PR4S0000004Me1WAE",
+    "ContextId": "0kl4S000000bmgJQAQ",
+    "InspectionTypeId": "0fJ4S0000004FsHUAU",
+    "InspectionTypeName": "Facility Inspection",
+    "Inspector": [
+        {
+            "DemoUser": true,
+            "Persona": "Inspector",
+            "UserId": "0054S000004227NQAQ",
+            "UserName": "Kaylee Kwan",
+            "UserType": "Standard"
+        },
+        {
+            "DemoUser": false,
+            "Persona": "Inspector",
+            "UserId": "0054S000004225eQAA",
+            "UserName": "Keith Winderlich",
+            "UserType": "Standard"
+        }
+    ],
+    "InspectorName": "Keith Winderlich",
+    "InspectorUserId": "0054S000004225eQAA",
+    "LocationId": "1314S000000VHWzQAO",
+    "LocationName": "Aerospace Services - HQ",
+    "PlannedVisitStartCalculated": "10/24/2023, 3:01 pm",
+    "SiteId": "0kl4S000000bmgJQAQ",
+    "SiteName": "Aerospace Services - HQ",
+    "VisitDetails": {
+        "OtherUser-Block": null,
+        "OwnerReviewerId": "0054S000004225eQAA",
+        "OwnerReviewerName": "Keith Winderlich",
+        "PlannedVisitEnd": "2023-10-24T21:01:00.000Z",
+        "PlannedVisitStart": "2023-10-24T19:01:00.000Z",
+        "ReviewerType": "Organization Owner",
+        "VisitNotes": "Please as soon as possible. ",
+        "VisitPriority": "High",
+        "VisitorId": "0054S000004225eQAA"
+    },
+    "language": "English",
+    "localTimeZoneName": "America/New_York",
+    "omniProcessId": "0jN4S000000LYlIUAW",
+    "omniscriptId": "0jN4S000000LYlIUAW",
+    "runMode": "preview",
+    "sId": "0jN4S000000LYlIUAW",
+    "subType": "NewInspection",
+    "theme": "lightning",
+    "timeStamp": "2023-10-24T20:01:03.783Z",
+    "type": "SiteFacility",
+    "userCurrencyCode": "USD",
+    "userId": "0054S000004225eQAA",
+    "userName": "kwinderlich@gpswinter24.dev3",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420",
+    "userTimeZoneName": "America/Los_Angeles"
+}

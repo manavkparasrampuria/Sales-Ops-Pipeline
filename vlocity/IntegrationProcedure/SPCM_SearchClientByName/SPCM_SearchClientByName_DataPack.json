@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "SPCM_SearchClientByName_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Search for a Client",
+    "OmniProcessElement": [
+        "SPCM_SearchClientByName_Element_SearchAccountByName.json",
+        "SPCM_SearchClientByName_Element_TransformedResult.json",
+        "SPCM_SearchClientByName_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "SPCM_SearchClientByName",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "SPCM_SearchClientByName_PropertySetConfig.json",
+    "SubType": "SearchClientByName",
+    "Type": "SPCM",
+    "UniqueName": "SPCM_SearchClientByName_Procedure_4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/SPCM/SearchClientByName/Procedure"
+}

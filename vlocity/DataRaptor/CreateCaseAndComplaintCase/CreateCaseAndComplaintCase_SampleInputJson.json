@@ -1,0 +1,46 @@
+{
+    "Case Details": {
+        "FinalContactId": "0034S000005gvl1QAA",
+        "NewCaseDetails": {
+            "Account-Block": {
+                "Account": "Alicia Rendon Salon",
+                "Id": "0014S000007WETUQA4",
+                "Name": "Alicia Rendon Salon"
+            },
+            "Contact-Block": {
+                "Contact": "Geoff Duckwall",
+                "ContactId": "0034S000005gvl1QAA",
+                "ContactName": "Geoff Duckwall"
+            },
+            "Description": "Test",
+            "Origin": "Email",
+            "Reason": "User didn't attend training",
+            "Status": "New",
+            "Subject": "Test Subject",
+            "Type": "Complaint"
+        }
+    },
+    "Participants": {
+        "addNewParticipants": {
+            "cityFormula": "%",
+            "firstNameFormula": "%",
+            "lastNameFormula": null
+        },
+        "executeAddNewParticipantDR": false,
+        "executeComplaintParticipantDR": false
+    },
+    "PublicComplaintID": "",
+    "getComplaintParticipants": {
+    },
+    "isPersonAccount": true,
+    "isPersonAccountContact": false,
+    "searchParticipants": [
+    ],
+    "timeStamp": "2022-06-28T13:58:53.543Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054S0000015CoyQAE",
+    "userName": "jeremy.blankenship@gps.ido",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-240",
+    "userTimeZoneName": "America/New_York"
+}

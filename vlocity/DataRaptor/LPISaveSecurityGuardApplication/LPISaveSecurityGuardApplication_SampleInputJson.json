@@ -1,0 +1,81 @@
+{
+    "ApplicantAffirmation": {
+        "CustomLWC1": null
+    },
+    "ApplicantInformation": {
+        "Address-Block": {
+            "Address": null,
+            "City": null,
+            "State": null,
+            "StreetAddress": null,
+            "Zipcode": null
+        },
+        "BirthDate": null,
+        "Email": null,
+        "FirstName": null,
+        "LastName": null,
+        "NysDmvIdNumber": null,
+        "Phone": null,
+        "SocialSecurityNumber": null,
+        "TypeOfApplication": null
+    },
+    "BackgroundQuestions": {
+        "AreYouAnActiveOrRetiredPeaceOfficer?": null,
+        "AreYouAnActiveOrRetiredPoliceOfficer?": null,
+        "DischargeExplanation": null,
+        "HasAnyLicenseOrPermitIssuedToYouOrACompanyInWhichYouAreOrWereAPrincipalInNewYork": null,
+        "HaveYouEverAppliedInThisStateForARegistrationLicenseAsASecurityGuard?": null,
+        "HaveYouEverBeenDischargedFromACorrectionalOrLawEnforcementAgencyForIncompetenceO": null,
+        "PleaseProvideTheLicenseNumber": null,
+        "SuspendedExplanation": null
+    },
+    "ContextId": null,
+    "Documentation": {
+        "File1": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "File2": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "NoticeOfEmployment": {
+        "DateOfHire": null,
+        "EmployerName": null,
+        "EmployerUid": null,
+        "GuardName": null,
+        "GuardSocialSecurityNumber": null,
+        "TransactionDate": null,
+        "TransactionNumber": null,
+        "WillEmploymentCommenceWithTheFilingOfYourApplication": null
+    },
+    "Overview": {
+    },
+    "PaymentInformation": {
+        "cartInput": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApplicantAffirmation": null,
+        "ApplicantInformation": null,
+        "BackgroundQuestions": null,
+        "DRSaveSecurityGuardApplication": null,
+        "Documentation": null,
+        "NoticeOfEmployment": null,
+        "Overview": null,
+        "PaymentInformation": null
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "AttestationStep": {
+        "CustomLWC1": null,
+        "Disclosure1": null
+    },
+    "BeneficiaryStep": {
+        "AddressLookup-Block": {
+            "AddressLookup": null,
+            "City": null,
+            "Country": null,
+            "PostalCode": null,
+            "State": null,
+            "Street": null
+        },
+        "BeneficiarySubmission": null,
+        "Email": null,
+        "FamilyMemberBlock": {
+            "SupportEmail": null,
+            "SupportFirstName": null,
+            "SupportLastName": null,
+            "SupportPhone": null
+        },
+        "FirstName": null,
+        "LastName": null,
+        "TaxID": null,
+        "Telephone": null
+    },
+    "CategorySelectionStep": {
+        "Category": null,
+        "SubCategory": null,
+        "SupportReceivedPreviously": null
+    },
+    "ContextId": null,
+    "InformationStep": {
+    },
+    "SupportingDocumentationStep": {
+        "File1": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AttestationStep": null,
+        "BeneficiaryStep": null,
+        "CategorySelectionStep": null,
+        "DRCreateBenefitIACase": null,
+        "DRGetContactDetailsforUser": null,
+        "InformationStep": null,
+        "SupportingDocumentationStep": null
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "GoogleMapsTransformations_SpecialEventApplicant_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "Google Maps Transform Special Event Applicant",
+    "OmniProcessElement": [
+        "GoogleMapsTransformations_SpecialEventApplicant_Element_GoogleMapAutoComplete.json",
+        "GoogleMapsTransformations_SpecialEventApplicant_Element_TransformStep.json",
+        "GoogleMapsTransformations_SpecialEventApplicant_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "GoogleMapsTransformations_SpecialEventApplicant",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "GoogleMapsTransformations_SpecialEventApplicant_PropertySetConfig.json",
+    "SubType": "SpecialEventApplicant",
+    "Type": "GoogleMapsTransformations",
+    "UniqueName": "GoogleMapsTransformations_SpecialEventApplicant_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/GoogleMapsTransformations/SpecialEventApplicant/Procedure"
+}

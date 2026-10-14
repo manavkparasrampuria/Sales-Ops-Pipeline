@@ -1,0 +1,38 @@
+{
+    "AccountId": "001RO000004VtybYAC",
+    "AssessmentData": {
+        "GHouseholdIncomeDetails": [
+            {
+                "Employer": "abc",
+                "GEmployer": "abc",
+                "GIncomeCurrentMonth": 1,
+                "GIncomeFrequency": "Weekly",
+                "GIncomeLastMonth": 1,
+                "GIncomeNextMonth": 1,
+                "IncomeCurrentMonth": 1,
+                "IncomeFrequency": "Weekly",
+                "IncomeLastMonth": 1,
+                "IncomeNextMonth": 1
+            }
+        ],
+        "HeadOfHouseholdAddress": "abc",
+        "HeadOfHouseholdCity": "abc",
+        "HeadOfHouseholdCounty": "abc",
+        "HeadOfHouseholdFirstName": "abc",
+        "HeadOfHouseholdLastName": "abc",
+        "HeadOfHouseholdPhoneNumber": "1111111111",
+        "HeadOfHouseholdState": "abc",
+        "HeadOfHouseholdZipCode": "1111111",
+        "HouseholdMemberDetails": [
+            {
+                "DateOfBirth": "2023-02-02",
+                "Ethnicity": "Hispanic or Latino",
+                "HouseholdMemberFirstName": "abc",
+                "HouseholdMemberLastName": "abc",
+                "Race": "American Indian",
+                "Relationship": "Self"
+            }
+        ]
+    },
+    "IACreationDate": "2023-02-28T20:00:00.000Z"
+}

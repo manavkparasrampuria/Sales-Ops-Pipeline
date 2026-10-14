@@ -17,11 +17,13 @@
     <tabs>standard-Task</tabs>
     <tabs>standard-Event</tabs>
     <tabs>standard-ContentNote</tabs>
+    <tabs>standard-EnablementProgram</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>standard-EmailTemplate</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -42,6 +44,12 @@
         </mappings>
         <mappings>
             <tab>standard-Dashboard</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-EmailTemplate</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-EnablementProgram</tab>
         </mappings>
         <mappings>
             <tab>standard-Event</tab>

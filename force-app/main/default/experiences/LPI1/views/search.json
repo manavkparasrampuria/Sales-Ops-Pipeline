@@ -1,0 +1,54 @@
+{
+  "appPageId" : "2fba1bae-ca91-435f-9f38-bf4a0457bf25",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "c2ecdc3a-a244-4ccc-ba27-b466f5795d15",
+  "label" : "Search",
+  "regions" : [ {
+    "id" : "4c55f883-91a6-462e-b2c1-a88e498fd5da",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "scopes" : [ {
+          "isPublic" : true,
+          "name" : "Knowledge__kav"
+        }, {
+          "isPublic" : true,
+          "name" : "FullFeed"
+        }, {
+          "isPublic" : true,
+          "name" : "Case"
+        }, {
+          "isPublic" : true,
+          "name" : "BusinessLicenseApplication"
+        }, {
+          "isPublic" : true,
+          "name" : "IndividualApplication"
+        }, {
+          "isPublic" : true,
+          "name" : "BusinessLicense"
+        } ],
+        "searchResultFiltering" : true,
+        "searchTerm" : "{!term}",
+        "showTopResults" : true
+      },
+      "componentName" : "forceCommunity:search",
+      "id" : "01e04082-e96b-40a3-8ea9-d97d8ef58532",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "06e33217-a789-49d2-9d40-3fa0103927f9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "68a5695a-18ae-4088-80d8-f0e13444897c",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "global-search"
+}

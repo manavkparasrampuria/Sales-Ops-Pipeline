@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "BAE",
+    "ClonedFromOmniUiCardKey": "IDOFundingRequestHeader/Salesforce/5.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "recordId",
+                    "val": "0iTKX000000TPMU2A4"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "IDOGetFundingRequest",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "RecordId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "For the Application Framework View Flexcard",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "CDBGProjectRequestOverview",
+    "Namespace": "",
+    "OmniUiCardKey": "CDBGProjectRequestOverview/BAE/2.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "CDBGProjectRequestOverview.json",
+    "SampleDataSourceResponse": "[{\"IDOApplication_Number__c\":\"Jennifer Creations - CDIG\",\"IDOSection_Button_Project_Locations__c\":\"Get Started\",\"LastName\":\"Simmons\",\"IDOSection_Button_Project_Funding__c\":\"Get Started\",\"Id\":\"0iTKX000000TPMU2A4\",\"IDOApplying_Contact_Info_Verified__c\":false,\"IDOEstimated_Federal_Share__c\":1,\"IDODelinquent_Federal_Debt__c\":false,\"IDOSection_Status_Documents__c\":\"Completed\",\"IDOProject_Title__c\":\"Green Apartments\",\"IDORequired_Docs_Not_Uploaded__c\":0,\"RequestedAmount\":34000,\"IDOApplying_Organization_Info_Verified__c\":false,\"IDOSection_Button_Applicant_Info__c\":\"Get Started\",\"FirstName\":\"Jennifer\",\"Applying_Organization_Name\":\"Omega, Inc.\",\"AppliedDate\":\"2024-07-01T13:45:42.000Z\",\"Status\":\"In Review\",\"IDORequired_Docs__c\":0,\"IDOSection_Button_Documents__c\":\"Review / Update\",\"IDOProject_Description__c\":\"Both\",\"IDOSection_Button_Project_Info__c\":\"Get Started\",\"IDOEstimated_Funding_Total__c\":34000,\"Name\":\"IA-0000000511\",\"IDOProject_Type__c\":\"Integrated Community Project\",\"FundingOpportunityId\":\"119KX000000GmaOYAS\",\"ContactId\":\"003KX000001XoErYAK\",\"IDOApplication_Submission_Readiness__c\":false,\"ApplyingOrganization\":\"001KX000002KYo8YAG\",\"IDODemo_Data__c\":false}]",
+    "StylingConfiguration": "",
+    "UniqueName": "CDBGProjectRequestOverview_BAE_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/CDBGProjectRequestOverview"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StageDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <masterLabel>Application Reviews - Share Reviews</masterLabel>
+    <referenceObject>ApplicationReview</referenceObject>
+    <referenceObjectField>Status</referenceObjectField>
+    <stageTransition>
+        <fromStageValue>Draft</fromStageValue>
+        <toStageValue>Cancelled</toStageValue>
+    </stageTransition>
+    <stageTransition>
+        <fromStageValue>Draft</fromStageValue>
+        <stepGroup>
+            <name>Draft-Not Started</name>
+            <step>
+                <apiName>Share_Review</apiName>
+                <flowDefinitionName>gps_Grantmaking_Share_Application_Review_bae</flowDefinitionName>
+                <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+                <name>Share Review</name>
+                <stepType>AutoTask</stepType>
+            </step>
+            <step>
+                <apiName>Send_Email</apiName>
+                <assignedToUser>ar@copado.com.ido-public</assignedToUser>
+                <dependency>
+                    <step>Share_Review</step>
+                </dependency>
+                <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+                <name>Send Email</name>
+                <stepType>ManualTask</stepType>
+            </step>
+        </stepGroup>
+        <toStageValue>Not Started</toStageValue>
+    </stageTransition>
+    <stageTransition>
+        <fromStageValue>In Progress</fromStageValue>
+        <toStageValue>Cancelled</toStageValue>
+    </stageTransition>
+    <stageTransition>
+        <fromStageValue>In Progress</fromStageValue>
+        <toStageValue>Completed</toStageValue>
+    </stageTransition>
+    <stageTransition>
+        <fromStageValue>Cancelled</fromStageValue>
+        <toStageValue>Not Started</toStageValue>
+    </stageTransition>
+    <stageTransition>
+        <fromStageValue>Not Started</fromStageValue>
+        <toStageValue>Cancelled</toStageValue>
+    </stageTransition>
+    <stageTransition>
+        <fromStageValue>Not Started</fromStageValue>
+        <toStageValue>Completed</toStageValue>
+    </stageTransition>
+    <stageTransition>
+        <fromStageValue>Not Started</fromStageValue>
+        <toStageValue>In Progress</toStageValue>
+    </stageTransition>
+    <stageTransition>
+        <fromStageValue>Completed</fromStageValue>
+        <toStageValue>Cancelled</toStageValue>
+    </stageTransition>
+    <stageValue>
+        <value>Draft</value>
+    </stageValue>
+    <stageValue>
+        <value>Cancelled</value>
+    </stageValue>
+    <stageValue>
+        <value>Not Started</value>
+    </stageValue>
+    <stageValue>
+        <value>Completed</value>
+    </stageValue>
+    <stageValue>
+        <value>In Progress</value>
+    </stageValue>
+</StageDefinition>

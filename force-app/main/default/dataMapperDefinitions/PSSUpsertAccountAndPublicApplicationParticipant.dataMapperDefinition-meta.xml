@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <defaultValue>Active</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem8</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Status</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>PublicApplicationParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem7</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>PublicApplicationParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem5</globalKey>
+        <inputField>HouseholdMemberDetails:DateOfBirth</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PersonBirthdate</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem4</globalKey>
+        <inputField>PhoneNumber</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PersonMobilePhone</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem3</globalKey>
+        <inputField>HouseholdMemberDetails:HouseholdMemberFirstName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>FirstName</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem2</globalKey>
+        <inputField>HouseholdMemberDetails:HouseholdMemberLastName</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>LastName</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:HouseholdMemberDetails:Relationship &quot;Self&quot; == &quot;Yes&quot; &quot;No&quot; IF</formulaConverted>
+        <formulaExpression>IF(HouseholdMemberDetails:Relationship==&quot;Self&quot;, &quot;Yes&quot;,&quot;No&quot;)</formulaExpression>
+        <formulaResultPath>HouseholdMemberDetails:PrimaryApplicant</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem0</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputField>Formula</outputField>
+        <outputObject>Formula</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem11</globalKey>
+        <inputField>RecordId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ApplicationId</outputField>
+        <outputObject>PublicApplicationParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem10</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedField>Id</linkedField>
+        <linkedObjectSequence>1.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>ParticipantId</outputField>
+        <outputObject>PublicApplicationParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <defaultValue>Co-applicant</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem9</globalKey>
+        <inputField>HouseholdMemberDetails:PrimaryApplicant</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>Role</outputField>
+        <outputFieldDataType>String</outputFieldDataType>
+        <outputObject>PublicApplicationParticipant</outputObject>
+        <valueMapping>{
+  &quot;Yes&quot; : &quot;Applicant&quot;,
+  &quot;No&quot; : &quot;Co-applicant&quot;
+}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem13</globalKey>
+        <inputField>HouseholdMemberDetails:Relationship</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>RelationshipType</outputField>
+        <outputObject>PublicApplicationParticipant</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <defaultValue>True</defaultValue>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem1</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>IsPersonAccount</outputField>
+        <outputFieldDataType>Boolean</outputFieldDataType>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom4656</globalKey>
+        <inputField>HouseholdMemberDetails:AccountId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSUpsertAccountAndPublicApplicationParticipant</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSUpsertAccountAndPublicApplicationParticipantCustom0jIxx00000000hZEAQItem12</globalKey>
+        <inputField>BenefitEligibilityStatus</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>2.0</outputCreationSequence>
+        <outputField>BenefitEligibilityStatus</outputField>
+        <outputObject>PublicApplicationParticipant</outputObject>
+        <valueMapping>{
+  &quot;&quot; : &quot;&quot;
+}</valueMapping>
+    </dataMapperDefinitionItem>
+    <description>Creates or updates a public application participant record.</description>
+    <expectedInputJson>{
+    &quot;RecordId&quot;: &quot;&quot;,
+    &quot;ContactNo&quot;: &quot;&quot;,
+    &quot;HouseholdMemberDetails&quot;: {
+        &quot;DateOfBirth&quot;: &quot;1997-01-28&quot;,
+        &quot;GradeCompleted&quot;: &quot;btech&quot;,
+        &quot;Race&quot;: &quot;American Indian/Alaska Native&quot;,
+        &quot;Ethnicity&quot;: &quot;Non-Hispanic/Latino&quot;,
+        &quot;Gender&quot;: &quot;Male&quot;,
+        &quot;Age&quot;: 26,
+        &quot;HouseholdMemberFirstName&quot;: &quot;firstH&quot;,
+        &quot;Relationship&quot;: &quot;Spouse&quot;,
+        &quot;HouseholdMemberLastName&quot;: &quot;lastH&quot;,
+        &quot;USCitizen&quot;: &quot;Yes&quot;
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSUpsertAccountAndPublicApplicationParticipant</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;HouseholdMemberDetails&quot; : {
+    &quot;Gender&quot; : &quot;F&quot;,
+    &quot;GradeCompleted&quot; : &quot;grade_2&quot;,
+    &quot;IsDisabled&quot; : &quot;Yes&quot;,
+    &quot;HouseholdMemberLastName&quot; : &quot;Person&quot;,
+    &quot;Race&quot; : &quot;AL&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;USCitizen&quot; : &quot;No&quot;,
+    &quot;AccountId&quot; : &quot;001xx000003Gl4JAAS&quot;,
+    &quot;ActionType&quot; : &quot;Update&quot;,
+    &quot;Ethnicity&quot; : &quot;NH&quot;,
+    &quot;HouseholdMemberFirstName&quot; : &quot;Wife2&quot;,
+    &quot;DateOfBirth&quot; : &quot;2001-11-01&quot;
+  },
+  &quot;BenefitEligibilityStatus&quot; : &quot;Ineligible&quot;,
+  &quot;RecordId&quot; : &quot;0iTxx00000000XtEAI&quot;,
+  &quot;PhoneNumber&quot; : &quot;&quot;
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

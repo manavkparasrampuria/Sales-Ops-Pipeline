@@ -1,0 +1,35 @@
+[
+    {
+        "ContentDocumentId": {
+            "LatestPublishedVersion.ExternalDocumentInfo2": "914a9d19-bc9e-6dd8-8eb5-ee9d79471f73",
+            "LatestPublishedVersion.Title": "NDA.docx",
+            "LatestPublishedVersion.VersionNumber": "1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "ContentDocument/Generated1858176891",
+            "VlocityRecordSObjectType": "ContentDocument"
+        },
+        "CurrencyIsoCode": "USD",
+        "DocumentTemplate.GlobalKey": "NDA/1/Salesforce/1705077879878",
+        "DocumentTemplateId": {
+            "GlobalKey": "NDA/1/Salesforce/1705077879878",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-626052739",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "FileStageType": "Original",
+        "IsLocked": false,
+        "LatestContentVersionId": {
+            "ExternalDocumentInfo2": "914a9d19-bc9e-6dd8-8eb5-ee9d79471f73",
+            "Title": "NDA.docx",
+            "VersionNumber": "1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "VlocityRecordSourceKey:068Hu00000isT0yIAE",
+            "VlocityRecordSObjectType": "ContentVersion"
+        },
+        "MayEdit": true,
+        "Name": "NDA.docx",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateContentDoc",
+        "VlocityRecordSourceKey": "DocumentTemplateContentDoc/Generated-804221792"
+    }
+]

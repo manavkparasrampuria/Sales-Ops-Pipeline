@@ -1,0 +1,61 @@
+{
+    "Income": {
+        "AreMultipleProofsOfIncomeSubmitted": false,
+        "HouseholdIncomeRecordsCount": 0,
+        "MaximumIncomeDetailsValidation": true,
+        "PSS_BM_v5_ExistingHouseholdIncomeDetails": [
+            {
+                "IncomeAdded": null,
+                "PSS_BM_RemoveIncomeChangeSelected": false,
+                "PSS_BM_UpdateIncomeChangeSelected": false,
+                "PSS_BM_v5_Employer": "Salesforce",
+                "PSS_BM_v5_ExistingIncomeCurrentMonth": 125,
+                "PSS_BM_v5_IncomeCurrentMonth": 125,
+                "PSS_BM_v5_IncomeFrequency": "Monthly",
+                "PSS_BM_v5_IncomeHouseholdMemberName": "Integration Demo PA",
+                "PSS_BM_v5_NewMember": false,
+                "PSS_BM_v5_PartyIncomeId": "2m3xx00000000EXAAY",
+                "PSS_BM_v5_StartDate": "2023-09-07"
+            },
+            {
+                "IncomeAdded": null,
+                "MemberAdded": "Yes",
+                "PSS_BM_RemoveIncomeChangeSelected": false,
+                "PSS_BM_UpdateIncomeChangeSelected": false,
+                "PSS_BM_v5_IncomeCurrentMonth": 0,
+                "PSS_BM_v5_IncomeHouseholdMemberName": "Ashish Gulati",
+                "PSS_BM_v5_NewMember": true
+            }
+        ],
+        "TotalHouseholdIncome": 0
+    },
+    "PSS_BM_v5_ChangeOfCircumstancesReportChangeIncome": true,
+    "PSS_BM_v5_ChangeOfCircumstancesReportChangeMember": true,
+    "PSS_BM_v5_Check_if_any_household_member_has_a_disability": "Yes",
+    "PSS_BM_v5_HouseholdMemberDetails": [
+        {
+            "PSS_BM_v5_DateOfBirth": "2000-01-01",
+            "PSS_BM_v5_Gender": "F",
+            "PSS_BM_v5_HouseholdMemberFirstName": "Demo",
+            "PSS_BM_v5_HouseholdMemberLastName": "Person",
+            "PSS_BM_v5_IsDisabled": "Yes",
+            "PSS_BM_v5_Relationship": "Spouse",
+            "PSS_BM_v5_USCitizen": "No"
+        },
+        {
+            "PSS_BM_v5_DateOfBirth": "2000-01-01",
+            "PSS_BM_v5_Edit_Member_Details": "Update member details",
+            "PSS_BM_v5_Ethnicity": "NH",
+            "PSS_BM_v5_Gender": "F",
+            "PSS_BM_v5_GradeCompleted": "test",
+            "PSS_BM_v5_HouseholdMemberFirstName": "Wife",
+            "PSS_BM_v5_HouseholdMemberLastName": "Person",
+            "PSS_BM_v5_IsDisabled": "Yes",
+            "PSS_BM_v5_MemberSectionActionPersisted": "Update member details",
+            "PSS_BM_v5_Race": "AL",
+            "PSS_BM_v5_Relationship": "Spouse",
+            "PSS_BM_v5_USCitizen": "No"
+        }
+    ],
+    "PSS_BM_v5_Select_the_programs_that_you_ve_applied_for": "Housing Assistance;General Assistance"
+}

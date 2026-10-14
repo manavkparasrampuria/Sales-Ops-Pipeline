@@ -1,0 +1,80 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{ \"id\":\"0cd000193FH2UI\",\n\"isExternal\": false,\n\"dismissStatus\":\"Success\",\n\"isDCF\" : false}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        },
+        "state0element0block_element1block_element2block_element1_0": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "id",
+                    "val": "0qZRO00000000bC2AQ"
+                },
+                {
+                    "id": 4,
+                    "name": "isExternal",
+                    "val": "false"
+                },
+                {
+                    "id": 5,
+                    "name": "isDCF",
+                    "val": "false"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "id": "{id}",
+                    "isDCF": "{isDCF}",
+                    "isExternal": "{isExternal}"
+                },
+                "ipMethod": "ServiceExcellenceAlerts_dismiss",
+                "jsonMap": "{\"id\":\"{id}\",\"isExternal\":\"{isExternal}\",\"isDCF\":\"{isDCF}\"}",
+                "optionsMap": {
+                    "useContinuation": "True"
+                },
+                "resultVar": "[\"Dismiss\"]",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "PSSServiceExcellenceDismissFlyout",
+    "Namespace": "",
+    "OmniUiCardKey": "PSSServiceExcellenceDismissFlyout/Salesforce/2.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "PSSServiceExcellenceDismissFlyout.json",
+    "SampleDataSourceResponse": "{\"id\":\"0cd000193FH2UI\",\"isExternal\":false,\"dismissStatus\":\"Success\",\"isDCF\":false}",
+    "StylingConfiguration": "",
+    "UniqueName": "PSSServiceExcellenceDismissFlyout_Salesforce_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/PSSServiceExcellenceDismissFlyout"
+}

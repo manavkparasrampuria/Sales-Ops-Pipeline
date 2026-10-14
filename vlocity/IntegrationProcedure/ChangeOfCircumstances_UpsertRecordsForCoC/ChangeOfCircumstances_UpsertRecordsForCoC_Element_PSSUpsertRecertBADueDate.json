@@ -1,0 +1,47 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PSSUpsertRecertBADueDate",
+    "OmniProcessId": {
+        "Name": "UpsertRecordsForCoC",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "BenefitAssignmentId": "=%FetchBAFromRecertificationIA:BenefitAssignmentID%",
+            "BenefitId": "=%PSSFetchBenefitFromBA:Benefit:Id%",
+            "RecertificationDueDate": "=%PSSFetchBenefitFromBA:BenefitAssignment:RecertificationDueDate%",
+            "RecertificationFrequency": "=%PSSFetchBenefitFromBA:Benefit:RecertificationFrequency%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "PSSUpsertRecertBADueDate",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "FetchIAApplicationType:ApplicationType==\"Recertification\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataMapperPostAction12",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpsertRecordsForCoC/Procedure/PSSUpsertRecertBADueDate"
+}

@@ -1,0 +1,31 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "BenefitManagement_CreateSerializedRecordList_SampleInput.json",
+    "Description": "Accepts JSON representations of records and adds the record information to a list in serialized format.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "CreateSerializedRecordList",
+    "OmniProcessElement": [
+        "BenefitManagement_CreateSerializedRecordList_Element_SetSerializeMapObject.json",
+        "BenefitManagement_CreateSerializedRecordList_Element_IfPayloadString.json",
+        "BenefitManagement_CreateSerializedRecordList_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "BenefitManagement_CreateSerializedRecordList",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "BenefitManagement_CreateSerializedRecordList_PropertySetConfig.json",
+    "SubType": "CreateSerializedRecordList",
+    "Type": "BenefitManagement",
+    "UniqueName": "BenefitManagement_CreateSerializedRecordList_Procedure_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/BenefitManagement/CreateSerializedRecordList/Procedure"
+}

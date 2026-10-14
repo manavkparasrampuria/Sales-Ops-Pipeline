@@ -13,7 +13,7 @@
     <filters>
         <field>LEAD.STATUS</field>
         <operation>notEqual</operation>
-        <value>Habilitado</value>
+        <value>Qualified</value>
     </filters>
     <label>All Open Leads</label>
 </ListView>

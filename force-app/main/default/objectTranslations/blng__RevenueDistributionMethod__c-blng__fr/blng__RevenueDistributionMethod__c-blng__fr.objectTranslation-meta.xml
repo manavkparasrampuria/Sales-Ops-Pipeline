@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Méthode de distribution de chiffre d&apos;affaires</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Méthodes de distribution de chiffre d&apos;affaires</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>Impossible de sélectionner Manuel sur la date de début de la durée du calendrier de revenu ou sur la date de fin du calendrier de revenu lorsque le processus de création de transaction de revenu est automatique</errorMessage>
+        <name>blng__CannotSpecifyRevDatesifTransTypeAutomati</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de début et la date de fin du calendrier de revenu ne doivent être manuelles que lorsque le processus de création de transaction de revenu est manuel</errorMessage>
+        <name>blng__DontSpecifyDatesIfCreationProcessManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de comptabilisation complète ne peut pas être manuelle lorsque le processus de création de transaction de revenu est automatique</errorMessage>
+        <name>blng__DontSpecifyFRDateIfCreationProcessManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de début et la date de fin du calendrier de revenu ne doivent pas être spécifiées lorsque la méthode de distribution est comptabilisation complète</errorMessage>
+        <name>blng__DontSpecifyStartDateEndDateForFullRecogn</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de comptabilisation complète ne doit être manuelle que lorsque le processus de création de transaction de revenu est manuel</errorMessage>
+        <name>blng__FulRecDateCanbeManualifTransTypeManual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de comptabilisation complète ne peut pas être sélectionnée lorsque la méthode de distribution est autre que la comptabilisation complète</errorMessage>
+        <name>blng__FullRecDateEmptyForDailyMonthlyMethod</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de comptabilisation complète est requise lorsque la méthode de distribution = comptabilisation complète</errorMessage>
+        <name>blng__FullRecognitionDateIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de fin du calendrier de revenu doit correspondre au type</errorMessage>
+        <name>blng__RevenueScheduleEndDateAlignWithType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de début du calendrier de revenu doit correspondre au type</errorMessage>
+        <name>blng__RevenueScheduleStartDateAlignWithType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de fin de la date de comptabilisation complète doit correspondre au type.</errorMessage>
+        <name>blng__TYPESHOULDALIGNFULLRECOGNITIONDATE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de fin de la durée est requise lorsque la méthode de distribution = mensuelle/quotidienne</errorMessage>
+        <name>blng__TermEndDateIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La date de début de la durée est requise lorsque la méthode de distribution = mensuelle/quotidienne</errorMessage>
+        <name>blng__TermStartDateIsRequired</name>
+    </validationRules>
+</CustomObjectTranslation>

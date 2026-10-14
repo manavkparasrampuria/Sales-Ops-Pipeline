@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- For options, in order, will display the following: M, Mon, Monday. Visit http://sfdc.co/date-component for more details. --></help>
+    <label><!-- Date Weekday Format --></label>
+    <name>Date_Weekday_Format__c</name>
+    <picklistValues>
+        <masterLabel>long</masterLabel>
+        <translation><!-- long --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>narrow</masterLabel>
+        <translation><!-- narrow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>short</masterLabel>
+        <translation><!-- short --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

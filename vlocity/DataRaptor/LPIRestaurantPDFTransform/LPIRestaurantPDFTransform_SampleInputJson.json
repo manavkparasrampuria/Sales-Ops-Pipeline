@@ -1,0 +1,146 @@
+{
+    "AddressInformation": {
+        "Block2": {
+            "InspectionAddress-Block": {
+                "InspectionAddress": "1111 MC 85, Buckeye, AZ, USA",
+                "InspectionCity": "Buckeye",
+                "InspectionStreet": "1111 MC 85",
+                "InspectionZip": "85326",
+                "Text3": "AZ"
+            },
+            "InspectionEmail": "AstrosDiner@mailinator.com",
+            "InspectionFax": "6235557676",
+            "InspectionName": "Joe Inspector",
+            "InspectionPhone": "6235551212"
+        },
+        "BusinessOwnershipInformation": {
+            "EntityType": "SoleProprietor",
+            "ResponsibleAddress-Block": {
+                "ResponsibleAddress": "19802 MC 85, Buckeye, AZ, USA",
+                "ResponsibleCity": "Buckeye",
+                "ResponsibleState": "AZ",
+                "ResponsibleStreet": "19802 MC 85",
+                "ResponsibleZip": "85326"
+            },
+            "ResponsibleEmail": "HikingMan@mailinator.com",
+            "ResponsibleFax": "6235558080",
+            "ResponsibleName": "Geoff Duckwall",
+            "ResponsibleOther": null,
+            "ResponsiblePhone": "6235554343"
+        },
+        "EstablishmentInfo": {
+            "EstablishmentAddress-Block": {
+                "EstablishmentAddress": "1111 MC 85, Buckeye, AZ, USA",
+                "EstablishmentCity": "Buckeye",
+                "EstablishmentState": "AZ",
+                "EstablishmentStreet": "1111 MC 85",
+                "EstablishmentZip": "85326"
+            },
+            "EstablishmentEmail": "AstrosDiner@mailinator.com",
+            "EstablishmentFax": "6235557676",
+            "EstablishmentName": "Astro's Diner",
+            "EstablishmentPhone": "6235551212"
+        },
+        "MailingBilling": {
+            "BillingAddress-Block": {
+                "BillingAddress": "1111 MC 85, Buckeye, AZ, USA",
+                "BillingCity": "Buckeye",
+                "BillingState": "AZ",
+                "BillingStreet": "1111 MC 85",
+                "BillingZip": "85326"
+            },
+            "BillingEmail": "AstrosDiner@mailinator.com",
+            "BillingFax": "6235557676",
+            "BillingName": "Astro's Diner",
+            "BillingPhone": "6235551212"
+        }
+    },
+    "ContractorArchitectInfo": {
+        "ArchitectEmail": "b@b.com",
+        "ArchitectFax": "9393939393",
+        "ArchitectNA": true,
+        "ArchitectName": "Contractor  B",
+        "Checkbox1": true,
+        "ContractorEmail": "j@j.com",
+        "ContractorFax": "9393939393",
+        "ContractorName": "Contractor A",
+        "ContractorPhone": "3939393939",
+        "Telephone2": "3949393939"
+    },
+    "Disclaimer": {
+        "DisclaimerDate1": "2021-08-04",
+        "DisclaimerDate2": "2021-08-04",
+        "Disclosure1": true,
+        "Disclosure2": true
+    },
+    "DogApplication": {
+        "DogAddress-Block": {
+            "DogCity": "Buckeye",
+            "DogState": "AZ",
+            "DogStreet": "1111 MC 85",
+            "DogZip": "85326"
+        },
+        "DogBusiness": "Astro's Diner",
+        "DogDate": "2021-08-04",
+        "DogDisclosure": true,
+        "DogEmail": "AstrosDiner@mailinator.com",
+        "DogFax": "6235557676",
+        "DogPhone": "6235551212"
+    },
+    "Fee": 245,
+    "FeePreviewStep": {
+        "Block1": null,
+        "EnvFee": {
+            "MinorReviewFee": 245,
+            "NewBusinessFee": 315,
+            "TotalFees": 560
+        }
+    },
+    "GeneratePDF": "00P5e00000XisNuEAJ",
+    "InspectionState": "AZ",
+    "Menu": {
+        "SeatingCapacity": 1
+    },
+    "MinorReviewFeeName": "Minor Review",
+    "NewBusinessFeeName": "New Business Permit",
+    "PaymentStep": {
+        "ShowTestCreditCard": false
+    },
+    "Permit": null,
+    "PermitChoice": {
+        "BusinessType": "NewBusiness;MinorReview",
+        "ConstInstallDate": "2021-10-11",
+        "ConstInstallEndDate": "2021-10-15",
+        "ExpeditedReview": "ExpediteReviewNo",
+        "MinorAndNew": true,
+        "MinorOrNew": true,
+        "NewBusiness": true,
+        "OwnerChangeDate": "2021-10-01",
+        "PermitActivity": "New"
+    },
+    "PermitQuestionnaire": {
+        "BriefDescription": "Taking over the existing diner.  Changing the name to Astro's Diner.  Replacing the existing (broken) ice maker in the existing dog friendly patio with the same model.",
+        "DogPatio": "DogYes",
+        "DriveThru": "DriveThruNo",
+        "ExteriorOpenings": "ExteriorOpeningsNo",
+        "Floors": 1,
+        "OutdoorOperations": "OutdoorYes",
+        "SquareFeet": 4500
+    },
+    "PermitRenewal": null,
+    "PlumbingFinish": {
+        "DrainFinish": null,
+        "SewerProvider": null,
+        "WaterProvider": null
+    },
+    "RenewalThanks": null,
+    "UploadDocs": {
+    },
+    "omniJsonDef": null,
+    "timeStamp": "2021-08-04T11:48:28.703Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055e000005GyyLAAS",
+    "userName": "jblankenship@mclpi.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

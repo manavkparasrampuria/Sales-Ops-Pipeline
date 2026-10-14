@@ -1,0 +1,74 @@
+{
+    "CCM_Confirmation": {
+    },
+    "CCM_Evidence_Management": {
+        "ComplaintInformation": {
+            "ComplaintName": null,
+            "ComplaintNumber": null,
+            "IncidentDate": null,
+            "OfficerName": null
+        },
+        "EvidenceInformation": {
+            "EvidenceDescription": null,
+            "FileUpload": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "TypeOfEvidence": null
+        }
+    },
+    "CCM_NewComplaint": {
+        "CCM_ComplaintInformation": {
+            "CCM_ComplaintDetails": {
+                "CCM_ComplaintNotes": null,
+                "CCM_ComplaintPriority": null,
+                "CCM_ComplaintSubject": null,
+                "CCM_ComplaintType": null,
+                "CCM_IncidentDate": null,
+                "CCM_IncidentLocation": null
+            },
+            "CCM_ComplaintReporter": {
+                "CCM_RegulatoryAuthority": null,
+                "CCM_ReporterCategory": null,
+                "CCM_ReporterFirstName": null,
+                "CCM_ReporterLastName": null
+            }
+        },
+        "CCM_Participants": {
+            "city": null,
+            "firstName": null,
+            "lastName": null,
+            "searchAndBuildComplaintParticipants": null
+        }
+    },
+    "CCM_RegulatoryCode": {
+        "CCM_SelectRegulatoryCode": null
+    },
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CCM_Confirmation": null,
+        "CCM_DR_CreateComplaintParticipants": null,
+        "CCM_DR_CreateCustodyItem": null,
+        "CCM_DR_CreatePublicComplaint": null,
+        "CCM_DR_CreateRegulatoryCodeViolation": null,
+        "CCM_DR_GetPublicComplaint": null,
+        "CCM_DR_GetRecordTypeId": null,
+        "CCM_DR_GetUserDetails": null,
+        "CCM_Evidence_Management": null,
+        "CCM_NewComplaint": null,
+        "CCM_PublicComplaintId": null,
+        "CCM_RegulatoryCode": null,
+        "CCM_SetEmptyValues": null,
+        "CCM_SetRecordType": null
+    }
+}

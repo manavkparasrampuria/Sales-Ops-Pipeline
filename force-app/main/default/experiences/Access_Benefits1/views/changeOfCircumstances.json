@@ -1,0 +1,54 @@
+{
+  "appPageId" : "b75f7659-4393-4836-b643-794b5b569156",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b490206f-a252-41fc-9da8-83945ff77d5c",
+  "label" : "Change of Circumstances",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "ReportChangeOfCircumstances",
+        "theme" : "lightning",
+        "type" : "ChangeOfCircumstances"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "313248c6-f7c5-4e62-910c-bc936d3c3ba0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a8053f6b-c0fb-490d-b0e5-7fbcfb0bb7d4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "4dfd1a6e-1e00-4cbc-90ea-e35acf73b61f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "09fded63-a8f3-41d4-88e3-289e1ee2cdff",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Change of Circumstances"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0c5e5d11-c9c5-4633-9fa1-4e1eec1e4249",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bdb6550c-debb-4148-8db4-6393802db097",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "vTSaaV1ffzfNfRmwTZ6GJo13YBe31i",
+  "type" : "view",
+  "viewType" : "custom-change-of-circumstances"
+}

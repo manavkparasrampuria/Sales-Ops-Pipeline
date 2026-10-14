@@ -1,0 +1,116 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "Grant Agreement Template/2/00Dao000003tFZX/1713455587132",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-736971856",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "85df7f0e-8881-b794-2398-94de946a3088",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "FundingAwardName",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated-340832504"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "Grant Agreement Template/2/00Dao000003tFZX/1713455587132",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-736971856",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "a13cc21d-7a40-ca26-07f4-d7109dc17c94",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "FundingAwardEndDate",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated-2093644790"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "Grant Agreement Template/2/00Dao000003tFZX/1713455587132",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-736971856",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "b2f601ed-6b6f-cdd0-ff32-2add06baf6db",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "FundingAwardAwardeeName",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated1615031632"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "Grant Agreement Template/2/00Dao000003tFZX/1713455587132",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-736971856",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "c0b68899-5ebd-2762-8e89-4f333f9b66a8",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "FundingAwardAmount",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated-1624933661"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "Grant Agreement Template/2/00Dao000003tFZX/1713455587132",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-736971856",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "c30c2f11-7816-79a0-11b8-5c76d9483805",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "FundingAwardStartDate",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated-646912848"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "Description": "",
+        "DocumentTemplateId": {
+            "GlobalKey": "Grant Agreement Template/2/00Dao000003tFZX/1713455587132",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "DocumentTemplate/Generated-736971856",
+            "VlocityRecordSObjectType": "DocumentTemplate"
+        },
+        "DocumentTemplateSectionId": "",
+        "GlobalKey": "db95572d-c807-20fe-173f-e37d17380f9c",
+        "IsLocked": false,
+        "MayEdit": true,
+        "Name": "FundingAwardAwardNumber",
+        "TokenPath": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "DocumentTemplateToken",
+        "VlocityRecordSourceKey": "DocumentTemplateToken/Generated1741126054"
+    }
+]

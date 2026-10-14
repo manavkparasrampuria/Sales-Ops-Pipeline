@@ -1,0 +1,80 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "RecruitmentTransformEducationDetailsForCertificate1Custom0jIKX000000TyA12AKItem0",
+        "InputFieldName": "EducationDetails:Education:Degree",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "RecruitmentTransformEducationDetailsForCertificate1",
+        "OmniDataTransformationId": {
+            "Name": "RecruitmentTransformEducationDetailsForCertificate1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/RecruitmentTransformEducationDetailsForCertificate1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "UploadCertificates:NewCertificateUpload:NCUDegree",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "RecruitmentTransformEducationDetailsForCertificate1Custom0jIKX000000TyA12AKItem2",
+        "InputFieldName": "EducationDetails:Education:Institution",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "RecruitmentTransformEducationDetailsForCertificate1",
+        "OmniDataTransformationId": {
+            "Name": "RecruitmentTransformEducationDetailsForCertificate1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/RecruitmentTransformEducationDetailsForCertificate1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "UploadCertificates:NewCertificateUpload:NCUInstitution",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterGroup": 0,
+        "GlobalKey": "RecruitmentTransformEducationDetailsForCertificate1Custom0jIKX000000TyA12AKItem1",
+        "InputFieldName": "EducationDetails:Education:Id",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "MayEdit": true,
+        "Name": "RecruitmentTransformEducationDetailsForCertificate1",
+        "OmniDataTransformationId": {
+            "Name": "RecruitmentTransformEducationDetailsForCertificate1",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/RecruitmentTransformEducationDetailsForCertificate1",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "UploadCertificates:NewCertificateUpload:NCUPersonEducationId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

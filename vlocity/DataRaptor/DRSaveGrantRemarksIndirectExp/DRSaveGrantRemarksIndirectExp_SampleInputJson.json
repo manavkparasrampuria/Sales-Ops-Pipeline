@@ -1,0 +1,105 @@
+{
+    "AccountId": "0014S00000781FX",
+    "Consent": null,
+    "ContextId": "a0E4S000000mTynUAE",
+    "DRId_GPSGFinancial_Reports__c": "a0K4S00000122HlUAI",
+    "EditBlkIndirectExpenditures": {
+        "BlkFormIndirectExpenses": {
+            "FormIndirectAmountCharged_1": 1184480,
+            "FormIndirectAmountCharged_2": 740300,
+            "FormIndirectBase_1": 14806000,
+            "FormIndirectBase_2": 14806000,
+            "FormIndirectFedShare_1": 14806000,
+            "FormIndirectFedShare_2": 14806000,
+            "FormIndirectPeriodFrom_1": "2023-01-10T00:00:00.000Z",
+            "FormIndirectPeriodFrom_2": "2023-02-01T00:00:00.000Z",
+            "FormIndirectPeriodTo_1": "2023-03-01T00:00:00.000Z",
+            "FormIndirectPeriodTo_2": "2023-02-28T00:00:00.000Z",
+            "FormIndirectRate_1": 8,
+            "FormIndirectRate_2": 5,
+            "FormIndirectTotals_1": null,
+            "FormIndirectTotals_2": null,
+            "FormIndirectType_1": "Provisional",
+            "FormIndirectType_2": "Provisional"
+        },
+        "EditIndirectExpenses": [
+            {
+                "FinReportId": "a0K4S00000122HlUAI",
+                "edit_IndirectAmountCharged": 1184480,
+                "edit_IndirectBase": 14806000,
+                "edit_IndirectFedShare": 14806000,
+                "edit_IndirectPeriodFrom": "2023-01-10",
+                "edit_IndirectPeriodTo": "2023-03-01",
+                "edit_IndirectRate": 8,
+                "edit_IndirectType": "Provisional"
+            },
+            {
+                "FinReportId": "a0K4S00000122HlUAI",
+                "edit_IndirectAmountCharged": 740300,
+                "edit_IndirectBase": 14806000,
+                "edit_IndirectFedShare": 14806000,
+                "edit_IndirectPeriodFrom": "2023-02-01",
+                "edit_IndirectPeriodTo": "2023-02-28",
+                "edit_IndirectRate": 5,
+                "edit_IndirectType": "Provisional"
+            }
+        ],
+        "Edit_TotalAmountCharged": 1924780,
+        "Edit_TotalBase": 29612000,
+        "Edit_TotalFedShare": 29612000
+    },
+    "ProjectId": "a0E4S000000mTynUAE",
+    "RemarksAttachments": {
+        "Remarks": "This report supersedes previous one that had mistakes"
+    },
+    "ReportInfo": {
+        "AccountingBasis": "Cash",
+        "BlkGrantPeriod": {
+            "GrantPeriodFrom": "2023-01-01",
+            "GrantPeriodTo": "2023-03-31"
+        },
+        "ProjectName": "VA Electric Vehicle Charging Network",
+        "RecipientAccountNumber": "WIDOT2345",
+        "ReportType": "Quarterly",
+        "ReportingEndDate": "2023-03-31"
+    },
+    "Transactions": {
+        "BlkFedCash": {
+            "TransCash_CalcCashOnHand": 6993,
+            "TransCash_CashDisbursements": 53000,
+            "TransCash_CashReceipts": 59993
+        },
+        "BlkFedExpend": {
+            "TransExpend_Authorized": 14806000,
+            "TransExpend_CalcBalance": 14798223,
+            "TransExpend_CalcTotalFedShare": 7777,
+            "TransExpend_ShareExpenditures": 4343,
+            "TransExpend_Shareobligations": 3434
+        },
+        "BlkProgramIncome": {
+            "TransIncome_CalcUnexpendedIncome": 54536,
+            "TransIncome_IncomeEarned": 54545,
+            "TransIncome_IncomeExpended": 51454,
+            "TransIncome_IncomeExpendedAddition": 51445
+        },
+        "BlkRecipientShare": {
+            "TransRecipient_CalcRecipientShare": 902,
+            "TransRecipient_ShareExpenditures": 23432,
+            "TransRecipient_Sharerequired": 24334
+        }
+    },
+    "UserEmail": "kvirtue@salesforce.com",
+    "UserFirstName": "Keegan",
+    "UserLastName": "Virtue",
+    "Welcome": {
+        "FedAgency": "Agency of the Future",
+        "Text1": "0034S000005LSL9QAO",
+        "UseridDebug": "0054S000000e7KWQAY"
+    },
+    "timeStamp": "2022-02-23T19:19:30.720Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054S000000e7KWQAY",
+    "userName": "kvirtue@gpsg.demo",
+    "userProfile": "*GPSG System Administrator",
+    "userTimeZone": "-480"
+}

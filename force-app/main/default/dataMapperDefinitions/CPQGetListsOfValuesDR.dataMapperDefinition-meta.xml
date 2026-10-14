@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetListsOfValuesDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetListsOfValuesDRCustoma0P4W00000u7Ig5UAEItem2</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>options</outputField>
+        <outputFieldDataType>List&lt;Map&gt;</outputFieldDataType>
+        <outputObject>json</outputObject>
+        <valueMapping>{
+  &quot;value&quot; : &quot;&quot;
+}</valueMapping>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetListsOfValuesDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetListsOfValuesDRCustoma0P4W00000u7Ig5UAEItem1</globalKey>
+        <inputField>listvalues:fields:valuekey</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>options:value</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>CPQGetListsOfValuesDR</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>CPQGetListsOfValuesDRCustoma0P4W00000u7Ig5UAEItem0</globalKey>
+        <inputField>listvalues:fields:label</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>options:label</outputField>
+        <outputObject>json</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>[ {
+  &quot;actions&quot; : { },
+  &quot;displaySequence&quot; : -1,
+  &quot;fields&quot; : {
+    &quot;label&quot; : &quot;Default Purchase Date To End of Plan Duration&quot;,
+    &quot;valuekey&quot; : &quot;a3h4W0000040D6hQAE&quot;
+  },
+  &quot;messages&quot; : [ ],
+  &quot;nameResult&quot; : { },
+  &quot;uiStates&quot; : { }
+}, {
+  &quot;actions&quot; : { },
+  &quot;displaySequence&quot; : -1,
+  &quot;fields&quot; : {
+    &quot;label&quot; : &quot;Test Time Policy&quot;,
+    &quot;valuekey&quot; : &quot;a3h4W0000040NZLQA2&quot;
+  },
+  &quot;messages&quot; : [ ],
+  &quot;nameResult&quot; : { },
+  &quot;uiStates&quot; : { }
+} ]</expectedInputJson>
+    <expectedOutputJson>{
+  &quot;options&quot; : [ {
+    &quot;label&quot; : &quot;Select&quot;,
+    &quot;value&quot; : &quot;&quot;
+  }, {
+    &quot;label&quot; : &quot;label1&quot;,
+    &quot;value&quot; : &quot;val1&quot;
+  } ]
+}</expectedOutputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>CPQGetListsOfValuesDR</masterLabel>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;displaySequence&quot; : -1,
+  &quot;listkey&quot; : &quot;TimePolicies&quot;,
+  &quot;listvalues&quot; : [ {
+    &quot;actions&quot; : { },
+    &quot;displaySequence&quot; : -1,
+    &quot;fields&quot; : {
+      &quot;label&quot; : &quot;Default Purchase Date To End of Plan Duration&quot;,
+      &quot;valuekey&quot; : &quot;a3h4W0000040D6hQAE&quot;
+    },
+    &quot;messages&quot; : [ ],
+    &quot;nameResult&quot; : { },
+    &quot;uiStates&quot; : { }
+  } ],
+  &quot;messages&quot; : [ ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Transform</type>
+</DataMapperDefinition>

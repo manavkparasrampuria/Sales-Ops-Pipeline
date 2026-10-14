@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Work Entity Information --></label>
+    <name>Work_Entity_Information__c</name>
+    <picklistValues>
+        <masterLabel>General Contractor</masterLabel>
+        <translation><!-- General Contractor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Property Owner</masterLabel>
+        <translation><!-- Property Owner --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

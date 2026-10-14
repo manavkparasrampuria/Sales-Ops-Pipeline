@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <batchSize>200.0</batchSize>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrationAddAssessmentIndicatorDefinedValues</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrationAddAssessmentIndicatorDefinedValues13922433140245727</globalKey>
+        <inputField>DeserializedFileContent:AssessmentIndicatorDefinition:AssessmentIndDefinedValue:Value</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Value</outputField>
+        <outputObject>AssessmentIndDefinedValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrationAddAssessmentIndicatorDefinedValues</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrationAddAssessmentIndicatorDefinedValues9828749937081775</globalKey>
+        <inputField>DeserializedFileContent:AssessmentIndicatorDefinition:AssessmentIndDefinedValue:ParentName</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <lookupByField>Name</lookupByField>
+        <lookupObject>AssessmentIndicatorDefinition</lookupObject>
+        <lookupReturnedField>Id</lookupReturnedField>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>AssessmentIndicatorDefinitionId</outputField>
+        <outputObject>AssessmentIndDefinedValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrationAddAssessmentIndicatorDefinedValues</dataMapperDefItemName>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>QuickBuildMigrationAddAssessmentIndicatorDefinedValues7528411290639934</globalKey>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>AssessmentIndDefinedValue</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>QuickBuildMigrationAddAssessmentIndicatorDefinedValues</dataMapperDefItemName>
+        <globalKey>QuickBuildMigrationAddAssessmentIndicatorDefinedValues5593046788290714</globalKey>
+        <inputField>DeserializedFileContent:AssessmentIndicatorDefinition:AssessmentIndDefinedValue:SequenceNumber</inputField>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>SequenceNumber</outputField>
+        <outputObject>AssessmentIndDefinedValue</outputObject>
+    </dataMapperDefinitionItem>
+    <expectedInputJson>{
+    &quot;vlcTimeTracking&quot;: {
+        &quot;DRAddDefinedValues&quot;: null,
+        &quot;DRGetMigrationJunctionObjectsToCreate&quot;: null,
+        &quot;DRAddRegAssementIndJunction&quot;: null,
+        &quot;DRAddAssessmentTaskIndJunction&quot;: null,
+        &quot;DRMigrateInspectionTemplate-Activate&quot;: null,
+        &quot;DRMigrateInspectionTemplate-AddSignatures&quot;: null,
+        &quot;NavigateAction1&quot;: null,
+        &quot;DRMigrateInspectionTemplate&quot;: null,
+        &quot;DRDeserializeImport&quot;: null,
+        &quot;RemoteActionImportGetFileContents&quot;: null,
+        &quot;UploadFile&quot;: null
+    },
+    &quot;vlcPersistentComponent&quot;: {},
+    &quot;userTimeZone&quot;: null,
+    &quot;userProfile&quot;: null,
+    &quot;userName&quot;: null,
+    &quot;userId&quot;: null,
+    &quot;timeStamp&quot;: null,
+    &quot;ContextId&quot;: null,
+    &quot;UploadFile&quot;: {
+        &quot;UploadJSON&quot;: [
+            {
+                &quot;data&quot;: null,
+                &quot;size&quot;: null,
+                &quot;filename&quot;: null
+            }
+        ]
+    }
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>QuickBuildMigrationAddAssessmentIndicatorDefinedValues</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{&quot;vlcTimeTracking&quot;:{&quot;DRAddDefinedValues&quot;:null,&quot;DRGetMigrationJunctionObjectsToCreate&quot;:null,&quot;DRAddRegAssementIndJunction&quot;:null,&quot;DRAddAssessmentTaskIndJunction&quot;:null,&quot;DRMigrateInspectionTemplate-Activate&quot;:null,&quot;DRMigrateInspectionTemplate-AddSignatures&quot;:null,&quot;NavigateAction1&quot;:null,&quot;DRMigrateInspectionTemplate&quot;:null,&quot;DRDeserializeImport&quot;:null,&quot;RemoteActionImportGetFileContents&quot;:null,&quot;UploadFile&quot;:null},&quot;vlcPersistentComponent&quot;:{},&quot;userTimeZone&quot;:null,&quot;userProfile&quot;:null,&quot;userName&quot;:null,&quot;userId&quot;:null,&quot;timeStamp&quot;:null,&quot;ContextId&quot;:null,&quot;UploadFile&quot;:{&quot;UploadJSON&quot;:[{&quot;data&quot;:null,&quot;size&quot;:null,&quot;filename&quot;:null}]}}</previewJsonData>
+    <references>[]</references>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

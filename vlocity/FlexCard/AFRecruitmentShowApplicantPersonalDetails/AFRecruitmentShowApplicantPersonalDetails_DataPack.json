@@ -1,0 +1,51 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "TestRecruitmentShowApplicantPersonalDetails/Salesforce/1.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "Parent.applicationFormId",
+                    "val": "13XSB0000001dAb2AI"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "applicationFormId": "{Parent.applicationFormId}"
+                },
+                "ipMethod": "Recruitment_GetApplicantPersonalDetails",
+                "jsonMap": "{\"Parent.applicationFormId\":\"{Parent.applicationFormId}\"}",
+                "resultVar": "[\"PersonalDetails\"]",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "Shows the personal details provided by an applicant in a job application.",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "AFRecruitmentShowApplicantPersonalDetails",
+    "Namespace": "",
+    "OmniUiCardKey": "AFRecruitmentShowApplicantPersonalDetails/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "AFRecruitmentShowApplicantPersonalDetails.json",
+    "SampleDataSourceResponse": "{\"PersonalDetails\":{\"IdentifierType\":\"Government ID\",\"LastName\":\"Mason\",\"Gender\":\"Female\",\"FirstName\":\"Leah\",\"Phone\":\"1231231234\",\"PermanentAddress\":{\"PermanentCountry\":\"USA\",\"PermanentCity\":\"Cosville\",\"PermanentState\":\"CA\",\"PermanentStreet\":\"123, Ursa Major Ave,\",\"PermanentPostalCode\":\"12345\"},\"Email\":\"masonl@example.com\",\"IdentificationNumber\":\"XYZ1234\",\"CurrentAddress\":{\"CurrentCity\":\"Cosville\",\"CurrentStreet\":\"123, Ursa Major Ave,\",\"CurrentState\":\"CA\",\"CurrentCountry\":\"USA\",\"CurrentPostalCode\":\"12345\"},\"DateOfBirth\":\"1980-01-01\"}}",
+    "StylingConfiguration": "",
+    "UniqueName": "AFRecruitmentShowApplicantPersonalDetails_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/AFRecruitmentShowApplicantPersonalDetails"
+}

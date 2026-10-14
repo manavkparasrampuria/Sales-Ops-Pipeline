@@ -1,0 +1,38 @@
+{
+    "ContextId": null,
+    "NewComplaint": {
+        "ComplaintDetails": {
+            "IncidentDetails": {
+                "Comments": null,
+                "Description": null,
+                "IncidentDate": null,
+                "LocationOfIncident": null
+            },
+            "Priority": null,
+            "Reporter": {
+                "Email": null,
+                "FirstName": null,
+                "LastName": null,
+                "Phone": null,
+                "ReporterAddress": null,
+                "ReporterCategory": null,
+                "ReporterOrganization": null
+            },
+            "Status": null,
+            "Subject": null
+        },
+        "RequestConfidentiality": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "NewComplaint": null,
+        "createPublicComplaint": null,
+        "setEmptyValues": null
+    }
+}

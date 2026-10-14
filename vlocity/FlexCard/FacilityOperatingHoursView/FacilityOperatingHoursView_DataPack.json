@@ -1,0 +1,97 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "SiteOperatingHoursView/IRS/2.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 5,
+                    "name": "Parent.SiteFacilityId",
+                    "val": "0kl4S00000002E7QAI"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": "Order"
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DRGetSiteHoursforCurrentSiteView",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "SiteId": "{Parent.SiteFacilityId}"
+                },
+                "jsonMap": "{\"Parent.SiteFacilityId\":\"{Parent.SiteFacilityId}\"}",
+                "resultVar": ""
+            }
+        },
+        "event-0_0": {
+            "contextVariables": [
+                {
+                    "id": 2,
+                    "name": "records",
+                    "val": ""
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DRSaveSiteHoursForCurrentSite",
+                "bundleType": "Load",
+                "dsDelay": "",
+                "inputMap": {
+                    "siteHours": "{records}"
+                },
+                "jsonMap": "{\"records\":\"{records}\"}"
+            }
+        },
+        "event-1_0": {
+            "contextVariables": [
+                {
+                    "id": 2,
+                    "name": "records",
+                    "val": ""
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DRGetVolunteerSiteHoursforCurrentSite",
+                "bundleType": "Load",
+                "dsDelay": "",
+                "inputMap": {
+                    "siteHours": "{records}"
+                },
+                "jsonMap": "{\"records\":\"{records}\"}"
+            }
+        }
+    },
+    "Description": "",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "FacilityOperatingHoursView",
+    "Namespace": "",
+    "OmniUiCardKey": "FacilityOperatingHoursView/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "FacilityOperatingHoursView.json",
+    "SampleDataSourceResponse": "[{\"PrimaryOpen\":\"09:00\",\"PrimaryClose\":\"17:00\",\"Day\":\"Sunday\",\"Id\":\"0OH4S000001iLHiWAM\"},{\"PrimaryOpen\":\"09:00\",\"PrimaryClose\":\"17:00\",\"Day\":\"Monday\",\"Id\":\"0OH4S000001iLHiWAM\"},{\"PrimaryOpen\":\"09:00\",\"PrimaryClose\":\"17:00\",\"Day\":\"Tuesday\",\"Id\":\"0OH4S000001iLHiWAM\"},{\"PrimaryOpen\":\"09:00\",\"PrimaryClose\":\"17:00\",\"Day\":\"Wednesday\",\"Id\":\"0OH4S000001iLHiWAM\"},{\"PrimaryOpen\":\"09:00\",\"PrimaryClose\":\"17:00\",\"Day\":\"Thursday\",\"Id\":\"0OH4S000001iLHiWAM\"},{\"PrimaryOpen\":\"09:00\",\"PrimaryClose\":\"17:00\",\"Day\":\"Friday\",\"Id\":\"0OH4S000001iLHiWAM\"},{\"PrimaryOpen\":\"09:00\",\"PrimaryClose\":\"17:00\",\"Day\":\"Saturday\",\"Id\":\"0OH4S000001iLHiWAM\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "FacilityOperatingHoursView_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/FacilityOperatingHoursView"
+}

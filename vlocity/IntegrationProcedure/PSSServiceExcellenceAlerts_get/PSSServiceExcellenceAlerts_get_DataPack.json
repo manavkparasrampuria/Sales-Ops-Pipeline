@@ -1,0 +1,32 @@
+{
+    "CurrencyIsoCode": "USD",
+    "CustomJavaScript": "PSSServiceExcellenceAlerts_get_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "MayEdit": true,
+    "Name": "PSSServiceExcellenceAlertsGet",
+    "OmniProcessElement": [
+        "PSSServiceExcellenceAlerts_get_Element_remoteApexForAlerts.json",
+        "PSSServiceExcellenceAlerts_get_Element_ReserializeApexFunction.json",
+        "PSSServiceExcellenceAlerts_get_Element_setResult.json",
+        "PSSServiceExcellenceAlerts_get_Element_ResponseAction2.json"
+    ],
+    "OmniProcessKey": "PSSServiceExcellenceAlerts_get",
+    "OmniProcessType": "Integration Procedure",
+    "OverrideKey": "commonserviceexcellence__ServiceExcellenceAlerts_get_Procedure_1",
+    "PropertySetConfig": "PSSServiceExcellenceAlerts_get_PropertySetConfig.json",
+    "SubType": "get",
+    "Type": "PSSServiceExcellenceAlerts",
+    "UniqueName": "PSSServiceExcellenceAlerts_get_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/PSSServiceExcellenceAlerts/get/Procedure"
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataMapperDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCOCExpUpdateBirthDates</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCOCExpUpdateBirthDatesCustom3263</globalKey>
+        <inputField>Birthdate</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>PersonBirthdate</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCOCExpUpdateBirthDates</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>EQUAL</filterOperator>
+        <globalKey>PSSCOCExpUpdateBirthDatesCustom1682</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>true</isDisabled>
+        <isRequiredForUpsert>false</isRequiredForUpsert>
+        <isUpsertKey>false</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <dataMapperDefinitionItem>
+        <dataMapperDefItemName>PSSCOCExpUpdateBirthDates</dataMapperDefItemName>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>PSSCOCExpUpdateBirthDatesCustom2829</globalKey>
+        <inputField>AccountId</inputField>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <isDisabled>false</isDisabled>
+        <isRequiredForUpsert>true</isRequiredForUpsert>
+        <isUpsertKey>true</isUpsertKey>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputField>Id</outputField>
+        <outputObject>Account</outputObject>
+    </dataMapperDefinitionItem>
+    <description>Update BirthDates</description>
+    <expectedInputJson>{
+  &quot;AccountId&quot; : &quot;001xx000003GZuOAAW&quot;,
+  &quot;Birthdate&quot; : &quot;2000-01-01&quot;
+}</expectedInputJson>
+    <inputType>JSON</inputType>
+    <isActive>true</isActive>
+    <isAssignmentRulesUsed>false</isAssignmentRulesUsed>
+    <isDeletedOnSuccess>false</isDeletedOnSuccess>
+    <isErrorIgnored>false</isErrorIgnored>
+    <isFldLevelSecurityEnabled>false</isFldLevelSecurityEnabled>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isNullInpIncludedInOput>false</isNullInpIncludedInOput>
+    <isProcessSuperBulk>false</isProcessSuperBulk>
+    <isRollbackOnError>false</isRollbackOnError>
+    <isSourceObjectDefault>false</isSourceObjectDefault>
+    <isXmlDeclarationRemoved>false</isXmlDeclarationRemoved>
+    <masterLabel>PSSCOCExpUpdateBirthDates</masterLabel>
+    <outputType>SObject</outputType>
+    <previewJsonData>{
+  &quot;FinalListMerge&quot; : [ {
+    &quot;IsDisable&quot; : &quot;Yes&quot;,
+    &quot;DisabilityName&quot; : &quot;Blind&quot;,
+    &quot;HighestEducationLevel&quot; : &quot;Graduate&quot;,
+    &quot;Id&quot; : &quot;0xDxx0000000001EAA&quot;,
+    &quot;LastName&quot; : &quot;Baker&quot;,
+    &quot;PersonGenderIdentity&quot; : &quot;F&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;Race&quot; : &quot;Asian&quot;,
+    &quot;HouseholdMemberName&quot; : &quot;Sam Baker&quot;,
+    &quot;Ethnicity&quot; : &quot;Hispanic or Latino&quot;,
+    &quot;Birthdate&quot; : &quot;2021-01-01&quot;,
+    &quot;ContactId&quot; : &quot;003xx000004WhHQAA0&quot;,
+    &quot;PersonAge&quot; : 3,
+    &quot;FirstName&quot; : &quot;Sam&quot;,
+    &quot;BirthPlace&quot; : &quot;India&quot;,
+    &quot;AccountId&quot; : &quot;001xx000003GZuOAAW&quot;,
+    &quot;PrimaryCitizenshipType&quot; : &quot;Yes&quot;
+  }, {
+    &quot;IsDisable&quot; : &quot;No&quot;,
+    &quot;HighestEducationLevel&quot; : &quot;Graduate&quot;,
+    &quot;LastName&quot; : &quot;Baker&quot;,
+    &quot;PersonGenderIdentity&quot; : &quot;F&quot;,
+    &quot;Relationship&quot; : &quot;Spouse&quot;,
+    &quot;Race&quot; : &quot;Asian&quot;,
+    &quot;HouseholdMemberName&quot; : &quot;Perry Baker&quot;,
+    &quot;Ethnicity&quot; : &quot;Hispanic or Latino&quot;,
+    &quot;Birthdate&quot; : &quot;2021-01-01&quot;,
+    &quot;ContactId&quot; : &quot;003xx000004WhHRAA0&quot;,
+    &quot;PersonAge&quot; : 3,
+    &quot;FirstName&quot; : &quot;Perry&quot;,
+    &quot;BirthPlace&quot; : &quot;India&quot;,
+    &quot;AccountId&quot; : &quot;001xx000003GZuPAAW&quot;,
+    &quot;PrimaryCitizenshipType&quot; : &quot;Yes&quot;
+  } ]
+}</previewJsonData>
+    <references>[]</references>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <sourceObject>json</sourceObject>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Load</type>
+</DataMapperDefinition>

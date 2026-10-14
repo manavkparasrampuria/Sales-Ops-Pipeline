@@ -1,0 +1,52 @@
+{
+    "ContactInformation": {
+        "Email": "test@test.com",
+        "Name": "Test",
+        "Phone": "9052222222"
+    },
+    "DeliveryLocation": {
+        "AddressBlock": {
+            "City": "BURLINGTON",
+            "State": "ON",
+            "Street": "301 LAKEVIEW AVE",
+            "ZIP": "L7N 1Y9"
+        },
+        "DeliveryInstructions": "test"
+    },
+    "EmergencyRequestDetails": {
+        "DateRequired": "2024-01-18",
+        "EmergencyAssistanceReasonRadio": "Elderly",
+        "LicCat": "Food Assistance",
+        "RequestedService": "Food Delivery"
+    },
+    "PortalUser": "0054S000003WuzdQAC",
+    "TemporaryHousing": {
+        "TemporaryHousingDate": "2024-01-18",
+        "TemporaryHousingLength": 6
+    },
+    "WellBeingCheck": {
+        "AddressBlock2": {
+            "City2": "BURLINGTON",
+            "State2": "ON",
+            "Street2": "301 LAKEVIEW AVE",
+            "ZIP2": "L7N 1Y9"
+        },
+        "TextArea1": "test"
+    },
+    "language": "English",
+    "localTimeZoneName": "America/Toronto",
+    "omniProcessId": "0jN4S000000DHo4UAG",
+    "omniscriptId": "0jN4S000000DHo4UAG",
+    "runMode": "preview",
+    "sId": "0jN4S000000DHo4UAG",
+    "subType": "AssistanceRequest",
+    "theme": "lightning",
+    "timeStamp": "2024-01-18T20:27:01.308Z",
+    "type": "GPS2EmergencyResponseManagement",
+    "userCurrencyCode": "USD",
+    "userId": "0054S000003WuzdQAC",
+    "userName": "contributor2@newidotso.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480",
+    "userTimeZoneName": "America/Los_Angeles"
+}

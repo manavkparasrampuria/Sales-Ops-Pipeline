@@ -1,0 +1,47 @@
+{
+    "AiGeneratedDescription": "",
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "InspectionLauncher/Salesforce/2.0",
+    "CurrencyIsoCode": "USD",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 0,
+                    "name": "recordId",
+                    "val": "0f0Hr000000fyfEIAQ"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Query",
+            "value": {
+                "dsDelay": "",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "query": "Select Id from BusinessLicenseApplication where Id = '{recordId}'",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Launch the Omniscript New Visit/Inspection Creation - BLA",
+    "EmbeddingPayload": "",
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsTrackingEnabled": false,
+    "MayEdit": true,
+    "Name": "InspectionLauncherBLA",
+    "Namespace": "",
+    "OmniUiCardKey": "InspectionLauncherBLA/Salesforce/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "InspectionLauncherBLA.json",
+    "SampleDataSourceResponse": "[{\"attributes\":{\"type\":\"BusinessLicenseApplication\",\"url\":\"/services/data/v59.0/sobjects/BusinessLicenseApplication/0f0Hr000000fyfEIAQ\"},\"Id\":\"0f0Hr000000fyfEIAQ\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "InspectionLauncherBLA_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/InspectionLauncherBLA"
+}

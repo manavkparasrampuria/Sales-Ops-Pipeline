@@ -1,0 +1,98 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildAddedDefinedValuesFromCSV9356624881721345",
+        "InputFieldName": "DefinedValuedForImport:ParsedDefinedValues:AssessmentIndicatorName",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "Name",
+        "LookupObjectName": "AssessmentIndicatorDefinition",
+        "LookupReturnedFieldName": "Id",
+        "MayEdit": true,
+        "Name": "QuickBuildAddedDefinedValuesFromCSV",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildAddedDefinedValuesFromCSV",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildAddedDefinedValuesFromCSV",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AssessmentIndicatorDefinitionId",
+        "OutputObjectName": "AssessmentIndDefinedValue",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "FilterOperator": "=",
+        "GlobalKey": "QuickBuildAddedDefinedValuesFromCSV6728624950293418",
+        "IsDisabled": true,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "QuickBuildAddedDefinedValuesFromCSV",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildAddedDefinedValuesFromCSV",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildAddedDefinedValuesFromCSV",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "AssessmentIndDefinedValue",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildAddedDefinedValuesFromCSV6751907186671959",
+        "InputFieldName": "DefinedValuedForImport:ParsedDefinedValues:SequenceNumber",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "QuickBuildAddedDefinedValuesFromCSV",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildAddedDefinedValuesFromCSV",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildAddedDefinedValuesFromCSV",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SequenceNumber",
+        "OutputObjectName": "AssessmentIndDefinedValue",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "QuickBuildAddedDefinedValuesFromCSV0029322221074579158",
+        "InputFieldName": "DefinedValuedForImport:ParsedDefinedValues:DefinedValue",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "QuickBuildAddedDefinedValuesFromCSV",
+        "OmniDataTransformationId": {
+            "Name": "QuickBuildAddedDefinedValuesFromCSV",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/QuickBuildAddedDefinedValuesFromCSV",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Value",
+        "OutputObjectName": "AssessmentIndDefinedValue",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

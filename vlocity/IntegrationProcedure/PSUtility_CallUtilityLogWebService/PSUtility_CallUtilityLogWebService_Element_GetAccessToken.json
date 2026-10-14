@@ -1,0 +1,70 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "GetAccessToken",
+    "OmniProcessId": {
+        "Name": "Call Utility Log Demo Selected",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/PSUtility/CallUtilityLogWebService/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "HTTPAction1",
+        "namedCredential": "",
+        "postActionLogging": "",
+        "preActionLogging": "%endpoint%",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "restMethod": "POST",
+        "restOptions": {
+            "clientCertificateName": "",
+            "headers": {
+                "Accept": "*/*",
+                "Content-Length": 260,
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Host": "login.salesforce.com",
+                "User-Agent": "curl/8.4.0"
+            },
+            "isCompressed": false,
+            "params": {
+                "client_id": "3MVG9bYGb9rFSjxQsVD0kLCXkxR_e.SY8erxgrskCiqvB6gUoPPjvPY73pWupUzeC4WsKOwjAFEx6OH6SZgt4",
+                "client_secret": "C85226B25A5E3562F2194015B3BB3B97B961F33FA55A96AC897FB934073EFE8E",
+                "grant_type": "password",
+                "password": "Salesforce123",
+                "username": "jblankenship@psdemologging2024.demo"
+            },
+            "sendBody": false,
+            "timeout": 0,
+            "xmlEscapeResponse": false
+        },
+        "restPath": "https://login.salesforce.com/services/oauth2/token",
+        "retryCount": 0,
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "type": "Integration",
+        "useFormulas": true
+    },
+    "Type": "Rest Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/PSUtility/CallUtilityLogWebService/Procedure/GetAccessToken"
+}
